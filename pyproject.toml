@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scotoma-offtarget"
+version = "0.1.0"
+description = "Off-target candidate enumeration in sequence a reference genome cannot represent"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Amir Daneshpajouh" },
+  { name = "Megan Fowler" },
+  { name = "Kay C. Wiese" },
+]
+keywords = ["CRISPR", "off-target", "pangenome", "reference-bias", "genome-editing"]
+dependencies = ["numpy>=1.22"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+scotoma = "scotoma.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["scotoma*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

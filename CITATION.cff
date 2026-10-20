@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: Scotoma
+message: If you use this software, please cite it using these metadata.
+abstract: >-
+  Off-target candidate enumeration in sequence a reference genome cannot represent. Given a
+  haplotype-resolved assembly, a reference, and a guide panel, Scotoma partitions the assembly's
+  SpCas9 target windows into those the reference contains and those it does not, scores both
+  against the same panel in a size-matched comparison, and reports the candidate density of each.
+type: software
+authors:
+  - family-names: Daneshpajouh
+    given-names: Amir
+    affiliation: Simon Fraser University
+  - family-names: Fowler
+    given-names: Megan
+    affiliation: Simon Fraser University
+  - family-names: Wiese
+    given-names: Kay C.
+    affiliation: Simon Fraser University
+license: MIT
+version: 0.1.0
+keywords:
+  - CRISPR
+  - off-target
+  - pangenome
+  - reference bias
+  - genome editing
