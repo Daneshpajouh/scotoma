@@ -73,3 +73,18 @@ def test_spacer_length_is_enforced(bad):
         dna_bulge_patterns(bad)
     with pytest.raises(ValueError):
         rna_bulge_patterns(bad)
+
+
+def test_standard_set_reproduces_the_reference_tool():
+    """Cas-OFFinder-bulge iterates i in {1..19} for DNA and {1..18} for one RNA bulge."""
+    assert [i for i, _ in dna_bulge_patterns(G, standard_set=True)] == list(range(1, 20))
+    rna_std = [i for i, _ in rna_bulge_patterns(G, standard_set=True)]
+    assert min(rna_std) >= 1 and max(rna_std) <= len(G) - 2
+
+
+def test_full_set_is_a_superset_of_the_standard_one():
+    """The standard set omits a non-degenerate position, so its counts are lower bounds."""
+    full = {p for _, p in dna_bulge_patterns(G)}
+    std = {p for _, p in dna_bulge_patterns(G, standard_set=True)}
+    assert std < full
+    assert (G + "N") in full - std

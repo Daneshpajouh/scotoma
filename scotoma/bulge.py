@@ -1,75 +1,65 @@
 """Single-base bulge enumeration by wildcard expansion.
 
-A bulge-inclusive off-target census is usually taken to need a gapped aligner, or
-an index over 22-mers and 24-mers alongside the 23-mer one. Neither is necessary.
-A single-base bulge can be reduced to exact matching against a pattern carrying one
-wildcard, because a wildcard is precisely an unconstrained position and so models a
-bulged base, and because a wildcard cannot contribute a mismatch the budget keeps its
-usual meaning over the real spacer bases.
+The construction here is **not ours**. It is Cas-OFFinder-bulge (Jeongbin Park and
+Sangsu Bae, v1.2 beta, 2016-07-06, https://github.com/hyugel/cas-offinder-bulge),
+which enumerates bulge-bearing off-target candidates by inserting wildcards into the
+spacer for DNA bulges and deleting spacer bases for RNA bulges, then handing the
+expanded patterns to an exact matcher. A wildcard is an unconstrained position, so it
+models a bulged base, and it cannot contribute a mismatch, so the budget keeps its
+usual meaning over the real spacer bases. No gapped aligner is required. The original
+handles bulges of arbitrary size; this module covers the single-base case.
+
+What this module adds is one observation about the position set.
 
 Definitions. A spacer is g in {A,C,G,T}^20 and an SpCas9 site is a 23-mer ending NGG.
+Write P_i = g_1..g_i N g_{i+1}..g_20 for the DNA expansion at position i in {0..20}.
 
-  ungapped       w_1..w_23 with w_22 = w_23 = G and d(w_1..w_20, g) <= k.
+The reference implementation iterates i in {1..19}, excluding both ends.
 
-  DNA bulge      w_1..w_24 with w_23 = w_24 = G and some j in {1..21} such that
-                 deleting w_j from w_1..w_21 leaves a 20-mer within k of g. The
-                 bulged base is w_j, an extra base in the DNA.
+  i = 0 must be excluded. A P_0 match on w_1..w_21 with w_23 = w_24 = G leaves w_1
+  free and puts w_2..w_21 within the budget of g, so w_2..w_24 is an ordinary ungapped
+  candidate: P_0 carries no bulge information. Because its reported start differs by
+  one base, a locus-level deduplication does not remove it, and it would be counted as
+  a new candidate.
 
-  RNA bulge      w_1..w_22 with w_21 = w_22 = G and some i in {1..20} such that
-                 deleting g_i from g leaves a 19-mer within k of w_1..w_19.
+  i = 20 need not be. P_20 requires w_23 = w_24 = G, whereas the ungapped reading of
+  w_1..w_23 would require w_22 = w_23 = G, which P_20 does not imply. It describes a
+  genuine unpaired DNA base between protospacer and PAM. The RNA terminals are likewise
+  not degenerate.
 
-The expansion. For i in {0..20} let P_i = g_1..g_i N g_{i+1}..g_20, of length 21.
-Matching P_i against w_1..w_21 leaves w_{i+1} free and aligns the rest of g in order,
-which is exactly "delete w_{i+1}, then compare to g". So P_i realises bulge position
-j = i+1, and P_0..P_20 realise all 21 positions.
-
-PROPOSITION (the PAM-distal position is degenerate). Every match of P_0 coincides with
-an ungapped candidate one base downstream.
-
-  Proof. A P_0 match on w_1..w_21 with w_23 = w_24 = G leaves w_1 free and gives
-  d(w_2..w_21, g) <= k. The 23-mer w_2..w_24 then has first twenty bases w_2..w_21,
-  within k of g, and last two w_23 = w_24 = G. So w_2..w_24 is an ungapped candidate
-  at budget k. QED
-
-P_0 therefore carries no bulge information, and since its reported start differs by one
-base a locus-level deduplication does not remove it: it would be scored as a new
-candidate and inflate the census. i = 0 is excluded for that reason, which is necessary
-rather than cosmetic.
-
-By contrast P_20 = g_1..g_20 N requires w_23 = w_24 = G while the ungapped reading of
-w_1..w_23 would require w_22 = w_23 = G, which P_20 does not imply. P_20 is NOT
-degenerate: it is a genuine unpaired DNA base between protospacer and PAM, and it is
-retained. The RNA terminals are likewise not provably degenerate and are retained.
-
-Cost. 20 patterns per guide for one DNA bulge and at most 20 for one RNA bulge, against
-a 40-fold scan cost for building and querying 22-mer and 24-mer universes.
+So bulge counts obtained with the standard position set are LOWER BOUNDS. These
+functions default to the full set with only i = 0 removed, and standard_set=True
+reproduces the reference tool's set for comparability.
 """
 
 SPACER_LEN = 20
 
 
-def dna_bulge_patterns(spacer):
+def dna_bulge_patterns(spacer, standard_set=False):
     """Expanded 21-mers for one DNA bulge, as (bulge_position, pattern) pairs.
 
-    Position i=0 is excluded by the proposition in this module's docstring: it is
-    degenerate with the ungapped candidate one base downstream. i=20 is retained
-    because it is not degenerate.
+    i=0 is always excluded: it is degenerate with the ungapped candidate one base
+    downstream. i=20 is retained by default because it is not degenerate; pass
+    standard_set=True to reproduce Cas-OFFinder-bulge's set, which omits it.
     """
     if len(spacer) != SPACER_LEN:
         raise ValueError(f"spacer must be {SPACER_LEN} bases, got {len(spacer)}")
-    return [(i, spacer[:i] + "N" + spacer[i:]) for i in range(1, len(spacer) + 1)]
+    last = len(spacer) if standard_set else len(spacer) + 1
+    return [(i, spacer[:i] + "N" + spacer[i:]) for i in range(1, last)]
 
 
-def rna_bulge_patterns(spacer):
+def rna_bulge_patterns(spacer, standard_set=False):
     """Expanded 19-mers for one RNA bulge, as (deleted_index, pattern) pairs.
 
     Deduplicated: deleting either of two identical adjacent bases yields the same
-    pattern, and a duplicate would double-count the locus.
+    pattern, and a duplicate would double-count the locus. standard_set=True
+    reproduces Cas-OFFinder-bulge's set, which omits both terminals.
     """
     if len(spacer) != SPACER_LEN:
         raise ValueError(f"spacer must be {SPACER_LEN} bases, got {len(spacer)}")
     seen, out = set(), []
-    for i in range(len(spacer)):
+    rng = range(1, len(spacer) - 1) if standard_set else range(len(spacer))
+    for i in rng:
         p = spacer[:i] + spacer[i + 1:]
         if p not in seen:
             seen.add(p)
