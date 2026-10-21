@@ -37,10 +37,16 @@ def rna_bulge_guides(spacer):
     """19nt guides: one INTERNAL spacer base deleted. Deduplicated, since deleting either of
     two identical adjacent bases gives the same guide.
 
-    The terminal positions are excluded for the same reason as in the DNA case: dropping the
-    first or last spacer base is "ignore one end constraint", which re-finds ungapped sites at
-    a shifted coordinate rather than describing a bulge. The toy found the on-target at offset
-    40 re-reported at offset 41 by the position-0 deletion.
+    All 20 deletion positions are used, including both terminals. That is deliberate and it is
+    what the paper's undercount result rests on: the reference implementation of
+    Cas-OFFinder-bulge restricts RNA deletions to internal positions, and restricting them is
+    precisely the omission we measure, at 7.44% of single-RNA-bulge loci. The DNA case does
+    exclude position 0, because inserting a wildcard before the first spacer base genuinely
+    re-finds an ungapped site at a shifted coordinate; a terminal deletion does not have that
+    property, since it shortens rather than shifts the match.
+
+    An earlier version of this docstring claimed the terminals were excluded here too. That
+    described the reference position set, not this code, and it was corrected on 2026-10-20.
     """
     seen, out = set(), []
     for i in range(0, len(spacer)):
