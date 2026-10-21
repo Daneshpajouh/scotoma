@@ -18,7 +18,8 @@ ones (RNA case), with the PAM excluded in both because the guide's last three ch
 import sys
 
 def dna_bulge_guides(spacer):
-    """21nt guides: an N inserted at each INTERNAL position of the protospacer.
+    """21nt guides: an N inserted at each of positions 1..20, i.e. every slot except 0.
+    Position 20 sits at the protospacer/PAM boundary and is kept: it is not degenerate.
 
     Position 0 is excluded. Inserting N before the first spacer base leaves the 20 real bases
     matching protospacer positions 2..21 with the PAM at 22..24, which is exactly an ungapped
