@@ -34,8 +34,8 @@ def dna_bulge_guides(spacer):
     return out
 
 def rna_bulge_guides(spacer):
-    """19nt guides: one INTERNAL spacer base deleted. Deduplicated, since deleting either of
-    two identical adjacent bases gives the same guide.
+    """19nt guides: one spacer base deleted, at any of the 20 positions. Deduplicated, since
+    deleting either of two identical adjacent bases gives the same guide.
 
     All 20 deletion positions are used, including both terminals. That is deliberate and it is
     what the paper's undercount result rests on: the reference implementation of
