@@ -234,3 +234,11 @@ agree on every case tested.
 ## License
 
 MIT. See `LICENSE`.
+
+## Minimum covering number: verification scripts
+
+`verification/floor_theorem/` holds self-contained scripts that check every
+quantitative claim in the minimality result, including the counterexamples that
+bound its parameter range. They need only the standard library and print what
+they checked. See that directory's README for the table of what each one
+establishes.
