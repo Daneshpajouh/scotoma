@@ -201,8 +201,10 @@ Python, the same shape as `datetime.datetime`. To reach the module, for example 
 python3 -m pytest tests/ -q
 ```
 
-127 tests, no network and no genome on disk: every fixture is synthetic, with the reference and the
-haplotype constructed so the partition has a known right answer.
+142 tests, no network and no genome on disk: every fixture is synthetic, with the reference and the
+haplotype constructed so the partition has a known right answer. One of the 142 is a cross-check
+against the optional `m0_search` companion and skips when that module is not importable, so a clean
+clone reports 141 passed and 1 skipped.
 
 The suite was checked by mutation rather than by its own green run. Three deliberate bugs were
 introduced and all three were caught: including the PAM in the distance (4 failures), returning
@@ -219,8 +221,11 @@ agree on every case tested.
 - Candidate sites are counted by **sequence similarity only**. No cleavage, no chromatin, no
   activity prediction.
 - An NGG PAM is assumed. Other PAMs and other nucleases are not implemented.
-- Mismatches only. Bulges and indels within the protospacer are not modelled, so a site reachable
-  only through a bulge is not enumerated.
+- The `scan` pipeline counts mismatches only, and a site reachable only through a bulge is not
+  enumerated by it. Single-base bulges are modelled separately, by `scotoma.bulge`: it expands a
+  spacer into bulge-bearing patterns using the Cas-OFFinder-bulge construction of Jeongbin Park and
+  Sangsu Bae and hands those to an exact matcher, which is the route the bulge figures come from.
+  Bulges of more than one base, and indels elsewhere in the protospacer, are not enumerated at all.
 - The comparison is **per haplotype**. Haplotypes share most of their sequence, so per-haplotype
   figures do not add to a per-person figure, and the union across an individual's two haplotypes is
   not computed.
