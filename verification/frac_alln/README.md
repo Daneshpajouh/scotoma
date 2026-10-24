@@ -1,0 +1,45 @@
+# The floor at every length: checkers for the weighting argument
+
+These files check the main-text theorem "The floor at every length, by a weighting rather than a packing" and the appendix subsection "The weighting at every length" (its proposition, the tail table, the threshold table and the table of eight (m, n) pairs). The m <= 5 case of that theorem is checked separately, by the scripts in `verification/floor_theorem/`.
+
+Keep these files together in one folder. They use only the Python standard library and were tested with Python 3.9.6. Each file finds its sibling files in its own folder, so you can run them from any working directory.
+
+## What each file checks
+
+| File | What it computes | Paper claim it backs |
+|---|---|---|
+| `privsphere.py` | The private-sphere weighting: each pattern's sphere, its weight, privacy, and the closed-form share of a ball. Run it alone for its four controls (C1 to C4). | Steps 1 and 2: privacy and the share formula. |
+| `step3_dp.py` | Step 3: the exact maximum load M that any radius-m ball, centred anywhere, collects from the full chain at r = n, by a dynamic program over centres in {0,1,X}. Run it alone to compare the DP with brute force at small sizes and print the m = 6, n = 20 maximum. | Every value of M in the finite part, the threshold table and the table of eight pairs. |
+| `frac_alln_tail_check.py` | The tail bound B_N and N_0 for m = 6 to 12, tests of the length and neighbour lemmas, a per-centre test of the bound, and M and R at chosen lengths (through `step3_dp.py`). | The tail table, the two lemmas, and every M and R printed in the subsection. |
+| `topr.py` | The run-count-aware (top-r) bound on the maximum, using the same dynamic program. It is a library with no command line. `check_dp(N, m)` compares its lambda = 0 value with an independent per-pattern sum. | The per-run-count rows at m = 8 in the appendix (for example the bracket [101/85, 811/680] at n = 20, r = 6, and 349/306 at n = 21, r = 7). The two scripts that print those rows, `topr_run.py` and `close_r6.py`, are in this folder. |
+| `topr_run.py` | Prints the per-run-count rows at m = 8: the largest r the bound proves at each length, with the lambda = 0 controls. | The m = 8 rows at n = 20, 21 and 23, and m = 7 at n = 20. |
+| `close_r6.py` | Closes r = 6 at n = 20: 811/680 at lambda = 5/136 against 6/5. | The statement that r = 6 is proved at m = 8, n = 20. |
+| `verify_ceiling_certificate.py` | Recomputes each dual certificate from its JSON and checks the bound, the sampled pairs and the worst sampled load. Takes a `cert_*.json`. | The C_9, C_10 and C_11 dual certificates. |
+| `cert_19_9_9.json`, `cert_19_10_7.json`, `cert_19_11_6.json` | The three certificates themselves, as data. | The same three rows. |
+
+## What to run, and what a pass looks like
+
+```
+python3 frac_alln_tail_check.py --lemmas
+```
+Prints the tail table, one row per m from 6 to 12: N_0, n_0 = N_0 + 1, B at N_0 (below 1), B at N_0 - 1 (above 1), the worst pair (2, 0), `rises=0` (B_N never rises from N = 2m + 2 to 100) and `True` (B_N < 1 from N_0 to 100). Then it prints the length lemma (`0 increases` at each m) and the neighbour lemma (`0 violations` at N = 2 to 8). A pass means the table equals the appendix's tail table and every count is 0. About one minute.
+
+```
+python3 frac_alln_tail_check.py --centres 6 27 3
+```
+Tests every centre over {0,1,X} within distance 3 of a chain pattern at m = 6, N = 27 against its own bound. A pass prints `552790 non-pattern centres; 0 above B(N,s,E0)`. The same line reports a deliberately false bound (`control (count E+1): 72279 above`), which shows the test can fail. About five minutes. The appendix also quotes `--centres 7 31 3` and `--centres 8 35 3`, which take longer.
+
+```
+python3 frac_alln_tail_check.py --finite 12 29 30 31 32
+```
+Takes N = n - 1. For each length it prints the exact maximum M and R, the largest run count that M certifies (r(M - 1) < M, or every r when M <= 1). `every_r=True` means that length is certified for every run count. This command prints the four m = 12 rows of the table of eight pairs (n = 30 to 33). Any row of the subsection can be reprinted the same way. Larger m and n take longer: this one takes about four minutes.
+
+```
+python3 step3_dp.py
+python3 privsphere.py
+```
+Self-tests. `step3_dp.py` must print `ok` at its three brute-force sizes before it reports anything. `privsphere.py` runs its controls C1 to C4, and C4 must show the weighting failing on the paper's own counterexample.
+
+## Reference outputs
+
+`logs/` holds the outputs these files gave in a clean-room run, for comparison line by line, plus the full list of 143 finite maxima (m = 6 to 12, every n from 20 to n_0 - 1). See `logs/README.md` for how each log was made.

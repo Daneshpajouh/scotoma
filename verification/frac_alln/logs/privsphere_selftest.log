@@ -1,0 +1,20 @@
+controls: C1 total private points 16,633,344 as described; 18 patterns exclude two coordinates, 2 exclude one
+controls: C1b sampled points of S_0, S_7, S_19 are all at distance exactly 6
+controls: C2 closed-form ball count agrees with brute force at (N,m) = (7,2) and (8,3), every pattern, random centres
+controls: C3 privacy holds on every sampled point against every other pattern
+
+ball weight at the patterns (each must be exactly 1):
+  P_0  -> 1  (1.000000)
+  P_7  -> 1  (1.000000)
+  P_19 -> 1  (1.000000)
+  all 20 patterns carry exactly 1
+
+claimed best non-pattern centre 1^7 0^11 2: 29/34 = 0.852941
+  described as 29/34 = 0.852941  -> MATCHES
+
+claimed best non-pattern centre 1^7 0^11 3: 29/34 = 0.852941
+  described as 29/34 = 0.852941  -> MATCHES
+
+C4, the counterexample it must fail on (N=4, m=2, r=5):
+  maximum ball weight over all 256 centres: 2 = 2.0000
+  [ok  ] infeasible, as it must be: some ball carries 2 > 1
