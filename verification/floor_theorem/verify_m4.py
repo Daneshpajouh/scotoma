@@ -1,5 +1,6 @@
 import itertools
-N=19; R=19
+N=19; R=N+1  # centres k = 0..N, 20 patterns at N = 19, the largest library a 20-mer can have;
+            # was R=19, which skipped the top case (see verify_construction.py).
 def tau(k,s): return 1+((k+s-1)%19)
 def P(k): return [1 if i<=k else 0 for i in range(1,N+1)]
 def mk(k,Aset,Bset):

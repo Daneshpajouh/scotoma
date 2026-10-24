@@ -22,7 +22,9 @@ def W(k):
 def d(x, y):
     return sum(a != b for a, b in zip(x, y))
 
-R = 19  # centres k = 0..R-1
+R = N + 1  # centres k = 0..N, so 20 patterns at N = 19: the LARGEST library a 20-mer can have.
+# This was R = 19 until 2026-10-23, which silently skipped the top case: a guide whose 20 bases
+# form 20 runs has 20 single-deletion patterns, and the claim is about that guide too.
 print("N =", N, " centres =", R, " support S =", S)
 
 # 1. distance from each witness to its own centre
@@ -35,17 +37,28 @@ for i in range(R):
     for j in range(i + 1, R):
         by_h.setdefault(j - i, []).append(d(W(i), W(j)))
 claimed = [11,11,11,11,11,11,11,13,14,14,15,12,15,15,17,16,17,18]
+# Iterate over the index differences the DATA has, not over a hard-coded range. With R = 19 the
+# loop ran h = 1..18 and the claimed list had 18 entries, so the two happened to match. Raising R
+# to N + 1 adds h = 19, which the old loop would have computed and silently never compared: the
+# new centre would have been present in the privacy and scattering checks and absent from this one.
 print("\n h   min  max   claimed  match")
 ok = True
-for h in range(1, 19):
-    v = by_h.get(h, [])
-    if not v: continue
+unclaimed = []
+for h in sorted(by_h):
+    v = by_h[h]
+    if h > len(claimed):
+        unclaimed.append((h, min(v)))
+        continue
     c = claimed[h - 1]
     m_ = min(v); M_ = max(v)
     good = (m_ == c)
     ok &= good
     print(" %2d  %3d  %3d   %4d     %s" % (h, m_, M_, c, "yes" if good else "NO"))
-print("\nall claimed minima reproduced:", ok)
+assert len(claimed) <= max(by_h), "the claimed list is longer than the data it is checked against"
+for h, mn_h in unclaimed:
+    print(" %2d  %3d    %s" % (h, mn_h, "measured, no published value to compare"))
+print("\nall claimed minima reproduced:", ok,
+      "(%d of %d index differences had a published value)" % (len(claimed), max(by_h)))
 print("overall minimum pairwise witness distance:", min(min(v) for v in by_h.values()))
 
 # 3. privacy: is W_k farther than m from every other centre?
