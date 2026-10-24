@@ -78,8 +78,15 @@ settles m = 8 at n = 20 while the weighting first certifies it at n = 23. Rows p
 n = 20 are outside the paper's scope and are not claims the paper makes. It then sweeps all four
 released dual certificates exhaustively.
 
-`--check` compares the rebuilt rows against the thresholds the paper prints and exits non-zero on
-any disagreement. It takes several minutes and prints one row per budget as it goes.
+Every run compares the rebuilt rows against the thresholds the paper prints and exits non-zero on
+any disagreement, so one run is enough; `--check` only adds a closing confirmation line. It also
+counts the rows it compared and fails unless all five published rows were, since a comparison only
+covers the rows it is given.
+
+The whole run takes about 10 to 12 minutes on a busy machine, measured on a clean clone. Most of
+that is the last three rows: roughly 1 minute for m = 10, 2.5 for m = 11 and 5 to 6 for m = 12.
+Each row prints a "searching" line before its search starts, so a long pause is a search in
+progress and not a hang. An idle machine is faster, by an amount not measured.
 
 Why the criterion is M < 1 + 1/N: the full-chain weighting restricted to any r of the N+1 patterns
 has mass r and ball loads at most M, so after scaling by 1/M every cover needs more than r-1 balls
