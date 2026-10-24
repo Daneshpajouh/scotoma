@@ -3,8 +3,8 @@
 verify_ceiling_certificate.py checks a certificate on the r library centres and 90 sampled centres.
 That shows consistency, not the ceiling. The exhaustive sweep that sets the ceiling lives in the
 solver, certify_cell.py, and runs through the solver's own load tables. This file repeats that
-sweep over EVERY centre class with a different algorithm, so a solver bug has to occur twice, the
-same way, to survive.
+sweep over EVERY centre class without the solver's load tables. Agreement is an implementation
+cross-check: both programs still rest on the same definitions, set out below.
 
 It never calls F(p,w,s), load_table or anything from the solver. Distances are counted by a
 dynamic program over explicit strings, as in verify_ceiling_certificate.py. All arithmetic is exact.
@@ -19,10 +19,14 @@ depends only on its prefix read over {0,1,X} and its free weight p: 3^AP x (L+1)
 tests that reduction on explicit strings rather than assuming it.
 
 Checks, each exits 1 on failure:
+  0. the file's format: integer N, m, r, free_length that fit together, every prefix of length r-1
+     over 0, 1, X, every free weight in 0..free_length, no block listed twice, every mass rational;
   1. every block mass is a nonnegative rational, and the masses sum to exact_total_mass;
   2. every block lies in the target: its distance to the nearest library pattern is at most m;
   3. EVERY class carries load at most 1, the maximum is reported with where it occurs, and it
-     must equal exact_max_ball_mass;
+     must equal exact_max_ball_mass; the class named in max_ball_at, if any, must be a valid class
+     carrying that maximum (ties are allowed). centre_classes_verified is printed, not tested:
+     at m=12 the solver swept 136 binary-prefix classes by design;
   4. on sampled classes, a random explicit centre (2 and 3 mixed, free letters and positions
      random) carries exactly the class representative's load;
   5. total mass > r-1, so integrality gives K >= r.
@@ -78,11 +82,40 @@ def cumulative(dist, top):
 
 def check(path, samples=40, seed=20261023):
     C = json.load(open(path))
-    N, m, r, L = C['N'], C['m'], C['r'], C['free_length']
+
+    # 0. format: these are checks on the file, not mathematical assumptions
+    bad_format = []
+    N, m, r, L = (C.get(k) for k in ('N', 'm', 'r', 'free_length'))
+    if not all(type(v) is int for v in (N, m, r, L)):
+        bad_format.append('N, m, r and free_length must be integers')
+    elif not (1 <= r <= N + 1 and 0 <= m <= N and (r - 1) + L == N):
+        bad_format.append('need 1 <= r <= N+1, 0 <= m <= N and (r-1) + free_length = N')
+    else:
+        seen = set()
+        for d in C.get('dual', []):
+            y, w = d.get('prefix'), d.get('free_weight')
+            if not (isinstance(y, str) and len(y) == r - 1 and set(y) <= set('01X')):
+                bad_format.append('prefix %r is not a string of length r-1 over 0, 1, X' % (y,))
+            if not (type(w) is int and 0 <= w <= L):
+                bad_format.append('free weight %r is not an integer in 0..free_length' % (w,))
+            if (y, w) in seen:
+                bad_format.append('block (%s, %s) is listed twice' % (y, w))
+            seen.add((y, w))
+            try:
+                Fr(d.get('mass'))
+            except (TypeError, ValueError, ZeroDivisionError):
+                bad_format.append('mass %r is not a rational' % (d.get('mass'),))
+        if not seen:
+            bad_format.append('no dual blocks')
+    if bad_format:
+        print('%s: FORMAT' % path.split('/')[-1])
+        for f in bad_format:
+            print('  FAIL: ' + f)
+        return False
+
     AP = r - 1
-    assert AP + L == N, 'free_length does not match N and r'
     lib = ['1' * k + '0' * (AP - k) for k in range(r)]
-    blocks = [(d['prefix'], int(d['free_weight']), Fr(d['mass'])) for d in C['dual']]
+    blocks = [(d['prefix'], d['free_weight'], Fr(d['mass'])) for d in C['dual']]
     fails = []
 
     # 1. masses
@@ -111,7 +144,7 @@ def check(path, samples=40, seed=20261023):
     fcum = {(w, p): cumulative(free_dist(w, [1] * p + [0] * (L - p)), m)
             for w in ws for p in range(L + 1)}
     prefixes = sorted({y for y, _, _ in blocks})
-    worst, worst_at, n_classes, over = Fr(0), None, 0, 0
+    worst, worst_at, n_classes, over, loads = Fr(0), None, 0, 0, {}
     for cp in itertools.product('01X', repeat=AP):
         u = [2 if c == 'X' else int(c) for c in cp]
         act = {y: active_dist(y, u) for y in prefixes}
@@ -123,6 +156,7 @@ def check(path, samples=40, seed=20261023):
                 if inside:
                     tot += x * Fr(inside, size[(y, w)])
             n_classes += 1
+            loads[(''.join(cp), p)] = tot
             if tot > 1:
                 over += 1
             if tot > worst:
@@ -133,6 +167,13 @@ def check(path, samples=40, seed=20261023):
         fails.append('%d classes carry load above 1' % over)
     if worst != Fr(C['exact_max_ball_mass']):
         fails.append('maximum load %s, certificate says %s' % (worst, C['exact_max_ball_mass']))
+    named = C.get('max_ball_at')
+    if named is not None:
+        key = (named[0], named[1]) if isinstance(named, list) and len(named) == 2 else None
+        if key not in loads:
+            fails.append('max_ball_at %r is not a valid class' % (named,))
+        elif loads[key] != worst:
+            fails.append('max_ball_at %r carries %s, not the maximum %s' % (named, loads[key], worst))
 
     # 4. the class reduction, on explicit strings
     rng = random.Random(seed)
@@ -166,10 +207,12 @@ def check(path, samples=40, seed=20261023):
         fails.append('total mass %s is not above r-1 = %d' % (total, r - 1))
 
     print('%s: N %d m %d r %d | %d blocks, mass %s = %.9f > %d %s | %d of %d classes swept, '
-          'max load %s at prefix %s free weight %d (certificate: %s at %s) | reduction %d/%d equal'
+          'max load %s at prefix %s free weight %d (certificate: %s at %s; declares %s classes) | '
+          'reduction %d/%d equal'
           % (path.split('/')[-1], N, m, r, len(blocks), total, float(total), r - 1, total > r - 1,
              n_classes, 3 ** AP * (L + 1), worst, worst_at[0], worst_at[1],
-             C['exact_max_ball_mass'], C.get('max_ball_at'), samples - bad, samples))
+             C['exact_max_ball_mass'], C.get('max_ball_at'), C.get('centre_classes_verified'),
+             samples - bad, samples))
     for f in fails:
         print('  FAIL: ' + f)
     return not fails

@@ -14,11 +14,12 @@ Keep these files together in one folder. They use only the Python standard libra
 | `topr.py` | The run-count-aware (top-r) bound on the maximum, using the same dynamic program. It is a library with no command line. `check_dp(N, m)` compares its lambda = 0 value with an independent per-pattern sum. | The per-run-count rows at m = 8 in the appendix (for example the bracket [101/85, 811/680] at n = 20, r = 6, and 349/306 at n = 21, r = 7). The two scripts that print those rows, `topr_run.py` and `close_r6.py`, are in this folder. |
 | `topr_run.py` | Prints the per-run-count rows at m = 8: the largest r the bound proves at each length, with the lambda = 0 controls. | The m = 8 rows at n = 20, 21 and 23, and m = 7 at n = 20. |
 | `close_r6.py` | Closes r = 6 at n = 20: 811/680 at lambda = 5/136 against 6/5. | The statement that r = 6 is proved at m = 8, n = 20. |
-| `verify_ceiling_certificate.py` | Recomputes each dual certificate from its JSON and checks the bound, the sampled pairs and the worst sampled load. Takes a `cert_*.json`. | The C_9, C_10 and C_11 dual certificates. |
+| `verify_ceiling_certificate.py` | A **sampled** consistency check of a solver certificate: arithmetic, invariance, the ceiling on about a hundred centres, and the stored witness. It does **not** establish the maximum load, and says so; `verify_ceiling_exhaustive.py` does that. Takes an unnormalised `cert_19_*.json`. | Consistency of the solver's own output. |
 | `cert_19_9_9.json`, `cert_19_10_7.json`, `cert_19_11_6.json` | The three certificates themselves, as data. | The same three rows. |
 | `verify_ceiling_exhaustive.py` | The independent sweep over the C_m duals: recomputes each certificate's mass and sweeps EVERY centre class, not a sample. Standard library only. Takes one or more `data/floor_certificates/cert_m*.json`. | The C_9 to C_12 dual certificates, exhaustively. |
 | `data/floor_certificates/cert_m9_r9.json` and the m = 10, 11, 12 files | The four duals normalised to maximum ball load at most 1. | The same four rows. |
 | `certify_cell.py`, `dump_floor_certificates.py` | The solvers that produced the certificates, with their own sweeps. **These two need SciPy**; everything else here is standard library. You do not need them to check the certificates, only to regenerate them. | Provenance of the certificate files. |
+| `emit_ceiling_certificate.py` | Writes a certificate file from a solved cell. Standard library only. | Provenance of the certificate files. |
 
 ## What to run, and what a pass looks like
 

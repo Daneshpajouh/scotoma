@@ -1,4 +1,5 @@
-"""Independent check of cert_19_8_11.json. SHARES NO CODE WITH THE SOLVER.
+"""Sampled consistency check of a solver ceiling certificate (cert_N_m_r.json). SHARES NO CODE WITH THE
+SOLVER. It does NOT establish the maximum load: verify_ceiling_exhaustive.py does that, over every class.
 
 Five row-end certificates were withdrawn on 2026-10-22 because they were verified by the routine
 that produced them, and that routine had restricted the constraint set in a way that moved the
@@ -14,7 +15,8 @@ fraction it returns is exact.
 
 Three things are checked.
   1. ORBIT INVARIANCE. Two explicit centres in the same (prefix type, free weight) class must have
-     EXACTLY equal load. The whole reduction from 4^19 centres to 10 x 3^10 classes rests on this;
+     EXACTLY equal load. The reduction from 4^N centres to (L+1) x 3^AP classes holds by construction of the blocks;
+     this test checks the implementation;
      if it fails the sweep was never a sweep and the bound is void.
   2. THE CEILING HOLDS. No centre sampled, and none of the r library centres, may carry load above
      the certificate's claimed maximum. One counterexample destroys the certificate.
@@ -128,6 +130,15 @@ for u in cands:
 print('  %d centres checked (%d library + %d sampled); worst found %.9f, claimed max %.9f'
       % (len(cands), r, len(cands)-r, float(worst), float(Mex)))
 print('  library centres carry %s' % [float(load(tuple(x), sup)) for x in LIB[:4]])
-print('\nALL THREE CHECKS PASS.')
-print('tau*(%d,%d,%d) >= %s = %.9f, and %d >= ceil(tau*) = %d, so K = %d.'
-      % (N, m, r, bound, float(bound), r, -(-bound.numerator//bound.denominator), r))
+# 4. the stored witness must carry the claimed maximum exactly (a claimed maximum below the true one
+#    is caught here whenever the witness is the true maximiser; the exhaustive sweep catches the rest)
+wp, wf = C['max_load_at']
+wu = tuple([{'0': 0, '1': 1, 'X': 2}[ch] for ch in wp] + [1]*int(wf) + [0]*(L-int(wf)))
+lw = load(wu, sup)
+print('\nstored witness %s, free weight %d: load %s, claimed max %s, EQUAL %s' % (wp, wf, lw, Mex, lw == Mex))
+if lw != Mex:
+    sys.exit('WITNESS MISMATCH: the stored maximiser carries %s, not the claimed %s.' % (lw, Mex))
+print('\nSAMPLED CONSISTENCY CHECKS PASS (arithmetic, invariance, ceiling on %d centres, witness).' % len(cands))
+print('This does not establish the maximum load. If verify_ceiling_exhaustive.py confirms it,')
+print('tau*(%d,%d,%d) >= %s = %.9f, and ceil = %d.'
+      % (N, m, r, bound, float(bound), -(-bound.numerator//bound.denominator)))
