@@ -23,10 +23,22 @@ Three things are checked.
   3. THE ARITHMETIC. The claimed bound must equal (sum of x numerators) * Dglob / (max-load
      numerator), recomputed here from the stored integers.
 """
-import json, sys, itertools, random
+import json, os, sys, itertools, random
 from fractions import Fraction as Fr
 
-C = json.load(open(sys.argv[1] if len(sys.argv) > 1 else 'cert_19_8_11.json'))
+# 2026-10-24: run with no argument this raised FileNotFoundError and exited 1 with a traceback.
+# The appendix states that every checker here tells a missing input apart from a refuted claim,
+# the first exiting 2 NOT RUN and only the second exiting 1, and that none of them emits an
+# uncaught exception when run alone. That sentence was false for this script. The ceiling
+# certificate is not redistributed in this repository, so no argument is the ordinary case.
+_SRC = sys.argv[1] if len(sys.argv) > 1 else 'cert_19_8_11.json'
+if not os.path.isfile(_SRC):
+    sys.stderr.write("NOT RUN: no such certificate file: %s\n"
+                     "usage: verify_ceiling_certificate.py CERT.json\n"
+                     "The ceiling certificate is not redistributed in this repository.\n" % _SRC)
+    raise SystemExit(2)
+
+C = json.load(open(_SRC))
 N, m, r, AP, L, Dx, DG = C['N'], C['m'], C['r'], C['AP'], C['L'], C['Dx'], C['Dglob']
 assert AP + L == N and AP == r - 1
 TYPES = list(itertools.product([0, 1, 2], repeat=AP))      # the certificate's stated encoding

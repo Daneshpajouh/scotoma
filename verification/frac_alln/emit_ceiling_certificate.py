@@ -134,4 +134,13 @@ def main(src):
                                        and c.get('N', 19) == N and c['status'] == 'PROVED')))
 
 if __name__ == '__main__':
-    main(sys.argv[1] if len(sys.argv) > 1 else 'cert_19_8_11.json')
+    # 2026-10-24: see verify_ceiling_certificate.py. Run with no argument this raised
+    # FileNotFoundError and exited 1 with a traceback, against the appendix's statement that a
+    # missing input exits 2 NOT RUN and that no checker here ends in an uncaught exception.
+    _src = sys.argv[1] if len(sys.argv) > 1 else 'cert_19_8_11.json'
+    if not os.path.isfile(_src):
+        sys.stderr.write("NOT RUN: no such certificate file: %s\n"
+                         "usage: emit_ceiling_certificate.py CERT.json\n"
+                         "The ceiling certificate is not redistributed in this repository.\n" % _src)
+        raise SystemExit(2)
+    main(_src)

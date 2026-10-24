@@ -15,8 +15,17 @@ import itertools, json, math, os, sys
 from fractions import Fraction as Fr
 from math import comb
 
-import numpy as np
-from scipy.optimize import linprog
+# 2026-10-24: see certify_cell.py. At module level these made a machine without them exit 1 with
+# a ModuleNotFoundError traceback, against the appendix's statement that a missing input exits 2
+# NOT RUN and that no checker here ends in an uncaught exception.
+try:
+    import numpy as np
+    from scipy.optimize import linprog
+except ImportError as _exc:
+    sys.stderr.write("NOT RUN: this checker needs numpy and scipy (%s).\n"
+                     "install: python3 -m pip install numpy scipy\n"
+                     "Every other checker in this folder is standard library only.\n" % _exc)
+    raise SystemExit(2)
 
 N = 19
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'floor_certificates')

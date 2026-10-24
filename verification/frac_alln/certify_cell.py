@@ -26,12 +26,24 @@ honest (down) and the loads honest (down), and the whole sweep runs in int64: th
 sum is (sum x_num) * Dglob = 1.9e16 against an int64 ceiling of 9.2e18.
 """
 import itertools, sys, time
-import numpy as np
 from math import comb, gcd
 from fractions import Fraction as Fr
-from scipy.optimize import linprog
 
 import os
+
+# 2026-10-24: these imports sit at module level, so on a machine without them the script ended
+# in ModuleNotFoundError and exited 1 with a traceback. The appendix states that a missing input
+# exits 2 NOT RUN, that only a refuted claim exits 1, and that no checker here emits an uncaught
+# exception when run alone. A missing dependency is a thing to supply, not a refuted claim.
+# Unlike every other checker in this folder, this one is not standard library only.
+try:
+    import numpy as np
+    from scipy.optimize import linprog
+except ImportError as _exc:
+    sys.stderr.write("NOT RUN: this checker needs numpy and scipy (%s).\n"
+                     "install: python3 -m pip install numpy scipy\n"
+                     "Every other checker in this folder is standard library only.\n" % _exc)
+    raise SystemExit(2)
 N  = int(os.environ.get('CERT_N', 19))
 M  = int(os.environ.get('CERT_M', 8))
 R  = int(os.environ.get('CERT_R', 11))
