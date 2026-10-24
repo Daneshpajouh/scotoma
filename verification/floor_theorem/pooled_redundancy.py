@@ -9,9 +9,12 @@ balls is covered by 1,628. That claim has two parts:
      entirely inside the union of other patterns' radius-4 balls, so dropping it loses nothing and
      1,628 balls suffice. THIS SCRIPT CHECKS THAT, exhaustively, over the whole ball.
   2. A CONSTRUCTION: that a 110-guide panel with pairwise disjoint libraries and exactly 1,629
-     patterns exists containing such a configuration. THIS SCRIPT DOES NOT CHECK THAT, because the
-     synthetic guide list it was built from is not in the release and could not be found on
-     2026-10-23. Regenerating it is open work.
+     patterns exists containing such a configuration. THIS SCRIPT DOES NOT CHECK THAT; see
+     pooled_counterexample.py, which does, on the released guide list.
+
+     CORRECTION, 2026-10-23: an earlier version of this paragraph said that guide list "could not
+     be found". It could. It is space_synthetic_guides.txt, and the search that missed it used a
+     broad pattern on a narrow path and a narrow pattern on the broad one. It is released now.
 
 Saying so is the point. The earlier producer, controls/space_pooled_checks.py, could not run as
 shipped: it opened a bare "synth_guides.txt" from the current directory with no path and no

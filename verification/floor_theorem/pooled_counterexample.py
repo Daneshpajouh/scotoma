@@ -6,12 +6,17 @@ WHAT THE BODY CLAIMS. Right after the pooled theorem, which proves the real 110-
 shape: "there are 110 guides of length 20 with pairwise disjoint libraries, run counts 9 to 20 and
 1,629 patterns, whose union of radius-4 balls is covered by 1,628."
 
-WHY THIS FILE EXISTS. The original producer could not run (it opened a bare "synth_guides.txt" with
-no path), its guide list was lost, and it was never released. Worse, when the list was rebuilt on
-2026-10-23 and the producer run on it, two of its own checks read False FOR ANY INPUT: it tested
-whether a {0,1} string was a member of a library of {A,C,G,T} strings. Disjoint alphabets, so the
-step that ties the redundancy to the panel could never pass. Its two halves, panel statistics and
-chain redundancy, were never joined.
+WHY THIS FILE EXISTS. The original producer could not run as shipped: it opened a bare
+"synth_guides.txt" from the current directory, while the list is named space_synthetic_guides.txt,
+and it printed its findings and exited 0 whatever they said. It was never released.
+
+CORRECTION, 2026-10-23. An earlier version of this file said the list "could not be found" and that
+two of the producer's checks were false FOR ANY INPUT. BOTH STATEMENTS WERE WRONG. The list exists
+under the other name; a search for it used a broad pattern on a narrow path and a narrow pattern on
+the broad one, so it was missed. And the panel is written over {0,1,2,3}, the relabelled alphabet
+the proof works in, so the producer's membership checks were consistent with its real input all
+along: p and all sixteen witnesses ARE in that library. The checks only failed against a rebuilt
+panel written over {A,C,G,T}. The original list is what is released here.
 
 WHAT THIS CHECKS, ALL OF IT, IN ONE RUN:
 
@@ -37,11 +42,11 @@ import sys
 from collections import Counter
 
 LEN, N_GUIDES, TARGET_PATTERNS, RMIN, RMAX, RADIUS = 20, 110, 1629, 9, 20, 4
-ALPHABET = "ACGT"
+ALPHABET = "0123"   # the relabelled alphabet the panel and the proof use
 HERE = os.path.dirname(os.path.abspath(__file__))
 DEFAULT = os.path.join(HERE, "data", "synthetic_panel_110.txt")
-P = "ACACACACACACACACACA"                      # the redundant pattern
-SWAP = {"A": "C", "C": "A"}
+P = "0101010101010101010"                     # the redundant pattern, in those letters
+SWAP = {"0": "1", "1": "0"}
 WITNESSES = [P[:j] + SWAP[P[j]] + P[j + 1:] for j in range(16)]
 
 
