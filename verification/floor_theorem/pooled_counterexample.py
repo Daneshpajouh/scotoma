@@ -1,0 +1,131 @@
+#!/usr/bin/env python3
+"""The panel behind the body's 1,628, rebuilt and checked end to end from its guide list.
+
+WHAT THE BODY CLAIMS. Right after the pooled theorem, which proves the real 110-guide panel needs
+1,629 radius-4 balls, the text adds that the value is a property of that panel and not of the
+shape: "there are 110 guides of length 20 with pairwise disjoint libraries, run counts 9 to 20 and
+1,629 patterns, whose union of radius-4 balls is covered by 1,628."
+
+WHY THIS FILE EXISTS. The original producer could not run (it opened a bare "synth_guides.txt" with
+no path), its guide list was lost, and it was never released. Worse, when the list was rebuilt on
+2026-10-23 and the producer run on it, two of its own checks read False FOR ANY INPUT: it tested
+whether a {0,1} string was a member of a library of {A,C,G,T} strings. Disjoint alphabets, so the
+step that ties the redundancy to the panel could never pass. Its two halves, panel statistics and
+chain redundancy, were never joined.
+
+WHAT THIS CHECKS, ALL OF IT, IN ONE RUN:
+
+  1. 110 guides, each of length 20.
+  2. Libraries pairwise disjoint: the total pattern count equals the union's size.
+  3. 1,629 distinct patterns.
+  4. Run counts spanning 9 to 20.
+  5. The redundant pattern p and its 16 witnesses are IN the library. This is the step the original
+     could not perform, and it is what makes the rest a statement about THIS panel.
+  6. B_4(p) lies inside the union of the 16 witnesses' balls, exhaustively over all 341,716 words.
+  7. The control: dropping one witness must leave part of B_4(p) uncovered, or 6 proves nothing.
+
+Together 5, 6 and 7 give the claim: p's ball is already covered by other patterns of the library,
+so the remaining 1,628 patterns' balls still cover the whole union.
+
+Usage:  pooled_counterexample.py [GUIDES.txt]
+Default input: data/synthetic_panel_110.txt beside this script.
+Exit 0 only when every check above holds; 1 otherwise; 2 if it could not run.
+"""
+import itertools
+import os
+import sys
+from collections import Counter
+
+LEN, N_GUIDES, TARGET_PATTERNS, RMIN, RMAX, RADIUS = 20, 110, 1629, 9, 20, 4
+ALPHABET = "ACGT"
+HERE = os.path.dirname(os.path.abspath(__file__))
+DEFAULT = os.path.join(HERE, "data", "synthetic_panel_110.txt")
+P = "ACACACACACACACACACA"                      # the redundant pattern
+SWAP = {"A": "C", "C": "A"}
+WITNESSES = [P[:j] + SWAP[P[j]] + P[j + 1:] for j in range(16)]
+
+
+def hamming(a, b):
+    return sum(x != y for x, y in zip(a, b))
+
+
+def run_count(g):
+    return 1 + sum(g[i] != g[i - 1] for i in range(1, len(g)))
+
+
+def patterns(g):
+    """The distinct single-deletion reads of g: one per maximal run."""
+    out, i = set(), 0
+    while i < len(g):
+        j = i
+        while j + 1 < len(g) and g[j + 1] == g[i]:
+            j += 1
+        out.add(g[:i] + g[i + 1:])
+        i = j + 1
+    return out
+
+
+def ball(word, radius):
+    out = set()
+    for r in range(radius + 1):
+        for pos in itertools.combinations(range(len(word)), r):
+            choices = [[c for c in ALPHABET if c != word[p]] for p in pos]
+            for subs in itertools.product(*choices):
+                x = list(word)
+                for p, c in zip(pos, subs):
+                    x[p] = c
+                out.add("".join(x))
+    return out
+
+
+def main(argv):
+    path = argv[1] if len(argv) > 1 else DEFAULT
+    try:
+        guides = [l.strip() for l in open(path) if l.strip()]
+    except OSError as exc:
+        print(f"NOT RUN: {exc}")
+        return 2
+
+    library, total = set(), 0
+    for g in guides:
+        p = patterns(g)
+        library |= p
+        total += len(p)
+    counts = Counter(run_count(g) for g in guides)
+
+    checks = [
+        (f"{N_GUIDES} guides", len(guides) == N_GUIDES, f"{len(guides)}"),
+        (f"every guide length {LEN}", all(len(g) == LEN for g in guides),
+         f"{sorted({len(g) for g in guides})}"),
+        ("libraries pairwise disjoint", len(library) == total, f"{total - len(library)} shared"),
+        (f"{TARGET_PATTERNS} distinct patterns", len(library) == TARGET_PATTERNS, f"{len(library)}"),
+        (f"run counts span {RMIN} to {RMAX}", min(counts) == RMIN and max(counts) == RMAX,
+         f"{min(counts)}..{max(counts)}"),
+        ("p is in the library", P in library, f"{P in library}"),
+        ("all 16 witnesses in the library", all(w in library for w in WITNESSES),
+         f"{sum(w in library for w in WITNESSES)} of 16"),
+    ]
+
+    b = ball(P, RADIUS)
+    missed = [x for x in b if min(hamming(x, w) for w in WITNESSES) > RADIUS]
+    control = [x for x in b if min(hamming(x, w) for w in WITNESSES[1:]) > RADIUS]
+    checks.append((f"B_{RADIUS}(p) inside the witnesses' union", not missed,
+                   f"{len(missed)} uncovered of {len(b):,}"))
+    checks.append(("control: dropping one witness uncovers part of it", bool(control),
+                   f"{len(control)} uncovered"))
+
+    width = max(len(name) for name, _, _ in checks)
+    for name, ok, detail in checks:
+        print(f"  {name:<{width}}  {'ok ' if ok else 'NO '}  {detail}")
+
+    good = all(ok for _, ok, _ in checks)
+    print()
+    if good:
+        print(f"So p's ball is covered by other patterns of this library: the remaining "
+              f"{TARGET_PATTERNS - 1:,} balls still cover the union.")
+    print("VERDICT:", "PASS" if good else "FAIL")
+    return 0 if good else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv))
