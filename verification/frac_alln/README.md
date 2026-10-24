@@ -62,3 +62,24 @@ A pass prints one line per certificate, each reporting the mass against the boun
 It fails loudly. Multiplying one block's mass by ten in `cert_m11_r6.json` gives `FAIL: 416 classes carry load above 1`, `maximum load 1259402/582027, certificate says 1`, and exit 1.
 
 `VERIFY_CEILING.md` is the step-by-step guide to checking the dual certificates.
+
+## Rebuilding the frontier table in one command
+
+```
+python3 rebuild_frontier_table.py --check
+```
+
+It recomputes, from the files in this folder and nothing else, the length-and-budget table the
+paper prints: for each budget the smallest word length N whose step-3 maximum satisfies
+M < 1 + 1/N, the spacer length n = N+1, and whether the criterion FAILS one length below, which is
+what makes each threshold the first length that works rather than a safe point inside a settled
+range. It then sweeps all four released dual certificates exhaustively.
+
+`--check` compares the rebuilt rows against the thresholds the paper prints and exits non-zero on
+any disagreement. It takes several minutes and prints one row per budget as it goes.
+
+Why the criterion is M < 1 + 1/N: the full-chain weighting restricted to any r of the N+1 patterns
+has mass r and ball loads at most M, so after scaling by 1/M every cover needs more than r-1 balls
+exactly when r(M-1) < M. The binding case is the largest run count a length admits, which is
+r = N+1, and there the inequality is M < 1 + 1/N. The inequality must be strict and the arithmetic
+exact; both are, and the sweep starts below the first passing length at every budget.
