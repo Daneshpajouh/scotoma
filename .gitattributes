@@ -4,3 +4,8 @@
 # every one of those digests would differ from the published value. Marking them -text stops git
 # converting them, so the bytes are the same on every platform.
 verification/floor_theorem/data/*.txt -text
+
+# The same holds for the ceiling duals: VERIFY_CEILING.md publishes the SHA-256 of each one, and
+# a converting clone rewrote the four released duals so that none of those four matched.
+verification/frac_alln/*.json -text
+verification/frac_alln/data/floor_certificates/*.json -text
