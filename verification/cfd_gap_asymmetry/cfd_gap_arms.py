@@ -20,12 +20,20 @@ csv.field_size_limit(10 ** 7)
 # NOT RUN, and names what to supply; only a refuted claim exits 1, and no checker raises an
 # uncaught exception when run alone. This file exited 1 on a missing argument and raised
 # FileNotFoundError on a bad path until 2026-10-24, so both read as refutations.
-if len(sys.argv) < 2 or sys.argv[1].startswith('-'):
+# 2026-10-24: the only completeness gate here was `scored == 0`, so a TRUNCATED table passed.
+# Measured: the first 40,000,000 bytes of the deposit, 4.5 per cent of it, score 81,259 rows and
+# exit 0 with every figure silently computed on a twentieth of the panel. Removing rows can only
+# remove evidence, so a cut input reads as the same confirmation. The README already says a
+# different count means a different table; this makes the script say it too.
+EXPECTED_SCORED = 1749342          # the deposited include_on_targets table, pinned in the README
+ANY_TABLE = '--any-table' in sys.argv[1:]
+_args = [a for a in sys.argv[1:] if a != '--any-table']
+if not _args or _args[0].startswith('-'):
     sys.stderr.write("NOT RUN: supply the CHANGE-seq table.\n"
-                     "usage: cfd_gap_arms.py CHANGEseq_CR_Lazzarotto_2020_dataset.csv\n"
+                     "usage: cfd_gap_arms.py CHANGEseq_CR_Lazzarotto_2020_dataset.csv [--any-table]\n"
                      "The README names its size and SHA-256.\n")
     raise SystemExit(2)
-P = sys.argv[1]
+P = _args[0]
 if not os.path.isfile(P):
     sys.stderr.write(f"NOT RUN: no such file: {P}\n"
                      "Supply the CHANGE-seq include_on_targets table; the README names it.\n")
@@ -142,6 +150,23 @@ if scored == 0:
                      "not a finding.\nCheck the path points at the CHANGE-seq table named in "
                      "the README.\n")
     raise SystemExit(2)
+
+# Refusing only ZERO rows is an empty-input gate, not a complete-input gate. SOME rows is the
+# realistic failure: a truncated download, a partial copy, or the documented invocation that
+# streams the deposit over a connection that drops. A short table is a DIFFERENT TABLE, which is
+# an invocation error and exits 2, not a refuted claim; --any-table is the deliberate opt-out for
+# a reader running this against another panel, and it says so in the output so the figures are
+# never read as ours.
+if scored != EXPECTED_SCORED and not ANY_TABLE:
+    sys.stderr.write(
+        "NOT RUN: scored %d single-bulge rows; the deposited table scores %d.\n"
+        "That is a different or truncated table, not a failure to reproduce. The README names\n"
+        "the file by size and SHA-256. To score another panel on purpose, pass --any-table.\n"
+        % (scored, EXPECTED_SCORED))
+    raise SystemExit(2)
+if ANY_TABLE and scored != EXPECTED_SCORED:
+    print('--any-table: %d rows scored, not the deposited %d. These figures are NOT the '
+          'paper\'s.' % (scored, EXPECTED_SCORED), flush=True)
 
 # Paired DeLong for the C-versus-B comparison, as pre-registered: the two scores are on the SAME
 # samples, so the variance of the difference needs the covariance term and an unpaired interval

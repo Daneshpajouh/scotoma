@@ -51,6 +51,7 @@ def replay_all(budgets):
         print(f"NOT RUN: {path} has {len(recorded)} rows, not {N_ROWS}")
         return 2
     wanted = []
+    seen = []
     for k, ln in enumerate(recorded, 1):
         try:
             fields = dict(f.split("=", 1) for f in ln.split() if "=" in f)
@@ -58,8 +59,20 @@ def replay_all(budgets):
         except (KeyError, ValueError):
             print(f"NOT RUN: line {k} of {path} has no readable m and N")
             return 2
+        seen.append((m, N))
         if not budgets or m in budgets:
             wanted.append((m, N, ln.rsplit(" secs=", 1)[0]))
+    # 2026-10-24: the row COUNT was pinned but not WHICH cells, and the cells to replay are read
+    # from the log itself. So replacing one row with a copy of another kept the count at 143 and
+    # passed: the duplicate was replayed twice and the displaced cell was never computed at all.
+    # A log of 143 rows describes 143 distinct cells, so requiring that is free and closes it.
+    if len(set(seen)) != len(seen):
+        dup = sorted({p for p in seen if seen.count(p) > 1})
+        print(f"NOT RUN: {path} has {len(recorded)} rows but only {len(set(seen))} distinct "
+              f"(m, N) cells; repeated: {dup}")
+        print("         A row replaced by a copy of another keeps the count and silently drops "
+              "a cell.")
+        return 2
     if not wanted:
         print("NOT RUN: no recorded row has the budgets given")
         return 2
