@@ -20,6 +20,7 @@ def test(Aset,Bset,m):
 
 print("Searching size-m supports from the full coordinate set, letters 2 or 3 per position.")
 print(" m  support            A        own priv pair  floor holds")
+missing = []
 for m in range(1,6):
     found=None
     # try subsets of the published S first, then any subset of 1..19
@@ -40,3 +41,12 @@ for m in range(1,6):
         print(" %d  %-18s %-8s %3d %4d %4d  YES" % (m,str(sup),str(Aset),r[0],r[1],r[2]))
     else:
         print(" %d  none found" % m)
+        missing.append(m)
+
+# A verdict and an exit code. Until 2026-10-23 every script in this folder printed its checks
+# and exited 0 whatever they said, so a reader running one in CI saw a pass even when the check
+# had failed. A verifier that cannot fail verifies nothing.
+print("\nVERDICT:", "PASS" if not missing else "FAIL",
+      ("(a family at every budget 1 to 5)" if not missing
+       else "(no family found at budget(s) %s)" % missing))
+raise SystemExit(0 if not missing else 1)

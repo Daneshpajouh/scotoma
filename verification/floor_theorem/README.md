@@ -24,7 +24,7 @@ attained by the patterns themselves.
 | `verify_construction.py` | The witness family at budget five: distance to its own centre, distance to every other centre, and all pairwise distances, against the eighteen predicted values. |
 | `verify_m4.py` | The same three conditions at every budget from one to five, obtained by restoring coordinates from the budget-five family. |
 | `scope.py` | The parameter range: pattern lengths to 30, run counts to 31, and the first budget at which the construction fails. |
-| `sharp_threshold.py` | The shortest length admitting a separated witness family at budget four, searched over every four-coordinate support and letter assignment. |
+| `sharp_threshold.py` | The shortest length at which a cyclic witness template exists at budget four, over every four-coordinate support and letter assignment of the template. It searches cyclic templates only, as its own docstring says, so it does not rule out a non-cyclic family at a shorter length. |
 | `floor_counterexample.py` | That the statement is false outside its range: an exhaustive search showing four centres covering the union of five deletion balls. |
 | `ball_overlaps.py` | Exact intersection sizes of two Hamming balls at every distance, and the volume lower bound they give, for comparison with the minimality result. |
 | `cylinder_decomposition.py` | That a Hamming ball is exactly a union of cylinders, how many are needed, and how close that is to the information-theoretic minimum. |

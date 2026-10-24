@@ -29,6 +29,7 @@ def bad(g):
         if sw > 1: return ("2+ switches", c, "".join(col))
     return None
 
+total_failures = 0
 print("exhaustive over all guides, lengths 2..8")
 tot = 0; fails = 0
 for n in range(2, 9):
@@ -37,6 +38,7 @@ for n in range(2, 9):
         b = bad(g)
         if b: fails += 1; print("  FAIL", g, b)
 print("  checked %d guides, failures %d" % (tot, fails))
+total_failures += fails
 
 print("random guides at the deployed length 20")
 random.seed(11)
@@ -46,7 +48,16 @@ for _ in range(20000):
     b = bad(g)
     if b: fails += 1; print("  FAIL", g, b)
 print("  checked %d guides, failures %d" % (tot, fails))
+total_failures += fails
 
 print("adversarial: homopolymer, alternating, single run")
 for g in ("A"*20, "AC"*10, "A"*19+"C", "ACGT"*5, "AAC"+"G"*17):
     print("  %-22s runs=%2d  %s" % (g, len(runs(g)), bad(g) or "ok"))
+    if bad(g): total_failures += 1
+
+# A verdict and an exit code. Until 2026-10-23 every script in this folder printed its checks
+# and exited 0 whatever they said, so a reader running one in CI saw a pass even when the check
+# had failed. A verifier that cannot fail verifies nothing.
+print("\nVERDICT:", "PASS" if total_failures == 0 else "FAIL",
+      "(%d guide(s) failed the lemma)" % total_failures)
+raise SystemExit(0 if total_failures == 0 else 1)

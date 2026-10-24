@@ -49,12 +49,31 @@ print("\nall claimed minima reproduced:", ok)
 print("overall minimum pairwise witness distance:", min(min(v) for v in by_h.values()))
 
 # 3. privacy: is W_k farther than m from every other centre?
+# This family is the BUDGET-FIVE one, so only m = 5 is a pass condition. The m = 4 line is printed
+# for contrast and its "False" is expected: a budget-five witness sits at distance 5 from its own
+# centre, which is more than 4. verify_m4.py carries the budget-four family. Reported separately so
+# that a reader, and the exit code below, do not read an expected contrast as a failure.
+own = max(d(W(k), P(k)) for k in range(R))
+mn = min(min(v) for v in by_h.values())
 for m in (4, 5):
     bad = [(k, j, d(W(k), P(j))) for k in range(R) for j in range(R)
            if j != k and d(W(k), P(j)) <= m]
-    own = max(d(W(k), P(k)) for k in range(R))
-    print("\nm = %d:  d(W_k,P_k) max = %d (needs <= m: %s)" % (m, own, own <= m))
+    label = "pass condition" if m == 5 else "contrast only, see verify_m4.py"
+    print("\nm = %d (%s):  d(W_k,P_k) max = %d (needs <= m: %s)" % (m, label, own, own <= m))
     print("   violations of d(W_k,P_j) > m for j != k:", len(bad))
-    need = 2 * m
-    mn = min(min(v) for v in by_h.values())
-    print("   min pairwise witness distance %d > 2m = %d : %s" % (mn, need, mn > need))
+    print("   min pairwise witness distance %d > 2m = %d : %s" % (mn, 2 * m, mn > 2 * m))
+    if m == 5:
+        privacy_ok = not bad
+        own_ok = own <= m
+        scattered_ok = mn > 2 * m
+
+# The verdict, and an exit code that carries it. Until 2026-10-23 every script in this folder
+# printed its booleans and exited 0 whatever they said: an adversarial run moved letter 3 from
+# {6, 12} to {6, 7}, which makes two printed checks False, and this script still exited 0. Anyone
+# running it in CI or a loop saw a pass. A verifier that cannot fail verifies nothing.
+good = ok and own_ok and privacy_ok and scattered_ok
+print("\nVERDICT:", "PASS" if good else "FAIL")
+if not good:
+    print("  minima reproduced:", ok, " own distance <= 5:", own_ok,
+          " privacy:", privacy_ok, " 2m-scattered:", scattered_ok)
+raise SystemExit(0 if good else 1)
