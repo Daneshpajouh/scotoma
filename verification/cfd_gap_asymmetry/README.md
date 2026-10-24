@@ -45,13 +45,15 @@ The columns it reads are `Align.sgRNA`, `Align.off-target`, `Align.#Bulges`, `Al
 and `reads`. Rows with anything other than exactly one bulge are skipped, which is the class the
 claim is about.
 
-That study's data is distributed in more than one arrangement, under names that differ by little,
-so check you have the same one before concluding anything from a difference. Two checks, and the
-second is free. The file these figures come from is 878,760,836 bytes and has SHA-256
-`68f3e1d7eb9e9e18e3ddc859752be8d156378a3e681b0fff329fe679366adc11`. And whatever file you have, the
-second line of output reports how many single-bulge rows were scored; on ours it reads exactly
-`1749342`. A different count means a different arrangement of the deposit, not a failure to
-reproduce.
+That study reports several assays, and their tables are deposited under names that differ by very
+little. Ours is the CHANGE-seq one **with on-targets included**; the GUIDE-seq and NewGUIDE-seq
+tables are different experiments, not different formats, so picking the wrong one gives numbers
+that will not match and no obvious reason why.
+
+Two checks, and the second is free. The file these figures come from is 878,760,836 bytes with
+SHA-256 `68f3e1d7eb9e9e18e3ddc859752be8d156378a3e681b0fff329fe679366adc11`. And whatever file you
+have, the second line of output reports how many single-bulge rows were scored; on ours it reads
+exactly `1749342`. A different count means a different table, not a failure to reproduce.
 
 If no row at all is scored the script stops with `GATE FAILED` and exits 1, because scoring nothing
 is an invocation error and should not be reported as a clean run.
