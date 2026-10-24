@@ -247,3 +247,10 @@ quantitative claim in the minimality result, including the counterexamples that
 bound its parameter range. They need only the standard library and print what
 they checked. See that directory's README for the table of what each one
 establishes.
+
+## In vitro bulge shares: verification script
+
+`verification/bulge_shares/share_strata.py` reproduces the two in vitro bulge
+shares, 55.7% and 45.4%, and every count behind them from the CHANGE-seq table
+as redistributed with CRISPR-Bulge. That table is not released here; the
+directory's README says where to get it and gives its SHA-256.
