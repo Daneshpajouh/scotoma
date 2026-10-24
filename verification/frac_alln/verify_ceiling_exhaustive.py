@@ -259,7 +259,12 @@ def check(path, samples=40, seed=20261023):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        sys.exit(__doc__)
+        # Exit 2, NOT RUN, per this release's convention; sys.exit(__doc__) exited 1, which this
+        # release reserves for a refuted claim.
+        print('NOT RUN: supply one or more certificate paths, for example '
+              'data/floor_certificates/cert_m9_r9.json')
+        print(__doc__)
+        sys.exit(2)
     results = []
     for p in sys.argv[1:]:
         try:

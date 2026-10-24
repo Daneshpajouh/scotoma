@@ -25,8 +25,13 @@ import random
 import sys
 
 if len(sys.argv) < 2 or sys.argv[1].startswith("-"):
-    sys.exit("usage: trial_counts.py sgrna_panel110.txt   "
-             "(the 110 guide sequences, one per line, each ending NGG)")
+    # Exit 2, NOT RUN, per this release's convention: a missing input must be distinguishable from
+    # a refuted claim, which exits 1. `sys.exit(<string>)` exits 1, so this said "refuted" when it
+    # meant "no input".
+    print("NOT RUN: supply sgrna_panel110.txt, the 110 guide sequences, one per line, each ending "
+          "NGG. They are the panel of the CHANGE-seq table of Lazzarotto et al., which is not "
+          "redistributed here; rebuild the list from your own copy of that deposit.")
+    sys.exit(2)
 PANEL = sys.argv[1]
 SEED = 20261024
 
