@@ -1,0 +1,60 @@
+permutation seed 20261022 -> [17, 20, 5, 8, 18, 7, 16, 11, 3, 9, 1, 13, 15, 4, 14, 2, 6, 10, 19, 12]
+single-bulge rows scored: 1749342   unscorable: 0   zeroed by an IUPAC base: 9063
+
+kind edits     pos       neg   B drop     arm   arm - B              95% CI     raw p
+DNA      1       2         1  (below the pre-registered 20/20 floor)
+DNA      2      58        19  the C after convention leaves 1 row(s) with NO CFD value, and the defined remainder is below the floor
+DNA      2      58        19  the C before convention leaves 1 row(s) with NO CFD value, and the defined remainder is below the floor
+DNA      2      56        19  the R reversed convention leaves 3 row(s) with NO CFD value, and the defined remainder is below the floor
+DNA      2      54        19  the PI permuted convention leaves 5 row(s) with NO CFD value, and the defined remainder is below the floor
+DNA      3     712       912   0.6809  0.5506   -0.1303  [-0.1621, -0.0986]  8.35e-16  C after  (19 row(s) undefined under this convention)
+DNA      3     712       923   0.6797  0.6111   -0.0686  [-0.1002, -0.0370]  2.13e-05  C before  (8 row(s) undefined under this convention)
+DNA      3     695       868   0.6768  0.5060   -0.1708  [-0.1999, -0.1417]  1.31e-30  R reversed  (80 row(s) undefined under this convention)
+DNA      3     643       860   0.6802  0.5176   -0.1625  [-0.1945, -0.1306]  2.09e-23  PI permuted  (140 row(s) undefined under this convention)
+DNA      4    3527     23088   0.7091  0.5697   -0.1394  [-0.1511, -0.1278] 6.11e-122  C after  (424 row(s) undefined under this convention)
+DNA      4    3527     23163   0.7072  0.6116   -0.0956  [-0.1071, -0.0841]  6.74e-60  C before  (349 row(s) undefined under this convention)
+DNA      4    3379     21423   0.7064  0.5376   -0.1689  [-0.1802, -0.1575] 2.15e-185  R reversed  (2237 row(s) undefined under this convention)
+DNA      4    3182     21779   0.7124  0.5348   -0.1776  [-0.1897, -0.1655] 2.24e-182  PI permuted  (2078 row(s) undefined under this convention)
+DNA      5    2126    303168   0.7597  0.7514   -0.0083  [-0.0193, +0.0028]  1.42e-01  C after  (7001 row(s) undefined under this convention)
+DNA      5    2126    302286   0.7585  0.7906   +0.0321  [+0.0212, +0.0430]  7.81e-09  C before  (7883 row(s) undefined under this convention)
+DNA      5    1735    289259   0.7411  0.4464   -0.2947  [-0.3108, -0.2786] 9.07e-282  R reversed  (21301 row(s) undefined under this convention)
+DNA      5    2110    286143   0.7607  0.5117   -0.2490  [-0.2629, -0.2350] 1.47e-267  PI permuted  (24042 row(s) undefined under this convention)
+RNA      1       7         1  (below the pre-registered 20/20 floor)
+RNA      2     188        56   0.4886  0.7635   +0.2749  [+0.1819, +0.3679]  6.85e-09  C after  (7 row(s) undefined under this convention)
+RNA      2     186        55   0.5090  0.3207   -0.1884  [-0.2754, -0.1013]  2.23e-05  R reversed  (10 row(s) undefined under this convention)
+RNA      2     174        58   0.5133  0.5001   -0.0132  [-0.1131, +0.0868]  7.96e-01  PI permuted  (19 row(s) undefined under this convention)
+RNA      3    2003      3918   0.6140  0.7535   +0.1395  [+0.1240, +0.1550]  2.94e-69  C after  (116 row(s) undefined under this convention)
+RNA      3    1957      3737   0.6127  0.4046   -0.2081  [-0.2235, -0.1926] 3.04e-153  R reversed  (343 row(s) undefined under this convention)
+RNA      3    1873      3754   0.6095  0.5857   -0.0237  [-0.0401, -0.0074]  4.38e-03  PI permuted  (410 row(s) undefined under this convention)
+RNA      4    9201     88582   0.6802  0.7612   +0.0810  [+0.0760, +0.0859] 3.71e-226  C after  (3274 row(s) undefined under this convention)
+RNA      4    9050     85793   0.6818  0.4596   -0.2222  [-0.2287, -0.2156]  0.00e+00  R reversed  (6214 row(s) undefined under this convention)
+RNA      4    8748     85710   0.6800  0.6446   -0.0355  [-0.0419, -0.0290]  4.23e-27  PI permuted  (6599 row(s) undefined under this convention)
+RNA      5    5868   1243598   0.7088  0.8014   +0.0927  [+0.0873, +0.0980] 4.14e-252  C after  (51465 row(s) undefined under this convention)
+RNA      5    5484   1218728   0.7084  0.2589   -0.4494  [-0.4577, -0.4412]  0.00e+00  R reversed  (76719 row(s) undefined under this convention)
+RNA      5    5846   1220336   0.7098  0.6580   -0.0517  [-0.0583, -0.0451]  9.63e-53  PI permuted  (74749 row(s) undefined under this convention)
+
+Holm across the 24 tests, in p order:
+   RNA  4 R reversed   d=-0.2222  p=0.000e+00  vs 2.083e-03  significant
+   RNA  5 R reversed   d=-0.4494  p=0.000e+00  vs 2.174e-03  significant
+   DNA  5 R reversed   d=-0.2947  p=9.072e-282  vs 2.273e-03  significant
+   DNA  5 PI permuted  d=-0.2490  p=1.475e-267  vs 2.381e-03  significant
+   RNA  5 C after      d=+0.0927  p=4.136e-252  vs 2.500e-03  significant
+   RNA  4 C after      d=+0.0810  p=3.705e-226  vs 2.632e-03  significant
+   DNA  4 R reversed   d=-0.1689  p=2.148e-185  vs 2.778e-03  significant
+   DNA  4 PI permuted  d=-0.1776  p=2.241e-182  vs 2.941e-03  significant
+   RNA  3 R reversed   d=-0.2081  p=3.039e-153  vs 3.125e-03  significant
+   DNA  4 C after      d=-0.1394  p=6.108e-122  vs 3.333e-03  significant
+   RNA  3 C after      d=+0.1395  p=2.942e-69  vs 3.571e-03  significant
+   DNA  4 C before     d=-0.0956  p=6.742e-60  vs 3.846e-03  significant
+   RNA  5 PI permuted  d=-0.0517  p=9.628e-53  vs 4.167e-03  significant
+   DNA  3 R reversed   d=-0.1708  p=1.308e-30  vs 4.545e-03  significant
+   RNA  4 PI permuted  d=-0.0355  p=4.231e-27  vs 5.000e-03  significant
+   DNA  3 PI permuted  d=-0.1625  p=2.085e-23  vs 5.556e-03  significant
+   DNA  3 C after      d=-0.1303  p=8.348e-16  vs 6.250e-03  significant
+   RNA  2 C after      d=+0.2749  p=6.848e-09  vs 7.143e-03  significant
+   DNA  5 C before     d=+0.0321  p=7.809e-09  vs 8.333e-03  significant
+   DNA  3 C before     d=-0.0686  p=2.129e-05  vs 1.000e-02  significant
+   RNA  2 R reversed   d=-0.1884  p=2.227e-05  vs 1.250e-02  significant
+   RNA  3 PI permuted  d=-0.0237  p=4.380e-03  vs 1.667e-02  significant
+   DNA  5 C after      d=-0.0083  p=1.422e-01  vs 2.500e-02  NOT significant
+   RNA  2 PI permuted  d=-0.0132  p=7.961e-01  vs 5.000e-02  NOT significant
