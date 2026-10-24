@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --account=def-kwiese_cpu
+#SBATCH --account=YOUR_ALLOCATION
 #SBATCH --job-name=UMBRA_REPRO
 #SBATCH --time=06:00:00
 #SBATCH --cpus-per-task=1

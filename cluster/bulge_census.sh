@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --account=def-kwiese_cpu
+#SBATCH --account=YOUR_ALLOCATION
 #SBATCH --job-name=BULGECEN
 #SBATCH --time=11:50:00
 #SBATCH --cpus-per-task=8

@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --account=def-kwiese_cpu
+#SBATCH --account=YOUR_ALLOCATION
 #SBATCH --job-name=COFPROBE
 #SBATCH --time=00:20:00
 #SBATCH --cpus-per-task=4
