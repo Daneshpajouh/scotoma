@@ -1,6 +1,7 @@
 """Convert a certify_cell.py certificate into the released per-cell schema, and index it.
 
-REFUSES TO WRITE UNLESS THE INDEPENDENT CHECKER PASSES FIRST. Five row-end certificates were
+REFUSES TO WRITE UNLESS THE CHECKERS PASS FIRST, and, last, the exhaustive sweep of the record it is
+about to write (verify_ceiling_exhaustive.py). Five row-end certificates were
 withdrawn on 2026-10-22 after being verified by the routine that produced them, so a certificate
 reaches data/ here only by surviving verify_ceiling_certificate.py, which computes ball loads by a
 dynamic program over explicit strings and shares no code with the solver, and
@@ -85,6 +86,24 @@ def main(src):
             'it. ceil of it is what proves K = r.',
         'independently_checked_by': ['verify_ceiling_certificate.py', 'verify_F_independent.py'],
     }
+    # THE GATE. The two checkers above sample; neither establishes the maximum load, and this file
+    # divides by the solver's RECORDED maximum without recomputing it. So the record is written to a
+    # scratch file first and must pass verify_ceiling_exhaustive.py, which sweeps every class with its
+    # own dynamic program, before anything reaches data/. A wrong recorded maximum or a total not
+    # above r-1 stops the write here.
+    import tempfile
+    with tempfile.NamedTemporaryFile('w', suffix='.json', delete=False) as tf:
+        json.dump(rec, tf, indent=1)
+    gate = subprocess.run([sys.executable, '-I', os.path.join(HERE, 'verify_ceiling_exhaustive.py'),
+                           tf.name], capture_output=True, text=True)
+    os.unlink(tf.name)
+    print('  %-32s exit %d   %s' % ('verify_ceiling_exhaustive.py', gate.returncode,
+                                   (gate.stdout.strip().splitlines() or ['(no output)'])[-1][:90]))
+    if gate.returncode != 0:
+        sys.exit('REFUSING TO WRITE: the exhaustive sweep did not pass:\n' + gate.stdout)
+    if not bound > r - 1:
+        sys.exit('REFUSING TO WRITE: total %s is not above r-1 = %d' % (bound, r - 1))
+
     os.makedirs(OUT, exist_ok=True)
     # N IS PART OF THE CELL'S IDENTITY. The name used to be cert_m{m}_r{r}.json, so a certificate at
     # a different spacer length would have silently overwritten the panel's and corrupted the index,

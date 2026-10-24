@@ -19,7 +19,8 @@ Keep these files together in one folder. They use only the Python standard libra
 | `verify_ceiling_exhaustive.py` | The independent sweep over the C_m duals: recomputes each certificate's mass and sweeps EVERY centre class, not a sample. Standard library only. Takes one or more `data/floor_certificates/cert_m*.json`. | The C_9 to C_12 dual certificates, exhaustively. |
 | `data/floor_certificates/cert_m9_r9.json` and the m = 10, 11, 12 files | The four duals normalised to maximum ball load at most 1. | The same four rows. |
 | `certify_cell.py`, `dump_floor_certificates.py` | The solvers that produced the certificates, with their own sweeps. **These two need SciPy**; everything else here is standard library. You do not need them to check the certificates, only to regenerate them. | Provenance of the certificate files. |
-| `emit_ceiling_certificate.py` | Writes a certificate file from a solved cell. Standard library only. | Provenance of the certificate files. |
+| `emit_ceiling_certificate.py` | Writes a certificate file from a solved cell. It **refuses to write** unless the sampled checker, `verify_F_independent.py` and the exhaustive sweep all pass on the record it is about to write, and unless the total mass is above r-1. Standard library only. | Provenance of the certificate files. |
+| `verify_F_independent.py` | Checks the closed form the sweep funnels through, over its whole domain. Called by the emitter; runs standalone too. | The share formula the orbit reduction rests on. |
 
 ## What to run, and what a pass looks like
 
@@ -59,3 +60,5 @@ python3 verify_ceiling_exhaustive.py data/floor_certificates/cert_m9_r9.json \
 A pass prints one line per certificate, each reporting the mass against the bound it must clear and the number of centre classes swept against the number that exist, then `ALL PASS` and exit 0. The sweep is exhaustive: 78,732 of 78,732 classes at m = 9, and 10,206, 3,645 and 459 at m = 10, 11 and 12.
 
 It fails loudly. Multiplying one block's mass by ten in `cert_m11_r6.json` gives `FAIL: 416 classes carry load above 1`, `maximum load 1259402/582027, certificate says 1`, and exit 1.
+
+`VERIFY_CEILING.md` is the step-by-step guide to checking the dual certificates.
