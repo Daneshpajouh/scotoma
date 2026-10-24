@@ -1,18 +1,25 @@
 #!/usr/bin/env python3
 """The volume lower bound on covering the pooled panel, computed from the released patterns.
 
-WHY THIS EXISTS. The body prints "no fewer than 839 centres of any provenance here at m = 4, 51.5%
-of the library". On 2026-10-23 that figure had no producer on record. Reconstructing it gives
+WHY THIS EXISTS. Until 2026-10-24 the body printed "no fewer than 839 centres of any provenance
+here at m = 4, 51.5% of the library", and that figure had no producer on record. Reconstructing it
+gives
 
     ceil(286,613,932 / 341,716) = 839 = 51.5% of 1,629,
 
 so it rests on a LOWER BOUND of 286,613,932 for the size of the union of the patterns' radius-4
 balls. The union's exact size, computed here from the released pattern list, is 381,985,082, which
 gives 1,118 and 68.6%. Both are valid lower bounds on the covering number, since a cover needs at
-least ceil(|union| / |ball|) balls; 839 is simply the weaker of the two.
+least ceil(|union| / |ball|) balls; 839 is simply the weaker of the two. Once this script had
+actually been run the body was changed to print the stronger 1,118 (68.6%), so the figure the paper
+quotes is now the exact count below. Neither reaches the 1,629 the certificate proves, which is the
+point the appendix makes: no volume argument gets to the answer.
 
 WHAT IT COSTS, SAID UP FRONT. The union is held as a set of packed 38-bit integers, one per word.
-Measured on this machine: about 5 minutes and about 11 GB of memory for the 1,629 patterns. That is
+Measured on this machine 2026-10-24: 187 s, and a peak resident set of 27.4 GiB with a peak
+memory footprint of 33.7 GiB, for the 1,629 patterns. An earlier note in this file said about
+11 GB; that was wrong by 2.7x and would defeat a reader on a 16 GB machine, so the figure here
+is now the one /usr/bin/time -l reported. That is
 what an exact count costs here; there is no cheaper exact route in this script, and a sampled
 estimate would not be a bound.
 
@@ -80,7 +87,8 @@ def main(argv):
     n = len(patterns[0])
     b = ball_size(n, RADIUS)
     print(f"{len(patterns)} patterns of length {n}; |B_{RADIUS}| = {b:,} (computed, not quoted)")
-    print("counting the exact union; about 5 minutes and 11 GB here", flush=True)
+    print("counting the exact union; about 190 s and a peak resident set near 27 GiB here",
+          flush=True)
 
     t0 = time.time()
     union = exact_union(patterns, RADIUS)
