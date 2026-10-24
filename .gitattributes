@@ -9,3 +9,6 @@ verification/floor_theorem/data/*.txt -text
 # a converting clone rewrote the four released duals so that none of those four matched.
 verification/frac_alln/*.json -text
 verification/frac_alln/data/floor_certificates/*.json -text
+
+# The r = 20, m = 8 certificate: SHA256SUMS and dual20.js pin these bytes, so they must not be converted.
+verification/floor_eight/* -text
