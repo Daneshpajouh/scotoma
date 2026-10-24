@@ -102,6 +102,9 @@ def main(argv):
         pub = PUBLISHED_N.get(m)
         rows[m] = N + 1
         flag = ""
+        if N + 1 < 20:
+            # Outside the paper's scope (n >= 20). Printed for completeness, not claimed.
+            flag += "  (n < 20: below the paper's scope, not a claim it makes)"
         if pub is not None and pub != N + 1:
             flag = f"  <- paper says {pub}"
             bad += 1
@@ -128,8 +131,10 @@ def main(argv):
         print(f"{bad} problem(s). The rebuilt table does not match what the paper prints, or a "
               "check did not run. Neither is a pass.")
         return 1
-    print("Rebuilt. Every all-length threshold is the first length that works, every published "
-          "threshold reproduces, and all four duals pass an exhaustive sweep.")
+    print("Rebuilt. Each threshold is the first length at which THIS WEIGHTING certifies every "
+          "run count; that is not the onset of the floor, which a different argument can "
+          "reach sooner (Theorem 4 settles m = 8 at n = 20). Every published threshold "
+          "reproduces, and all four duals pass an exhaustive sweep.")
     if check:
         print("--check: the rebuilt rows equal the published rows.")
     return 0

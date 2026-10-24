@@ -72,8 +72,11 @@ python3 rebuild_frontier_table.py --check
 It recomputes, from the files in this folder and nothing else, the length-and-budget table the
 paper prints: for each budget the smallest word length N whose step-3 maximum satisfies
 M < 1 + 1/N, the spacer length n = N+1, and whether the criterion FAILS one length below, which is
-what makes each threshold the first length that works rather than a safe point inside a settled
-range. It then sweeps all four released dual certificates exhaustively.
+what makes each threshold the first length at which THIS WEIGHTING certifies every run count. It
+is not the onset of the floor: a different argument can reach a budget sooner, and Theorem 4
+settles m = 8 at n = 20 while the weighting first certifies it at n = 23. Rows printed below
+n = 20 are outside the paper's scope and are not claims the paper makes. It then sweeps all four
+released dual certificates exhaustively.
 
 `--check` compares the rebuilt rows against the thresholds the paper prints and exits non-zero on
 any disagreement. It takes several minutes and prints one row per budget as it goes.
