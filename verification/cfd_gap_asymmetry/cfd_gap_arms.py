@@ -123,6 +123,13 @@ with open(P, newline='') as fh:
 print('single-bulge rows scored: %d   unscorable: %d   zeroed by an IUPAC base: %d'
       % (scored, bad, iupac), flush=True)
 
+# An empty or wrong table must not look like a clean run. Without this the script prints the
+# header and "Holm across the 0 tests" and exits 0, which reads as a pass. Scoring nothing is an
+# invocation error, not a finding.
+if scored == 0:
+    sys.exit('GATE FAILED: no single-bulge row was scored. That is an invocation error, not a '
+             'finding. Check the path points at the CHANGE-seq table named in the README.')
+
 # Paired DeLong for the C-versus-B comparison, as pre-registered: the two scores are on the SAME
 # samples, so the variance of the difference needs the covariance term and an unpaired interval
 # would be wrong. Holm across the strata that clear the floor.
