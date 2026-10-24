@@ -38,6 +38,13 @@ Usage: frac_alln_tail_check.py            N0 table for m = 6..12, monotonicity f
                                           step3_dp.scaled_max(N, m, N + 1), imported from beside this file, which returns
                                           (best, L, word) with M = best / L; and R, the
                                           largest run count r <= n with M <= 1 or r (M - 1) < M
+
+Exit codes. 0: every check passed and every printed value equals its published value. 1: a lemma
+test found a violation or increase, a centre exceeded its bound, the tail table or a finite row
+differs from the published one (PUBLISHED_TAIL and PUBLISHED_FINITE below, generated from the
+released logs; a finite row is compared on M and every_r), or a table row is inconsistent
+(B(N0) >= 1, B(N0 - 1) < 1, a rise, or a value >= 1 past N0). 2: a usage error. A pass is decided
+by this program, not by reading its output.
 """
 import itertools
 import sys
@@ -176,37 +183,203 @@ def centres(m, N, k):
                         ctrl += 1
     print(f"per-centre m={m} N={N} k={k}: {tested} non-pattern centres; {viol} above B(N,s,E0); "
           f"control (count E+1): {ctrl} above", flush=True)
+    return 0 if tested > 0 and viol == 0 else 1
 
 
 def finite(m, Ns):
     import os
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     from step3_dp import scaled_max                # returns (best, L, word); M = best / L
+    bad = 0
     for N in Ns:
         best, L, _ = scaled_max(N, m, N + 1)
         M, n = Fraction(best, L), N + 1
         R = n if M <= 1 else max([r for r in range(1, n + 1) if r * (M - 1) < M], default=0)
-        print(f"m={m} n={n} M={M} R={R} every_r={R == n}", flush=True)
+        want = PUBLISHED_FINITE.get((m, N))
+        if want is None:
+            note = 'no published row'
+        elif (Fraction(want[0]), want[1]) == (M, R == n):
+            note = 'equals the published row'
+        else:
+            note = 'DIFFERS from the published row M=%s every_r=%s' % want
+            bad += 1
+        print(f"m={m} n={n} M={M} R={R} every_r={R == n}  {note}", flush=True)
+    return 1 if bad else 0
+
+
+PUBLISHED_TAIL = {  # m: (N0, B(N0), B(N0-1), worst (s, E0)); generated from logs/tail_and_lemmas.log
+    6: (27, '24/25', '77/76', '(2, 0)'),
+    7: (31, '651/667', '45/44', '(2, 0)'),
+    8: (35, '424/429', '103/100', '(2, 0)'),
+    9: (39, '1071/1073', '29/28', '(2, 0)'),
+    10: (44, '75/77', '165/164', '(2, 0)'),
+    11: (48, '407/414', '319/315', '(2, 0)'),
+    12: (52, '322/325', '948/931', '(2, 0)'),
+}
+
+PUBLISHED_FINITE = {  # (m, N): (M, every_r); generated from logs/finite_all_143_rows.log, 143 rows
+    (6, 19): ('1', True),
+    (6, 20): ('1', True),
+    (6, 21): ('1', True),
+    (6, 22): ('1', True),
+    (6, 23): ('1', True),
+    (6, 24): ('1', True),
+    (6, 25): ('1', True),
+    (6, 26): ('1', True),
+    (7, 19): ('196/187', True),
+    (7, 20): ('1', True),
+    (7, 21): ('1', True),
+    (7, 22): ('1', True),
+    (7, 23): ('1', True),
+    (7, 24): ('1', True),
+    (7, 25): ('1', True),
+    (7, 26): ('1', True),
+    (7, 27): ('1', True),
+    (7, 28): ('1', True),
+    (7, 29): ('1', True),
+    (7, 30): ('1', True),
+    (8, 19): ('108/85', False),
+    (8, 20): ('116/99', False),
+    (8, 21): ('62/57', False),
+    (8, 22): ('66/65', True),
+    (8, 23): ('1', True),
+    (8, 24): ('1', True),
+    (8, 25): ('1', True),
+    (8, 26): ('1', True),
+    (8, 27): ('1', True),
+    (8, 28): ('1', True),
+    (8, 29): ('1', True),
+    (8, 30): ('1', True),
+    (8, 31): ('1', True),
+    (8, 32): ('1', True),
+    (8, 33): ('1', True),
+    (8, 34): ('1', True),
+    (9, 19): ('46987/29920', False),
+    (9, 20): ('517315/369512', False),
+    (9, 21): ('270/209', False),
+    (9, 22): ('6/5', False),
+    (9, 23): ('102/91', False),
+    (9, 24): ('81/77', False),
+    (9, 25): ('1', True),
+    (9, 26): ('1', True),
+    (9, 27): ('1', True),
+    (9, 28): ('1', True),
+    (9, 29): ('1', True),
+    (9, 30): ('1', True),
+    (9, 31): ('1', True),
+    (9, 32): ('1', True),
+    (9, 33): ('1', True),
+    (9, 34): ('1', True),
+    (9, 35): ('1', True),
+    (9, 36): ('1', True),
+    (9, 37): ('1', True),
+    (9, 38): ('1', True),
+    (10, 19): ('34551/14144', False),
+    (10, 20): ('17072293/8868288', False),
+    (10, 21): ('8205/5168', False),
+    (10, 22): ('5467093/3879876', False),
+    (10, 23): ('55/42', False),
+    (10, 24): ('175/143', False),
+    (10, 25): ('185/161', False),
+    (10, 26): ('13/12', False),
+    (10, 27): ('41/40', True),
+    (10, 28): ('1', True),
+    (10, 29): ('1', True),
+    (10, 30): ('1', True),
+    (10, 31): ('1', True),
+    (10, 32): ('1', True),
+    (10, 33): ('1', True),
+    (10, 34): ('1', True),
+    (10, 35): ('1', True),
+    (10, 36): ('1', True),
+    (10, 37): ('1', True),
+    (10, 38): ('1', True),
+    (10, 39): ('1', True),
+    (10, 40): ('1', True),
+    (10, 41): ('1', True),
+    (10, 42): ('1', True),
+    (10, 43): ('1', True),
+    (11, 19): ('6694579/1584128', False),
+    (11, 20): ('53651089/17199104', False),
+    (11, 21): ('46315249/19348992', False),
+    (11, 22): ('36173889/18811520', False),
+    (11, 23): ('188225/117572', False),
+    (11, 24): ('15323547/10816624', False),
+    (11, 25): ('396/299', False),
+    (11, 26): ('209/168', False),
+    (11, 27): ('88/75', False),
+    (11, 28): ('231/208', False),
+    (11, 29): ('484/459', False),
+    (11, 30): ('253/252', True),
+    (11, 31): ('1', True),
+    (11, 32): ('1', True),
+    (11, 33): ('1', True),
+    (11, 34): ('1', True),
+    (11, 35): ('1', True),
+    (11, 36): ('1', True),
+    (11, 37): ('1', True),
+    (11, 38): ('1', True),
+    (11, 39): ('1', True),
+    (11, 40): ('1', True),
+    (11, 41): ('1', True),
+    (11, 42): ('1', True),
+    (11, 43): ('1', True),
+    (11, 44): ('1', True),
+    (11, 45): ('1', True),
+    (11, 46): ('1', True),
+    (11, 47): ('1', True),
+    (12, 19): ('67603/8704', False),
+    (12, 20): ('187909627/34398208', False),
+    (12, 21): ('17180561/4299776', False),
+    (12, 22): ('226403179/75246080', False),
+    (12, 23): ('1487209/632320', False),
+    (12, 24): ('57083797/29745716', False),
+    (12, 25): ('4980497/3090464', False),
+    (12, 26): ('24051386/16900975', False),
+    (12, 27): ('234/175', False),
+    (12, 28): ('82/65', False),
+    (12, 29): ('43/36', False),
+    (12, 30): ('135/119', False),
+    (12, 31): ('94/87', False),
+    (12, 32): ('98/95', False),
+    (12, 33): ('1', True),
+    (12, 34): ('1', True),
+    (12, 35): ('1', True),
+    (12, 36): ('1', True),
+    (12, 37): ('1', True),
+    (12, 38): ('1', True),
+    (12, 39): ('1', True),
+    (12, 40): ('1', True),
+    (12, 41): ('1', True),
+    (12, 42): ('1', True),
+    (12, 43): ('1', True),
+    (12, 44): ('1', True),
+    (12, 45): ('1', True),
+    (12, 46): ('1', True),
+    (12, 47): ('1', True),
+    (12, 48): ('1', True),
+    (12, 49): ('1', True),
+    (12, 50): ('1', True),
+    (12, 51): ('1', True),
+}
 
 
 def main():
-    failures = []
     if sys.argv[1:2] == ["--finite"]:
         if len(sys.argv) < 4:
             print("usage: frac_alln_tail_check.py --finite m N [N ...]   (N = n - 1)")
-            return
-        finite(int(sys.argv[2]), map(int, sys.argv[3:]))
-        return
+            return 2
+        return finite(int(sys.argv[2]), map(int, sys.argv[3:]))
     if sys.argv[1:2] == ["--centres"]:
         if len(sys.argv) != 5:
             print("usage: frac_alln_tail_check.py --centres m N k")
-            return
-        centres(*map(int, sys.argv[2:5]))
-        return
+            return 2
+        return centres(*map(int, sys.argv[2:5]))
     if sys.argv[1:] not in ([], ["--lemmas"]):
         print(__doc__)
-        return
+        return 2
     lemmas = "--lemmas" in sys.argv[1:]
+    fails = 0
     print("m  N0  n0  B(N0)  B(N0-1)  worst(s,E0)  B nonincreasing 2m+2..100  B(N)<1 for N0..100")
     for m in range(6, 13):
         N = 2 * m + 2                             # N0 is defined as the least N >= 2m + 2
@@ -224,30 +397,22 @@ def main():
                 all_below = False
             prev = val
         print(f"{m}  {N0}  {N0 + 1}  {b0}  {b1}  {arg}  rises={rises}  {all_below}", flush=True)
-        if rises or not all_below:
-            failures.append(f"B(N) at m={m}: rises={rises}, all_below={all_below}")
+        if (N0, str(b0), str(b1), str(arg)) != PUBLISHED_TAIL[m] or rises or not all_below or b0 >= 1 or b1 < 1:
+            print(f"  FAIL m={m}: published {PUBLISHED_TAIL[m]}, rises={rises}, all_below={all_below}", flush=True)
+            fails += 1
     if lemmas:
         for m in range(6, 13):
             bad, tested = length_lemma(m, 62)
             print(f"length lemma m={m}: {bad} increases in {tested} (n, sigma, eps, D) tests, pools n up to 61 against n + 1",
                   flush=True)
-            if bad:
-                failures.append(f"length lemma m={m}: {bad} increases in {tested} tests")
+            fails += bad > 0 or tested == 0
         for N in range(2, 9):
             bad, tested = neighbour_lemma(N)
             print(f"neighbour lemma N={N}: {bad} violations in {tested} (centre, E) tests", flush=True)
-            if bad:
-                failures.append(f"neighbour lemma N={N}: {bad} violations in {tested} tests")
-
-    # A verdict and an exit code. This script counted its violations, printed them and exited 0,
-    # so a run with a real violation was indistinguishable from a clean one to anything but a human
-    # reading the lines. Found on 2026-10-23 by a sweep for this shape across the whole repository,
-    # after two seats hit it independently in two other folders.
-    print("\nVERDICT:", "PASS" if not failures else "FAIL")
-    for f in failures:
-        print("   ", f)
-    return 1 if failures else 0
+            fails += bad > 0 or tested == 0
+    print("ALL PASS" if not fails else f"FAILED: {fails} check(s)", flush=True)
+    return 1 if fails else 0
 
 
 if __name__ == "__main__":
-    sys.exit(main() or 0)
+    sys.exit(main())
