@@ -64,11 +64,29 @@ def cover(k):
     rec(Umask,[],0)
     return best
 
+no_cover_at, found_at, verified = [], None, False
 for k in (3,4,5):
     r=cover(k)
     print("k =",k,"->", "COVERED by "+str([words[i] for i in r]) if r else "no cover")
     if r:
         chk=set()
         for i in r: chk|=ball(words[i],m,n)
-        print("   verify: union of chosen balls has",len(chk),"words; contains U:",U<=chk)
+        contains = U <= chk
+        print("   verify: union of chosen balls has",len(chk),"words; contains U:",contains)
+        found_at, verified = k, contains
         break
+    no_cover_at.append(k)
+
+# EXPECTED OUTCOME, so the run is judged rather than read. This script exists to show the floor
+# FAILING: ACGTA has 5 runs and so 5 patterns, yet its union of radius-2 balls is covered by 4
+# centres placed anywhere. A verified cover at r - 1 = 4 is the finding; no cover at 3 bounds it.
+# A cover at 3 would mean the counterexample is stronger than the paper says, so it must FAIL
+# here rather than pass quietly.
+import sys
+EXPECTED_COVER_AT = len(pats) - 1
+good = (found_at == EXPECTED_COVER_AT) and verified and ((EXPECTED_COVER_AT - 1) in no_cover_at)
+print("\nVERDICT:", "PASS" if good else "FAIL")
+if not good:
+    print(f"   cover at k={found_at} (expected {EXPECTED_COVER_AT}), containment {verified}, "
+          f"no cover at {no_cover_at}")
+sys.exit(0 if good else 1)
