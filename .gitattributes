@@ -1,0 +1,6 @@
+# The verification data lists are digest-checked: pooled_patterns_producer.py compares a rebuilt
+# file byte for byte against the released one, and three scripts print their input's SHA-256. A
+# clone on Windows with the default core.autocrlf=true would rewrite these files' line endings and
+# every one of those digests would differ from the published value. Marking them -text stops git
+# converting them, so the bytes are the same on every platform.
+verification/floor_theorem/data/*.txt -text
