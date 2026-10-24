@@ -83,8 +83,11 @@ any disagreement, so one run is enough; `--check` only adds a closing confirmati
 counts the rows it compared and fails unless all five published rows were, since a comparison only
 covers the rows it is given.
 
-The whole run takes about 10 to 12 minutes on a busy machine, measured on a clean clone. Most of
-that is the last three rows: roughly 1 minute for m = 10, 2.5 for m = 11 and 5 to 6 for m = 12.
+The whole run takes about 10 to 25 minutes on a busy machine, measured on clean clones under two
+interpreters. The Python version dominates: 3.13 took 10 to 14 minutes across three runs, while
+the macOS built-in python3 (3.9) took about 23, and its CPU time alone was 16 to 19 minutes, so a
+reader on the built-in interpreter should expect the high end. Most of the time is the last three
+rows: roughly 1 minute for m = 10, 2.5 for m = 11 and 5 to 6 for m = 12, timed under 3.13.
 Each row prints a "searching" line before its search starts, so a long pause is a search in
 progress and not a hang. An idle machine is faster, by an amount not measured.
 
