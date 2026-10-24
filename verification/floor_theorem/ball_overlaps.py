@@ -30,13 +30,22 @@ for d_ in range(0, 10):
     I[d_] = inter(d_)
     print("  %2d   %12d   %8.3f%%" % (d_, I[d_], 100.0 * I[d_] / B))
 
+# The controls below decide the exit code. Until 2026-10-24 this script printed them and exited 0
+# whatever they said, so a broken overlap formula reported success: mutating inter() to return
+# tot - 1 left both controls false and the exit status still 0. They are enforced now.
+ok = True
+
 # sanity: delta=0 must equal |B|
-print("\ncontrol delta=0 equals |B|:", I[0] == B)
+c0 = (I[0] == B)
+ok = ok and c0
+print("\ncontrol delta=0 equals |B|:", c0)
 # two numbers quoted from an independent route, recomputed here as a control rather than taken on report
 within3 = sum(comb(N, k) * (q - 1) ** k for k in range(4))
 shell4_touching = comb(N - 1, 3) * (q - 1) ** 4
-print("control delta=1: within-3 ball = %d, shell-4 touching the differing position = %d, sum = %d, computed = %d"
-      % (within3, shell4_touching, within3 + shell4_touching, I[1]))
+c1 = (within3 + shell4_touching == I[1])
+ok = ok and c1
+print("control delta=1: within-3 ball = %d, shell-4 touching the differing position = %d, sum = %d, computed = %d  %s"
+      % (within3, shell4_touching, within3 + shell4_touching, I[1], "ok" if c1 else "MISMATCH"))
 
 # union lower bound along the isometric path, r patterns at d(i,j)=|i-j|
 for r in (14, 16, 20):
@@ -46,3 +55,6 @@ for r in (14, 16, 20):
         lb += max(0, B - sub)
     print("\nr = %2d  union lower bound = %d   volume floor ceil(U/|B|) = %d"
           % (r, lb, -(-lb // B)))
+
+print("\nVERDICT:", "PASS" if ok else "FAIL")
+raise SystemExit(0 if ok else 1)
