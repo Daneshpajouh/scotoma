@@ -190,6 +190,7 @@ def finite(m, Ns):
 
 
 def main():
+    failures = []
     if sys.argv[1:2] == ["--finite"]:
         if len(sys.argv) < 4:
             print("usage: frac_alln_tail_check.py --finite m N [N ...]   (N = n - 1)")
@@ -223,15 +224,30 @@ def main():
                 all_below = False
             prev = val
         print(f"{m}  {N0}  {N0 + 1}  {b0}  {b1}  {arg}  rises={rises}  {all_below}", flush=True)
+        if rises or not all_below:
+            failures.append(f"B(N) at m={m}: rises={rises}, all_below={all_below}")
     if lemmas:
         for m in range(6, 13):
             bad, tested = length_lemma(m, 62)
             print(f"length lemma m={m}: {bad} increases in {tested} (n, sigma, eps, D) tests, pools n up to 61 against n + 1",
                   flush=True)
+            if bad:
+                failures.append(f"length lemma m={m}: {bad} increases in {tested} tests")
         for N in range(2, 9):
             bad, tested = neighbour_lemma(N)
             print(f"neighbour lemma N={N}: {bad} violations in {tested} (centre, E) tests", flush=True)
+            if bad:
+                failures.append(f"neighbour lemma N={N}: {bad} violations in {tested} tests")
+
+    # A verdict and an exit code. This script counted its violations, printed them and exited 0,
+    # so a run with a real violation was indistinguishable from a clean one to anything but a human
+    # reading the lines. Found on 2026-10-23 by a sweep for this shape across the whole repository,
+    # after two seats hit it independently in two other folders.
+    print("\nVERDICT:", "PASS" if not failures else "FAIL")
+    for f in failures:
+        print("   ", f)
+    return 1 if failures else 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main() or 0)
