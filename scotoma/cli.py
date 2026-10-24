@@ -305,7 +305,7 @@ def cmd_budget(a) -> int:
     print("\nA row certifies 'fewer than k cleaved sites among the enumerated candidates' at")
     print(f"confidence {float(confidence):.4f}. It licenses 'none' only if an unclean guide")
     print("cleaves at least k enumerated sites, which is a claim about the enzyme, not the")
-    print("sampling. Candidates your reference cannot represent are outside N and outside the")
+    print("sampling. Candidates in windows absent from your reference are outside N and outside")
     print("guarantee; that is what `scotoma scan` measures.")
     _write_json(a.out_json, {
         "n_sites": a.n,
@@ -348,7 +348,7 @@ def cmd_reference_count(a) -> int:
 def build_parser():
     p = argparse.ArgumentParser(
         prog="scotoma",
-        description="Off-target candidate enumeration in sequence a reference cannot represent.")
+        description="Off-target candidate enumeration in target windows absent from a reference.")
     sub = p.add_subparsers(dest="command", required=True)
 
     u = sub.add_parser("universe", help="build a reference's target-window universe")

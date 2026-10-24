@@ -233,7 +233,7 @@ agree on every case tested.
   enough that a single genome supports no useful inference.
 - `m*` certifies "fewer than k cleaved sites among the enumerated candidates". It licenses "none"
   only under the further assumption that an unclean guide cleaves at least k enumerated sites, which
-  is a claim about the enzyme that this code cannot check. Candidates the reference cannot represent
+  is a claim about the enzyme that this code cannot check. Candidates in windows absent from the reference
   are outside `N` and outside the guarantee, which is the whole point of `scotoma scan`.
 
 ## License

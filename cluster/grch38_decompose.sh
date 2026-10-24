@@ -4,7 +4,7 @@
 #SBATCH --time=06:00:00
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=96G
-#SBATCH --output=/scratch/amird/umbra_run/G38DECOMP_%j.out
+#SBATCH --output=/scratch/YOUR_ACCOUNT/umbra_run/G38DECOMP_%j.out
 set -uo pipefail
 # The reverse of job 66001436. chm13_decompose.py is symmetric in its two universe
 # arguments: it decomposes the universe given as --chm13 (loaded with multiplicity)
@@ -17,14 +17,14 @@ set -uo pipefail
 # meaning; the file name and this comment are the record of that.
 module load StdEnv/2023 2>/dev/null || true
 module load scipy-stack 2>/dev/null || true
-PKG=/scratch/amird/umbra_pkg2
+PKG=${SCRATCH:?set SCRATCH to your own scratch directory}/umbra_pkg2
 export PYTHONPATH="$PKG${PYTHONPATH:+:$PYTHONPATH}"
 export PYTHONUNBUFFERED=1
 echo "host $(hostname) date $(date -u +%FT%TZ)"
 echo "SWAPPED: --chm13 is GS_GRCh38.npz and --grch38 is GS_CHM13.npz, by design"
 python3 "$PKG/cluster/chm13_decompose.py" \
-  --chm13 /scratch/amird/addressability/GS_GRCh38.npz \
-  --grch38 /scratch/amird/addressability/GS_CHM13.npz \
-  --panel /scratch/amird/recomb_mg/data/CHANGEseq_CR_Lazzarotto_2020_dataset.csv --changeseq \
-  --out-json /scratch/amird/umbra_run/G38DECOMP_grch38_only.json
+  --chm13 ${SCRATCH:?set SCRATCH to your own scratch directory}/addressability/GS_GRCh38.npz \
+  --grch38 ${SCRATCH:?set SCRATCH to your own scratch directory}/addressability/GS_CHM13.npz \
+  --panel ${SCRATCH:?set SCRATCH to your own scratch directory}/recomb_mg/data/CHANGEseq_CR_Lazzarotto_2020_dataset.csv --changeseq \
+  --out-json ${SCRATCH:?set SCRATCH to your own scratch directory}/umbra_run/G38DECOMP_grch38_only.json
 echo "G38DECOMP DONE"

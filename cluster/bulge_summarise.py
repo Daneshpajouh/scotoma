@@ -8,9 +8,9 @@ the same reference bytes; nothing here depends on our enumerator.
 import json, sys, collections
 
 MM = int(sys.argv[1]) if len(sys.argv) > 1 else 4
-W = sys.argv[2] if len(sys.argv) > 2 else "/scratch/amird/bulge_census"
-UNGAPPED = "/scratch/amird/cof_h2h/out_ngg_mm6.txt"   # <=6; filtered to <=MM below
-PANEL = "/scratch/amird/umbra_run/PANELREF_GRCh38_NGG.json"
+W = sys.argv[2] if len(sys.argv) > 2 else "${SCRATCH:?set SCRATCH to your own scratch directory}/bulge_census"
+UNGAPPED = "${SCRATCH:?set SCRATCH to your own scratch directory}/cof_h2h/out_ngg_mm6.txt"   # <=6; filtered to <=MM below
+PANEL = "${SCRATCH:?set SCRATCH to your own scratch directory}/umbra_run/PANELREF_GRCh38_NGG.json"
 
 rows = json.load(open(PANEL))["rows"]
 gi_of_spacer = {r["spacer"]: r["guide_index"] for r in rows}

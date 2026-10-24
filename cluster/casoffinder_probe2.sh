@@ -4,9 +4,9 @@
 #SBATCH --time=00:20:00
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=16000M
-#SBATCH --output=/scratch/amird/umbra_run/COFPROBE2_%j.out
+#SBATCH --output=/scratch/YOUR_ACCOUNT/umbra_run/COFPROBE2_%j.out
 set -uo pipefail
-ENV=/scratch/amird/casoffinder_env
+ENV=${SCRATCH:?set SCRATCH to your own scratch directory}/casoffinder_env
 export PATH="$ENV/bin:$PATH"
 export LD_LIBRARY_PATH="$ENV/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
 echo "host $(hostname)  date $(date -u +%FT%TZ)"
@@ -30,7 +30,7 @@ timeout 120 cas-offinder "$WORK/in.txt" C "$WORK/out.txt" < /dev/null 2>&1 | hea
 echo "--- toy output ---"
 cat "$WORK/out.txt" 2>/dev/null || echo "no output file"
 echo "=== GRCh38 fasta candidates ==="
-ls /scratch/amird/addressability | grep -iE 'fa$|fasta|2bit|GRCh38|hg38' | head
-ls /scratch/amird/references 2>/dev/null | head -15
-ls /scratch/amird/hprc_r2 2>/dev/null | head -15
+ls ${SCRATCH:?set SCRATCH to your own scratch directory}/addressability | grep -iE 'fa$|fasta|2bit|GRCh38|hg38' | head
+ls ${SCRATCH:?set SCRATCH to your own scratch directory}/references 2>/dev/null | head -15
+ls ${SCRATCH:?set SCRATCH to your own scratch directory}/hprc_r2 2>/dev/null | head -15
 echo "COFPROBE2 DONE"

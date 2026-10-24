@@ -1,4 +1,6 @@
-# Verify the cyclic construction in the canonical (threshold) coordinates.
+# Verify the cyclic-shift construction in the canonical (threshold) coordinates: witnesses
+# obtained from the thresholds by writing letters 2 and 3 on a support shifted cyclically
+# with the centre index, support S = {4, 9, 16} for letter 2 and {6, 12} for letter 3.
 # P_k = 1^k 0^(N-k), 1-indexed coordinates 1..N, alphabet {0,1,2,3}.
 N = 19
 A = {4, 9, 16}

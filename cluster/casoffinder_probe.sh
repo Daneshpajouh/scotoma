@@ -4,9 +4,9 @@
 #SBATCH --time=00:20:00
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=16G
-#SBATCH --output=/scratch/amird/umbra_run/COFPROBE_%j.out
+#SBATCH --output=/scratch/YOUR_ACCOUNT/umbra_run/COFPROBE_%j.out
 set -uo pipefail
-ENV=/scratch/amird/casoffinder_env
+ENV=${SCRATCH:?set SCRATCH to your own scratch directory}/casoffinder_env
 export PATH="$ENV/bin:$PATH"
 export LD_LIBRARY_PATH="$ENV/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
 export OCL_ICD_VENDORS="$ENV/etc/OpenCL/vendors"
@@ -21,8 +21,8 @@ echo "=============== 3. OpenCL devices ==============="
 ls "$ENV/etc/OpenCL/vendors" 2>&1
 cas-offinder --help 2>&1 | head -20 || true
 echo "=============== 4. candidate GRCh38 FASTA on this filesystem ==============="
-for p in /scratch/amird/addressability /scratch/amird/hprc_r2 /scratch/amird/references \
-         /scratch/amird/ot_data /scratch/amird/validation_data /scratch/amird/recomb_mg/data; do
+for p in ${SCRATCH:?set SCRATCH to your own scratch directory}/addressability ${SCRATCH:?set SCRATCH to your own scratch directory}/hprc_r2 ${SCRATCH:?set SCRATCH to your own scratch directory}/references \
+         ${SCRATCH:?set SCRATCH to your own scratch directory}/ot_data ${SCRATCH:?set SCRATCH to your own scratch directory}/validation_data ${SCRATCH:?set SCRATCH to your own scratch directory}/recomb_mg/data; do
   echo "--- $p"
   ls "$p" 2>/dev/null | grep -iE 'fa$|fa\.gz$|fasta|2bit|GRCh38|hg38|chm13' | head -12
 done

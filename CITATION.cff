@@ -2,7 +2,7 @@ cff-version: 1.2.0
 title: Scotoma
 message: If you use this software, please cite it using these metadata.
 abstract: >-
-  Off-target candidate enumeration in sequence a reference genome cannot represent. Given a
+  Off-target candidate enumeration in target windows absent from a reference genome. Given a
   haplotype-resolved assembly, a reference, and a guide panel, Scotoma partitions the assembly's
   SpCas9 target windows into those the reference contains and those it does not, scores both
   against the same panel in a size-matched comparison, and reports the candidate density of each.

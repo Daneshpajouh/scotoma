@@ -32,7 +32,7 @@ for d_ in range(0, 10):
 
 # sanity: delta=0 must equal |B|
 print("\ncontrol delta=0 equals |B|:", I[0] == B)
-# The two quoted numbers for delta=1
+# two numbers quoted from an independent route, recomputed here as a control rather than taken on report
 within3 = sum(comb(N, k) * (q - 1) ** k for k in range(4))
 shell4_touching = comb(N - 1, 3) * (q - 1) ** 4
 print("control delta=1: within-3 ball = %d, shell-4 touching the differing position = %d, sum = %d, computed = %d"

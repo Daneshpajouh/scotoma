@@ -1,4 +1,4 @@
-"""Scotoma: off-target candidate enumeration in sequence a reference genome cannot represent.
+"""Scotoma: off-target candidate enumeration in target windows absent from a reference genome.
 
 Every variant-aware off-target screen in current use is anchored to a linear reference. It can
 substitute bases, and recent tools can represent indels and population variants, but a candidate

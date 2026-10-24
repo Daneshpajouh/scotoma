@@ -1,4 +1,4 @@
-"""The measurement: how many off-target candidates live in sequence a reference cannot represent.
+"""The measurement: how many off-target candidates live in target windows absent from a reference.
 
 The design is a matched-arm comparison within a single genome, which is what makes the result
 interpretable:

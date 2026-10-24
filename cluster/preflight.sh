@@ -4,14 +4,14 @@
 #SBATCH --time=00:25:00
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
-#SBATCH --output=/scratch/amird/umbra_run/PREFLIGHT_%j.out
+#SBATCH --output=/scratch/YOUR_ACCOUNT/umbra_run/PREFLIGHT_%j.out
 set -uo pipefail
 
 echo "host $(hostname)  date $(date -u +%FT%TZ)"
 module load StdEnv/2023 2>/dev/null || true
 module load scipy-stack 2>/dev/null || true
 
-PKG=/scratch/amird/umbra_pkg
+PKG=${SCRATCH:?set SCRATCH to your own scratch directory}/umbra_pkg
 cd "$PKG" || exit 1
 
 echo "=== python and numpy ==="
@@ -25,9 +25,9 @@ echo
 echo "=== can umbra read the existing GRCh38 universe? ==="
 python3 - <<'PY'
 import sys
-sys.path.insert(0, "/scratch/amird/umbra_pkg")
+sys.path.insert(0, "${SCRATCH:?set SCRATCH to your own scratch directory}/umbra_pkg")
 from scotoma.universe import load_universe
-codes, meta = load_universe("/scratch/amird/addressability/GS_GRCh38.npz")
+codes, meta = load_universe("${SCRATCH:?set SCRATCH to your own scratch directory}/addressability/GS_GRCh38.npz")
 print("codes", f"{codes.size:,}", "dtype", codes.dtype)
 print("sorted and unique: enforced by load_universe (no exception raised)")
 print("meta", meta)
@@ -39,9 +39,9 @@ echo
 echo "=== panel: 110 guides from the CHANGE-seq table? ==="
 python3 - <<'PY'
 import sys
-sys.path.insert(0, "/scratch/amird/umbra_pkg")
+sys.path.insert(0, "${SCRATCH:?set SCRATCH to your own scratch directory}/umbra_pkg")
 from scotoma.panel import load_panel
-codes, rep = load_panel("/scratch/amird/recomb_mg/data/CHANGEseq_CR_Lazzarotto_2020_dataset.csv",
+codes, rep = load_panel("${SCRATCH:?set SCRATCH to your own scratch directory}/recomb_mg/data/CHANGEseq_CR_Lazzarotto_2020_dataset.csv",
                         changeseq=True)
 print(rep)
 assert codes.size == 110, f"GATE FAIL expected 110 distinct guides, got {codes.size}"
@@ -50,5 +50,5 @@ PY
 
 echo
 echo "=== assembly staged? ==="
-ls -la /scratch/amird/hprc_r2/assemblies/HG00235_hap1_hprc_r2_v1.0.1.fa.gz
+ls -la ${SCRATCH:?set SCRATCH to your own scratch directory}/hprc_r2/assemblies/HG00235_hap1_hprc_r2_v1.0.1.fa.gz
 echo "PREFLIGHT DONE"
