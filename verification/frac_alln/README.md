@@ -16,6 +16,9 @@ Keep these files together in one folder. They use only the Python standard libra
 | `close_r6.py` | Closes r = 6 at n = 20: 811/680 at lambda = 5/136 against 6/5. | The statement that r = 6 is proved at m = 8, n = 20. |
 | `verify_ceiling_certificate.py` | Recomputes each dual certificate from its JSON and checks the bound, the sampled pairs and the worst sampled load. Takes a `cert_*.json`. | The C_9, C_10 and C_11 dual certificates. |
 | `cert_19_9_9.json`, `cert_19_10_7.json`, `cert_19_11_6.json` | The three certificates themselves, as data. | The same three rows. |
+| `verify_ceiling_exhaustive.py` | The independent sweep over the C_m duals: recomputes each certificate's mass and sweeps EVERY centre class, not a sample. Standard library only. Takes one or more `data/floor_certificates/cert_m*.json`. | The C_9 to C_12 dual certificates, exhaustively. |
+| `data/floor_certificates/cert_m9_r9.json` and the m = 10, 11, 12 files | The four duals normalised to maximum ball load at most 1. | The same four rows. |
+| `certify_cell.py`, `dump_floor_certificates.py` | The solvers that produced the certificates, with their own sweeps. **These two need SciPy**; everything else here is standard library. You do not need them to check the certificates, only to regenerate them. | Provenance of the certificate files. |
 
 ## What to run, and what a pass looks like
 
@@ -43,3 +46,15 @@ Self-tests. `step3_dp.py` must print `ok` at its three brute-force sizes before 
 ## Reference outputs
 
 `logs/` holds the outputs these files gave in a clean-room run, for comparison line by line, plus the full list of 143 finite maxima (m = 6 to 12, every n from 20 to n_0 - 1). See `logs/README.md` for how each log was made.
+
+## Checking the dual certificates in one command
+
+```
+python3 verify_ceiling_exhaustive.py data/floor_certificates/cert_m9_r9.json \
+    data/floor_certificates/cert_m10_r7.json data/floor_certificates/cert_m11_r6.json \
+    data/floor_certificates/cert_m12_r4.json
+```
+
+A pass prints one line per certificate, each reporting the mass against the bound it must clear and the number of centre classes swept against the number that exist, then `ALL PASS` and exit 0. The sweep is exhaustive: 78,732 of 78,732 classes at m = 9, and 10,206, 3,645 and 459 at m = 10, 11 and 12.
+
+It fails loudly. Multiplying one block's mass by ten in `cert_m11_r6.json` gives `FAIL: 416 classes carry load above 1`, `maximum load 1259402/582027, certificate says 1`, and exit 1.

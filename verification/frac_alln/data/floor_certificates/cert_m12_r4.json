@@ -1,0 +1,55 @@
+{
+ "N": 19,
+ "m": 12,
+ "r": 4,
+ "free_length": 16,
+ "status": "PROVED",
+ "criterion": "K >= ceil(LP*); a feasible dual of mass > r-1 proves K = r",
+ "float_lp_optimum": 3.1374879901243986,
+ "exact_total_mass": "7843719/2500000",
+ "exact_total_mass_float": 3.1374876,
+ "ceiling": 4,
+ "exact_max_ball_mass": "9999999/10000000",
+ "max_ball_at": [
+  "000",
+  0
+ ],
+ "centre_classes_verified": 136,
+ "support_orbits": 6,
+ "rounding": "masses rounded DOWN to denominator 10000000, which preserves feasibility",
+ "dual": [
+  {
+   "prefix": "000",
+   "free_weight": 12,
+   "mass": "260053/500000"
+  },
+  {
+   "prefix": "001",
+   "free_weight": 11,
+   "mass": "4798939/10000000"
+  },
+  {
+   "prefix": "011",
+   "free_weight": 11,
+   "mass": "4798939/10000000"
+  },
+  {
+   "prefix": "100",
+   "free_weight": 12,
+   "mass": "5687439/10000000"
+  },
+  {
+   "prefix": "110",
+   "free_weight": 12,
+   "mass": "5687439/10000000"
+  },
+  {
+   "prefix": "111",
+   "free_weight": 12,
+   "mass": "260053/500000"
+  }
+ ],
+ "DO_NOT_READ_THE_MASS_AS_A_MEASUREMENT": "exact_total_mass is rounded DOWN so that feasibility is preserved. It is therefore a safe LOWER bound on the optimum and systematically understates it, here by about 1e-6. It must not be read back as the value of tau*: grading tightness on it reported this cell as having room when it has none. Use float_lp_optimum for how much room is left, and the exact mass only for the proof that K = r.",
+ "room_to_r_by_optimum": 0.8625120098756014,
+ "tight_and_provably_free": false
+}
