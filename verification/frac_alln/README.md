@@ -47,7 +47,7 @@ Self-tests. `step3_dp.py` must print `ok` at its three brute-force sizes before 
 
 ## Reference outputs
 
-`logs/` holds the outputs these files gave in a clean-room run, for comparison line by line, plus the full list of 143 finite maxima (m = 6 to 12, every n from 20 to n_0 - 1). See `logs/README.md` for how each log was made.
+`logs/` holds the outputs these files gave in a clean-room run, for comparison line by line, plus the full list of 143 finite maxima (m = 6 to 12, every n from 20 to n_0 - 1). See `logs/README.md` for how each log was made. To replay all 143 maxima and compare them with that list, run `python3 logs/release_boundary_rows.py --all` (about 2.4 hours on one core; it exits 1 on any mismatch).
 
 ## Checking the dual certificates in one command
 
