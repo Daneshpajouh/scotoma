@@ -2,15 +2,24 @@
 
 A candidate is a genomic locus for a guide, keyed (guide, chrom, position, strand). The
 ungapped set comes from the validated Cas-OFFinder run that reproduced our own enumerator
-exactly at this threshold, so both sides of the comparison are produced by the same tool and
-the same reference bytes; nothing here depends on our enumerator.
+exactly through five mismatches, so both sides of the comparison are produced by the same tool and
+the same reference bytes; nothing here depends on our enumerator. At six it is higher by four, the
+three genomic-N windows and the one both-strand window that our universe excludes by convention.
 """
-import json, sys, collections
+import json, os, sys, collections
+
+# The path scrub that prepared this release wrote the shell form "${SCRATCH:?...}" into these
+# three strings. Python does not expand it, so the script stopped on a literal path and could not
+# be run as shipped. Read the variable the way the .sh files in this directory do, and fail with
+# their message when it is unset.
+SCRATCH = os.environ.get("SCRATCH")
+if not SCRATCH:
+    sys.exit("set SCRATCH to your own scratch directory")
 
 MM = int(sys.argv[1]) if len(sys.argv) > 1 else 4
-W = sys.argv[2] if len(sys.argv) > 2 else "${SCRATCH:?set SCRATCH to your own scratch directory}/bulge_census"
-UNGAPPED = "${SCRATCH:?set SCRATCH to your own scratch directory}/cof_h2h/out_ngg_mm6.txt"   # <=6; filtered to <=MM below
-PANEL = "${SCRATCH:?set SCRATCH to your own scratch directory}/umbra_run/PANELREF_GRCh38_NGG.json"
+W = sys.argv[2] if len(sys.argv) > 2 else SCRATCH + "/bulge_census"
+UNGAPPED = os.environ.get("UNGAPPED", SCRATCH + "/cof_h2h/out_ngg_mm6.txt")  # <=6; filtered to <=MM below
+PANEL = os.environ.get("PANEL", SCRATCH + "/umbra_run/PANELREF_GRCh38_NGG.json")
 
 rows = json.load(open(PANEL))["rows"]
 gi_of_spacer = {r["spacer"]: r["guide_index"] for r in rows}

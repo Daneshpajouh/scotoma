@@ -19,13 +19,14 @@ echo "guide $GUIDE"
 # planted: exact on-target (23), DNA-bulge site (24, extra A after base 10),
 # RNA-bulge site (22, guide base 10 'T' absent), each separated by poly-T spacers
 python3 - <<'PYEOF'
+import os
 g = "GAACAAGGTGTTCCCACCCG"
 exact = g + "AGG"
 dna   = g[:10] + "A" + g[10:] + "AGG"       # target has one extra base
 rna   = g[:10] + g[11:] + "AGG"             # target lacks guide base 10
 pad = "T" * 40
 seq = pad + exact + pad + dna + pad + rna + pad
-with open("${SCRATCH:?set SCRATCH to your own scratch directory}/bulge_toy/ref/toy.fa", "w") as f:
+with open(os.environ["SCRATCH"] + "/bulge_toy/ref/toy.fa", "w") as f:
     f.write(">toy\n")
     for i in range(0, len(seq), 60):
         f.write(seq[i:i+60] + "\n")

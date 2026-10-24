@@ -12,19 +12,20 @@ module load scipy-stack 2>/dev/null || true
 export PYTHONPATH="${SCRATCH:?set SCRATCH to your own scratch directory}/umbra_pkg2${PYTHONPATH:+:$PYTHONPATH}"
 echo "PYTHONPATH $PYTHONPATH"
 python3 - <<'PY'
+import os
 import numpy as np
 from scotoma.coding import oriented_sites, canonical
 from scotoma.universe import load_universe, contains
 
 # chr20 is small enough to scan quickly and large enough to be decisive.
-SEQ = "${SCRATCH:?set SCRATCH to your own scratch directory}/saif_null/restore/r83_saif_probe/ref/chroms/chr20.seq"
+SEQ = os.environ["SCRATCH"] + "/saif_null/restore/r83_saif_probe/ref/chroms/chr20.seq"
 raw = open(SEQ, "rb").read()
 # .seq files hold bare sequence; strip any whitespace/newlines.
 raw = b"".join(raw.split())
 bases = np.frombuffer(raw, dtype=np.uint8)
 print(f"chr20 bases {bases.size:,}")
 
-uni, meta = load_universe("${SCRATCH:?set SCRATCH to your own scratch directory}/addressability/GS_GRCh38.npz")
+uni, meta = load_universe(os.environ["SCRATCH"] + "/addressability/GS_GRCh38.npz")
 print("universe meta pam key:", meta.get("pam", "<ABSENT>"))
 
 narrow = oriented_sites(bases, pam="NGG")

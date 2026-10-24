@@ -24,10 +24,10 @@ python3 -m pytest tests/ -q 2>&1 | tail -5
 echo
 echo "=== can umbra read the existing GRCh38 universe? ==="
 python3 - <<'PY'
-import sys
-sys.path.insert(0, "${SCRATCH:?set SCRATCH to your own scratch directory}/umbra_pkg")
+import os, sys
+sys.path.insert(0, os.environ["SCRATCH"] + "/umbra_pkg")
 from scotoma.universe import load_universe
-codes, meta = load_universe("${SCRATCH:?set SCRATCH to your own scratch directory}/addressability/GS_GRCh38.npz")
+codes, meta = load_universe(os.environ["SCRATCH"] + "/addressability/GS_GRCh38.npz")
 print("codes", f"{codes.size:,}", "dtype", codes.dtype)
 print("sorted and unique: enforced by load_universe (no exception raised)")
 print("meta", meta)
@@ -38,10 +38,10 @@ PY
 echo
 echo "=== panel: 110 guides from the CHANGE-seq table? ==="
 python3 - <<'PY'
-import sys
-sys.path.insert(0, "${SCRATCH:?set SCRATCH to your own scratch directory}/umbra_pkg")
+import os, sys
+sys.path.insert(0, os.environ["SCRATCH"] + "/umbra_pkg")
 from scotoma.panel import load_panel
-codes, rep = load_panel("${SCRATCH:?set SCRATCH to your own scratch directory}/recomb_mg/data/CHANGEseq_CR_Lazzarotto_2020_dataset.csv",
+codes, rep = load_panel(os.environ["SCRATCH"] + "/recomb_mg/data/CHANGEseq_CR_Lazzarotto_2020_dataset.csv",
                         changeseq=True)
 print(rep)
 assert codes.size == 110, f"GATE FAIL expected 110 distinct guides, got {codes.size}"
