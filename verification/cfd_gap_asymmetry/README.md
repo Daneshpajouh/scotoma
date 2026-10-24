@@ -55,8 +55,10 @@ SHA-256 `68f3e1d7eb9e9e18e3ddc859752be8d156378a3e681b0fff329fe679366adc11`. And 
 have, the second line of output reports how many single-bulge rows were scored; on ours it reads
 exactly `1749342`. A different count means a different table, not a failure to reproduce.
 
-If no row at all is scored the script stops with `GATE FAILED` and exits 1, because scoring nothing
-is an invocation error and should not be reported as a clean run.
+The release's rule is that a checker which cannot find its input exits **2**, `NOT RUN`, and
+names what to supply, while only a refuted claim exits 1. This script follows it: a missing
+argument, a path that is not a file, and a table from which no single-bulge row can be scored
+all exit 2 with a line saying what to supply. None of them raises a traceback.
 
 ## What a pass looks like
 
