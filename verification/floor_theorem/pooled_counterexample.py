@@ -33,9 +33,11 @@ Together 5, 6 and 7 give the claim: p's ball is already covered by other pattern
 so the remaining 1,628 patterns' balls still cover the whole union.
 
 Usage:  pooled_counterexample.py [GUIDES.txt]
-Default input: data/synthetic_panel_110.txt beside this script.
+Default input: data/synthetic_panel_110.txt beside this script. Prints the input's SHA-256, so a
+run log shows which list was checked.
 Exit 0 only when every check above holds; 1 otherwise; 2 if it could not run.
 """
+import hashlib
 import itertools
 import os
 import sys
@@ -86,10 +88,15 @@ def ball(word, radius):
 def main(argv):
     path = argv[1] if len(argv) > 1 else DEFAULT
     try:
-        guides = [l.strip() for l in open(path) if l.strip()]
+        raw = open(path, "rb").read()
     except OSError as exc:
         print(f"NOT RUN: {exc}")
         return 2
+    # Read as bytes so the digest is of the file itself; split lines as text-mode open() would.
+    text = raw.decode("utf-8").replace("\r\n", "\n").replace("\r", "\n")
+    guides = [l.strip() for l in text.split("\n") if l.strip()]
+    print(f"input  {path}")
+    print(f"       SHA-256 {hashlib.sha256(raw).hexdigest()}")
 
     library, total = set(), 0
     for g in guides:

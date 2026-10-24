@@ -20,9 +20,11 @@ THE BALL SIZE IS COMPUTED, NOT QUOTED. |B_4| at length 19 over four letters is t
 sum_{r<=4} C(19,r) * 3^r = 341,716.
 
 Usage:  pooled_volume_bound.py PATTERNS.txt [--expect-union N] [--expect-bound K]
+Prints the input's SHA-256, so a run log shows which list was checked.
 Exit 0 when the computation completes and matches any --expect values given; 1 on a mismatch;
 2 if it could not run.
 """
+import hashlib
 import itertools
 import math
 import sys
@@ -62,10 +64,15 @@ def main(argv):
         print(__doc__)
         return 2
     try:
-        patterns = [l.strip() for l in open(args[0]) if l.strip()]
+        raw = open(args[0], "rb").read()
     except OSError as exc:
         print(f"NOT RUN: {exc}")
         return 2
+    # Read as bytes so the digest is of the file itself; split lines as text-mode open() would.
+    text = raw.decode("utf-8").replace("\r\n", "\n").replace("\r", "\n")
+    patterns = [l.strip() for l in text.split("\n") if l.strip()]
+    print(f"input  {args[0]}")
+    print(f"       SHA-256 {hashlib.sha256(raw).hexdigest()}")
     if not patterns or len({len(p) for p in patterns}) != 1:
         print("NOT RUN: patterns must be non-empty and all the same length")
         return 2

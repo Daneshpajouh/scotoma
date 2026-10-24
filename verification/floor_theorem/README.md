@@ -45,5 +45,6 @@ Three scripts read data. `pooled_counterexample.py` reads the synthetic guide
 list `data/synthetic_panel_110.txt`, and `pooled_volume_bound.py` reads the
 pattern list `data/pooled_patterns_1629.txt`; both lists are released here.
 `pooled_patterns_producer.py` reads the CHANGE-seq table, a third-party dataset
-that is not redistributed, and rebuilds the pattern list from it. Every other
-script operates on the alphabet directly and reads no file.
+that is not redistributed, and rebuilds the pattern list from it. Each of the
+three prints the full SHA-256 of its input, the list or the table it is given,
+so a run log shows which file was checked. Every other script operates on the alphabet directly and reads no file.
