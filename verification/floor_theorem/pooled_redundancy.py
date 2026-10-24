@@ -89,8 +89,8 @@ def main():
     print("VERDICT:", "PASS" if good else "FAIL")
     if not good:
         print(f"   containment {contained}, control fires {control_fires}")
-    print("Checks the mechanism only. The 110-guide, 1,629-pattern construction is NOT checked "
-          "here: its synthetic guide list is not in the release.")
+    print("Checks the mechanism only. The 110-guide, 1,629-pattern construction is checked by "
+          "pooled_counterexample.py, on the released list data/synthetic_panel_110.txt.")
     return 0 if good else 1
 
 
