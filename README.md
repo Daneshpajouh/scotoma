@@ -240,6 +240,20 @@ agree on every case tested.
 
 MIT. See `LICENSE`.
 
+## One command that replays the minimality result
+
+```
+python3 -I verification/replay_all.py
+```
+
+Standard library only. It sweeps all four dual certificates over **every** centre class, replays the
+exact maxima at the certified lengths, checks the neighbour lemmas behind the weighting, and
+recomputes the m = 6 covering number by dynamic program, printing each stage's own exit code. Exit 0
+means every stage passed; any other exit names the stage that did not.
+
+`python3 -I verification/replay_all.py --selftest` appends a stage that must fail and refuses to
+report success unless it is caught, because a runner that cannot fail certifies nothing.
+
 ## Minimum covering number: verification scripts
 
 `verification/floor_theorem/` holds self-contained scripts that check every
