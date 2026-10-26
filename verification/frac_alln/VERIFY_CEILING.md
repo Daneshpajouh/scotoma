@@ -48,3 +48,15 @@ This writes data/floor_certificates/cert_m9_r9.json. Run it in a copy of the rel
     python3 -I verify_ceiling_certificate.py cert_19_9_9.json
 
 This checks the arithmetic, equal loads on six sampled pairs, and the load at the library centres and 90 sampled centres. It does not establish the maximum load, so it does not prove the floor on its own. Use check 1 for that.
+
+### The independent re-check of a ceiling certificate
+
+    python3 -I verify_cert_independent.py cert_19_9_15.json
+
+Shares nothing with the solver but the JSON. It rederives the orbit counts from scratch, recomputes
+the exact mass by summing the support numerators rather than reading the file's stated total, scans
+every centre class in float64, then recomputes in exact rationals every class whose float load is
+within a relative 1e-9 of the float maximum and takes the exact maximum over that window. It prints
+its own bound beside the certificate's claim, says whether they agree, and then whether the bound
+clears the integer that K requires. On the four m = 9 and m = 10 files it returns AGREES and PROVED,
+at 12.313706527, 13.048740476, 14.011298904 and 9.057732085.
