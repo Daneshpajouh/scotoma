@@ -11,6 +11,10 @@ These four files are the rational duals behind the floors C_9 = 9, C_10 = 7, C_1
     8ae5295da593f4d2e15fab680e886ac5e2bf84ab3040d97d2ba0bb6b8bd752da  cert_19_9_9.json
     1b658bbe65ff868ea0a2f32617b6dc8d02f69378bee776930c2bd9410703a91d  cert_19_10_7.json
     cde4688e8af73f30ef8254e8e263971cb687f8562c6347cb3e845019a6a785fc  cert_19_11_6.json
+    9ca4e3fafc58a70cad79036f16042988613f13a7d00bc5bd697eea65563272b9  cert_19_9_13.json
+    2a677f818fb50145186d36c57a05507dfb2299d189793d648b0abbb9603b1403  cert_19_9_14.json
+    778201da1ce80b2acc5a9a4eda40f7d49dea4da935fbe6bf24014b5927d2c929  cert_19_9_15.json
+    8d5a82dd54ff7bdf23ce464e2f6a4d67a91d59b2b785c349403a627c336793e9  cert_19_10_10.json
 
 The first four are the released duals. The last three are the solver's unnormalised output for m = 9, 10 and 11.
 
