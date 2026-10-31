@@ -1,0 +1,124 @@
+{
+  "N": 47,
+  "r": 6,
+  "m": 26,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "00000",
+      "tail_weight": 26,
+      "mass": "9481139/47998779"
+    },
+    {
+      "prefix": "00001",
+      "tail_weight": 26,
+      "mass": "29036501/47998779"
+    },
+    {
+      "prefix": "0001X",
+      "tail_weight": 25,
+      "mass": "14957150/15999593"
+    },
+    {
+      "prefix": "0011X",
+      "tail_weight": 25,
+      "mass": "1452299/47998779"
+    },
+    {
+      "prefix": "001X1",
+      "tail_weight": 25,
+      "mass": "456892/47998779"
+    },
+    {
+      "prefix": "01110",
+      "tail_weight": 25,
+      "mass": "13914707/15999593"
+    },
+    {
+      "prefix": "01111",
+      "tail_weight": 26,
+      "mass": "1042443/15999593"
+    },
+    {
+      "prefix": "0111X",
+      "tail_weight": 25,
+      "mass": "1042443/15999593"
+    },
+    {
+      "prefix": "11100",
+      "tail_weight": 24,
+      "mass": "1042443/15999593"
+    },
+    {
+      "prefix": "111X1",
+      "tail_weight": 25,
+      "mass": "16362034/47998779"
+    },
+    {
+      "prefix": "11XX1",
+      "tail_weight": 24,
+      "mass": "26600225/47998779"
+    },
+    {
+      "prefix": "1X1X1",
+      "tail_weight": 24,
+      "mass": "636397/15999593"
+    },
+    {
+      "prefix": "X0000",
+      "tail_weight": 25,
+      "mass": "38517640/47998779"
+    },
+    {
+      "prefix": "X0111",
+      "tail_weight": 25,
+      "mass": "41287229/47998779"
+    },
+    {
+      "prefix": "X011X",
+      "tail_weight": 24,
+      "mass": "4802359/47998779"
+    },
+    {
+      "prefix": "X0X01",
+      "tail_weight": 24,
+      "mass": "230351/15999593"
+    },
+    {
+      "prefix": "XX001",
+      "tail_weight": 24,
+      "mass": "18271225/47998779"
+    },
+    {
+      "prefix": "XX011",
+      "tail_weight": 24,
+      "mass": "1042443/15999593"
+    }
+  ],
+  "verification": {
+    "max_load": "1",
+    "witness": {
+      "prefix": "00000",
+      "tail_weight": 0
+    },
+    "centre_classes": 10449,
+    "region_masses": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "mass": "6",
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 125,
+    "private_orbits": 116,
+    "rounds": 4,
+    "seconds": 0.246,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

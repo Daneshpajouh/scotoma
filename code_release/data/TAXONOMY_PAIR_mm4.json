@@ -1,0 +1,31 @@
+{
+  "threshold": 4,
+  "tolerance_bp": 3,
+  "ungapped": 34652,
+  "classes": {
+    "size1": {
+      "add_strict": 1212681,
+      "add_merged": 1175323,
+      "factor_strict": 35.995988687521645,
+      "factor_merged": 34.917897956827886
+    },
+    "size2": {
+      "add_strict": 2712081,
+      "add_merged": 2682450,
+      "factor_strict": 79.26621840009234,
+      "factor_merged": 78.41111624148678
+    }
+  },
+  "overlaps": {
+    "size1_size2": {
+      "intersection": 144392,
+      "jaccard": 0.038195203115039
+    }
+  },
+  "union_size1_size2": {
+    "add_strict": 3780370,
+    "add_merged": 3713396,
+    "factor_strict": 110.09529031513333,
+    "factor_merged": 108.16253030128131
+  }
+}

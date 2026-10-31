@@ -1,0 +1,8 @@
+INTEGRITY_PASS 1678
+PACKAGE_BEGIN cover_families
+COMMAND code_release /usr/local/bin/python3 -B cover_families/verify_j1.py --algebra-only
+PROVED r5 family: 263 radial inequalities; 82 distinct polynomial vectors; C>=m>=6
+PROVED r6 family: 903 radial inequalities; 300 distinct polynomial vectors; z>=3
+REPLAY_RESOURCES {"package": "cover_families", "command": ["/usr/local/bin/python3", "-B", "cover_families/verify_j1.py", "--algebra-only"], "exit_code": 0, "wall_seconds": 0.34615262504667044, "peak_child_rss_bytes": 28409856, "user_seconds": 0.313445, "system_seconds": 0.020895999999999998}
+PACKAGE_PASS cover_families
+time: sysctl kern.clockrate: Operation not permitted

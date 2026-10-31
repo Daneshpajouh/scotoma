@@ -1,0 +1,38 @@
+INTEGRITY_PASS 1678
+PACKAGE_BEGIN scope
+COMMAND code_release /usr/local/bin/python3 -B -I certificates/paper_B_scope/pooled_counterexample.py
+input  <TASK>/work/scope/scotoma_replay_d_ya5pxb/deposit/code_release/certificates/paper_B_scope/data/synthetic_panel_110.txt
+       SHA-256 27b7c12b0edebdf73119e7444b66e66158c65e24caf5aa3d64d9e03a28982fec
+  110 guides                                         ok   110
+  every guide length 20                              ok   [20]
+  libraries pairwise disjoint                        ok   0 shared
+  1629 distinct patterns                             ok   1629
+  run counts span 9 to 20                            ok   9..20
+  p is in the library                                ok   True
+  all 16 witnesses in the library                    ok   16 of 16
+  B_4(p) inside the witnesses' union                 ok   0 uncovered of 341,716
+  control: dropping one witness uncovers part of it  ok   81 uncovered
+
+So p's ball is covered by other patterns of this library: the remaining 1,628 balls still cover the union.
+VERDICT: PASS
+REPLAY_RESOURCES {"package": "scope", "command": ["/usr/local/bin/python3", "-B", "-I", "certificates/paper_B_scope/pooled_counterexample.py"], "exit_code": 0, "wall_seconds": 8.20557175000431, "peak_child_rss_bytes": 74727424, "user_seconds": 8.130957, "system_seconds": 0.02659}
+COMMAND code_release /usr/local/bin/python3 -B -I certificates/paper_B_scope/verify_scope.py
+{
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "separated_pair_distances": [
+    9,
+    2,
+    19
+  ],
+  "three_letter_column_cases": 192,
+  "no_triple_distance_lower_bound": 30,
+  "three_word_budget": 27,
+  "panel_guides": 110,
+  "saturated_insertion_coordinates": 2310
+}
+REPLAY_RESOURCES {"package": "scope", "command": ["/usr/local/bin/python3", "-B", "-I", "certificates/paper_B_scope/verify_scope.py"], "exit_code": 0, "wall_seconds": 0.03866012499202043, "peak_child_rss_bytes": 74727424, "user_seconds": 0.023386999999999603, "system_seconds": 0.011213999999999998}
+COMMAND code_release /usr/local/bin/python3 -B -I certificates/paper_B_scope/soundness.py
+{"passed": true, "guide": "ACGTA", "radius": 2, "ambient_words": 256, "union_words": 152, "library_size": 5, "K": 4, "minimum_sound_cover": 5, "four_cover": ["ACGA", "ACTT", "AGGT", "CGTA"], "sound_cover": ["ACGT", "AGTA", "CGTA", "ACGA", "ACTA"], "sound_centres": 5, "failed_three_slot_states": 48, "failed_sound_four_slot_states": 3}
+REPLAY_RESOURCES {"package": "scope", "command": ["/usr/local/bin/python3", "-B", "-I", "certificates/paper_B_scope/soundness.py"], "exit_code": 0, "wall_seconds": 0.18092087499098852, "peak_child_rss_bytes": 74727424, "user_seconds": 0.12826199999999943, "system_seconds": 0.011235000000000002}
+PACKAGE_PASS scope
+time: sysctl kern.clockrate: Operation not permitted

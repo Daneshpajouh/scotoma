@@ -1,0 +1,9 @@
+case     correct    off_by_+1  off_by_-1 
+totals   0          35         35        
+
+rows the test would FLAG (ours > row's own count):
+  correct construction  : 0
+  construction off by +1: 35
+  construction off by -1: 35
+
+VERDICT: NOT VACUOUS - an off-by-one in our construction is flagged

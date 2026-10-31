@@ -1,0 +1,23 @@
+{
+  "N": 7,
+  "r": 3,
+  "m": 4,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "11",
+      "tail_weight": 4,
+      "mass": "1"
+    },
+    {
+      "prefix": "01",
+      "tail_weight": 4,
+      "mass": "1"
+    },
+    {
+      "prefix": "00",
+      "tail_weight": 4,
+      "mass": "1"
+    }
+  ]
+}

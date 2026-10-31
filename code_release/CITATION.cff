@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: Detectability budget
+message: If you use this code or these data, please cite the paper.
+type: software
+authors:
+  - family-names: Daneshpajouh
+    given-names: Amirhossein
+    affiliation: Simon Fraser University
+  - family-names: Fowler
+    given-names: Megan
+    affiliation: Simon Fraser University
+  - family-names: Wiese
+    given-names: Kay C.
+    affiliation: Simon Fraser University
+license: MIT
+repository-code: https://github.com/Daneshpajouh/detectability-budget
+preferred-citation:
+  type: unpublished
+  title: "When can a finite screen certify zero false alarms? Distribution-free impossibility, the detectability gap, and a validation budget for off-target screening"
+  authors:
+    - family-names: Daneshpajouh
+      given-names: Amirhossein
+    - family-names: Fowler
+      given-names: Megan
+    - family-names: Wiese
+      given-names: Kay C.
+  year: 2026

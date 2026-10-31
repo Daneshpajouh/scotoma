@@ -1,0 +1,1125 @@
+{
+  "threshold": 5,
+  "tolerance_bp": 3,
+  "per_guide": [
+    {
+      "guide_index": 0,
+      "ungapped": 804,
+      "add_dna": 6536,
+      "add_rna": 16866,
+      "add_any": 22743,
+      "add_merged": 21915,
+      "factor": 29.28731343283582,
+      "factor_merged": 28.257462686567163
+    },
+    {
+      "guide_index": 1,
+      "ungapped": 6284,
+      "add_dna": 38481,
+      "add_rna": 116231,
+      "add_any": 151963,
+      "add_merged": 145755,
+      "factor": 25.18252705283259,
+      "factor_merged": 24.19462126034373
+    },
+    {
+      "guide_index": 2,
+      "ungapped": 6879,
+      "add_dna": 32043,
+      "add_rna": 129143,
+      "add_any": 158832,
+      "add_merged": 152699,
+      "factor": 24.089402529437418,
+      "factor_merged": 23.19784852449484
+    },
+    {
+      "guide_index": 3,
+      "ungapped": 742,
+      "add_dna": 7507,
+      "add_rna": 29396,
+      "add_any": 36511,
+      "add_merged": 35800,
+      "factor": 50.206199460916444,
+      "factor_merged": 49.24797843665768
+    },
+    {
+      "guide_index": 4,
+      "ungapped": 1807,
+      "add_dna": 16209,
+      "add_rna": 55155,
+      "add_any": 70078,
+      "add_merged": 68304,
+      "factor": 39.781405644714994,
+      "factor_merged": 38.79966795794134
+    },
+    {
+      "guide_index": 5,
+      "ungapped": 4170,
+      "add_dna": 63506,
+      "add_rna": 76188,
+      "add_any": 136947,
+      "add_merged": 132660,
+      "factor": 33.841007194244604,
+      "factor_merged": 32.81294964028777
+    },
+    {
+      "guide_index": 6,
+      "ungapped": 832,
+      "add_dna": 6580,
+      "add_rna": 18451,
+      "add_any": 24674,
+      "add_merged": 23734,
+      "factor": 30.65625,
+      "factor_merged": 29.526442307692307
+    },
+    {
+      "guide_index": 7,
+      "ungapped": 2013,
+      "add_dna": 17266,
+      "add_rna": 49109,
+      "add_any": 65351,
+      "add_merged": 63281,
+      "factor": 33.46448087431694,
+      "factor_merged": 32.43616492796821
+    },
+    {
+      "guide_index": 8,
+      "ungapped": 2854,
+      "add_dna": 22492,
+      "add_rna": 50476,
+      "add_any": 70626,
+      "add_merged": 67810,
+      "factor": 25.746320953048354,
+      "factor_merged": 24.759635599159076
+    },
+    {
+      "guide_index": 9,
+      "ungapped": 1804,
+      "add_dna": 14758,
+      "add_rna": 56073,
+      "add_any": 69770,
+      "add_merged": 67981,
+      "factor": 39.675166297117514,
+      "factor_merged": 38.683481152993345
+    },
+    {
+      "guide_index": 10,
+      "ungapped": 3487,
+      "add_dna": 22101,
+      "add_rna": 53802,
+      "add_any": 72979,
+      "add_merged": 68895,
+      "factor": 21.928878692285632,
+      "factor_merged": 20.757671350731286
+    },
+    {
+      "guide_index": 11,
+      "ungapped": 1788,
+      "add_dna": 21314,
+      "add_rna": 45398,
+      "add_any": 61170,
+      "add_merged": 59462,
+      "factor": 35.211409395973156,
+      "factor_merged": 34.25615212527964
+    },
+    {
+      "guide_index": 12,
+      "ungapped": 1392,
+      "add_dna": 12463,
+      "add_rna": 36289,
+      "add_any": 47320,
+      "add_merged": 45714,
+      "factor": 34.99425287356322,
+      "factor_merged": 33.84051724137931
+    },
+    {
+      "guide_index": 13,
+      "ungapped": 11765,
+      "add_dna": 94340,
+      "add_rna": 192402,
+      "add_any": 276901,
+      "add_merged": 263512,
+      "factor": 24.535996600085,
+      "factor_merged": 23.397960050998726
+    },
+    {
+      "guide_index": 14,
+      "ungapped": 1855,
+      "add_dna": 7268,
+      "add_rna": 25261,
+      "add_any": 32126,
+      "add_merged": 30425,
+      "factor": 18.318598382749325,
+      "factor_merged": 17.401617250673855
+    },
+    {
+      "guide_index": 15,
+      "ungapped": 2252,
+      "add_dna": 19562,
+      "add_rna": 59979,
+      "add_any": 77159,
+      "add_merged": 74606,
+      "factor": 35.26243339253996,
+      "factor_merged": 34.12877442273535
+    },
+    {
+      "guide_index": 16,
+      "ungapped": 1844,
+      "add_dna": 10820,
+      "add_rna": 46025,
+      "add_any": 55840,
+      "add_merged": 54048,
+      "factor": 31.281995661605205,
+      "factor_merged": 30.31019522776573
+    },
+    {
+      "guide_index": 17,
+      "ungapped": 484,
+      "add_dna": 8471,
+      "add_rna": 25285,
+      "add_any": 33310,
+      "add_merged": 32759,
+      "factor": 69.82231404958678,
+      "factor_merged": 68.68388429752066
+    },
+    {
+      "guide_index": 18,
+      "ungapped": 983,
+      "add_dna": 9099,
+      "add_rna": 28135,
+      "add_any": 36404,
+      "add_merged": 35285,
+      "factor": 38.03357070193286,
+      "factor_merged": 36.89521871820956
+    },
+    {
+      "guide_index": 19,
+      "ungapped": 2099,
+      "add_dna": 14458,
+      "add_rna": 46681,
+      "add_any": 60192,
+      "add_merged": 57855,
+      "factor": 29.67651262505955,
+      "factor_merged": 28.563125297760838
+    },
+    {
+      "guide_index": 20,
+      "ungapped": 1466,
+      "add_dna": 12387,
+      "add_rna": 55434,
+      "add_any": 67103,
+      "add_merged": 65526,
+      "factor": 46.772851296043655,
+      "factor_merged": 45.69713506139154
+    },
+    {
+      "guide_index": 21,
+      "ungapped": 2452,
+      "add_dna": 18592,
+      "add_rna": 73899,
+      "add_any": 91042,
+      "add_merged": 88580,
+      "factor": 38.12969004893964,
+      "factor_merged": 37.125611745513865
+    },
+    {
+      "guide_index": 22,
+      "ungapped": 1270,
+      "add_dna": 8896,
+      "add_rna": 40191,
+      "add_any": 48563,
+      "add_merged": 47223,
+      "factor": 39.238582677165354,
+      "factor_merged": 38.18346456692913
+    },
+    {
+      "guide_index": 23,
+      "ungapped": 1264,
+      "add_dna": 10014,
+      "add_rna": 35577,
+      "add_any": 44828,
+      "add_merged": 43499,
+      "factor": 36.46518987341772,
+      "factor_merged": 35.41376582278481
+    },
+    {
+      "guide_index": 24,
+      "ungapped": 1389,
+      "add_dna": 12252,
+      "add_rna": 67749,
+      "add_any": 79166,
+      "add_merged": 77687,
+      "factor": 57.994960403167745,
+      "factor_merged": 56.93016558675306
+    },
+    {
+      "guide_index": 25,
+      "ungapped": 14753,
+      "add_dna": 44654,
+      "add_rna": 45218,
+      "add_any": 88262,
+      "add_merged": 67772,
+      "factor": 6.982647597098895,
+      "factor_merged": 5.593777536772182
+    },
+    {
+      "guide_index": 26,
+      "ungapped": 2319,
+      "add_dna": 20696,
+      "add_rna": 56585,
+      "add_any": 75238,
+      "add_merged": 72695,
+      "factor": 33.44415696420871,
+      "factor_merged": 32.34756360500216
+    },
+    {
+      "guide_index": 27,
+      "ungapped": 1565,
+      "add_dna": 17389,
+      "add_rna": 47355,
+      "add_any": 64098,
+      "add_merged": 62431,
+      "factor": 41.95718849840256,
+      "factor_merged": 40.892012779552715
+    },
+    {
+      "guide_index": 28,
+      "ungapped": 1493,
+      "add_dna": 14199,
+      "add_rna": 46427,
+      "add_any": 60009,
+      "add_merged": 58364,
+      "factor": 41.19356999330208,
+      "factor_merged": 40.09176155391828
+    },
+    {
+      "guide_index": 29,
+      "ungapped": 1696,
+      "add_dna": 15586,
+      "add_rna": 48430,
+      "add_any": 63107,
+      "add_merged": 61426,
+      "factor": 38.209316037735846,
+      "factor_merged": 37.218160377358494
+    },
+    {
+      "guide_index": 30,
+      "ungapped": 1859,
+      "add_dna": 15061,
+      "add_rna": 43476,
+      "add_any": 57808,
+      "add_merged": 55918,
+      "factor": 32.09628832705756,
+      "factor_merged": 31.07961269499731
+    },
+    {
+      "guide_index": 31,
+      "ungapped": 732,
+      "add_dna": 6842,
+      "add_rna": 22771,
+      "add_any": 29280,
+      "add_merged": 28440,
+      "factor": 41.0,
+      "factor_merged": 39.85245901639344
+    },
+    {
+      "guide_index": 32,
+      "ungapped": 1366,
+      "add_dna": 11690,
+      "add_rna": 35734,
+      "add_any": 46738,
+      "add_merged": 45322,
+      "factor": 35.21522693997072,
+      "factor_merged": 34.17862371888726
+    },
+    {
+      "guide_index": 33,
+      "ungapped": 531,
+      "add_dna": 5557,
+      "add_rna": 18874,
+      "add_any": 24153,
+      "add_merged": 23587,
+      "factor": 46.48587570621469,
+      "factor_merged": 45.419962335216574
+    },
+    {
+      "guide_index": 34,
+      "ungapped": 4487,
+      "add_dna": 31754,
+      "add_rna": 74322,
+      "add_any": 102919,
+      "add_merged": 97784,
+      "factor": 23.937151771785157,
+      "factor_merged": 22.792734566525517
+    },
+    {
+      "guide_index": 35,
+      "ungapped": 1008,
+      "add_dna": 8830,
+      "add_rna": 32933,
+      "add_any": 40478,
+      "add_merged": 39416,
+      "factor": 41.15674603174603,
+      "factor_merged": 40.1031746031746
+    },
+    {
+      "guide_index": 36,
+      "ungapped": 599,
+      "add_dna": 7122,
+      "add_rna": 19118,
+      "add_any": 25663,
+      "add_merged": 25015,
+      "factor": 43.84307178631052,
+      "factor_merged": 42.76126878130217
+    },
+    {
+      "guide_index": 37,
+      "ungapped": 2489,
+      "add_dna": 16261,
+      "add_rna": 62560,
+      "add_any": 77375,
+      "add_merged": 75013,
+      "factor": 32.08678184009642,
+      "factor_merged": 31.137806347930894
+    },
+    {
+      "guide_index": 38,
+      "ungapped": 1639,
+      "add_dna": 14468,
+      "add_rna": 36379,
+      "add_any": 49813,
+      "add_merged": 48005,
+      "factor": 31.392312385600977,
+      "factor_merged": 30.289200732153752
+    },
+    {
+      "guide_index": 39,
+      "ungapped": 3241,
+      "add_dna": 36579,
+      "add_rna": 69067,
+      "add_any": 96707,
+      "add_merged": 93375,
+      "factor": 30.838630052452945,
+      "factor_merged": 29.810552298673247
+    },
+    {
+      "guide_index": 40,
+      "ungapped": 2745,
+      "add_dna": 19593,
+      "add_rna": 57495,
+      "add_any": 76231,
+      "add_merged": 73444,
+      "factor": 28.77085610200364,
+      "factor_merged": 27.755555555555556
+    },
+    {
+      "guide_index": 41,
+      "ungapped": 3429,
+      "add_dna": 20714,
+      "add_rna": 66874,
+      "add_any": 86044,
+      "add_merged": 82453,
+      "factor": 26.093030037911927,
+      "factor_merged": 25.045785943423738
+    },
+    {
+      "guide_index": 42,
+      "ungapped": 1082,
+      "add_dna": 12237,
+      "add_rna": 28533,
+      "add_any": 40363,
+      "add_merged": 39105,
+      "factor": 38.304066543438076,
+      "factor_merged": 37.14140480591497
+    },
+    {
+      "guide_index": 43,
+      "ungapped": 1559,
+      "add_dna": 11041,
+      "add_rna": 36149,
+      "add_any": 46693,
+      "add_merged": 45050,
+      "factor": 30.95060936497755,
+      "factor_merged": 29.896728672225787
+    },
+    {
+      "guide_index": 44,
+      "ungapped": 5015,
+      "add_dna": 29426,
+      "add_rna": 61185,
+      "add_any": 86038,
+      "add_merged": 80416,
+      "factor": 18.156131605184445,
+      "factor_merged": 17.03509471585244
+    },
+    {
+      "guide_index": 45,
+      "ungapped": 1558,
+      "add_dna": 12360,
+      "add_rna": 41381,
+      "add_any": 53031,
+      "add_merged": 51183,
+      "factor": 35.03786906290116,
+      "factor_merged": 33.85173299101412
+    },
+    {
+      "guide_index": 46,
+      "ungapped": 3579,
+      "add_dna": 15598,
+      "add_rna": 77670,
+      "add_any": 92649,
+      "add_merged": 86794,
+      "factor": 26.886839899413243,
+      "factor_merged": 25.250908074881252
+    },
+    {
+      "guide_index": 47,
+      "ungapped": 2172,
+      "add_dna": 15175,
+      "add_rna": 50354,
+      "add_any": 64235,
+      "add_merged": 62132,
+      "factor": 30.57412523020258,
+      "factor_merged": 29.605893186003684
+    },
+    {
+      "guide_index": 48,
+      "ungapped": 1996,
+      "add_dna": 11272,
+      "add_rna": 37882,
+      "add_any": 48480,
+      "add_merged": 46383,
+      "factor": 25.288577154308616,
+      "factor_merged": 24.237975951903806
+    },
+    {
+      "guide_index": 49,
+      "ungapped": 1549,
+      "add_dna": 17727,
+      "add_rna": 41716,
+      "add_any": 58724,
+      "add_merged": 57089,
+      "factor": 38.9109102646869,
+      "factor_merged": 37.85539057456423
+    },
+    {
+      "guide_index": 50,
+      "ungapped": 1123,
+      "add_dna": 10842,
+      "add_rna": 34337,
+      "add_any": 44612,
+      "add_merged": 43440,
+      "factor": 40.72573463935886,
+      "factor_merged": 39.682101513802316
+    },
+    {
+      "guide_index": 51,
+      "ungapped": 986,
+      "add_dna": 9978,
+      "add_rna": 78684,
+      "add_any": 88234,
+      "add_merged": 87176,
+      "factor": 90.4868154158215,
+      "factor_merged": 89.41379310344827
+    },
+    {
+      "guide_index": 52,
+      "ungapped": 6022,
+      "add_dna": 46084,
+      "add_rna": 171024,
+      "add_any": 215315,
+      "add_merged": 208554,
+      "factor": 36.754732646961145,
+      "factor_merged": 35.63201594154766
+    },
+    {
+      "guide_index": 53,
+      "ungapped": 1307,
+      "add_dna": 12868,
+      "add_rna": 35994,
+      "add_any": 48238,
+      "add_merged": 46884,
+      "factor": 37.90742157612854,
+      "factor_merged": 36.871461361897474
+    },
+    {
+      "guide_index": 54,
+      "ungapped": 5811,
+      "add_dna": 41477,
+      "add_rna": 125700,
+      "add_any": 164479,
+      "add_merged": 158509,
+      "factor": 29.304766821545346,
+      "factor_merged": 28.277404921700224
+    },
+    {
+      "guide_index": 55,
+      "ungapped": 3077,
+      "add_dna": 19748,
+      "add_rna": 53289,
+      "add_any": 71902,
+      "add_merged": 68211,
+      "factor": 24.367565810854728,
+      "factor_merged": 23.16802079948001
+    },
+    {
+      "guide_index": 56,
+      "ungapped": 2441,
+      "add_dna": 41370,
+      "add_rna": 54673,
+      "add_any": 94548,
+      "add_merged": 91767,
+      "factor": 39.73330602212208,
+      "factor_merged": 38.594018844735764
+    },
+    {
+      "guide_index": 57,
+      "ungapped": 5247,
+      "add_dna": 32677,
+      "add_rna": 66438,
+      "add_any": 96254,
+      "add_merged": 90548,
+      "factor": 19.344577854011817,
+      "factor_merged": 18.257099294835143
+    },
+    {
+      "guide_index": 58,
+      "ungapped": 1387,
+      "add_dna": 8489,
+      "add_rna": 33085,
+      "add_any": 41122,
+      "add_merged": 39742,
+      "factor": 30.64816149963951,
+      "factor_merged": 29.65320836337419
+    },
+    {
+      "guide_index": 59,
+      "ungapped": 1077,
+      "add_dna": 10541,
+      "add_rna": 29043,
+      "add_any": 39240,
+      "add_merged": 38055,
+      "factor": 37.43454038997214,
+      "factor_merged": 36.33426183844011
+    },
+    {
+      "guide_index": 60,
+      "ungapped": 2082,
+      "add_dna": 11958,
+      "add_rna": 41740,
+      "add_any": 52972,
+      "add_merged": 50886,
+      "factor": 26.442843419788666,
+      "factor_merged": 25.44092219020173
+    },
+    {
+      "guide_index": 61,
+      "ungapped": 1814,
+      "add_dna": 16981,
+      "add_rna": 50160,
+      "add_any": 66543,
+      "add_merged": 64462,
+      "factor": 37.68302094818082,
+      "factor_merged": 36.535832414553475
+    },
+    {
+      "guide_index": 62,
+      "ungapped": 1412,
+      "add_dna": 12216,
+      "add_rna": 39822,
+      "add_any": 51367,
+      "add_merged": 49812,
+      "factor": 37.37889518413598,
+      "factor_merged": 36.27762039660057
+    },
+    {
+      "guide_index": 63,
+      "ungapped": 894,
+      "add_dna": 8870,
+      "add_rna": 25089,
+      "add_any": 33599,
+      "add_merged": 32588,
+      "factor": 38.582774049217,
+      "factor_merged": 37.45190156599553
+    },
+    {
+      "guide_index": 64,
+      "ungapped": 1627,
+      "add_dna": 16482,
+      "add_rna": 70812,
+      "add_any": 86810,
+      "add_merged": 84876,
+      "factor": 54.35586969883221,
+      "factor_merged": 53.167178856791644
+    },
+    {
+      "guide_index": 65,
+      "ungapped": 2276,
+      "add_dna": 25259,
+      "add_rna": 65712,
+      "add_any": 90289,
+      "add_merged": 87697,
+      "factor": 40.67003514938489,
+      "factor_merged": 39.53119507908612
+    },
+    {
+      "guide_index": 66,
+      "ungapped": 3427,
+      "add_dna": 31278,
+      "add_rna": 81893,
+      "add_any": 109669,
+      "add_merged": 105474,
+      "factor": 33.0014590020426,
+      "factor_merged": 31.777356288298805
+    },
+    {
+      "guide_index": 67,
+      "ungapped": 431,
+      "add_dna": 10012,
+      "add_rna": 15522,
+      "add_any": 25100,
+      "add_merged": 24624,
+      "factor": 59.23665893271462,
+      "factor_merged": 58.1322505800464
+    },
+    {
+      "guide_index": 68,
+      "ungapped": 880,
+      "add_dna": 7475,
+      "add_rna": 24533,
+      "add_any": 31474,
+      "add_merged": 30457,
+      "factor": 36.76590909090909,
+      "factor_merged": 35.61022727272727
+    },
+    {
+      "guide_index": 69,
+      "ungapped": 1841,
+      "add_dna": 14583,
+      "add_rna": 45733,
+      "add_any": 59520,
+      "add_merged": 57366,
+      "factor": 33.330255296034764,
+      "factor_merged": 32.160239000543186
+    },
+    {
+      "guide_index": 70,
+      "ungapped": 1109,
+      "add_dna": 8965,
+      "add_rna": 28977,
+      "add_any": 37337,
+      "add_merged": 36169,
+      "factor": 34.66726780883679,
+      "factor_merged": 33.614066726780884
+    },
+    {
+      "guide_index": 71,
+      "ungapped": 888,
+      "add_dna": 8071,
+      "add_rna": 31484,
+      "add_any": 39221,
+      "add_merged": 38190,
+      "factor": 45.167792792792795,
+      "factor_merged": 44.00675675675676
+    },
+    {
+      "guide_index": 72,
+      "ungapped": 980,
+      "add_dna": 9200,
+      "add_rna": 23995,
+      "add_any": 32862,
+      "add_merged": 31815,
+      "factor": 34.53265306122449,
+      "factor_merged": 33.464285714285715
+    },
+    {
+      "guide_index": 73,
+      "ungapped": 782,
+      "add_dna": 8003,
+      "add_rna": 20042,
+      "add_any": 27620,
+      "add_merged": 26700,
+      "factor": 36.31969309462916,
+      "factor_merged": 35.14322250639386
+    },
+    {
+      "guide_index": 74,
+      "ungapped": 7522,
+      "add_dna": 55248,
+      "add_rna": 144371,
+      "add_any": 196778,
+      "add_merged": 187569,
+      "factor": 27.160329699547994,
+      "factor_merged": 25.93605424089338
+    },
+    {
+      "guide_index": 75,
+      "ungapped": 949,
+      "add_dna": 8420,
+      "add_rna": 27253,
+      "add_any": 35355,
+      "add_merged": 34219,
+      "factor": 38.2550052687039,
+      "factor_merged": 37.05795574288725
+    },
+    {
+      "guide_index": 76,
+      "ungapped": 1627,
+      "add_dna": 14407,
+      "add_rna": 37044,
+      "add_any": 50930,
+      "add_merged": 48829,
+      "factor": 32.30301167793485,
+      "factor_merged": 31.011677934849416
+    },
+    {
+      "guide_index": 77,
+      "ungapped": 1809,
+      "add_dna": 15596,
+      "add_rna": 41422,
+      "add_any": 56207,
+      "add_merged": 53840,
+      "factor": 32.07075732448867,
+      "factor_merged": 30.762299613045883
+    },
+    {
+      "guide_index": 78,
+      "ungapped": 4319,
+      "add_dna": 30132,
+      "add_rna": 80225,
+      "add_any": 107252,
+      "add_merged": 101744,
+      "factor": 25.83260013892105,
+      "factor_merged": 24.557304931697153
+    },
+    {
+      "guide_index": 79,
+      "ungapped": 2528,
+      "add_dna": 17813,
+      "add_rna": 39951,
+      "add_any": 56493,
+      "add_merged": 53225,
+      "factor": 23.346914556962027,
+      "factor_merged": 22.054193037974684
+    },
+    {
+      "guide_index": 80,
+      "ungapped": 2403,
+      "add_dna": 18356,
+      "add_rna": 47423,
+      "add_any": 64762,
+      "add_merged": 61559,
+      "factor": 27.950478568456095,
+      "factor_merged": 26.617561381606325
+    },
+    {
+      "guide_index": 81,
+      "ungapped": 1107,
+      "add_dna": 12446,
+      "add_rna": 44553,
+      "add_any": 56423,
+      "add_merged": 55258,
+      "factor": 51.969286359530265,
+      "factor_merged": 50.91689250225836
+    },
+    {
+      "guide_index": 82,
+      "ungapped": 296,
+      "add_dna": 3449,
+      "add_rna": 11172,
+      "add_any": 14475,
+      "add_merged": 14159,
+      "factor": 49.902027027027025,
+      "factor_merged": 48.83445945945946
+    },
+    {
+      "guide_index": 83,
+      "ungapped": 1918,
+      "add_dna": 16200,
+      "add_rna": 44976,
+      "add_any": 60172,
+      "add_merged": 57922,
+      "factor": 32.372262773722625,
+      "factor_merged": 31.199165797705945
+    },
+    {
+      "guide_index": 84,
+      "ungapped": 2394,
+      "add_dna": 17060,
+      "add_rna": 39505,
+      "add_any": 55784,
+      "add_merged": 53087,
+      "factor": 24.3015873015873,
+      "factor_merged": 23.1750208855472
+    },
+    {
+      "guide_index": 85,
+      "ungapped": 1423,
+      "add_dna": 12239,
+      "add_rna": 41370,
+      "add_any": 52835,
+      "add_merged": 51359,
+      "factor": 38.1293042867182,
+      "factor_merged": 37.09205903021785
+    },
+    {
+      "guide_index": 86,
+      "ungapped": 6777,
+      "add_dna": 52553,
+      "add_rna": 148096,
+      "add_any": 195909,
+      "add_merged": 188356,
+      "factor": 29.907923860115094,
+      "factor_merged": 28.793418916924892
+    },
+    {
+      "guide_index": 87,
+      "ungapped": 3882,
+      "add_dna": 19007,
+      "add_rna": 56282,
+      "add_any": 73936,
+      "add_merged": 70147,
+      "factor": 20.04585265327151,
+      "factor_merged": 19.069809376609996
+    },
+    {
+      "guide_index": 88,
+      "ungapped": 968,
+      "add_dna": 7960,
+      "add_rna": 31254,
+      "add_any": 38703,
+      "add_merged": 37635,
+      "factor": 40.982438016528924,
+      "factor_merged": 39.87913223140496
+    },
+    {
+      "guide_index": 89,
+      "ungapped": 26325,
+      "add_dna": 95999,
+      "add_rna": 173538,
+      "add_any": 245264,
+      "add_merged": 218060,
+      "factor": 10.316771130104463,
+      "factor_merged": 9.28338081671415
+    },
+    {
+      "guide_index": 90,
+      "ungapped": 613,
+      "add_dna": 8490,
+      "add_rna": 19780,
+      "add_any": 27940,
+      "add_merged": 27211,
+      "factor": 46.57911908646003,
+      "factor_merged": 45.38988580750408
+    },
+    {
+      "guide_index": 91,
+      "ungapped": 1240,
+      "add_dna": 13210,
+      "add_rna": 36996,
+      "add_any": 49278,
+      "add_merged": 47949,
+      "factor": 40.74032258064516,
+      "factor_merged": 39.66854838709678
+    },
+    {
+      "guide_index": 92,
+      "ungapped": 5455,
+      "add_dna": 53894,
+      "add_rna": 281961,
+      "add_any": 325379,
+      "add_merged": 319446,
+      "factor": 60.64784601283226,
+      "factor_merged": 59.5602199816682
+    },
+    {
+      "guide_index": 93,
+      "ungapped": 2115,
+      "add_dna": 18886,
+      "add_rna": 58953,
+      "add_any": 76370,
+      "add_merged": 74236,
+      "factor": 37.10874704491726,
+      "factor_merged": 36.099763593380615
+    },
+    {
+      "guide_index": 94,
+      "ungapped": 1030,
+      "add_dna": 8956,
+      "add_rna": 27822,
+      "add_any": 36224,
+      "add_merged": 35193,
+      "factor": 36.16893203883495,
+      "factor_merged": 35.167961165048546
+    },
+    {
+      "guide_index": 95,
+      "ungapped": 2062,
+      "add_dna": 13418,
+      "add_rna": 45445,
+      "add_any": 57890,
+      "add_merged": 55540,
+      "factor": 29.074684772065954,
+      "factor_merged": 27.93501454898157
+    },
+    {
+      "guide_index": 96,
+      "ungapped": 2126,
+      "add_dna": 17025,
+      "add_rna": 49531,
+      "add_any": 65004,
+      "add_merged": 62622,
+      "factor": 31.575729068673564,
+      "factor_merged": 30.455315145813735
+    },
+    {
+      "guide_index": 97,
+      "ungapped": 1896,
+      "add_dna": 14139,
+      "add_rna": 35252,
+      "add_any": 48290,
+      "add_merged": 46136,
+      "factor": 26.469409282700422,
+      "factor_merged": 25.333333333333332
+    },
+    {
+      "guide_index": 98,
+      "ungapped": 939,
+      "add_dna": 7743,
+      "add_rna": 24436,
+      "add_any": 31579,
+      "add_merged": 30529,
+      "factor": 34.63045793397231,
+      "factor_merged": 33.512247071352505
+    },
+    {
+      "guide_index": 99,
+      "ungapped": 1223,
+      "add_dna": 15172,
+      "add_rna": 50434,
+      "add_any": 64332,
+      "add_merged": 63122,
+      "factor": 53.60179885527392,
+      "factor_merged": 52.61242845461979
+    },
+    {
+      "guide_index": 100,
+      "ungapped": 1173,
+      "add_dna": 13853,
+      "add_rna": 31816,
+      "add_any": 44679,
+      "add_merged": 43386,
+      "factor": 39.089514066496164,
+      "factor_merged": 37.987212276214834
+    },
+    {
+      "guide_index": 101,
+      "ungapped": 533,
+      "add_dna": 5458,
+      "add_rna": 16947,
+      "add_any": 22081,
+      "add_merged": 21472,
+      "factor": 42.427767354596625,
+      "factor_merged": 41.28517823639775
+    },
+    {
+      "guide_index": 102,
+      "ungapped": 4118,
+      "add_dna": 30918,
+      "add_rna": 226556,
+      "add_any": 253399,
+      "add_merged": 249127,
+      "factor": 62.53448275862069,
+      "factor_merged": 61.497085964060226
+    },
+    {
+      "guide_index": 103,
+      "ungapped": 404,
+      "add_dna": 4738,
+      "add_rna": 18444,
+      "add_any": 22645,
+      "add_merged": 22226,
+      "factor": 57.051980198019805,
+      "factor_merged": 56.01485148514851
+    },
+    {
+      "guide_index": 104,
+      "ungapped": 1046,
+      "add_dna": 10208,
+      "add_rna": 35266,
+      "add_any": 44362,
+      "add_merged": 43208,
+      "factor": 43.411089866156786,
+      "factor_merged": 42.30783938814532
+    },
+    {
+      "guide_index": 105,
+      "ungapped": 1062,
+      "add_dna": 11073,
+      "add_rna": 32322,
+      "add_any": 42156,
+      "add_merged": 41000,
+      "factor": 40.69491525423729,
+      "factor_merged": 39.60640301318267
+    },
+    {
+      "guide_index": 106,
+      "ungapped": 2181,
+      "add_dna": 13195,
+      "add_rna": 48839,
+      "add_any": 60390,
+      "add_merged": 58125,
+      "factor": 28.689133425034388,
+      "factor_merged": 27.650618982118296
+    },
+    {
+      "guide_index": 107,
+      "ungapped": 2330,
+      "add_dna": 20724,
+      "add_rna": 51165,
+      "add_any": 69588,
+      "add_merged": 67337,
+      "factor": 30.86609442060086,
+      "factor_merged": 29.9
+    },
+    {
+      "guide_index": 108,
+      "ungapped": 4156,
+      "add_dna": 29797,
+      "add_rna": 88806,
+      "add_any": 114619,
+      "add_merged": 110222,
+      "factor": 28.579162656400385,
+      "factor_merged": 27.521174205967277
+    },
+    {
+      "guide_index": 109,
+      "ungapped": 839,
+      "add_dna": 7731,
+      "add_rna": 28815,
+      "add_any": 35994,
+      "add_merged": 35160,
+      "factor": 43.901072705601905,
+      "factor_merged": 42.907032181168056
+    }
+  ],
+  "totals": {
+    "ungapped": 280149,
+    "add_dna": 2078186,
+    "add_rna": 6053485,
+    "add_any": 7947538,
+    "add_merged": 7637844,
+    "panel_factor_strict": 29.368967942059403,
+    "panel_factor_merged": 28.263506205626292,
+    "per_guide_factor_strict": [
+      35.12463922943716,
+      6.982647597098895,
+      90.4868154158215
+    ],
+    "per_guide_factor_merged": [
+      33.99025370687473,
+      5.593777536772182,
+      89.41379310344827
+    ]
+  }
+}

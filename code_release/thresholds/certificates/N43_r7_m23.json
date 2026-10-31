@@ -1,0 +1,115 @@
+{
+  "N": 43,
+  "r": 7,
+  "m": 23,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "000011",
+      "tail_weight": 23,
+      "mass": "1955/3294"
+    },
+    {
+      "prefix": "0001X1",
+      "tail_weight": 22,
+      "mass": "4633/72468"
+    },
+    {
+      "prefix": "001110",
+      "tail_weight": 22,
+      "mass": "241/1098"
+    },
+    {
+      "prefix": "001111",
+      "tail_weight": 23,
+      "mass": "857/2196"
+    },
+    {
+      "prefix": "00111X",
+      "tail_weight": 22,
+      "mass": "857/2196"
+    },
+    {
+      "prefix": "011110",
+      "tail_weight": 22,
+      "mass": "857/2196"
+    },
+    {
+      "prefix": "011XX1",
+      "tail_weight": 21,
+      "mass": "1339/2196"
+    },
+    {
+      "prefix": "0X0011",
+      "tail_weight": 22,
+      "mass": "1339/3294"
+    },
+    {
+      "prefix": "0X0111",
+      "tail_weight": 22,
+      "mass": "11273/72468"
+    },
+    {
+      "prefix": "0XX000",
+      "tail_weight": 21,
+      "mass": "1"
+    },
+    {
+      "prefix": "100001",
+      "tail_weight": 22,
+      "mass": "1"
+    },
+    {
+      "prefix": "110111",
+      "tail_weight": 22,
+      "mass": "55/3294"
+    },
+    {
+      "prefix": "111X1X",
+      "tail_weight": 21,
+      "mass": "1339/2196"
+    },
+    {
+      "prefix": "11X1X1",
+      "tail_weight": 21,
+      "mass": "14549/46116"
+    },
+    {
+      "prefix": "1XX111",
+      "tail_weight": 21,
+      "mass": "1339/23058"
+    },
+    {
+      "prefix": "X0011X",
+      "tail_weight": 21,
+      "mass": "857/1098"
+    }
+  ],
+  "verification": {
+    "max_load": "1",
+    "witness": {
+      "prefix": "000000",
+      "tail_weight": 0
+    },
+    "centre_classes": 27702,
+    "region_masses": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "mass": "7",
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 251,
+    "private_orbits": 339,
+    "rounds": 3,
+    "seconds": 0.28,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

@@ -1,0 +1,12 @@
+INTEGRITY_PASS 1670
+PACKAGE_BEGIN m10_r11_kernel
+COMMAND code_release /usr/local/bin/python3 -B -I certificates/m10_r11/verify_kernel_certs.py
+omit_both_ends: worst 995916339936 <= 1000000000000, dot 10020000594807 > 10*D, integer sum >= 11
+end0_omit_1513: worst 984546780120 <= 1000000000000, dot 9020000146095 > 9*D, integer sum >= 11
+end0_and_1513: worst 988266038976 <= 1000000000000, dot 8020001389392 > 8*D, integer sum >= 11
+end7074_omit_2065: worst 984546780120 <= 1000000000000, dot 9020000146095 > 9*D, integer sum >= 11
+end7074_and_2065: worst 988266038976 <= 1000000000000, dot 8020001389392 > 8*D, integer sum >= 11
+KERNEL_CERTS_OK
+REPLAY_RESOURCES {"package": "m10_r11_kernel", "command": ["/usr/local/bin/python3", "-B", "-I", "certificates/m10_r11/verify_kernel_certs.py"], "exit_code": 0, "wall_seconds": 1.5668844160391018, "peak_child_rss_bytes": 72269824, "user_seconds": 1.289101, "system_seconds": 0.063045}
+PACKAGE_PASS m10_r11_kernel
+time: sysctl kern.clockrate: Operation not permitted

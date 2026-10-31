@@ -1,0 +1,14 @@
+{
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "literal_grid_paths": 860,
+  "embedded_centre_words": 3091,
+  "cumulative_level_checks": 24057,
+  "control": {
+    "claim": "C_h<=2h+1, omitting free letters",
+    "centre": "2222222",
+    "h": 0,
+    "actual": 8,
+    "claimed_upper": 1,
+    "outcome": "REFUTED_AS_REQUIRED"
+  }
+}

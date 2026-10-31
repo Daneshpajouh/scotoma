@@ -1,0 +1,14 @@
+INTEGRITY_PASS 1675
+COMMAND /usr/local/bin/python3 -B code_release/verify_cfd_gap_table.py <TASK>/sources/mismatch_score.pkl
+  table entries            392
+  gap entries              152   paper states 152
+  guide-side / target-side 76 / 76
+  positions, guide side    [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  positions, target side   [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  position 1 present       False
+  median factor, DNA / RNA 0.0769 / 0.1923   (smaller is harsher)
+  entries exactly zero     DNA 25, RNA 20
+
+CFD does score bulges: the shipped table carries a gap penalty at every guide position
+from 2 to 20 in both orientations, and position 1 is the only one without.
+EXTERNAL_ANALYSIS_PASS cfd-table

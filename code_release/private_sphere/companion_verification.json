@@ -1,0 +1,22 @@
+{
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "checked_parameter_cells": 354,
+  "local_formula_checks": 1368,
+  "one_free_letter_centres_checked": 3656,
+  "controls": [
+    {
+      "control": "drop F(N,m)>=0 from valley comparison",
+      "outcome": "REFUTED_AS_REQUIRED",
+      "N": 22,
+      "m": 10
+    },
+    {
+      "control": "omit the one-uncovered-disagreement term",
+      "outcome": "REFUTED_AS_REQUIRED",
+      "N": 16,
+      "m": 6,
+      "actual": "27/91",
+      "wrong": "15/91"
+    }
+  ]
+}

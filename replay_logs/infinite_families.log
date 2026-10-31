@@ -1,0 +1,345 @@
+INTEGRITY_PASS 1670
+PACKAGE_BEGIN infinite_families
+COMMAND code_release /usr/local/bin/python3 -B -I certificates/infinite_families/verify.py verify
+SHA256_VERIFIED 22
+LITERAL_PAIR_TESTS 13932 mismatches 0
+KERNEL_VERIFIED [19, 4, 13] entries 157896
+KERNEL_VERIFIED [19, 5, 12] entries 1179360
+KERNEL_VERIFIED [20, 6, 12] entries 10120464
+OVERLAP_SEED_VERIFIED {"triples_checked": 3325, "minimum_gap": 390000}
+PACKING_VERIFIED {"cell": [19, 5, 12], "mass": "37551495153529/9799317758973", "max_load": "1", "classes": 1296, "support": 16}
+INTEGER_SEED_VERIFIED {"cell": [19, 5, 12], "eligible": 426, "solutions": 0}
+PACKING_VERIFIED {"cell": [20, 6, 12], "mass": "65813077708629090895757158759095761030267183724613507097138795127520216091824088986755001056988770242965117851475593657051418871705178899966763027530341998013085877929443350257516648546649364295582405094374336680512884389123270120565428010364822259378390923386437970073036540558359125370121252417916103555347547/13528559210433825776543895418429996751407376801539234688642766539871721801840812558142865049881342156032637891482848223971120650693160310713578709772943942189775740655828418422567834682555170231142454636802219850839191255041909015326263501663711724616534438819574783875101374648665838733820101627821499399200326", "max_load": "1", "classes": 3888, "support": 28}
+INTEGER_SEED_VERIFIED {"cell": [20, 6, 12], "eligible": 371, "solutions": 0}
+PACKING_VERIFIED {"cell": [18, 7, 10], "mass": "6139409/1000000", "max_load": "499999/500000", "classes": 9477, "support": 42}
+PACKING_VERIFIED {"cell": [19, 7, 11], "mass": "576616449/100000000", "max_load": "199999997/200000000", "classes": 10206, "support": 51, "beta": "23/600", "adjusted_max": "6156921018071/5212350000000", "adjusted_cap": "59061/50000", "mass_lower_bound": "2883/500", "saturation_weight": 39, "margin_lower_bound": "2171/12500"}
+NEGATIVE_CONTROL_REJECTED adjusted cap reduced by 1/50000
+PACKING_VERIFIED {"cell": [21, 6, 13], "mass": "455055673/100000000", "max_load": "99999999/100000000", "classes": 4131, "support": 25, "beta": "31/1000", "adjusted_max": "6797855500321081/5629338000000000", "adjusted_cap": "60379/50000", "mass_lower_bound": "9101/2000", "saturation_weight": 48, "margin_lower_bound": "3/5000"}
+FRACTIONAL_COVER_VERIFIED [19, 4, 13] {"passes": true, "extremum": "1", "at": {"prefix": "111", "suffix_weight": 13}, "violations": 0, "orbits_checked": 344, "total_mass": "121693659663240/45360000008567", "support_orbits": 15}
+FRACTIONAL_COVER_VERIFIED [19, 5, 12] {"passes": true, "extremum": "1", "at": {"prefix": "0011", "suffix_weight": 12}, "violations": 0, "orbits_checked": 910, "total_mass": "37551495153529/9799317758973", "support_orbits": 16}
+FRACTIONAL_COVER_VERIFIED [20, 6, 12] {"passes": true, "extremum": "1", "at": {"prefix": "00X00", "suffix_weight": 11}, "violations": 0, "orbits_checked": 2603, "total_mass": "15936925674852/3276000000347", "support_orbits": 26}
+FRACTIONAL_COVER_VERIFIED [19, 7, 11] {"passes": true, "extremum": "241312793/241312500", "at": {"prefix": "0X0111", "suffix_weight": 10}, "violations": 0, "orbits_checked": 6690, "total_mass": "2883093/500000", "support_orbits": 50}
+FRACTIONAL_COVER_VERIFIED [21, 6, 13] {"passes": true, "extremum": "1", "at": {"prefix": "0011X", "suffix_weight": 12}, "violations": 0, "orbits_checked": 2846, "total_mass": "604111109847228451839601/132755425606826252781738", "support_orbits": 25}
+FALSE_FRACTIONAL_RAY_CLAIM_REJECTED tau*(41,5,23)=5 at h=11
+GUARDS_VERIFIED [{"r": 2, "d": 1, "guard_words": 4, "slots": 1}, {"r": 3, "d": 1, "guard_words": 4, "slots": 2}, {"r": 4, "d": 1, "guard_words": 4, "slots": 3}, {"r": 5, "d": 2, "guard_words": 7, "slots": 4}, {"r": 6, "d": 2, "guard_words": 7, "slots": 5}, {"r": 7, "d": 2, "guard_words": 7, "slots": 6}, {"r": 8, "d": 3, "guard_words": 10, "slots": 7}, {"r": 9, "d": 3, "guard_words": 10, "slots": 8}, {"r": 10, "d": 3, "guard_words": 10, "slots": 9}, {"r": 11, "d": 4, "guard_words": 13, "slots": 10}]
+{
+  "kernels": [
+    {
+      "cell": [
+        19,
+        4,
+        13
+      ],
+      "classes": 459,
+      "target_orbits": 344,
+      "entries": 157896
+    },
+    {
+      "cell": [
+        19,
+        5,
+        12
+      ],
+      "classes": 1296,
+      "target_orbits": 910,
+      "entries": 1179360
+    },
+    {
+      "cell": [
+        20,
+        6,
+        12
+      ],
+      "classes": 3888,
+      "target_orbits": 2603,
+      "entries": 10120464
+    }
+  ],
+  "overlap": {
+    "triples_checked": 3325,
+    "minimum_gap": 390000
+  },
+  "integer_seeds": [
+    {
+      "cell": [
+        19,
+        5,
+        12
+      ],
+      "eligible": 426,
+      "solutions": 0
+    },
+    {
+      "cell": [
+        20,
+        6,
+        12
+      ],
+      "eligible": 371,
+      "solutions": 0
+    }
+  ],
+  "saturation": [
+    {
+      "cell": [
+        18,
+        7,
+        10
+      ],
+      "mass": "6139409/1000000",
+      "max_load": "499999/500000",
+      "classes": 9477,
+      "support": 42
+    },
+    {
+      "cell": [
+        19,
+        7,
+        11
+      ],
+      "mass": "576616449/100000000",
+      "max_load": "199999997/200000000",
+      "classes": 10206,
+      "support": 51,
+      "beta": "23/600",
+      "adjusted_max": "6156921018071/5212350000000",
+      "adjusted_cap": "59061/50000",
+      "mass_lower_bound": "2883/500",
+      "saturation_weight": 39,
+      "margin_lower_bound": "2171/12500"
+    },
+    {
+      "cell": [
+        21,
+        6,
+        13
+      ],
+      "mass": "455055673/100000000",
+      "max_load": "99999999/100000000",
+      "classes": 4131,
+      "support": 25,
+      "beta": "31/1000",
+      "adjusted_max": "6797855500321081/5629338000000000",
+      "adjusted_cap": "60379/50000",
+      "mass_lower_bound": "9101/2000",
+      "saturation_weight": 48,
+      "margin_lower_bound": "3/5000"
+    }
+  ],
+  "fractional_covers": [
+    {
+      "cell": [
+        19,
+        4,
+        13
+      ],
+      "passes": true,
+      "extremum": "1",
+      "at": {
+        "prefix": "111",
+        "suffix_weight": 13
+      },
+      "violations": 0,
+      "orbits_checked": 344,
+      "total_mass": "121693659663240/45360000008567",
+      "support_orbits": 15
+    },
+    {
+      "cell": [
+        19,
+        5,
+        12
+      ],
+      "passes": true,
+      "extremum": "1",
+      "at": {
+        "prefix": "0011",
+        "suffix_weight": 12
+      },
+      "violations": 0,
+      "orbits_checked": 910,
+      "total_mass": "37551495153529/9799317758973",
+      "support_orbits": 16
+    },
+    {
+      "cell": [
+        20,
+        6,
+        12
+      ],
+      "passes": true,
+      "extremum": "1",
+      "at": {
+        "prefix": "00X00",
+        "suffix_weight": 11
+      },
+      "violations": 0,
+      "orbits_checked": 2603,
+      "total_mass": "15936925674852/3276000000347",
+      "support_orbits": 26
+    },
+    {
+      "cell": [
+        19,
+        7,
+        11
+      ],
+      "passes": true,
+      "extremum": "241312793/241312500",
+      "at": {
+        "prefix": "0X0111",
+        "suffix_weight": 10
+      },
+      "violations": 0,
+      "orbits_checked": 6690,
+      "total_mass": "2883093/500000",
+      "support_orbits": 50
+    },
+    {
+      "cell": [
+        21,
+        6,
+        13
+      ],
+      "passes": true,
+      "extremum": "1",
+      "at": {
+        "prefix": "0011X",
+        "suffix_weight": 12
+      },
+      "violations": 0,
+      "orbits_checked": 2846,
+      "total_mass": "604111109847228451839601/132755425606826252781738",
+      "support_orbits": 25
+    }
+  ],
+  "families": {
+    "seeds": [
+      [
+        19,
+        4,
+        13
+      ],
+      [
+        19,
+        5,
+        12
+      ],
+      [
+        20,
+        6,
+        12
+      ],
+      [
+        19,
+        11,
+        10
+      ],
+      [
+        18,
+        7,
+        10
+      ],
+      [
+        19,
+        7,
+        11
+      ],
+      [
+        21,
+        6,
+        13
+      ]
+    ],
+    "guards": [
+      {
+        "r": 2,
+        "d": 1,
+        "guard_words": 4,
+        "slots": 1
+      },
+      {
+        "r": 3,
+        "d": 1,
+        "guard_words": 4,
+        "slots": 2
+      },
+      {
+        "r": 4,
+        "d": 1,
+        "guard_words": 4,
+        "slots": 3
+      },
+      {
+        "r": 5,
+        "d": 2,
+        "guard_words": 7,
+        "slots": 4
+      },
+      {
+        "r": 6,
+        "d": 2,
+        "guard_words": 7,
+        "slots": 5
+      },
+      {
+        "r": 7,
+        "d": 2,
+        "guard_words": 7,
+        "slots": 6
+      },
+      {
+        "r": 8,
+        "d": 3,
+        "guard_words": 10,
+        "slots": 7
+      },
+      {
+        "r": 9,
+        "d": 3,
+        "guard_words": 10,
+        "slots": 8
+      },
+      {
+        "r": 10,
+        "d": 3,
+        "guard_words": 10,
+        "slots": 9
+      },
+      {
+        "r": 11,
+        "d": 4,
+        "guard_words": 13,
+        "slots": 10
+      }
+    ],
+    "fractional_ray_counterexample": {
+      "n": 42,
+      "N": 41,
+      "C": 37,
+      "m": 23,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 3078,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    "strict_fractional_gap_ray": "K(19+h,4,13+h)=4 with tau*<3 for every h>=0"
+  },
+  "literal_pair_tests": 13932,
+  "seconds": 334.2284605000168
+}
+INFINITE_FAMILIES_VERIFIED five integer rays; four-run strict fractional-gap ray
+REPLAY_RESOURCES {"package": "infinite_families", "command": ["/usr/local/bin/python3", "-B", "-I", "certificates/infinite_families/verify.py", "verify"], "exit_code": 0, "wall_seconds": 334.5038941669627, "peak_child_rss_bytes": 151535616, "user_seconds": 1232.718944, "system_seconds": 6.257758}
+PACKAGE_PASS infinite_families
+time: sysctl kern.clockrate: Operation not permitted

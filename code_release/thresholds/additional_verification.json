@@ -1,0 +1,42 @@
+{
+  "constant_mass_obstruction": {
+    "status": "PROVED",
+    "private_prefixes": 339,
+    "minimum": "1",
+    "dual_mass": "3922162576875/562499999968",
+    "deficit": "15337422901/562499999968"
+  },
+  "upper_r7": {
+    "status": "PROVED",
+    "r": 7,
+    "line_n0": 19,
+    "line_m0": 9,
+    "shift": 27,
+    "private_prefixes": 339,
+    "positive_coefficients_checked": 4038,
+    "finite_bridges": 27,
+    "all_z_ge_zero": true
+  },
+  "upper_r7_n46": {
+    "status": "PROVED",
+    "r": 7,
+    "line_n0": 46,
+    "line_m0": 25,
+    "shift": 59,
+    "private_prefixes": 339,
+    "positive_coefficients_checked": 3611,
+    "finite_bridges": 59,
+    "all_z_ge_zero": true
+  },
+  "upper_r8_n83": {
+    "status": "PROVED",
+    "r": 8,
+    "line_n0": 83,
+    "line_m0": 47,
+    "shift": 51,
+    "private_prefixes": 996,
+    "positive_coefficients_checked": 14774,
+    "finite_bridges": 51,
+    "all_z_ge_zero": true
+  }
+}

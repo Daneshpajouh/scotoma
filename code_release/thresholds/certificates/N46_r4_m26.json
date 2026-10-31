@@ -1,0 +1,52 @@
+{
+  "N": 46,
+  "r": 4,
+  "m": 26,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "000",
+      "tail_weight": 26,
+      "mass": "1"
+    },
+    {
+      "prefix": "011",
+      "tail_weight": 26,
+      "mass": "1"
+    },
+    {
+      "prefix": "110",
+      "tail_weight": 25,
+      "mass": "1"
+    },
+    {
+      "prefix": "X01",
+      "tail_weight": 25,
+      "mass": "1"
+    }
+  ],
+  "verification": {
+    "max_load": "1",
+    "witness": {
+      "prefix": "000",
+      "tail_weight": 0
+    },
+    "centre_classes": 1188,
+    "region_masses": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "mass": "4",
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 20,
+    "private_orbits": 14,
+    "rounds": 1,
+    "seconds": 0.195,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

@@ -1,0 +1,16 @@
+INTEGRITY_PASS 1670
+PACKAGE_BEGIN maize_loci
+COMMAND code_release /usr/local/bin/python3 -B verify_maize_exclusive.py
+  GGCCGAGGTCGACTACCGGC    40181 distinct loci   paper says  40181   ok
+  GGCGGCGGCGAGGTAGTGCG    31912 distinct loci   paper says  31912   ok
+  both guides             72093 total          paper says  72093   ok
+  share                    40.2% of 179304       paper says 40.2%   ok
+  GGCCGAGGTCGACTACCGGC   403772 emitted loci   expected 403772   ok
+  GGCGGCGGCGAGGTAGTGCG   651999 emitted loci   expected 651999   ok
+  GGCCGAGGTCGACTACCGGC   exclusive loci also in the emitted union: 0   ok
+  GGCGGCGGCGAGGTAGTGCG   exclusive loci also in the emitted union: 0   ok
+  both guides            1127864 complete       paper says 1127864   ok
+  whole-portfolio share    6.39% of the complete set   paper says 6.39%   ok
+every maize figure in the paper is reproduced from the released locus lists
+REPLAY_RESOURCES {"package": "maize_loci", "command": ["/usr/local/bin/python3", "-B", "verify_maize_exclusive.py"], "exit_code": 0, "wall_seconds": 0.7634127500350587, "peak_child_rss_bytes": 218218496, "user_seconds": 0.700472, "system_seconds": 0.038015}
+PACKAGE_PASS maize_loci

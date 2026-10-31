@@ -1,0 +1,97 @@
+{
+  "N": 38,
+  "r": 6,
+  "m": 22,
+  "kind": "SHORT",
+  "support": [
+    {
+      "prefix": "11111",
+      "tail_weight": 0,
+      "mass": "5932365615/9899999996"
+    },
+    {
+      "prefix": "11111",
+      "tail_weight": 1,
+      "mass": "22843488987/98999999960"
+    },
+    {
+      "prefix": "01111",
+      "tail_weight": 1,
+      "mass": "23604585741/19799999992"
+    },
+    {
+      "prefix": "00111",
+      "tail_weight": 1,
+      "mass": "10573582041/12374999995"
+    },
+    {
+      "prefix": "00011",
+      "tail_weight": 1,
+      "mass": "10573582041/12374999995"
+    },
+    {
+      "prefix": "00001",
+      "tail_weight": 1,
+      "mass": "23604585741/19799999992"
+    },
+    {
+      "prefix": "00000",
+      "tail_weight": 0,
+      "mass": "5932365615/9899999996"
+    },
+    {
+      "prefix": "00000",
+      "tail_weight": 1,
+      "mass": "22843488987/98999999960"
+    },
+    {
+      "prefix": "00110",
+      "tail_weight": 1,
+      "mass": "492225327/98999999960"
+    },
+    {
+      "prefix": "01100",
+      "tail_weight": 1,
+      "mass": "492225327/98999999960"
+    },
+    {
+      "prefix": "01110",
+      "tail_weight": 1,
+      "mass": "1107506961/12374999995"
+    },
+    {
+      "prefix": "10001",
+      "tail_weight": 1,
+      "mass": "1107506961/12374999995"
+    },
+    {
+      "prefix": "10011",
+      "tail_weight": 1,
+      "mass": "492225327/98999999960"
+    },
+    {
+      "prefix": "11001",
+      "tail_weight": 1,
+      "mass": "492225327/98999999960"
+    }
+  ],
+  "verification": {
+    "private_orbits": 116,
+    "minimum": "1",
+    "mass": "73655809128/12374999995",
+    "deficit": "594190842/12374999995",
+    "witness": {
+      "prefix": "011XX",
+      "tail_weight": 20
+    },
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 70,
+    "private_orbits": 116,
+    "rounds": 1,
+    "seconds": 0.1,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

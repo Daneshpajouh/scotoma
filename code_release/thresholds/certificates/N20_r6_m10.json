@@ -1,0 +1,124 @@
+{
+  "N": 20,
+  "r": 6,
+  "m": 10,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "00011",
+      "tail_weight": 10,
+      "mass": "104/159"
+    },
+    {
+      "prefix": "001X1",
+      "tail_weight": 9,
+      "mass": "3/53"
+    },
+    {
+      "prefix": "00X00",
+      "tail_weight": 9,
+      "mass": "155/318"
+    },
+    {
+      "prefix": "00X01",
+      "tail_weight": 9,
+      "mass": "5/53"
+    },
+    {
+      "prefix": "01000",
+      "tail_weight": 9,
+      "mass": "37/318"
+    },
+    {
+      "prefix": "01001",
+      "tail_weight": 9,
+      "mass": "4/53"
+    },
+    {
+      "prefix": "01110",
+      "tail_weight": 9,
+      "mass": "4/53"
+    },
+    {
+      "prefix": "011X1",
+      "tail_weight": 9,
+      "mass": "37/318"
+    },
+    {
+      "prefix": "011XX",
+      "tail_weight": 8,
+      "mass": "257/318"
+    },
+    {
+      "prefix": "0X01X",
+      "tail_weight": 8,
+      "mass": "37/159"
+    },
+    {
+      "prefix": "10X00",
+      "tail_weight": 8,
+      "mass": "9/53"
+    },
+    {
+      "prefix": "11X11",
+      "tail_weight": 9,
+      "mass": "1"
+    },
+    {
+      "prefix": "X0001",
+      "tail_weight": 9,
+      "mass": "7/318"
+    },
+    {
+      "prefix": "X001X",
+      "tail_weight": 8,
+      "mass": "6/53"
+    },
+    {
+      "prefix": "X0110",
+      "tail_weight": 8,
+      "mass": "37/318"
+    },
+    {
+      "prefix": "X0111",
+      "tail_weight": 9,
+      "mass": "263/318"
+    },
+    {
+      "prefix": "X0X00",
+      "tail_weight": 8,
+      "mass": "12/53"
+    },
+    {
+      "prefix": "XX001",
+      "tail_weight": 8,
+      "mass": "257/318"
+    }
+  ],
+  "verification": {
+    "max_load": "1",
+    "witness": {
+      "prefix": "00000",
+      "tail_weight": 0
+    },
+    "centre_classes": 3888,
+    "region_masses": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "mass": "6",
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 120,
+    "private_orbits": 116,
+    "rounds": 6,
+    "seconds": 0.051,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "N": 19,
+  "r": 4,
+  "m": 11,
+  "cover": [
+    {
+      "prefix": "000",
+      "suffix_weight": 0,
+      "mass": "139/211"
+    },
+    {
+      "prefix": "000",
+      "suffix_weight": 1,
+      "mass": "336/2321"
+    },
+    {
+      "prefix": "001",
+      "suffix_weight": 1,
+      "mass": "2448/2321"
+    },
+    {
+      "prefix": "011",
+      "suffix_weight": 1,
+      "mass": "2448/2321"
+    },
+    {
+      "prefix": "01X",
+      "suffix_weight": 0,
+      "mass": "140/2321"
+    },
+    {
+      "prefix": "111",
+      "suffix_weight": 0,
+      "mass": "139/211"
+    },
+    {
+      "prefix": "111",
+      "suffix_weight": 1,
+      "mass": "336/2321"
+    },
+    {
+      "prefix": "11X",
+      "suffix_weight": 0,
+      "mass": "2/2321"
+    },
+    {
+      "prefix": "X00",
+      "suffix_weight": 0,
+      "mass": "2/2321"
+    },
+    {
+      "prefix": "X01",
+      "suffix_weight": 0,
+      "mass": "140/2321"
+    }
+  ],
+  "packing": [
+    {
+      "prefix": "000",
+      "suffix_weight": 11,
+      "mass": "74/211"
+    },
+    {
+      "prefix": "001",
+      "suffix_weight": 11,
+      "mass": "46/211"
+    },
+    {
+      "prefix": "011",
+      "suffix_weight": 11,
+      "mass": "46/211"
+    },
+    {
+      "prefix": "01X",
+      "suffix_weight": 10,
+      "mass": "148/211"
+    },
+    {
+      "prefix": "100",
+      "suffix_weight": 10,
+      "mass": "11/211"
+    },
+    {
+      "prefix": "110",
+      "suffix_weight": 10,
+      "mass": "11/211"
+    },
+    {
+      "prefix": "111",
+      "suffix_weight": 11,
+      "mass": "74/211"
+    },
+    {
+      "prefix": "11X",
+      "suffix_weight": 10,
+      "mass": "126/211"
+    },
+    {
+      "prefix": "X00",
+      "suffix_weight": 10,
+      "mass": "126/211"
+    },
+    {
+      "prefix": "X01",
+      "suffix_weight": 10,
+      "mass": "148/211"
+    }
+  ],
+  "normalization": "total mass, uniform within each orbit",
+  "orientation": "canonical 0^j 1^(r-1-j) 0^(N-r+1)"
+}

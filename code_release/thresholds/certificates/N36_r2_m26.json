@@ -1,0 +1,40 @@
+{
+  "N": 36,
+  "r": 2,
+  "m": 26,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "0",
+      "tail_weight": 26,
+      "mass": "1"
+    },
+    {
+      "prefix": "1",
+      "tail_weight": 26,
+      "mass": "1"
+    }
+  ],
+  "verification": {
+    "max_load": "1",
+    "witness": {
+      "prefix": "0",
+      "tail_weight": 0
+    },
+    "centre_classes": 108,
+    "region_masses": [
+      "1",
+      "1"
+    ],
+    "mass": "2",
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 6,
+    "private_orbits": 2,
+    "rounds": 1,
+    "seconds": 0.095,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

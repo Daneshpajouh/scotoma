@@ -1,0 +1,97 @@
+{
+  "N": 48,
+  "r": 6,
+  "m": 28,
+  "kind": "SHORT",
+  "support": [
+    {
+      "prefix": "11111",
+      "tail_weight": 0,
+      "mass": "8990821582/14333333335"
+    },
+    {
+      "prefix": "11111",
+      "tail_weight": 1,
+      "mass": "7783900162/43000000005"
+    },
+    {
+      "prefix": "01111",
+      "tail_weight": 1,
+      "mass": "17702164019/14333333335"
+    },
+    {
+      "prefix": "00111",
+      "tail_weight": 1,
+      "mass": "7457855156/8600000001"
+    },
+    {
+      "prefix": "00011",
+      "tail_weight": 1,
+      "mass": "7457855156/8600000001"
+    },
+    {
+      "prefix": "00001",
+      "tail_weight": 1,
+      "mass": "17702164019/14333333335"
+    },
+    {
+      "prefix": "00000",
+      "tail_weight": 0,
+      "mass": "8990821582/14333333335"
+    },
+    {
+      "prefix": "00000",
+      "tail_weight": 1,
+      "mass": "7783900162/43000000005"
+    },
+    {
+      "prefix": "00110",
+      "tail_weight": 1,
+      "mass": "7853950/2866666667"
+    },
+    {
+      "prefix": "01100",
+      "tail_weight": 1,
+      "mass": "7853950/2866666667"
+    },
+    {
+      "prefix": "01110",
+      "tail_weight": 1,
+      "mass": "942473871/14333333335"
+    },
+    {
+      "prefix": "10001",
+      "tail_weight": 1,
+      "mass": "942473871/14333333335"
+    },
+    {
+      "prefix": "10011",
+      "tail_weight": 1,
+      "mass": "7853950/2866666667"
+    },
+    {
+      "prefix": "11001",
+      "tail_weight": 1,
+      "mass": "7853950/2866666667"
+    }
+  ],
+  "verification": {
+    "private_orbits": 116,
+    "minimum": "1",
+    "mass": "256430345716/43000000005",
+    "deficit": "1569654314/43000000005",
+    "witness": {
+      "prefix": "0X000",
+      "tail_weight": 27
+    },
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 70,
+    "private_orbits": 116,
+    "rounds": 1,
+    "seconds": 0.203,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

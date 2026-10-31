@@ -1,0 +1,61 @@
+{
+  "N": 19,
+  "r": 2,
+  "m": 14,
+  "cover": [
+    {
+      "prefix": "0",
+      "suffix_weight": 8,
+      "mass": "4307989598347060702638/7855125117128661017653"
+    },
+    {
+      "prefix": "0",
+      "suffix_weight": 9,
+      "mass": "5864048626735260/50395685589364537"
+    },
+    {
+      "prefix": "0",
+      "suffix_weight": 18,
+      "mass": "36876441821229945/50395685589364537"
+    },
+    {
+      "prefix": "1",
+      "suffix_weight": 0,
+      "mass": "15290326820529667/50395685589364537"
+    },
+    {
+      "prefix": "1",
+      "suffix_weight": 8,
+      "mass": "249824172191863408452/7855125117128661017653"
+    }
+  ],
+  "packing": [
+    {
+      "prefix": "0",
+      "suffix_weight": 14,
+      "mass": "36876441821229945/50395685589364537"
+    },
+    {
+      "prefix": "1",
+      "suffix_weight": 14,
+      "mass": "36876441821229945/50395685589364537"
+    },
+    {
+      "prefix": "X",
+      "suffix_weight": 4,
+      "mass": "825006476781721/50395685589364537"
+    },
+    {
+      "prefix": "X",
+      "suffix_weight": 8,
+      "mass": "5213848146459381/50395685589364537"
+    },
+    {
+      "prefix": "X",
+      "suffix_weight": 13,
+      "mass": "7480389144893490/50395685589364537"
+    }
+  ],
+  "normalization": "total mass, uniform within each orbit",
+  "orientation": "canonical 0^j 1^(r-1-j) 0^(N-r+1)"
+}

@@ -1,0 +1,163 @@
+{
+ "N": 19,
+ "m": 11,
+ "r": 6,
+ "free_length": 14,
+ "status": "PROVED",
+ "criterion": "K >= ceil(LP*); a feasible dual of mass > r-1 proves K = r",
+ "restriction": "none; the dual support carries non-binary active prefixes",
+ "exact_total_mass": "1999996/386227",
+ "exact_total_mass_float": 5.178291522860908,
+ "ceiling": 6,
+ "exact_max_ball_mass": "1",
+ "max_ball_at": [
+  "000X0",
+  0
+ ],
+ "centre_classes_verified": 3645,
+ "centre_classes_note": "ALL (active-prefix type, free weight) classes, 3^5 x 15. Not the 2^5 binary-prefix classes: this dual has non-binary support, so the binary reduction is unavailable and was not used.",
+ "support_orbits": 27,
+ "rounding": "solver masses rounded DOWN to denominator 1000000 (preserves feasibility), then scaled by the exact maximum load 1158681/1000000 so the released dual is feasible everywhere with maximum ball mass exactly 1",
+ "dual": [
+  {
+   "prefix": "000XX",
+   "free_weight": 9,
+   "mass": "331496/1158681"
+  },
+  {
+   "prefix": "00X01",
+   "free_weight": 9,
+   "mass": "97162/386227"
+  },
+  {
+   "prefix": "00X0X",
+   "free_weight": 9,
+   "mass": "31580/386227"
+  },
+  {
+   "prefix": "00XX0",
+   "free_weight": 9,
+   "mass": "375989/1158681"
+  },
+  {
+   "prefix": "00XXX",
+   "free_weight": 8,
+   "mass": "64969/1158681"
+  },
+  {
+   "prefix": "0110X",
+   "free_weight": 9,
+   "mass": "14170/1158681"
+  },
+  {
+   "prefix": "01110",
+   "free_weight": 10,
+   "mass": "173489/1158681"
+  },
+  {
+   "prefix": "01X11",
+   "free_weight": 9,
+   "mass": "284864/1158681"
+  },
+  {
+   "prefix": "0X110",
+   "free_weight": 9,
+   "mass": "111578/1158681"
+  },
+  {
+   "prefix": "10001",
+   "free_weight": 10,
+   "mass": "58982/386227"
+  },
+  {
+   "prefix": "100X0",
+   "free_weight": 10,
+   "mass": "312269/1158681"
+  },
+  {
+   "prefix": "100X1",
+   "free_weight": 9,
+   "mass": "105284/1158681"
+  },
+  {
+   "prefix": "100XX",
+   "free_weight": 9,
+   "mass": "354901/1158681"
+  },
+  {
+   "prefix": "11000",
+   "free_weight": 11,
+   "mass": "1066/386227"
+  },
+  {
+   "prefix": "1100X",
+   "free_weight": 10,
+   "mass": "56329/386227"
+  },
+  {
+   "prefix": "1110X",
+   "free_weight": 10,
+   "mass": "329891/1158681"
+  },
+  {
+   "prefix": "1X110",
+   "free_weight": 10,
+   "mass": "314635/1158681"
+  },
+  {
+   "prefix": "1XX11",
+   "free_weight": 9,
+   "mass": "366670/1158681"
+  },
+  {
+   "prefix": "X1000",
+   "free_weight": 10,
+   "mass": "321778/1158681"
+  },
+  {
+   "prefix": "X1001",
+   "free_weight": 9,
+   "mass": "18757/1158681"
+  },
+  {
+   "prefix": "X100X",
+   "free_weight": 9,
+   "mass": "382906/1158681"
+  },
+  {
+   "prefix": "X1100",
+   "free_weight": 10,
+   "mass": "59752/386227"
+  },
+  {
+   "prefix": "X110X",
+   "free_weight": 9,
+   "mass": "368342/1158681"
+  },
+  {
+   "prefix": "X1X11",
+   "free_weight": 9,
+   "mass": "101363/1158681"
+  },
+  {
+   "prefix": "XX110",
+   "free_weight": 9,
+   "mass": "346241/1158681"
+  },
+  {
+   "prefix": "XX111",
+   "free_weight": 9,
+   "mass": "357803/1158681"
+  },
+  {
+   "prefix": "XXX11",
+   "free_weight": 8,
+   "mass": "47980/1158681"
+  }
+ ],
+ "DO_NOT_READ_THE_MASS_AS_A_MEASUREMENT": "exact_total_mass is a safe LOWER bound on tau*, not tau* itself: masses were rounded down and the column set offered to the LP was capped, both of which can only weaken it. ceil of it is what proves K = r.",
+ "independently_checked_by": [
+  "verify_ceiling_certificate.py",
+  "verify_F_independent.py"
+ ]
+}

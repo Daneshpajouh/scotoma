@@ -1,0 +1,216 @@
+{
+  "status": "PROVED: constant-prefix-mass ansatz obstruction, not a threshold impossibility",
+  "r": 7,
+  "instances": [
+    {
+      "N": 15,
+      "r": 7,
+      "m": 7,
+      "kind": "FINITE"
+    },
+    {
+      "N": 20,
+      "r": 7,
+      "m": 10,
+      "kind": "FINITE"
+    },
+    {
+      "N": 18,
+      "r": 7,
+      "m": 12,
+      "kind": "LIMIT_RHO_3_5"
+    }
+  ],
+  "support": [
+    {
+      "prefix": "000000",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "1547546012325/2249999999872"
+    },
+    {
+      "prefix": "000001",
+      "tail_weight": 1,
+      "instance": 0,
+      "mass": "155291411025/562499999968"
+    },
+    {
+      "prefix": "000011",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "138036809925/2249999999872"
+    },
+    {
+      "prefix": "000110",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "5176380375/281249999984"
+    },
+    {
+      "prefix": "000111",
+      "tail_weight": 1,
+      "instance": 0,
+      "mass": "486579754575/562499999968"
+    },
+    {
+      "prefix": "00011X",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "171779141025/2249999999872"
+    },
+    {
+      "prefix": "001111",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "138036809925/2249999999872"
+    },
+    {
+      "prefix": "0011X1",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "23006135025/1124999999936"
+    },
+    {
+      "prefix": "011110",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "5176380375/281249999984"
+    },
+    {
+      "prefix": "011111",
+      "tail_weight": 1,
+      "instance": 0,
+      "mass": "155291411025/562499999968"
+    },
+    {
+      "prefix": "01111X",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "2300613525/562499999968"
+    },
+    {
+      "prefix": "0111X1",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "23006135025/1124999999936"
+    },
+    {
+      "prefix": "0X0001",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "23006135025/1124999999936"
+    },
+    {
+      "prefix": "0X0011",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "23006135025/1124999999936"
+    },
+    {
+      "prefix": "100000",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "3067484625/1124999999936"
+    },
+    {
+      "prefix": "100001",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "5176380375/281249999984"
+    },
+    {
+      "prefix": "100111",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "5176380375/281249999984"
+    },
+    {
+      "prefix": "111110",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "3067484625/1124999999936"
+    },
+    {
+      "prefix": "111111",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "1547546012325/2249999999872"
+    },
+    {
+      "prefix": "X00001",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "2300613525/562499999968"
+    },
+    {
+      "prefix": "X00111",
+      "tail_weight": 0,
+      "instance": 0,
+      "mass": "171779141025/2249999999872"
+    },
+    {
+      "prefix": "000000",
+      "tail_weight": 1,
+      "instance": 2,
+      "mass": "7668711675/1124999999936"
+    },
+    {
+      "prefix": "000001",
+      "tail_weight": 1,
+      "instance": 2,
+      "mass": "927914110425/1124999999936"
+    },
+    {
+      "prefix": "000001",
+      "tail_weight": 2,
+      "instance": 2,
+      "mass": "575153374275/2249999999872"
+    },
+    {
+      "prefix": "000011",
+      "tail_weight": 2,
+      "instance": 2,
+      "mass": "215682515325/281249999984"
+    },
+    {
+      "prefix": "001111",
+      "tail_weight": 2,
+      "instance": 2,
+      "mass": "215682515325/281249999984"
+    },
+    {
+      "prefix": "011111",
+      "tail_weight": 1,
+      "instance": 2,
+      "mass": "927914110425/1124999999936"
+    },
+    {
+      "prefix": "011111",
+      "tail_weight": 2,
+      "instance": 2,
+      "mass": "575153374275/2249999999872"
+    },
+    {
+      "prefix": "01111X",
+      "tail_weight": 1,
+      "instance": 2,
+      "mass": "7668711675/562499999968"
+    },
+    {
+      "prefix": "111111",
+      "tail_weight": 1,
+      "instance": 2,
+      "mass": "7668711675/1124999999936"
+    },
+    {
+      "prefix": "X00001",
+      "tail_weight": 1,
+      "instance": 2,
+      "mass": "7668711675/562499999968"
+    }
+  ],
+  "minimum_prefix_coefficient": "1",
+  "dual_mass": "3922162576875/562499999968",
+  "deficit": "15337422901/562499999968",
+  "private_prefixes": 339
+}

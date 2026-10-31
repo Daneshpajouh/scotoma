@@ -12,3 +12,6 @@ verification/frac_alln/data/floor_certificates/*.json -text
 
 # The r = 20, m = 8 certificate: SHA256SUMS and dual20.js pin these bytes, so they must not be converted.
 verification/floor_eight/* -text
+
+# The snapshot inventory hashes all deposited bytes. Preserve them on every platform.
+* -text

@@ -1,0 +1,83 @@
+[
+  {
+    "control": "missing input",
+    "package": "m9_full_weight",
+    "deleted": "code_release/certificates/m9_full_weight/packing_19_20_9.json",
+    "exit_code": 1,
+    "expected_rejection": true
+  },
+  {
+    "control": "missing input",
+    "package": "m8_closure",
+    "deleted": "code_release/certificates/m8_closure/packing_N20_r21_m8.json",
+    "exit_code": 1,
+    "expected_rejection": true
+  },
+  {
+    "control": "missing input",
+    "package": "m9_closure",
+    "deleted": "code_release/certificates/m9_closure/packing_N20_r21_m9.json",
+    "exit_code": 1,
+    "expected_rejection": true
+  },
+  {
+    "control": "missing input",
+    "package": "m10_closure",
+    "deleted": "code_release/certificates/m10_closure/packing_N22_r12_m10_d2_c2_all.json",
+    "exit_code": 1,
+    "expected_rejection": true
+  },
+  {
+    "control": "missing input",
+    "package": "m10_r11",
+    "deleted": "code_release/certificates/m10_r11/pack_matrix.npy",
+    "exit_code": 1,
+    "expected_rejection": true
+  },
+  {
+    "control": "missing input",
+    "package": "infinite_families",
+    "deleted": "code_release/certificates/infinite_families/packing_19_7_11.json",
+    "exit_code": 1,
+    "expected_rejection": true
+  },
+  {
+    "control": "missing input",
+    "package": "thresholds",
+    "deleted": "code_release/thresholds/threshold_table.json",
+    "exit_code": 1,
+    "expected_rejection": true
+  },
+  {
+    "control": "missing input",
+    "package": "private_sphere",
+    "deleted": "code_release/private_sphere/w_certificate.json",
+    "exit_code": 1,
+    "expected_rejection": true
+  },
+  {
+    "control": "empty threshold table",
+    "exit_code": 1,
+    "expected_rejection": true
+  },
+  {
+    "control": "empty gap inventory",
+    "exit_code": 1,
+    "expected_rejection": true
+  },
+  {
+    "control": "missing external input",
+    "exit_code": 2,
+    "expected_rejection": true
+  },
+  {
+    "control": "wrong external input",
+    "exit_code": 1,
+    "expected_rejection": true
+  },
+  {
+    "control": "correct-size wrong-hash external input",
+    "exit_code": 1,
+    "expected_rejection": true
+  }
+]

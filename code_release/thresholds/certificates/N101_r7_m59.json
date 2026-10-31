@@ -1,0 +1,192 @@
+{
+  "N": 101,
+  "r": 7,
+  "m": 59,
+  "kind": "SHORT",
+  "support": [
+    {
+      "prefix": "111111",
+      "tail_weight": 0,
+      "mass": "1381188444084/2009249996753"
+    },
+    {
+      "prefix": "111111",
+      "tail_weight": 1,
+      "mass": "134045851941/8036999987012"
+    },
+    {
+      "prefix": "011111",
+      "tail_weight": 1,
+      "mass": "4813423764777/4018499993506"
+    },
+    {
+      "prefix": "011111",
+      "tail_weight": 2,
+      "mass": "795662445447/8036999987012"
+    },
+    {
+      "prefix": "001111",
+      "tail_weight": 2,
+      "mass": "1869543922032/2009249996753"
+    },
+    {
+      "prefix": "000111",
+      "tail_weight": 1,
+      "mass": "3877542360207/4018499993506"
+    },
+    {
+      "prefix": "000011",
+      "tail_weight": 2,
+      "mass": "7284304658547/8036999987012"
+    },
+    {
+      "prefix": "000001",
+      "tail_weight": 1,
+      "mass": "10388843849997/8036999987012"
+    },
+    {
+      "prefix": "000001",
+      "tail_weight": 2,
+      "mass": "2078681643/8036999987012"
+    },
+    {
+      "prefix": "000000",
+      "tail_weight": 0,
+      "mass": "1380959799471/2009249996753"
+    },
+    {
+      "prefix": "000000",
+      "tail_weight": 1,
+      "mass": "40487343903/2009249996753"
+    },
+    {
+      "prefix": "010001",
+      "tail_weight": 0,
+      "mass": "1467082017/2009249996753"
+    },
+    {
+      "prefix": "010010",
+      "tail_weight": 0,
+      "mass": "1005131331/4018499993506"
+    },
+    {
+      "prefix": "011100",
+      "tail_weight": 0,
+      "mass": "804881439/8036999987012"
+    },
+    {
+      "prefix": "011110",
+      "tail_weight": 0,
+      "mass": "24306130323/4018499993506"
+    },
+    {
+      "prefix": "011110",
+      "tail_weight": 1,
+      "mass": "10274565096/2009249996753"
+    },
+    {
+      "prefix": "100000",
+      "tail_weight": 0,
+      "mass": "7525388691/8036999987012"
+    },
+    {
+      "prefix": "100001",
+      "tail_weight": 0,
+      "mass": "18090362745/2009249996753"
+    },
+    {
+      "prefix": "100001",
+      "tail_weight": 1,
+      "mass": "14679861795/2009249996753"
+    },
+    {
+      "prefix": "101101",
+      "tail_weight": 0,
+      "mass": "38377856439/8036999987012"
+    },
+    {
+      "prefix": "110001",
+      "tail_weight": 0,
+      "mass": "308861910/2009249996753"
+    },
+    {
+      "prefix": "111110",
+      "tail_weight": 0,
+      "mass": "1195021530/2009249996753"
+    },
+    {
+      "prefix": "XX0001",
+      "tail_weight": 0,
+      "mass": "467648919/8036999987012"
+    },
+    {
+      "prefix": "0X0001",
+      "tail_weight": 0,
+      "mass": "124056439605/8036999987012"
+    },
+    {
+      "prefix": "0111X1",
+      "tail_weight": 0,
+      "mass": "163729113003/8036999987012"
+    },
+    {
+      "prefix": "01111X",
+      "tail_weight": 0,
+      "mass": "76880037231/8036999987012"
+    },
+    {
+      "prefix": "00011X",
+      "tail_weight": 0,
+      "mass": "31187522241/4018499993506"
+    },
+    {
+      "prefix": "X00111",
+      "tail_weight": 0,
+      "mass": "36393577398/2009249996753"
+    },
+    {
+      "prefix": "0X0011",
+      "tail_weight": 0,
+      "mass": "15800388372/2009249996753"
+    },
+    {
+      "prefix": "00011X",
+      "tail_weight": 1,
+      "mass": "106096959405/4018499993506"
+    },
+    {
+      "prefix": "X00000",
+      "tail_weight": 0,
+      "mass": "18304050501/8036999987012"
+    },
+    {
+      "prefix": "X00011",
+      "tail_weight": 1,
+      "mass": "27326434923/2009249996753"
+    },
+    {
+      "prefix": "0011X1",
+      "tail_weight": 0,
+      "mass": "41278032/2009249996753"
+    }
+  ],
+  "verification": {
+    "private_orbits": 339,
+    "minimum": "1",
+    "mass": "55933232413203/8036999987012",
+    "deficit": "325767495881/8036999987012",
+    "witness": {
+      "prefix": "X011X0",
+      "tail_weight": 56
+    },
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 215,
+    "private_orbits": 339,
+    "rounds": 2,
+    "seconds": 5.018,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

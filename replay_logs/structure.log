@@ -1,0 +1,57 @@
+INTEGRITY_PASS 1675
+PACKAGE_BEGIN structure
+COMMAND code_release /usr/local/bin/python3 -B verify_path_lemma_wide.py
+panel: 110 guides, failures 0
+alphabet AC   exhaustive to the budget: cumulative tested 2154, failures 0
+alphabet ACG  exhaustive to the budget: cumulative tested 90723, failures 0
+alphabet ACGT exhaustive to the budget: cumulative tested 440243, failures 0
+random lengths 20/23/30/47: cumulative tested 452243, failures 0
+
+d(P_i, P_j) = |i - j| held on every one of 452243 words, with the pattern set matching the
+independent deletion enumeration each time. The clique-3 ceiling follows as a corollary,
+so it is a LEMMA with a proof, not a panel accident.
+REPLAY_RESOURCES {"package": "structure", "command": ["/usr/local/bin/python3", "-B", "verify_path_lemma_wide.py"], "exit_code": 0, "wall_seconds": 11.136812041979283, "peak_child_rss_bytes": 18808832, "user_seconds": 10.907697, "system_seconds": 0.04686}
+COMMAND code_release /usr/local/bin/python3 -B verify_burst_floor.py data/panel_match.json
+=== STRUCTURE, over the whole panel ===
+b   N=n-b    ball sizes path violations 3+-letter cols cols switching twice
+1   19       9..20      0              0              0  (pairs 11536)
+2   18       9..18      0              0              0  (pairs 10646)
+3   17       7..17      0              0              0  (pairs 8578)
+4   16       8..17      0              0              0  (pairs 8580)
+5   15       7..16      0              0              0  (pairs 7492)
+
+=== the deficit-law ball size identity, independently ===
+|B_b(g)| = 1 + #{i: g_i != g_{i+b}} holds for 550 of 550 guide-b pairs
+
+=== CONSTRUCTION at the shorter pattern length: exhaustive support search ===
+b=1  N=19  m=4 : support [1, 4, 8, 12] letters [2, 3, 2, 3]
+b=1  N=19  m=5 : support [3, 5, 8, 11, 15] letters [2, 3, 2, 3, 2]
+b=2  N=18  m=4 : support [1, 4, 8, 12] letters [2, 3, 2, 3]
+b=2  N=18  m=5 : NO support of this form exists (exhaustive)
+b=3  N=17  m=4 : support [1, 4, 8, 12] letters [2, 3, 2, 3]
+b=3  N=17  m=5 : NO support of this form exists (exhaustive)
+REPLAY_RESOURCES {"package": "structure", "command": ["/usr/local/bin/python3", "-B", "verify_burst_floor.py", "data/panel_match.json"], "exit_code": 0, "wall_seconds": 1.1162480000057258, "peak_child_rss_bytes": 18808832, "user_seconds": 1.087007999999999, "system_seconds": 0.019322999999999993}
+COMMAND code_release /usr/local/bin/python3 -B verify_transversal_lengths.py
+A 2m-scattered transversal needs radius exactly m, pairwise > 2m and private > m.
+ m    n    r   radius  pairwise  private  result
+ 4   20   20      [4]         9        5  holds
+ 4   21   21      [4]         9        5  holds
+ 4   25   25      [4]         9        5  holds
+ 4   30   30      [4]         9        5  holds
+ 4   40   40      [4]         9        5  holds
+ 4   60   60      [4]         9        5  holds
+ 5   20   20      [5]        11        6  holds
+ 5   21   21      [5]        11        6  holds
+ 5   25   25      [5]        11        6  holds
+ 5   30   30      [5]        11        6  holds
+ 5   40   40      [5]        11        6  holds
+ 5   60   60      [5]        11        6  holds
+
+Negative control at m=5, n=20: leave the first offset unwritten, which must break the separation.
+  m=5: radius [4] (needs [5]), pairwise 9 (needs >= 11), private 5 (needs >= 6)
+  the control fails as it must, so these checks can tell a good construction from a broken one
+
+0 failure(s).
+The construction meets the requirement at every length checked, so the theorem's reach beyond n = 20 rests on the argument above and not on a check at one length.
+REPLAY_RESOURCES {"package": "structure", "command": ["/usr/local/bin/python3", "-B", "verify_transversal_lengths.py"], "exit_code": 0, "wall_seconds": 0.06752920802682638, "peak_child_rss_bytes": 18808832, "user_seconds": 0.049917000000000655, "system_seconds": 0.012522000000000005}
+PACKAGE_PASS structure

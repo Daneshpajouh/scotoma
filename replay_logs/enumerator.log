@@ -1,0 +1,8 @@
+INTEGRITY_PASS 1670
+PACKAGE_BEGIN enumerator
+COMMAND . /usr/local/bin/python3 -B -m pytest -q tests
+........................................................................ [ 50%]
+......................................................................   [100%]
+142 passed in 1.29s
+REPLAY_RESOURCES {"package": "enumerator", "command": ["/usr/local/bin/python3", "-B", "-m", "pytest", "-q", "tests"], "exit_code": 0, "wall_seconds": 3.166695667023305, "peak_child_rss_bytes": 130957312, "user_seconds": 1.804144, "system_seconds": 0.410153}
+PACKAGE_PASS enumerator

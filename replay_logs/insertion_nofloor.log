@@ -1,0 +1,34 @@
+INTEGRITY_PASS 1678
+PACKAGE_BEGIN insertion_nofloor
+COMMAND code_release /usr/local/bin/python3 -B -I certificates/insertion_nofloor/verify.py verify
+VERIFIED-COMPUTATIONALLY: guide=A m=1 K=4 targets=16 ambient_centres=16 proof_nodes=33
+VERIFIED-COMPUTATIONALLY: guide=AA m=1 K=6 targets=37 ambient_centres=64 proof_nodes=259
+VERIFIED-COMPUTATIONALLY: guide=AC m=1 K=7 targets=46 ambient_centres=64 proof_nodes=805
+VERIFIED-COMPUTATIONALLY: guide=AAA m=1 K=9 targets=67 ambient_centres=256 proof_nodes=25478
+VERIFIED-COMPUTATIONALLY: guide=AAC m=1 K=10 targets=85 ambient_centres=256 proof_nodes=16714
+VERIFIED-COMPUTATIONALLY: guide=ACA m=1 K=12 targets=94 ambient_centres=256 proof_nodes=378446
+VERIFIED-COMPUTATIONALLY: guide=AAAA m=1 K=12 targets=106 ambient_centres=1024 proof_nodes=2387945
+VERIFIED-COMPUTATIONALLY: guide=AAAC m=1 K=13 targets=133 ambient_centres=1024 proof_nodes=77500
+VERIFIED-COMPUTATIONALLY: guide=AACA m=1 K=15 targets=151 ambient_centres=1024 proof_nodes=189452
+VERIFIED-COMPUTATIONALLY: guide=AACC m=1 K=13 targets=142 ambient_centres=1024 proof_nodes=1383
+VERIFIED-COMPUTATIONALLY: guide=ACAC m=1 K=16 targets=160 ambient_centres=1024 proof_nodes=242602
+VERIFIED-COMPUTATIONALLY: guide=ACCA m=1 K=15 targets=151 ambient_centres=1024 proof_nodes=142263
+VERIFIED-COMPUTATIONALLY: guide=AA m=2 K=4 targets=64 ambient_centres=64 proof_nodes=849
+VERIFIED-COMPUTATIONALLY: guide=AC m=2 K=4 targets=64 ambient_centres=64 proof_nodes=849
+count_checks: {"guides": 21845, "n_range": [0, 7], "saturated_coordinates": 167481, "status": "VERIFIED-COMPUTATIONALLY"}
+isometries: {"guides": 340, "representative_multiplicities": {"A": 4, "AA": 4, "AAA": 4, "AAAA": 4, "AAAC": 24, "AAC": 24, "AACA": 72, "AACC": 12, "AC": 12, "ACA": 36, "ACAC": 108, "ACCA": 36}, "status": "VERIFIED-COMPUTATIONALLY"}
+smallest_brute_force: {"K_1star": 1, "K_word": 4, "ambient_triples_rejected": 560, "status": "VERIFIED-COMPUTATIONALLY", "targets": 16}
+long_witness: {"ambient_words": 4398046511104, "concrete_cover_size": 52, "concrete_family_size": 64, "m": 4, "n": 20, "nondegenerate_concrete_size": 61, "nondegenerate_wildcard_size": 20, "small_literal_checks": 5008, "status": "VERIFIED-COMPUTATIONALLY", "support_classes_checked": 2097152, "target_words": 5467456, "wildcard_cover_size": 17, "wildcard_family_size": 21}
+run_extension: {"cover_size": 63, "family_size": 64, "removed_ball_targets_exhausted": 522649, "status": "VERIFIED-COMPUTATIONALLY"}
+VERIFIED-COMPUTATIONALLY: rejected control: remove AA from four-centre cover; uncovered target CA
+VERIFIED-COMPUTATIONALLY: rejected control: reuse positive-budget cover at zero; uncovered target CA
+VERIFIED-COMPUTATIONALLY: rejected control: omit an ambient centre; not all four-letter centres accounted for
+VERIFIED-COMPUTATIONALLY: rejected control: omit a lower-proof branch; proof omits an available branch
+VERIFIED-COMPUTATIONALLY: rejected control: plant false volume inequality; false volume bound
+VERIFIED-COMPUTATIONALLY: rejected control: replace 3n+4 by 3n+3; seven insertion words, not six
+VERIFIED-COMPUTATIONALLY: rejected control: assign unit weight to the seven library words; a ball collects seven units
+VERIFIED-COMPUTATIONALLY: rejected additional control: tamper with 63-word run-extension cover; run-extension cover is not the specified family minus one word
+VERIFIED-COMPUTATIONALLY: PASS; 14 exact certificates; 3464578 lower-proof nodes; 7 primary controls and 1 additional control rejected; integer arithmetic only; one process; no files written.
+REPLAY_RESOURCES {"package": "insertion_nofloor", "command": ["/usr/local/bin/python3", "-B", "-I", "certificates/insertion_nofloor/verify.py", "verify"], "exit_code": 0, "wall_seconds": 166.29781512496993, "peak_child_rss_bytes": 1486143488, "user_seconds": 160.858125, "system_seconds": 1.448043}
+PACKAGE_PASS insertion_nofloor
+time: sysctl kern.clockrate: Operation not permitted

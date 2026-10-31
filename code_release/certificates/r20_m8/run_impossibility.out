@@ -1,0 +1,8 @@
+9 536870912/17971895 barrier: False
+10 268435456/11859503 barrier: False
+11 134217728/7715743 barrier: False
+12 67108864/4948019 barrier: False
+13 33554432/3127327 barrier: True
+15 8388608/1196023 barrier: True
+20 262144/84883 barrier: True
+Unrestricted far-corner upper bound: 68719476736/12017379241

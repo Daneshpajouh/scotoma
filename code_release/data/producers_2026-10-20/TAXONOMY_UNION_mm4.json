@@ -1,0 +1,52 @@
+{
+ "threshold": 4,
+ "tolerance_bp": 3,
+ "ungapped": 34652,
+ "classes": {
+  "size1": {
+   "add_strict": 1212681,
+   "add_merged": 1175323,
+   "factor_strict": 35.995988687521645,
+   "factor_merged": 34.917897956827886
+  },
+  "size2": {
+   "add_strict": 2712081,
+   "add_merged": 2682450,
+   "factor_strict": 79.26621840009234,
+   "factor_merged": 78.41111624148678
+  },
+  "mixed": {
+   "add_strict": 6488742,
+   "add_merged": 6472325,
+   "factor_strict": 188.2544730462888,
+   "factor_merged": 187.78070529839547
+  }
+ },
+ "overlaps": {
+  "size1_size2": {
+   "intersection_strict": 144392,
+   "jaccard_strict": 0.038195203115039,
+   "intersection_merged": null,
+   "merged_note": "not measured: merging collapses a bulged hit within 3 bp of an ungapped hit for the SAME guide and strand, so an overlap between two different bulge classes has no single collapse radius to inherit. Mixing this strict intersection with merged class sizes yields no valid quantity."
+  },
+  "size1_mixed": {
+   "intersection_strict": 566750,
+   "jaccard_strict": 0.07943601619864007,
+   "intersection_merged": null,
+   "merged_note": "not measured: merging collapses a bulged hit within 3 bp of an ungapped hit for the SAME guide and strand, so an overlap between two different bulge classes has no single collapse radius to inherit. Mixing this strict intersection with merged class sizes yields no valid quantity."
+  },
+  "size2_mixed": {
+   "intersection_strict": 202540,
+   "jaccard_strict": 0.02250873861157734,
+   "intersection_merged": null,
+   "merged_note": "not measured: merging collapses a bulged hit within 3 bp of an ungapped hit for the SAME guide and strand, so an overlap between two different bulge classes has no single collapse radius to inherit. Mixing this strict intersection with merged class sizes yields no valid quantity."
+  }
+ },
+ "union": {
+  "add_strict": 9599625,
+  "add_merged": 9531886,
+  "factor_strict": 278.02946438877984,
+  "factor_merged": 276.07462772711534
+ },
+ "overlaps_convention": "Each pair records intersection_strict with the jaccard_strict it implies, so the convention is recoverable from the file alone: jaccard_strict == intersection_strict / (|A|+|B|-intersection_strict) with STRICT class sizes. Labelled 2026-10-22 per RESOLVED_2026-10-21_the_union_intersection_convention.md, which required that a deposited file carrying two conventions for one quantity label both."
+}

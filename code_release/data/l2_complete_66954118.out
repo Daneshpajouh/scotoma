@@ -1,0 +1,10 @@
+L2: our corrected scheme against measured ACTIVE bulge rows
+  active_bulge_rows                          23692
+  reached_DNA                                6425
+  reached_RNA                                17267
+
+in-class rows tested: 23692   reached: 23692   UNREACHED: 0
+
+REGISTERED: every single-bulge in-spacer active row should be reachable, because the
+correction is that all positions are emitted. Any UNREACHED row is a defect in OUR
+correction and is reported as one.

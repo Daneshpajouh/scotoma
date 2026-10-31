@@ -1,0 +1,257 @@
+INTEGRITY_PASS 1670
+PACKAGE_BEGIN thresholds
+COMMAND code_release /usr/local/bin/python3 -B thresholds/verify_all.py --full-grid
+{
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "passes": true,
+  "tail_length_cap": 100,
+  "finite_gain_cases": 5151,
+  "convex_order_comparisons": 5150,
+  "reflection_equalities": 5050,
+  "drift_recurrence_equalities": 100,
+  "chain_cardinality_cases": 280483,
+  "cutoff_factor": "1396673279205093577914204121990474034994797156059669007153708072194117673511669311035212110967482977439838519969837494175599926700588487603/1441151880758558720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "cutoff_factor_strictly_below_one": true,
+  "controls": [
+    {
+      "name": "uniform_library_orbits_above_three_fifths_tail_density",
+      "status": "REFUTED",
+      "outcome": "REJECTED-AS-REQUIRED",
+      "explicit_witness": "4/3",
+      "reason": "packing overload: 131/81 at ((0, 1), 5)"
+    }
+  ],
+  "scope": "finite checks support the separate analytic all-parameter proof; no extrapolation used"
+}
+{"stage": "profiles", "r": 6, "unique": 126, "maximal": 37, "scale": 148, "moment": {"cutoff": 54, "t": "7/5", "prefix_potential": "1308/343", "rho_upper": "28/45", "moment_factor": "4607/4725", "bound": "291118597900636074919112893910967769596373013046314626755154480371512465225960785497462721483430147025295047667695670898841528071272484575055321925938572531291021479267215493431787919130942343533334964/299137430562702752502058062708123185211384959652408872189035948591565211940532508597342156816963940731024292023857343822703623731312310201863986455659743648257016535030317072596517391502857208251953125", "bound_less_than_99_over_100": true}}
+{"stage": "polynomials", "residue": 0, "p": 0, "rows": 37}
+{"stage": "polynomials", "residue": 0, "p": 10, "rows": 407}
+{"stage": "polynomials", "residue": 0, "p": 20, "rows": 777}
+{"stage": "polynomials", "residue": 0, "p": 30, "rows": 1147}
+{"stage": "polynomials", "residue": 0, "p": 40, "rows": 1517}
+{"stage": "polynomials", "residue": 0, "p": 50, "rows": 1887}
+{"stage": "polynomials", "residue": 1, "p": 0, "rows": 2035}
+{"stage": "polynomials", "residue": 1, "p": 10, "rows": 2405}
+{"stage": "polynomials", "residue": 1, "p": 20, "rows": 2775}
+{"stage": "polynomials", "residue": 1, "p": 30, "rows": 3145}
+{"stage": "polynomials", "residue": 1, "p": 40, "rows": 3515}
+{"stage": "polynomials", "residue": 1, "p": 50, "rows": 3885}
+{"stage": "polynomials", "residue": 2, "p": 0, "rows": 4033}
+{"stage": "polynomials", "residue": 2, "p": 10, "rows": 4403}
+{"stage": "polynomials", "residue": 2, "p": 20, "rows": 4773}
+{"stage": "polynomials", "residue": 2, "p": 30, "rows": 5143}
+{"stage": "polynomials", "residue": 2, "p": 40, "rows": 5513}
+{"stage": "polynomials", "residue": 2, "p": 50, "rows": 5883}
+{"stage": "polynomials", "residue": 3, "p": 0, "rows": 6031}
+{"stage": "polynomials", "residue": 3, "p": 10, "rows": 6401}
+{"stage": "polynomials", "residue": 3, "p": 20, "rows": 6771}
+{"stage": "polynomials", "residue": 3, "p": 30, "rows": 7141}
+{"stage": "polynomials", "residue": 3, "p": 40, "rows": 7511}
+{"stage": "polynomials", "residue": 3, "p": 50, "rows": 7881}
+{"stage": "polynomials", "residue": 4, "p": 0, "rows": 8029}
+{"stage": "polynomials", "residue": 4, "p": 10, "rows": 8399}
+{"stage": "polynomials", "residue": 4, "p": 20, "rows": 8769}
+{"stage": "polynomials", "residue": 4, "p": 30, "rows": 9139}
+{"stage": "polynomials", "residue": 4, "p": 40, "rows": 9509}
+{"stage": "polynomials", "residue": 4, "p": 50, "rows": 9879}
+{"status": "PROVED: exact computer-assisted infinite-range packing certificate", "r": 6, "alpha": 12, "beta": 6, "min_n": 13, "scale": 148, "dmax": 2, "mass_type": "constant", "C0": null, "residues": [0, 1, 2, 3, 4], "family": [{"prefix": "00000", "distance": 0, "mass": "19/37"}, {"prefix": "11111", "distance": 0, "mass": "19/37"}, {"prefix": "00011", "distance": 0, "mass": "16/37"}, {"prefix": "00111", "distance": 0, "mass": "16/37"}, {"prefix": "01000", "distance": 1, "mass": "15/74"}, {"prefix": "11101", "distance": 1, "mass": "15/74"}, {"prefix": "01110", "distance": 1, "mass": "19/74"}, {"prefix": "10001", "distance": 1, "mass": "19/74"}, {"prefix": "011X0", "distance": 2, "mass": "6/37"}, {"prefix": "1X001", "distance": 2, "mass": "6/37"}, {"prefix": "011X1", "distance": 1, "mass": "21/74"}, {"prefix": "0X001", "distance": 1, "mass": "21/74"}, {"prefix": "011XX", "distance": 2, "mass": "11/37"}, {"prefix": "XX001", "distance": 2, "mass": "11/37"}, {"prefix": "10000", "distance": 1, "mass": "21/74"}, {"prefix": "11110", "distance": 1, "mass": "21/74"}, {"prefix": "X001X", "distance": 2, "mass": "21/37"}, {"prefix": "X011X", "distance": 2, "mass": "21/37"}], "prefix_count": 243, "unique_profiles": 126, "moment": {"cutoff": 54, "t": "7/5", "prefix_potential": "1308/343", "rho_upper": "28/45", "moment_factor": "4607/4725", "bound": "291118597900636074919112893910967769596373013046314626755154480371512465225960785497462721483430147025295047667695670898841528071272484575055321925938572531291021479267215493431787919130942343533334964/299137430562702752502058062708123185211384959652408872189035948591565211940532508597342156816963940731024292023857343822703623731312310201863986455659743648257016535030317072596517391502857208251953125", "bound_less_than_99_over_100": true}, "polynomial_rows": 9990, "checked_newton_coefficients": 274725, "checked_finite_values": 0, "maximum_shift": 0, "seconds": 1.577, "certificate_sha256": "1f6273684c393f715bdfb5833c5caa781bcf74be49d4c3448980ca8af9de3cd3"}
+{"stage": "profiles", "r": 7, "unique": 378, "maximal": 54, "scale": 52, "moment": {"cutoff": 59, "t": "7/5", "prefix_potential": "1433/343", "rho_upper": "184/295", "moment_factor": "30221/30975", "bound": "3122246670340449496756082575545770259005940526468960874441700978614496309370016094657554953705533285945113443937887937983047166601731033379227697917745310350101189489715189081135447199048785430720375270343477749995047219987125707757074617123242940147041654046714116973/3198613072782824515211026718924492731300455839314006871402549713806995758310494689002374834384992452190714692940535974854089978827834327514795657862738392168495200943403607553901421447415670913072747097853498973972485319253200065914288785506869317032396793365478515625", "bound_less_than_99_over_100": true}}
+{"stage": "polynomials", "residue": 0, "p": 0, "rows": 54}
+{"stage": "polynomials", "residue": 0, "p": 10, "rows": 594}
+{"stage": "polynomials", "residue": 0, "p": 20, "rows": 1134}
+{"stage": "polynomials", "residue": 0, "p": 30, "rows": 1674}
+{"stage": "polynomials", "residue": 0, "p": 40, "rows": 2214}
+{"stage": "polynomials", "residue": 0, "p": 50, "rows": 2754}
+{"stage": "polynomials", "residue": 1, "p": 0, "rows": 3240}
+{"stage": "polynomials", "residue": 1, "p": 10, "rows": 3780}
+{"stage": "polynomials", "residue": 1, "p": 20, "rows": 4320}
+{"stage": "polynomials", "residue": 1, "p": 30, "rows": 4860}
+{"stage": "polynomials", "residue": 1, "p": 40, "rows": 5400}
+{"stage": "polynomials", "residue": 1, "p": 50, "rows": 5940}
+{"stage": "polynomials", "residue": 2, "p": 0, "rows": 6426}
+{"stage": "polynomials", "residue": 2, "p": 10, "rows": 6966}
+{"stage": "polynomials", "residue": 2, "p": 20, "rows": 7506}
+{"stage": "polynomials", "residue": 2, "p": 30, "rows": 8046}
+{"stage": "polynomials", "residue": 2, "p": 40, "rows": 8586}
+{"stage": "polynomials", "residue": 2, "p": 50, "rows": 9126}
+{"stage": "polynomials", "residue": 3, "p": 0, "rows": 9612}
+{"stage": "polynomials", "residue": 3, "p": 10, "rows": 10152}
+{"stage": "polynomials", "residue": 3, "p": 20, "rows": 10692}
+{"stage": "polynomials", "residue": 3, "p": 30, "rows": 11232}
+{"stage": "polynomials", "residue": 3, "p": 40, "rows": 11772}
+{"stage": "polynomials", "residue": 3, "p": 50, "rows": 12312}
+{"stage": "polynomials", "residue": 4, "p": 0, "rows": 12798}
+{"stage": "polynomials", "residue": 4, "p": 10, "rows": 13338}
+{"stage": "polynomials", "residue": 4, "p": 20, "rows": 13878}
+{"stage": "polynomials", "residue": 4, "p": 30, "rows": 14418}
+{"stage": "polynomials", "residue": 4, "p": 40, "rows": 14958}
+{"stage": "polynomials", "residue": 4, "p": 50, "rows": 15498}
+{"status": "PROVED: exact computer-assisted infinite-range packing certificate", "r": 7, "alpha": 14, "beta": 7, "min_n": 15, "scale": 52, "dmax": 2, "mass_type": "constant", "C0": null, "residues": [0, 1, 2, 3, 4], "family": [{"prefix": "000000", "distance": 0, "mass": "2/13"}, {"prefix": "111111", "distance": 0, "mass": "2/13"}, {"prefix": "000011", "distance": 0, "mass": "3/13"}, {"prefix": "001111", "distance": 0, "mass": "3/13"}, {"prefix": "00011X", "distance": 1, "mass": "7/26"}, {"prefix": "X00111", "distance": 1, "mass": "7/26"}, {"prefix": "0011X1", "distance": 1, "mass": "3/13"}, {"prefix": "0X0011", "distance": 1, "mass": "3/13"}, {"prefix": "00X000", "distance": 1, "mass": "11/13"}, {"prefix": "111X11", "distance": 1, "mass": "11/13"}, {"prefix": "01110X", "distance": 2, "mass": "3/13"}, {"prefix": "X10001", "distance": 2, "mass": "3/13"}, {"prefix": "011110", "distance": 1, "mass": "5/13"}, {"prefix": "100001", "distance": 1, "mass": "5/13"}, {"prefix": "0111X0", "distance": 2, "mass": "5/13"}, {"prefix": "1X0001", "distance": 2, "mass": "5/13"}, {"prefix": "0X001X", "distance": 2, "mass": "7/13"}, {"prefix": "X011X1", "distance": 2, "mass": "7/13"}, {"prefix": "10011X", "distance": 2, "mass": "3/13"}, {"prefix": "X00110", "distance": 2, "mass": "3/13"}], "prefix_count": 729, "unique_profiles": 378, "moment": {"cutoff": 59, "t": "7/5", "prefix_potential": "1433/343", "rho_upper": "184/295", "moment_factor": "30221/30975", "bound": "3122246670340449496756082575545770259005940526468960874441700978614496309370016094657554953705533285945113443937887937983047166601731033379227697917745310350101189489715189081135447199048785430720375270343477749995047219987125707757074617123242940147041654046714116973/3198613072782824515211026718924492731300455839314006871402549713806995758310494689002374834384992452190714692940535974854089978827834327514795657862738392168495200943403607553901421447415670913072747097853498973972485319253200065914288785506869317032396793365478515625", "bound_less_than_99_over_100": true}, "polynomial_rows": 15930, "checked_newton_coefficients": 477900, "checked_finite_values": 0, "maximum_shift": 0, "seconds": 2.921, "certificate_sha256": "b2abbad9424b3b79ecfeb00a7b257acaa04ba8d47936f0c0c050cc5e91ee5708"}
+{"stage": "profiles", "r": 8, "unique": 1107, "maximal": 257, "scale": 3032, "moment": {"cutoff": 66, "t": "7/5", "prefix_potential": "4116374/909979", "rho_upper": "69/110", "moment_factor": "171/175", "bound": "9823315943402050253582648050317451480119841237591120308929546724513601071339695076338540320385851414992889337098825807829566611904127729004315903040599654/9989473136360138321514020147329794367713354245584086453788068556459169308806935859980741049213788224301359058919340394577801589548471383750438690185546875", "bound_less_than_99_over_100": true}}
+{"stage": "polynomials", "residue": 0, "p": 0, "rows": 257}
+{"stage": "polynomials", "residue": 0, "p": 10, "rows": 2827}
+{"stage": "polynomials", "residue": 0, "p": 20, "rows": 5397}
+{"stage": "polynomials", "residue": 0, "p": 30, "rows": 7967}
+{"stage": "polynomials", "residue": 0, "p": 40, "rows": 10537}
+{"stage": "polynomials", "residue": 0, "p": 50, "rows": 13107}
+{"stage": "polynomials", "residue": 0, "p": 60, "rows": 15677}
+{"stage": "polynomials", "residue": 1, "p": 0, "rows": 17219}
+{"stage": "polynomials", "residue": 1, "p": 10, "rows": 19789}
+{"stage": "polynomials", "residue": 1, "p": 20, "rows": 22359}
+{"stage": "polynomials", "residue": 1, "p": 30, "rows": 24929}
+{"stage": "polynomials", "residue": 1, "p": 40, "rows": 27499}
+{"stage": "polynomials", "residue": 1, "p": 50, "rows": 30069}
+{"stage": "polynomials", "residue": 1, "p": 60, "rows": 32639}
+{"stage": "polynomials", "residue": 2, "p": 0, "rows": 34181}
+{"stage": "polynomials", "residue": 2, "p": 10, "rows": 36751}
+{"stage": "polynomials", "residue": 2, "p": 20, "rows": 39321}
+{"stage": "polynomials", "residue": 2, "p": 30, "rows": 41891}
+{"stage": "polynomials", "residue": 2, "p": 40, "rows": 44461}
+{"stage": "polynomials", "residue": 2, "p": 50, "rows": 47031}
+{"stage": "polynomials", "residue": 2, "p": 60, "rows": 49601}
+{"stage": "polynomials", "residue": 3, "p": 0, "rows": 51143}
+{"stage": "polynomials", "residue": 3, "p": 10, "rows": 53713}
+{"stage": "polynomials", "residue": 3, "p": 20, "rows": 56283}
+{"stage": "polynomials", "residue": 3, "p": 30, "rows": 58853}
+{"stage": "polynomials", "residue": 3, "p": 40, "rows": 61423}
+{"stage": "polynomials", "residue": 3, "p": 50, "rows": 63993}
+{"stage": "polynomials", "residue": 3, "p": 60, "rows": 66563}
+{"stage": "polynomials", "residue": 4, "p": 0, "rows": 68105}
+{"stage": "polynomials", "residue": 4, "p": 10, "rows": 70675}
+{"stage": "polynomials", "residue": 4, "p": 20, "rows": 73245}
+{"stage": "polynomials", "residue": 4, "p": 30, "rows": 75815}
+{"stage": "polynomials", "residue": 4, "p": 40, "rows": 78385}
+{"stage": "polynomials", "residue": 4, "p": 50, "rows": 80955}
+{"stage": "polynomials", "residue": 4, "p": 60, "rows": 83525}
+{"status": "PROVED: exact computer-assisted infinite-range packing certificate", "r": 8, "alpha": 15, "beta": 9, "min_n": 15, "scale": 3032, "dmax": 3, "mass_type": "constant", "C0": null, "residues": [0, 1, 2, 3, 4], "family": [{"prefix": "0000000", "distance": 0, "mass": "68/379"}, {"prefix": "1111111", "distance": 0, "mass": "68/379"}, {"prefix": "000011X", "distance": 1, "mass": "22/379"}, {"prefix": "X001111", "distance": 1, "mass": "22/379"}, {"prefix": "0001110", "distance": 1, "mass": "128/379"}, {"prefix": "1000111", "distance": 1, "mass": "128/379"}, {"prefix": "000X000", "distance": 1, "mass": "311/379"}, {"prefix": "111X111", "distance": 1, "mass": "311/379"}, {"prefix": "0011110", "distance": 1, "mass": "136/379"}, {"prefix": "1000011", "distance": 1, "mass": "136/379"}, {"prefix": "001111X", "distance": 1, "mass": "14/379"}, {"prefix": "X000011", "distance": 1, "mass": "14/379"}, {"prefix": "00111X1", "distance": 1, "mass": "34/379"}, {"prefix": "0X00011", "distance": 1, "mass": "34/379"}, {"prefix": "00111XX", "distance": 2, "mass": "26/379"}, {"prefix": "XX00011", "distance": 2, "mass": "26/379"}, {"prefix": "00X0001", "distance": 1, "mass": "85/379"}, {"prefix": "0111X11", "distance": 1, "mass": "85/379"}, {"prefix": "0111X0X", "distance": 3, "mass": "150/379"}, {"prefix": "X1X0001", "distance": 3, "mass": "150/379"}, {"prefix": "0111X10", "distance": 2, "mass": "18/379"}, {"prefix": "10X0001", "distance": 2, "mass": "18/379"}, {"prefix": "0111X1X", "distance": 2, "mass": "55/379"}, {"prefix": "X0X0001", "distance": 2, "mass": "55/379"}, {"prefix": "0111XX1", "distance": 2, "mass": "71/379"}, {"prefix": "0XX0001", "distance": 2, "mass": "71/379"}, {"prefix": "0X0001X", "distance": 2, "mass": "112/379"}, {"prefix": "X0111X1", "distance": 2, "mass": "112/379"}, {"prefix": "0X0011X", "distance": 2, "mass": "142/379"}, {"prefix": "X0011X1", "distance": 2, "mass": "142/379"}, {"prefix": "1X0001X", "distance": 3, "mass": "20/379"}, {"prefix": "X0111X0", "distance": 3, "mass": "20/379"}, {"prefix": "X0011XX", "distance": 3, "mass": "87/379"}, {"prefix": "XX0011X", "distance": 3, "mass": "87/379"}, {"prefix": "X0111XX", "distance": 3, "mass": "37/379"}, {"prefix": "XX0001X", "distance": 3, "mass": "37/379"}], "prefix_count": 2187, "unique_profiles": 1107, "moment": {"cutoff": 66, "t": "7/5", "prefix_potential": "4116374/909979", "rho_upper": "69/110", "moment_factor": "171/175", "bound": "9823315943402050253582648050317451480119841237591120308929546724513601071339695076338540320385851414992889337098825807829566611904127729004315903040599654/9989473136360138321514020147329794367713354245584086453788068556459169308806935859980741049213788224301359058919340394577801589548471383750438690185546875", "bound_less_than_99_over_100": true}, "polynomial_rows": 84810, "checked_newton_coefficients": 2841135, "checked_finite_values": 0, "maximum_shift": 0, "seconds": 14.285, "certificate_sha256": "5e23306366b4db93b0a170c8aaeb725b9e3617c0a91cd7c91eed5de324cd75f6"}
+{"stage": "profiles", "r": 9, "unique": 3212, "maximal": 73, "scale": 4, "moment": {"cutoff": 43, "t": "3/2", "prefix_potential": "1031/243", "rho_upper": "3/5", "moment_factor": "29/30", "bound": "787721274568596056619929975328228171546244335202398336163582152259/797664430768725098633610000000000000000000000000000000000000000000", "bound_less_than_99_over_100": true}}
+{"stage": "polynomials", "residue": 0, "p": 0, "rows": 73}
+{"stage": "polynomials", "residue": 0, "p": 10, "rows": 803}
+{"stage": "polynomials", "residue": 0, "p": 20, "rows": 1533}
+{"stage": "polynomials", "residue": 0, "p": 30, "rows": 2263}
+{"stage": "polynomials", "residue": 0, "p": 40, "rows": 2993}
+{"stage": "polynomials", "residue": 1, "p": 0, "rows": 3212}
+{"stage": "polynomials", "residue": 1, "p": 10, "rows": 3942}
+{"stage": "polynomials", "residue": 1, "p": 20, "rows": 4672}
+{"stage": "polynomials", "residue": 1, "p": 30, "rows": 5402}
+{"stage": "polynomials", "residue": 1, "p": 40, "rows": 6132}
+{"stage": "polynomials", "residue": 2, "p": 0, "rows": 6351}
+{"stage": "polynomials", "residue": 2, "p": 10, "rows": 7081}
+{"stage": "polynomials", "residue": 2, "p": 20, "rows": 7811}
+{"stage": "polynomials", "residue": 2, "p": 30, "rows": 8541}
+{"stage": "polynomials", "residue": 2, "p": 40, "rows": 9271}
+{"stage": "polynomials", "residue": 3, "p": 0, "rows": 9490}
+{"stage": "polynomials", "residue": 3, "p": 10, "rows": 10220}
+{"stage": "polynomials", "residue": 3, "p": 20, "rows": 10950}
+{"stage": "polynomials", "residue": 3, "p": 30, "rows": 11680}
+{"stage": "polynomials", "residue": 3, "p": 40, "rows": 12410}
+{"stage": "polynomials", "residue": 4, "p": 0, "rows": 12629}
+{"stage": "polynomials", "residue": 4, "p": 10, "rows": 13359}
+{"stage": "polynomials", "residue": 4, "p": 20, "rows": 14089}
+{"stage": "polynomials", "residue": 4, "p": 30, "rows": 14819}
+{"stage": "polynomials", "residue": 4, "p": 40, "rows": 15549}
+{"status": "PROVED: exact computer-assisted infinite-range packing certificate", "r": 9, "alpha": 27, "beta": 0, "min_n": 27, "scale": 4, "dmax": 2, "mass_type": "constant", "C0": null, "residues": [0, 1, 2, 3, 4], "family": [{"prefix": "0000011X", "distance": 1, "mass": "1"}, {"prefix": "X0011111", "distance": 1, "mass": "1"}, {"prefix": "000X0001", "distance": 1, "mass": "1"}, {"prefix": "0111X111", "distance": 1, "mass": "1"}, {"prefix": "001111XX", "distance": 2, "mass": "1"}, {"prefix": "XX000011", "distance": 2, "mass": "1"}, {"prefix": "0X0011X1", "distance": 2, "mass": "1"}, {"prefix": "1111101X", "distance": 2, "mass": "1"}, {"prefix": "X0100000", "distance": 2, "mass": "1"}], "prefix_count": 6561, "unique_profiles": 3212, "moment": {"cutoff": 43, "t": "3/2", "prefix_potential": "1031/243", "rho_upper": "3/5", "moment_factor": "29/30", "bound": "787721274568596056619929975328228171546244335202398336163582152259/797664430768725098633610000000000000000000000000000000000000000000", "bound_less_than_99_over_100": true}, "polynomial_rows": 15695, "checked_newton_coefficients": 345290, "checked_finite_values": 0, "maximum_shift": 0, "seconds": 6.554, "certificate_sha256": "df369e447c6d1d497b79e1cb3354e8ac4f2a07ea09bd2df17dbcb604bbf24c2e"}
+{"stage": "profiles", "r": 10, "unique": 8208, "maximal": 69, "scale": 2, "moment": {"cutoff": 45, "t": "3/2", "prefix_potential": "1079/243", "rho_upper": "3/5", "moment_factor": "29/30", "bound": "693316203368818852592757164773881710727208936267438548758433389586571/717897987691852588770249000000000000000000000000000000000000000000000", "bound_less_than_99_over_100": true}}
+{"stage": "polynomials", "residue": 0, "p": 0, "rows": 69}
+{"stage": "polynomials", "residue": 0, "p": 10, "rows": 759}
+{"stage": "polynomials", "residue": 0, "p": 20, "rows": 1449}
+{"stage": "polynomials", "residue": 0, "p": 30, "rows": 2139}
+{"stage": "polynomials", "residue": 0, "p": 40, "rows": 2829}
+{"stage": "polynomials", "residue": 1, "p": 0, "rows": 3174}
+{"stage": "polynomials", "residue": 1, "p": 10, "rows": 3864}
+{"stage": "polynomials", "residue": 1, "p": 20, "rows": 4554}
+{"stage": "polynomials", "residue": 1, "p": 30, "rows": 5244}
+{"stage": "polynomials", "residue": 1, "p": 40, "rows": 5934}
+{"stage": "polynomials", "residue": 2, "p": 0, "rows": 6279}
+{"stage": "polynomials", "residue": 2, "p": 10, "rows": 6969}
+{"stage": "polynomials", "residue": 2, "p": 20, "rows": 7659}
+{"stage": "polynomials", "residue": 2, "p": 30, "rows": 8349}
+{"stage": "polynomials", "residue": 2, "p": 40, "rows": 9039}
+{"stage": "polynomials", "residue": 3, "p": 0, "rows": 9384}
+{"stage": "polynomials", "residue": 3, "p": 10, "rows": 10074}
+{"stage": "polynomials", "residue": 3, "p": 20, "rows": 10764}
+{"stage": "polynomials", "residue": 3, "p": 30, "rows": 11454}
+{"stage": "polynomials", "residue": 3, "p": 40, "rows": 12144}
+{"stage": "polynomials", "residue": 4, "p": 0, "rows": 12489}
+{"stage": "polynomials", "residue": 4, "p": 10, "rows": 13179}
+{"stage": "polynomials", "residue": 4, "p": 20, "rows": 13869}
+{"stage": "polynomials", "residue": 4, "p": 30, "rows": 14559}
+{"stage": "polynomials", "residue": 4, "p": 40, "rows": 15249}
+{"status": "PROVED: exact computer-assisted infinite-range packing certificate", "r": 10, "alpha": 30, "beta": 0, "min_n": 30, "scale": 2, "dmax": 2, "mass_type": "constant", "C0": null, "residues": [0, 1, 2, 3, 4], "family": [{"prefix": "000000110", "distance": 1, "mass": "1"}, {"prefix": "100111111", "distance": 1, "mass": "1"}, {"prefix": "000011101", "distance": 1, "mass": "1"}, {"prefix": "010001111", "distance": 1, "mass": "1"}, {"prefix": "00111101X", "distance": 2, "mass": "1"}, {"prefix": "X01000011", "distance": 2, "mass": "1"}, {"prefix": "0111101X1", "distance": 2, "mass": "1"}, {"prefix": "0X0100001", "distance": 2, "mass": "1"}, {"prefix": "1000X0000", "distance": 2, "mass": "1"}, {"prefix": "1111X1110", "distance": 2, "mass": "1"}], "prefix_count": 19683, "unique_profiles": 8208, "moment": {"cutoff": 45, "t": "3/2", "prefix_potential": "1079/243", "rho_upper": "3/5", "moment_factor": "29/30", "bound": "693316203368818852592757164773881710727208936267438548758433389586571/717897987691852588770249000000000000000000000000000000000000000000000", "bound_less_than_99_over_100": true}, "polynomial_rows": 15525, "checked_newton_coefficients": 357075, "checked_finite_values": 0, "maximum_shift": 0, "seconds": 32.035, "certificate_sha256": "6aab5cf201949b6532fbf6529de46c39aeee17284be0fbe18288bd700e10dd08"}
+{
+  "literal": {
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "literal_comparisons": 3645,
+    "passes": true
+  },
+  "controls": [
+    {
+      "name": "radius_increase_preserving_region_masses",
+      "exit_code": 1,
+      "outcome": "REJECTED-AS-REQUIRED",
+      "status": "REFUTED",
+      "reason": "packing overload: 332/275 at ((0, 0, 0, 1, 1), 2)"
+    },
+    {
+      "name": "scale_private_dual_down",
+      "exit_code": 1,
+      "outcome": "REJECTED-AS-REQUIRED",
+      "status": "REFUTED",
+      "reason": "private dual undercoverage: 999/1000 at ((2, 0, 0, 1, 2), 6)"
+    },
+    {
+      "name": "invent_empty_private_region",
+      "exit_code": 1,
+      "outcome": "REJECTED-AS-REQUIRED",
+      "status": "REFUTED",
+      "reason": "claimed empty region has private points"
+    }
+  ],
+  "short_tail_count_agreement": {
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "exact_comparisons": 1995,
+    "passes": true
+  }
+}
+[
+  {
+    "name": "r6_use_five_run_boundary",
+    "status": "REFUTED",
+    "outcome": "REJECTED-AS-REQUIRED",
+    "reason": "packing overload: 19046/18315 at ((0, 0, 0, 0, 1), 2)"
+  },
+  {
+    "name": "r7_finite_only_constant_candidate",
+    "status": "REFUTED",
+    "outcome": "REJECTED-AS-REQUIRED",
+    "reason": "packing overload: 412780571/411334200 at ((0, 0, 0, 0, 1, 1), 2)"
+  },
+  {
+    "name": "r7_first_inverse_candidate",
+    "status": "REFUTED",
+    "outcome": "REJECTED-AS-REQUIRED",
+    "reason": "packing overload: 1514758/1507005 at ((0, 0, 0, 0, 0, 1), 1)"
+  },
+  {
+    "name": "r8_ignore_late_transition",
+    "status": "REFUTED",
+    "outcome": "REJECTED-AS-REQUIRED",
+    "reason": "packing overload: 9513874/9465525 at ((0, 0, 0, 0, 0, 0, 1), 2)"
+  },
+  {
+    "name": "r7_symbolic_upper_weights_scaled_down",
+    "status": "REFUTED",
+    "outcome": "REJECTED-AS-REQUIRED",
+    "reason": "upper coverage (0, 0, 0, 0, 0, 0) coefficient negative"
+  },
+  {
+    "name": "r7_constant_obstruction_scaled_down",
+    "status": "REFUTED",
+    "outcome": "REJECTED-AS-REQUIRED",
+    "reason": "constant-family dual coefficient below one"
+  }
+]
+{"passes": true, "families": 5, "upper_families": 3, "boundary_pairs": 412, "rejected_controls": 10, "seconds": 1423.593}
+REPLAY_RESOURCES {"package": "thresholds", "command": ["/usr/local/bin/python3", "-B", "thresholds/verify_all.py", "--full-grid"], "exit_code": 0, "wall_seconds": 1423.6689721249859, "peak_child_rss_bytes": 845217792, "user_seconds": 1387.808056, "system_seconds": 6.821493}
+PACKAGE_PASS thresholds
+time: sysctl kern.clockrate: Operation not permitted

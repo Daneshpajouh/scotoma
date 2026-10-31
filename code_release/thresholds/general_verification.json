@@ -1,0 +1,22 @@
+{
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "passes": true,
+  "tail_length_cap": 100,
+  "finite_gain_cases": 5151,
+  "convex_order_comparisons": 5150,
+  "reflection_equalities": 5050,
+  "drift_recurrence_equalities": 100,
+  "chain_cardinality_cases": 280483,
+  "cutoff_factor": "1396673279205093577914204121990474034994797156059669007153708072194117673511669311035212110967482977439838519969837494175599926700588487603/1441151880758558720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "cutoff_factor_strictly_below_one": true,
+  "controls": [
+    {
+      "name": "uniform_library_orbits_above_three_fifths_tail_density",
+      "status": "REFUTED",
+      "outcome": "REJECTED-AS-REQUIRED",
+      "explicit_witness": "4/3",
+      "reason": "packing overload: 131/81 at ((0, 1), 5)"
+    }
+  ],
+  "scope": "finite checks support the separate analytic all-parameter proof; no extrapolation used"
+}

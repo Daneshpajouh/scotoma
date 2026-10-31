@@ -1,0 +1,42 @@
+{
+  "status": "PROVED_WITH_EXACT_FINITE_CERTIFICATE",
+  "limit": "99/100",
+  "largest_finite_bound": "98389493/100000000",
+  "finite_u_checked": 34,
+  "local_polynomial_inequalities": 349622,
+  "u_ge_36_bound": "7509466514979724803946715958257547/8000000000000000000000000000000000",
+  "literal_local_cases": 45,
+  "negative_controls": [
+    {
+      "control": "zero-local",
+      "outcome": "REJECTED_AS_REQUIRED",
+      "reason": "local bound too small: (2, (0, 0, 0))"
+    },
+    {
+      "control": "empty-polynomial",
+      "outcome": "REJECTED_AS_REQUIRED",
+      "reason": "polynomial cover fails: u=2,s=0,e=0,f=0,t=1,b=0"
+    },
+    {
+      "control": "missing-local",
+      "outcome": "REJECTED_AS_REQUIRED",
+      "reason": "missing local row"
+    },
+    {
+      "control": "lower-path",
+      "outcome": "REJECTED_AS_REQUIRED",
+      "reason": "path bound differs for u=2"
+    },
+    {
+      "control": "zero-tail",
+      "outcome": "REJECTED_AS_REQUIRED",
+      "reason": "tail bound too small for u=2"
+    },
+    {
+      "control": "wrong-p",
+      "outcome": "REJECTED_AS_REQUIRED",
+      "reason": "global parameters altered"
+    }
+  ],
+  "certificate_sha256": "e40fe374c01780ce5d5432b88bff1929b77e449e171e8c3c5a82d6f19c63e192"
+}

@@ -1,0 +1,258 @@
+INTEGRITY_PASS 1670
+PACKAGE_BEGIN m8_closure
+COMMAND code_release /usr/local/bin/python3 -B -I certificates/m8_closure/verify.py verify --workers 4
+CHECK self-test
+{
+  "passed": true,
+  "failures": [],
+  "small_N": 5,
+  "small_m": 2,
+  "rows": 10,
+  "expanded_occurrences": 104,
+  "gf_vs_expansion_centres": 30,
+  "dp_max": 288,
+  "brute_max": 288,
+  "attaining": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ]
+}
+CHECK mass
+{
+  "passed": true,
+  "rows": [
+    {
+      "file": "packing_N20_r21_m8.json",
+      "N": 20,
+      "n_guide": 21,
+      "r": 21,
+      "components": 73,
+      "admissible_shells": 397,
+      "H": "75089568153600",
+      "mass": "1099560000000000/53458540628729",
+      "exceeds_r_minus_1": true,
+      "matches_printed_fraction": true,
+      "sum_shell_sizes": 331635520
+    },
+    {
+      "file": "packing_N21_r21_m8.json",
+      "N": 21,
+      "n_guide": 22,
+      "r": 21,
+      "components": 72,
+      "admissible_shells": 438,
+      "H": "12514928025600",
+      "mass": "1596291840000000/76178068400927",
+      "exceeds_r_minus_1": true,
+      "matches_printed_fraction": true,
+      "sum_shell_sizes": 537013504
+    },
+    {
+      "file": "packing_N21_r22_m8.json",
+      "N": 21,
+      "n_guide": 22,
+      "r": 22,
+      "components": 74,
+      "admissible_shells": 438,
+      "H": "12514928025600",
+      "mass": "11706140160000000/533246478806489",
+      "exceeds_r_minus_1": true,
+      "matches_printed_fraction": true,
+      "sum_shell_sizes": 646657792
+    }
+  ]
+}
+CHECK support
+{
+  "passed": true,
+  "rows": [
+    {
+      "skeletons": 2838339,
+      "outside_U": 0,
+      "anchor_distance_not_m": 0,
+      "neutral_swap_samples": 400,
+      "neutral_swap_mismatches": 0,
+      "passed": true,
+      "file": "packing_N20_r21_m8.json"
+    },
+    {
+      "skeletons": 4761605,
+      "outside_U": 0,
+      "anchor_distance_not_m": 0,
+      "neutral_swap_samples": 400,
+      "neutral_swap_mismatches": 0,
+      "passed": true,
+      "file": "packing_N21_r21_m8.json"
+    },
+    {
+      "skeletons": 5492231,
+      "outside_U": 0,
+      "anchor_distance_not_m": 0,
+      "neutral_swap_samples": 400,
+      "neutral_swap_mismatches": 0,
+      "passed": true,
+      "file": "packing_N21_r22_m8.json"
+    }
+  ]
+}
+CHECK dp
+{
+  "partial": "packing_N20_r21_m8.json",
+  "load": "1",
+  "within_one": true
+}
+{
+  "partial": "packing_N21_r21_m8.json",
+  "load": "9519495622400899/9522258550115875",
+  "within_one": true
+}
+{
+  "partial": "packing_N21_r22_m8.json",
+  "load": "1",
+  "within_one": true
+}
+{
+  "within_one": true,
+  "rows": [
+    {
+      "numerator": "76664987202691765463040",
+      "A": "76664987202691765463040",
+      "load": "1",
+      "within_one": true,
+      "counts_012": [
+        4,
+        14,
+        2
+      ],
+      "word": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ],
+      "direct_numerator": 76664987202691765463040,
+      "direct_matches_dp": true,
+      "file": "packing_N20_r21_m8.json",
+      "exceeds_one": false,
+      "literal_on_winner": true
+    },
+    {
+      "numerator": "12538318074176672090880",
+      "A": "12541957181528621280000",
+      "load": "9519495622400899/9522258550115875",
+      "within_one": true,
+      "counts_012": [
+        5,
+        14,
+        2
+      ],
+      "word": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      "direct_numerator": 12538318074176672090880,
+      "direct_matches_dp": true,
+      "file": "packing_N21_r21_m8.json",
+      "exceeds_one": false,
+      "literal_on_winner": true
+    },
+    {
+      "numerator": "12541957181528621280000",
+      "A": "12541957181528621280000",
+      "load": "1",
+      "within_one": true,
+      "counts_012": [
+        5,
+        14,
+        2
+      ],
+      "word": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      "direct_numerator": 12541957181528621280000,
+      "direct_matches_dp": true,
+      "file": "packing_N21_r22_m8.json",
+      "exceeds_one": false,
+      "literal_on_winner": true
+    }
+  ]
+}
+CHECK control
+{
+  "passed": true,
+  "overload": {
+    "anchor_numerator": 151754555394712785715200,
+    "A": 76664987202691765463040,
+    "anchor_load": "105818540655520/53458540628729",
+    "component_mass": "54743842624240/53458540628729",
+    "checker_rejects": true,
+    "mass_still_above": true
+  },
+  "outside_support": {
+    "word": "22222222222222222222",
+    "min_distance": 20,
+    "budget": 8,
+    "checker_rejects": true
+  }
+}
+VERIFIED: all three certificates have support in U, mass > r-1, and maximum radius-8 load <= 1 over every four-letter centre.
+REPLAY_RESOURCES {"package": "m8_closure", "command": ["/usr/local/bin/python3", "-B", "-I", "certificates/m8_closure/verify.py", "verify", "--workers", "4"], "exit_code": 0, "wall_seconds": 89.46365591697395, "peak_child_rss_bytes": 80789504, "user_seconds": 111.004509, "system_seconds": 1.155919}
+PACKAGE_PASS m8_closure

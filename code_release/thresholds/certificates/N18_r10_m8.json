@@ -1,0 +1,298 @@
+{
+  "N": 18,
+  "r": 10,
+  "m": 8,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "00000X000",
+      "tail_weight": 7,
+      "mass": "47992/378125"
+    },
+    {
+      "prefix": "111X11111",
+      "tail_weight": 7,
+      "mass": "47992/378125"
+    },
+    {
+      "prefix": "0000X0111",
+      "tail_weight": 7,
+      "mass": "178592/1134375"
+    },
+    {
+      "prefix": "0001X1111",
+      "tail_weight": 7,
+      "mass": "178592/1134375"
+    },
+    {
+      "prefix": "000X011XX",
+      "tail_weight": 5,
+      "mass": "60978/378125"
+    },
+    {
+      "prefix": "XX001X111",
+      "tail_weight": 5,
+      "mass": "60978/378125"
+    },
+    {
+      "prefix": "00100X001",
+      "tail_weight": 6,
+      "mass": "316399/1134375"
+    },
+    {
+      "prefix": "011X11011",
+      "tail_weight": 6,
+      "mass": "316399/1134375"
+    },
+    {
+      "prefix": "0011X111X",
+      "tail_weight": 6,
+      "mass": "37777/75625"
+    },
+    {
+      "prefix": "X000X0011",
+      "tail_weight": 6,
+      "mass": "37777/75625"
+    },
+    {
+      "prefix": "00X001X10",
+      "tail_weight": 5,
+      "mass": "159707/1134375"
+    },
+    {
+      "prefix": "10X011X11",
+      "tail_weight": 5,
+      "mass": "159707/1134375"
+    },
+    {
+      "prefix": "00XX0001X",
+      "tail_weight": 5,
+      "mass": "86204/378125"
+    },
+    {
+      "prefix": "X0111XX11",
+      "tail_weight": 5,
+      "mass": "86204/378125"
+    },
+    {
+      "prefix": "00XX0XX00",
+      "tail_weight": 4,
+      "mass": "174259/1134375"
+    },
+    {
+      "prefix": "11XX1XX11",
+      "tail_weight": 4,
+      "mass": "174259/1134375"
+    },
+    {
+      "prefix": "010000001",
+      "tail_weight": 7,
+      "mass": "6881/1134375"
+    },
+    {
+      "prefix": "011111101",
+      "tail_weight": 7,
+      "mass": "6881/1134375"
+    },
+    {
+      "prefix": "0100011X1",
+      "tail_weight": 6,
+      "mass": "159707/1134375"
+    },
+    {
+      "prefix": "0X0011101",
+      "tail_weight": 6,
+      "mass": "159707/1134375"
+    },
+    {
+      "prefix": "0111101XX",
+      "tail_weight": 5,
+      "mass": "2197/9075"
+    },
+    {
+      "prefix": "XX0100001",
+      "tail_weight": 5,
+      "mass": "2197/9075"
+    },
+    {
+      "prefix": "011111110",
+      "tail_weight": 7,
+      "mass": "24221/378125"
+    },
+    {
+      "prefix": "100000001",
+      "tail_weight": 7,
+      "mass": "24221/378125"
+    },
+    {
+      "prefix": "011X1XXX1",
+      "tail_weight": 4,
+      "mass": "330281/1134375"
+    },
+    {
+      "prefix": "0XXX0X001",
+      "tail_weight": 4,
+      "mass": "330281/1134375"
+    },
+    {
+      "prefix": "011XXX11X",
+      "tail_weight": 4,
+      "mass": "133526/1134375"
+    },
+    {
+      "prefix": "X00XXX001",
+      "tail_weight": 4,
+      "mass": "133526/1134375"
+    },
+    {
+      "prefix": "0X0011X1X",
+      "tail_weight": 5,
+      "mass": "57457/103125"
+    },
+    {
+      "prefix": "X0X0011X1",
+      "tail_weight": 5,
+      "mass": "57457/103125"
+    },
+    {
+      "prefix": "0X0111010",
+      "tail_weight": 5,
+      "mass": "61983/378125"
+    },
+    {
+      "prefix": "1010001X1",
+      "tail_weight": 5,
+      "mass": "61983/378125"
+    },
+    {
+      "prefix": "0X01XX11X",
+      "tail_weight": 4,
+      "mass": "6634/226875"
+    },
+    {
+      "prefix": "X00XX01X1",
+      "tail_weight": 4,
+      "mass": "6634/226875"
+    },
+    {
+      "prefix": "0X0X0011X",
+      "tail_weight": 5,
+      "mass": "660761/1134375"
+    },
+    {
+      "prefix": "X0011X1X1",
+      "tail_weight": 5,
+      "mass": "660761/1134375"
+    },
+    {
+      "prefix": "10011X10X",
+      "tail_weight": 4,
+      "mass": "8722/226875"
+    },
+    {
+      "prefix": "X10X00110",
+      "tail_weight": 4,
+      "mass": "8722/226875"
+    },
+    {
+      "prefix": "100X01000",
+      "tail_weight": 5,
+      "mass": "11978/378125"
+    },
+    {
+      "prefix": "11101X110",
+      "tail_weight": 5,
+      "mass": "11978/378125"
+    },
+    {
+      "prefix": "10100001X",
+      "tail_weight": 5,
+      "mass": "156692/1134375"
+    },
+    {
+      "prefix": "X01111010",
+      "tail_weight": 5,
+      "mass": "156692/1134375"
+    },
+    {
+      "prefix": "111X1X1X0",
+      "tail_weight": 4,
+      "mass": "257618/1134375"
+    },
+    {
+      "prefix": "1X0X0X000",
+      "tail_weight": 4,
+      "mass": "257618/1134375"
+    },
+    {
+      "prefix": "111XX110X",
+      "tail_weight": 4,
+      "mass": "26497/226875"
+    },
+    {
+      "prefix": "X100XX000",
+      "tail_weight": 4,
+      "mass": "26497/226875"
+    },
+    {
+      "prefix": "11X111X0X",
+      "tail_weight": 4,
+      "mass": "390103/1134375"
+    },
+    {
+      "prefix": "X1X000X00",
+      "tail_weight": 4,
+      "mass": "390103/1134375"
+    },
+    {
+      "prefix": "X011X1X1X",
+      "tail_weight": 4,
+      "mass": "13856/103125"
+    },
+    {
+      "prefix": "X0X0X001X",
+      "tail_weight": 4,
+      "mass": "13856/103125"
+    },
+    {
+      "prefix": "XX011X1XX",
+      "tail_weight": 3,
+      "mass": "32293/1134375"
+    },
+    {
+      "prefix": "XX0X001XX",
+      "tail_weight": 3,
+      "mass": "32293/1134375"
+    }
+  ],
+  "verification": {
+    "max_load": "1",
+    "witness": {
+      "prefix": "000000000",
+      "tail_weight": 0
+    },
+    "centre_classes": 196830,
+    "region_masses": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "mass": "10",
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 1078,
+    "private_orbits": 8684,
+    "rounds": 36,
+    "seconds": 11.707,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

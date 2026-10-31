@@ -1,0 +1,5 @@
+EXACT PASS N=3 r=1 m=0 tau=1
+EXACT PASS N=3 r=1 m=1 tau=1
+EXACT PASS N=3 r=1 m=2 tau=1
+EXACT PASS N=3 r=1 m=3 tau=1
+REJECTED: (3, 2, 0): cover short: 0

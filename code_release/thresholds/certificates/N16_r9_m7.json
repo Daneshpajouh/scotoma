@@ -1,0 +1,377 @@
+{
+  "N": 16,
+  "r": 9,
+  "m": 7,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "00001110",
+      "tail_weight": 6,
+      "mass": "14552075/81842246"
+    },
+    {
+      "prefix": "10001111",
+      "tail_weight": 6,
+      "mass": "14552075/81842246"
+    },
+    {
+      "prefix": "00001X10",
+      "tail_weight": 5,
+      "mass": "2663853/81842246"
+    },
+    {
+      "prefix": "10X01111",
+      "tail_weight": 5,
+      "mass": "2663853/81842246"
+    },
+    {
+      "prefix": "00010X00",
+      "tail_weight": 5,
+      "mass": "5582045/40921123"
+    },
+    {
+      "prefix": "11X10111",
+      "tail_weight": 5,
+      "mass": "5582045/40921123"
+    },
+    {
+      "prefix": "00011100",
+      "tail_weight": 5,
+      "mass": "3331555/163684492"
+    },
+    {
+      "prefix": "11000111",
+      "tail_weight": 5,
+      "mass": "3331555/163684492"
+    },
+    {
+      "prefix": "00011XXX",
+      "tail_weight": 4,
+      "mass": "5296399/40921123"
+    },
+    {
+      "prefix": "XXX00111",
+      "tail_weight": 4,
+      "mass": "5296399/40921123"
+    },
+    {
+      "prefix": "000X01XX",
+      "tail_weight": 4,
+      "mass": "20491669/163684492"
+    },
+    {
+      "prefix": "XX01X111",
+      "tail_weight": 4,
+      "mass": "20491669/163684492"
+    },
+    {
+      "prefix": "000X0X01",
+      "tail_weight": 5,
+      "mass": "14311821/40921123"
+    },
+    {
+      "prefix": "01X1X111",
+      "tail_weight": 5,
+      "mass": "14311821/40921123"
+    },
+    {
+      "prefix": "0011011X",
+      "tail_weight": 5,
+      "mass": "8824375/163684492"
+    },
+    {
+      "prefix": "X0010011",
+      "tail_weight": 5,
+      "mass": "8824375/163684492"
+    },
+    {
+      "prefix": "00110X11",
+      "tail_weight": 5,
+      "mass": "4313998/40921123"
+    },
+    {
+      "prefix": "00X10011",
+      "tail_weight": 5,
+      "mass": "4313998/40921123"
+    },
+    {
+      "prefix": "00111XX0",
+      "tail_weight": 4,
+      "mass": "1767823/163684492"
+    },
+    {
+      "prefix": "1XX00011",
+      "tail_weight": 4,
+      "mass": "1767823/163684492"
+    },
+    {
+      "prefix": "00111XX1",
+      "tail_weight": 5,
+      "mass": "5225761/163684492"
+    },
+    {
+      "prefix": "0XX00011",
+      "tail_weight": 5,
+      "mass": "5225761/163684492"
+    },
+    {
+      "prefix": "00XXX001",
+      "tail_weight": 4,
+      "mass": "6530431/40921123"
+    },
+    {
+      "prefix": "011XXX11",
+      "tail_weight": 4,
+      "mass": "6530431/40921123"
+    },
+    {
+      "prefix": "0100X01X",
+      "tail_weight": 4,
+      "mass": "36349471/163684492"
+    },
+    {
+      "prefix": "X01X1101",
+      "tail_weight": 4,
+      "mass": "36349471/163684492"
+    },
+    {
+      "prefix": "010X1000",
+      "tail_weight": 4,
+      "mass": "11331493/81842246"
+    },
+    {
+      "prefix": "1110X101",
+      "tail_weight": 4,
+      "mass": "11331493/81842246"
+    },
+    {
+      "prefix": "0111X010",
+      "tail_weight": 4,
+      "mass": "10659573/81842246"
+    },
+    {
+      "prefix": "101X0001",
+      "tail_weight": 4,
+      "mass": "10659573/81842246"
+    },
+    {
+      "prefix": "011X11XX",
+      "tail_weight": 4,
+      "mass": "29498169/81842246"
+    },
+    {
+      "prefix": "XX00X001",
+      "tail_weight": 4,
+      "mass": "29498169/81842246"
+    },
+    {
+      "prefix": "01XXX000",
+      "tail_weight": 3,
+      "mass": "3571783/81842246"
+    },
+    {
+      "prefix": "111XXX01",
+      "tail_weight": 3,
+      "mass": "3571783/81842246"
+    },
+    {
+      "prefix": "0X0001XX",
+      "tail_weight": 4,
+      "mass": "2698043/81842246"
+    },
+    {
+      "prefix": "XX0111X1",
+      "tail_weight": 4,
+      "mass": "2698043/81842246"
+    },
+    {
+      "prefix": "0X0011XX",
+      "tail_weight": 4,
+      "mass": "29292585/163684492"
+    },
+    {
+      "prefix": "XX0011X1",
+      "tail_weight": 4,
+      "mass": "29292585/163684492"
+    },
+    {
+      "prefix": "0X011X1X",
+      "tail_weight": 4,
+      "mass": "20813099/163684492"
+    },
+    {
+      "prefix": "X0X001X1",
+      "tail_weight": 4,
+      "mass": "20813099/163684492"
+    },
+    {
+      "prefix": "0X011XX1",
+      "tail_weight": 4,
+      "mass": "28547139/81842246"
+    },
+    {
+      "prefix": "0XX001X1",
+      "tail_weight": 4,
+      "mass": "28547139/81842246"
+    },
+    {
+      "prefix": "0XX01X1X",
+      "tail_weight": 3,
+      "mass": "1519906/40921123"
+    },
+    {
+      "prefix": "X0X01XX1",
+      "tail_weight": 3,
+      "mass": "1519906/40921123"
+    },
+    {
+      "prefix": "0XXX00X0",
+      "tail_weight": 3,
+      "mass": "8579227/81842246"
+    },
+    {
+      "prefix": "1X11XXX1",
+      "tail_weight": 3,
+      "mass": "8579227/81842246"
+    },
+    {
+      "prefix": "1000011X",
+      "tail_weight": 5,
+      "mass": "12392209/81842246"
+    },
+    {
+      "prefix": "X0011110",
+      "tail_weight": 5,
+      "mass": "12392209/81842246"
+    },
+    {
+      "prefix": "10000X00",
+      "tail_weight": 5,
+      "mass": "2952614/40921123"
+    },
+    {
+      "prefix": "11X11110",
+      "tail_weight": 5,
+      "mass": "2952614/40921123"
+    },
+    {
+      "prefix": "10001X1X",
+      "tail_weight": 4,
+      "mass": "9396105/163684492"
+    },
+    {
+      "prefix": "X0X01110",
+      "tail_weight": 4,
+      "mass": "9396105/163684492"
+    },
+    {
+      "prefix": "10011X0X",
+      "tail_weight": 3,
+      "mass": "10587791/163684492"
+    },
+    {
+      "prefix": "X1X00110",
+      "tail_weight": 3,
+      "mass": "10587791/163684492"
+    },
+    {
+      "prefix": "11100000",
+      "tail_weight": 4,
+      "mass": "11076829/163684492"
+    },
+    {
+      "prefix": "11111000",
+      "tail_weight": 4,
+      "mass": "11076829/163684492"
+    },
+    {
+      "prefix": "11X111XX",
+      "tail_weight": 4,
+      "mass": "28733441/245526738"
+    },
+    {
+      "prefix": "XX000X00",
+      "tail_weight": 4,
+      "mass": "28733441/245526738"
+    },
+    {
+      "prefix": "11X1XXXX",
+      "tail_weight": 2,
+      "mass": "6554135/81842246"
+    },
+    {
+      "prefix": "XXXX0X00",
+      "tail_weight": 2,
+      "mass": "6554135/81842246"
+    },
+    {
+      "prefix": "11XX111X",
+      "tail_weight": 4,
+      "mass": "117720371/491053476"
+    },
+    {
+      "prefix": "X000XX00",
+      "tail_weight": 4,
+      "mass": "117720371/491053476"
+    },
+    {
+      "prefix": "1X0X001X",
+      "tail_weight": 3,
+      "mass": "37386249/163684492"
+    },
+    {
+      "prefix": "X011X1X0",
+      "tail_weight": 3,
+      "mass": "37386249/163684492"
+    },
+    {
+      "prefix": "X0111X1X",
+      "tail_weight": 4,
+      "mass": "56874821/163684492"
+    },
+    {
+      "prefix": "X0X0001X",
+      "tail_weight": 4,
+      "mass": "56874821/163684492"
+    },
+    {
+      "prefix": "X10011XX",
+      "tail_weight": 3,
+      "mass": "660519/40921123"
+    },
+    {
+      "prefix": "XX00110X",
+      "tail_weight": 3,
+      "mass": "660519/40921123"
+    }
+  ],
+  "verification": {
+    "max_load": "1",
+    "witness": {
+      "prefix": "00000000",
+      "tail_weight": 0
+    },
+    "centre_classes": 59049,
+    "region_masses": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "mass": "9",
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 631,
+    "private_orbits": 2937,
+    "rounds": 8,
+    "seconds": 3.48,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

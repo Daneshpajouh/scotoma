@@ -1,0 +1,188 @@
+{
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "families": [
+    {
+      "file": "family_r6.json",
+      "r": 6,
+      "alpha": 12,
+      "min_n": 13,
+      "polynomials": 9990,
+      "newton_coefficients": 274725
+    },
+    {
+      "file": "family_r7_lower14.json",
+      "r": 7,
+      "alpha": 14,
+      "min_n": 15,
+      "polynomials": 15930,
+      "newton_coefficients": 477900
+    },
+    {
+      "file": "family_r8.json",
+      "r": 8,
+      "alpha": 15,
+      "min_n": 15,
+      "polynomials": 84810,
+      "newton_coefficients": 2841135
+    },
+    {
+      "file": "family_limit_r9.json",
+      "r": 9,
+      "alpha": 27,
+      "min_n": 27,
+      "polynomials": 15695,
+      "newton_coefficients": 345290
+    },
+    {
+      "file": "family_limit_r10.json",
+      "r": 10,
+      "alpha": 30,
+      "min_n": 30,
+      "polynomials": 15525,
+      "newton_coefficients": 357075
+    }
+  ],
+  "upper_families": [
+    {
+      "file": "upper_r7.json",
+      "status": "PROVED",
+      "r": 7,
+      "line_n0": 19,
+      "line_m0": 9,
+      "shift": 27,
+      "private_prefixes": 339,
+      "positive_coefficients_checked": 4038,
+      "finite_bridges": 27,
+      "all_z_ge_zero": true
+    },
+    {
+      "file": "upper_r7_n46.json",
+      "status": "PROVED",
+      "r": 7,
+      "line_n0": 46,
+      "line_m0": 25,
+      "shift": 59,
+      "private_prefixes": 339,
+      "positive_coefficients_checked": 3611,
+      "finite_bridges": 59,
+      "all_z_ge_zero": true
+    },
+    {
+      "file": "upper_r8_n83.json",
+      "status": "PROVED",
+      "r": 8,
+      "line_n0": 83,
+      "line_m0": 47,
+      "shift": 51,
+      "private_prefixes": 996,
+      "positive_coefficients_checked": 14774,
+      "finite_bridges": 51,
+      "all_z_ge_zero": true
+    }
+  ],
+  "supplied_premises": [
+    "E4 restriction",
+    "E13 six-run upper family",
+    "E16 budget monotonicity",
+    "E21 five-run threshold"
+  ],
+  "general_theorem_checks": {
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true,
+    "tail_length_cap": 100,
+    "finite_gain_cases": 5151,
+    "convex_order_comparisons": 5150,
+    "reflection_equalities": 5050,
+    "drift_recurrence_equalities": 100,
+    "chain_cardinality_cases": 280483,
+    "cutoff_factor": "1396673279205093577914204121990474034994797156059669007153708072194117673511669311035212110967482977439838519969837494175599926700588487603/1441151880758558720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "cutoff_factor_strictly_below_one": true,
+    "controls": [
+      {
+        "name": "uniform_library_orbits_above_three_fifths_tail_density",
+        "status": "REFUTED",
+        "outcome": "REJECTED-AS-REQUIRED",
+        "explicit_witness": "4/3",
+        "reason": "packing overload: 131/81 at ((0, 1), 5)"
+      }
+    ],
+    "scope": "finite checks support the separate analytic all-parameter proof; no extrapolation used"
+  },
+  "constant_mass_obstruction": {
+    "status": "PROVED",
+    "private_prefixes": 339,
+    "minimum": "1",
+    "dual_mass": "3922162576875/562499999968",
+    "deficit": "15337422901/562499999968"
+  },
+  "boundary_pairs_replayed": 62,
+  "full_grid_requested": false,
+  "controls": [
+    {
+      "name": "radius_increase_preserving_region_masses",
+      "exit_code": 1,
+      "outcome": "REJECTED-AS-REQUIRED",
+      "status": "REFUTED",
+      "reason": "packing overload: 332/275 at ((0, 0, 0, 1, 1), 2)"
+    },
+    {
+      "name": "scale_private_dual_down",
+      "exit_code": 1,
+      "outcome": "REJECTED-AS-REQUIRED",
+      "status": "REFUTED",
+      "reason": "private dual undercoverage: 999/1000 at ((2, 0, 0, 1, 2), 6)"
+    },
+    {
+      "name": "invent_empty_private_region",
+      "exit_code": 1,
+      "outcome": "REJECTED-AS-REQUIRED",
+      "status": "REFUTED",
+      "reason": "claimed empty region has private points"
+    },
+    {
+      "name": "r6_use_five_run_boundary",
+      "status": "REFUTED",
+      "outcome": "REJECTED-AS-REQUIRED",
+      "reason": "packing overload: 19046/18315 at ((0, 0, 0, 0, 1), 2)"
+    },
+    {
+      "name": "r7_finite_only_constant_candidate",
+      "status": "REFUTED",
+      "outcome": "REJECTED-AS-REQUIRED",
+      "reason": "packing overload: 412780571/411334200 at ((0, 0, 0, 0, 1, 1), 2)"
+    },
+    {
+      "name": "r7_first_inverse_candidate",
+      "status": "REFUTED",
+      "outcome": "REJECTED-AS-REQUIRED",
+      "reason": "packing overload: 1514758/1507005 at ((0, 0, 0, 0, 0, 1), 1)"
+    },
+    {
+      "name": "r8_ignore_late_transition",
+      "status": "REFUTED",
+      "outcome": "REJECTED-AS-REQUIRED",
+      "reason": "packing overload: 9513874/9465525 at ((0, 0, 0, 0, 0, 0, 1), 2)"
+    },
+    {
+      "name": "r7_symbolic_upper_weights_scaled_down",
+      "status": "REFUTED",
+      "outcome": "REJECTED-AS-REQUIRED",
+      "reason": "upper coverage (0, 0, 0, 0, 0, 0) coefficient negative"
+    },
+    {
+      "name": "r7_constant_obstruction_scaled_down",
+      "status": "REFUTED",
+      "outcome": "REJECTED-AS-REQUIRED",
+      "reason": "constant-family dual coefficient below one"
+    },
+    {
+      "name": "uniform_library_orbits_above_three_fifths_tail_density",
+      "status": "REFUTED",
+      "outcome": "REJECTED-AS-REQUIRED",
+      "explicit_witness": "4/3",
+      "reason": "packing overload: 131/81 at ((0, 1), 5)"
+    }
+  ],
+  "seconds": 143.204,
+  "passes": true
+}

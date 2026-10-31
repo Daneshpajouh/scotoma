@@ -1,0 +1,17 @@
+{
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "table_rows": 10,
+  "rows_passed": 10,
+  "control": {
+    "name": "upper_bound_used_to_claim_K_equal_r",
+    "expected": "FAIL",
+    "observed": "FAIL",
+    "reason": "K equality has no forcing lower bound"
+  },
+  "transport_control": {
+    "name": "wrong_transport_coordinate_permutation",
+    "expected": "FAIL",
+    "observed": "FAIL",
+    "reason": "transport does not map the source library to the specified sublibrary"
+  }
+}

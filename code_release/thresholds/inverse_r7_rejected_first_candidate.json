@@ -1,0 +1,661 @@
+{
+  "r": 7,
+  "alpha": 13,
+  "min_n_candidate": 15,
+  "C0": 8,
+  "mass_type": "linear_inverse_C",
+  "support": [
+    {
+      "prefix": "000000",
+      "distance": 0,
+      "mass_limit": "119/135",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "111111",
+      "distance": 0,
+      "mass_limit": "119/135",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "000001",
+      "distance": 0,
+      "mass_limit": "58766/383085",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "011111",
+      "distance": 0,
+      "mass_limit": "58766/383085",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "000111",
+      "distance": 0,
+      "mass_limit": "0",
+      "mass_at_C0": "147019/510780"
+    },
+    {
+      "prefix": "00011X",
+      "distance": 1,
+      "mass_limit": "117532/383085",
+      "mass_at_C0": "64009/681040"
+    },
+    {
+      "prefix": "X00111",
+      "distance": 1,
+      "mass_limit": "117532/383085",
+      "mass_at_C0": "64009/681040"
+    },
+    {
+      "prefix": "000X00",
+      "distance": 1,
+      "mass_limit": "0",
+      "mass_at_C0": "204399/681040"
+    },
+    {
+      "prefix": "11X111",
+      "distance": 1,
+      "mass_limit": "0",
+      "mass_at_C0": "204399/681040"
+    },
+    {
+      "prefix": "001000",
+      "distance": 1,
+      "mass_limit": "0",
+      "mass_at_C0": "265679/6129360"
+    },
+    {
+      "prefix": "111011",
+      "distance": 1,
+      "mass_limit": "0",
+      "mass_at_C0": "265679/6129360"
+    },
+    {
+      "prefix": "001110",
+      "distance": 1,
+      "mass_limit": "1/5",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "100011",
+      "distance": 1,
+      "mass_limit": "1/5",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "0011X0",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "147019/766170"
+    },
+    {
+      "prefix": "1X0011",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "147019/766170"
+    },
+    {
+      "prefix": "0011X1",
+      "distance": 1,
+      "mass_limit": "122482/383085",
+      "mass_at_C0": "64009/681040"
+    },
+    {
+      "prefix": "0X0011",
+      "distance": 1,
+      "mass_limit": "122482/383085",
+      "mass_at_C0": "64009/681040"
+    },
+    {
+      "prefix": "0011XX",
+      "distance": 2,
+      "mass_limit": "112319/1149255",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "XX0011",
+      "distance": 2,
+      "mass_limit": "112319/1149255",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "00X001",
+      "distance": 1,
+      "mass_limit": "0",
+      "mass_at_C0": "135599/3064680"
+    },
+    {
+      "prefix": "011X11",
+      "distance": 1,
+      "mass_limit": "0",
+      "mass_at_C0": "135599/3064680"
+    },
+    {
+      "prefix": "010000",
+      "distance": 1,
+      "mass_limit": "16/135",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "111101",
+      "distance": 1,
+      "mass_limit": "16/135",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "010X00",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "545441/6129360"
+    },
+    {
+      "prefix": "11X101",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "545441/6129360"
+    },
+    {
+      "prefix": "011100",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "1337/153234"
+    },
+    {
+      "prefix": "110001",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "1337/153234"
+    },
+    {
+      "prefix": "01110X",
+      "distance": 2,
+      "mass_limit": "1/5",
+      "mass_at_C0": "265679/3064680"
+    },
+    {
+      "prefix": "X10001",
+      "distance": 2,
+      "mass_limit": "1/5",
+      "mass_at_C0": "265679/3064680"
+    },
+    {
+      "prefix": "011110",
+      "distance": 1,
+      "mass_limit": "94468/383085",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "100001",
+      "distance": 1,
+      "mass_limit": "94468/383085",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "0111X0",
+      "distance": 2,
+      "mass_limit": "247702/1149255",
+      "mass_at_C0": "8277/340520"
+    },
+    {
+      "prefix": "1X0001",
+      "distance": 2,
+      "mass_limit": "247702/1149255",
+      "mass_at_C0": "8277/340520"
+    },
+    {
+      "prefix": "0111X1",
+      "distance": 1,
+      "mass_limit": "58766/383085",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "0X0001",
+      "distance": 1,
+      "mass_limit": "58766/383085",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "0111XX",
+      "distance": 2,
+      "mass_limit": "35702/1149255",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "XX0001",
+      "distance": 2,
+      "mass_limit": "35702/1149255",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "011X10",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "160511/766170"
+    },
+    {
+      "prefix": "10X001",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "160511/766170"
+    },
+    {
+      "prefix": "011X1X",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "170051/766170"
+    },
+    {
+      "prefix": "X0X001",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "170051/766170"
+    },
+    {
+      "prefix": "011XX1",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "2069111/6129360"
+    },
+    {
+      "prefix": "0XX001",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "2069111/6129360"
+    },
+    {
+      "prefix": "011XXX",
+      "distance": 3,
+      "mass_limit": "0",
+      "mass_at_C0": "410731/6129360"
+    },
+    {
+      "prefix": "XXX001",
+      "distance": 3,
+      "mass_limit": "0",
+      "mass_at_C0": "410731/6129360"
+    },
+    {
+      "prefix": "0X001X",
+      "distance": 2,
+      "mass_limit": "32732/229851",
+      "mass_at_C0": "2909479/6129360"
+    },
+    {
+      "prefix": "X011X1",
+      "distance": 2,
+      "mass_limit": "32732/229851",
+      "mass_at_C0": "2909479/6129360"
+    },
+    {
+      "prefix": "10011X",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "147019/1532340"
+    },
+    {
+      "prefix": "X00110",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "147019/1532340"
+    },
+    {
+      "prefix": "10X01X",
+      "distance": 3,
+      "mass_limit": "0",
+      "mass_at_C0": "1164157/6129360"
+    },
+    {
+      "prefix": "X01X10",
+      "distance": 3,
+      "mass_limit": "0",
+      "mass_at_C0": "1164157/6129360"
+    },
+    {
+      "prefix": "11101X",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "93629/1225872"
+    },
+    {
+      "prefix": "X01000",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "93629/1225872"
+    },
+    {
+      "prefix": "11110X",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "86897/383085"
+    },
+    {
+      "prefix": "X10000",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "86897/383085"
+    },
+    {
+      "prefix": "11X11X",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "47309/383085"
+    },
+    {
+      "prefix": "X00X00",
+      "distance": 2,
+      "mass_limit": "0",
+      "mass_at_C0": "47309/383085"
+    },
+    {
+      "prefix": "11X1XX",
+      "distance": 3,
+      "mass_limit": "0",
+      "mass_at_C0": "11989/85130"
+    },
+    {
+      "prefix": "XX0X00",
+      "distance": 3,
+      "mass_limit": "0",
+      "mass_at_C0": "11989/85130"
+    },
+    {
+      "prefix": "1X001X",
+      "distance": 3,
+      "mass_limit": "8183/76617",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "X011X0",
+      "distance": 3,
+      "mass_limit": "8183/76617",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "X0011X",
+      "distance": 2,
+      "mass_limit": "148021/383085",
+      "mass_at_C0": "173035/612936"
+    },
+    {
+      "prefix": "X011XX",
+      "distance": 3,
+      "mass_limit": "2/15",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "XX001X",
+      "distance": 3,
+      "mass_limit": "2/15",
+      "mass_at_C0": "0"
+    },
+    {
+      "prefix": "X01X1X",
+      "distance": 3,
+      "mass_limit": "0",
+      "mass_at_C0": "303491/6129360"
+    },
+    {
+      "prefix": "X0X01X",
+      "distance": 3,
+      "mass_limit": "0",
+      "mass_at_C0": "303491/6129360"
+    },
+    {
+      "prefix": "XX01XX",
+      "distance": 4,
+      "mass_limit": "0",
+      "mass_at_C0": "1/20"
+    }
+  ],
+  "status": "VERIFIED-COMPUTATIONALLY at listed lengths; infinite range CONJECTURE",
+  "finite_checks": [
+    {
+      "n": 15,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 6561,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 16,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 7290,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 17,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 8019,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 18,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 8748,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 19,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 9477,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 20,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 10206,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 21,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 10935,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 22,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 11664,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 23,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 12393,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 24,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 13122,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 35,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 21141,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 75,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 50301,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": "limit",
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 12393,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    }
+  ]
+}

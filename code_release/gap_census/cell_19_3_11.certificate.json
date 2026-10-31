@@ -1,0 +1,56 @@
+{
+  "N": 19,
+  "r": 3,
+  "m": 11,
+  "cover": [
+    {
+      "prefix": "00",
+      "suffix_weight": 0,
+      "mass": "2/3"
+    },
+    {
+      "prefix": "01",
+      "suffix_weight": 1,
+      "mass": "17/11"
+    },
+    {
+      "prefix": "10",
+      "suffix_weight": 0,
+      "mass": "1/33"
+    },
+    {
+      "prefix": "11",
+      "suffix_weight": 0,
+      "mass": "2/3"
+    }
+  ],
+  "packing": [
+    {
+      "prefix": "00",
+      "suffix_weight": 11,
+      "mass": "2/13"
+    },
+    {
+      "prefix": "01",
+      "suffix_weight": 11,
+      "mass": "10/11"
+    },
+    {
+      "prefix": "11",
+      "suffix_weight": 11,
+      "mass": "11/13"
+    },
+    {
+      "prefix": "1X",
+      "suffix_weight": 10,
+      "mass": "2/13"
+    },
+    {
+      "prefix": "X0",
+      "suffix_weight": 10,
+      "mass": "11/13"
+    }
+  ],
+  "normalization": "total mass, uniform within each orbit",
+  "orientation": "canonical 0^j 1^(r-1-j) 0^(N-r+1)"
+}

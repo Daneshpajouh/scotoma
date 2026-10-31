@@ -1,0 +1,139 @@
+{
+  "N": 17,
+  "r": 6,
+  "m": 8,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "00001",
+      "tail_weight": 8,
+      "mass": "48305/140452"
+    },
+    {
+      "prefix": "00011",
+      "tail_weight": 8,
+      "mass": "36875/140452"
+    },
+    {
+      "prefix": "0001X",
+      "tail_weight": 7,
+      "mass": "103577/140452"
+    },
+    {
+      "prefix": "00111",
+      "tail_weight": 8,
+      "mass": "33351/70226"
+    },
+    {
+      "prefix": "00X00",
+      "tail_weight": 7,
+      "mass": "127573/140452"
+    },
+    {
+      "prefix": "01101",
+      "tail_weight": 7,
+      "mass": "17713/70226"
+    },
+    {
+      "prefix": "01110",
+      "tail_weight": 7,
+      "mass": "28163/70226"
+    },
+    {
+      "prefix": "011X1",
+      "tail_weight": 7,
+      "mass": "18873/140452"
+    },
+    {
+      "prefix": "011XX",
+      "tail_weight": 6,
+      "mass": "29827/140452"
+    },
+    {
+      "prefix": "0XX01",
+      "tail_weight": 6,
+      "mass": "12879/70226"
+    },
+    {
+      "prefix": "11011",
+      "tail_weight": 7,
+      "mass": "887/10804"
+    },
+    {
+      "prefix": "11100",
+      "tail_weight": 6,
+      "mass": "81/1898"
+    },
+    {
+      "prefix": "11111",
+      "tail_weight": 8,
+      "mass": "14531/140452"
+    },
+    {
+      "prefix": "1111X",
+      "tail_weight": 7,
+      "mass": "8712/35113"
+    },
+    {
+      "prefix": "11X10",
+      "tail_weight": 6,
+      "mass": "29889/140452"
+    },
+    {
+      "prefix": "11XX1",
+      "tail_weight": 6,
+      "mass": "43659/140452"
+    },
+    {
+      "prefix": "1X001",
+      "tail_weight": 6,
+      "mass": "30799/140452"
+    },
+    {
+      "prefix": "X011X",
+      "tail_weight": 6,
+      "mass": "36875/70226"
+    },
+    {
+      "prefix": "X1000",
+      "tail_weight": 6,
+      "mass": "12879/140452"
+    },
+    {
+      "prefix": "X1001",
+      "tail_weight": 6,
+      "mass": "12287/70226"
+    },
+    {
+      "prefix": "XX001",
+      "tail_weight": 6,
+      "mass": "2754/35113"
+    }
+  ],
+  "verification": {
+    "max_load": "1",
+    "witness": {
+      "prefix": "00000",
+      "tail_weight": 0
+    },
+    "centre_classes": 3159,
+    "region_masses": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "mass": "6",
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 108,
+    "private_orbits": 116,
+    "rounds": 7,
+    "seconds": 0.053,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "N": 31,
+  "r": 6,
+  "m": 17,
+  "kind": "SHORT",
+  "support": [
+    {
+      "prefix": "11111",
+      "tail_weight": 0,
+      "mass": "29066027575/32499999989"
+    },
+    {
+      "prefix": "11111",
+      "tail_weight": 1,
+      "mass": "1991563600/32499999989"
+    },
+    {
+      "prefix": "01111",
+      "tail_weight": 0,
+      "mass": "18582433025/32499999989"
+    },
+    {
+      "prefix": "01111",
+      "tail_weight": 1,
+      "mass": "18062316155/64999999978"
+    },
+    {
+      "prefix": "00111",
+      "tail_weight": 1,
+      "mass": "62345387195/64999999978"
+    },
+    {
+      "prefix": "00111",
+      "tail_weight": 2,
+      "mass": "8008129935/64999999978"
+    },
+    {
+      "prefix": "00011",
+      "tail_weight": 1,
+      "mass": "30866850950/32499999989"
+    },
+    {
+      "prefix": "00011",
+      "tail_weight": 2,
+      "mass": "9061232115/64999999978"
+    },
+    {
+      "prefix": "00001",
+      "tail_weight": 0,
+      "mass": "18644098330/32499999989"
+    },
+    {
+      "prefix": "00001",
+      "tail_weight": 1,
+      "mass": "17924138375/64999999978"
+    },
+    {
+      "prefix": "00000",
+      "tail_weight": 0,
+      "mass": "58258652205/64999999978"
+    },
+    {
+      "prefix": "00000",
+      "tail_weight": 1,
+      "mass": "1861199470/32499999989"
+    },
+    {
+      "prefix": "00110",
+      "tail_weight": 0,
+      "mass": "41046785/32499999989"
+    },
+    {
+      "prefix": "00110",
+      "tail_weight": 1,
+      "mass": "596337235/64999999978"
+    },
+    {
+      "prefix": "01001",
+      "tail_weight": 0,
+      "mass": "150935005/32499999989"
+    },
+    {
+      "prefix": "01101",
+      "tail_weight": 0,
+      "mass": "157410955/32499999989"
+    },
+    {
+      "prefix": "01110",
+      "tail_weight": 1,
+      "mass": "44933525/32499999989"
+    },
+    {
+      "prefix": "10000",
+      "tail_weight": 0,
+      "mass": "92521780/32499999989"
+    },
+    {
+      "prefix": "10001",
+      "tail_weight": 1,
+      "mass": "110947590/32499999989"
+    },
+    {
+      "prefix": "10011",
+      "tail_weight": 0,
+      "mass": "132064335/64999999978"
+    },
+    {
+      "prefix": "10011",
+      "tail_weight": 1,
+      "mass": "301004795/64999999978"
+    },
+    {
+      "prefix": "11000",
+      "tail_weight": 0,
+      "mass": "25666485/64999999978"
+    },
+    {
+      "prefix": "11100",
+      "tail_weight": 0,
+      "mass": "22821695/64999999978"
+    },
+    {
+      "prefix": "11110",
+      "tail_weight": 0,
+      "mass": "105408940/32499999989"
+    },
+    {
+      "prefix": "X0011",
+      "tail_weight": 0,
+      "mass": "2636820355/64999999978"
+    },
+    {
+      "prefix": "X0001",
+      "tail_weight": 0,
+      "mass": "343182125/64999999978"
+    },
+    {
+      "prefix": "X0111",
+      "tail_weight": 0,
+      "mass": "897909025/32499999989"
+    },
+    {
+      "prefix": "X0110",
+      "tail_weight": 0,
+      "mass": "20126925/32499999989"
+    },
+    {
+      "prefix": "0001X",
+      "tail_weight": 0,
+      "mass": "1799714345/64999999978"
+    },
+    {
+      "prefix": "1001X",
+      "tail_weight": 0,
+      "mass": "45643325/64999999978"
+    },
+    {
+      "prefix": "011X1",
+      "tail_weight": 0,
+      "mass": "766321075/64999999978"
+    },
+    {
+      "prefix": "0011X",
+      "tail_weight": 0,
+      "mass": "1298960260/32499999989"
+    },
+    {
+      "prefix": "0X000",
+      "tail_weight": 0,
+      "mass": "28090400/32499999989"
+    },
+    {
+      "prefix": "0X001",
+      "tail_weight": 0,
+      "mass": "691941575/64999999978"
+    },
+    {
+      "prefix": "0111X",
+      "tail_weight": 0,
+      "mass": "174910970/32499999989"
+    }
+  ],
+  "verification": {
+    "private_orbits": 116,
+    "minimum": "1",
+    "mass": "389292123545/64999999978",
+    "deficit": "707876323/64999999978",
+    "witness": {
+      "prefix": "10011",
+      "tail_weight": 16
+    },
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 149,
+    "private_orbits": 116,
+    "rounds": 3,
+    "seconds": 0.06,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

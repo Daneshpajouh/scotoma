@@ -1,0 +1,156 @@
+{
+  "N": 92,
+  "r": 8,
+  "m": 52,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "000111X",
+      "tail_weight": 51,
+      "mass": "1236137/2286261"
+    },
+    {
+      "prefix": "X000111",
+      "tail_weight": 51,
+      "mass": "1236137/2286261"
+    },
+    {
+      "prefix": "001111X",
+      "tail_weight": 51,
+      "mass": "5447888/16003827"
+    },
+    {
+      "prefix": "X000011",
+      "tail_weight": 51,
+      "mass": "5447888/16003827"
+    },
+    {
+      "prefix": "00111X1",
+      "tail_weight": 51,
+      "mass": "10555939/16003827"
+    },
+    {
+      "prefix": "0X00011",
+      "tail_weight": 51,
+      "mass": "10555939/16003827"
+    },
+    {
+      "prefix": "00XX001",
+      "tail_weight": 50,
+      "mass": "2971337/5334609"
+    },
+    {
+      "prefix": "011XX11",
+      "tail_weight": 50,
+      "mass": "2971337/5334609"
+    },
+    {
+      "prefix": "01111X1",
+      "tail_weight": 51,
+      "mass": "1181636/5334609"
+    },
+    {
+      "prefix": "0X00001",
+      "tail_weight": 51,
+      "mass": "1181636/5334609"
+    },
+    {
+      "prefix": "0111X00",
+      "tail_weight": 49,
+      "mass": "1181636/5334609"
+    },
+    {
+      "prefix": "11X0001",
+      "tail_weight": 49,
+      "mass": "1181636/5334609"
+    },
+    {
+      "prefix": "0X00000",
+      "tail_weight": 51,
+      "mass": "1181636/5334609"
+    },
+    {
+      "prefix": "11111X1",
+      "tail_weight": 51,
+      "mass": "1181636/5334609"
+    },
+    {
+      "prefix": "0X00110",
+      "tail_weight": 50,
+      "mass": "474028/1778203"
+    },
+    {
+      "prefix": "10011X1",
+      "tail_weight": 50,
+      "mass": "474028/1778203"
+    },
+    {
+      "prefix": "111110X",
+      "tail_weight": 50,
+      "mass": "596567/1778203"
+    },
+    {
+      "prefix": "X100000",
+      "tail_weight": 50,
+      "mass": "596567/1778203"
+    },
+    {
+      "prefix": "111XX1X",
+      "tail_weight": 49,
+      "mass": "2363272/5334609"
+    },
+    {
+      "prefix": "X0XX000",
+      "tail_weight": 49,
+      "mass": "2363272/5334609"
+    },
+    {
+      "prefix": "X0011XX",
+      "tail_weight": 49,
+      "mass": "3354223/32007654"
+    },
+    {
+      "prefix": "XX0011X",
+      "tail_weight": 49,
+      "mass": "3354223/32007654"
+    },
+    {
+      "prefix": "XX001XX",
+      "tail_weight": 48,
+      "mass": "2815009/32007654"
+    },
+    {
+      "prefix": "XX011XX",
+      "tail_weight": 48,
+      "mass": "2815009/32007654"
+    }
+  ],
+  "verification": {
+    "max_load": "1",
+    "witness": {
+      "prefix": "0000000",
+      "tail_weight": 0
+    },
+    "centre_classes": 188082,
+    "region_masses": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "mass": "8",
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 178,
+    "private_orbits": 996,
+    "rounds": 10,
+    "seconds": 4.616,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

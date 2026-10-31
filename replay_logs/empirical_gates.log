@@ -1,0 +1,160 @@
+INTEGRITY_PASS 1678
+PACKAGE_BEGIN empirical_gates
+COMMAND code_release /usr/local/bin/python3 -B verify_minimality.py
+GATE PASSED: minimality of the released library reproduces end to end
+
+  library (complete single deletions, 110 guides)   1629
+  every pattern has a neighbour at distance          1   (all 1629, no exceptions)
+  => Lemma 1: no private point below radius 4
+  private witness at radius exactly 4               1629 of 1629, each verified
+     against all 1628 others; margin exactly 5 throughout
+  MINIMAL at budget 4: no pattern is redundant
+
+  emitted by the current implementation              1560
+  exposed guides: per guide 73, panel-wide 69 (4 covered by a one-base-shift partner)
+  explicit sequences it cannot nominate at 4 mismatches   69
+  measured actives exclusively missed: per guide 129 over 40 guides,
+     panel-wide 96 over 37 guides (the floor under the headline)
+REPLAY_RESOURCES {"package": "empirical_gates", "command": ["/usr/local/bin/python3", "-B", "verify_minimality.py"], "exit_code": 0, "wall_seconds": 4.8080613749916665, "peak_child_rss_bytes": 21053440, "user_seconds": 4.516568, "system_seconds": 0.040986}
+COMMAND code_release /usr/local/bin/python3 -B verify_guide_screen.py
+panel 110 guides -> law says EXPOSED 73, PROTECTED 37
+  (one character comparison, no genome, no scan)
+
+guides actually carrying an exclusively-missed site: 40
+  of those, law said EXPOSED   : 40
+  of those, law said PROTECTED : 0   <- any of these falsifies the law
+
+law's exposed set that carried no such site: 33 of 73
+  so the comparison is a NECESSARY condition, not a sufficient one:
+  it rules 37 of 110 guides out entirely, and 40 of the remaining 73 are realised on this panel.
+
+  CONFIRMED: no guide the law protects carries an exclusively-missed site.
+  A designer can therefore exclude this exposure for 37 of 110 guides (34%) before any scan.
+REPLAY_RESOURCES {"package": "empirical_gates", "command": ["/usr/local/bin/python3", "-B", "verify_guide_screen.py"], "exit_code": 0, "wall_seconds": 0.2007006669882685, "peak_child_rss_bytes": 21053440, "user_seconds": 0.029436999999999713, "system_seconds": 0.014364999999999996}
+COMMAND code_release /usr/local/bin/python3 -B verify_missed_actives.py
+GATE PASSED: the missed-actives chain reproduces end to end
+
+  at an omitted position                 260
+  also reachable by an emitted pattern   131
+  EXCLUSIVELY MISSED at 4 mismatches     129  over 40 guides
+  stratification by deposit mismatch count  1:1, 2:24, 3:64, 4:171
+  below the budget 89 of which exclusively missed 0 (must be 0); at the boundary 171
+  reachable bulge-free at <=4 mismatches 0   at <=6: 2
+  nearest bulge-free alignment: median   11 mismatches
+  reads 6 to 724, median 14
+  placement: deposit count reconciles on 260/260 rows; the 129 exclusively missed all have a UNIQUE terminal minimiser
+             31 of the 131 non-exclusive rows do have an interior tie; non-NGG PAMs 0 of 129 and 23 of 260
+
+  MEASURED here, from <TASK>/work/empirical_gates/scotoma_replay_u4bx058w/deposit/code_release/data/sites129.json: all 260 records are at risk under the indicator (g_n != g_(n-1)), over 48 distinct guides, 0 counterexamples
+  ASSERTED from the deposit, NOT measured by this script (re-earn with make_sites129.py; see DEPOSIT_DERIVED):
+    6,425 DNA-bulge actives, 0 at slot n -> the DNA omission costs nothing measured
+    17,267 RNA-bulge actives, 0 at position 0, 583 at the terminal
+    323 rescued by the law, which with the 260 measured above accounts for all 583
+  design-time screen: 73 exposed / 37 protected of 110; all 40 guides carrying a missed site are exposed, 0 protected
+             necessary not sufficient: 33 exposed guides carry none, so it excludes 37 guides and predicts no others
+  activity bound: all missed sites at 4mm, the weakest stratum (n=7,994, median 24 reads)
+             missed median 14 reads, percentile 31 within that stratum and 25 overall; 1 of 129 in the top decile, max 724
+             -> real off-targets, predominantly weak ones; the paper says so
+REPLAY_RESOURCES {"package": "empirical_gates", "command": ["/usr/local/bin/python3", "-B", "verify_missed_actives.py"], "exit_code": 0, "wall_seconds": 0.04733908298658207, "peak_child_rss_bytes": 21053440, "user_seconds": 0.031322000000000294, "system_seconds": 0.010735999999999996}
+COMMAND code_release /usr/local/bin/python3 -B make_scheme_lemmas.py
+GATE PASSED: all scheme lemmas and pattern counts reproduced
+
+class     patterns  len  #N constrained
+dna2         2,200   25   5          20
+dna1         2,200   24   4          20
+mixed       30,951   23   4          19
+rna1         1,629   22   3          19
+rna2         1,571   21   3          18
+nobulge          -   23   3          20
+
+Lemma 1  (length, wildcards) distinct across all six classes: True (UNPADDED form)
+Lemma 1b in the 2016 wrapper's padded encoding the pair does NOT separate: nobulge/dna1 collide at a one-base budget and nobulge/dna1/dna2 at two,
+         checked on all 110 spacers; pattern SETS pairwise disjoint in both budgets, so summing per-class counts stays licensed
+Lemma 2  distinct RNA-deletion patterns == homopolymer runs: 110/110 guides
+         mean runs per 20-mer 14.85  vs random-sequence 1+19(3/4) = 15.25
+         patterns shared between two guides: 5
+Lemma 3  colliding guide pairs == one-base-shift pairs, both directions: 5 pairs of 5995
+         intersection sizes exactly 1 (rna1) and 19 (mixed); zero in every DNA class
+Lemma 4  wrapper deficit = 1 + 1[g1!=g2] + 1[gn!=g(n-1)] patterns, exact on 110/110 guides
+         terminal omission lossless: start 40, end 37, both 12 of 110 guides
+         panel-wide 3,581 of 3,834 patterns, deficit 253 = 6.60% of patterns
+         predicts third-party output in wrapper issue #2: DNA 19, RNA 16 on a guide outside the panel
+Lemma 5  the same deficit law at b = 1..10: 1,100 cases, zero disagreements
+         converse holds per case, and every wrapper RNA pattern begins with g_1 and ends with g_n, which is what the proof uses
+Lemma 6  the deficit holds for BOTH PAM orientations at n = 20, 23, 24 and b = 1, 2, 3
+         the degenerate slot FLIPS with orientation: slot 0 for a trailing PAM, slot n for a leading one; the count does not change
+REPLAY_RESOURCES {"package": "empirical_gates", "command": ["/usr/local/bin/python3", "-B", "make_scheme_lemmas.py"], "exit_code": 0, "wall_seconds": 0.16513045801548287, "peak_child_rss_bytes": 39796736, "user_seconds": 0.14598699999999987, "system_seconds": 0.013103000000000004}
+COMMAND code_release /usr/local/bin/python3 -B make_bulge6_table.py
+mm4 baseline calibrates to the paper: base 34,652, added 1,175,323, panel 34.918x, per-guide median 40.135x, RNA/DNA 3.41x
+
+==== the bulge dial at six mismatches ====
+  ungapped base        1,854,173   (mm4: 34,652)
+  added by DNA bulge   12,415,044   (mm4: 280,269)
+  added by RNA bulge   33,291,743   (mm4: 956,797)
+  added, merged        42,366,572   (mm4: 1,175,323)
+  PANEL FACTOR         23.849x   (mm4: 34.918x)
+  per-guide median     27.495x (min 5.506, max 62.442)
+  RNA over DNA         2.68x   (mm4: 3.41x)
+
+  all six mm6 figures quoted in the appendix match the artifact
+
+==== scoring the registered prediction ====
+  PREDICTION HIT. 23.849x is below 34.9x and inside 10.0x to 30.0x.
+
+==== appendix rows, at six mismatches ====
+one bulge of one base{,} merged & $42{,}366{,}572 & $23.8\times$ \\
+
+==== the bulge dial at FIVE mismatches ====
+  ungapped base   280,149
+  added, merged   7,637,844
+  PANEL FACTOR    28.264x
+  per-guide median 33.990x
+
+==== the three-point trend ====
+  <=4  34.918x      <=5  28.264x      <=6  23.849x
+  monotone decreasing: YES
+
+==== scoring the mm5 prediction ====
+  PREDICTION HIT. 28.264x is inside 26.0x to 32.0x, and the
+  sequence is monotone decreasing across all three budgets.
+
+==== the ordering claim at this budget ====
+  bulge, one base   23.8x   vs the mismatch dial's 70.0x  -> MISMATCH DIAL LARGER
+  the paper's ordering claim is scoped to four mismatches (round 32), so this is
+  additional information and contradicts nothing as written.
+
+==== the bulge dial at four budgets ====
+  <=3  panel  38.229x  per-guide  42.656x  ok
+  <=4  panel  34.918x  per-guide  40.135x  ok
+  <=5  panel  28.264x  per-guide  33.990x  ok
+  <=6  panel  23.849x  per-guide  27.495x  ok
+  monotone decreasing: panel YES, per-guide YES
+  mm3 registered 43x in [38x, 50x]; measured 38.229x -> PREDICTION HIT
+  CLEAN: four-point dial matches the armed values and is monotone in both measures
+REPLAY_RESOURCES {"package": "empirical_gates", "command": ["/usr/local/bin/python3", "-B", "make_bulge6_table.py"], "exit_code": 0, "wall_seconds": 0.037136166996788234, "peak_child_rss_bytes": 39796736, "user_seconds": 0.021383999999999403, "system_seconds": 0.011122999999999994}
+COMMAND code_release /usr/local/bin/python3 -B verify_distal_bound.py
+exhaustive over n = 3..10: 1398080 spacers, max distance 1, 349520 coincidences
+  [ok  ] 1,398,080 spacers, bound 1, 349,520 coincidences = exactly one quarter
+  [ok  ] tightness exhibited, e.g. spacer ACAAAA with target CAAAA at distance 0 from the omitted word and 1 from the emitted
+  [ok  ] n=5 budget 1, exposed: 6912 of 9984 need the extra mismatch, 69.2% (appendix says 69.2%)
+  [ok  ] n=5 budget 1, all    : 6912 of 13312 need the extra mismatch, 51.9% (appendix says 51.9%)
+  [ok  ] n=5 budget 2, exposed: 20736 of 51456 need the extra mismatch, 40.3% (appendix says 40.3%)
+  [ok  ] n=5 budget 2, all    : 20736 of 68608 need the extra mismatch, 30.2% (appendix says 30.2%)
+  [ok  ] n=5 budget 3, exposed: 20736 of 134400 need the extra mismatch, 15.4% (appendix says 15.4%)
+  [ok  ] n=5 budget 3, all    : 20736 of 179200 need the extra mismatch, 11.6% (appendix says 11.6%)
+  [ok  ] n=6 budget 1, exposed: 36864 of 49152 need the extra mismatch, 75.0% (appendix says 75.0%)
+  [ok  ] n=6 budget 1, all    : 36864 of 65536 need the extra mismatch, 56.2% (appendix says 56.2%)
+  [ok  ] n=6 budget 2, exposed: 165888 of 325632 need the extra mismatch, 50.9% (appendix says 50.9%)
+  [ok  ] n=6 budget 2, all    : 165888 of 434176 need the extra mismatch, 38.2% (appendix says 38.2%)
+  [ok  ] n=6 budget 3, exposed: 331776 of 1155072 need the extra mismatch, 28.7% (appendix says 28.7%)
+  [ok  ] n=6 budget 3, all    : 331776 of 1540096 need the extra mismatch, 21.5% (appendix says 21.5%)
+
+CLEAN: the appendix paragraph's bound, its degenerate cases, its tightness and its honest limit all reproduce by exhaustion.
+REPLAY_RESOURCES {"package": "empirical_gates", "command": ["/usr/local/bin/python3", "-B", "verify_distal_bound.py"], "exit_code": 0, "wall_seconds": 8.45643579197349, "peak_child_rss_bytes": 39796736, "user_seconds": 8.286597, "system_seconds": 0.037384000000000014}
+COMMAND code_release /usr/local/bin/python3 -B verify_F_independent.py
+3635 values of F checked against the DP across r=11,12,13,14,15,16; 0 disagreements
+F agrees with the explicit dynamic program on its whole domain, and the free-part
+distribution depends only on the centre free WEIGHT, as the orbit reduction requires.
+REPLAY_RESOURCES {"package": "empirical_gates", "command": ["/usr/local/bin/python3", "-B", "verify_F_independent.py"], "exit_code": 0, "wall_seconds": 0.07547641702694818, "peak_child_rss_bytes": 39796736, "user_seconds": 0.04206699999999941, "system_seconds": 0.02268299999999998}
+PACKAGE_PASS empirical_gates
+time: sysctl kern.clockrate: Operation not permitted

@@ -1,0 +1,124 @@
+{
+  "N": 42,
+  "r": 6,
+  "m": 23,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "00000",
+      "tail_weight": 23,
+      "mass": "4153/15417"
+    },
+    {
+      "prefix": "00001",
+      "tail_weight": 23,
+      "mass": "7111/15417"
+    },
+    {
+      "prefix": "0001X",
+      "tail_weight": 22,
+      "mass": "14294/15417"
+    },
+    {
+      "prefix": "001X1",
+      "tail_weight": 22,
+      "mass": "242/5139"
+    },
+    {
+      "prefix": "01110",
+      "tail_weight": 22,
+      "mass": "13171/15417"
+    },
+    {
+      "prefix": "01111",
+      "tail_weight": 23,
+      "mass": "1123/15417"
+    },
+    {
+      "prefix": "0111X",
+      "tail_weight": 22,
+      "mass": "1123/15417"
+    },
+    {
+      "prefix": "111X0",
+      "tail_weight": 21,
+      "mass": "1123/15417"
+    },
+    {
+      "prefix": "111X1",
+      "tail_weight": 22,
+      "mass": "369916/3561327"
+    },
+    {
+      "prefix": "11X11",
+      "tail_weight": 22,
+      "mass": "1045652/3561327"
+    },
+    {
+      "prefix": "11XX1",
+      "tail_weight": 21,
+      "mass": "2480/5139"
+    },
+    {
+      "prefix": "1X1X1",
+      "tail_weight": 21,
+      "mass": "242/5139"
+    },
+    {
+      "prefix": "X0000",
+      "tail_weight": 22,
+      "mass": "11264/15417"
+    },
+    {
+      "prefix": "X0111",
+      "tail_weight": 22,
+      "mass": "12445/15417"
+    },
+    {
+      "prefix": "X011X",
+      "tail_weight": 21,
+      "mass": "2246/15417"
+    },
+    {
+      "prefix": "X0X01",
+      "tail_weight": 21,
+      "mass": "329/15417"
+    },
+    {
+      "prefix": "XX001",
+      "tail_weight": 21,
+      "mass": "2659/5139"
+    },
+    {
+      "prefix": "XX011",
+      "tail_weight": 21,
+      "mass": "1123/15417"
+    }
+  ],
+  "verification": {
+    "max_load": "1",
+    "witness": {
+      "prefix": "00000",
+      "tail_weight": 0
+    },
+    "centre_classes": 9234,
+    "region_masses": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "mass": "6",
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 125,
+    "private_orbits": 116,
+    "rounds": 4,
+    "seconds": 0.204,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

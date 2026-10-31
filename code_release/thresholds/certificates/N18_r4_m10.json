@@ -1,0 +1,77 @@
+{
+  "N": 18,
+  "r": 4,
+  "m": 10,
+  "kind": "SHORT",
+  "support": [
+    {
+      "prefix": "111",
+      "tail_weight": 0,
+      "mass": "124/191"
+    },
+    {
+      "prefix": "111",
+      "tail_weight": 1,
+      "mass": "63/382"
+    },
+    {
+      "prefix": "011",
+      "tail_weight": 1,
+      "mass": "207/191"
+    },
+    {
+      "prefix": "001",
+      "tail_weight": 1,
+      "mass": "207/191"
+    },
+    {
+      "prefix": "000",
+      "tail_weight": 0,
+      "mass": "124/191"
+    },
+    {
+      "prefix": "000",
+      "tail_weight": 1,
+      "mass": "63/382"
+    },
+    {
+      "prefix": "X00",
+      "tail_weight": 0,
+      "mass": "2/955"
+    },
+    {
+      "prefix": "01X",
+      "tail_weight": 0,
+      "mass": "63/955"
+    },
+    {
+      "prefix": "X01",
+      "tail_weight": 0,
+      "mass": "63/955"
+    },
+    {
+      "prefix": "11X",
+      "tail_weight": 0,
+      "mass": "2/955"
+    }
+  ],
+  "verification": {
+    "private_orbits": 14,
+    "minimum": "1",
+    "mass": "751/191",
+    "deficit": "13/191",
+    "witness": {
+      "prefix": "000",
+      "tail_weight": 10
+    },
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 36,
+    "private_orbits": 14,
+    "rounds": 2,
+    "seconds": 0.007,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

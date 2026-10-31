@@ -1,0 +1,146 @@
+{
+ "N": 19,
+ "m": 8,
+ "r": 8,
+ "free_length": 12,
+ "status": "PROVED",
+ "criterion": "K >= ceil(LP*); a feasible dual of mass > r-1 proves K = r",
+ "float_lp_optimum": 7.999999999999999,
+ "exact_total_mass": "79999989/10000000",
+ "exact_total_mass_float": 7.9999989,
+ "ceiling": 8,
+ "exact_max_ball_mass": "9999999/10000000",
+ "max_ball_at": [
+  "0000000",
+  0
+ ],
+ "centre_classes_verified": 1664,
+ "support_orbits": 24,
+ "rounding": "masses rounded DOWN to denominator 10000000, which preserves feasibility",
+ "dual": [
+  {
+   "prefix": "0000000",
+   "free_weight": 8,
+   "mass": "4644067/10000000"
+  },
+  {
+   "prefix": "0000101",
+   "free_weight": 6,
+   "mass": "1338983/2500000"
+  },
+  {
+   "prefix": "0011110",
+   "free_weight": 6,
+   "mass": "3030131/10000000"
+  },
+  {
+   "prefix": "0101110",
+   "free_weight": 6,
+   "mass": "322787/2000000"
+  },
+  {
+   "prefix": "0110000",
+   "free_weight": 7,
+   "mass": "4644067/10000000"
+  },
+  {
+   "prefix": "0110111",
+   "free_weight": 6,
+   "mass": "9887/250000"
+  },
+  {
+   "prefix": "0111000",
+   "free_weight": 7,
+   "mass": "9887/250000"
+  },
+  {
+   "prefix": "0111100",
+   "free_weight": 7,
+   "mass": "4960451/10000000"
+  },
+  {
+   "prefix": "1000000",
+   "free_weight": 8,
+   "mass": "1338983/2500000"
+  },
+  {
+   "prefix": "1000100",
+   "free_weight": 7,
+   "mass": "296257/1250000"
+  },
+  {
+   "prefix": "1000101",
+   "free_weight": 6,
+   "mass": "2274011/10000000"
+  },
+  {
+   "prefix": "1011100",
+   "free_weight": 7,
+   "mass": "9661/200000"
+  },
+  {
+   "prefix": "1011110",
+   "free_weight": 7,
+   "mass": "1338983/2500000"
+  },
+  {
+   "prefix": "1011111",
+   "free_weight": 7,
+   "mass": "226177/2000000"
+  },
+  {
+   "prefix": "1100000",
+   "free_weight": 8,
+   "mass": "1466101/10000000"
+  },
+  {
+   "prefix": "1100001",
+   "free_weight": 7,
+   "mass": "73917/5000000"
+  },
+  {
+   "prefix": "1100010",
+   "free_weight": 7,
+   "mass": "524129/625000"
+  },
+  {
+   "prefix": "1110000",
+   "free_weight": 8,
+   "mass": "1259887/5000000"
+  },
+  {
+   "prefix": "1110001",
+   "free_weight": 7,
+   "mass": "611111/5000000"
+  },
+  {
+   "prefix": "1110010",
+   "free_weight": 7,
+   "mass": "322787/2000000"
+  },
+  {
+   "prefix": "1111000",
+   "free_weight": 8,
+   "mass": "60911/625000"
+  },
+  {
+   "prefix": "1111001",
+   "free_weight": 7,
+   "mass": "8629943/10000000"
+  },
+  {
+   "prefix": "1111100",
+   "free_weight": 8,
+   "mass": "4556497/10000000"
+  },
+  {
+   "prefix": "1111111",
+   "free_weight": 8,
+   "mass": "4236817/5000000"
+  }
+ ],
+ "DO_NOT_READ_THE_MASS_AS_A_MEASUREMENT": "exact_total_mass is rounded DOWN so that feasibility is preserved. It is therefore a safe LOWER bound on the optimum and systematically understates it, here by about 1e-6. It must not be read back as the value of tau*: grading tightness on it reported this cell as having room when it has none. Use float_lp_optimum for how much room is left, and the exact mass only for the proof that K = r.",
+ "room_to_r_by_optimum": 8.881784197001252e-16,
+ "tight_and_provably_free": true,
+ "why_provably_free": "the optimum equals r, and tau* <= r always because the library own r balls are a feasible cover, so no support can do better and the binary restriction costs nothing at this cell"
+}

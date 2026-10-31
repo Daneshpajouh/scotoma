@@ -1,0 +1,78 @@
+INTEGRITY_PASS 1675
+PACKAGE_BEGIN validation_budget
+COMMAND code_release /usr/local/bin/python3 -B test_m0_search.py
+PASS  test_iid_equals_brute_force  (176 checks)
+PASS  test_fast_path_equals_exact_path  (336 checks)
+PASS  test_large_cases  (7 checks)
+PASS  test_exact_boundaries  (36 boundary cases, float formula overshoots in 9)
+PASS  test_lecam_is_iid_at_twice_delta  (66 checks)
+PASS  test_hypergeom_equals_brute_force  (4100 checks)
+PASS  test_hypergeom_never_exceeds_iid_or_census  (75 checks)
+PASS  test_monotone  (2 checks)
+PASS  test_smallest_true_any_guess  (36 checks)
+PASS  test_rejects_float_input  (1 checks)
+PASS  test_against_boundary_exact_test_output  (36 checks)
+PASS  test_against_occupancy_curve_test_output  (21 checks)
+
+12 of 12 tests passed
+REPLAY_RESOURCES {"package": "validation_budget", "command": ["/usr/local/bin/python3", "-B", "test_m0_search.py"], "exit_code": 0, "wall_seconds": 40.69345029100077, "peak_child_rss_bytes": 21331968, "user_seconds": 39.092841, "system_seconds": 0.348721}
+COMMAND code_release /usr/local/bin/python3 -B boundary_exact_test.py
+Exact boundary cases delta = (1-gamma)^k, where a float formula can go off by one
+   gamma   k          delta=(1-g)^k  exact  nproc  float ceil  float ok
+     1/2   1                    1/2      1      1           1      True
+     1/2   2                    1/4      2      2           2      True
+     1/2   3                    1/8      3      3           3      True
+     1/2   5                   1/32      5      5           5      True
+     1/2   8                  1/256      8      8           8      True
+     1/2  13                 1/8192     13     13          13      True
+     1/5   1                    4/5      1      1           1      True
+     1/5   2                  16/25      2      2           3     False
+     1/5   3                 64/125      3      3           4     False
+     1/5   5              1024/3125      5      5           6     False
+     1/5   8           65536/390625      8      8           9     False
+     1/5  13    67108864/1220703125     13     13          14     False
+    1/10   1                   9/10      1      1           1      True
+    1/10   2                 81/100      2      2           2      True
+    1/10   3               729/1000      3      3           4     False
+    1/10   5           59049/100000      5      5           6     False
+    1/10   8     43046721/100000000      8      8           9     False
+    1/10  13 2541865828329/10000000     13     13          14     False
+    1/20   1                  19/20      1      1           1      True
+    1/20   2                361/400      2      2           2      True
+    1/20   3              6859/8000      3      3           3      True
+    1/20   5        2476099/3200000      5      5           5      True
+    1/20   8 16983563041/2560000000      8      8           8      True
+    1/20  13 42052983462257059/8192     13     13          13      True
+    1/50   1                  49/50      1      1           1      True
+    1/50   2              2401/2500      2      2           2      True
+    1/50   3          117649/125000      3      3           3      True
+    1/50   5    282475249/312500000      5      5           5      True
+    1/50   8 33232930569601/3906250      8      8           8      True
+    1/50  13 9387480337647754305649     13     13          13      True
+     3/7   1                    4/7      1      1           1      True
+     3/7   2                  16/49      2      2           2      True
+     3/7   3                 64/343      3      3           3      True
+     3/7   5             1024/16807      5      5           5      True
+     3/7   8          65536/5764801      8      8           8      True
+     3/7  13   67108864/96889010407     13     13          13      True
+
+exact vs nproc disagreements: none
+float-formula off-by-one cases: [('1/5', 2, 2, 3), ('1/5', 3, 3, 4), ('1/5', 5, 5, 6), ('1/5', 8, 8, 9), ('1/5', 13, 13, 14), ('1/10', 3, 3, 4), ('1/10', 5, 5, 6), ('1/10', 8, 8, 9), ('1/10', 13, 13, 14)]
+
+CONCLUSION: at the exact boundaries the two criteria agree, and the floating-point
+ceil(log(delta)/log(1-gamma)) can differ from the exact answer, so a manuscript that ships
+code should compute the bound by integer search, not by logs.
+REPLAY_RESOURCES {"package": "validation_budget", "command": ["/usr/local/bin/python3", "-B", "boundary_exact_test.py"], "exit_code": 0, "wall_seconds": 0.06511170801240951, "peak_child_rss_bytes": 21331968, "user_seconds": 0.027880000000003236, "system_seconds": 0.02242099999999997}
+COMMAND code_release /usr/local/bin/python3 -B offtarget_budget.py --n 28175 --k 1 10 25
+Validation budget, N = 28,175 candidate off-target sites, delta1 = 0.05
+
+       k    gamma >= k/N   sites to test      of N   i.i.d. draws
+       1       3.549e-05          26,767    95.00%         84,404
+      10       3.549e-04           7,293    25.88%          8,439
+      25       8.873e-04           3,181    11.29%          3,375
+
+Each row certifies "fewer than k cleaved sites" on its own; it certifies "none" only
+under (A_k), which asserts an unclean guide cleaves at least k enumerated sites.
+(A_k) needs a floor, not a typical value: a median understates the budget.
+REPLAY_RESOURCES {"package": "validation_budget", "command": ["/usr/local/bin/python3", "-B", "offtarget_budget.py", "--n", "28175", "--k", "1", "10", "25"], "exit_code": 0, "wall_seconds": 0.0886388749931939, "peak_child_rss_bytes": 21331968, "user_seconds": 0.04224299999999914, "system_seconds": 0.026564000000000032}
+PACKAGE_PASS validation_budget

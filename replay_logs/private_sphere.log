@@ -1,0 +1,146 @@
+INTEGRITY_PASS 1678
+PACKAGE_BEGIN private_sphere
+COMMAND code_release /usr/local/bin/python3 -B private_sphere/verify_w.py --controls
+VERIFIED-COMPUTATIONALLY {'u': 2, 'bound': '469523341/500000000', 'polynomial_inequalities': 1274, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 3, 'bound': '485329577/500000000', 'polynomial_inequalities': 1820, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 4, 'bound': '98389493/100000000', 'polynomial_inequalities': 2366, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 5, 'bound': '466570897/500000000', 'polynomial_inequalities': 2912, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 6, 'bound': '461654557/500000000', 'polynomial_inequalities': 3458, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 7, 'bound': '28837411/31250000', 'polynomial_inequalities': 4004, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 8, 'bound': '428844299/500000000', 'polynomial_inequalities': 4550, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 9, 'bound': '103895517/125000000', 'polynomial_inequalities': 5096, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 10, 'bound': '799241133/1000000000', 'polynomial_inequalities': 5642, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 11, 'bound': '716829993/1000000000', 'polynomial_inequalities': 6188, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 12, 'bound': '174494543/250000000', 'polynomial_inequalities': 6734, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 13, 'bound': '64410433/100000000', 'polynomial_inequalities': 7280, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 14, 'bound': '72453473/125000000', 'polynomial_inequalities': 7826, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 15, 'bound': '555454951/1000000000', 'polynomial_inequalities': 8372, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 16, 'bound': '499756703/1000000000', 'polynomial_inequalities': 8918, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 17, 'bound': '231820383/500000000', 'polynomial_inequalities': 9464, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 18, 'bound': '108801337/250000000', 'polynomial_inequalities': 10010, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 19, 'bound': '48218517/125000000', 'polynomial_inequalities': 10556, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 20, 'bound': '366844099/1000000000', 'polynomial_inequalities': 11102, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 21, 'bound': '83282981/250000000', 'polynomial_inequalities': 11648, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 22, 'bound': '148815649/500000000', 'polynomial_inequalities': 12194, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 23, 'bound': '140272069/500000000', 'polynomial_inequalities': 12740, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 24, 'bound': '124886147/500000000', 'polynomial_inequalities': 13286, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 25, 'bound': '45958541/200000000', 'polynomial_inequalities': 13832, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 26, 'bound': '42442423/200000000', 'polynomial_inequalities': 14378, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 27, 'bound': '93974081/500000000', 'polynomial_inequalities': 14924, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 28, 'bound': '177196961/1000000000', 'polynomial_inequalities': 15470, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 29, 'bound': '158498837/1000000000', 'polynomial_inequalities': 16016, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 30, 'bound': '141816393/1000000000', 'polynomial_inequalities': 16562, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 31, 'bound': '66160459/500000000', 'polynomial_inequalities': 17108, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 32, 'bound': '7323577/62500000', 'polynomial_inequalities': 17654, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 33, 'bound': '108217107/1000000000', 'polynomial_inequalities': 18200, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 34, 'bound': '98119723/1000000000', 'polynomial_inequalities': 18746, 'polynomial_rows': 78, 'mgf_rows': 120}
+VERIFIED-COMPUTATIONALLY {'u': 35, 'bound': '43492687/500000000', 'polynomial_inequalities': 19292, 'polynomial_rows': 78, 'mgf_rows': 120}
+REFUTED CONTROL zero-local local bound too small: (2, (0, 0, 0))
+REFUTED CONTROL empty-polynomial polynomial cover fails: u=2,s=0,e=0,f=0,t=1,b=0
+REFUTED CONTROL missing-local missing local row
+REFUTED CONTROL lower-path path bound differs for u=2
+REFUTED CONTROL zero-tail tail bound too small for u=2
+REFUTED CONTROL wrong-p global parameters altered
+{
+  "status": "PROVED_WITH_EXACT_FINITE_CERTIFICATE",
+  "limit": "99/100",
+  "largest_finite_bound": "98389493/100000000",
+  "finite_u_checked": 34,
+  "local_polynomial_inequalities": 349622,
+  "u_ge_36_bound": "7509466514979724803946715958257547/8000000000000000000000000000000000",
+  "literal_local_cases": 45,
+  "negative_controls": [
+    {
+      "control": "zero-local",
+      "outcome": "REJECTED_AS_REQUIRED",
+      "reason": "local bound too small: (2, (0, 0, 0))"
+    },
+    {
+      "control": "empty-polynomial",
+      "outcome": "REJECTED_AS_REQUIRED",
+      "reason": "polynomial cover fails: u=2,s=0,e=0,f=0,t=1,b=0"
+    },
+    {
+      "control": "missing-local",
+      "outcome": "REJECTED_AS_REQUIRED",
+      "reason": "missing local row"
+    },
+    {
+      "control": "lower-path",
+      "outcome": "REJECTED_AS_REQUIRED",
+      "reason": "path bound differs for u=2"
+    },
+    {
+      "control": "zero-tail",
+      "outcome": "REJECTED_AS_REQUIRED",
+      "reason": "tail bound too small for u=2"
+    },
+    {
+      "control": "wrong-p",
+      "outcome": "REJECTED_AS_REQUIRED",
+      "reason": "global parameters altered"
+    }
+  ],
+  "certificate_sha256": "e40fe374c01780ce5d5432b88bff1929b77e449e171e8c3c5a82d6f19c63e192"
+}
+REPLAY_RESOURCES {"package": "private_sphere", "command": ["/usr/local/bin/python3", "-B", "private_sphere/verify_w.py", "--controls"], "exit_code": 0, "wall_seconds": 11.99656312505249, "peak_child_rss_bytes": 308527104, "user_seconds": 11.400456, "system_seconds": 0.200895}
+COMMAND code_release /usr/local/bin/python3 -B private_sphere/verify_geometry.py
+{
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "literal_grid_paths": 860,
+  "embedded_centre_words": 3091,
+  "cumulative_level_checks": 24057,
+  "control": {
+    "claim": "C_h<=2h+1, omitting free letters",
+    "centre": "2222222",
+    "h": 0,
+    "actual": 8,
+    "claimed_upper": 1,
+    "outcome": "REFUTED_AS_REQUIRED"
+  }
+}
+REPLAY_RESOURCES {"package": "private_sphere", "command": ["/usr/local/bin/python3", "-B", "private_sphere/verify_geometry.py"], "exit_code": 0, "wall_seconds": 0.1409464169992134, "peak_child_rss_bytes": 308527104, "user_seconds": 0.12032199999999982, "system_seconds": 0.014723000000000014}
+COMMAND code_release /usr/local/bin/python3 -B private_sphere/verify_companion.py
+{
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "checked_parameter_cells": 354,
+  "local_formula_checks": 1368,
+  "one_free_letter_centres_checked": 3656,
+  "controls": [
+    {
+      "control": "drop F(N,m)>=0 from valley comparison",
+      "outcome": "REFUTED_AS_REQUIRED",
+      "N": 22,
+      "m": 10
+    },
+    {
+      "control": "omit the one-uncovered-disagreement term",
+      "outcome": "REFUTED_AS_REQUIRED",
+      "N": 16,
+      "m": 6,
+      "actual": "27/91",
+      "wrong": "15/91"
+    }
+  ]
+}
+REPLAY_RESOURCES {"package": "private_sphere", "command": ["/usr/local/bin/python3", "-B", "private_sphere/verify_companion.py"], "exit_code": 0, "wall_seconds": 1.3032480000401847, "peak_child_rss_bytes": 308527104, "user_seconds": 1.2421039999999994, "system_seconds": 0.02160999999999999}
+COMMAND code_release /usr/local/bin/python3 -B private_sphere/finite_cells.py
+VERIFIED-COMPUTATIONALLY finite DP control {'N': 6, 'm': 2, 'u': 2, 'brute': '4/5', 'dp': '4/5', 'missing_free_step': 'REJECTED_AS_REQUIRED'}
+VERIFIED-COMPUTATIONALLY finite DP control {'N': 7, 'm': 2, 'u': 3, 'brute': '3/8', 'dp': '3/8', 'missing_free_step': 'REJECTED_AS_REQUIRED'}
+VERIFIED-COMPUTATIONALLY finite exception 3 9 max_u_ge_2 429/560 L 36/35
+VERIFIED-COMPUTATIONALLY finite exception 4 11 max_u_ge_2 1117/1260 L 10/9
+VERIFIED-COMPUTATIONALLY finite exception 5 14 max_u_ge_2 5/6 L 25/24
+VERIFIED-COMPUTATIONALLY finite exception 6 16 max_u_ge_2 19/21 L 23/21
+VERIFIED-COMPUTATIONALLY finite exception 7 19 max_u_ge_2 161/187 L 196/187
+VERIFIED-COMPUTATIONALLY finite exception 9 24 max_u_ge_2 135/154 L 81/77
+REPLAY_RESOURCES {"package": "private_sphere", "command": ["/usr/local/bin/python3", "-B", "private_sphere/finite_cells.py"], "exit_code": 0, "wall_seconds": 2.1264986249734648, "peak_child_rss_bytes": 308527104, "user_seconds": 2.0549040000000005, "system_seconds": 0.025083999999999995}
+COMMAND code_release /usr/local/bin/python3 -B private_sphere/run_negative_controls.py
+zero-local exit 1 REJECTED: local bound too small: (2, (0, 0, 0))
+empty-polynomial exit 1 REJECTED: polynomial cover fails: u=2,s=0,e=0,f=0,t=1,b=0
+missing-local exit 1 REJECTED: missing local row
+lower-path exit 1 REJECTED: path bound differs for u=2
+zero-tail exit 1 REJECTED: tail bound too small for u=2
+wrong-p exit 1 REJECTED: global parameters altered
+REPLAY_RESOURCES {"package": "private_sphere", "command": ["/usr/local/bin/python3", "-B", "private_sphere/run_negative_controls.py"], "exit_code": 0, "wall_seconds": 0.8169261250295676, "peak_child_rss_bytes": 308527104, "user_seconds": 0.5884389999999993, "system_seconds": 0.146416}
+PACKAGE_PASS private_sphere
+time: sysctl kern.clockrate: Operation not permitted

@@ -1,0 +1,36 @@
+INTEGRITY_PASS 1678
+PACKAGE_BEGIN floor_rows
+COMMAND code_release /usr/local/bin/python3 -B verify_floor_certificates.py
+  [ok  ] m= 8 r= 6  lam=0                      bound 116/99 < 6/5   margin 14/495 = 0.02828283
+  [ok  ] m= 9 r= 4  lam=7/680                  bound 903/680 < 4/3   margin 11/2040 = 0.00539216
+  [ok  ] m=10 r= 3  lam=17367/622336           bound 699757/466752 < 3/2   margin 371/466752 = 0.00079485
+  [ok  ] m=11 r= 3  lam=1/8                    bound 4451/3264 < 3/2   margin 445/3264 = 0.13633578
+  [ok  ] m=12 r= 2  lam=2292847/11698176       bound 286420465/152076288 < 2   margin 17732111/152076288 = 0.11660010
+
+CLEAN: all five admitted rows verify from their published witnesses, one dual evaluation each, no search.
+REPLAY_RESOURCES {"package": "floor_rows", "command": ["/usr/local/bin/python3", "-B", "verify_floor_certificates.py"], "exit_code": 0, "wall_seconds": 14.01232695800718, "peak_child_rss_bytes": 20971520, "user_seconds": 13.169878, "system_seconds": 0.094077}
+COMMAND code_release /usr/local/bin/python3 -B verify_floor_new_results.py
+  payload.bin sha256 2ab76785...
+  r=20: 564 templates, 46100 support words, mass 30348/1573 = 19.293070566, templates off distance 8: 0
+  P_1629 sha256 b749f086...   W_3258 sha256 7213bb41...
+  pooled: library 1629 words, witnesses 3258, mass 1629
+  pooled privacy: witnesses at distance exactly 4 from one library word and >4 from all others: 3258 of 3258
+  pooled: exactly two witnesses per library word, all 1629 words represented
+  pooled: 7404 witness triples pairwise within 8; radius-4 balls holding all three: 0
+  control: a corrupted witness is rejected: True
+
+every r=20 and pooled m=4 figure in the paper is recomputed from the released certificates
+REPLAY_RESOURCES {"package": "floor_rows", "command": ["/usr/local/bin/python3", "-B", "verify_floor_new_results.py"], "exit_code": 0, "wall_seconds": 3.6046575829968788, "peak_child_rss_bytes": 74711040, "user_seconds": 3.1728950000000005, "system_seconds": 0.07997599999999999}
+COMMAND code_release /usr/local/bin/python3 -B verify_ceiling_reach.py
+  m=8 proved run counts [7, 8, 9, 10, 11, 12, 13, 14, 15, 16] -> reach 16   index subset reference 16   ok
+  panel guides settled at m=8: 89 of 110   index subset reference 89   ok
+  panel run counts at or below the reach, all proved: yes
+  increments {11: 2, 12: 10, 13: 11, 14: 19, 15: 16, 16: 28} sum to 86; 3 + 86 = 89   index subset reference 89   ok
+  length-robustness cells present: 6 of 6   ok
+  m=9 proved run counts [7, 8, 9, 10, 11, 12, 13, 14, 15, 16] -> reach 16   index subset reference 16   ok
+    panel guides settled at m=9: 89 of 110   index subset reference 89   ok
+  m=10 proved run counts [3, 4, 5, 6, 7, 8, 9, 10] -> reach 10   index subset reference 10   ok
+    panel guides settled at m=10: 3 of 110   (not quoted in the paper)
+the reach quoted in the paper is what the exact certificates prove
+REPLAY_RESOURCES {"package": "floor_rows", "command": ["/usr/local/bin/python3", "-B", "verify_ceiling_reach.py"], "exit_code": 0, "wall_seconds": 0.49239220801973715, "peak_child_rss_bytes": 74711040, "user_seconds": 0.03728800000000021, "system_seconds": 0.029848000000000013}
+PACKAGE_PASS floor_rows

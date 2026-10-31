@@ -1,0 +1,188 @@
+{
+ "N": 21,
+ "m": 8,
+ "r": 11,
+ "free_length": 11,
+ "status": "PROVED",
+ "criterion": "K >= ceil(LP*); a feasible dual of mass > r-1 proves K = r",
+ "restriction": "none; the dual support carries non-binary active prefixes",
+ "exact_total_mass": "21999968/1999999",
+ "exact_total_mass_float": 10.99998949999475,
+ "ceiling": 11,
+ "exact_max_ball_mass": "1",
+ "max_ball_at": [
+  "1X11111101",
+  0
+ ],
+ "centre_classes_verified": 708588,
+ "centre_classes_note": "ALL (active-prefix type, free weight) classes, 3^10 x 12. Not the 2^10 binary-prefix classes: this dual has non-binary support, so the binary reduction is unavailable and was not used.",
+ "support_orbits": 32,
+ "rounding": "solver masses rounded DOWN to denominator 1000000 (preserves feasibility), then scaled by the exact maximum load 1999999/2000000 so the released dual is feasible everywhere with maximum ball mass exactly 1",
+ "dual": [
+  {
+   "prefix": "0000X00000",
+   "free_weight": 7,
+   "mass": "1826380/1999999"
+  },
+  {
+   "prefix": "00100X0X1X",
+   "free_weight": 3,
+   "mass": "86956/1999999"
+  },
+  {
+   "prefix": "00X0XXX01X",
+   "free_weight": 2,
+   "mass": "85188/1999999"
+  },
+  {
+   "prefix": "00X0XXXXXX",
+   "free_weight": 1,
+   "mass": "1472/1999999"
+  },
+  {
+   "prefix": "0111111110",
+   "free_weight": 7,
+   "mass": "1421394/1999999"
+  },
+  {
+   "prefix": "0X10X10111",
+   "free_weight": 3,
+   "mass": "5180/117647"
+  },
+  {
+   "prefix": "10000X0000",
+   "free_weight": 7,
+   "mass": "89514/117647"
+  },
+  {
+   "prefix": "100X00X001",
+   "free_weight": 5,
+   "mass": "478260/1999999"
+  },
+  {
+   "prefix": "1100X00000",
+   "free_weight": 7,
+   "mass": "1913042/1999999"
+  },
+  {
+   "prefix": "111000X00X",
+   "free_weight": 6,
+   "mass": "175016/1999999"
+  },
+  {
+   "prefix": "1111000000",
+   "free_weight": 8,
+   "mass": "856314/1999999"
+  },
+  {
+   "prefix": "11111000XX",
+   "free_weight": 6,
+   "mass": "1472002/1999999"
+  },
+  {
+   "prefix": "111X110X00",
+   "free_weight": 6,
+   "mass": "775508/1999999"
+  },
+  {
+   "prefix": "11X1110000",
+   "free_weight": 7,
+   "mass": "1136798/1999999"
+  },
+  {
+   "prefix": "11X11100X1",
+   "free_weight": 5,
+   "mass": "87692/1999999"
+  },
+  {
+   "prefix": "11X1X01X11",
+   "free_weight": 4,
+   "mass": "352242/1999999"
+  },
+  {
+   "prefix": "11XX111110",
+   "free_weight": 6,
+   "mass": "490544/1999999"
+  },
+  {
+   "prefix": "1X110000X0",
+   "free_weight": 6,
+   "mass": "13638/28169"
+  },
+  {
+   "prefix": "1X1110X00X",
+   "free_weight": 5,
+   "mass": "440302/1999999"
+  },
+  {
+   "prefix": "1X111110X0",
+   "free_weight": 6,
+   "mass": "568160/1999999"
+  },
+  {
+   "prefix": "1X1111110X",
+   "free_weight": 6,
+   "mass": "1421394/1999999"
+  },
+  {
+   "prefix": "1X11111111",
+   "free_weight": 7,
+   "mass": "1069150/1999999"
+  },
+  {
+   "prefix": "1X1XXXX110",
+   "free_weight": 3,
+   "mass": "5180/117647"
+  },
+  {
+   "prefix": "X01110X111",
+   "free_weight": 4,
+   "mass": "5180/117647"
+  },
+  {
+   "prefix": "X1001XXX00",
+   "free_weight": 3,
+   "mass": "86956/1999999"
+  },
+  {
+   "prefix": "X110000X00",
+   "free_weight": 6,
+   "mass": "1824982/1999999"
+  },
+  {
+   "prefix": "X111111000",
+   "free_weight": 7,
+   "mass": "930848/1999999"
+  },
+  {
+   "prefix": "X11111110X",
+   "free_weight": 6,
+   "mass": "578604/1999999"
+  },
+  {
+   "prefix": "X1XXX11111",
+   "free_weight": 4,
+   "mass": "402484/1999999"
+  },
+  {
+   "prefix": "XX1100000X",
+   "free_weight": 5,
+   "mass": "175384/1999999"
+  },
+  {
+   "prefix": "XX11XX1000",
+   "free_weight": 4,
+   "mass": "500988/1999999"
+  },
+  {
+   "prefix": "XX1X100X00",
+   "free_weight": 4,
+   "mass": "87692/1999999"
+  }
+ ],
+ "DO_NOT_READ_THE_MASS_AS_A_MEASUREMENT": "exact_total_mass is a safe LOWER bound on tau*, not tau* itself: masses were rounded down and the column set offered to the LP was capped, both of which can only weaken it. ceil of it is what proves K = r.",
+ "independently_checked_by": [
+  "verify_ceiling_certificate.py",
+  "verify_F_independent.py"
+ ]
+}

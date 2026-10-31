@@ -1,0 +1,538 @@
+{
+ "criterion": "K >= ceil(LP*)",
+ "cells": [
+  {
+   "m": 8,
+   "r": 7,
+   "status": "PROVED",
+   "exact_total_mass": "7",
+   "ceiling": 7,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 896,
+   "support_orbits": 7
+  },
+  {
+   "m": 8,
+   "r": 8,
+   "status": "PROVED",
+   "exact_total_mass": "79999989/10000000",
+   "ceiling": 8,
+   "exact_max_ball_mass": "9999999/10000000",
+   "centre_classes_verified": 1664,
+   "support_orbits": 24
+  },
+  {
+   "N": 19,
+   "m": 8,
+   "r": 9,
+   "status": "PROVED",
+   "exact_total_mass": "17999999972/1999999999",
+   "ceiling": 9,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 78732,
+   "support_orbits": 30,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 8,
+   "r": 10,
+   "status": "PROVED",
+   "exact_total_mass": "19999999958/1999999999",
+   "ceiling": 10,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 216513,
+   "support_orbits": 41,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 8,
+   "r": 11,
+   "status": "PROVED",
+   "exact_total_mass": "3666666656/333333333",
+   "ceiling": 11,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 590490,
+   "support_orbits": 61,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 8,
+   "r": 12,
+   "status": "PROVED",
+   "exact_total_mass": "23999999920/1999999997",
+   "ceiling": 12,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 1594323,
+   "support_orbits": 72,
+   "restriction": "none"
+  },
+  {
+   "m": 8,
+   "r": 13,
+   "status": "PROVED",
+   "exact_total_mass": "12999900/1059731",
+   "ceiling": 13,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 4251528,
+   "support_orbits": 192,
+   "restriction": "none"
+  },
+  {
+   "m": 8,
+   "r": 14,
+   "status": "PROVED",
+   "exact_total_mass": "27999662/2099091",
+   "ceiling": 14,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 11160261,
+   "support_orbits": 333,
+   "restriction": "none"
+  },
+  {
+   "m": 8,
+   "r": 15,
+   "status": "PROVED",
+   "exact_total_mass": "4999948/347653",
+   "ceiling": 15,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 28697814,
+   "support_orbits": 296,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 8,
+   "r": 16,
+   "status": "PROVED",
+   "exact_total_mass": "15999837/1055744",
+   "ceiling": 16,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 71744535,
+   "support_orbits": 313,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 9,
+   "r": 7,
+   "status": "PROVED",
+   "exact_total_mass": "3499999997/500000000",
+   "ceiling": 7,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 10206,
+   "support_orbits": 16,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 9,
+   "r": 8,
+   "status": "PROVED",
+   "exact_total_mass": "7999999975/999999998",
+   "ceiling": 8,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 28431,
+   "support_orbits": 39,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 9,
+   "r": 9,
+   "status": "PROVED",
+   "exact_total_mass": "17999999942/1999999997",
+   "ceiling": 9,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 78732,
+   "support_orbits": 67,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 9,
+   "r": 10,
+   "status": "PROVED",
+   "exact_total_mass": "4999999978/499999999",
+   "ceiling": 10,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 216513,
+   "support_orbits": 86,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 9,
+   "r": 11,
+   "status": "PROVED",
+   "exact_total_mass": "10999999935/999999998",
+   "ceiling": 11,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 590490,
+   "support_orbits": 121,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 9,
+   "r": 12,
+   "status": "PROVED",
+   "exact_total_mass": "23999999788/1999999991",
+   "ceiling": 12,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 1594323,
+   "support_orbits": 204,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 9,
+   "r": 13,
+   "status": "PROVED",
+   "exact_total_mass": "12999999838/999999993",
+   "ceiling": 13,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 4251528,
+   "support_orbits": 322,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 9,
+   "r": 14,
+   "status": "PROVED",
+   "exact_total_mass": "27999999536/1999999979",
+   "ceiling": 14,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 11160261,
+   "support_orbits": 476,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 9,
+   "r": 15,
+   "status": "PROVED",
+   "exact_total_mass": "4999999892/342689243",
+   "ceiling": 15,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 28697814,
+   "support_orbits": 661,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 9,
+   "r": 16,
+   "status": "PROVED",
+   "exact_total_mass": "15999999647/1064004637",
+   "ceiling": 16,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 71744535,
+   "support_orbits": 698,
+   "restriction": "none"
+  },
+  {
+   "m": 10,
+   "r": 3,
+   "status": "PROVED",
+   "exact_total_mass": "3",
+   "ceiling": 3,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 72,
+   "support_orbits": 3
+  },
+  {
+   "N": 19,
+   "m": 10,
+   "r": 4,
+   "status": "PROVED",
+   "exact_total_mass": "4/1",
+   "ceiling": 4,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 459,
+   "support_orbits": 4,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 10,
+   "r": 5,
+   "status": "PROVED",
+   "exact_total_mass": "833332/167695",
+   "ceiling": 5,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 1296,
+   "support_orbits": 13,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 10,
+   "r": 6,
+   "status": "PROVED",
+   "exact_total_mass": "2999991/508192",
+   "ceiling": 6,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 3645,
+   "support_orbits": 32,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 10,
+   "r": 7,
+   "status": "PROVED",
+   "exact_total_mass": "2333333324/347374627",
+   "ceiling": 7,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 10206,
+   "support_orbits": 50,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 10,
+   "r": 8,
+   "status": "PROVED",
+   "exact_total_mass": "7999999957/1062569298",
+   "ceiling": 8,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 28431,
+   "support_orbits": 83,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 10,
+   "r": 9,
+   "status": "PROVED",
+   "exact_total_mass": "2249999981/270290590",
+   "ceiling": 9,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 78732,
+   "support_orbits": 146,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 10,
+   "r": 10,
+   "status": "PROVED",
+   "exact_total_mass": "9999999865/1098657693",
+   "ceiling": 10,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 216513,
+   "support_orbits": 256,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 11,
+   "r": 3,
+   "status": "PROVED",
+   "exact_total_mass": "50999966/17531243",
+   "ceiling": 3,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 162,
+   "support_orbits": 5,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 11,
+   "r": 4,
+   "status": "PROVED",
+   "exact_total_mass": "40404/10525",
+   "ceiling": 4,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 459,
+   "support_orbits": 10,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 11,
+   "r": 5,
+   "status": "PROVED",
+   "exact_total_mass": "4724993385/1038299959",
+   "ceiling": 5,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 1296,
+   "support_orbits": 14,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 11,
+   "r": 6,
+   "status": "PROVED",
+   "exact_total_mass": "1999996/386227",
+   "ceiling": 6,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 3645,
+   "support_orbits": 27,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 12,
+   "r": 3,
+   "status": "PROVED",
+   "exact_total_mass": "2999997/1079999",
+   "ceiling": 3,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 162,
+   "support_orbits": 5,
+   "restriction": "none"
+  },
+  {
+   "N": 19,
+   "m": 12,
+   "r": 4,
+   "status": "PROVED",
+   "exact_total_mass": "7999988/2330543",
+   "ceiling": 4,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 459,
+   "support_orbits": 8,
+   "restriction": "none"
+  },
+  {
+   "N": 20,
+   "m": 8,
+   "r": 11,
+   "status": "PROVED",
+   "exact_total_mass": "10999999978/999999999",
+   "ceiling": 11,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 649539,
+   "support_orbits": 39,
+   "restriction": "none"
+  },
+  {
+   "N": 20,
+   "m": 8,
+   "r": 12,
+   "status": "PROVED",
+   "exact_total_mass": "3999999991/333333333",
+   "ceiling": 12,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 1771470,
+   "support_orbits": 54,
+   "restriction": "none"
+  },
+  {
+   "N": 21,
+   "m": 8,
+   "r": 11,
+   "status": "PROVED",
+   "exact_total_mass": "21999968/1999999",
+   "ceiling": 11,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 708588,
+   "support_orbits": 32,
+   "restriction": "none"
+  },
+  {
+   "N": 21,
+   "m": 8,
+   "r": 12,
+   "status": "PROVED",
+   "exact_total_mass": "23999999960/1999999999",
+   "ceiling": 12,
+   "exact_max_ball_mass": "1",
+   "centre_classes_verified": 1948617,
+   "support_orbits": 44,
+   "restriction": "none"
+  }
+ ],
+ "row_ends": {
+  "status": "WITHDRAWN_2026-10-22",
+  "reason": "the primal was restricted to binary-prefix orbits, so it bounded tau* from BELOW, not above; a row-end needs an upper bound",
+  "consequence": "the per-row edges in cert_*.json are LOWER BOUNDS on this method reach, not edges"
+ },
+ "support_restriction": "Every dual here is supported on BINARY active prefixes. That is a restriction we imposed, NOT a consequence of the symmetry: the group permutes the free coordinates and relabels non-zero letters there, and does not act on the active prefix. So each value is the optimum over BINARY-SUPPORTED duals, which is a valid lower bound on tau* and is measured to be STRICTLY below the unrestricted optimum at every small cell tested.",
+ "tightness": {
+  "graded_on": "float_lp_optimum, NOT exact_total_mass",
+  "tight_and_provably_free": [
+   [
+    8,
+    7
+   ],
+   [
+    8,
+    8
+   ],
+   [
+    10,
+    3
+   ]
+  ],
+  "warning": "exact_total_mass is rounded DOWN for feasibility and so understates the optimum by about 1e-6. Grading tightness on it missed m=8 r=8, whose optimum is exactly 8 while its published mass is 79999989/10000000. A certificate built by rounding in a safe direction is not a measurement of the quantity it certifies.",
+  "rooms_by_optimum_largest_first": [
+   {
+    "m": 12,
+    "r": 4,
+    "room": 0.862512
+   },
+   {
+    "m": 11,
+    "r": 5,
+    "room": 0.8279034
+   },
+   {
+    "m": 9,
+    "r": 8,
+    "room": 0.8044926
+   },
+   {
+    "m": 10,
+    "r": 6,
+    "room": 0.6725895
+   },
+   {
+    "m": 8,
+    "r": 10,
+    "room": 0.6313095
+   },
+   {
+    "m": 9,
+    "r": 7,
+    "room": 0.3737852
+   },
+   {
+    "m": 11,
+    "r": 4,
+    "room": 0.3315508
+   },
+   {
+    "m": 12,
+    "r": 3,
+    "room": 0.2713178
+   },
+   {
+    "m": 10,
+    "r": 5,
+    "room": 0.1962923
+   },
+   {
+    "m": 8,
+    "r": 9,
+    "room": 0.1370031
+   },
+   {
+    "m": 11,
+    "r": 3,
+    "room": 0.1212121
+   },
+   {
+    "m": 10,
+    "r": 4,
+    "room": 0.075
+   }
+  ]
+ }
+}

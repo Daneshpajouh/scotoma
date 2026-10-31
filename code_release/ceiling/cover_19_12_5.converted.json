@@ -1,0 +1,90 @@
+{
+  "N": 19,
+  "r": 5,
+  "m": 12,
+  "cover": [
+    {
+      "prefix": "1111",
+      "suffix_weight": 0,
+      "mass": "28659/250000"
+    },
+    {
+      "prefix": "111X",
+      "suffix_weight": 0,
+      "mass": "11953/250000"
+    },
+    {
+      "prefix": "1100",
+      "suffix_weight": 0,
+      "mass": "18711/500000"
+    },
+    {
+      "prefix": "011X",
+      "suffix_weight": 0,
+      "mass": "80977/1000000"
+    },
+    {
+      "prefix": "0000",
+      "suffix_weight": 0,
+      "mass": "28659/250000"
+    },
+    {
+      "prefix": "X001",
+      "suffix_weight": 0,
+      "mass": "80977/1000000"
+    },
+    {
+      "prefix": "X000",
+      "suffix_weight": 0,
+      "mass": "11953/250000"
+    },
+    {
+      "prefix": "1111",
+      "suffix_weight": 4,
+      "mass": "917771/1000000"
+    },
+    {
+      "prefix": "1101",
+      "suffix_weight": 4,
+      "mass": "13957/200000"
+    },
+    {
+      "prefix": "0111",
+      "suffix_weight": 4,
+      "mass": "69607/250000"
+    },
+    {
+      "prefix": "0100",
+      "suffix_weight": 4,
+      "mass": "13957/200000"
+    },
+    {
+      "prefix": "0011",
+      "suffix_weight": 4,
+      "mass": "84299/200000"
+    },
+    {
+      "prefix": "0001",
+      "suffix_weight": 4,
+      "mass": "69607/250000"
+    },
+    {
+      "prefix": "0000",
+      "suffix_weight": 4,
+      "mass": "917771/1000000"
+    },
+    {
+      "prefix": "0111",
+      "suffix_weight": 5,
+      "mass": "88581/500000"
+    },
+    {
+      "prefix": "0001",
+      "suffix_weight": 5,
+      "mass": "88581/500000"
+    }
+  ],
+  "source_file": "cover_19_12_5.json",
+  "source_sha256": "1aa3b4fbbbc2d2ed4f5cdfd6db31d2c66c1c707b84f7921c93674f50dc085f7e",
+  "isometry": "Complement active 0/1 letters only; leave X and tail fixed."
+}
