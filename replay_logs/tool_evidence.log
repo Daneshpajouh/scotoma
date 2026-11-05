@@ -1,0 +1,6 @@
+INTEGRITY_PASS 1678
+PACKAGE_BEGIN tool_evidence
+COMMAND code_release/tool_audit /usr/local/bin/python3 -B -c import hashlib,json,pathlib; d=json.loads(pathlib.Path("artifact_sha256.json").read_text()); assert len(d)==5; assert all(hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()==h for p,h in d.items()); print("FIVE_DEPOSITED_AUDIT_HASHES_PASS; native pipelines were not rerun")
+FIVE_DEPOSITED_AUDIT_HASHES_PASS; native pipelines were not rerun
+REPLAY_RESOURCES {"package": "tool_evidence", "command": ["/usr/local/bin/python3", "-B", "-c", "import hashlib,json,pathlib; d=json.loads(pathlib.Path(\"artifact_sha256.json\").read_text()); assert len(d)==5; assert all(hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()==h for p,h in d.items()); print(\"FIVE_DEPOSITED_AUDIT_HASHES_PASS; native pipelines were not rerun\")"], "exit_code": 0, "wall_seconds": 0.35260212497087196, "peak_child_rss_bytes": 20774912, "user_seconds": 0.037076, "system_seconds": 0.032452999999999996}
+PACKAGE_PASS tool_evidence

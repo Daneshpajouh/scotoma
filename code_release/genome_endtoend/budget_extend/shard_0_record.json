@@ -1,0 +1,330 @@
+{
+  "guides": {
+    "g0": {
+      "mm5": {
+        "corrected": 36332,
+        "corrected_only": 0,
+        "released": 36332,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm6": {
+        "corrected": 238039,
+        "corrected_only": 0,
+        "released": 238039,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm7": {
+        "corrected": 1263626,
+        "corrected_only": 0,
+        "released": 1263626,
+        "released_only": 0,
+        "terminal_attributable": 0
+      }
+    },
+    "g104": {
+      "mm5": {
+        "corrected": 32975,
+        "corrected_only": 1990,
+        "released": 30985,
+        "released_only": 0,
+        "terminal_attributable": 1990
+      },
+      "mm6": {
+        "corrected": 214763,
+        "corrected_only": 13764,
+        "released": 200999,
+        "released_only": 0,
+        "terminal_attributable": 13764
+      },
+      "mm7": {
+        "corrected": 1079572,
+        "corrected_only": 73447,
+        "released": 1006125,
+        "released_only": 0,
+        "terminal_attributable": 73447
+      }
+    },
+    "g16": {
+      "mm5": {
+        "corrected": 15757,
+        "corrected_only": 1082,
+        "released": 14675,
+        "released_only": 0,
+        "terminal_attributable": 1082
+      },
+      "mm6": {
+        "corrected": 111681,
+        "corrected_only": 8204,
+        "released": 103477,
+        "released_only": 0,
+        "terminal_attributable": 8204
+      },
+      "mm7": {
+        "corrected": 651536,
+        "corrected_only": 43739,
+        "released": 607797,
+        "released_only": 0,
+        "terminal_attributable": 43739
+      }
+    },
+    "g24": {
+      "mm5": {
+        "corrected": 120005,
+        "corrected_only": 6013,
+        "released": 113992,
+        "released_only": 0,
+        "terminal_attributable": 6013
+      },
+      "mm6": {
+        "corrected": 617981,
+        "corrected_only": 30404,
+        "released": 587577,
+        "released_only": 0,
+        "terminal_attributable": 30404
+      },
+      "mm7": {
+        "corrected": 2494172,
+        "corrected_only": 142805,
+        "released": 2351367,
+        "released_only": 0,
+        "terminal_attributable": 142805
+      }
+    },
+    "g32": {
+      "mm5": {
+        "corrected": 29242,
+        "corrected_only": 1521,
+        "released": 27721,
+        "released_only": 0,
+        "terminal_attributable": 1521
+      },
+      "mm6": {
+        "corrected": 213465,
+        "corrected_only": 9953,
+        "released": 203512,
+        "released_only": 0,
+        "terminal_attributable": 9953
+      },
+      "mm7": {
+        "corrected": 1249050,
+        "corrected_only": 58017,
+        "released": 1191033,
+        "released_only": 0,
+        "terminal_attributable": 58017
+      }
+    },
+    "g40": {
+      "mm5": {
+        "corrected": 46233,
+        "corrected_only": 2244,
+        "released": 43989,
+        "released_only": 0,
+        "terminal_attributable": 2244
+      },
+      "mm6": {
+        "corrected": 258273,
+        "corrected_only": 13157,
+        "released": 245116,
+        "released_only": 0,
+        "terminal_attributable": 13157
+      },
+      "mm7": {
+        "corrected": 1142664,
+        "corrected_only": 63732,
+        "released": 1078932,
+        "released_only": 0,
+        "terminal_attributable": 63732
+      }
+    },
+    "g48": {
+      "mm5": {
+        "corrected": 60104,
+        "corrected_only": 4482,
+        "released": 55622,
+        "released_only": 0,
+        "terminal_attributable": 4482
+      },
+      "mm6": {
+        "corrected": 379152,
+        "corrected_only": 26188,
+        "released": 352964,
+        "released_only": 0,
+        "terminal_attributable": 26188
+      },
+      "mm7": {
+        "corrected": 1743887,
+        "corrected_only": 120349,
+        "released": 1623538,
+        "released_only": 0,
+        "terminal_attributable": 120349
+      }
+    },
+    "g56": {
+      "mm5": {
+        "corrected": 66885,
+        "corrected_only": 2274,
+        "released": 64611,
+        "released_only": 0,
+        "terminal_attributable": 2274
+      },
+      "mm6": {
+        "corrected": 522126,
+        "corrected_only": 12383,
+        "released": 509743,
+        "released_only": 0,
+        "terminal_attributable": 12383
+      },
+      "mm7": {
+        "corrected": 1848577,
+        "corrected_only": 48047,
+        "released": 1800530,
+        "released_only": 0,
+        "terminal_attributable": 48047
+      }
+    },
+    "g64": {
+      "mm5": {
+        "corrected": 17366,
+        "corrected_only": 1822,
+        "released": 15544,
+        "released_only": 0,
+        "terminal_attributable": 1822
+      },
+      "mm6": {
+        "corrected": 116565,
+        "corrected_only": 11378,
+        "released": 105187,
+        "released_only": 0,
+        "terminal_attributable": 11378
+      },
+      "mm7": {
+        "corrected": 632524,
+        "corrected_only": 53179,
+        "released": 579345,
+        "released_only": 0,
+        "terminal_attributable": 53179
+      }
+    },
+    "g72": {
+      "mm5": {
+        "corrected": 58585,
+        "corrected_only": 3243,
+        "released": 55342,
+        "released_only": 0,
+        "terminal_attributable": 3243
+      },
+      "mm6": {
+        "corrected": 332378,
+        "corrected_only": 17350,
+        "released": 315028,
+        "released_only": 0,
+        "terminal_attributable": 17350
+      },
+      "mm7": {
+        "corrected": 1509180,
+        "corrected_only": 74158,
+        "released": 1435022,
+        "released_only": 0,
+        "terminal_attributable": 74158
+      }
+    },
+    "g8": {
+      "mm5": {
+        "corrected": 19001,
+        "corrected_only": 0,
+        "released": 19001,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm6": {
+        "corrected": 131149,
+        "corrected_only": 0,
+        "released": 131149,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm7": {
+        "corrected": 762960,
+        "corrected_only": 0,
+        "released": 762960,
+        "released_only": 0,
+        "terminal_attributable": 0
+      }
+    },
+    "g80": {
+      "mm5": {
+        "corrected": 33470,
+        "corrected_only": 2040,
+        "released": 31430,
+        "released_only": 0,
+        "terminal_attributable": 2040
+      },
+      "mm6": {
+        "corrected": 204458,
+        "corrected_only": 12968,
+        "released": 191490,
+        "released_only": 0,
+        "terminal_attributable": 12968
+      },
+      "mm7": {
+        "corrected": 1124099,
+        "corrected_only": 62245,
+        "released": 1061854,
+        "released_only": 0,
+        "terminal_attributable": 62245
+      }
+    },
+    "g88": {
+      "mm5": {
+        "corrected": 56117,
+        "corrected_only": 3918,
+        "released": 52199,
+        "released_only": 0,
+        "terminal_attributable": 3918
+      },
+      "mm6": {
+        "corrected": 300057,
+        "corrected_only": 21291,
+        "released": 278766,
+        "released_only": 0,
+        "terminal_attributable": 21291
+      },
+      "mm7": {
+        "corrected": 1327518,
+        "corrected_only": 91959,
+        "released": 1235559,
+        "released_only": 0,
+        "terminal_attributable": 91959
+      }
+    },
+    "g96": {
+      "mm5": {
+        "corrected": 47939,
+        "corrected_only": 0,
+        "released": 47939,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm6": {
+        "corrected": 268065,
+        "corrected_only": 0,
+        "released": 268065,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm7": {
+        "corrected": 1232401,
+        "corrected_only": 0,
+        "released": 1232401,
+        "released_only": 0,
+        "terminal_attributable": 0
+      }
+    }
+  },
+  "host": "fc30615",
+  "job": "2463962",
+  "nshards": 8,
+  "shard": 0
+}

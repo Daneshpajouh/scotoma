@@ -1,0 +1,19 @@
+name	value	printed	how
+swo_paper_rows_forward_run	5110	5,110	rows in the forward run CSV (the paper's count)
+swo_paper_rows_plus	2357	2,357	forward rows on the plus strand
+swo_paper_rows_minus	2753	2,753	forward rows on the minus strand
+swo_paper_pams_in_forward_rows	4386	4,386	distinct PAMs among the forward rows: plus keys + distinct minus PAMs
+swo_paper_minus_pams_in_forward_rows	2029	2,029	distinct minus PAMs among the forward rows
+swo_paper_minus_pams_rc_run	2212	2,212	minus PAMs from the reverse-complement run
+swo_paper_pam_loci_both_strands	4569	4,569	distinct PAM loci, both strands (plus keys + reverse-complement minus keys)
+swo_paper_extra_minus_rows	724	724	forward minus rows beyond one per PAM
+swo_paper_minus_pams_lost	183	183	reverse-complement minus PAMs with no forward row
+swo_paper_plus_rows_equal_keys	1	1	1 if the forward plus rows and the plus keys are the same set
+crz_dna_rows	661239	661,239	all rows in crz_dna/*.targets.txt
+crz_dna_rows_bulge_type_DNA	626587	626,587	rows in crz_dna with bulge type DNA (X = no bulge)
+crz_dna_rows_bulge_type_X	34652	34,652	rows in crz_dna with bulge type X (X = no bulge)
+crz_rna_rows	1930943	1,930,943	all rows in crz_rna/*.targets.txt
+crz_rna_rows_bulge_type_RNA	1896291	1,896,291	rows in crz_rna with bulge type RNA (X = no bulge)
+crz_rna_rows_bulge_type_X	34652	34,652	rows in crz_rna with bulge type X (X = no bulge)
+crz_rows_both_passes	2592182	2,592,182	all rows, both passes
+identity_loci_plus_extra_minus_lost_equals_rows	1	1	1 if pam_loci_both_strands + extra_minus_rows - minus_pams_lost = rows_forward_run

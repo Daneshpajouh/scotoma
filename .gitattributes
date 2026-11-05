@@ -1,0 +1,17 @@
+# The verification data lists are digest-checked: pooled_patterns_producer.py compares a rebuilt
+# file byte for byte against the released one, and three scripts print their input's SHA-256. A
+# clone on Windows with the default core.autocrlf=true would rewrite these files' line endings and
+# every one of those digests would differ from the published value. Marking them -text stops git
+# converting them, so the bytes are the same on every platform.
+verification/floor_theorem/data/*.txt -text
+
+# The same holds for the ceiling duals: VERIFY_CEILING.md publishes the SHA-256 of each one, and
+# a converting clone rewrote the four released duals so that none of those four matched.
+verification/frac_alln/*.json -text
+verification/frac_alln/data/floor_certificates/*.json -text
+
+# The r = 20, m = 8 certificate: SHA256SUMS and dual20.js pin these bytes, so they must not be converted.
+verification/floor_eight/* -text
+
+# The snapshot inventory hashes all deposited bytes. Preserve them on every platform.
+* -text

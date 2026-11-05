@@ -1,0 +1,2 @@
+usage: reference.py [-h] [--budget BUDGET] [--count-only] guide
+reference.py: error: budget must be nonnegative

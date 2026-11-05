@@ -1,0 +1,51 @@
+{
+  "what": "non-chain centres with unit private-sphere load at the threshold length",
+  "theorem_scope": "the theorem asserts Lambda(c) < 1 for u(c) >= 2; every centre here has u(c) < 2, so none of them contradicts it",
+  "cells": [
+    {
+      "m": 1,
+      "N": 4,
+      "nstar": 4,
+      "exhaustive": true,
+      "non_chain_unit_load": [
+        {
+          "centre": "1010",
+          "u": 0,
+          "load": "1"
+        }
+      ],
+      "max_load_at_u_at_least_2": "1/2"
+    },
+    {
+      "m": 1,
+      "N": 5,
+      "nstar": 4,
+      "exhaustive": true,
+      "non_chain_unit_load": [],
+      "max_load_at_u_at_least_2": "1/3"
+    },
+    {
+      "m": 1,
+      "N": 6,
+      "nstar": 4,
+      "exhaustive": true,
+      "non_chain_unit_load": [],
+      "max_load_at_u_at_least_2": "1/4"
+    },
+    {
+      "m": 6,
+      "N": 17,
+      "nstar": 17,
+      "exhaustive": false,
+      "witness_only": true,
+      "non_chain_unit_load": [
+        {
+          "centre": "11111110000000002",
+          "u": 1,
+          "load": "1"
+        }
+      ],
+      "max_load_at_u_at_least_2": null
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "N": 45,
+  "r": 8,
+  "m": 24,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "0000011",
+      "tail_weight": 24,
+      "mass": "498731/33217059"
+    },
+    {
+      "prefix": "0011111",
+      "tail_weight": 24,
+      "mass": "498731/33217059"
+    },
+    {
+      "prefix": "0000111",
+      "tail_weight": 24,
+      "mass": "20922956/33217059"
+    },
+    {
+      "prefix": "0001111",
+      "tail_weight": 24,
+      "mass": "20922956/33217059"
+    },
+    {
+      "prefix": "00111XX",
+      "tail_weight": 22,
+      "mass": "2064237/11072353"
+    },
+    {
+      "prefix": "XX00011",
+      "tail_weight": 22,
+      "mass": "2064237/11072353"
+    },
+    {
+      "prefix": "0011X10",
+      "tail_weight": 22,
+      "mass": "10230271/33217059"
+    },
+    {
+      "prefix": "10X0011",
+      "tail_weight": 22,
+      "mass": "10230271/33217059"
+    },
+    {
+      "prefix": "00X0001",
+      "tail_weight": 23,
+      "mass": "2370542/33217059"
+    },
+    {
+      "prefix": "0111X11",
+      "tail_weight": 23,
+      "mass": "2370542/33217059"
+    },
+    {
+      "prefix": "00X011X",
+      "tail_weight": 22,
+      "mass": "2082166/11072353"
+    },
+    {
+      "prefix": "X001X11",
+      "tail_weight": 22,
+      "mass": "2082166/11072353"
+    },
+    {
+      "prefix": "0100X00",
+      "tail_weight": 22,
+      "mass": "9895493/33217059"
+    },
+    {
+      "prefix": "11X1101",
+      "tail_weight": 22,
+      "mass": "9895493/33217059"
+    },
+    {
+      "prefix": "01111X1",
+      "tail_weight": 23,
+      "mass": "15410399/33217059"
+    },
+    {
+      "prefix": "0X00001",
+      "tail_weight": 23,
+      "mass": "15410399/33217059"
+    },
+    {
+      "prefix": "0111X10",
+      "tail_weight": 22,
+      "mass": "9243407/33217059"
+    },
+    {
+      "prefix": "10X0001",
+      "tail_weight": 22,
+      "mass": "9243407/33217059"
+    },
+    {
+      "prefix": "011XX1X",
+      "tail_weight": 21,
+      "mass": "2064237/11072353"
+    },
+    {
+      "prefix": "X0XX001",
+      "tail_weight": 21,
+      "mass": "2064237/11072353"
+    },
+    {
+      "prefix": "0XX001X",
+      "tail_weight": 21,
+      "mass": "2914892/11072353"
+    },
+    {
+      "prefix": "X011XX1",
+      "tail_weight": 21,
+      "mass": "2914892/11072353"
+    },
+    {
+      "prefix": "100XX00",
+      "tail_weight": 21,
+      "mass": "2516890/11072353"
+    },
+    {
+      "prefix": "11XX110",
+      "tail_weight": 21,
+      "mass": "2516890/11072353"
+    },
+    {
+      "prefix": "111101X",
+      "tail_weight": 22,
+      "mass": "2516890/11072353"
+    },
+    {
+      "prefix": "X010000",
+      "tail_weight": 22,
+      "mass": "2516890/11072353"
+    },
+    {
+      "prefix": "111110X",
+      "tail_weight": 22,
+      "mass": "360497/33217059"
+    },
+    {
+      "prefix": "X100000",
+      "tail_weight": 22,
+      "mass": "360497/33217059"
+    },
+    {
+      "prefix": "11111XX",
+      "tail_weight": 22,
+      "mass": "7859729/33217059"
+    },
+    {
+      "prefix": "XX00000",
+      "tail_weight": 22,
+      "mass": "7859729/33217059"
+    },
+    {
+      "prefix": "X01110X",
+      "tail_weight": 21,
+      "mass": "2516890/11072353"
+    },
+    {
+      "prefix": "X10001X",
+      "tail_weight": 21,
+      "mass": "2516890/11072353"
+    },
+    {
+      "prefix": "XX001XX",
+      "tail_weight": 20,
+      "mass": "6047605/33217059"
+    },
+    {
+      "prefix": "XX011XX",
+      "tail_weight": 20,
+      "mass": "6047605/33217059"
+    }
+  ],
+  "verification": {
+    "max_load": "1",
+    "witness": {
+      "prefix": "0000000",
+      "tail_weight": 0
+    },
+    "centre_classes": 85293,
+    "region_masses": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "mass": "8",
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 192,
+    "private_orbits": 996,
+    "rounds": 7,
+    "seconds": 0.971,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

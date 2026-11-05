@@ -1,0 +1,37 @@
+{
+  "N": 47,
+  "r": 2,
+  "m": 35,
+  "kind": "SHORT",
+  "support": [
+    {
+      "prefix": "1",
+      "tail_weight": 2,
+      "mass": "1863/1897"
+    },
+    {
+      "prefix": "0",
+      "tail_weight": 2,
+      "mass": "1863/1897"
+    }
+  ],
+  "verification": {
+    "private_orbits": 2,
+    "minimum": "1",
+    "mass": "3726/1897",
+    "deficit": "68/1897",
+    "witness": {
+      "prefix": "0",
+      "tail_weight": 35
+    },
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 6,
+    "private_orbits": 2,
+    "rounds": 1,
+    "seconds": 0.281,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

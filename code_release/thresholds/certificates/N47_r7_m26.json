@@ -1,0 +1,195 @@
+{
+  "N": 47,
+  "r": 7,
+  "m": 26,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "000000",
+      "tail_weight": 26,
+      "mass": "1956742062871/2418830595735"
+    },
+    {
+      "prefix": "00001X",
+      "tail_weight": 25,
+      "mass": "66673064541/806276865245"
+    },
+    {
+      "prefix": "000111",
+      "tail_weight": 26,
+      "mass": "184114719434/806276865245"
+    },
+    {
+      "prefix": "001110",
+      "tail_weight": 25,
+      "mass": "91611816587/2418830595735"
+    },
+    {
+      "prefix": "00111X",
+      "tail_weight": 25,
+      "mass": "26503308061/483766119147"
+    },
+    {
+      "prefix": "0011X1",
+      "tail_weight": 25,
+      "mass": "7246471061/33134665695"
+    },
+    {
+      "prefix": "0011XX",
+      "tail_weight": 24,
+      "mass": "187007178262/806276865245"
+    },
+    {
+      "prefix": "010001",
+      "tail_weight": 25,
+      "mass": "5406252832/161255373049"
+    },
+    {
+      "prefix": "01110X",
+      "tail_weight": 24,
+      "mass": "224128356892/2418830595735"
+    },
+    {
+      "prefix": "011110",
+      "tail_weight": 25,
+      "mass": "233154270508/2418830595735"
+    },
+    {
+      "prefix": "011111",
+      "tail_weight": 26,
+      "mass": "264571691158/483766119147"
+    },
+    {
+      "prefix": "011X10",
+      "tail_weight": 24,
+      "mass": "59167623389/483766119147"
+    },
+    {
+      "prefix": "011XXX",
+      "tail_weight": 23,
+      "mass": "68570279120/483766119147"
+    },
+    {
+      "prefix": "0X001X",
+      "tail_weight": 24,
+      "mass": "4/5"
+    },
+    {
+      "prefix": "0XX001",
+      "tail_weight": 24,
+      "mass": "67551044348/806276865245"
+    },
+    {
+      "prefix": "100011",
+      "tail_weight": 25,
+      "mass": "94582308508/806276865245"
+    },
+    {
+      "prefix": "10011X",
+      "tail_weight": 24,
+      "mass": "491005022414/2418830595735"
+    },
+    {
+      "prefix": "110001",
+      "tail_weight": 24,
+      "mass": "134224108889/806276865245"
+    },
+    {
+      "prefix": "11110X",
+      "tail_weight": 24,
+      "mass": "47493009335243/333798622211430"
+    },
+    {
+      "prefix": "1111X0",
+      "tail_weight": 24,
+      "mass": "451174072463/2418830595735"
+    },
+    {
+      "prefix": "111X1X",
+      "tail_weight": 24,
+      "mass": "80177612715319/333798622211430"
+    },
+    {
+      "prefix": "111XX1",
+      "tail_weight": 24,
+      "mass": "797422922585/66759724442286"
+    },
+    {
+      "prefix": "11X101",
+      "tail_weight": 24,
+      "mass": "58524172721441/667597244422860"
+    },
+    {
+      "prefix": "11XX11",
+      "tail_weight": 24,
+      "mass": "221233554374657/667597244422860"
+    },
+    {
+      "prefix": "X00000",
+      "tail_weight": 25,
+      "mass": "91386843554/806276865245"
+    },
+    {
+      "prefix": "X00111",
+      "tail_weight": 25,
+      "mass": "84671739789/161255373049"
+    },
+    {
+      "prefix": "X001X1",
+      "tail_weight": 24,
+      "mass": "105405318184/2418830595735"
+    },
+    {
+      "prefix": "X011X0",
+      "tail_weight": 23,
+      "mass": "25886305088/806276865245"
+    },
+    {
+      "prefix": "X011XX",
+      "tail_weight": 23,
+      "mass": "68468626756/161255373049"
+    },
+    {
+      "prefix": "X0X001",
+      "tail_weight": 24,
+      "mass": "2/5"
+    },
+    {
+      "prefix": "X10X00",
+      "tail_weight": 23,
+      "mass": "187928002202/2418830595735"
+    },
+    {
+      "prefix": "XX0001",
+      "tail_weight": 24,
+      "mass": "50991940350/161255373049"
+    }
+  ],
+  "verification": {
+    "max_load": "1",
+    "witness": {
+      "prefix": "000000",
+      "tail_weight": 0
+    },
+    "centre_classes": 30618,
+    "region_masses": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "mass": "7",
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 232,
+    "private_orbits": 339,
+    "rounds": 20,
+    "seconds": 0.766,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

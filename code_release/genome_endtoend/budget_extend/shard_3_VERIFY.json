@@ -1,0 +1,380 @@
+{
+  "budgets": {
+    "5": {
+      "bulge_free_rows_skipped_corrected": 38612,
+      "bulge_free_rows_skipped_released": 38612,
+      "per_guide": {
+        "g107": {
+          "corrected": 174214,
+          "corrected_only": 6030,
+          "first_word_attributable": 0,
+          "released": 168184,
+          "released_only": 0,
+          "terminal_attributable": 6030
+        },
+        "g11": {
+          "corrected": 128835,
+          "corrected_only": 23701,
+          "first_word_attributable": 0,
+          "released": 105134,
+          "released_only": 0,
+          "terminal_attributable": 23701
+        },
+        "g19": {
+          "corrected": 36522,
+          "corrected_only": 0,
+          "first_word_attributable": 0,
+          "released": 36522,
+          "released_only": 0,
+          "terminal_attributable": 0
+        },
+        "g27": {
+          "corrected": 20169,
+          "corrected_only": 1833,
+          "first_word_attributable": 0,
+          "released": 18336,
+          "released_only": 0,
+          "terminal_attributable": 1833
+        },
+        "g3": {
+          "corrected": 46766,
+          "corrected_only": 4005,
+          "first_word_attributable": 0,
+          "released": 42761,
+          "released_only": 0,
+          "terminal_attributable": 4005
+        },
+        "g35": {
+          "corrected": 58006,
+          "corrected_only": 2932,
+          "first_word_attributable": 0,
+          "released": 55074,
+          "released_only": 0,
+          "terminal_attributable": 2932
+        },
+        "g43": {
+          "corrected": 20473,
+          "corrected_only": 1386,
+          "first_word_attributable": 0,
+          "released": 19087,
+          "released_only": 0,
+          "terminal_attributable": 1386
+        },
+        "g51": {
+          "corrected": 44851,
+          "corrected_only": 2320,
+          "first_word_attributable": 0,
+          "released": 42531,
+          "released_only": 0,
+          "terminal_attributable": 2320
+        },
+        "g59": {
+          "corrected": 284542,
+          "corrected_only": 9433,
+          "first_word_attributable": 0,
+          "released": 275109,
+          "released_only": 0,
+          "terminal_attributable": 9433
+        },
+        "g67": {
+          "corrected": 69001,
+          "corrected_only": 4556,
+          "first_word_attributable": 0,
+          "released": 64445,
+          "released_only": 0,
+          "terminal_attributable": 4556
+        },
+        "g75": {
+          "corrected": 77175,
+          "corrected_only": 4150,
+          "first_word_attributable": 0,
+          "released": 73025,
+          "released_only": 0,
+          "terminal_attributable": 4150
+        },
+        "g83": {
+          "corrected": 36701,
+          "corrected_only": 0,
+          "first_word_attributable": 0,
+          "released": 36701,
+          "released_only": 0,
+          "terminal_attributable": 0
+        },
+        "g91": {
+          "corrected": 50825,
+          "corrected_only": 2545,
+          "first_word_attributable": 0,
+          "released": 48280,
+          "released_only": 0,
+          "terminal_attributable": 2545
+        },
+        "g99": {
+          "corrected": 57187,
+          "corrected_only": 2153,
+          "first_word_attributable": 0,
+          "released": 55034,
+          "released_only": 0,
+          "terminal_attributable": 2153
+        }
+      },
+      "rows_corrected": 2757861,
+      "rows_matched_only_via_ambiguity_code": 0,
+      "rows_released": 2641007
+    },
+    "6": {
+      "bulge_free_rows_skipped_corrected": 265813,
+      "bulge_free_rows_skipped_released": 265813,
+      "per_guide": {
+        "g107": {
+          "corrected": 726158,
+          "corrected_only": 27379,
+          "first_word_attributable": 0,
+          "released": 698779,
+          "released_only": 0,
+          "terminal_attributable": 27379
+        },
+        "g11": {
+          "corrected": 640147,
+          "corrected_only": 103666,
+          "first_word_attributable": 0,
+          "released": 536481,
+          "released_only": 0,
+          "terminal_attributable": 103666
+        },
+        "g19": {
+          "corrected": 199419,
+          "corrected_only": 0,
+          "first_word_attributable": 0,
+          "released": 199419,
+          "released_only": 0,
+          "terminal_attributable": 0
+        },
+        "g27": {
+          "corrected": 138716,
+          "corrected_only": 11508,
+          "first_word_attributable": 0,
+          "released": 127208,
+          "released_only": 0,
+          "terminal_attributable": 11508
+        },
+        "g3": {
+          "corrected": 309371,
+          "corrected_only": 38576,
+          "first_word_attributable": 0,
+          "released": 270795,
+          "released_only": 0,
+          "terminal_attributable": 38576
+        },
+        "g35": {
+          "corrected": 341681,
+          "corrected_only": 21482,
+          "first_word_attributable": 0,
+          "released": 320199,
+          "released_only": 0,
+          "terminal_attributable": 21482
+        },
+        "g43": {
+          "corrected": 136401,
+          "corrected_only": 9980,
+          "first_word_attributable": 0,
+          "released": 126421,
+          "released_only": 0,
+          "terminal_attributable": 9980
+        },
+        "g51": {
+          "corrected": 301243,
+          "corrected_only": 15137,
+          "first_word_attributable": 0,
+          "released": 286106,
+          "released_only": 0,
+          "terminal_attributable": 15137
+        },
+        "g59": {
+          "corrected": 1120441,
+          "corrected_only": 50747,
+          "first_word_attributable": 0,
+          "released": 1069694,
+          "released_only": 0,
+          "terminal_attributable": 50747
+        },
+        "g67": {
+          "corrected": 457917,
+          "corrected_only": 20403,
+          "first_word_attributable": 0,
+          "released": 437514,
+          "released_only": 0,
+          "terminal_attributable": 20403
+        },
+        "g75": {
+          "corrected": 382282,
+          "corrected_only": 20390,
+          "first_word_attributable": 0,
+          "released": 361892,
+          "released_only": 0,
+          "terminal_attributable": 20390
+        },
+        "g83": {
+          "corrected": 212739,
+          "corrected_only": 0,
+          "first_word_attributable": 0,
+          "released": 212739,
+          "released_only": 0,
+          "terminal_attributable": 0
+        },
+        "g91": {
+          "corrected": 257479,
+          "corrected_only": 13331,
+          "first_word_attributable": 0,
+          "released": 244148,
+          "released_only": 0,
+          "terminal_attributable": 13331
+        },
+        "g99": {
+          "corrected": 358493,
+          "corrected_only": 12934,
+          "first_word_attributable": 0,
+          "released": 345559,
+          "released_only": 0,
+          "terminal_attributable": 12934
+        }
+      },
+      "rows_corrected": 16529430,
+      "rows_matched_only_via_ambiguity_code": 1,
+      "rows_released": 15809008
+    },
+    "7": {
+      "bulge_free_rows_skipped_corrected": 1528487,
+      "bulge_free_rows_skipped_released": 1528487,
+      "per_guide": {
+        "g107": {
+          "corrected": 2349484,
+          "corrected_only": 107370,
+          "first_word_attributable": 0,
+          "released": 2242114,
+          "released_only": 0,
+          "terminal_attributable": 107370
+        },
+        "g11": {
+          "corrected": 2297555,
+          "corrected_only": 208491,
+          "first_word_attributable": 0,
+          "released": 2089064,
+          "released_only": 0,
+          "terminal_attributable": 208491
+        },
+        "g19": {
+          "corrected": 926521,
+          "corrected_only": 0,
+          "first_word_attributable": 0,
+          "released": 926521,
+          "released_only": 0,
+          "terminal_attributable": 0
+        },
+        "g27": {
+          "corrected": 741411,
+          "corrected_only": 60510,
+          "first_word_attributable": 0,
+          "released": 680901,
+          "released_only": 0,
+          "terminal_attributable": 60510
+        },
+        "g3": {
+          "corrected": 1500162,
+          "corrected_only": 239877,
+          "first_word_attributable": 0,
+          "released": 1260285,
+          "released_only": 0,
+          "terminal_attributable": 239877
+        },
+        "g35": {
+          "corrected": 1546195,
+          "corrected_only": 110179,
+          "first_word_attributable": 0,
+          "released": 1436016,
+          "released_only": 0,
+          "terminal_attributable": 110179
+        },
+        "g43": {
+          "corrected": 747822,
+          "corrected_only": 54280,
+          "first_word_attributable": 0,
+          "released": 693542,
+          "released_only": 0,
+          "terminal_attributable": 54280
+        },
+        "g51": {
+          "corrected": 1457173,
+          "corrected_only": 68961,
+          "first_word_attributable": 0,
+          "released": 1388212,
+          "released_only": 0,
+          "terminal_attributable": 68961
+        },
+        "g59": {
+          "corrected": 3185087,
+          "corrected_only": 167383,
+          "first_word_attributable": 0,
+          "released": 3017704,
+          "released_only": 0,
+          "terminal_attributable": 167383
+        },
+        "g67": {
+          "corrected": 1850645,
+          "corrected_only": 92350,
+          "first_word_attributable": 0,
+          "released": 1758295,
+          "released_only": 0,
+          "terminal_attributable": 92350
+        },
+        "g75": {
+          "corrected": 1557657,
+          "corrected_only": 96067,
+          "first_word_attributable": 0,
+          "released": 1461590,
+          "released_only": 0,
+          "terminal_attributable": 96067
+        },
+        "g83": {
+          "corrected": 1096109,
+          "corrected_only": 0,
+          "first_word_attributable": 0,
+          "released": 1096109,
+          "released_only": 0,
+          "terminal_attributable": 0
+        },
+        "g91": {
+          "corrected": 1036236,
+          "corrected_only": 75123,
+          "first_word_attributable": 0,
+          "released": 961113,
+          "released_only": 0,
+          "terminal_attributable": 75123
+        },
+        "g99": {
+          "corrected": 1736097,
+          "corrected_only": 61663,
+          "first_word_attributable": 0,
+          "released": 1674434,
+          "released_only": 0,
+          "terminal_attributable": 61663
+        }
+      },
+      "rows_corrected": 74932480,
+      "rows_matched_only_via_ambiguity_code": 10,
+      "rows_released": 71438507
+    }
+  },
+  "controls": {
+    "C1_C2_violations": [],
+    "C3_released_only": [],
+    "C4_first_word_explains_all": [],
+    "C5_corruption": {
+      "corrupted_terminal_attributed_extra": 0,
+      "guide": "g107",
+      "real_terminal_attributed": 5589,
+      "rejected": true
+    }
+  },
+  "shard": 3,
+  "verdict": "VERIFY_OK"
+}

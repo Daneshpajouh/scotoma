@@ -1,0 +1,7463 @@
+{
+  "N": 22,
+  "r": 21,
+  "m": 10,
+  "claim": "CLOSED",
+  "packing": [
+    {
+      "prefix": "00000011X110XX1XXX1X",
+      "suffix_weight": 2,
+      "mass": "36640558/4130760945"
+    },
+    {
+      "prefix": "00000011X11X01XX10X0",
+      "suffix_weight": 2,
+      "mass": "12299036/4130760945"
+    },
+    {
+      "prefix": "000000X10X0X0011XXXX",
+      "suffix_weight": 2,
+      "mass": "13848086/826152189"
+    },
+    {
+      "prefix": "000000X10X0XXX0X001X",
+      "suffix_weight": 2,
+      "mass": "26100374/4130760945"
+    },
+    {
+      "prefix": "000000XX001X1X110XXX",
+      "suffix_weight": 2,
+      "mass": "773092/4130760945"
+    },
+    {
+      "prefix": "000000XXXX0011X1X10X",
+      "suffix_weight": 2,
+      "mass": "17200456/1376920315"
+    },
+    {
+      "prefix": "000000XXXXXX0011X101",
+      "suffix_weight": 2,
+      "mass": "1655522/826152189"
+    },
+    {
+      "prefix": "0000011X11010X1X10X0",
+      "suffix_weight": 2,
+      "mass": "4428482/4130760945"
+    },
+    {
+      "prefix": "000001X11XX10111XX0X",
+      "suffix_weight": 2,
+      "mass": "15495112/1376920315"
+    },
+    {
+      "prefix": "000001X1X1X1XXX011X1",
+      "suffix_weight": 2,
+      "mass": "35203814/4130760945"
+    },
+    {
+      "prefix": "00000X01XX010XX001X1",
+      "suffix_weight": 2,
+      "mass": "1162396/1376920315"
+    },
+    {
+      "prefix": "000011X11X0X0XXXXX11",
+      "suffix_weight": 0,
+      "mass": "68650/826152189"
+    },
+    {
+      "prefix": "00001X00X1X00011X100",
+      "suffix_weight": 2,
+      "mass": "46400224/4130760945"
+    },
+    {
+      "prefix": "00001X1XX11X1XX1101X",
+      "suffix_weight": 2,
+      "mass": "109516004/4130760945"
+    },
+    {
+      "prefix": "0000X0X011X101XXXXX1",
+      "suffix_weight": 1,
+      "mass": "3941372/1376920315"
+    },
+    {
+      "prefix": "0000X0XXXXX0011X110X",
+      "suffix_weight": 1,
+      "mass": "84384826/4130760945"
+    },
+    {
+      "prefix": "0000XX001010X011X1X0",
+      "suffix_weight": 2,
+      "mass": "23244814/4130760945"
+    },
+    {
+      "prefix": "0000XX0X011X1010XX11",
+      "suffix_weight": 2,
+      "mass": "12410718/1376920315"
+    },
+    {
+      "prefix": "0000XX0X011X101X1001",
+      "suffix_weight": 2,
+      "mass": "8577904/4130760945"
+    },
+    {
+      "prefix": "000101000010XXXX001X",
+      "suffix_weight": 2,
+      "mass": "216949858/4130760945"
+    },
+    {
+      "prefix": "00010XX0011X101X10X1",
+      "suffix_weight": 2,
+      "mass": "5464624/4130760945"
+    },
+    {
+      "prefix": "00011110110001X11X00",
+      "suffix_weight": 2,
+      "mass": "4430710/275384063"
+    },
+    {
+      "prefix": "000111X1X0X1XX10X110",
+      "suffix_weight": 1,
+      "mass": "75639446/4130760945"
+    },
+    {
+      "prefix": "000111XX011X0101XX10",
+      "suffix_weight": 1,
+      "mass": "42468458/1376920315"
+    },
+    {
+      "prefix": "00011X11XX001111X0XX",
+      "suffix_weight": 1,
+      "mass": "232894828/4130760945"
+    },
+    {
+      "prefix": "00011X1X01XX111XXX11",
+      "suffix_weight": 2,
+      "mass": "83546044/1376920315"
+    },
+    {
+      "prefix": "00011X1X1X111XX0X1X1",
+      "suffix_weight": 2,
+      "mass": "336373366/4130760945"
+    },
+    {
+      "prefix": "00011XX1X1X1001110XX",
+      "suffix_weight": 1,
+      "mass": "66907438/1376920315"
+    },
+    {
+      "prefix": "0001X110X1X1010X1X0X",
+      "suffix_weight": 0,
+      "mass": "2463512/826152189"
+    },
+    {
+      "prefix": "0001X11X10XX1110110X",
+      "suffix_weight": 2,
+      "mass": "53598052/4130760945"
+    },
+    {
+      "prefix": "0001X11X10XX111X0X11",
+      "suffix_weight": 2,
+      "mass": "25493834/4130760945"
+    },
+    {
+      "prefix": "0001XX00011X1X1010X1",
+      "suffix_weight": 2,
+      "mass": "86950658/4130760945"
+    },
+    {
+      "prefix": "0001XX0X0011X1XX0111",
+      "suffix_weight": 2,
+      "mass": "89851048/4130760945"
+    },
+    {
+      "prefix": "0001XXXX01000011X010",
+      "suffix_weight": 1,
+      "mass": "84164066/4130760945"
+    },
+    {
+      "prefix": "000X00011X1XXXX1X10X",
+      "suffix_weight": 1,
+      "mass": "1297070/826152189"
+    },
+    {
+      "prefix": "000X000X0011XX1XXXXX",
+      "suffix_weight": 1,
+      "mass": "199118942/4130760945"
+    },
+    {
+      "prefix": "000X000X0X0011XXXXXX",
+      "suffix_weight": 1,
+      "mass": "37809506/4130760945"
+    },
+    {
+      "prefix": "000X000XXXXX010X001X",
+      "suffix_weight": 1,
+      "mass": "15708146/1376920315"
+    },
+    {
+      "prefix": "000X00100X0011XXXXXX",
+      "suffix_weight": 1,
+      "mass": "110414648/4130760945"
+    },
+    {
+      "prefix": "000X0010X0011XX1XXXX",
+      "suffix_weight": 1,
+      "mass": "85025744/4130760945"
+    },
+    {
+      "prefix": "000X00111XX1XXX1X1XX",
+      "suffix_weight": 1,
+      "mass": "131582668/4130760945"
+    },
+    {
+      "prefix": "000X0011XX1X11100XX0",
+      "suffix_weight": 1,
+      "mass": "79631036/4130760945"
+    },
+    {
+      "prefix": "000X0011XX1X1XXX1X1X",
+      "suffix_weight": 1,
+      "mass": "67205334/1376920315"
+    },
+    {
+      "prefix": "000X001X0XXX010X001X",
+      "suffix_weight": 1,
+      "mass": "141684524/4130760945"
+    },
+    {
+      "prefix": "000X00X0X0XX0011XXXX",
+      "suffix_weight": 1,
+      "mass": "38000044/1376920315"
+    },
+    {
+      "prefix": "000X00X0X0XXXX0X001X",
+      "suffix_weight": 1,
+      "mass": "59356066/1376920315"
+    },
+    {
+      "prefix": "000X00X0XXXX0XX0011X",
+      "suffix_weight": 1,
+      "mass": "257134564/4130760945"
+    },
+    {
+      "prefix": "000X00XXX100X0X011XX",
+      "suffix_weight": 1,
+      "mass": "3650804/275384063"
+    },
+    {
+      "prefix": "000X00XXXX0011XX1X1X",
+      "suffix_weight": 1,
+      "mass": "24909348/1376920315"
+    },
+    {
+      "prefix": "000X00XXXX0XX0011X10",
+      "suffix_weight": 1,
+      "mass": "41317034/4130760945"
+    },
+    {
+      "prefix": "000X00XXXXX0XX0011X1",
+      "suffix_weight": 1,
+      "mass": "23230120/826152189"
+    },
+    {
+      "prefix": "000X00XXXXXX0011X101",
+      "suffix_weight": 1,
+      "mass": "967018/4130760945"
+    },
+    {
+      "prefix": "000X00XXXXXX0011X1X1",
+      "suffix_weight": 1,
+      "mass": "1935404/4130760945"
+    },
+    {
+      "prefix": "000X011X10XX1X1X1X11",
+      "suffix_weight": 2,
+      "mass": "221133796/4130760945"
+    },
+    {
+      "prefix": "000X011X11010X1X01X0",
+      "suffix_weight": 1,
+      "mass": "35005214/4130760945"
+    },
+    {
+      "prefix": "000X011X11010X1X0XX1",
+      "suffix_weight": 1,
+      "mass": "13769342/1376920315"
+    },
+    {
+      "prefix": "000X011X11010X1XX0X1",
+      "suffix_weight": 1,
+      "mass": "21771448/4130760945"
+    },
+    {
+      "prefix": "000X011X11010X1XX1X0",
+      "suffix_weight": 1,
+      "mass": "1272972/1376920315"
+    },
+    {
+      "prefix": "000X011X11010X1XXXX1",
+      "suffix_weight": 1,
+      "mass": "5196072/1376920315"
+    },
+    {
+      "prefix": "000X011XX1110X1X0X01",
+      "suffix_weight": 1,
+      "mass": "2754998/826152189"
+    },
+    {
+      "prefix": "000X10100011XX101XX1",
+      "suffix_weight": 2,
+      "mass": "162916/826152189"
+    },
+    {
+      "prefix": "000X10100011XX1X1X01",
+      "suffix_weight": 2,
+      "mass": "23931236/4130760945"
+    },
+    {
+      "prefix": "000X10100011XX1XXX11",
+      "suffix_weight": 2,
+      "mass": "11657612/826152189"
+    },
+    {
+      "prefix": "000X10X00011XX1X1XX1",
+      "suffix_weight": 2,
+      "mass": "46288666/4130760945"
+    },
+    {
+      "prefix": "000X1X001X00011X1010",
+      "suffix_weight": 2,
+      "mass": "724598/275384063"
+    },
+    {
+      "prefix": "000X1X100001X1X101X1",
+      "suffix_weight": 2,
+      "mass": "28732784/4130760945"
+    },
+    {
+      "prefix": "000X1X100001X1XX11X1",
+      "suffix_weight": 2,
+      "mass": "90456914/4130760945"
+    },
+    {
+      "prefix": "000XX0011X11XX1X00X0",
+      "suffix_weight": 0,
+      "mass": "13445854/4130760945"
+    },
+    {
+      "prefix": "000XX0100011XX1X1X01",
+      "suffix_weight": 2,
+      "mass": "10175956/4130760945"
+    },
+    {
+      "prefix": "000XX010X0XX10001XXX",
+      "suffix_weight": 0,
+      "mass": "37436128/4130760945"
+    },
+    {
+      "prefix": "000XX0X00011X10X1XX1",
+      "suffix_weight": 2,
+      "mass": "42711982/4130760945"
+    },
+    {
+      "prefix": "000XX0X00011XX1X1X01",
+      "suffix_weight": 2,
+      "mass": "5100662/4130760945"
+    },
+    {
+      "prefix": "000XX0X00011XX1XX1X1",
+      "suffix_weight": 2,
+      "mass": "3671060/275384063"
+    },
+    {
+      "prefix": "000XX11000011XX10101",
+      "suffix_weight": 2,
+      "mass": "3206182/826152189"
+    },
+    {
+      "prefix": "000XX1X000111X1X1XX1",
+      "suffix_weight": 2,
+      "mass": "4627936/1376920315"
+    },
+    {
+      "prefix": "000XXX00111111X0X010",
+      "suffix_weight": 2,
+      "mass": "4295732/4130760945"
+    },
+    {
+      "prefix": "000XXX001111X1X10X01",
+      "suffix_weight": 2,
+      "mass": "21490346/4130760945"
+    },
+    {
+      "prefix": "000XXX001111X1X10X10",
+      "suffix_weight": 2,
+      "mass": "46331486/4130760945"
+    },
+    {
+      "prefix": "000XXX0X011X1XX0XX11",
+      "suffix_weight": 0,
+      "mass": "22954304/826152189"
+    },
+    {
+      "prefix": "00100010X0011XX1XXXX",
+      "suffix_weight": 1,
+      "mass": "21805616/4130760945"
+    },
+    {
+      "prefix": "001000X011X101XXXXX1",
+      "suffix_weight": 1,
+      "mass": "1841604/1376920315"
+    },
+    {
+      "prefix": "001000X100X0011XXXXX",
+      "suffix_weight": 1,
+      "mass": "55620578/4130760945"
+    },
+    {
+      "prefix": "00100111X111X10XX01X",
+      "suffix_weight": 2,
+      "mass": "9377534/826152189"
+    },
+    {
+      "prefix": "00100X011X1011011X00",
+      "suffix_weight": 2,
+      "mass": "68062148/4130760945"
+    },
+    {
+      "prefix": "00100X011XXX1101X110",
+      "suffix_weight": 2,
+      "mass": "10202374/4130760945"
+    },
+    {
+      "prefix": "00100X011XXX11X11X01",
+      "suffix_weight": 2,
+      "mass": "737496/1376920315"
+    },
+    {
+      "prefix": "0010100XX01X0011XXX0",
+      "suffix_weight": 0,
+      "mass": "34827536/4130760945"
+    },
+    {
+      "prefix": "00101100X1100X0011XX",
+      "suffix_weight": 1,
+      "mass": "7637444/4130760945"
+    },
+    {
+      "prefix": "00101100XX100X0011XX",
+      "suffix_weight": 1,
+      "mass": "12319666/1376920315"
+    },
+    {
+      "prefix": "00101X00100011XXX110",
+      "suffix_weight": 2,
+      "mass": "233090/826152189"
+    },
+    {
+      "prefix": "0010X00111X011010100",
+      "suffix_weight": 2,
+      "mass": "5722978/4130760945"
+    },
+    {
+      "prefix": "0010X00111X011011000",
+      "suffix_weight": 2,
+      "mass": "10548/1376920315"
+    },
+    {
+      "prefix": "0010X0011X1010X11001",
+      "suffix_weight": 2,
+      "mass": "17852102/4130760945"
+    },
+    {
+      "prefix": "0010X0011X101101XX01",
+      "suffix_weight": 2,
+      "mass": "624764/1376920315"
+    },
+    {
+      "prefix": "0010X0011XX11001110X",
+      "suffix_weight": 2,
+      "mass": "23899528/4130760945"
+    },
+    {
+      "prefix": "0010X0011XX11001X110",
+      "suffix_weight": 2,
+      "mass": "61482218/4130760945"
+    },
+    {
+      "prefix": "0010X0011XX11011X010",
+      "suffix_weight": 2,
+      "mass": "10207234/4130760945"
+    },
+    {
+      "prefix": "0010X0011XX110X110X1",
+      "suffix_weight": 2,
+      "mass": "42142838/4130760945"
+    },
+    {
+      "prefix": "0010X0011XX110X1110X",
+      "suffix_weight": 2,
+      "mass": "45310544/4130760945"
+    },
+    {
+      "prefix": "0010X0011XXX11010101",
+      "suffix_weight": 2,
+      "mass": "938546/4130760945"
+    },
+    {
+      "prefix": "0010X0011XXX111110X0",
+      "suffix_weight": 2,
+      "mass": "2200370/275384063"
+    },
+    {
+      "prefix": "0010X010X0011XX10101",
+      "suffix_weight": 2,
+      "mass": "702152/4130760945"
+    },
+    {
+      "prefix": "0010X1XX00X0011XXX11",
+      "suffix_weight": 1,
+      "mass": "34057474/4130760945"
+    },
+    {
+      "prefix": "0010X1XX00X0011XXX1X",
+      "suffix_weight": 0,
+      "mass": "28952842/4130760945"
+    },
+    {
+      "prefix": "0010XX00X1X1010X0001",
+      "suffix_weight": 1,
+      "mass": "138653756/4130760945"
+    },
+    {
+      "prefix": "0010XX0XXX0X0011X11X",
+      "suffix_weight": 1,
+      "mass": "1420628/275384063"
+    },
+    {
+      "prefix": "0010XX0XXX0X001X111X",
+      "suffix_weight": 1,
+      "mass": "33849376/826152189"
+    },
+    {
+      "prefix": "0010XX1000011XX10101",
+      "suffix_weight": 2,
+      "mass": "105834446/4130760945"
+    },
+    {
+      "prefix": "0011001X0XXX10001110",
+      "suffix_weight": 1,
+      "mass": "42134888/4130760945"
+    },
+    {
+      "prefix": "00110110000011XXX11X",
+      "suffix_weight": 2,
+      "mass": "56495152/4130760945"
+    },
+    {
+      "prefix": "001101X0X01X000X0110",
+      "suffix_weight": 1,
+      "mass": "11464144/1376920315"
+    },
+    {
+      "prefix": "0011101X1110101X1XXX",
+      "suffix_weight": 2,
+      "mass": "97461944/1376920315"
+    },
+    {
+      "prefix": "0011101X11X001010101",
+      "suffix_weight": 2,
+      "mass": "126195488/4130760945"
+    },
+    {
+      "prefix": "001110X01111110XXXXX",
+      "suffix_weight": 1,
+      "mass": "5401358/826152189"
+    },
+    {
+      "prefix": "0011110101X111XX0100",
+      "suffix_weight": 2,
+      "mass": "4354254/275384063"
+    },
+    {
+      "prefix": "0011111101XX0X1X1X00",
+      "suffix_weight": 1,
+      "mass": "9483780/275384063"
+    },
+    {
+      "prefix": "00111X111X10X010011X",
+      "suffix_weight": 2,
+      "mass": "114471694/4130760945"
+    },
+    {
+      "prefix": "00111XX00X01X00X0110",
+      "suffix_weight": 0,
+      "mass": "47596672/4130760945"
+    },
+    {
+      "prefix": "0011X10010000011XXXX",
+      "suffix_weight": 1,
+      "mass": "94132792/4130760945"
+    },
+    {
+      "prefix": "0011X1101X10X010X1X0",
+      "suffix_weight": 0,
+      "mass": "23143994/4130760945"
+    },
+    {
+      "prefix": "0011X111011000101XX0",
+      "suffix_weight": 1,
+      "mass": "64078708/4130760945"
+    },
+    {
+      "prefix": "0011X1X01X11X1XXX101",
+      "suffix_weight": 1,
+      "mass": "76197506/826152189"
+    },
+    {
+      "prefix": "001X00100001X110XXX0",
+      "suffix_weight": 1,
+      "mass": "22316624/1376920315"
+    },
+    {
+      "prefix": "001X0100100011XXX110",
+      "suffix_weight": 2,
+      "mass": "74677352/4130760945"
+    },
+    {
+      "prefix": "001X0100X0111XX11X01",
+      "suffix_weight": 2,
+      "mass": "24383932/4130760945"
+    },
+    {
+      "prefix": "001X0X0011111101XX00",
+      "suffix_weight": 2,
+      "mass": "691600/826152189"
+    },
+    {
+      "prefix": "001X0X00111111X10XX0",
+      "suffix_weight": 2,
+      "mass": "4392006/1376920315"
+    },
+    {
+      "prefix": "001X0X00111111XX01X0",
+      "suffix_weight": 2,
+      "mass": "9422950/826152189"
+    },
+    {
+      "prefix": "001X0X001111X1X010X1",
+      "suffix_weight": 2,
+      "mass": "11374076/826152189"
+    },
+    {
+      "prefix": "001X0X001111X1X011X0",
+      "suffix_weight": 2,
+      "mass": "2266040/826152189"
+    },
+    {
+      "prefix": "001X0X0011X111100010",
+      "suffix_weight": 2,
+      "mass": "2604976/275384063"
+    },
+    {
+      "prefix": "001X0X010100011X1010",
+      "suffix_weight": 2,
+      "mass": "10248134/4130760945"
+    },
+    {
+      "prefix": "001X0X0X100011X11010",
+      "suffix_weight": 2,
+      "mass": "7651284/275384063"
+    },
+    {
+      "prefix": "001X10100001X1X101X1",
+      "suffix_weight": 2,
+      "mass": "29284/1376920315"
+    },
+    {
+      "prefix": "001X10X1111X10XX11XX",
+      "suffix_weight": 1,
+      "mass": "18907406/4130760945"
+    },
+    {
+      "prefix": "001X1X00000011XXX110",
+      "suffix_weight": 2,
+      "mass": "12343666/4130760945"
+    },
+    {
+      "prefix": "001XX0000X011X1X1X0X",
+      "suffix_weight": 1,
+      "mass": "61098764/4130760945"
+    },
+    {
+      "prefix": "001XX010001101101XX1",
+      "suffix_weight": 2,
+      "mass": "775684/4130760945"
+    },
+    {
+      "prefix": "001XX0100011101XX011",
+      "suffix_weight": 2,
+      "mass": "11316032/4130760945"
+    },
+    {
+      "prefix": "001XX0XX00111X1X1X11",
+      "suffix_weight": 2,
+      "mass": "7935824/4130760945"
+    },
+    {
+      "prefix": "001XX1X00X0X011XXX11",
+      "suffix_weight": 0,
+      "mass": "10182402/1376920315"
+    },
+    {
+      "prefix": "001XX1XX000X011XXX11",
+      "suffix_weight": 0,
+      "mass": "2064366/1376920315"
+    },
+    {
+      "prefix": "001XX1XX00X0011XXX11",
+      "suffix_weight": 0,
+      "mass": "6217588/4130760945"
+    },
+    {
+      "prefix": "00X0000011XX1XXXX1X0",
+      "suffix_weight": 1,
+      "mass": "2379476/4130760945"
+    },
+    {
+      "prefix": "00X000011X1XXXXX1X1X",
+      "suffix_weight": 1,
+      "mass": "28716476/4130760945"
+    },
+    {
+      "prefix": "00X00001X1X1XXX1XX1X",
+      "suffix_weight": 1,
+      "mass": "8229976/4130760945"
+    },
+    {
+      "prefix": "00X00001X1XX1XXX110X",
+      "suffix_weight": 1,
+      "mass": "72473234/4130760945"
+    },
+    {
+      "prefix": "00X0000X0011XX1XXXXX",
+      "suffix_weight": 1,
+      "mass": "13543672/1376920315"
+    },
+    {
+      "prefix": "00X0000X0XX0011XXXXX",
+      "suffix_weight": 1,
+      "mass": "13963518/1376920315"
+    },
+    {
+      "prefix": "00X0000X0XXX0XX001XX",
+      "suffix_weight": 1,
+      "mass": "208132222/4130760945"
+    },
+    {
+      "prefix": "00X0000X0XXXX0011XXX",
+      "suffix_weight": 1,
+      "mass": "110166/275384063"
+    },
+    {
+      "prefix": "00X0000XX0011XX1XXXX",
+      "suffix_weight": 1,
+      "mass": "19890134/826152189"
+    },
+    {
+      "prefix": "00X0000XXXXX010X001X",
+      "suffix_weight": 1,
+      "mass": "37119432/1376920315"
+    },
+    {
+      "prefix": "00X000100011X1XXXXX0",
+      "suffix_weight": 1,
+      "mass": "599422/826152189"
+    },
+    {
+      "prefix": "00X00010X0011XX1XXXX",
+      "suffix_weight": 1,
+      "mass": "11196544/4130760945"
+    },
+    {
+      "prefix": "00X00010X0011XXXX1X0",
+      "suffix_weight": 1,
+      "mass": "51857204/4130760945"
+    },
+    {
+      "prefix": "00X00011X110XX1XXX1X",
+      "suffix_weight": 1,
+      "mass": "4779636/1376920315"
+    },
+    {
+      "prefix": "00X0001X0XXX010X001X",
+      "suffix_weight": 1,
+      "mass": "44570936/4130760945"
+    },
+    {
+      "prefix": "00X0001X0XXX0X0011X0",
+      "suffix_weight": 1,
+      "mass": "125771146/4130760945"
+    },
+    {
+      "prefix": "00X0001XX100XX0X001X",
+      "suffix_weight": 1,
+      "mass": "51389416/4130760945"
+    },
+    {
+      "prefix": "00X000X0011XX1XXXX1X",
+      "suffix_weight": 1,
+      "mass": "115734706/4130760945"
+    },
+    {
+      "prefix": "00X000X011X1XX110XX0",
+      "suffix_weight": 1,
+      "mass": "36260026/4130760945"
+    },
+    {
+      "prefix": "00X000X0X0XXXXX0X001",
+      "suffix_weight": 1,
+      "mass": "288823858/4130760945"
+    },
+    {
+      "prefix": "00X000X10X0011X1XXXX",
+      "suffix_weight": 1,
+      "mass": "3882404/1376920315"
+    },
+    {
+      "prefix": "00X000X10X0X0011XXXX",
+      "suffix_weight": 1,
+      "mass": "3866548/826152189"
+    },
+    {
+      "prefix": "00X000X10XX0X0011XXX",
+      "suffix_weight": 1,
+      "mass": "5950978/826152189"
+    },
+    {
+      "prefix": "00X000XX0X0XXX0XX000",
+      "suffix_weight": 1,
+      "mass": "263548454/4130760945"
+    },
+    {
+      "prefix": "00X000XX0XX0X011X10X",
+      "suffix_weight": 1,
+      "mass": "10720938/1376920315"
+    },
+    {
+      "prefix": "00X000XX100X0011XXXX",
+      "suffix_weight": 1,
+      "mass": "88681402/4130760945"
+    },
+    {
+      "prefix": "00X000XXX0011X1XX10X",
+      "suffix_weight": 1,
+      "mass": "34055866/4130760945"
+    },
+    {
+      "prefix": "00X000XXX0011XXXX1X1",
+      "suffix_weight": 1,
+      "mass": "16017316/1376920315"
+    },
+    {
+      "prefix": "00X000XXXX0011X110XX",
+      "suffix_weight": 1,
+      "mass": "24280586/4130760945"
+    },
+    {
+      "prefix": "00X000XXXX0X0011X10X",
+      "suffix_weight": 1,
+      "mass": "22999542/1376920315"
+    },
+    {
+      "prefix": "00X000XXXX0XX0011X10",
+      "suffix_weight": 1,
+      "mass": "31170178/4130760945"
+    },
+    {
+      "prefix": "00X000XXXXX0XX0011X1",
+      "suffix_weight": 1,
+      "mass": "89104378/4130760945"
+    },
+    {
+      "prefix": "00X001011000X011XX1X",
+      "suffix_weight": 2,
+      "mass": "25927074/1376920315"
+    },
+    {
+      "prefix": "00X001100XX0011X1100",
+      "suffix_weight": 2,
+      "mass": "2287628/826152189"
+    },
+    {
+      "prefix": "00X001110XX110X1XX1X",
+      "suffix_weight": 1,
+      "mass": "104865754/4130760945"
+    },
+    {
+      "prefix": "00X0011X10X110X1X01X",
+      "suffix_weight": 1,
+      "mass": "19011704/1376920315"
+    },
+    {
+      "prefix": "00X0011XXX11X0110XXX",
+      "suffix_weight": 0,
+      "mass": "3262748/1376920315"
+    },
+    {
+      "prefix": "00X0011XXX11X0X110XX",
+      "suffix_weight": 0,
+      "mass": "4274318/275384063"
+    },
+    {
+      "prefix": "00X0011XXX11X0X11XXX",
+      "suffix_weight": 0,
+      "mass": "18493726/4130760945"
+    },
+    {
+      "prefix": "00X0011XXXX110X10X1X",
+      "suffix_weight": 0,
+      "mass": "3908268/1376920315"
+    },
+    {
+      "prefix": "00X00X100X0X01111000",
+      "suffix_weight": 2,
+      "mass": "277238/4130760945"
+    },
+    {
+      "prefix": "00X00X1010X0011X1010",
+      "suffix_weight": 2,
+      "mass": "5212594/4130760945"
+    },
+    {
+      "prefix": "00X00X101X00011X1010",
+      "suffix_weight": 2,
+      "mass": "25543234/4130760945"
+    },
+    {
+      "prefix": "00X00X110X00011X1100",
+      "suffix_weight": 2,
+      "mass": "1627306/826152189"
+    },
+    {
+      "prefix": "00X010X000111X0X1XX1",
+      "suffix_weight": 2,
+      "mass": "1776062/1376920315"
+    },
+    {
+      "prefix": "00X010X00011XX1X0X11",
+      "suffix_weight": 2,
+      "mass": "17454/275384063"
+    },
+    {
+      "prefix": "00X010X00011XX1XXX11",
+      "suffix_weight": 2,
+      "mass": "28639622/4130760945"
+    },
+    {
+      "prefix": "00X010XX0011110X1XX1",
+      "suffix_weight": 2,
+      "mass": "27935986/4130760945"
+    },
+    {
+      "prefix": "00X010XX00111X011XX1",
+      "suffix_weight": 2,
+      "mass": "11718812/4130760945"
+    },
+    {
+      "prefix": "00X010XX00111X1X1XX1",
+      "suffix_weight": 2,
+      "mass": "5053802/4130760945"
+    },
+    {
+      "prefix": "00X011000X100X001X1X",
+      "suffix_weight": 2,
+      "mass": "19068348/1376920315"
+    },
+    {
+      "prefix": "00X0110011X00X001X11",
+      "suffix_weight": 2,
+      "mass": "6184548/1376920315"
+    },
+    {
+      "prefix": "00X011001X100X001X11",
+      "suffix_weight": 2,
+      "mass": "3252966/1376920315"
+    },
+    {
+      "prefix": "00X01100X01X0X00111X",
+      "suffix_weight": 2,
+      "mass": "663322/4130760945"
+    },
+    {
+      "prefix": "00X01100X01X0X0011XX",
+      "suffix_weight": 1,
+      "mass": "951878/1376920315"
+    },
+    {
+      "prefix": "00X01100X1X010001110",
+      "suffix_weight": 2,
+      "mass": "9500438/4130760945"
+    },
+    {
+      "prefix": "00X01100XX100X0011XX",
+      "suffix_weight": 1,
+      "mass": "10803014/1376920315"
+    },
+    {
+      "prefix": "00X01100XX100X001X11",
+      "suffix_weight": 2,
+      "mass": "77853418/4130760945"
+    },
+    {
+      "prefix": "00X01100XX10XX00111X",
+      "suffix_weight": 1,
+      "mass": "858904/826152189"
+    },
+    {
+      "prefix": "00X01100XX1X0X00111X",
+      "suffix_weight": 1,
+      "mass": "2675966/275384063"
+    },
+    {
+      "prefix": "00X011X110X011001X11",
+      "suffix_weight": 2,
+      "mass": "3252966/1376920315"
+    },
+    {
+      "prefix": "00X011X110XX11001X11",
+      "suffix_weight": 2,
+      "mass": "77853418/4130760945"
+    },
+    {
+      "prefix": "00X011X11X0011001X11",
+      "suffix_weight": 2,
+      "mass": "6184548/1376920315"
+    },
+    {
+      "prefix": "00X011X1XXXX1100XX11",
+      "suffix_weight": 0,
+      "mass": "82988066/4130760945"
+    },
+    {
+      "prefix": "00X011X1XXXX11100X11",
+      "suffix_weight": 1,
+      "mass": "151591762/4130760945"
+    },
+    {
+      "prefix": "00X01X00011111X10XXX",
+      "suffix_weight": 2,
+      "mass": "20156260/826152189"
+    },
+    {
+      "prefix": "00X01X11X0111X00XXX1",
+      "suffix_weight": 0,
+      "mass": "2789496/1376920315"
+    },
+    {
+      "prefix": "00X0X000X0011XX1X01X",
+      "suffix_weight": 2,
+      "mass": "16438796/826152189"
+    },
+    {
+      "prefix": "00X0X000X10XX10X001X",
+      "suffix_weight": 1,
+      "mass": "39151984/4130760945"
+    },
+    {
+      "prefix": "00X0X011X110011X10X1",
+      "suffix_weight": 2,
+      "mass": "47233774/1376920315"
+    },
+    {
+      "prefix": "00X0X0X00011XX10XX11",
+      "suffix_weight": 2,
+      "mass": "385924/275384063"
+    },
+    {
+      "prefix": "00X0X0X00011XX1XX011",
+      "suffix_weight": 2,
+      "mass": "7935824/4130760945"
+    },
+    {
+      "prefix": "00X0X0X0XX10X001X111",
+      "suffix_weight": 2,
+      "mass": "221133796/4130760945"
+    },
+    {
+      "prefix": "00X0X0XX00111X1XX1X1",
+      "suffix_weight": 2,
+      "mass": "6623456/1376920315"
+    },
+    {
+      "prefix": "00X0X10X0011101XX101",
+      "suffix_weight": 2,
+      "mass": "1585486/826152189"
+    },
+    {
+      "prefix": "00X0X10X00111X1X1XX1",
+      "suffix_weight": 2,
+      "mass": "24513074/4130760945"
+    },
+    {
+      "prefix": "00X0X10X00111X1XX1X1",
+      "suffix_weight": 2,
+      "mass": "2414944/275384063"
+    },
+    {
+      "prefix": "00X0X1X0001110XX1X11",
+      "suffix_weight": 2,
+      "mass": "441106/4130760945"
+    },
+    {
+      "prefix": "00X0X1X000111X011XX1",
+      "suffix_weight": 2,
+      "mass": "749924/4130760945"
+    },
+    {
+      "prefix": "00X0X1X000111X101XX1",
+      "suffix_weight": 2,
+      "mass": "873796/4130760945"
+    },
+    {
+      "prefix": "00X0X1X00011XX1X1X01",
+      "suffix_weight": 1,
+      "mass": "34049506/1376920315"
+    },
+    {
+      "prefix": "00X0X1XXX0X0011XXX11",
+      "suffix_weight": 0,
+      "mass": "9591506/4130760945"
+    },
+    {
+      "prefix": "00X0XX011XXX11011X01",
+      "suffix_weight": 1,
+      "mass": "39875036/4130760945"
+    },
+    {
+      "prefix": "00X0XX0X01111001X101",
+      "suffix_weight": 2,
+      "mass": "20330242/4130760945"
+    },
+    {
+      "prefix": "00X0XX1000111X0X1X11",
+      "suffix_weight": 2,
+      "mass": "441106/4130760945"
+    },
+    {
+      "prefix": "00X0XXX000111X1X1XX1",
+      "suffix_weight": 2,
+      "mass": "6405478/4130760945"
+    },
+    {
+      "prefix": "00X10X10000011XXX110",
+      "suffix_weight": 2,
+      "mass": "1093592/826152189"
+    },
+    {
+      "prefix": "00X10X1X000011XX111X",
+      "suffix_weight": 2,
+      "mass": "102264026/4130760945"
+    },
+    {
+      "prefix": "00X10XXXX0X0011XXX11",
+      "suffix_weight": 0,
+      "mass": "13432124/826152189"
+    },
+    {
+      "prefix": "00X11000XXXX0X001X11",
+      "suffix_weight": 1,
+      "mass": "151591762/4130760945"
+    },
+    {
+      "prefix": "00X1101X000X000111X0",
+      "suffix_weight": 2,
+      "mass": "181668824/4130760945"
+    },
+    {
+      "prefix": "00X110X00011101X1X01",
+      "suffix_weight": 2,
+      "mass": "1529638/4130760945"
+    },
+    {
+      "prefix": "00X110X00011101XXX11",
+      "suffix_weight": 2,
+      "mass": "3590634/1376920315"
+    },
+    {
+      "prefix": "00X1X000XX10X00X0111",
+      "suffix_weight": 2,
+      "mass": "25493834/4130760945"
+    },
+    {
+      "prefix": "00X1X0XX00111X101X11",
+      "suffix_weight": 2,
+      "mass": "17454/275384063"
+    },
+    {
+      "prefix": "00X1X0XX001X0X100110",
+      "suffix_weight": 0,
+      "mass": "3979118/826152189"
+    },
+    {
+      "prefix": "00X1XX0X1X010X00011X",
+      "suffix_weight": 0,
+      "mass": "185656946/4130760945"
+    },
+    {
+      "prefix": "00X1XXXX00X0011XXX11",
+      "suffix_weight": 0,
+      "mass": "16918262/4130760945"
+    },
+    {
+      "prefix": "00XX0011X1X10101X110",
+      "suffix_weight": 2,
+      "mass": "19897558/275384063"
+    },
+    {
+      "prefix": "00XX0011XX1X0X1X111X",
+      "suffix_weight": 1,
+      "mass": "36939298/4130760945"
+    },
+    {
+      "prefix": "00XX001X110111110X0X",
+      "suffix_weight": 2,
+      "mass": "23560036/4130760945"
+    },
+    {
+      "prefix": "00XX01001X0001X11010",
+      "suffix_weight": 2,
+      "mass": "4905818/4130760945"
+    },
+    {
+      "prefix": "00XX0101X000011X1010",
+      "suffix_weight": 2,
+      "mass": "6156376/826152189"
+    },
+    {
+      "prefix": "00XX01100X00011X1100",
+      "suffix_weight": 2,
+      "mass": "7884262/1376920315"
+    },
+    {
+      "prefix": "00XX0110101X00000110",
+      "suffix_weight": 2,
+      "mass": "13784928/1376920315"
+    },
+    {
+      "prefix": "00XX0111X011XXX1XX1X",
+      "suffix_weight": 0,
+      "mass": "42952576/4130760945"
+    },
+    {
+      "prefix": "00XX0111X1110X1XX001",
+      "suffix_weight": 1,
+      "mass": "20543792/4130760945"
+    },
+    {
+      "prefix": "00XX01X00100011X1100",
+      "suffix_weight": 2,
+      "mass": "8246032/1376920315"
+    },
+    {
+      "prefix": "00XX01X1X110X1XX11X1",
+      "suffix_weight": 1,
+      "mass": "51145802/1376920315"
+    },
+    {
+      "prefix": "00XX0X0011XXXX1111XX",
+      "suffix_weight": 1,
+      "mass": "57482398/4130760945"
+    },
+    {
+      "prefix": "00XX0X0011XXXX1X111X",
+      "suffix_weight": 1,
+      "mass": "127676176/4130760945"
+    },
+    {
+      "prefix": "00XX0X0011XXXXX1111X",
+      "suffix_weight": 1,
+      "mass": "56597684/1376920315"
+    },
+    {
+      "prefix": "00XX0X101000011X1010",
+      "suffix_weight": 2,
+      "mass": "19239448/4130760945"
+    },
+    {
+      "prefix": "00XX10100001X1X101X1",
+      "suffix_weight": 2,
+      "mass": "14558494/4130760945"
+    },
+    {
+      "prefix": "00XX10100X01110101X1",
+      "suffix_weight": 2,
+      "mass": "21531944/4130760945"
+    },
+    {
+      "prefix": "00XX1010X0011XX10101",
+      "suffix_weight": 1,
+      "mass": "7079766/1376920315"
+    },
+    {
+      "prefix": "00XX1010X001X1X10101",
+      "suffix_weight": 1,
+      "mass": "757752/1376920315"
+    },
+    {
+      "prefix": "00XX1010X001X1XX1111",
+      "suffix_weight": 2,
+      "mass": "12410718/1376920315"
+    },
+    {
+      "prefix": "00XX10X000111X1X1XX1",
+      "suffix_weight": 2,
+      "mass": "4870324/4130760945"
+    },
+    {
+      "prefix": "00XX10X0X00111X10101",
+      "suffix_weight": 2,
+      "mass": "55775198/4130760945"
+    },
+    {
+      "prefix": "00XX10XX00111X1X1X11",
+      "suffix_weight": 2,
+      "mass": "385924/275384063"
+    },
+    {
+      "prefix": "00XX1100XXXX0X001X11",
+      "suffix_weight": 0,
+      "mass": "82988066/4130760945"
+    },
+    {
+      "prefix": "00XX1X0X0X00X100X0X0",
+      "suffix_weight": 0,
+      "mass": "3460948/4130760945"
+    },
+    {
+      "prefix": "00XX1X100001X1X101X1",
+      "suffix_weight": 1,
+      "mass": "21867538/4130760945"
+    },
+    {
+      "prefix": "00XX1X100001X1XXXX11",
+      "suffix_weight": 0,
+      "mass": "2473762/826152189"
+    },
+    {
+      "prefix": "00XX1XX0X0011101X101",
+      "suffix_weight": 1,
+      "mass": "5905758/275384063"
+    },
+    {
+      "prefix": "00XX1XX0X001X1XXX111",
+      "suffix_weight": 0,
+      "mass": "22954304/826152189"
+    },
+    {
+      "prefix": "00XXX000XX001110XX0X",
+      "suffix_weight": 0,
+      "mass": "122169988/4130760945"
+    },
+    {
+      "prefix": "00XXX000XX01X0X00111",
+      "suffix_weight": 2,
+      "mass": "83546044/1376920315"
+    },
+    {
+      "prefix": "00XXX0011X11XX010XX1",
+      "suffix_weight": 0,
+      "mass": "6484118/826152189"
+    },
+    {
+      "prefix": "00XXX0011X11XX0X1011",
+      "suffix_weight": 1,
+      "mass": "34057474/4130760945"
+    },
+    {
+      "prefix": "00XXX0011X11XX0X10X1",
+      "suffix_weight": 0,
+      "mass": "8445806/4130760945"
+    },
+    {
+      "prefix": "00XXX0011X11XX0XX011",
+      "suffix_weight": 0,
+      "mass": "6217588/4130760945"
+    },
+    {
+      "prefix": "00XXX0011X11XX100100",
+      "suffix_weight": 0,
+      "mass": "30111346/4130760945"
+    },
+    {
+      "prefix": "00XXX0011X11XX10X1X0",
+      "suffix_weight": 0,
+      "mass": "48198232/4130760945"
+    },
+    {
+      "prefix": "00XXX0011X11XX1X0100",
+      "suffix_weight": 0,
+      "mass": "3220298/1376920315"
+    },
+    {
+      "prefix": "00XXX0011X11XXXX0X11",
+      "suffix_weight": 0,
+      "mass": "16918262/4130760945"
+    },
+    {
+      "prefix": "00XXX0011X11XXXX10X1",
+      "suffix_weight": 0,
+      "mass": "10326588/1376920315"
+    },
+    {
+      "prefix": "00XXX0011X1XX11X00X1",
+      "suffix_weight": 0,
+      "mass": "22459006/4130760945"
+    },
+    {
+      "prefix": "00XXX0011X1XXX0X1X11",
+      "suffix_weight": 0,
+      "mass": "9591506/4130760945"
+    },
+    {
+      "prefix": "00XXX0011X1XXXX10X11",
+      "suffix_weight": 0,
+      "mass": "13432124/826152189"
+    },
+    {
+      "prefix": "00XXX001X111XX0XX011",
+      "suffix_weight": 0,
+      "mass": "2064366/1376920315"
+    },
+    {
+      "prefix": "00XXX001X1X11X0XX011",
+      "suffix_weight": 0,
+      "mass": "10182402/1376920315"
+    },
+    {
+      "prefix": "00XXX01000111X100X11",
+      "suffix_weight": 2,
+      "mass": "3590634/1376920315"
+    },
+    {
+      "prefix": "00XXX0X000111X1X1XX1",
+      "suffix_weight": 2,
+      "mass": "4944032/4130760945"
+    },
+    {
+      "prefix": "00XXX0XX00111010X111",
+      "suffix_weight": 2,
+      "mass": "11657612/826152189"
+    },
+    {
+      "prefix": "00XXX0XX00111X101X11",
+      "suffix_weight": 2,
+      "mass": "28639622/4130760945"
+    },
+    {
+      "prefix": "00XXXX0X011110X0XX11",
+      "suffix_weight": 0,
+      "mass": "2473762/826152189"
+    },
+    {
+      "prefix": "00XXXX10X0011101X101",
+      "suffix_weight": 1,
+      "mass": "470236/826152189"
+    },
+    {
+      "prefix": "00XXXXX00XX0X0X00X00",
+      "suffix_weight": 0,
+      "mass": "376972484/4130760945"
+    },
+    {
+      "prefix": "00XXXXX1X1X00X001111",
+      "suffix_weight": 0,
+      "mass": "68650/826152189"
+    },
+    {
+      "prefix": "010000010X0011XXXXXX",
+      "suffix_weight": 1,
+      "mass": "1969142/4130760945"
+    },
+    {
+      "prefix": "010000011X1XXXX1X10X",
+      "suffix_weight": 1,
+      "mass": "2823022/275384063"
+    },
+    {
+      "prefix": "01000001X0XX0X010X00",
+      "suffix_weight": 2,
+      "mass": "45578374/4130760945"
+    },
+    {
+      "prefix": "0100000X0011XX1XXXXX",
+      "suffix_weight": 1,
+      "mass": "3791252/4130760945"
+    },
+    {
+      "prefix": "01000011XX1X11100XX0",
+      "suffix_weight": 1,
+      "mass": "10593508/1376920315"
+    },
+    {
+      "prefix": "010000X011X1XXXX1X10",
+      "suffix_weight": 1,
+      "mass": "134051978/4130760945"
+    },
+    {
+      "prefix": "010000X0X0XX0011XXXX",
+      "suffix_weight": 1,
+      "mass": "70356982/4130760945"
+    },
+    {
+      "prefix": "010000X0X0XXX0X0XX00",
+      "suffix_weight": 1,
+      "mass": "9562448/1376920315"
+    },
+    {
+      "prefix": "010000XX001X1X110XXX",
+      "suffix_weight": 1,
+      "mass": "15064502/4130760945"
+    },
+    {
+      "prefix": "010000XXXX0011XX1X1X",
+      "suffix_weight": 1,
+      "mass": "3512762/4130760945"
+    },
+    {
+      "prefix": "010000XXXX0XX0011X10",
+      "suffix_weight": 1,
+      "mass": "11861704/826152189"
+    },
+    {
+      "prefix": "010000XXXXX0XX0011X1",
+      "suffix_weight": 1,
+      "mass": "15316978/826152189"
+    },
+    {
+      "prefix": "010001100XX001X110X1",
+      "suffix_weight": 2,
+      "mass": "3821096/1376920315"
+    },
+    {
+      "prefix": "010001110XX1X1X001X1",
+      "suffix_weight": 1,
+      "mass": "4679164/1376920315"
+    },
+    {
+      "prefix": "01000111X1110X1XXX01",
+      "suffix_weight": 2,
+      "mass": "10279326/1376920315"
+    },
+    {
+      "prefix": "0100011X11110X1X0XX1",
+      "suffix_weight": 2,
+      "mass": "28232644/4130760945"
+    },
+    {
+      "prefix": "0100011XX110111X10X0",
+      "suffix_weight": 2,
+      "mass": "11841722/1376920315"
+    },
+    {
+      "prefix": "0100011XX1110X1X0X01",
+      "suffix_weight": 1,
+      "mass": "14093894/4130760945"
+    },
+    {
+      "prefix": "0100011XX1110X1X1000",
+      "suffix_weight": 1,
+      "mass": "105378/1376920315"
+    },
+    {
+      "prefix": "0100011XX1110X1XX100",
+      "suffix_weight": 1,
+      "mass": "29473246/4130760945"
+    },
+    {
+      "prefix": "0100011XX1111X1100X0",
+      "suffix_weight": 2,
+      "mass": "96109918/4130760945"
+    },
+    {
+      "prefix": "0100011XX1111X1X1000",
+      "suffix_weight": 2,
+      "mass": "2593526/826152189"
+    },
+    {
+      "prefix": "0100011XXXX110X10X1X",
+      "suffix_weight": 0,
+      "mass": "7518562/4130760945"
+    },
+    {
+      "prefix": "01000XXXX1010X0X00X0",
+      "suffix_weight": 0,
+      "mass": "40530944/4130760945"
+    },
+    {
+      "prefix": "01001011X010000XX01X",
+      "suffix_weight": 1,
+      "mass": "49714702/4130760945"
+    },
+    {
+      "prefix": "01001111X10X100X0110",
+      "suffix_weight": 1,
+      "mass": "3653192/275384063"
+    },
+    {
+      "prefix": "0100111X0111X1X0X1X1",
+      "suffix_weight": 2,
+      "mass": "4791482/4130760945"
+    },
+    {
+      "prefix": "010011X10111X1X1XXX1",
+      "suffix_weight": 2,
+      "mass": "25301672/1376920315"
+    },
+    {
+      "prefix": "010011X1111XX1X0X1XX",
+      "suffix_weight": 1,
+      "mass": "46379438/4130760945"
+    },
+    {
+      "prefix": "010011X1111XX1XXX1X1",
+      "suffix_weight": 2,
+      "mass": "16056716/4130760945"
+    },
+    {
+      "prefix": "010011XX1111X1X011XX",
+      "suffix_weight": 2,
+      "mass": "7046228/826152189"
+    },
+    {
+      "prefix": "01001X0001X00011X100",
+      "suffix_weight": 2,
+      "mass": "110954398/4130760945"
+    },
+    {
+      "prefix": "01001X0X011X10100110",
+      "suffix_weight": 1,
+      "mass": "67062/1376920315"
+    },
+    {
+      "prefix": "0100X0011XX101011010",
+      "suffix_weight": 2,
+      "mass": "54046966/4130760945"
+    },
+    {
+      "prefix": "0100X0011XX110011001",
+      "suffix_weight": 2,
+      "mass": "3551312/826152189"
+    },
+    {
+      "prefix": "0100X0011XX110X11001",
+      "suffix_weight": 2,
+      "mass": "1358876/826152189"
+    },
+    {
+      "prefix": "0100X0X10X0X01101XX1",
+      "suffix_weight": 1,
+      "mass": "11323044/1376920315"
+    },
+    {
+      "prefix": "010101000XX001X110X1",
+      "suffix_weight": 2,
+      "mass": "14228380/826152189"
+    },
+    {
+      "prefix": "01010100XXX0011X1011",
+      "suffix_weight": 2,
+      "mass": "938546/4130760945"
+    },
+    {
+      "prefix": "010101011X00X0100011",
+      "suffix_weight": 2,
+      "mass": "126195488/4130760945"
+    },
+    {
+      "prefix": "01010X00011X101X0101",
+      "suffix_weight": 2,
+      "mass": "15408116/1376920315"
+    },
+    {
+      "prefix": "01010X00011X101X01X1",
+      "suffix_weight": 2,
+      "mass": "4077836/275384063"
+    },
+    {
+      "prefix": "01010X00011X1X10XX11",
+      "suffix_weight": 2,
+      "mass": "55775198/4130760945"
+    },
+    {
+      "prefix": "01010X0X011X1010XX11",
+      "suffix_weight": 1,
+      "mass": "757752/1376920315"
+    },
+    {
+      "prefix": "01010XX001111001X101",
+      "suffix_weight": 2,
+      "mass": "29172572/1376920315"
+    },
+    {
+      "prefix": "01010XX00111100XX111",
+      "suffix_weight": 2,
+      "mass": "3206182/826152189"
+    },
+    {
+      "prefix": "01010XX001111010X101",
+      "suffix_weight": 2,
+      "mass": "3811714/1376920315"
+    },
+    {
+      "prefix": "01010XX0011110XX1011",
+      "suffix_weight": 2,
+      "mass": "105834446/4130760945"
+    },
+    {
+      "prefix": "01010XX0011X1010XX11",
+      "suffix_weight": 1,
+      "mass": "7079766/1376920315"
+    },
+    {
+      "prefix": "01010XX0011X101X1011",
+      "suffix_weight": 2,
+      "mass": "702152/4130760945"
+    },
+    {
+      "prefix": "0101X00X001X110111XX",
+      "suffix_weight": 2,
+      "mass": "7594192/826152189"
+    },
+    {
+      "prefix": "0101X010X00111X10101",
+      "suffix_weight": 2,
+      "mass": "15408116/1376920315"
+    },
+    {
+      "prefix": "010X0011XXXXXX111111",
+      "suffix_weight": 2,
+      "mass": "1655522/826152189"
+    },
+    {
+      "prefix": "010X0011XXXXXX11X111",
+      "suffix_weight": 1,
+      "mass": "967018/4130760945"
+    },
+    {
+      "prefix": "010X001X110111110X0X",
+      "suffix_weight": 2,
+      "mass": "91942892/4130760945"
+    },
+    {
+      "prefix": "010X0100011X10XXXX11",
+      "suffix_weight": 1,
+      "mass": "470236/826152189"
+    },
+    {
+      "prefix": "010X0100011X1XX0XX11",
+      "suffix_weight": 1,
+      "mass": "5905758/275384063"
+    },
+    {
+      "prefix": "010X011000011XX10101",
+      "suffix_weight": 2,
+      "mass": "29172572/1376920315"
+    },
+    {
+      "prefix": "010X01100001X1XX1X11",
+      "suffix_weight": 2,
+      "mass": "20330242/4130760945"
+    },
+    {
+      "prefix": "010X0111X1110X1X0XX1",
+      "suffix_weight": 1,
+      "mass": "1106062/826152189"
+    },
+    {
+      "prefix": "010X011X11100X11XX01",
+      "suffix_weight": 1,
+      "mass": "3016014/1376920315"
+    },
+    {
+      "prefix": "010X011X11101X1X0XX1",
+      "suffix_weight": 1,
+      "mass": "26783926/4130760945"
+    },
+    {
+      "prefix": "010X011X11110X110X01",
+      "suffix_weight": 2,
+      "mass": "49020676/4130760945"
+    },
+    {
+      "prefix": "010X011XX1101111X000",
+      "suffix_weight": 1,
+      "mass": "2282564/275384063"
+    },
+    {
+      "prefix": "010X011XX1110X110X01",
+      "suffix_weight": 1,
+      "mass": "6898816/4130760945"
+    },
+    {
+      "prefix": "010X101000011XX10101",
+      "suffix_weight": 2,
+      "mass": "3811714/1376920315"
+    },
+    {
+      "prefix": "010XX0100011X10X1X11",
+      "suffix_weight": 2,
+      "mass": "1585486/826152189"
+    },
+    {
+      "prefix": "010XXX00111111100100",
+      "suffix_weight": 2,
+      "mass": "12949198/4130760945"
+    },
+    {
+      "prefix": "010XXX00111111X10X10",
+      "suffix_weight": 2,
+      "mass": "3968912/1376920315"
+    },
+    {
+      "prefix": "010XXX0X00X01X0X0011",
+      "suffix_weight": 1,
+      "mass": "76197506/826152189"
+    },
+    {
+      "prefix": "011001100XX0011X1101",
+      "suffix_weight": 2,
+      "mass": "3551312/826152189"
+    },
+    {
+      "prefix": "01100X0X10X010100000",
+      "suffix_weight": 2,
+      "mass": "128603132/4130760945"
+    },
+    {
+      "prefix": "01100X100XX0011X1101",
+      "suffix_weight": 2,
+      "mass": "1358876/826152189"
+    },
+    {
+      "prefix": "01100X1010X0011X1011",
+      "suffix_weight": 2,
+      "mass": "17852102/4130760945"
+    },
+    {
+      "prefix": "01101110X1110X1XXXXX",
+      "suffix_weight": 0,
+      "mass": "181026154/4130760945"
+    },
+    {
+      "prefix": "0110X00X01110X10101X",
+      "suffix_weight": 1,
+      "mass": "12734832/1376920315"
+    },
+    {
+      "prefix": "0110X010X001X1XX1111",
+      "suffix_weight": 2,
+      "mass": "8577904/4130760945"
+    },
+    {
+      "prefix": "0110X10X00XX100X011X",
+      "suffix_weight": 0,
+      "mass": "88292654/4130760945"
+    },
+    {
+      "prefix": "011101X111011X0X1X1X",
+      "suffix_weight": 2,
+      "mass": "78560732/826152189"
+    },
+    {
+      "prefix": "01110X0X000011XXX110",
+      "suffix_weight": 1,
+      "mass": "6231142/4130760945"
+    },
+    {
+      "prefix": "01111001XX11X1XXXX01",
+      "suffix_weight": 0,
+      "mass": "76164482/1376920315"
+    },
+    {
+      "prefix": "0111101X10X100110XX1",
+      "suffix_weight": 1,
+      "mass": "4755310/275384063"
+    },
+    {
+      "prefix": "01111100X10X1XX1100X",
+      "suffix_weight": 0,
+      "mass": "13530782/4130760945"
+    },
+    {
+      "prefix": "01111X1110XX1X11XX10",
+      "suffix_weight": 2,
+      "mass": "209144896/4130760945"
+    },
+    {
+      "prefix": "01111XX1101100X0X010",
+      "suffix_weight": 0,
+      "mass": "90371458/4130760945"
+    },
+    {
+      "prefix": "0111X0X1X1XX1X1X111X",
+      "suffix_weight": 1,
+      "mass": "7732882/1376920315"
+    },
+    {
+      "prefix": "0111X0XX000001X1XXX1",
+      "suffix_weight": 0,
+      "mass": "2283824/4130760945"
+    },
+    {
+      "prefix": "0111X1010X0X11XX1011",
+      "suffix_weight": 1,
+      "mass": "138653756/4130760945"
+    },
+    {
+      "prefix": "0111XX10X1X10X0X11X1",
+      "suffix_weight": 0,
+      "mass": "39841178/4130760945"
+    },
+    {
+      "prefix": "0111XXX00100X0011X10",
+      "suffix_weight": 0,
+      "mass": "31353416/4130760945"
+    },
+    {
+      "prefix": "011X00XXXX0100X0X000",
+      "suffix_weight": 0,
+      "mass": "144241648/4130760945"
+    },
+    {
+      "prefix": "011X0XX0100100001XX1",
+      "suffix_weight": 1,
+      "mass": "57062174/1376920315"
+    },
+    {
+      "prefix": "011X101000010001X11X",
+      "suffix_weight": 2,
+      "mass": "62397242/4130760945"
+    },
+    {
+      "prefix": "011X101X1X1X01111X0X",
+      "suffix_weight": 1,
+      "mass": "57088122/1376920315"
+    },
+    {
+      "prefix": "011X101X1X1X011X1X00",
+      "suffix_weight": 0,
+      "mass": "5151374/4130760945"
+    },
+    {
+      "prefix": "011X110X1X100111X01X",
+      "suffix_weight": 1,
+      "mass": "39418106/4130760945"
+    },
+    {
+      "prefix": "011X110XXX1XX011111X",
+      "suffix_weight": 1,
+      "mass": "29395136/4130760945"
+    },
+    {
+      "prefix": "011X1X100X1110X11110",
+      "suffix_weight": 2,
+      "mass": "52829362/4130760945"
+    },
+    {
+      "prefix": "011X1X10XXX1X1111XX1",
+      "suffix_weight": 1,
+      "mass": "12919226/275384063"
+    },
+    {
+      "prefix": "011X1X10XXX1X1X1111X",
+      "suffix_weight": 1,
+      "mass": "21358552/275384063"
+    },
+    {
+      "prefix": "011X1XXX110XXX1111X1",
+      "suffix_weight": 1,
+      "mass": "7104646/1376920315"
+    },
+    {
+      "prefix": "011X1XXXX1XXX11111X1",
+      "suffix_weight": 1,
+      "mass": "42331280/826152189"
+    },
+    {
+      "prefix": "011X1XXXXX1X1X1111X1",
+      "suffix_weight": 1,
+      "mass": "4835210/275384063"
+    },
+    {
+      "prefix": "011X1XXXXX1X1X111X11",
+      "suffix_weight": 1,
+      "mass": "288823858/4130760945"
+    },
+    {
+      "prefix": "011XX0X1000X0001XX11",
+      "suffix_weight": 1,
+      "mass": "20543792/4130760945"
+    },
+    {
+      "prefix": "011XX1X1100XX111X11X",
+      "suffix_weight": 1,
+      "mass": "143770588/4130760945"
+    },
+    {
+      "prefix": "011XX1X110XX1X1111XX",
+      "suffix_weight": 1,
+      "mass": "34105822/4130760945"
+    },
+    {
+      "prefix": "011XX1X110XX1X11X1X1",
+      "suffix_weight": 1,
+      "mass": "183203678/4130760945"
+    },
+    {
+      "prefix": "011XX1X110XX1X1X111X",
+      "suffix_weight": 1,
+      "mass": "968524/4130760945"
+    },
+    {
+      "prefix": "011XX1XXX10111XX11X1",
+      "suffix_weight": 1,
+      "mass": "84561456/1376920315"
+    },
+    {
+      "prefix": "01X001000XX0011X1XX1",
+      "suffix_weight": 2,
+      "mass": "12532916/4130760945"
+    },
+    {
+      "prefix": "01X00100X100011X101X",
+      "suffix_weight": 2,
+      "mass": "2944226/826152189"
+    },
+    {
+      "prefix": "01X00100XXX001XX1X11",
+      "suffix_weight": 1,
+      "mass": "39875036/4130760945"
+    },
+    {
+      "prefix": "01X00X001111011001XX",
+      "suffix_weight": 2,
+      "mass": "10933742/826152189"
+    },
+    {
+      "prefix": "01X00X001X00011X1X10",
+      "suffix_weight": 2,
+      "mass": "305402/1376920315"
+    },
+    {
+      "prefix": "01X00X00XXX001X11011",
+      "suffix_weight": 2,
+      "mass": "737496/1376920315"
+    },
+    {
+      "prefix": "01X00X011101X11XX1XX",
+      "suffix_weight": 1,
+      "mass": "28731914/1376920315"
+    },
+    {
+      "prefix": "01X00X100X00011X101X",
+      "suffix_weight": 2,
+      "mass": "26138672/4130760945"
+    },
+    {
+      "prefix": "01X00XX0001X1101X011",
+      "suffix_weight": 2,
+      "mass": "24383932/4130760945"
+    },
+    {
+      "prefix": "01X00XX00100011X1010",
+      "suffix_weight": 2,
+      "mass": "1368768/275384063"
+    },
+    {
+      "prefix": "01X00XX0011X10110XXX",
+      "suffix_weight": 0,
+      "mass": "104819324/4130760945"
+    },
+    {
+      "prefix": "01X00XX01000011X1010",
+      "suffix_weight": 2,
+      "mass": "3762794/4130760945"
+    },
+    {
+      "prefix": "01X010X0101X00X0111X",
+      "suffix_weight": 1,
+      "mass": "35346556/4130760945"
+    },
+    {
+      "prefix": "01X0X001111X1XXX1110",
+      "suffix_weight": 2,
+      "mass": "103908106/4130760945"
+    },
+    {
+      "prefix": "01X0X01000111X100X11",
+      "suffix_weight": 2,
+      "mass": "1529638/4130760945"
+    },
+    {
+      "prefix": "01X0X0XX00111010X111",
+      "suffix_weight": 2,
+      "mass": "23931236/4130760945"
+    },
+    {
+      "prefix": "01X0X0XX0011101XX111",
+      "suffix_weight": 2,
+      "mass": "10175956/4130760945"
+    },
+    {
+      "prefix": "01X0X0XX00111X0X1X11",
+      "suffix_weight": 1,
+      "mass": "34049506/1376920315"
+    },
+    {
+      "prefix": "01X0X0XX00111X1XX111",
+      "suffix_weight": 2,
+      "mass": "5100662/4130760945"
+    },
+    {
+      "prefix": "01X100X10000X001X101",
+      "suffix_weight": 2,
+      "mass": "49020676/4130760945"
+    },
+    {
+      "prefix": "01X100X1000XX001X101",
+      "suffix_weight": 1,
+      "mass": "6898816/4130760945"
+    },
+    {
+      "prefix": "01X100XXX0XX0011111X",
+      "suffix_weight": 1,
+      "mass": "26993206/4130760945"
+    },
+    {
+      "prefix": "01X100XXX0XX001111X1",
+      "suffix_weight": 1,
+      "mass": "8581268/4130760945"
+    },
+    {
+      "prefix": "01X10100000011X1X01X",
+      "suffix_weight": 2,
+      "mass": "38057978/4130760945"
+    },
+    {
+      "prefix": "01X1010X000011X11010",
+      "suffix_weight": 2,
+      "mass": "11832298/4130760945"
+    },
+    {
+      "prefix": "01X10X0X000011XXX111",
+      "suffix_weight": 2,
+      "mass": "21490346/4130760945"
+    },
+    {
+      "prefix": "01X111X11X1X0XX1X1X1",
+      "suffix_weight": 1,
+      "mass": "66689032/4130760945"
+    },
+    {
+      "prefix": "01X111X1X11110011XXX",
+      "suffix_weight": 2,
+      "mass": "78953424/1376920315"
+    },
+    {
+      "prefix": "01X11X1X0XX0110011X1",
+      "suffix_weight": 0,
+      "mass": "145124/826152189"
+    },
+    {
+      "prefix": "01X1X00XXX0X001111X1",
+      "suffix_weight": 1,
+      "mass": "5771738/275384063"
+    },
+    {
+      "prefix": "01X1X0X0100001X1XXX1",
+      "suffix_weight": 0,
+      "mass": "50314972/4130760945"
+    },
+    {
+      "prefix": "01X1X0X1000XX0011101",
+      "suffix_weight": 1,
+      "mass": "14093894/4130760945"
+    },
+    {
+      "prefix": "01X1X0X1000XX001X111",
+      "suffix_weight": 1,
+      "mass": "2754998/826152189"
+    },
+    {
+      "prefix": "01X1X11X111X0X01011X",
+      "suffix_weight": 1,
+      "mass": "47457782/4130760945"
+    },
+    {
+      "prefix": "01X1XX1X1100X111X11X",
+      "suffix_weight": 1,
+      "mass": "16171616/826152189"
+    },
+    {
+      "prefix": "01X1XX1X1100X11X111X",
+      "suffix_weight": 1,
+      "mass": "76691506/4130760945"
+    },
+    {
+      "prefix": "01X1XX1X1100X1X1111X",
+      "suffix_weight": 1,
+      "mass": "80043742/4130760945"
+    },
+    {
+      "prefix": "01XX0000100X011X01XX",
+      "suffix_weight": 1,
+      "mass": "60452252/4130760945"
+    },
+    {
+      "prefix": "01XX00101000011X1010",
+      "suffix_weight": 2,
+      "mass": "467428/826152189"
+    },
+    {
+      "prefix": "01XX00X11000X001X101",
+      "suffix_weight": 1,
+      "mass": "3016014/1376920315"
+    },
+    {
+      "prefix": "01XX010010X0011X1011",
+      "suffix_weight": 2,
+      "mass": "624764/1376920315"
+    },
+    {
+      "prefix": "01XX01001X000X0X1000",
+      "suffix_weight": 1,
+      "mass": "5378672/4130760945"
+    },
+    {
+      "prefix": "01XXX0X0100001X1XXX1",
+      "suffix_weight": 0,
+      "mass": "204742/826152189"
+    },
+    {
+      "prefix": "01XXX0X1000X00011101",
+      "suffix_weight": 2,
+      "mass": "10279326/1376920315"
+    },
+    {
+      "prefix": "01XXXX0X00XX01100001",
+      "suffix_weight": 0,
+      "mass": "76164482/1376920315"
+    },
+    {
+      "prefix": "0X00000011XX1XXXX1X0",
+      "suffix_weight": 1,
+      "mass": "85057124/4130760945"
+    },
+    {
+      "prefix": "0X0000011X110XXX1XX0",
+      "suffix_weight": 1,
+      "mass": "61145998/4130760945"
+    },
+    {
+      "prefix": "0X0000011X11X0XXX1X0",
+      "suffix_weight": 1,
+      "mass": "757106/1376920315"
+    },
+    {
+      "prefix": "0X0000011X1XXX1XXX10",
+      "suffix_weight": 1,
+      "mass": "6946292/4130760945"
+    },
+    {
+      "prefix": "0X0000011X1XXXX1XXX1",
+      "suffix_weight": 1,
+      "mass": "1792228/826152189"
+    },
+    {
+      "prefix": "0X0000011X1XXXXX1X1X",
+      "suffix_weight": 1,
+      "mass": "14009284/4130760945"
+    },
+    {
+      "prefix": "0X000001X0XXX0XX0X00",
+      "suffix_weight": 1,
+      "mass": "72865756/4130760945"
+    },
+    {
+      "prefix": "0X000001X1X00XXX0X00",
+      "suffix_weight": 1,
+      "mass": "6702338/4130760945"
+    },
+    {
+      "prefix": "0X00000X0011XX1XXXXX",
+      "suffix_weight": 1,
+      "mass": "135188/826152189"
+    },
+    {
+      "prefix": "0X00000XXX0XXXX0X001",
+      "suffix_weight": 1,
+      "mass": "42331280/826152189"
+    },
+    {
+      "prefix": "0X0000100011X1XXXXX0",
+      "suffix_weight": 1,
+      "mass": "10041478/4130760945"
+    },
+    {
+      "prefix": "0X0000100X0011XXXXXX",
+      "suffix_weight": 1,
+      "mass": "19665266/1376920315"
+    },
+    {
+      "prefix": "0X0000100XX0X011XXXX",
+      "suffix_weight": 1,
+      "mass": "26612804/1376920315"
+    },
+    {
+      "prefix": "0X000010X0XXXX0X001X",
+      "suffix_weight": 1,
+      "mass": "7206818/4130760945"
+    },
+    {
+      "prefix": "0X0000111XX110XXX1XX",
+      "suffix_weight": 1,
+      "mass": "55448236/4130760945"
+    },
+    {
+      "prefix": "0X000011X110XX1XXX1X",
+      "suffix_weight": 1,
+      "mass": "14338/3698085"
+    },
+    {
+      "prefix": "0X000011X1110X01XX0X",
+      "suffix_weight": 1,
+      "mass": "13127286/1376920315"
+    },
+    {
+      "prefix": "0X000011X1XX1XXXX1X1",
+      "suffix_weight": 1,
+      "mass": "12464672/4130760945"
+    },
+    {
+      "prefix": "0X000011X1XXX11X0X01",
+      "suffix_weight": 1,
+      "mass": "5771738/275384063"
+    },
+    {
+      "prefix": "0X000011XX1XX1XXX1X1",
+      "suffix_weight": 1,
+      "mass": "94300484/4130760945"
+    },
+    {
+      "prefix": "0X000011XX1XXX110X01",
+      "suffix_weight": 1,
+      "mass": "8581268/4130760945"
+    },
+    {
+      "prefix": "0X00001X101X00X0XX00",
+      "suffix_weight": 1,
+      "mass": "94534388/4130760945"
+    },
+    {
+      "prefix": "0X00001XX100XX0X001X",
+      "suffix_weight": 1,
+      "mass": "49609784/4130760945"
+    },
+    {
+      "prefix": "0X0000X011X11X0X1XXX",
+      "suffix_weight": 1,
+      "mass": "6267832/1376920315"
+    },
+    {
+      "prefix": "0X0000X011X1XX110XX0",
+      "suffix_weight": 1,
+      "mass": "72535034/4130760945"
+    },
+    {
+      "prefix": "0X0000X011X1XXXX1X1X",
+      "suffix_weight": 1,
+      "mass": "8494868/1376920315"
+    },
+    {
+      "prefix": "0X0000X011XX1XX1XX1X",
+      "suffix_weight": 1,
+      "mass": "60121252/4130760945"
+    },
+    {
+      "prefix": "0X0000X0X0XXX0011XXX",
+      "suffix_weight": 1,
+      "mass": "38573994/1376920315"
+    },
+    {
+      "prefix": "0X0000X0X0XXXXX0X001",
+      "suffix_weight": 1,
+      "mass": "4835210/275384063"
+    },
+    {
+      "prefix": "0X0000X0XX0XX0XX001X",
+      "suffix_weight": 1,
+      "mass": "40930210/826152189"
+    },
+    {
+      "prefix": "0X0000X0XXXX0XX0011X",
+      "suffix_weight": 1,
+      "mass": "65460416/4130760945"
+    },
+    {
+      "prefix": "0X0000X10X0011X1XXXX",
+      "suffix_weight": 1,
+      "mass": "12730220/826152189"
+    },
+    {
+      "prefix": "0X0000X10X001X1XX1XX",
+      "suffix_weight": 1,
+      "mass": "50504288/4130760945"
+    },
+    {
+      "prefix": "0X0000X10X0X0011XXXX",
+      "suffix_weight": 1,
+      "mass": "15318728/4130760945"
+    },
+    {
+      "prefix": "0X0000X10X0XXX0X001X",
+      "suffix_weight": 1,
+      "mass": "166283894/4130760945"
+    },
+    {
+      "prefix": "0X0000X10X0XXXX0011X",
+      "suffix_weight": 1,
+      "mass": "43515434/4130760945"
+    },
+    {
+      "prefix": "0X0000XX0X0XXX0XX000",
+      "suffix_weight": 1,
+      "mass": "392986/275384063"
+    },
+    {
+      "prefix": "0X0000XXX0011X11X0XX",
+      "suffix_weight": 1,
+      "mass": "37214612/4130760945"
+    },
+    {
+      "prefix": "0X0000XXX0011X1XX10X",
+      "suffix_weight": 1,
+      "mass": "63555346/4130760945"
+    },
+    {
+      "prefix": "0X0000XXX0011XXX1X1X",
+      "suffix_weight": 1,
+      "mass": "90560402/4130760945"
+    },
+    {
+      "prefix": "0X0000XXX100XXX0X001",
+      "suffix_weight": 1,
+      "mass": "7104646/1376920315"
+    },
+    {
+      "prefix": "0X0000XXXX001X1XX110",
+      "suffix_weight": 1,
+      "mass": "100688414/4130760945"
+    },
+    {
+      "prefix": "0X0000XXXX0XXX001110",
+      "suffix_weight": 1,
+      "mass": "99092786/4130760945"
+    },
+    {
+      "prefix": "0X0000XXXXX0011X110X",
+      "suffix_weight": 1,
+      "mass": "73325498/4130760945"
+    },
+    {
+      "prefix": "0X00010XXX0XX0X10000",
+      "suffix_weight": 1,
+      "mass": "39821576/826152189"
+    },
+    {
+      "prefix": "0X000X0XX0011X1XXXX1",
+      "suffix_weight": 1,
+      "mass": "221947334/4130760945"
+    },
+    {
+      "prefix": "0X00100011XX011XX1X1",
+      "suffix_weight": 2,
+      "mass": "72833224/4130760945"
+    },
+    {
+      "prefix": "0X0011001XX1X0X00X01",
+      "suffix_weight": 0,
+      "mass": "145124/826152189"
+    },
+    {
+      "prefix": "0X00111X011XX1X0X1XX",
+      "suffix_weight": 0,
+      "mass": "19381076/4130760945"
+    },
+    {
+      "prefix": "0X00111X011XX1XXX10X",
+      "suffix_weight": 0,
+      "mass": "9979124/1376920315"
+    },
+    {
+      "prefix": "0X0011X1011101X0X1X1",
+      "suffix_weight": 2,
+      "mass": "4384706/4130760945"
+    },
+    {
+      "prefix": "0X0011X1011101XXX1X1",
+      "suffix_weight": 2,
+      "mass": "24350/826152189"
+    },
+    {
+      "prefix": "0X0011X10111X1XX11XX",
+      "suffix_weight": 2,
+      "mass": "25532768/1376920315"
+    },
+    {
+      "prefix": "0X0011X10111X1XXX11X",
+      "suffix_weight": 2,
+      "mass": "18372242/1376920315"
+    },
+    {
+      "prefix": "0X0011X1011XX1XXX1X1",
+      "suffix_weight": 1,
+      "mass": "140211004/4130760945"
+    },
+    {
+      "prefix": "0X0011X1111XX1X0X1XX",
+      "suffix_weight": 1,
+      "mass": "1981134/275384063"
+    },
+    {
+      "prefix": "0X0011X1X1001XX11100",
+      "suffix_weight": 1,
+      "mass": "43289064/1376920315"
+    },
+    {
+      "prefix": "0X0011XX1111X1X101XX",
+      "suffix_weight": 2,
+      "mass": "41209688/4130760945"
+    },
+    {
+      "prefix": "0X0011XX1111X1XX11XX",
+      "suffix_weight": 2,
+      "mass": "38236702/4130760945"
+    },
+    {
+      "prefix": "0X0011XX1XXXXX111101",
+      "suffix_weight": 1,
+      "mass": "15316978/826152189"
+    },
+    {
+      "prefix": "0X0011XX1XXXXX111110",
+      "suffix_weight": 1,
+      "mass": "153172736/4130760945"
+    },
+    {
+      "prefix": "0X0011XX1XXXXX111X11",
+      "suffix_weight": 1,
+      "mass": "89104378/4130760945"
+    },
+    {
+      "prefix": "0X0011XX1XXXXX11X111",
+      "suffix_weight": 1,
+      "mass": "23230120/826152189"
+    },
+    {
+      "prefix": "0X001XXX0X0X0X011111",
+      "suffix_weight": 2,
+      "mass": "35203814/4130760945"
+    },
+    {
+      "prefix": "0X00X0011X1X10XXX1X1",
+      "suffix_weight": 1,
+      "mass": "41693222/826152189"
+    },
+    {
+      "prefix": "0X00X0011XX1X110XX1X",
+      "suffix_weight": 1,
+      "mass": "64284424/1376920315"
+    },
+    {
+      "prefix": "0X00X00XXXX0X0011XX1",
+      "suffix_weight": 1,
+      "mass": "47990822/1376920315"
+    },
+    {
+      "prefix": "0X00X0X011X0X0X0X01X",
+      "suffix_weight": 0,
+      "mass": "32346356/4130760945"
+    },
+    {
+      "prefix": "0X00X110X010000XX01X",
+      "suffix_weight": 1,
+      "mass": "8993876/275384063"
+    },
+    {
+      "prefix": "0X00X1X000111X1X1XX1",
+      "suffix_weight": 2,
+      "mass": "3029224/4130760945"
+    },
+    {
+      "prefix": "0X00X1X10X0X10XX0001",
+      "suffix_weight": 0,
+      "mass": "39841178/4130760945"
+    },
+    {
+      "prefix": "0X00XX00010XXX0XX001",
+      "suffix_weight": 1,
+      "mass": "84561456/1376920315"
+    },
+    {
+      "prefix": "0X00XX001X11010110XX",
+      "suffix_weight": 1,
+      "mass": "7035916/275384063"
+    },
+    {
+      "prefix": "0X00XX0X011110X0X111",
+      "suffix_weight": 2,
+      "mass": "90456914/4130760945"
+    },
+    {
+      "prefix": "0X00XX0X100X0X01XX11",
+      "suffix_weight": 1,
+      "mass": "51145802/1376920315"
+    },
+    {
+      "prefix": "0X01010001X11010XX11",
+      "suffix_weight": 2,
+      "mass": "21531944/4130760945"
+    },
+    {
+      "prefix": "0X01010X0011X10110XX",
+      "suffix_weight": 1,
+      "mass": "142276/1376920315"
+    },
+    {
+      "prefix": "0X010X00011X101010X1",
+      "suffix_weight": 2,
+      "mass": "6670536/1376920315"
+    },
+    {
+      "prefix": "0X010X0X01111010X011",
+      "suffix_weight": 2,
+      "mass": "29284/1376920315"
+    },
+    {
+      "prefix": "0X010X0X01111010XX11",
+      "suffix_weight": 2,
+      "mass": "14558494/4130760945"
+    },
+    {
+      "prefix": "0X010X0X011110X0X111",
+      "suffix_weight": 2,
+      "mass": "28732784/4130760945"
+    },
+    {
+      "prefix": "0X010X0X011110X0XX11",
+      "suffix_weight": 1,
+      "mass": "21867538/4130760945"
+    },
+    {
+      "prefix": "0X010X10X0X00X010000",
+      "suffix_weight": 2,
+      "mass": "58176014/1376920315"
+    },
+    {
+      "prefix": "0X010XXX001111111000",
+      "suffix_weight": 2,
+      "mass": "15613046/1376920315"
+    },
+    {
+      "prefix": "0X0110100X01X00X1000",
+      "suffix_weight": 1,
+      "mass": "90823652/4130760945"
+    },
+    {
+      "prefix": "0X011110110X1X0X111X",
+      "suffix_weight": 2,
+      "mass": "7913902/826152189"
+    },
+    {
+      "prefix": "0X01111X010X110X111X",
+      "suffix_weight": 2,
+      "mass": "10225472/4130760945"
+    },
+    {
+      "prefix": "0X0111XX00100100X000",
+      "suffix_weight": 1,
+      "mass": "13465196/4130760945"
+    },
+    {
+      "prefix": "0X011X0X0XX100011101",
+      "suffix_weight": 1,
+      "mass": "4679164/1376920315"
+    },
+    {
+      "prefix": "0X011X111011XXX01XXX",
+      "suffix_weight": 0,
+      "mass": "327448588/4130760945"
+    },
+    {
+      "prefix": "0X011XX101XX01X11111",
+      "suffix_weight": 2,
+      "mass": "1162396/1376920315"
+    },
+    {
+      "prefix": "0X01X010X00111X10101",
+      "suffix_weight": 2,
+      "mass": "4077836/275384063"
+    },
+    {
+      "prefix": "0X01XX00000011X1X010",
+      "suffix_weight": 2,
+      "mass": "12916/275384063"
+    },
+    {
+      "prefix": "0X01XX000000XX0011X0",
+      "suffix_weight": 2,
+      "mass": "52108886/4130760945"
+    },
+    {
+      "prefix": "0X0X00011XX1X110XX1X",
+      "suffix_weight": 1,
+      "mass": "34840826/1376920315"
+    },
+    {
+      "prefix": "0X0X000XXXX0X0011XX1",
+      "suffix_weight": 1,
+      "mass": "22539154/826152189"
+    },
+    {
+      "prefix": "0X0X0011XXXXXX11X111",
+      "suffix_weight": 1,
+      "mass": "1935404/4130760945"
+    },
+    {
+      "prefix": "0X0X00X0XX100X0XX001",
+      "suffix_weight": 1,
+      "mass": "183203678/4130760945"
+    },
+    {
+      "prefix": "0X0X0111X0011111XXX1",
+      "suffix_weight": 2,
+      "mass": "1985206/826152189"
+    },
+    {
+      "prefix": "0X0X0X001X11X1X100X0",
+      "suffix_weight": 0,
+      "mass": "46973906/4130760945"
+    },
+    {
+      "prefix": "0X0X0X010000XX0011X0",
+      "suffix_weight": 2,
+      "mass": "38677074/1376920315"
+    },
+    {
+      "prefix": "0X0X0X0X00010X00110X",
+      "suffix_weight": 2,
+      "mass": "1394082/1376920315"
+    },
+    {
+      "prefix": "0X0X0XX1X0X00X000X01",
+      "suffix_weight": 1,
+      "mass": "66689032/4130760945"
+    },
+    {
+      "prefix": "0X0X10X00011110XX1X1",
+      "suffix_weight": 2,
+      "mass": "2140942/4130760945"
+    },
+    {
+      "prefix": "0X0X110X1000011X1XXX",
+      "suffix_weight": 0,
+      "mass": "24352438/1376920315"
+    },
+    {
+      "prefix": "0X0X1X0000010X001X10",
+      "suffix_weight": 2,
+      "mass": "901234/275384063"
+    },
+    {
+      "prefix": "0X0X1X0000100X0011X0",
+      "suffix_weight": 2,
+      "mass": "41020526/4130760945"
+    },
+    {
+      "prefix": "0X0X1X0100010X001110",
+      "suffix_weight": 2,
+      "mass": "6963986/1376920315"
+    },
+    {
+      "prefix": "0X0X1X0100010X0011X1",
+      "suffix_weight": 2,
+      "mass": "4384706/4130760945"
+    },
+    {
+      "prefix": "0X0X1X0X00010X00111X",
+      "suffix_weight": 2,
+      "mass": "310694/826152189"
+    },
+    {
+      "prefix": "0X0X1X0X0001X0001101",
+      "suffix_weight": 2,
+      "mass": "4791482/4130760945"
+    },
+    {
+      "prefix": "0X0X1XX000X0X0X00111",
+      "suffix_weight": 2,
+      "mass": "336373366/4130760945"
+    },
+    {
+      "prefix": "0X0XX001XX00111011X1",
+      "suffix_weight": 2,
+      "mass": "72833224/4130760945"
+    },
+    {
+      "prefix": "0X0XX0X00011110XX1X1",
+      "suffix_weight": 2,
+      "mass": "25896182/4130760945"
+    },
+    {
+      "prefix": "0X0XX0X00011X10X1X11",
+      "suffix_weight": 2,
+      "mass": "2414944/275384063"
+    },
+    {
+      "prefix": "0X0XX0X00011XX1X1X11",
+      "suffix_weight": 2,
+      "mass": "6623456/1376920315"
+    },
+    {
+      "prefix": "0X0XX0XX00111X1XX111",
+      "suffix_weight": 2,
+      "mass": "3671060/275384063"
+    },
+    {
+      "prefix": "0X0XX10000111X10X1X1",
+      "suffix_weight": 2,
+      "mass": "2140942/4130760945"
+    },
+    {
+      "prefix": "0X0XX10000111X1XX1X1",
+      "suffix_weight": 2,
+      "mass": "25896182/4130760945"
+    },
+    {
+      "prefix": "0X0XX1011000011XX10X",
+      "suffix_weight": 0,
+      "mass": "24172814/1376920315"
+    },
+    {
+      "prefix": "0X0XXX0100010X0011X1",
+      "suffix_weight": 2,
+      "mass": "24350/826152189"
+    },
+    {
+      "prefix": "0X0XXX0X00000X00110X",
+      "suffix_weight": 2,
+      "mass": "10548922/4130760945"
+    },
+    {
+      "prefix": "0X0XXX0X0000X00011XX",
+      "suffix_weight": 2,
+      "mass": "755314/826152189"
+    },
+    {
+      "prefix": "0X0XXX0X0001X00011XX",
+      "suffix_weight": 1,
+      "mass": "32816344/4130760945"
+    },
+    {
+      "prefix": "0X0XXX0XX0000X001101",
+      "suffix_weight": 2,
+      "mass": "16056716/4130760945"
+    },
+    {
+      "prefix": "0X0XXX0XX0010X0011X1",
+      "suffix_weight": 1,
+      "mass": "140211004/4130760945"
+    },
+    {
+      "prefix": "0X0XXX0XX001XX11111X",
+      "suffix_weight": 1,
+      "mass": "53654308/4130760945"
+    },
+    {
+      "prefix": "0X0XXX0XX0XX001111X1",
+      "suffix_weight": 1,
+      "mass": "94300484/4130760945"
+    },
+    {
+      "prefix": "0X0XXX10X0X001111X1X",
+      "suffix_weight": 1,
+      "mass": "37223446/4130760945"
+    },
+    {
+      "prefix": "0X0XXX10X0X00111X11X",
+      "suffix_weight": 1,
+      "mass": "30997746/1376920315"
+    },
+    {
+      "prefix": "0X0XXX10X0X0011X11X1",
+      "suffix_weight": 1,
+      "mass": "41693222/826152189"
+    },
+    {
+      "prefix": "0X0XXXX0011XXX111X11",
+      "suffix_weight": 1,
+      "mass": "16017316/1376920315"
+    },
+    {
+      "prefix": "0X0XXXX0XX0X001111X1",
+      "suffix_weight": 1,
+      "mass": "12464672/4130760945"
+    },
+    {
+      "prefix": "0X0XXXXX0X001X11111X",
+      "suffix_weight": 1,
+      "mass": "4073632/1376920315"
+    },
+    {
+      "prefix": "0X100011111XXXX11100",
+      "suffix_weight": 2,
+      "mass": "57178936/4130760945"
+    },
+    {
+      "prefix": "0X1000X000XX01XX0X00",
+      "suffix_weight": 1,
+      "mass": "1532032/275384063"
+    },
+    {
+      "prefix": "0X10010X0011XX11010X",
+      "suffix_weight": 1,
+      "mass": "37602654/1376920315"
+    },
+    {
+      "prefix": "0X10010X001X110110XX",
+      "suffix_weight": 1,
+      "mass": "14951042/4130760945"
+    },
+    {
+      "prefix": "0X10010X001X11011XXX",
+      "suffix_weight": 1,
+      "mass": "47216/826152189"
+    },
+    {
+      "prefix": "0X100X011XX110011101",
+      "suffix_weight": 2,
+      "mass": "3821096/1376920315"
+    },
+    {
+      "prefix": "0X100X011XX111010101",
+      "suffix_weight": 2,
+      "mass": "14228380/826152189"
+    },
+    {
+      "prefix": "0X100X0X0011X10110XX",
+      "suffix_weight": 1,
+      "mass": "7343686/4130760945"
+    },
+    {
+      "prefix": "0X100X100XX0011X1011",
+      "suffix_weight": 2,
+      "mass": "42142838/4130760945"
+    },
+    {
+      "prefix": "0X100XX0011XXX1111XX",
+      "suffix_weight": 1,
+      "mass": "62339696/4130760945"
+    },
+    {
+      "prefix": "0X100XX0011XXX1X111X",
+      "suffix_weight": 1,
+      "mass": "32313412/4130760945"
+    },
+    {
+      "prefix": "0X100XX0011XXXX1111X",
+      "suffix_weight": 1,
+      "mass": "69210628/4130760945"
+    },
+    {
+      "prefix": "0X101010X00111X101X1",
+      "suffix_weight": 2,
+      "mass": "6670536/1376920315"
+    },
+    {
+      "prefix": "0X1010X0X00111XX0111",
+      "suffix_weight": 2,
+      "mass": "86950658/4130760945"
+    },
+    {
+      "prefix": "0X101X0X000011X1X010",
+      "suffix_weight": 1,
+      "mass": "23736154/4130760945"
+    },
+    {
+      "prefix": "0X101X0X000011X1X011",
+      "suffix_weight": 2,
+      "mass": "11374076/826152189"
+    },
+    {
+      "prefix": "0X10X001100X001X1X11",
+      "suffix_weight": 2,
+      "mass": "47233774/1376920315"
+    },
+    {
+      "prefix": "0X10X010X0011XX10111",
+      "suffix_weight": 2,
+      "mass": "5464624/4130760945"
+    },
+    {
+      "prefix": "0X10X1XX00X0011XXX11",
+      "suffix_weight": 0,
+      "mass": "8445806/4130760945"
+    },
+    {
+      "prefix": "0X10XXXX00X0011XXX11",
+      "suffix_weight": 0,
+      "mass": "10326588/1376920315"
+    },
+    {
+      "prefix": "0X1100X0XX0X01111X1X",
+      "suffix_weight": 1,
+      "mass": "42210562/4130760945"
+    },
+    {
+      "prefix": "0X111000000011X1X010",
+      "suffix_weight": 2,
+      "mass": "7517686/4130760945"
+    },
+    {
+      "prefix": "0X11X00XX0X0011XXX11",
+      "suffix_weight": 0,
+      "mass": "22459006/4130760945"
+    },
+    {
+      "prefix": "0X11X0X0100001X1XXX1",
+      "suffix_weight": 0,
+      "mass": "11800126/1376920315"
+    },
+    {
+      "prefix": "0X1XX00011XX101011XX",
+      "suffix_weight": 0,
+      "mass": "40932754/1376920315"
+    },
+    {
+      "prefix": "0X1XX0X01000X0011XX1",
+      "suffix_weight": 1,
+      "mass": "28961498/1376920315"
+    },
+    {
+      "prefix": "0X1XX0X10100X001X111",
+      "suffix_weight": 1,
+      "mass": "21771448/4130760945"
+    },
+    {
+      "prefix": "0XX0000X0XXX10X0X001",
+      "suffix_weight": 1,
+      "mass": "12919226/275384063"
+    },
+    {
+      "prefix": "0XX0000XX0011X1XXXX1",
+      "suffix_weight": 1,
+      "mass": "29128262/1376920315"
+    },
+    {
+      "prefix": "0XX0000XXXX0X0011XX1",
+      "suffix_weight": 1,
+      "mass": "96528328/4130760945"
+    },
+    {
+      "prefix": "0XX001110X1X11X1X100",
+      "suffix_weight": 1,
+      "mass": "148246546/4130760945"
+    },
+    {
+      "prefix": "0XX001110XX11XX1X01X",
+      "suffix_weight": 0,
+      "mass": "22138766/4130760945"
+    },
+    {
+      "prefix": "0XX0011X11101X1XX0X1",
+      "suffix_weight": 1,
+      "mass": "28961498/1376920315"
+    },
+    {
+      "prefix": "0XX0011X1XXXX1111XX1",
+      "suffix_weight": 1,
+      "mass": "96528328/4130760945"
+    },
+    {
+      "prefix": "0XX0011X1XXXX111X11X",
+      "suffix_weight": 1,
+      "mass": "46339766/4130760945"
+    },
+    {
+      "prefix": "0XX0011X1XXXX111X1X1",
+      "suffix_weight": 1,
+      "mass": "22539154/826152189"
+    },
+    {
+      "prefix": "0XX0011X1XXXX11X11X1",
+      "suffix_weight": 1,
+      "mass": "47990822/1376920315"
+    },
+    {
+      "prefix": "0XX0011X1XXXX1X1111X",
+      "suffix_weight": 1,
+      "mass": "8158042/4130760945"
+    },
+    {
+      "prefix": "0XX001X000111X0X1X11",
+      "suffix_weight": 2,
+      "mass": "749924/4130760945"
+    },
+    {
+      "prefix": "0XX001X00011XX101X11",
+      "suffix_weight": 2,
+      "mass": "11718812/4130760945"
+    },
+    {
+      "prefix": "0XX001X00100011X1010",
+      "suffix_weight": 2,
+      "mass": "11688844/1376920315"
+    },
+    {
+      "prefix": "0XX00X0010X0011X1010",
+      "suffix_weight": 2,
+      "mass": "20073344/1376920315"
+    },
+    {
+      "prefix": "0XX00X001111010X11XX",
+      "suffix_weight": 2,
+      "mass": "2055242/4130760945"
+    },
+    {
+      "prefix": "0XX00X001X11011011XX",
+      "suffix_weight": 2,
+      "mass": "24527244/1376920315"
+    },
+    {
+      "prefix": "0XX00X0X1X00111X1X10",
+      "suffix_weight": 1,
+      "mass": "64510268/4130760945"
+    },
+    {
+      "prefix": "0XX00X100100011X1010",
+      "suffix_weight": 2,
+      "mass": "3962218/4130760945"
+    },
+    {
+      "prefix": "0XX00X100X00011X1100",
+      "suffix_weight": 2,
+      "mass": "16185682/4130760945"
+    },
+    {
+      "prefix": "0XX00X10100001X11010",
+      "suffix_weight": 2,
+      "mass": "9749988/1376920315"
+    },
+    {
+      "prefix": "0XX010010011101XX011",
+      "suffix_weight": 2,
+      "mass": "775684/4130760945"
+    },
+    {
+      "prefix": "0XX01001X1X10X1X1101",
+      "suffix_weight": 1,
+      "mass": "11323044/1376920315"
+    },
+    {
+      "prefix": "0XX010X00011110X1XX1",
+      "suffix_weight": 2,
+      "mass": "684122/826152189"
+    },
+    {
+      "prefix": "0XX010X000111X0X1X11",
+      "suffix_weight": 2,
+      "mass": "873796/4130760945"
+    },
+    {
+      "prefix": "0XX010XX00111010X111",
+      "suffix_weight": 2,
+      "mass": "162916/826152189"
+    },
+    {
+      "prefix": "0XX0111101101XX1X001",
+      "suffix_weight": 1,
+      "mass": "57062174/1376920315"
+    },
+    {
+      "prefix": "0XX011XX1X11100X1X1X",
+      "suffix_weight": 0,
+      "mass": "47892468/1376920315"
+    },
+    {
+      "prefix": "0XX01X0X0000XX0011X0",
+      "suffix_weight": 1,
+      "mass": "52416596/4130760945"
+    },
+    {
+      "prefix": "0XX0X0011XX111011X01",
+      "suffix_weight": 2,
+      "mass": "12532916/4130760945"
+    },
+    {
+      "prefix": "0XX0X01X111X1001X10X",
+      "suffix_weight": 0,
+      "mass": "9735962/4130760945"
+    },
+    {
+      "prefix": "0XX0X01X11X11X11010X",
+      "suffix_weight": 1,
+      "mass": "11281432/826152189"
+    },
+    {
+      "prefix": "0XX0X0X000111X0X11X1",
+      "suffix_weight": 2,
+      "mass": "3029224/4130760945"
+    },
+    {
+      "prefix": "0XX0X0X000111X0XX111",
+      "suffix_weight": 2,
+      "mass": "4627936/1376920315"
+    },
+    {
+      "prefix": "0XX0X0X000111X10XX11",
+      "suffix_weight": 2,
+      "mass": "4870324/4130760945"
+    },
+    {
+      "prefix": "0XX0X0X000111X1XXX11",
+      "suffix_weight": 2,
+      "mass": "4944032/4130760945"
+    },
+    {
+      "prefix": "0XX0X0X000111XXX1X11",
+      "suffix_weight": 2,
+      "mass": "6405478/4130760945"
+    },
+    {
+      "prefix": "0XX0X0X00011X10X1X11",
+      "suffix_weight": 2,
+      "mass": "24513074/4130760945"
+    },
+    {
+      "prefix": "0XX0X0X00011XX101X11",
+      "suffix_weight": 2,
+      "mass": "5053802/4130760945"
+    },
+    {
+      "prefix": "0XX0X0XX00111X10X111",
+      "suffix_weight": 2,
+      "mass": "46288666/4130760945"
+    },
+    {
+      "prefix": "0XX0X10000111X101XX1",
+      "suffix_weight": 2,
+      "mass": "684122/826152189"
+    },
+    {
+      "prefix": "0XX0X1000011XX101X11",
+      "suffix_weight": 2,
+      "mass": "27935986/4130760945"
+    },
+    {
+      "prefix": "0XX0X10100XX00111XXX",
+      "suffix_weight": 0,
+      "mass": "206510204/4130760945"
+    },
+    {
+      "prefix": "0XX0X10X00111X1XX111",
+      "suffix_weight": 2,
+      "mass": "42711982/4130760945"
+    },
+    {
+      "prefix": "0XX0X1X000111X101X11",
+      "suffix_weight": 2,
+      "mass": "1776062/1376920315"
+    },
+    {
+      "prefix": "0XX0X1X1000001X0X000",
+      "suffix_weight": 1,
+      "mass": "110623662/1376920315"
+    },
+    {
+      "prefix": "0XX0XX001111011001XX",
+      "suffix_weight": 1,
+      "mass": "3809222/826152189"
+    },
+    {
+      "prefix": "0XX1000X110X100001XX",
+      "suffix_weight": 0,
+      "mass": "24506692/4130760945"
+    },
+    {
+      "prefix": "0XX100110X10X0100001",
+      "suffix_weight": 1,
+      "mass": "4755310/275384063"
+    },
+    {
+      "prefix": "0XX101XX00X0011XXX11",
+      "suffix_weight": 0,
+      "mass": "6484118/826152189"
+    },
+    {
+      "prefix": "0XX10X0X00X011X1X010",
+      "suffix_weight": 0,
+      "mass": "42823138/4130760945"
+    },
+    {
+      "prefix": "0XX10X1X00X011XX111X",
+      "suffix_weight": 0,
+      "mass": "5314726/1376920315"
+    },
+    {
+      "prefix": "0XX1100X0XX00111X11X",
+      "suffix_weight": 1,
+      "mass": "91825978/4130760945"
+    },
+    {
+      "prefix": "0XX1X0000101XXX0001X",
+      "suffix_weight": 0,
+      "mass": "77769908/4130760945"
+    },
+    {
+      "prefix": "0XX1X0X01000X001X101",
+      "suffix_weight": 1,
+      "mass": "26783926/4130760945"
+    },
+    {
+      "prefix": "0XX1X0X10000X0011101",
+      "suffix_weight": 2,
+      "mass": "28232644/4130760945"
+    },
+    {
+      "prefix": "0XX1X0X1000X0001X101",
+      "suffix_weight": 1,
+      "mass": "1106062/826152189"
+    },
+    {
+      "prefix": "0XX1X0X10100X001X111",
+      "suffix_weight": 1,
+      "mass": "13769342/1376920315"
+    },
+    {
+      "prefix": "0XXX0000011X0001X1X1",
+      "suffix_weight": 2,
+      "mass": "1985206/826152189"
+    },
+    {
+      "prefix": "0XXX010X000011X11010",
+      "suffix_weight": 2,
+      "mass": "11252038/4130760945"
+    },
+    {
+      "prefix": "0XXX0X0000010X0011X0",
+      "suffix_weight": 2,
+      "mass": "41629202/4130760945"
+    },
+    {
+      "prefix": "0XXX0X0111101X1X00X1",
+      "suffix_weight": 0,
+      "mass": "11800126/1376920315"
+    },
+    {
+      "prefix": "0XXX0X0111101X1X0X01",
+      "suffix_weight": 0,
+      "mass": "50314972/4130760945"
+    },
+    {
+      "prefix": "0XXX0X0111101X1XXX01",
+      "suffix_weight": 0,
+      "mass": "204742/826152189"
+    },
+    {
+      "prefix": "0XXX0X0111111X1X0000",
+      "suffix_weight": 0,
+      "mass": "350276/1376920315"
+    },
+    {
+      "prefix": "0XXX0X011111XX1X0001",
+      "suffix_weight": 0,
+      "mass": "2283824/4130760945"
+    },
+    {
+      "prefix": "0XXX0X0X00010X001101",
+      "suffix_weight": 2,
+      "mass": "25301672/1376920315"
+    },
+    {
+      "prefix": "0XXX0XXXX0X00111111X",
+      "suffix_weight": 1,
+      "mass": "1662/246539"
+    },
+    {
+      "prefix": "0XXX0XXXX0X0011111X1",
+      "suffix_weight": 1,
+      "mass": "1792228/826152189"
+    },
+    {
+      "prefix": "0XXX11X0001X00X01X11",
+      "suffix_weight": 0,
+      "mass": "2789496/1376920315"
+    },
+    {
+      "prefix": "0XXXX001111X111X0X00",
+      "suffix_weight": 0,
+      "mass": "87768148/4130760945"
+    },
+    {
+      "prefix": "0XXXX0X0011XX1111XX1",
+      "suffix_weight": 1,
+      "mass": "29128262/1376920315"
+    },
+    {
+      "prefix": "0XXXX0X0011XX111X11X",
+      "suffix_weight": 1,
+      "mass": "18472786/4130760945"
+    },
+    {
+      "prefix": "0XXXX0X0011XX11X111X",
+      "suffix_weight": 1,
+      "mass": "102480194/4130760945"
+    },
+    {
+      "prefix": "0XXXX0X0011XX1X111X1",
+      "suffix_weight": 1,
+      "mass": "221947334/4130760945"
+    },
+    {
+      "prefix": "0XXXX0X10100X001X111",
+      "suffix_weight": 1,
+      "mass": "5196072/1376920315"
+    },
+    {
+      "prefix": "0XXXXX010X001X111011",
+      "suffix_weight": 1,
+      "mass": "1841604/1376920315"
+    },
+    {
+      "prefix": "0XXXXX010X001X1111XX",
+      "suffix_weight": 0,
+      "mass": "2266636/826152189"
+    },
+    {
+      "prefix": "0XXXXX010X001X111X1X",
+      "suffix_weight": 0,
+      "mass": "1681744/1376920315"
+    },
+    {
+      "prefix": "0XXXXX010X001X11X11X",
+      "suffix_weight": 0,
+      "mass": "24126104/826152189"
+    },
+    {
+      "prefix": "0XXXXX010X001X1X1111",
+      "suffix_weight": 1,
+      "mass": "3941372/1376920315"
+    },
+    {
+      "prefix": "0XXXXX0X0010X0111X10",
+      "suffix_weight": 0,
+      "mass": "14151736/4130760945"
+    },
+    {
+      "prefix": "0XXXXX1X000101000110",
+      "suffix_weight": 0,
+      "mass": "1266444/275384063"
+    },
+    {
+      "prefix": "1000000X0011XX1XXXXX",
+      "suffix_weight": 1,
+      "mass": "50865532/1376920315"
+    },
+    {
+      "prefix": "100000X0011XX1XXXX1X",
+      "suffix_weight": 1,
+      "mass": "3983008/1376920315"
+    },
+    {
+      "prefix": "100000XXX100X0X011XX",
+      "suffix_weight": 1,
+      "mass": "22038898/4130760945"
+    },
+    {
+      "prefix": "100000XXXX0XX0011X10",
+      "suffix_weight": 1,
+      "mass": "34152992/4130760945"
+    },
+    {
+      "prefix": "100000XXXXX0XX0011X1",
+      "suffix_weight": 1,
+      "mass": "153172736/4130760945"
+    },
+    {
+      "prefix": "100001XX111100XX1110",
+      "suffix_weight": 2,
+      "mass": "2846902/275384063"
+    },
+    {
+      "prefix": "10000X1000X110X0X001",
+      "suffix_weight": 2,
+      "mass": "52829362/4130760945"
+    },
+    {
+      "prefix": "100011101X0X11001X11",
+      "suffix_weight": 2,
+      "mass": "9500438/4130760945"
+    },
+    {
+      "prefix": "10001110XXX1X0110011",
+      "suffix_weight": 1,
+      "mass": "42134888/4130760945"
+    },
+    {
+      "prefix": "100011110111X1XXX10X",
+      "suffix_weight": 2,
+      "mass": "5853594/1376920315"
+    },
+    {
+      "prefix": "100011X1011101X0X1X1",
+      "suffix_weight": 2,
+      "mass": "6963986/1376920315"
+    },
+    {
+      "prefix": "100011X1111XX1X0X1XX",
+      "suffix_weight": 1,
+      "mass": "28111148/4130760945"
+    },
+    {
+      "prefix": "100011X1111XX1X1X1XX",
+      "suffix_weight": 2,
+      "mass": "54132364/4130760945"
+    },
+    {
+      "prefix": "100011X1111XX1XXX1XX",
+      "suffix_weight": 1,
+      "mass": "23957248/4130760945"
+    },
+    {
+      "prefix": "100011XX111XX1X0X1XX",
+      "suffix_weight": 0,
+      "mass": "26997046/4130760945"
+    },
+    {
+      "prefix": "100011XXX1XXXX1111X1",
+      "suffix_weight": 1,
+      "mass": "99092786/4130760945"
+    },
+    {
+      "prefix": "1000XX110000XX011110",
+      "suffix_weight": 2,
+      "mass": "2846902/275384063"
+    },
+    {
+      "prefix": "1000XXX0X000011X1X01",
+      "suffix_weight": 2,
+      "mass": "103908106/4130760945"
+    },
+    {
+      "prefix": "100100X00X01X1X10100",
+      "suffix_weight": 1,
+      "mass": "32957992/4130760945"
+    },
+    {
+      "prefix": "100101001X000X00110X",
+      "suffix_weight": 2,
+      "mass": "5030770/826152189"
+    },
+    {
+      "prefix": "100101X11010000001XX",
+      "suffix_weight": 1,
+      "mass": "14709656/4130760945"
+    },
+    {
+      "prefix": "10010XX0011X1XX1100X",
+      "suffix_weight": 0,
+      "mass": "18122672/4130760945"
+    },
+    {
+      "prefix": "10011010X001X1X01101",
+      "suffix_weight": 1,
+      "mass": "67062/1376920315"
+    },
+    {
+      "prefix": "100110X1X011XX1X0X11",
+      "suffix_weight": 0,
+      "mass": "3979118/826152189"
+    },
+    {
+      "prefix": "100111010111X0XXXXX1",
+      "suffix_weight": 0,
+      "mass": "1266444/275384063"
+    },
+    {
+      "prefix": "10011111101XX1X1X100",
+      "suffix_weight": 2,
+      "mass": "109281874/4130760945"
+    },
+    {
+      "prefix": "10011111X0101001XX11",
+      "suffix_weight": 2,
+      "mass": "13784928/1376920315"
+    },
+    {
+      "prefix": "1001X00011X1101X1X0X",
+      "suffix_weight": 1,
+      "mass": "37099520/826152189"
+    },
+    {
+      "prefix": "1001X0X0011X1XX1100X",
+      "suffix_weight": 0,
+      "mass": "22558232/1376920315"
+    },
+    {
+      "prefix": "1001X0X0011XX1X11000",
+      "suffix_weight": 0,
+      "mass": "57259262/4130760945"
+    },
+    {
+      "prefix": "1001X110X10X00001101",
+      "suffix_weight": 1,
+      "mass": "3653192/275384063"
+    },
+    {
+      "prefix": "1001X111X01X1X010011",
+      "suffix_weight": 1,
+      "mass": "11464144/1376920315"
+    },
+    {
+      "prefix": "1001X11X01X11XX00011",
+      "suffix_weight": 0,
+      "mass": "47596672/4130760945"
+    },
+    {
+      "prefix": "100X0010101X0010X000",
+      "suffix_weight": 2,
+      "mass": "16355882/826152189"
+    },
+    {
+      "prefix": "100X0100XXX001X11011",
+      "suffix_weight": 2,
+      "mass": "10202374/4130760945"
+    },
+    {
+      "prefix": "100X01010X0X0011XX11",
+      "suffix_weight": 2,
+      "mass": "19897558/275384063"
+    },
+    {
+      "prefix": "100X01100XX0011X1011",
+      "suffix_weight": 2,
+      "mass": "61482218/4130760945"
+    },
+    {
+      "prefix": "100X0X010X001X100X00",
+      "suffix_weight": 1,
+      "mass": "5187584/275384063"
+    },
+    {
+      "prefix": "100X10011X10X000111X",
+      "suffix_weight": 1,
+      "mass": "9083368/4130760945"
+    },
+    {
+      "prefix": "100X10XX0X1X0X000111",
+      "suffix_weight": 1,
+      "mass": "75639446/4130760945"
+    },
+    {
+      "prefix": "100XX0001X00011X1010",
+      "suffix_weight": 2,
+      "mass": "29360126/4130760945"
+    },
+    {
+      "prefix": "100XX0011X1011110010",
+      "suffix_weight": 2,
+      "mass": "125490926/4130760945"
+    },
+    {
+      "prefix": "100XX0X011XXXX1111X1",
+      "suffix_weight": 1,
+      "mass": "100688414/4130760945"
+    },
+    {
+      "prefix": "100XX1010XX0X0X0011X",
+      "suffix_weight": 0,
+      "mass": "148824172/4130760945"
+    },
+    {
+      "prefix": "100XXX0011101101X011",
+      "suffix_weight": 2,
+      "mass": "74677352/4130760945"
+    },
+    {
+      "prefix": "100XXX00111011X01011",
+      "suffix_weight": 2,
+      "mass": "233090/826152189"
+    },
+    {
+      "prefix": "100XXX00111110X10X11",
+      "suffix_weight": 2,
+      "mass": "1093592/826152189"
+    },
+    {
+      "prefix": "100XXX00111111100010",
+      "suffix_weight": 2,
+      "mass": "20875918/4130760945"
+    },
+    {
+      "prefix": "100XXX00111111X0X011",
+      "suffix_weight": 2,
+      "mass": "12343666/4130760945"
+    },
+    {
+      "prefix": "100XXX00111111X10X10",
+      "suffix_weight": 2,
+      "mass": "1532962/4130760945"
+    },
+    {
+      "prefix": "100XXX001111X1X10001",
+      "suffix_weight": 1,
+      "mass": "6231142/4130760945"
+    },
+    {
+      "prefix": "100XXX0X0011X1X01010",
+      "suffix_weight": 0,
+      "mass": "3035990/826152189"
+    },
+    {
+      "prefix": "100XXX0X0011X1X01X10",
+      "suffix_weight": 0,
+      "mass": "90908794/4130760945"
+    },
+    {
+      "prefix": "100XXX0X001X11X01100",
+      "suffix_weight": 0,
+      "mass": "37010254/4130760945"
+    },
+    {
+      "prefix": "101001010XX0011X1101",
+      "suffix_weight": 2,
+      "mass": "54046966/4130760945"
+    },
+    {
+      "prefix": "10100X001110X1X1X011",
+      "suffix_weight": 2,
+      "mass": "7651284/275384063"
+    },
+    {
+      "prefix": "10100X00111101110X00",
+      "suffix_weight": 2,
+      "mass": "3485144/4130760945"
+    },
+    {
+      "prefix": "10100X00111111X10XX0",
+      "suffix_weight": 2,
+      "mass": "1698218/4130760945"
+    },
+    {
+      "prefix": "10100X001111X1010X01",
+      "suffix_weight": 2,
+      "mass": "11832298/4130760945"
+    },
+    {
+      "prefix": "10100X001111X101XXX1",
+      "suffix_weight": 2,
+      "mass": "11252038/4130760945"
+    },
+    {
+      "prefix": "10100X001111X110X010",
+      "suffix_weight": 2,
+      "mass": "58510052/4130760945"
+    },
+    {
+      "prefix": "10100X01111010X11XX1",
+      "suffix_weight": 2,
+      "mass": "9749988/1376920315"
+    },
+    {
+      "prefix": "10100X0111X01101XX11",
+      "suffix_weight": 2,
+      "mass": "4905818/4130760945"
+    },
+    {
+      "prefix": "10100XX0X011X1X0101X",
+      "suffix_weight": 0,
+      "mass": "13102792/826152189"
+    },
+    {
+      "prefix": "10101X0X000011X1101X",
+      "suffix_weight": 2,
+      "mass": "14438576/826152189"
+    },
+    {
+      "prefix": "10101X0X0011X1XXX110",
+      "suffix_weight": 0,
+      "mass": "3035990/826152189"
+    },
+    {
+      "prefix": "10101X0X001X1101XX10",
+      "suffix_weight": 0,
+      "mass": "15924836/4130760945"
+    },
+    {
+      "prefix": "1010X00100XX000X001X",
+      "suffix_weight": 2,
+      "mass": "73561196/1376920315"
+    },
+    {
+      "prefix": "1010X001110101X1X011",
+      "suffix_weight": 2,
+      "mass": "10248134/4130760945"
+    },
+    {
+      "prefix": "1010X001110110011100",
+      "suffix_weight": 2,
+      "mass": "1917644/1376920315"
+    },
+    {
+      "prefix": "1010X001110110X11XX1",
+      "suffix_weight": 2,
+      "mass": "3962218/4130760945"
+    },
+    {
+      "prefix": "1010X00111011X011XX1",
+      "suffix_weight": 2,
+      "mass": "11688844/1376920315"
+    },
+    {
+      "prefix": "1010X00111011XX11X01",
+      "suffix_weight": 2,
+      "mass": "1368768/275384063"
+    },
+    {
+      "prefix": "1010X00111101011XX01",
+      "suffix_weight": 2,
+      "mass": "467428/826152189"
+    },
+    {
+      "prefix": "1010X001111010X1XX11",
+      "suffix_weight": 2,
+      "mass": "19239448/4130760945"
+    },
+    {
+      "prefix": "1010X00111101XX11X01",
+      "suffix_weight": 2,
+      "mass": "3762794/4130760945"
+    },
+    {
+      "prefix": "1010X001111X0101XX11",
+      "suffix_weight": 2,
+      "mass": "6156376/826152189"
+    },
+    {
+      "prefix": "1010X00111X010X11X11",
+      "suffix_weight": 2,
+      "mass": "25543234/4130760945"
+    },
+    {
+      "prefix": "1010X00111X011111X00",
+      "suffix_weight": 2,
+      "mass": "12313676/4130760945"
+    },
+    {
+      "prefix": "1010X00111X0111XX110",
+      "suffix_weight": 2,
+      "mass": "29360126/4130760945"
+    },
+    {
+      "prefix": "1010X00111X011X0X111",
+      "suffix_weight": 2,
+      "mass": "724598/275384063"
+    },
+    {
+      "prefix": "1010X0011X1010X11X11",
+      "suffix_weight": 2,
+      "mass": "5212594/4130760945"
+    },
+    {
+      "prefix": "1010X0011X1011X11XX1",
+      "suffix_weight": 2,
+      "mass": "20073344/1376920315"
+    },
+    {
+      "prefix": "1010X01110X11XX011XX",
+      "suffix_weight": 0,
+      "mass": "866200/826152189"
+    },
+    {
+      "prefix": "1010XX00111111100010",
+      "suffix_weight": 2,
+      "mass": "13460068/4130760945"
+    },
+    {
+      "prefix": "1011000010X0011XX110",
+      "suffix_weight": 2,
+      "mass": "125490926/4130760945"
+    },
+    {
+      "prefix": "1011010010XX00001X10",
+      "suffix_weight": 1,
+      "mass": "14277284/1376920315"
+    },
+    {
+      "prefix": "10110X00000011XXX11X",
+      "suffix_weight": 2,
+      "mass": "347342/1376920315"
+    },
+    {
+      "prefix": "10110X0X000011X1101X",
+      "suffix_weight": 2,
+      "mass": "926546/826152189"
+    },
+    {
+      "prefix": "10110XX00X00XX0000X0",
+      "suffix_weight": 1,
+      "mass": "2612754/275384063"
+    },
+    {
+      "prefix": "10111000000011X1X100",
+      "suffix_weight": 2,
+      "mass": "1811826/1376920315"
+    },
+    {
+      "prefix": "10111000000011XX1010",
+      "suffix_weight": 2,
+      "mass": "13460068/4130760945"
+    },
+    {
+      "prefix": "10111000000011XXX110",
+      "suffix_weight": 2,
+      "mass": "20875918/4130760945"
+    },
+    {
+      "prefix": "10111000000011XXX11X",
+      "suffix_weight": 2,
+      "mass": "4057852/4130760945"
+    },
+    {
+      "prefix": "101110000X0011X1X011",
+      "suffix_weight": 2,
+      "mass": "2604976/275384063"
+    },
+    {
+      "prefix": "1011XX0000XX0X1X0000",
+      "suffix_weight": 0,
+      "mass": "33582102/1376920315"
+    },
+    {
+      "prefix": "101X00100XX0011X1011",
+      "suffix_weight": 2,
+      "mass": "10207234/4130760945"
+    },
+    {
+      "prefix": "101X00111101XXXX0111",
+      "suffix_weight": 1,
+      "mass": "84164066/4130760945"
+    },
+    {
+      "prefix": "101X010011111X1XX010",
+      "suffix_weight": 1,
+      "mass": "13188076/4130760945"
+    },
+    {
+      "prefix": "101X0X0011111101001X",
+      "suffix_weight": 2,
+      "mass": "6855748/4130760945"
+    },
+    {
+      "prefix": "101X0X001111111000X1",
+      "suffix_weight": 2,
+      "mass": "7517686/4130760945"
+    },
+    {
+      "prefix": "101X0X00111111XX01X1",
+      "suffix_weight": 2,
+      "mass": "12916/275384063"
+    },
+    {
+      "prefix": "101X0X00111111XX11X0",
+      "suffix_weight": 2,
+      "mass": "4311220/826152189"
+    },
+    {
+      "prefix": "101X0X001111X1X010X1",
+      "suffix_weight": 1,
+      "mass": "23736154/4130760945"
+    },
+    {
+      "prefix": "101X0X001X11X1X10XX1",
+      "suffix_weight": 0,
+      "mass": "42823138/4130760945"
+    },
+    {
+      "prefix": "101X0X00X011X1X1X010",
+      "suffix_weight": 0,
+      "mass": "6840452/1376920315"
+    },
+    {
+      "prefix": "101X0X0X001X11X1X010",
+      "suffix_weight": 0,
+      "mass": "6840452/1376920315"
+    },
+    {
+      "prefix": "101X100X000011X11010",
+      "suffix_weight": 2,
+      "mass": "58510052/4130760945"
+    },
+    {
+      "prefix": "101X1X00000011XXX111",
+      "suffix_weight": 2,
+      "mass": "4295732/4130760945"
+    },
+    {
+      "prefix": "101X1X1100100XX00001",
+      "suffix_weight": 0,
+      "mass": "90371458/4130760945"
+    },
+    {
+      "prefix": "101XX0X000001101X010",
+      "suffix_weight": 1,
+      "mass": "13188076/4130760945"
+    },
+    {
+      "prefix": "10X0001X1011X1XXXXX1",
+      "suffix_weight": 0,
+      "mass": "14151736/4130760945"
+    },
+    {
+      "prefix": "10X001110XX110X10X1X",
+      "suffix_weight": 0,
+      "mass": "5828758/4130760945"
+    },
+    {
+      "prefix": "10X0011X11011XXX0001",
+      "suffix_weight": 0,
+      "mass": "31353416/4130760945"
+    },
+    {
+      "prefix": "10X0011XX1XXXX111101",
+      "suffix_weight": 1,
+      "mass": "11861704/826152189"
+    },
+    {
+      "prefix": "10X0011XX1XXXX111110",
+      "suffix_weight": 1,
+      "mass": "34152992/4130760945"
+    },
+    {
+      "prefix": "10X0011XX1XXXX111X11",
+      "suffix_weight": 1,
+      "mass": "31170178/4130760945"
+    },
+    {
+      "prefix": "10X0011XX1XXXX11X111",
+      "suffix_weight": 1,
+      "mass": "41317034/4130760945"
+    },
+    {
+      "prefix": "10X0011XX1XXXX11X11X",
+      "suffix_weight": 0,
+      "mass": "15183944/4130760945"
+    },
+    {
+      "prefix": "10X00X0X1X0011XX1X10",
+      "suffix_weight": 0,
+      "mass": "263196/1376920315"
+    },
+    {
+      "prefix": "10X01111XX1011010010",
+      "suffix_weight": 1,
+      "mass": "14277284/1376920315"
+    },
+    {
+      "prefix": "10X0111X1X0X0101111X",
+      "suffix_weight": 1,
+      "mass": "16865428/1376920315"
+    },
+    {
+      "prefix": "10X011X1011111X0X1X1",
+      "suffix_weight": 2,
+      "mass": "901234/275384063"
+    },
+    {
+      "prefix": "10X011X11111X1X1X1XX",
+      "suffix_weight": 2,
+      "mass": "15415862/4130760945"
+    },
+    {
+      "prefix": "10X01X00011111X001XX",
+      "suffix_weight": 1,
+      "mass": "7238536/826152189"
+    },
+    {
+      "prefix": "10X01X00011111X01XXX",
+      "suffix_weight": 1,
+      "mass": "19730204/1376920315"
+    },
+    {
+      "prefix": "10X01X000111X1X1XXXX",
+      "suffix_weight": 0,
+      "mass": "33659758/1376920315"
+    },
+    {
+      "prefix": "10X01X000111X1XX11XX",
+      "suffix_weight": 1,
+      "mass": "10240220/826152189"
+    },
+    {
+      "prefix": "10X01X0X0011X1XXX110",
+      "suffix_weight": 0,
+      "mass": "90908794/4130760945"
+    },
+    {
+      "prefix": "10X0X00011X0X1X11XX1",
+      "suffix_weight": 1,
+      "mass": "64510268/4130760945"
+    },
+    {
+      "prefix": "10X0X00111X011X11X01",
+      "suffix_weight": 2,
+      "mass": "305402/1376920315"
+    },
+    {
+      "prefix": "10X0XX0011X0X1X11X10",
+      "suffix_weight": 0,
+      "mass": "263196/1376920315"
+    },
+    {
+      "prefix": "10X0XXXX0X001X111101",
+      "suffix_weight": 1,
+      "mass": "134051978/4130760945"
+    },
+    {
+      "prefix": "10X10X00000011XXX101",
+      "suffix_weight": 2,
+      "mass": "3968912/1376920315"
+    },
+    {
+      "prefix": "10X10X00000011XXX110",
+      "suffix_weight": 2,
+      "mass": "1532962/4130760945"
+    },
+    {
+      "prefix": "10X10X0X000011XXX111",
+      "suffix_weight": 2,
+      "mass": "46331486/4130760945"
+    },
+    {
+      "prefix": "10X10X0X0011X1X0101X",
+      "suffix_weight": 0,
+      "mass": "15964418/1376920315"
+    },
+    {
+      "prefix": "10X10XX001011000X01X",
+      "suffix_weight": 0,
+      "mass": "34335458/4130760945"
+    },
+    {
+      "prefix": "10X110001XX1X000011X",
+      "suffix_weight": 0,
+      "mass": "7179202/4130760945"
+    },
+    {
+      "prefix": "10XX00X0XX1000X00001",
+      "suffix_weight": 2,
+      "mass": "209144896/4130760945"
+    },
+    {
+      "prefix": "10XX0100X011X1X01010",
+      "suffix_weight": 0,
+      "mass": "15924836/4130760945"
+    },
+    {
+      "prefix": "10XX0101X001XX000111",
+      "suffix_weight": 1,
+      "mass": "42468458/1376920315"
+    },
+    {
+      "prefix": "10XX0111011X1X0111X0",
+      "suffix_weight": 1,
+      "mass": "33178102/4130760945"
+    },
+    {
+      "prefix": "10XX01111X0101X1XX1X",
+      "suffix_weight": 0,
+      "mass": "21784238/4130760945"
+    },
+    {
+      "prefix": "10XX0X001010011101XX",
+      "suffix_weight": 1,
+      "mass": "4632368/1376920315"
+    },
+    {
+      "prefix": "10XXX0100XX0X0011X1X",
+      "suffix_weight": 0,
+      "mass": "3889928/1376920315"
+    },
+    {
+      "prefix": "10XXX0XXX0X00111111X",
+      "suffix_weight": 1,
+      "mass": "64872146/4130760945"
+    },
+    {
+      "prefix": "10XXX0XXX0X0011111X1",
+      "suffix_weight": 1,
+      "mass": "6946292/4130760945"
+    },
+    {
+      "prefix": "110000X001X11X110XXX",
+      "suffix_weight": 1,
+      "mass": "97671382/4130760945"
+    },
+    {
+      "prefix": "110000X11010X000011X",
+      "suffix_weight": 2,
+      "mass": "79352996/4130760945"
+    },
+    {
+      "prefix": "110001100100011X1010",
+      "suffix_weight": 2,
+      "mass": "1917644/1376920315"
+    },
+    {
+      "prefix": "11000111X1XXX01X111X",
+      "suffix_weight": 1,
+      "mass": "29114288/1376920315"
+    },
+    {
+      "prefix": "11000X1011000X0011XX",
+      "suffix_weight": 1,
+      "mass": "76988396/4130760945"
+    },
+    {
+      "prefix": "11000XX0110X0X0011X1",
+      "suffix_weight": 1,
+      "mass": "43289064/1376920315"
+    },
+    {
+      "prefix": "11000XXXX000001110X1",
+      "suffix_weight": 2,
+      "mass": "57178936/4130760945"
+    },
+    {
+      "prefix": "11001X00X011X1X01100",
+      "suffix_weight": 0,
+      "mass": "7557926/4130760945"
+    },
+    {
+      "prefix": "11001X00X011X1XXX110",
+      "suffix_weight": 0,
+      "mass": "37010254/4130760945"
+    },
+    {
+      "prefix": "11001X0X001X11X01100",
+      "suffix_weight": 0,
+      "mass": "7557926/4130760945"
+    },
+    {
+      "prefix": "1100X00111011X01XX11",
+      "suffix_weight": 2,
+      "mass": "8246032/1376920315"
+    },
+    {
+      "prefix": "1100X00111X100X11X11",
+      "suffix_weight": 2,
+      "mass": "1627306/826152189"
+    },
+    {
+      "prefix": "1100X00111X11001XX11",
+      "suffix_weight": 2,
+      "mass": "7884262/1376920315"
+    },
+    {
+      "prefix": "1100X00111X110X11XX1",
+      "suffix_weight": 2,
+      "mass": "16185682/4130760945"
+    },
+    {
+      "prefix": "1100X0011XX110011X11",
+      "suffix_weight": 2,
+      "mass": "2287628/826152189"
+    },
+    {
+      "prefix": "1100X01101X101X1101X",
+      "suffix_weight": 1,
+      "mass": "4116526/1376920315"
+    },
+    {
+      "prefix": "1100XXX0X0XX0011111X",
+      "suffix_weight": 1,
+      "mass": "104822228/4130760945"
+    },
+    {
+      "prefix": "110101001X00011X1011",
+      "suffix_weight": 2,
+      "mass": "5722978/4130760945"
+    },
+    {
+      "prefix": "11010X0X01X11X110110",
+      "suffix_weight": 1,
+      "mass": "32957992/4130760945"
+    },
+    {
+      "prefix": "11011000000011XXX101",
+      "suffix_weight": 2,
+      "mass": "12949198/4130760945"
+    },
+    {
+      "prefix": "110110XX00X0011XXX11",
+      "suffix_weight": 0,
+      "mass": "30111346/4130760945"
+    },
+    {
+      "prefix": "1101X0XX00X0011XXX11",
+      "suffix_weight": 0,
+      "mass": "3220298/1376920315"
+    },
+    {
+      "prefix": "1101XX000X0101000011",
+      "suffix_weight": 2,
+      "mass": "4354254/275384063"
+    },
+    {
+      "prefix": "110X000XX001X1110XXX",
+      "suffix_weight": 0,
+      "mass": "5294422/1376920315"
+    },
+    {
+      "prefix": "110X00111X011110X11X",
+      "suffix_weight": 2,
+      "mass": "29540828/826152189"
+    },
+    {
+      "prefix": "110X00111X0111X01101",
+      "suffix_weight": 2,
+      "mass": "110954398/4130760945"
+    },
+    {
+      "prefix": "110X00111X0X11X01111",
+      "suffix_weight": 2,
+      "mass": "46400224/4130760945"
+    },
+    {
+      "prefix": "110X0X00111111100010",
+      "suffix_weight": 2,
+      "mass": "1811826/1376920315"
+    },
+    {
+      "prefix": "110X0X00X0X100011XX1",
+      "suffix_weight": 1,
+      "mass": "148246546/4130760945"
+    },
+    {
+      "prefix": "110X0X0XX01000000110",
+      "suffix_weight": 2,
+      "mass": "109281874/4130760945"
+    },
+    {
+      "prefix": "110XX0X1000XX0011101",
+      "suffix_weight": 1,
+      "mass": "29473246/4130760945"
+    },
+    {
+      "prefix": "111000000011XXX101X1",
+      "suffix_weight": 2,
+      "mass": "15613046/1376920315"
+    },
+    {
+      "prefix": "11100001X1X110X11X11",
+      "suffix_weight": 2,
+      "mass": "277238/4130760945"
+    },
+    {
+      "prefix": "111001001X00011X1011",
+      "suffix_weight": 2,
+      "mass": "10548/1376920315"
+    },
+    {
+      "prefix": "11100X00X0011XXX110X",
+      "suffix_weight": 0,
+      "mass": "10035188/4130760945"
+    },
+    {
+      "prefix": "11100X0XX0011X1X0110",
+      "suffix_weight": 0,
+      "mass": "57259262/4130760945"
+    },
+    {
+      "prefix": "1110101100000011110X",
+      "suffix_weight": 2,
+      "mass": "80163286/4130760945"
+    },
+    {
+      "prefix": "111010X0100X00X0001X",
+      "suffix_weight": 1,
+      "mass": "22916522/826152189"
+    },
+    {
+      "prefix": "1110X0X0000XX0011101",
+      "suffix_weight": 2,
+      "mass": "2593526/826152189"
+    },
+    {
+      "prefix": "1110X0X1000XX0011101",
+      "suffix_weight": 1,
+      "mass": "105378/1376920315"
+    },
+    {
+      "prefix": "1110X11X01X1101001X1",
+      "suffix_weight": 1,
+      "mass": "90823652/4130760945"
+    },
+    {
+      "prefix": "1110X1X111X01101XX01",
+      "suffix_weight": 1,
+      "mass": "5378672/4130760945"
+    },
+    {
+      "prefix": "111101X11X1X10X101X1",
+      "suffix_weight": 2,
+      "mass": "58176014/1376920315"
+    },
+    {
+      "prefix": "11110X1XX1XXX10111X1",
+      "suffix_weight": 1,
+      "mass": "39821576/826152189"
+    },
+    {
+      "prefix": "111110101X10X1X11001",
+      "suffix_weight": 2,
+      "mass": "128603132/4130760945"
+    },
+    {
+      "prefix": "11111011X010X11X10X0",
+      "suffix_weight": 1,
+      "mass": "243894952/4130760945"
+    },
+    {
+      "prefix": "1111X0X0000001X1XXX1",
+      "suffix_weight": 0,
+      "mass": "350276/1376920315"
+    },
+    {
+      "prefix": "1111X0X1XX1111XX0010",
+      "suffix_weight": 0,
+      "mass": "33582102/1376920315"
+    },
+    {
+      "prefix": "111X0000100XX001X101",
+      "suffix_weight": 1,
+      "mass": "2282564/275384063"
+    },
+    {
+      "prefix": "111X1011X0101011X110",
+      "suffix_weight": 2,
+      "mass": "16355882/826152189"
+    },
+    {
+      "prefix": "111X11011011XX0001X1",
+      "suffix_weight": 1,
+      "mass": "13465196/4130760945"
+    },
+    {
+      "prefix": "111X1111100X0111X00X",
+      "suffix_weight": 1,
+      "mass": "147717916/4130760945"
+    },
+    {
+      "prefix": "111X1X0111110X0X1XX1",
+      "suffix_weight": 1,
+      "mass": "110623662/1376920315"
+    },
+    {
+      "prefix": "111X1X1101XXXX11X001",
+      "suffix_weight": 0,
+      "mass": "144241648/4130760945"
+    },
+    {
+      "prefix": "111X1X1XX11XX010011X",
+      "suffix_weight": 0,
+      "mass": "71712136/4130760945"
+    },
+    {
+      "prefix": "111XX110XXX1XX11111X",
+      "suffix_weight": 1,
+      "mass": "50326168/4130760945"
+    },
+    {
+      "prefix": "111XX1XXX1X1XX1111X1",
+      "suffix_weight": 1,
+      "mass": "392986/275384063"
+    },
+    {
+      "prefix": "111XX1XXX1X1XX111X11",
+      "suffix_weight": 1,
+      "mass": "263548454/4130760945"
+    },
+    {
+      "prefix": "11X000001X00011X1010",
+      "suffix_weight": 2,
+      "mass": "12313676/4130760945"
+    },
+    {
+      "prefix": "11X0010010X001X11011",
+      "suffix_weight": 2,
+      "mass": "68062148/4130760945"
+    },
+    {
+      "prefix": "11X00X01110010000111",
+      "suffix_weight": 2,
+      "mass": "4430710/275384063"
+    },
+    {
+      "prefix": "11X0X001X0X0X010X001",
+      "suffix_weight": 0,
+      "mass": "5151374/4130760945"
+    },
+    {
+      "prefix": "11X0X0X1XX0100000011",
+      "suffix_weight": 1,
+      "mass": "9483780/275384063"
+    },
+    {
+      "prefix": "11X10001000011X11010",
+      "suffix_weight": 2,
+      "mass": "3485144/4130760945"
+    },
+    {
+      "prefix": "11X101X1XX1X01111101",
+      "suffix_weight": 2,
+      "mass": "45578374/4130760945"
+    },
+    {
+      "prefix": "11X10X00000011X1X11X",
+      "suffix_weight": 2,
+      "mass": "9183314/4130760945"
+    },
+    {
+      "prefix": "11X110X011X101X1X110",
+      "suffix_weight": 1,
+      "mass": "5187584/275384063"
+    },
+    {
+      "prefix": "11X110XX1XXX1X11111X",
+      "suffix_weight": 1,
+      "mass": "3492674/4130760945"
+    },
+    {
+      "prefix": "11X11X1X1XX11XXXXX11",
+      "suffix_weight": 0,
+      "mass": "376972484/4130760945"
+    },
+    {
+      "prefix": "11X11XX01XX1XX11111X",
+      "suffix_weight": 1,
+      "mass": "19075206/1376920315"
+    },
+    {
+      "prefix": "11X1X000X000011XXXX1",
+      "suffix_weight": 0,
+      "mass": "87768148/4130760945"
+    },
+    {
+      "prefix": "11X1X101111X11X1X1XX",
+      "suffix_weight": 2,
+      "mass": "144677918/1376920315"
+    },
+    {
+      "prefix": "11X1X11X0X101XX1011X",
+      "suffix_weight": 0,
+      "mass": "148689542/4130760945"
+    },
+    {
+      "prefix": "11X1XX01XX111X1110X1",
+      "suffix_weight": 1,
+      "mass": "1532032/275384063"
+    },
+    {
+      "prefix": "11X1XX1XXX1X011111X1",
+      "suffix_weight": 1,
+      "mass": "72865756/4130760945"
+    },
+    {
+      "prefix": "11X1XXX1111X01X11XX0",
+      "suffix_weight": 0,
+      "mass": "47669258/1376920315"
+    },
+    {
+      "prefix": "11X1XXX11X0X011111X1",
+      "suffix_weight": 1,
+      "mass": "6702338/4130760945"
+    },
+    {
+      "prefix": "11X1XXXX1XX11X11111X",
+      "suffix_weight": 1,
+      "mass": "1635644/826152189"
+    },
+    {
+      "prefix": "11XX0100000011X1X011",
+      "suffix_weight": 2,
+      "mass": "691600/826152189"
+    },
+    {
+      "prefix": "11XX110XX01X110111X0",
+      "suffix_weight": 0,
+      "mass": "2667632/4130760945"
+    },
+    {
+      "prefix": "11XX1X110XX1XX11111X",
+      "suffix_weight": 1,
+      "mass": "143261834/4130760945"
+    },
+    {
+      "prefix": "11XX1X11X010X01111X1",
+      "suffix_weight": 1,
+      "mass": "94534388/4130760945"
+    },
+    {
+      "prefix": "11XX1X1XXX1X1X111101",
+      "suffix_weight": 1,
+      "mass": "9562448/1376920315"
+    },
+    {
+      "prefix": "11XX1X1XXX1X1X11111X",
+      "suffix_weight": 1,
+      "mass": "4303028/1376920315"
+    },
+    {
+      "prefix": "11XX1XX1XXX1X111111X",
+      "suffix_weight": 1,
+      "mass": "11813938/1376920315"
+    },
+    {
+      "prefix": "11XXX100X00000XX001X",
+      "suffix_weight": 0,
+      "mass": "82540692/1376920315"
+    },
+    {
+      "prefix": "1X00000011X01X1X10XX",
+      "suffix_weight": 1,
+      "mass": "10140118/1376920315"
+    },
+    {
+      "prefix": "1X000100X01XX100XX00",
+      "suffix_weight": 0,
+      "mass": "2667632/4130760945"
+    },
+    {
+      "prefix": "1X000111X111X0100X11",
+      "suffix_weight": 2,
+      "mass": "181668824/4130760945"
+    },
+    {
+      "prefix": "1X0001X0X0010001XX10",
+      "suffix_weight": 1,
+      "mass": "33178102/4130760945"
+    },
+    {
+      "prefix": "1X000X0011XX110X111X",
+      "suffix_weight": 2,
+      "mass": "10967692/1376920315"
+    },
+    {
+      "prefix": "1X00100X0011X11101XX",
+      "suffix_weight": 2,
+      "mass": "58265596/4130760945"
+    },
+    {
+      "prefix": "1X00100X0011X11110XX",
+      "suffix_weight": 2,
+      "mass": "14830544/4130760945"
+    },
+    {
+      "prefix": "1X0011101111X110X1XX",
+      "suffix_weight": 2,
+      "mass": "16526618/1376920315"
+    },
+    {
+      "prefix": "1X0011101111X1XXX10X",
+      "suffix_weight": 1,
+      "mass": "2027266/1376920315"
+    },
+    {
+      "prefix": "1X001111011111XXX10X",
+      "suffix_weight": 2,
+      "mass": "5382624/1376920315"
+    },
+    {
+      "prefix": "1X0011110111X11XX1XX",
+      "suffix_weight": 2,
+      "mass": "9254746/4130760945"
+    },
+    {
+      "prefix": "1X00111X0111111XX1XX",
+      "suffix_weight": 2,
+      "mass": "67783376/4130760945"
+    },
+    {
+      "prefix": "1X00111X0111X11XX1XX",
+      "suffix_weight": 1,
+      "mass": "4350248/826152189"
+    },
+    {
+      "prefix": "1X00111X011X11XXX1XX",
+      "suffix_weight": 0,
+      "mass": "9173606/1376920315"
+    },
+    {
+      "prefix": "1X0011X1011111X1XXX1",
+      "suffix_weight": 2,
+      "mass": "41629202/4130760945"
+    },
+    {
+      "prefix": "1X0011X1011111XX11XX",
+      "suffix_weight": 2,
+      "mass": "13991036/4130760945"
+    },
+    {
+      "prefix": "1X0011X1011111XXX11X",
+      "suffix_weight": 2,
+      "mass": "25302082/1376920315"
+    },
+    {
+      "prefix": "1X0011X1101111X0X1X1",
+      "suffix_weight": 2,
+      "mass": "41020526/4130760945"
+    },
+    {
+      "prefix": "1X0011X1XXX1X011111X",
+      "suffix_weight": 1,
+      "mass": "17662702/1376920315"
+    },
+    {
+      "prefix": "1X0011X1XXX1X0111X11",
+      "suffix_weight": 1,
+      "mass": "125771146/4130760945"
+    },
+    {
+      "prefix": "1X0011XX111101X1X1X1",
+      "suffix_weight": 2,
+      "mass": "38677074/1376920315"
+    },
+    {
+      "prefix": "1X0011XX11111110X10X",
+      "suffix_weight": 2,
+      "mass": "19906226/4130760945"
+    },
+    {
+      "prefix": "1X0011XX11111110X1XX",
+      "suffix_weight": 2,
+      "mass": "28918862/1376920315"
+    },
+    {
+      "prefix": "1X0011XX111111X011XX",
+      "suffix_weight": 2,
+      "mass": "19702298/4130760945"
+    },
+    {
+      "prefix": "1X0011XX111111XX01X1",
+      "suffix_weight": 2,
+      "mass": "52108886/4130760945"
+    },
+    {
+      "prefix": "1X0011XX1111X110X11X",
+      "suffix_weight": 2,
+      "mass": "18788422/4130760945"
+    },
+    {
+      "prefix": "1X0011XX1111X1X01XX1",
+      "suffix_weight": 1,
+      "mass": "52416596/4130760945"
+    },
+    {
+      "prefix": "1X001X0X000011X1X011",
+      "suffix_weight": 2,
+      "mass": "2266040/826152189"
+    },
+    {
+      "prefix": "1X00XX00000011X1X010",
+      "suffix_weight": 2,
+      "mass": "4311220/826152189"
+    },
+    {
+      "prefix": "1X00XX0011XX110X111X",
+      "suffix_weight": 1,
+      "mass": "188299876/4130760945"
+    },
+    {
+      "prefix": "1X01000X0011X10110XX",
+      "suffix_weight": 1,
+      "mass": "6171574/4130760945"
+    },
+    {
+      "prefix": "1X01000X0011X111010X",
+      "suffix_weight": 2,
+      "mass": "11806244/4130760945"
+    },
+    {
+      "prefix": "1X01X0X0011X1101001X",
+      "suffix_weight": 0,
+      "mass": "21753408/1376920315"
+    },
+    {
+      "prefix": "1X01X0X10100X001X111",
+      "suffix_weight": 1,
+      "mass": "35005214/4130760945"
+    },
+    {
+      "prefix": "1X01X10000111X1X1XXX",
+      "suffix_weight": 0,
+      "mass": "20686646/1376920315"
+    },
+    {
+      "prefix": "1X01XX00000011X1X011",
+      "suffix_weight": 2,
+      "mass": "9422950/826152189"
+    },
+    {
+      "prefix": "1X0X001X101011XX1111",
+      "suffix_weight": 2,
+      "mass": "23244814/4130760945"
+    },
+    {
+      "prefix": "1X0X101X10X0100X0011",
+      "suffix_weight": 0,
+      "mass": "23143994/4130760945"
+    },
+    {
+      "prefix": "1X0X10XX00X0011XXX11",
+      "suffix_weight": 0,
+      "mass": "48198232/4130760945"
+    },
+    {
+      "prefix": "1X0XX0100X1001001X1X",
+      "suffix_weight": 0,
+      "mass": "30516026/1376920315"
+    },
+    {
+      "prefix": "1X0XX0X10100X001X111",
+      "suffix_weight": 1,
+      "mass": "1272972/1376920315"
+    },
+    {
+      "prefix": "1X0XXX1X00X00111111X",
+      "suffix_weight": 1,
+      "mass": "12158894/1376920315"
+    },
+    {
+      "prefix": "1X0XXX1X00X0011111X1",
+      "suffix_weight": 1,
+      "mass": "757106/1376920315"
+    },
+    {
+      "prefix": "1X0XXXX0011X10111X11",
+      "suffix_weight": 1,
+      "mass": "51857204/4130760945"
+    },
+    {
+      "prefix": "1X0XXXX0XX001111111X",
+      "suffix_weight": 1,
+      "mass": "125396734/4130760945"
+    },
+    {
+      "prefix": "1X0XXXX0XX00111111X1",
+      "suffix_weight": 1,
+      "mass": "85057124/4130760945"
+    },
+    {
+      "prefix": "1X0XXXX0XX0011111X11",
+      "suffix_weight": 1,
+      "mass": "2379476/4130760945"
+    },
+    {
+      "prefix": "1X100000XXX0011X1011",
+      "suffix_weight": 2,
+      "mass": "2200370/275384063"
+    },
+    {
+      "prefix": "1X10000X0011X11011XX",
+      "suffix_weight": 2,
+      "mass": "2142314/1376920315"
+    },
+    {
+      "prefix": "1X10X000100XX0011101",
+      "suffix_weight": 2,
+      "mass": "11841722/1376920315"
+    },
+    {
+      "prefix": "1X10X00X101X00100000",
+      "suffix_weight": 1,
+      "mass": "243894952/4130760945"
+    },
+    {
+      "prefix": "1X10X0X10100X0011111",
+      "suffix_weight": 2,
+      "mass": "4428482/4130760945"
+    },
+    {
+      "prefix": "1X10XX01X00X00111111",
+      "suffix_weight": 2,
+      "mass": "12299036/4130760945"
+    },
+    {
+      "prefix": "1X1100X0000XX0011101",
+      "suffix_weight": 2,
+      "mass": "96109918/4130760945"
+    },
+    {
+      "prefix": "1X110X0X00X011X1X1X1",
+      "suffix_weight": 0,
+      "mass": "46973906/4130760945"
+    },
+    {
+      "prefix": "1X1111XX11X11XX10010",
+      "suffix_weight": 1,
+      "mass": "2612754/275384063"
+    },
+    {
+      "prefix": "1X11X0XX00X0011XX111",
+      "suffix_weight": 0,
+      "mass": "13445854/4130760945"
+    },
+    {
+      "prefix": "1X11X1X1010XXXX11101",
+      "suffix_weight": 0,
+      "mass": "40530944/4130760945"
+    },
+    {
+      "prefix": "1X1X110X11X1X1X0XX11",
+      "suffix_weight": 0,
+      "mass": "3460948/4130760945"
+    },
+    {
+      "prefix": "1X1X1XX110111X10111X",
+      "suffix_weight": 2,
+      "mass": "127959046/4130760945"
+    },
+    {
+      "prefix": "1XX000000X00XX011XX0",
+      "suffix_weight": 1,
+      "mass": "93713228/4130760945"
+    },
+    {
+      "prefix": "1XX0011110X110X1XX1X",
+      "suffix_weight": 0,
+      "mass": "991866/1376920315"
+    },
+    {
+      "prefix": "1XX001XX11X111111XX0",
+      "suffix_weight": 1,
+      "mass": "93713228/4130760945"
+    },
+    {
+      "prefix": "1XX00X01X0000XXX0X00",
+      "suffix_weight": 0,
+      "mass": "47669258/1376920315"
+    },
+    {
+      "prefix": "1XX010111001000X0011",
+      "suffix_weight": 1,
+      "mass": "64078708/4130760945"
+    },
+    {
+      "prefix": "1XX0XXX100X0011111X1",
+      "suffix_weight": 1,
+      "mass": "61145998/4130760945"
+    },
+    {
+      "prefix": "1XX100XX0X001X11111X",
+      "suffix_weight": 1,
+      "mass": "13837492/4130760945"
+    },
+    {
+      "prefix": "1XX100XX0X001X1111X1",
+      "suffix_weight": 1,
+      "mass": "72535034/4130760945"
+    },
+    {
+      "prefix": "1XX100XX0X001X111X11",
+      "suffix_weight": 1,
+      "mass": "36260026/4130760945"
+    },
+    {
+      "prefix": "1XX10X00000011X11010",
+      "suffix_weight": 2,
+      "mass": "1698218/4130760945"
+    },
+    {
+      "prefix": "1XX10X00000011X1X011",
+      "suffix_weight": 2,
+      "mass": "4392006/1376920315"
+    },
+    {
+      "prefix": "1XX11000X0XX00111101",
+      "suffix_weight": 1,
+      "mass": "10593508/1376920315"
+    },
+    {
+      "prefix": "1XX11000X0XX0011X111",
+      "suffix_weight": 1,
+      "mass": "79631036/4130760945"
+    },
+    {
+      "prefix": "1XX111X111011X1X0X0X",
+      "suffix_weight": 0,
+      "mass": "20175542/4130760945"
+    },
+    {
+      "prefix": "1XXX0011X01XX1101011",
+      "suffix_weight": 0,
+      "mass": "34827536/4130760945"
+    },
+    {
+      "prefix": "1XXX100X01111011X011",
+      "suffix_weight": 1,
+      "mass": "22316624/1376920315"
+    },
+    {
+      "prefix": "1XXXXX0X0011101111X1",
+      "suffix_weight": 1,
+      "mass": "10041478/4130760945"
+    },
+    {
+      "prefix": "1XXXXX0X001110111X11",
+      "suffix_weight": 1,
+      "mass": "599422/826152189"
+    },
+    {
+      "prefix": "X000000011XX1XXXX1X0",
+      "suffix_weight": 1,
+      "mass": "125396734/4130760945"
+    },
+    {
+      "prefix": "X00000011X11X0XXX1X0",
+      "suffix_weight": 1,
+      "mass": "12158894/1376920315"
+    },
+    {
+      "prefix": "X00000011X1XXX110XXX",
+      "suffix_weight": 1,
+      "mass": "1116074/826152189"
+    },
+    {
+      "prefix": "X00000011X1XXX1XXX10",
+      "suffix_weight": 1,
+      "mass": "64872146/4130760945"
+    },
+    {
+      "prefix": "X00000011X1XXXX1XXX1",
+      "suffix_weight": 1,
+      "mass": "1662/246539"
+    },
+    {
+      "prefix": "X0000001X0X001X1XXXX",
+      "suffix_weight": 1,
+      "mass": "878528/826152189"
+    },
+    {
+      "prefix": "X000000X0XXX0XX001XX",
+      "suffix_weight": 1,
+      "mass": "2789244/1376920315"
+    },
+    {
+      "prefix": "X000000X0XXX0XX0XX00",
+      "suffix_weight": 1,
+      "mass": "11813938/1376920315"
+    },
+    {
+      "prefix": "X00000100011XXX1XXXX",
+      "suffix_weight": 1,
+      "mass": "55627204/4130760945"
+    },
+    {
+      "prefix": "X0000011X1110X01XX0X",
+      "suffix_weight": 1,
+      "mass": "43804574/1376920315"
+    },
+    {
+      "prefix": "X0000011X11XX01XX1XX",
+      "suffix_weight": 1,
+      "mass": "51959324/4130760945"
+    },
+    {
+      "prefix": "X0000011XX1X110XX1XX",
+      "suffix_weight": 1,
+      "mass": "74328734/4130760945"
+    },
+    {
+      "prefix": "X0000011XX1X1XXX1100",
+      "suffix_weight": 1,
+      "mass": "104822228/4130760945"
+    },
+    {
+      "prefix": "X0000011XX1XXX110X01",
+      "suffix_weight": 1,
+      "mass": "26993206/4130760945"
+    },
+    {
+      "prefix": "X000001X0XXX0X0011X0",
+      "suffix_weight": 1,
+      "mass": "17662702/1376920315"
+    },
+    {
+      "prefix": "X000001XX0XXX100X001",
+      "suffix_weight": 1,
+      "mass": "29395136/4130760945"
+    },
+    {
+      "prefix": "X00000X0011XX1XXXX1X",
+      "suffix_weight": 1,
+      "mass": "38493814/1376920315"
+    },
+    {
+      "prefix": "X00000X0011XXXX1X10X",
+      "suffix_weight": 1,
+      "mass": "210661018/4130760945"
+    },
+    {
+      "prefix": "X00000X00XX0XXXX0X00",
+      "suffix_weight": 1,
+      "mass": "1635644/826152189"
+    },
+    {
+      "prefix": "X00000X011X110XXX1XX",
+      "suffix_weight": 1,
+      "mass": "2848666/1376920315"
+    },
+    {
+      "prefix": "X00000X011X1XX110XX0",
+      "suffix_weight": 1,
+      "mass": "13837492/4130760945"
+    },
+    {
+      "prefix": "X00000X011X1XXXX1X1X",
+      "suffix_weight": 1,
+      "mass": "6913702/4130760945"
+    },
+    {
+      "prefix": "X00000X011X1XXXXX1X1",
+      "suffix_weight": 1,
+      "mass": "4073632/1376920315"
+    },
+    {
+      "prefix": "X00000X0X0XXX0X0XX00",
+      "suffix_weight": 1,
+      "mass": "4303028/1376920315"
+    },
+    {
+      "prefix": "X00000X0XXX0XX100X00",
+      "suffix_weight": 1,
+      "mass": "3492674/4130760945"
+    },
+    {
+      "prefix": "X00000X0XXXX0XX0011X",
+      "suffix_weight": 1,
+      "mass": "8976502/4130760945"
+    },
+    {
+      "prefix": "X00000X100X0011XXXXX",
+      "suffix_weight": 1,
+      "mass": "172643314/4130760945"
+    },
+    {
+      "prefix": "X00000X10X0XXX0X001X",
+      "suffix_weight": 1,
+      "mass": "12872682/1376920315"
+    },
+    {
+      "prefix": "X00000X11000XXXX001X",
+      "suffix_weight": 1,
+      "mass": "89647202/4130760945"
+    },
+    {
+      "prefix": "X00000XX011XX1XXX1X1",
+      "suffix_weight": 1,
+      "mass": "53654308/4130760945"
+    },
+    {
+      "prefix": "X00000XX0XX01XX00X00",
+      "suffix_weight": 1,
+      "mass": "19075206/1376920315"
+    },
+    {
+      "prefix": "X00000XX0XX100X0XX00",
+      "suffix_weight": 1,
+      "mass": "143261834/4130760945"
+    },
+    {
+      "prefix": "X00000XX0XXX100XX000",
+      "suffix_weight": 1,
+      "mass": "50326168/4130760945"
+    },
+    {
+      "prefix": "X00000XXX0X1X00X001X",
+      "suffix_weight": 1,
+      "mass": "166695416/4130760945"
+    },
+    {
+      "prefix": "X00000XXX100X0X011XX",
+      "suffix_weight": 1,
+      "mass": "8761522/4130760945"
+    },
+    {
+      "prefix": "X0000101X1X0X0001X10",
+      "suffix_weight": 1,
+      "mass": "16865428/1376920315"
+    },
+    {
+      "prefix": "X000011X1X10X1X01XXX",
+      "suffix_weight": 0,
+      "mass": "13669556/826152189"
+    },
+    {
+      "prefix": "X000011X1X10XXX1XX1X",
+      "suffix_weight": 0,
+      "mass": "16277870/826152189"
+    },
+    {
+      "prefix": "X000011XXX11XXX10X1X",
+      "suffix_weight": 0,
+      "mass": "3046426/826152189"
+    },
+    {
+      "prefix": "X0000X00XX0X0011XXXX",
+      "suffix_weight": 1,
+      "mass": "30314092/4130760945"
+    },
+    {
+      "prefix": "X0000X01XX110XX101XX",
+      "suffix_weight": 0,
+      "mass": "13751864/4130760945"
+    },
+    {
+      "prefix": "X0000X0X0XXX10X0X001",
+      "suffix_weight": 1,
+      "mass": "21358552/275384063"
+    },
+    {
+      "prefix": "X0000X0X1100X0XX0X01",
+      "suffix_weight": 1,
+      "mass": "80043742/4130760945"
+    },
+    {
+      "prefix": "X0000X0XXXX0X0011XX1",
+      "suffix_weight": 1,
+      "mass": "8158042/4130760945"
+    },
+    {
+      "prefix": "X0000XXXX0011XX110X1",
+      "suffix_weight": 1,
+      "mass": "69210628/4130760945"
+    },
+    {
+      "prefix": "X0000XXXXX0011X1XX11",
+      "suffix_weight": 1,
+      "mass": "56597684/1376920315"
+    },
+    {
+      "prefix": "X00010X000100XX0X0X0",
+      "suffix_weight": 2,
+      "mass": "127959046/4130760945"
+    },
+    {
+      "prefix": "X000111X10X00110X110",
+      "suffix_weight": 1,
+      "mass": "9083368/4130760945"
+    },
+    {
+      "prefix": "X00011X10111X1X0X1X1",
+      "suffix_weight": 2,
+      "mass": "310694/826152189"
+    },
+    {
+      "prefix": "X00011X1X01X11001X11",
+      "suffix_weight": 2,
+      "mass": "663322/4130760945"
+    },
+    {
+      "prefix": "X00011X1X0XX11001X11",
+      "suffix_weight": 1,
+      "mass": "2675966/275384063"
+    },
+    {
+      "prefix": "X00011XX10XX11001X11",
+      "suffix_weight": 1,
+      "mass": "858904/826152189"
+    },
+    {
+      "prefix": "X0001X11X0101X101X01",
+      "suffix_weight": 1,
+      "mass": "35346556/4130760945"
+    },
+    {
+      "prefix": "X000X000XX0011XX1X0X",
+      "suffix_weight": 1,
+      "mass": "135846278/4130760945"
+    },
+    {
+      "prefix": "X000X001X111XX011X0X",
+      "suffix_weight": 1,
+      "mass": "10584944/4130760945"
+    },
+    {
+      "prefix": "X000X00X100XX0011XXX",
+      "suffix_weight": 1,
+      "mass": "201713786/4130760945"
+    },
+    {
+      "prefix": "X000X00X1100X0XX0X01",
+      "suffix_weight": 1,
+      "mass": "76691506/4130760945"
+    },
+    {
+      "prefix": "X000X00XX0011X1XXXX1",
+      "suffix_weight": 1,
+      "mass": "102480194/4130760945"
+    },
+    {
+      "prefix": "X000X011X1XXX1XX1011",
+      "suffix_weight": 1,
+      "mass": "33849376/826152189"
+    },
+    {
+      "prefix": "X000X01XXX0X00011100",
+      "suffix_weight": 1,
+      "mass": "29114288/1376920315"
+    },
+    {
+      "prefix": "X000X0X0XX0X0X1X0001",
+      "suffix_weight": 1,
+      "mass": "7732882/1376920315"
+    },
+    {
+      "prefix": "X000X0X0XX100X0XX001",
+      "suffix_weight": 1,
+      "mass": "968524/4130760945"
+    },
+    {
+      "prefix": "X000X0X100X0011XXXXX",
+      "suffix_weight": 0,
+      "mass": "26701064/4130760945"
+    },
+    {
+      "prefix": "X000X0X1X0XX0011XX11",
+      "suffix_weight": 1,
+      "mass": "36939298/4130760945"
+    },
+    {
+      "prefix": "X000X0XXX0011XX110X1",
+      "suffix_weight": 1,
+      "mass": "32313412/4130760945"
+    },
+    {
+      "prefix": "X000X0XXXX0011X1XX11",
+      "suffix_weight": 1,
+      "mass": "127676176/4130760945"
+    },
+    {
+      "prefix": "X000X100010XX0X0011X",
+      "suffix_weight": 2,
+      "mass": "72361508/1376920315"
+    },
+    {
+      "prefix": "X000X100X101X00001X1",
+      "suffix_weight": 2,
+      "mass": "10225472/4130760945"
+    },
+    {
+      "prefix": "X000X100XX0011X111X0",
+      "suffix_weight": 2,
+      "mass": "10967692/1376920315"
+    },
+    {
+      "prefix": "X000X100XX0011XX11X0",
+      "suffix_weight": 1,
+      "mass": "188299876/4130760945"
+    },
+    {
+      "prefix": "X000X1X0X100100001X1",
+      "suffix_weight": 2,
+      "mass": "7913902/826152189"
+    },
+    {
+      "prefix": "X000XX001111X0X10X11",
+      "suffix_weight": 2,
+      "mass": "102264026/4130760945"
+    },
+    {
+      "prefix": "X000XX001X11X0X10XX1",
+      "suffix_weight": 0,
+      "mass": "5314726/1376920315"
+    },
+    {
+      "prefix": "X00100X0011X111X0X0X",
+      "suffix_weight": 1,
+      "mass": "5968178/275384063"
+    },
+    {
+      "prefix": "X00101X1X000X00X0X01",
+      "suffix_weight": 1,
+      "mass": "47457782/4130760945"
+    },
+    {
+      "prefix": "X0010XX010X1X00X0X00",
+      "suffix_weight": 0,
+      "mass": "148689542/4130760945"
+    },
+    {
+      "prefix": "X001101X10X000X00011",
+      "suffix_weight": 2,
+      "mass": "114471694/4130760945"
+    },
+    {
+      "prefix": "X001101XX00XX0X0X000",
+      "suffix_weight": 0,
+      "mass": "71712136/4130760945"
+    },
+    {
+      "prefix": "X001111X0XX011100X10",
+      "suffix_weight": 0,
+      "mass": "7179202/4130760945"
+    },
+    {
+      "prefix": "X001111X10100X111100",
+      "suffix_weight": 2,
+      "mass": "79352996/4130760945"
+    },
+    {
+      "prefix": "X00111X101X0X1XX0X11",
+      "suffix_weight": 0,
+      "mass": "185656946/4130760945"
+    },
+    {
+      "prefix": "X0011X1X1XX1010XX110",
+      "suffix_weight": 0,
+      "mass": "148824172/4130760945"
+    },
+    {
+      "prefix": "X0011X1XX101110X111X",
+      "suffix_weight": 2,
+      "mass": "72361508/1376920315"
+    },
+    {
+      "prefix": "X0011XX1XXXX1X11111X",
+      "suffix_weight": 1,
+      "mass": "8976502/4130760945"
+    },
+    {
+      "prefix": "X0011XX1XXXX1X1111X1",
+      "suffix_weight": 1,
+      "mass": "65460416/4130760945"
+    },
+    {
+      "prefix": "X0011XX1XXXX1X11X111",
+      "suffix_weight": 1,
+      "mass": "257134564/4130760945"
+    },
+    {
+      "prefix": "X0011XXXX1X10X1111X1",
+      "suffix_weight": 1,
+      "mass": "43515434/4130760945"
+    },
+    {
+      "prefix": "X001X100X0011XX111XX",
+      "suffix_weight": 1,
+      "mass": "65615594/4130760945"
+    },
+    {
+      "prefix": "X001X110XX11X10X1001",
+      "suffix_weight": 0,
+      "mass": "88292654/4130760945"
+    },
+    {
+      "prefix": "X001X11111X1X010101X",
+      "suffix_weight": 2,
+      "mass": "32531068/1376920315"
+    },
+    {
+      "prefix": "X001X1X11X1XX1X11XXX",
+      "suffix_weight": 0,
+      "mass": "268272604/4130760945"
+    },
+    {
+      "prefix": "X001XX100XX0X0011X1X",
+      "suffix_weight": 0,
+      "mass": "7618974/1376920315"
+    },
+    {
+      "prefix": "X00X0000XX0011XX1X0X",
+      "suffix_weight": 1,
+      "mass": "724774/275384063"
+    },
+    {
+      "prefix": "X00X0000XX0X0011XXXX",
+      "suffix_weight": 1,
+      "mass": "170512246/4130760945"
+    },
+    {
+      "prefix": "X00X00011X1X10XXX1X1",
+      "suffix_weight": 1,
+      "mass": "30997746/1376920315"
+    },
+    {
+      "prefix": "X00X00011XX1X1100XX1",
+      "suffix_weight": 1,
+      "mass": "91825978/4130760945"
+    },
+    {
+      "prefix": "X00X000X1100X0XX0X01",
+      "suffix_weight": 1,
+      "mass": "16171616/826152189"
+    },
+    {
+      "prefix": "X00X000XX0011X1XXXX1",
+      "suffix_weight": 1,
+      "mass": "18472786/4130760945"
+    },
+    {
+      "prefix": "X00X000XX1100X0XX001",
+      "suffix_weight": 1,
+      "mass": "143770588/4130760945"
+    },
+    {
+      "prefix": "X00X000XXXX0X0011XX1",
+      "suffix_weight": 1,
+      "mass": "46339766/4130760945"
+    },
+    {
+      "prefix": "X00X0011X1XXX1XX1011",
+      "suffix_weight": 1,
+      "mass": "1420628/275384063"
+    },
+    {
+      "prefix": "X00X00X011X101XXXXX1",
+      "suffix_weight": 0,
+      "mass": "24126104/826152189"
+    },
+    {
+      "prefix": "X00X00X100X0011XXXXX",
+      "suffix_weight": 0,
+      "mass": "88729124/4130760945"
+    },
+    {
+      "prefix": "X00X00XXXX0XX0011X10",
+      "suffix_weight": 0,
+      "mass": "15183944/4130760945"
+    },
+    {
+      "prefix": "X00X011101111010X001",
+      "suffix_weight": 2,
+      "mass": "62397242/4130760945"
+    },
+    {
+      "prefix": "X00X0X00111111X10X00",
+      "suffix_weight": 2,
+      "mass": "9183314/4130760945"
+    },
+    {
+      "prefix": "X00X100001X00011X100",
+      "suffix_weight": 2,
+      "mass": "29540828/826152189"
+    },
+    {
+      "prefix": "X00X100X0000XX0011X0",
+      "suffix_weight": 2,
+      "mass": "18788422/4130760945"
+    },
+    {
+      "prefix": "X00XXX0000010X0011X0",
+      "suffix_weight": 2,
+      "mass": "25302082/1376920315"
+    },
+    {
+      "prefix": "X00XXX00111110010011",
+      "suffix_weight": 2,
+      "mass": "56495152/4130760945"
+    },
+    {
+      "prefix": "X00XXX00111111100010",
+      "suffix_weight": 2,
+      "mass": "4057852/4130760945"
+    },
+    {
+      "prefix": "X00XXX00111111X10010",
+      "suffix_weight": 2,
+      "mass": "347342/1376920315"
+    },
+    {
+      "prefix": "X00XXX0X00010X0011X1",
+      "suffix_weight": 2,
+      "mass": "18372242/1376920315"
+    },
+    {
+      "prefix": "X0100X001111X1X01010",
+      "suffix_weight": 2,
+      "mass": "14438576/826152189"
+    },
+    {
+      "prefix": "X0100X001111X1X10010",
+      "suffix_weight": 2,
+      "mass": "926546/826152189"
+    },
+    {
+      "prefix": "X0100X010X01001X1100",
+      "suffix_weight": 1,
+      "mass": "4116526/1376920315"
+    },
+    {
+      "prefix": "X0100XX0X00XX0X01111",
+      "suffix_weight": 2,
+      "mass": "109516004/4130760945"
+    },
+    {
+      "prefix": "X010101X0X00000X011X",
+      "suffix_weight": 2,
+      "mass": "32531068/1376920315"
+    },
+    {
+      "prefix": "X01010X10001X11X1001",
+      "suffix_weight": 1,
+      "mass": "12734832/1376920315"
+    },
+    {
+      "prefix": "X0101X0X0011X1X10X10",
+      "suffix_weight": 0,
+      "mass": "15964418/1376920315"
+    },
+    {
+      "prefix": "X0101X0X001X1XX11010",
+      "suffix_weight": 0,
+      "mass": "13102792/826152189"
+    },
+    {
+      "prefix": "X010X001110X11011X01",
+      "suffix_weight": 2,
+      "mass": "2944226/826152189"
+    },
+    {
+      "prefix": "X010X00111X110X11X01",
+      "suffix_weight": 2,
+      "mass": "26138672/4130760945"
+    },
+    {
+      "prefix": "X010X0111XX11X1110XX",
+      "suffix_weight": 1,
+      "mass": "32738248/1376920315"
+    },
+    {
+      "prefix": "X010XX100XX0X0011X1X",
+      "suffix_weight": 0,
+      "mass": "6572678/4130760945"
+    },
+    {
+      "prefix": "X01100000XX1X000110X",
+      "suffix_weight": 1,
+      "mass": "11596178/1376920315"
+    },
+    {
+      "prefix": "X011000X0011X1011XXX",
+      "suffix_weight": 1,
+      "mass": "2290618/1376920315"
+    },
+    {
+      "prefix": "X011000X0011X11011XX",
+      "suffix_weight": 2,
+      "mass": "17402084/1376920315"
+    },
+    {
+      "prefix": "X0110100000011X1X010",
+      "suffix_weight": 2,
+      "mass": "6855748/4130760945"
+    },
+    {
+      "prefix": "X0110100X0011X1X01X0",
+      "suffix_weight": 0,
+      "mass": "21753408/1376920315"
+    },
+    {
+      "prefix": "X0111X11X1101X101000",
+      "suffix_weight": 1,
+      "mass": "22916522/826152189"
+    },
+    {
+      "prefix": "X0111XXX0101111X0XX1",
+      "suffix_weight": 0,
+      "mass": "77769908/4130760945"
+    },
+    {
+      "prefix": "X011X101XXX1X0111X11",
+      "suffix_weight": 1,
+      "mass": "44570936/4130760945"
+    },
+    {
+      "prefix": "X011X101XXX1X011X111",
+      "suffix_weight": 1,
+      "mass": "141684524/4130760945"
+    },
+    {
+      "prefix": "X011X101XXXXX1111X11",
+      "suffix_weight": 1,
+      "mass": "37119432/1376920315"
+    },
+    {
+      "prefix": "X011X101XXXXX111X111",
+      "suffix_weight": 1,
+      "mass": "15708146/1376920315"
+    },
+    {
+      "prefix": "X011X10XX10X111X1X11",
+      "suffix_weight": 1,
+      "mass": "39151984/4130760945"
+    },
+    {
+      "prefix": "X011X111XX11011X1010",
+      "suffix_weight": 2,
+      "mass": "73561196/1376920315"
+    },
+    {
+      "prefix": "X011X11X0X1XXX11111X",
+      "suffix_weight": 1,
+      "mass": "166695416/4130760945"
+    },
+    {
+      "prefix": "X011X1XX110XX01111X1",
+      "suffix_weight": 1,
+      "mass": "49609784/4130760945"
+    },
+    {
+      "prefix": "X011X1XX110XX0111X11",
+      "suffix_weight": 1,
+      "mass": "51389416/4130760945"
+    },
+    {
+      "prefix": "X011X1XXX1X10X111111",
+      "suffix_weight": 2,
+      "mass": "26100374/4130760945"
+    },
+    {
+      "prefix": "X011X1XXX1X10X11111X",
+      "suffix_weight": 1,
+      "mass": "12872682/1376920315"
+    },
+    {
+      "prefix": "X011X1XXX1X10X1111X1",
+      "suffix_weight": 1,
+      "mass": "166283894/4130760945"
+    },
+    {
+      "prefix": "X011X1XXXX1X101111X1",
+      "suffix_weight": 1,
+      "mass": "7206818/4130760945"
+    },
+    {
+      "prefix": "X011X1XXXX1X1X11X111",
+      "suffix_weight": 1,
+      "mass": "59356066/1376920315"
+    },
+    {
+      "prefix": "X011XX11111X110XXX00",
+      "suffix_weight": 0,
+      "mass": "82540692/1376920315"
+    },
+    {
+      "prefix": "X011XX1XX1XX1X1111X1",
+      "suffix_weight": 1,
+      "mass": "40930210/826152189"
+    },
+    {
+      "prefix": "X011XXXX101111010111",
+      "suffix_weight": 2,
+      "mass": "216949858/4130760945"
+    },
+    {
+      "prefix": "X011XXXX11100X11111X",
+      "suffix_weight": 1,
+      "mass": "89647202/4130760945"
+    },
+    {
+      "prefix": "X01X000110X0X100X001",
+      "suffix_weight": 1,
+      "mass": "39418106/4130760945"
+    },
+    {
+      "prefix": "X01X0X00111111010X01",
+      "suffix_weight": 2,
+      "mass": "38057978/4130760945"
+    },
+    {
+      "prefix": "X01X0X100X10X0011X11",
+      "suffix_weight": 1,
+      "mass": "19011704/1376920315"
+    },
+    {
+      "prefix": "X01X0XX0011X111X1X11",
+      "suffix_weight": 2,
+      "mass": "16438796/826152189"
+    },
+    {
+      "prefix": "X01X0XX001X0X0011X1X",
+      "suffix_weight": 0,
+      "mass": "5470136/1376920315"
+    },
+    {
+      "prefix": "X01X0XX00XX100011XX1",
+      "suffix_weight": 0,
+      "mass": "22138766/4130760945"
+    },
+    {
+      "prefix": "X01X10100X10X001110X",
+      "suffix_weight": 0,
+      "mass": "45550/826152189"
+    },
+    {
+      "prefix": "X01X111001011XX10X10",
+      "suffix_weight": 0,
+      "mass": "34335458/4130760945"
+    },
+    {
+      "prefix": "X01X11101101X11XX01X",
+      "suffix_weight": 1,
+      "mass": "254178976/4130760945"
+    },
+    {
+      "prefix": "X01X1X1X1X001X1X11X1",
+      "suffix_weight": 0,
+      "mass": "32346356/4130760945"
+    },
+    {
+      "prefix": "X01XX00101X0X0011X1X",
+      "suffix_weight": 0,
+      "mass": "944244/275384063"
+    },
+    {
+      "prefix": "X01XX00X01001000X01X",
+      "suffix_weight": 1,
+      "mass": "254178976/4130760945"
+    },
+    {
+      "prefix": "X01XX0100XX0X001110X",
+      "suffix_weight": 0,
+      "mass": "4342346/1376920315"
+    },
+    {
+      "prefix": "X01XX01X0010X0011X1X",
+      "suffix_weight": 0,
+      "mass": "8065480/826152189"
+    },
+    {
+      "prefix": "X01XX10X000X00011011",
+      "suffix_weight": 2,
+      "mass": "9377534/826152189"
+    },
+    {
+      "prefix": "X01XX111101X00101101",
+      "suffix_weight": 1,
+      "mass": "49714702/4130760945"
+    },
+    {
+      "prefix": "X01XX111101X100X11X1",
+      "suffix_weight": 1,
+      "mass": "8993876/275384063"
+    },
+    {
+      "prefix": "X0X000011X1X10XXX1X1",
+      "suffix_weight": 1,
+      "mass": "37223446/4130760945"
+    },
+    {
+      "prefix": "X0X00001X1XX1X1100X1",
+      "suffix_weight": 1,
+      "mass": "42210562/4130760945"
+    },
+    {
+      "prefix": "X0X000X011X101XXXXX1",
+      "suffix_weight": 0,
+      "mass": "1681744/1376920315"
+    },
+    {
+      "prefix": "X0X000XXXXX0011X110X",
+      "suffix_weight": 0,
+      "mass": "5241080/826152189"
+    },
+    {
+      "prefix": "X0X001110X1110X1XX1X",
+      "suffix_weight": 1,
+      "mass": "54182168/4130760945"
+    },
+    {
+      "prefix": "X0X0011X1011X01XX01X",
+      "suffix_weight": 0,
+      "mass": "8065480/826152189"
+    },
+    {
+      "prefix": "X0X0011X1011XXX10X1X",
+      "suffix_weight": 0,
+      "mass": "3225694/4130760945"
+    },
+    {
+      "prefix": "X0X0011X10X1101X01XX",
+      "suffix_weight": 0,
+      "mass": "11501214/1376920315"
+    },
+    {
+      "prefix": "X0X0011X11010XX1XX1X",
+      "suffix_weight": 0,
+      "mass": "52635296/4130760945"
+    },
+    {
+      "prefix": "X0X0011X1X01011XX01X",
+      "suffix_weight": 0,
+      "mass": "944244/275384063"
+    },
+    {
+      "prefix": "X0X0011X1X011010XX1X",
+      "suffix_weight": 0,
+      "mass": "1750258/4130760945"
+    },
+    {
+      "prefix": "X0X0011X1X0110110XXX",
+      "suffix_weight": 0,
+      "mass": "613456/1376920315"
+    },
+    {
+      "prefix": "X0X0011X1X011XX1X01X",
+      "suffix_weight": 0,
+      "mass": "5470136/1376920315"
+    },
+    {
+      "prefix": "X0X0011X1XX110010X1X",
+      "suffix_weight": 0,
+      "mass": "21915392/4130760945"
+    },
+    {
+      "prefix": "X0X0011X1XX110100X1X",
+      "suffix_weight": 0,
+      "mass": "18295556/4130760945"
+    },
+    {
+      "prefix": "X0X0011X1XX1101X010X",
+      "suffix_weight": 0,
+      "mass": "532406/1376920315"
+    },
+    {
+      "prefix": "X0X0011X1XX1101XXX10",
+      "suffix_weight": 0,
+      "mass": "3889928/1376920315"
+    },
+    {
+      "prefix": "X0X0011X1XX110XX011X",
+      "suffix_weight": 0,
+      "mass": "7618974/1376920315"
+    },
+    {
+      "prefix": "X0X0011X1XX110XX101X",
+      "suffix_weight": 0,
+      "mass": "6572678/4130760945"
+    },
+    {
+      "prefix": "X0X0011X1XX111X010XX",
+      "suffix_weight": 0,
+      "mass": "26874982/1376920315"
+    },
+    {
+      "prefix": "X0X0011X1XX11X1X0X1X",
+      "suffix_weight": 0,
+      "mass": "25177408/826152189"
+    },
+    {
+      "prefix": "X0X0011XX1X110X10X1X",
+      "suffix_weight": 0,
+      "mass": "109081342/4130760945"
+    },
+    {
+      "prefix": "X0X0110110X1101XX1X0",
+      "suffix_weight": 0,
+      "mass": "30516026/1376920315"
+    },
+    {
+      "prefix": "X0X011X110X111001X11",
+      "suffix_weight": 2,
+      "mass": "19068348/1376920315"
+    },
+    {
+      "prefix": "X0X01X000111X1X001XX",
+      "suffix_weight": 0,
+      "mass": "14720032/1376920315"
+    },
+    {
+      "prefix": "X0X0X11000X0XX001XX1",
+      "suffix_weight": 0,
+      "mass": "47892468/1376920315"
+    },
+    {
+      "prefix": "X0X0X1X001000X010001",
+      "suffix_weight": 2,
+      "mass": "78560732/826152189"
+    },
+    {
+      "prefix": "X0X0XX0011XXXX111101",
+      "suffix_weight": 1,
+      "mass": "3512762/4130760945"
+    },
+    {
+      "prefix": "X0X0XX0011XXXX11X111",
+      "suffix_weight": 1,
+      "mass": "24909348/1376920315"
+    },
+    {
+      "prefix": "X0X0XXX0011XXX1111X1",
+      "suffix_weight": 1,
+      "mass": "90560402/4130760945"
+    },
+    {
+      "prefix": "X0X0XXX0X0XX0011X111",
+      "suffix_weight": 1,
+      "mass": "67205334/1376920315"
+    },
+    {
+      "prefix": "X0X0XXXX0X001X11111X",
+      "suffix_weight": 1,
+      "mass": "6913702/4130760945"
+    },
+    {
+      "prefix": "X0X0XXXX0X001X1111X1",
+      "suffix_weight": 1,
+      "mass": "8494868/1376920315"
+    },
+    {
+      "prefix": "X0X0XXXXX0X0011111X1",
+      "suffix_weight": 1,
+      "mass": "14009284/4130760945"
+    },
+    {
+      "prefix": "X0X0XXXXX0X001111X11",
+      "suffix_weight": 1,
+      "mass": "28716476/4130760945"
+    },
+    {
+      "prefix": "X0X100101010100001XX",
+      "suffix_weight": 1,
+      "mass": "65349032/1376920315"
+    },
+    {
+      "prefix": "X0X10010X1100001X10X",
+      "suffix_weight": 0,
+      "mass": "1433986/826152189"
+    },
+    {
+      "prefix": "X0X101100XX0X0011X1X",
+      "suffix_weight": 0,
+      "mass": "21915392/4130760945"
+    },
+    {
+      "prefix": "X0X10X00XX10X001110X",
+      "suffix_weight": 0,
+      "mass": "5668286/826152189"
+    },
+    {
+      "prefix": "X0X10X0101X0X001110X",
+      "suffix_weight": 0,
+      "mass": "1001630/826152189"
+    },
+    {
+      "prefix": "X0X10X100X0XX0011X1X",
+      "suffix_weight": 0,
+      "mass": "109081342/4130760945"
+    },
+    {
+      "prefix": "X0X10X100XX100011X10",
+      "suffix_weight": 0,
+      "mass": "5828758/4130760945"
+    },
+    {
+      "prefix": "X0X10X100XXXX0011101",
+      "suffix_weight": 0,
+      "mass": "7518562/4130760945"
+    },
+    {
+      "prefix": "X0X10X100XXXX0011X11",
+      "suffix_weight": 0,
+      "mass": "3908268/1376920315"
+    },
+    {
+      "prefix": "X0X10XXX0010X0011X1X",
+      "suffix_weight": 0,
+      "mass": "3225694/4130760945"
+    },
+    {
+      "prefix": "X0X10XXX00XXX001111X",
+      "suffix_weight": 0,
+      "mass": "3046426/826152189"
+    },
+    {
+      "prefix": "X0X110100XX0X0011X1X",
+      "suffix_weight": 0,
+      "mass": "18295556/4130760945"
+    },
+    {
+      "prefix": "X0X1X0100XX0X001110X",
+      "suffix_weight": 0,
+      "mass": "1686664/826152189"
+    },
+    {
+      "prefix": "X0X1X0X00XX0X0011X1X",
+      "suffix_weight": 0,
+      "mass": "25177408/826152189"
+    },
+    {
+      "prefix": "X0XX001X111001011X11",
+      "suffix_weight": 2,
+      "mass": "25927074/1376920315"
+    },
+    {
+      "prefix": "X0XX0X0101X00001XX10",
+      "suffix_weight": 0,
+      "mass": "21784238/4130760945"
+    },
+    {
+      "prefix": "X0XX0X1000X100011X1X",
+      "suffix_weight": 1,
+      "mass": "54182168/4130760945"
+    },
+    {
+      "prefix": "X0XX0X100X1000011XX0",
+      "suffix_weight": 0,
+      "mass": "991866/1376920315"
+    },
+    {
+      "prefix": "X0XX0X100XX100011X11",
+      "suffix_weight": 1,
+      "mass": "104865754/4130760945"
+    },
+    {
+      "prefix": "X0XX0XX0XX001X1111X1",
+      "suffix_weight": 1,
+      "mass": "60121252/4130760945"
+    },
+    {
+      "prefix": "X0XX0XX10100X0011X1X",
+      "suffix_weight": 0,
+      "mass": "52635296/4130760945"
+    },
+    {
+      "prefix": "X0XX0XXX001X0001XX11",
+      "suffix_weight": 0,
+      "mass": "42952576/4130760945"
+    },
+    {
+      "prefix": "X0XX0XXX0X0X01111X11",
+      "suffix_weight": 1,
+      "mass": "8229976/4130760945"
+    },
+    {
+      "prefix": "X0XX0XXX10X0X001111X",
+      "suffix_weight": 0,
+      "mass": "16277870/826152189"
+    },
+    {
+      "prefix": "X0XX100X0XX00111X1X1",
+      "suffix_weight": 1,
+      "mass": "34840826/1376920315"
+    },
+    {
+      "prefix": "X0XX100X0XX0011X11X1",
+      "suffix_weight": 1,
+      "mass": "64284424/1376920315"
+    },
+    {
+      "prefix": "X0XX101001X0X0011X1X",
+      "suffix_weight": 0,
+      "mass": "1750258/4130760945"
+    },
+    {
+      "prefix": "X0XX10100X10X001110X",
+      "suffix_weight": 0,
+      "mass": "1174412/4130760945"
+    },
+    {
+      "prefix": "X0XX10100XX0X001110X",
+      "suffix_weight": 0,
+      "mass": "4045688/4130760945"
+    },
+    {
+      "prefix": "X0XXX0011X11XX0X1011",
+      "suffix_weight": 0,
+      "mass": "28952842/4130760945"
+    },
+    {
+      "prefix": "X0XXX0XX100X00111111",
+      "suffix_weight": 2,
+      "mass": "36640558/4130760945"
+    },
+    {
+      "prefix": "X0XXX0XX100X001111X1",
+      "suffix_weight": 1,
+      "mass": "14338/3698085"
+    },
+    {
+      "prefix": "X0XXX0XX100X00111X11",
+      "suffix_weight": 1,
+      "mass": "4779636/1376920315"
+    },
+    {
+      "prefix": "X0XXXX0XX0011X111110",
+      "suffix_weight": 1,
+      "mass": "3983008/1376920315"
+    },
+    {
+      "prefix": "X0XXXX0XX0011X11111X",
+      "suffix_weight": 1,
+      "mass": "38493814/1376920315"
+    },
+    {
+      "prefix": "X0XXXX0XX0011X111X11",
+      "suffix_weight": 1,
+      "mass": "115734706/4130760945"
+    },
+    {
+      "prefix": "X1000011111100101000",
+      "suffix_weight": 2,
+      "mass": "80163286/4130760945"
+    },
+    {
+      "prefix": "X1000100X01X110111XX",
+      "suffix_weight": 2,
+      "mass": "48534/1376920315"
+    },
+    {
+      "prefix": "X1000100XX011110110X",
+      "suffix_weight": 2,
+      "mass": "36356654/4130760945"
+    },
+    {
+      "prefix": "X10001100XX0011X1011",
+      "suffix_weight": 2,
+      "mass": "23899528/4130760945"
+    },
+    {
+      "prefix": "X100011X10X11010X01X",
+      "suffix_weight": 0,
+      "mass": "45550/826152189"
+    },
+    {
+      "prefix": "X100011X10X11010XX1X",
+      "suffix_weight": 0,
+      "mass": "1174412/4130760945"
+    },
+    {
+      "prefix": "X100011X10X110X011XX",
+      "suffix_weight": 0,
+      "mass": "3428/3698085"
+    },
+    {
+      "prefix": "X100011X10XX11X10X1X",
+      "suffix_weight": 0,
+      "mass": "5668286/826152189"
+    },
+    {
+      "prefix": "X100011X1X0101X10X1X",
+      "suffix_weight": 0,
+      "mass": "1001630/826152189"
+    },
+    {
+      "prefix": "X100011X1XX11010XX1X",
+      "suffix_weight": 0,
+      "mass": "4045688/4130760945"
+    },
+    {
+      "prefix": "X100011X1XX110110XXX",
+      "suffix_weight": 0,
+      "mass": "275250/275384063"
+    },
+    {
+      "prefix": "X100011X1XX1101X0X1X",
+      "suffix_weight": 0,
+      "mass": "1686664/826152189"
+    },
+    {
+      "prefix": "X100011X1XX1101XX01X",
+      "suffix_weight": 0,
+      "mass": "4342346/1376920315"
+    },
+    {
+      "prefix": "X1000X100XX0011X1011",
+      "suffix_weight": 2,
+      "mass": "45310544/4130760945"
+    },
+    {
+      "prefix": "X100100001XX1101110X",
+      "suffix_weight": 2,
+      "mass": "36356654/4130760945"
+    },
+    {
+      "prefix": "X1001000XX10X00X0111",
+      "suffix_weight": 2,
+      "mass": "53598052/4130760945"
+    },
+    {
+      "prefix": "X100111X0XX11111001X",
+      "suffix_weight": 1,
+      "mass": "11596178/1376920315"
+    },
+    {
+      "prefix": "X10011X10111X1X1X1X1",
+      "suffix_weight": 2,
+      "mass": "1394082/1376920315"
+    },
+    {
+      "prefix": "X10011X11111X1XXX1X1",
+      "suffix_weight": 2,
+      "mass": "10548922/4130760945"
+    },
+    {
+      "prefix": "X10011X111X011010110",
+      "suffix_weight": 2,
+      "mass": "5030770/826152189"
+    },
+    {
+      "prefix": "X100X0011XXXXX1111X1",
+      "suffix_weight": 1,
+      "mass": "73325498/4130760945"
+    },
+    {
+      "prefix": "X100X0011XXXXX111X1X",
+      "suffix_weight": 0,
+      "mass": "5241080/826152189"
+    },
+    {
+      "prefix": "X100X0011XXXXX1X1111",
+      "suffix_weight": 1,
+      "mass": "84384826/4130760945"
+    },
+    {
+      "prefix": "X100XXX0011X11X11000",
+      "suffix_weight": 0,
+      "mass": "10035188/4130760945"
+    },
+    {
+      "prefix": "X100XXX0011X11X1100X",
+      "suffix_weight": 0,
+      "mass": "34684228/4130760945"
+    },
+    {
+      "prefix": "X100XXX0XX0X01111X11",
+      "suffix_weight": 1,
+      "mass": "72473234/4130760945"
+    },
+    {
+      "prefix": "X101000X0011X10101XX",
+      "suffix_weight": 1,
+      "mass": "17846356/4130760945"
+    },
+    {
+      "prefix": "X101000X0011X11101X0",
+      "suffix_weight": 2,
+      "mass": "11806244/4130760945"
+    },
+    {
+      "prefix": "X10100X00X00X01X1XX1",
+      "suffix_weight": 1,
+      "mass": "11281432/826152189"
+    },
+    {
+      "prefix": "X10100XX0011X10110X1",
+      "suffix_weight": 1,
+      "mass": "37602654/1376920315"
+    },
+    {
+      "prefix": "X10100XX0011X10111XX",
+      "suffix_weight": 1,
+      "mass": "4201708/4130760945"
+    },
+    {
+      "prefix": "X101X0100XX0X0011X1X",
+      "suffix_weight": 0,
+      "mass": "532406/1376920315"
+    },
+    {
+      "prefix": "X10X0001111X110X10XX",
+      "suffix_weight": 1,
+      "mass": "130506716/4130760945"
+    },
+    {
+      "prefix": "X10X0011X1XXXX111X11",
+      "suffix_weight": 1,
+      "mass": "22999542/1376920315"
+    },
+    {
+      "prefix": "X10X001X1XX1XX111X11",
+      "suffix_weight": 1,
+      "mass": "10720938/1376920315"
+    },
+    {
+      "prefix": "X10X0110X000X01X1XX1",
+      "suffix_weight": 0,
+      "mass": "9735962/4130760945"
+    },
+    {
+      "prefix": "X10X0111100X10110X1X",
+      "suffix_weight": 0,
+      "mass": "1433986/826152189"
+    },
+    {
+      "prefix": "X10X0X0011XXXX111111",
+      "suffix_weight": 2,
+      "mass": "17200456/1376920315"
+    },
+    {
+      "prefix": "X10X0XXXX0011X11111X",
+      "suffix_weight": 1,
+      "mass": "210661018/4130760945"
+    },
+    {
+      "prefix": "X10X0XXXX0X001111101",
+      "suffix_weight": 1,
+      "mass": "2823022/275384063"
+    },
+    {
+      "prefix": "X10X0XXXX0X00111X111",
+      "suffix_weight": 1,
+      "mass": "1297070/826152189"
+    },
+    {
+      "prefix": "X10X10000000XX0011X0",
+      "suffix_weight": 2,
+      "mass": "19906226/4130760945"
+    },
+    {
+      "prefix": "X10XX0011110010XX1X1",
+      "suffix_weight": 0,
+      "mass": "24172814/1376920315"
+    },
+    {
+      "prefix": "X10XX0X0011XXX1111X1",
+      "suffix_weight": 1,
+      "mass": "63555346/4130760945"
+    },
+    {
+      "prefix": "X10XX0X0011XXX111X11",
+      "suffix_weight": 1,
+      "mass": "34055866/4130760945"
+    },
+    {
+      "prefix": "X10XXX000001000011X0",
+      "suffix_weight": 2,
+      "mass": "5382624/1376920315"
+    },
+    {
+      "prefix": "X10XXX0X0000100011X0",
+      "suffix_weight": 1,
+      "mass": "2027266/1376920315"
+    },
+    {
+      "prefix": "X10XXX0X000100001110",
+      "suffix_weight": 2,
+      "mass": "5853594/1376920315"
+    },
+    {
+      "prefix": "X10XXX0XX001X00011X1",
+      "suffix_weight": 0,
+      "mass": "9979124/1376920315"
+    },
+    {
+      "prefix": "X1100X00X0011XXX110X",
+      "suffix_weight": 0,
+      "mass": "34684228/4130760945"
+    },
+    {
+      "prefix": "X1100XX0X0011X1X0110",
+      "suffix_weight": 0,
+      "mass": "22558232/1376920315"
+    },
+    {
+      "prefix": "X1100XX0X0011XX10110",
+      "suffix_weight": 0,
+      "mass": "18122672/4130760945"
+    },
+    {
+      "prefix": "X1100XX0X10X11000001",
+      "suffix_weight": 0,
+      "mass": "13530782/4130760945"
+    },
+    {
+      "prefix": "X11X0001X1100000X000",
+      "suffix_weight": 1,
+      "mass": "147717916/4130760945"
+    },
+    {
+      "prefix": "X1X00001X0X0X010X001",
+      "suffix_weight": 1,
+      "mass": "57088122/1376920315"
+    },
+    {
+      "prefix": "X1X001XX000X011X111X",
+      "suffix_weight": 1,
+      "mass": "10584944/4130760945"
+    },
+    {
+      "prefix": "X1X0X0100X00111X0110",
+      "suffix_weight": 1,
+      "mass": "37099520/826152189"
+    },
+    {
+      "prefix": "X1X0X0X001X1111XX011",
+      "suffix_weight": 1,
+      "mass": "61098764/4130760945"
+    },
+    {
+      "prefix": "X1X0X1010X0X100X0111",
+      "suffix_weight": 0,
+      "mass": "2463512/826152189"
+    },
+    {
+      "prefix": "X1X0XX0011XX1111X11X",
+      "suffix_weight": 1,
+      "mass": "724774/275384063"
+    },
+    {
+      "prefix": "X1X0XX0011XX111X111X",
+      "suffix_weight": 1,
+      "mass": "135846278/4130760945"
+    },
+    {
+      "prefix": "X1X100000100X011X101",
+      "suffix_weight": 2,
+      "mass": "91942892/4130760945"
+    },
+    {
+      "prefix": "X1X100000100X011XX11",
+      "suffix_weight": 2,
+      "mass": "23560036/4130760945"
+    },
+    {
+      "prefix": "X1X1000X0011X1011XXX",
+      "suffix_weight": 0,
+      "mass": "884762/4130760945"
+    },
+    {
+      "prefix": "X1X1X000X0011X11011X",
+      "suffix_weight": 1,
+      "mass": "5968178/275384063"
+    },
+    {
+      "prefix": "X1X1X0X001000X000XX0",
+      "suffix_weight": 0,
+      "mass": "20175542/4130760945"
+    },
+    {
+      "prefix": "X1XX00010XX00X011111",
+      "suffix_weight": 2,
+      "mass": "15495112/1376920315"
+    },
+    {
+      "prefix": "X1XX01X1000X0011111X",
+      "suffix_weight": 1,
+      "mass": "43804574/1376920315"
+    },
+    {
+      "prefix": "X1XX01X1000X001111X1",
+      "suffix_weight": 1,
+      "mass": "13127286/1376920315"
+    },
+    {
+      "prefix": "X1XX100011XX111XXX11",
+      "suffix_weight": 0,
+      "mass": "122169988/4130760945"
+    },
+    {
+      "prefix": "XX000000XX0X0011XXXX",
+      "suffix_weight": 1,
+      "mass": "78474268/4130760945"
+    },
+    {
+      "prefix": "XX000010X0011XX1XXXX",
+      "suffix_weight": 0,
+      "mass": "7299920/826152189"
+    },
+    {
+      "prefix": "XX0000X011X101XXXXX1",
+      "suffix_weight": 0,
+      "mass": "2266636/826152189"
+    },
+    {
+      "prefix": "XX0000X0XX100X0XX001",
+      "suffix_weight": 1,
+      "mass": "34105822/4130760945"
+    },
+    {
+      "prefix": "XX0000XXX0011XX110X1",
+      "suffix_weight": 1,
+      "mass": "62339696/4130760945"
+    },
+    {
+      "prefix": "XX0000XXXX0011X1XX11",
+      "suffix_weight": 1,
+      "mass": "57482398/4130760945"
+    },
+    {
+      "prefix": "XX0001000011X10101XX",
+      "suffix_weight": 2,
+      "mass": "73870/275384063"
+    },
+    {
+      "prefix": "XX000100001X110110XX",
+      "suffix_weight": 2,
+      "mass": "2477626/1376920315"
+    },
+    {
+      "prefix": "XX000100001X11X110XX",
+      "suffix_weight": 2,
+      "mass": "12402622/4130760945"
+    },
+    {
+      "prefix": "XX000100001X1XX111XX",
+      "suffix_weight": 2,
+      "mass": "113688/1376920315"
+    },
+    {
+      "prefix": "XX000100X011X11101XX",
+      "suffix_weight": 2,
+      "mass": "2425246/4130760945"
+    },
+    {
+      "prefix": "XX000100X011X11X0101",
+      "suffix_weight": 2,
+      "mass": "7594192/826152189"
+    },
+    {
+      "prefix": "XX000100X01X1101110X",
+      "suffix_weight": 2,
+      "mass": "48534/1376920315"
+    },
+    {
+      "prefix": "XX00010X0011110110XX",
+      "suffix_weight": 2,
+      "mass": "6354614/1376920315"
+    },
+    {
+      "prefix": "XX00010X0011XX11010X",
+      "suffix_weight": 1,
+      "mass": "4201708/4130760945"
+    },
+    {
+      "prefix": "XX00011X10X110X011XX",
+      "suffix_weight": 0,
+      "mass": "5298614/4130760945"
+    },
+    {
+      "prefix": "XX000XX0011X110X011X",
+      "suffix_weight": 1,
+      "mass": "65615594/4130760945"
+    },
+    {
+      "prefix": "XX000XX0X011110111XX",
+      "suffix_weight": 2,
+      "mass": "113688/1376920315"
+    },
+    {
+      "prefix": "XX001000X011110011XX",
+      "suffix_weight": 2,
+      "mass": "1024376/4130760945"
+    },
+    {
+      "prefix": "XX00100100X011X11XX1",
+      "suffix_weight": 2,
+      "mass": "24527244/1376920315"
+    },
+    {
+      "prefix": "XX00100X0011110101XX",
+      "suffix_weight": 2,
+      "mass": "2009392/4130760945"
+    },
+    {
+      "prefix": "XX00100X0011X111001X",
+      "suffix_weight": 2,
+      "mass": "17402084/1376920315"
+    },
+    {
+      "prefix": "XX00100X0011X11110X0",
+      "suffix_weight": 2,
+      "mass": "2142314/1376920315"
+    },
+    {
+      "prefix": "XX001010XX00111XX0X1",
+      "suffix_weight": 0,
+      "mass": "40932754/1376920315"
+    },
+    {
+      "prefix": "XX001100001X111011XX",
+      "suffix_weight": 2,
+      "mass": "1024376/4130760945"
+    },
+    {
+      "prefix": "XX00111X0111X1XXX1X1",
+      "suffix_weight": 1,
+      "mass": "32816344/4130760945"
+    },
+    {
+      "prefix": "XX00111X1111X1XXX1X1",
+      "suffix_weight": 2,
+      "mass": "755314/826152189"
+    },
+    {
+      "prefix": "XX00111X1111X1XXX1XX",
+      "suffix_weight": 1,
+      "mass": "2380934/4130760945"
+    },
+    {
+      "prefix": "XX0011X1100X11001011",
+      "suffix_weight": 1,
+      "mass": "7637444/4130760945"
+    },
+    {
+      "prefix": "XX0011X110XX11001011",
+      "suffix_weight": 1,
+      "mass": "12319666/1376920315"
+    },
+    {
+      "prefix": "XX0011X110XX11001X11",
+      "suffix_weight": 1,
+      "mass": "10803014/1376920315"
+    },
+    {
+      "prefix": "XX0011X1110010X11100",
+      "suffix_weight": 1,
+      "mass": "76988396/4130760945"
+    },
+    {
+      "prefix": "XX0011X1X01X11001X11",
+      "suffix_weight": 1,
+      "mass": "951878/1376920315"
+    },
+    {
+      "prefix": "XX001X000000XX0011X0",
+      "suffix_weight": 2,
+      "mass": "19702298/4130760945"
+    },
+    {
+      "prefix": "XX001X0X0000XX001101",
+      "suffix_weight": 2,
+      "mass": "7046228/826152189"
+    },
+    {
+      "prefix": "XX001X100X10X001110X",
+      "suffix_weight": 0,
+      "mass": "3428/3698085"
+    },
+    {
+      "prefix": "XX001X100X10X00111XX",
+      "suffix_weight": 0,
+      "mass": "5298614/4130760945"
+    },
+    {
+      "prefix": "XX001X1X110XXX111110",
+      "suffix_weight": 1,
+      "mass": "22038898/4130760945"
+    },
+    {
+      "prefix": "XX001X1X110XXX11111X",
+      "suffix_weight": 1,
+      "mass": "8761522/4130760945"
+    },
+    {
+      "prefix": "XX001X1X110XXX11X111",
+      "suffix_weight": 1,
+      "mass": "3650804/275384063"
+    },
+    {
+      "prefix": "XX001XX00X10001X1010",
+      "suffix_weight": 0,
+      "mass": "866200/826152189"
+    },
+    {
+      "prefix": "XX00X101000011X11XX1",
+      "suffix_weight": 2,
+      "mass": "2055242/4130760945"
+    },
+    {
+      "prefix": "XX00XX0000010X0011X0",
+      "suffix_weight": 2,
+      "mass": "13991036/4130760945"
+    },
+    {
+      "prefix": "XX00XX0X0000XX0011X1",
+      "suffix_weight": 2,
+      "mass": "38236702/4130760945"
+    },
+    {
+      "prefix": "XX00XX0X00010X0011X1",
+      "suffix_weight": 2,
+      "mass": "25532768/1376920315"
+    },
+    {
+      "prefix": "XX00XX0X000111X01X10",
+      "suffix_weight": 1,
+      "mass": "10240220/826152189"
+    },
+    {
+      "prefix": "XX00XX10X0000X10X011",
+      "suffix_weight": 1,
+      "mass": "18907406/4130760945"
+    },
+    {
+      "prefix": "XX010001101011X1XX10",
+      "suffix_weight": 1,
+      "mass": "4632368/1376920315"
+    },
+    {
+      "prefix": "XX01000X0011X11011X0",
+      "suffix_weight": 2,
+      "mass": "58265596/4130760945"
+    },
+    {
+      "prefix": "XX01000X001X110111XX",
+      "suffix_weight": 2,
+      "mass": "2425246/4130760945"
+    },
+    {
+      "prefix": "XX0101000011X11011XX",
+      "suffix_weight": 2,
+      "mass": "2009392/4130760945"
+    },
+    {
+      "prefix": "XX01010X0011110111XX",
+      "suffix_weight": 2,
+      "mass": "73870/275384063"
+    },
+    {
+      "prefix": "XX01010X0011X111010X",
+      "suffix_weight": 1,
+      "mass": "17846356/4130760945"
+    },
+    {
+      "prefix": "XX010X0X0000XX0011X1",
+      "suffix_weight": 2,
+      "mass": "41209688/4130760945"
+    },
+    {
+      "prefix": "XX010XX100XX01X1111X",
+      "suffix_weight": 0,
+      "mass": "13751864/4130760945"
+    },
+    {
+      "prefix": "XX011001000011X11X01",
+      "suffix_weight": 2,
+      "mass": "10933742/826152189"
+    },
+    {
+      "prefix": "XX011001000011XX1XX1",
+      "suffix_weight": 1,
+      "mass": "3809222/826152189"
+    },
+    {
+      "prefix": "XX01110101010110X1XX",
+      "suffix_weight": 0,
+      "mass": "47101058/4130760945"
+    },
+    {
+      "prefix": "XX011110101010110X1X",
+      "suffix_weight": 1,
+      "mass": "65349032/1376920315"
+    },
+    {
+      "prefix": "XX011110X100X1110XX1",
+      "suffix_weight": 0,
+      "mass": "24506692/4130760945"
+    },
+    {
+      "prefix": "XX01111110100X010110",
+      "suffix_weight": 1,
+      "mass": "14709656/4130760945"
+    },
+    {
+      "prefix": "XX011X00000111X01X10",
+      "suffix_weight": 1,
+      "mass": "7238536/826152189"
+    },
+    {
+      "prefix": "XX011X0X000111X01X1X",
+      "suffix_weight": 0,
+      "mass": "14720032/1376920315"
+    },
+    {
+      "prefix": "XX011XX1XXX1X111111X",
+      "suffix_weight": 1,
+      "mass": "2789244/1376920315"
+    },
+    {
+      "prefix": "XX011XX1XXX1X1111X11",
+      "suffix_weight": 1,
+      "mass": "208132222/4130760945"
+    },
+    {
+      "prefix": "XX01X001X1101111XX01",
+      "suffix_weight": 1,
+      "mass": "60452252/4130760945"
+    },
+    {
+      "prefix": "XX01X0100X10X0011X1X",
+      "suffix_weight": 0,
+      "mass": "11501214/1376920315"
+    },
+    {
+      "prefix": "XX0X0X00X000010X0X00",
+      "suffix_weight": 2,
+      "mass": "144677918/1376920315"
+    },
+    {
+      "prefix": "XX0X0X0X00000X001X10",
+      "suffix_weight": 2,
+      "mass": "15415862/4130760945"
+    },
+    {
+      "prefix": "XX0X0X0XX0000X001110",
+      "suffix_weight": 2,
+      "mass": "54132364/4130760945"
+    },
+    {
+      "prefix": "XX0X0XXX0XX00011X111",
+      "suffix_weight": 1,
+      "mass": "131582668/4130760945"
+    },
+    {
+      "prefix": "XX0X10000000XX0011X0",
+      "suffix_weight": 2,
+      "mass": "28918862/1376920315"
+    },
+    {
+      "prefix": "XX0X10010101010001XX",
+      "suffix_weight": 0,
+      "mass": "47101058/4130760945"
+    },
+    {
+      "prefix": "XX0X100X0000100011X0",
+      "suffix_weight": 2,
+      "mass": "16526618/1376920315"
+    },
+    {
+      "prefix": "XX0X1X0XX0000X001101",
+      "suffix_weight": 1,
+      "mass": "46379438/4130760945"
+    },
+    {
+      "prefix": "XX0X1X0XX0000X001110",
+      "suffix_weight": 1,
+      "mass": "28111148/4130760945"
+    },
+    {
+      "prefix": "XX0X1X0XX0000X0011X1",
+      "suffix_weight": 1,
+      "mass": "1981134/275384063"
+    },
+    {
+      "prefix": "XX0X1X0XX000XX001110",
+      "suffix_weight": 0,
+      "mass": "26997046/4130760945"
+    },
+    {
+      "prefix": "XX0X1X0XX001X00011X1",
+      "suffix_weight": 0,
+      "mass": "19381076/4130760945"
+    },
+    {
+      "prefix": "XX0XX0000001X00011X0",
+      "suffix_weight": 2,
+      "mass": "67783376/4130760945"
+    },
+    {
+      "prefix": "XX0XX00X0001000011X0",
+      "suffix_weight": 2,
+      "mass": "9254746/4130760945"
+    },
+    {
+      "prefix": "XX0XX00X0001X00011X0",
+      "suffix_weight": 1,
+      "mass": "4350248/826152189"
+    },
+    {
+      "prefix": "XX0XX00X010001X11X01",
+      "suffix_weight": 1,
+      "mass": "28731914/1376920315"
+    },
+    {
+      "prefix": "XX0XX01XX00X0011111X",
+      "suffix_weight": 1,
+      "mass": "51959324/4130760945"
+    },
+    {
+      "prefix": "XX0XX0X011X10X1111X1",
+      "suffix_weight": 1,
+      "mass": "50504288/4130760945"
+    },
+    {
+      "prefix": "XX0XX100X0XX0011111X",
+      "suffix_weight": 1,
+      "mass": "74328734/4130760945"
+    },
+    {
+      "prefix": "XX0XXX00X001X00011X0",
+      "suffix_weight": 0,
+      "mass": "9173606/1376920315"
+    },
+    {
+      "prefix": "XX0XXX0X0000X00011XX",
+      "suffix_weight": 1,
+      "mass": "2380934/4130760945"
+    },
+    {
+      "prefix": "XX0XXX0XX0000X001110",
+      "suffix_weight": 1,
+      "mass": "23957248/4130760945"
+    },
+    {
+      "prefix": "XX0XXX100X001X11111X",
+      "suffix_weight": 1,
+      "mass": "2848666/1376920315"
+    },
+    {
+      "prefix": "XX0XXX100XX0001111X1",
+      "suffix_weight": 1,
+      "mass": "55448236/4130760945"
+    },
+    {
+      "prefix": "XX10000X0011X11011X0",
+      "suffix_weight": 2,
+      "mass": "14830544/4130760945"
+    },
+    {
+      "prefix": "XX1000110X0X0XX00111",
+      "suffix_weight": 1,
+      "mass": "66907438/1376920315"
+    },
+    {
+      "prefix": "XX1000X00XX0001X101X",
+      "suffix_weight": 1,
+      "mass": "32738248/1376920315"
+    },
+    {
+      "prefix": "XX1001000011X10110XX",
+      "suffix_weight": 1,
+      "mass": "3562726/1376920315"
+    },
+    {
+      "prefix": "XX1001000011X10111XX",
+      "suffix_weight": 2,
+      "mass": "6354614/1376920315"
+    },
+    {
+      "prefix": "XX100100X011110111XX",
+      "suffix_weight": 2,
+      "mass": "2477626/1376920315"
+    },
+    {
+      "prefix": "XX100100X011X10110X1",
+      "suffix_weight": 1,
+      "mass": "14951042/4130760945"
+    },
+    {
+      "prefix": "XX10010100X011XX11X1",
+      "suffix_weight": 1,
+      "mass": "7035916/275384063"
+    },
+    {
+      "prefix": "XX10010X0011110110XX",
+      "suffix_weight": 1,
+      "mass": "3562726/1376920315"
+    },
+    {
+      "prefix": "XX10010X0011X10101X1",
+      "suffix_weight": 1,
+      "mass": "142276/1376920315"
+    },
+    {
+      "prefix": "XX10010X0011X11101X0",
+      "suffix_weight": 1,
+      "mass": "6171574/4130760945"
+    },
+    {
+      "prefix": "XX10010X0011X1X110X1",
+      "suffix_weight": 1,
+      "mass": "7343686/4130760945"
+    },
+    {
+      "prefix": "XX100X0011XXXX111X11",
+      "suffix_weight": 1,
+      "mass": "24280586/4130760945"
+    },
+    {
+      "prefix": "XX100X00X011110111XX",
+      "suffix_weight": 2,
+      "mass": "12402622/4130760945"
+    },
+    {
+      "prefix": "XX100X1X00XXX0011X11",
+      "suffix_weight": 0,
+      "mass": "4274318/275384063"
+    },
+    {
+      "prefix": "XX101X000XX0X0011X1X",
+      "suffix_weight": 0,
+      "mass": "26874982/1376920315"
+    },
+    {
+      "prefix": "XX10X0X01X00111111X0",
+      "suffix_weight": 1,
+      "mass": "10140118/1376920315"
+    },
+    {
+      "prefix": "XX10X100X0000111X10X",
+      "suffix_weight": 1,
+      "mass": "130506716/4130760945"
+    },
+    {
+      "prefix": "XX1X000011XX00X00111",
+      "suffix_weight": 1,
+      "mass": "232894828/4130760945"
+    },
+    {
+      "prefix": "XX1X00X0011XXX1111X1",
+      "suffix_weight": 1,
+      "mass": "37214612/4130760945"
+    },
+    {
+      "prefix": "XXX00011XX11010X1XX1",
+      "suffix_weight": 0,
+      "mass": "206510204/4130760945"
+    },
+    {
+      "prefix": "XXX00100X011X10110X1",
+      "suffix_weight": 1,
+      "mass": "47216/826152189"
+    },
+    {
+      "prefix": "XXX0010X0011X1011XXX",
+      "suffix_weight": 0,
+      "mass": "37920412/4130760945"
+    },
+    {
+      "prefix": "XXX0010X0011X111001X",
+      "suffix_weight": 1,
+      "mass": "2290618/1376920315"
+    },
+    {
+      "prefix": "XXX0010X0011X1110X0X",
+      "suffix_weight": 0,
+      "mass": "884762/4130760945"
+    },
+    {
+      "prefix": "XXX00110000X0X000X01",
+      "suffix_weight": 2,
+      "mass": "78953424/1376920315"
+    },
+    {
+      "prefix": "XXX0011X1XX10X111X11",
+      "suffix_weight": 1,
+      "mass": "5950978/826152189"
+    },
+    {
+      "prefix": "XXX0011XX110X11X111X",
+      "suffix_weight": 1,
+      "mass": "201713786/4130760945"
+    },
+    {
+      "prefix": "XXX0011XXX1X1X1111X1",
+      "suffix_weight": 1,
+      "mass": "38573994/1376920315"
+    },
+    {
+      "prefix": "XXX0011XXXX1X1111X11",
+      "suffix_weight": 1,
+      "mass": "110166/275384063"
+    },
+    {
+      "prefix": "XXX00X0XX0X00X0X011X",
+      "suffix_weight": 0,
+      "mass": "268272604/4130760945"
+    },
+    {
+      "prefix": "XXX00X1X00XXX0011X11",
+      "suffix_weight": 0,
+      "mass": "18493726/4130760945"
+    },
+    {
+      "prefix": "XXX01110XX1X101XX111",
+      "suffix_weight": 0,
+      "mass": "37436128/4130760945"
+    },
+    {
+      "prefix": "XXX01X00000111X01X10",
+      "suffix_weight": 1,
+      "mass": "19730204/1376920315"
+    },
+    {
+      "prefix": "XXX01X0X10X0X001111X",
+      "suffix_weight": 0,
+      "mass": "13669556/826152189"
+    },
+    {
+      "prefix": "XXX01XXX001000X001X1",
+      "suffix_weight": 0,
+      "mass": "327448588/4130760945"
+    },
+    {
+      "prefix": "XXX0X0011110X100X1X1",
+      "suffix_weight": 0,
+      "mass": "24352438/1376920315"
+    },
+    {
+      "prefix": "XXX0X0101000X0100011",
+      "suffix_weight": 2,
+      "mass": "97461944/1376920315"
+    },
+    {
+      "prefix": "XXX0X0X00011110X01X0",
+      "suffix_weight": 0,
+      "mass": "20686646/1376920315"
+    },
+    {
+      "prefix": "XXX0X1X00X001X1111X1",
+      "suffix_weight": 1,
+      "mass": "6267832/1376920315"
+    },
+    {
+      "prefix": "XXX1000X011XX111X100",
+      "suffix_weight": 0,
+      "mass": "5294422/1376920315"
+    },
+    {
+      "prefix": "XXX1001001X0X0011X1X",
+      "suffix_weight": 0,
+      "mass": "613456/1376920315"
+    },
+    {
+      "prefix": "XXX100100XX0X001110X",
+      "suffix_weight": 0,
+      "mass": "275250/275384063"
+    },
+    {
+      "prefix": "XXX10010X0011XX11X01",
+      "suffix_weight": 0,
+      "mass": "104819324/4130760945"
+    },
+    {
+      "prefix": "XXX1001X00XXX0011X11",
+      "suffix_weight": 0,
+      "mass": "3262748/1376920315"
+    },
+    {
+      "prefix": "XXX100X00X011X111100",
+      "suffix_weight": 1,
+      "mass": "97671382/4130760945"
+    },
+    {
+      "prefix": "XXX100X0X011XX111101",
+      "suffix_weight": 1,
+      "mass": "15064502/4130760945"
+    },
+    {
+      "prefix": "XXX100X0X011XX111111",
+      "suffix_weight": 2,
+      "mass": "773092/4130760945"
+    },
+    {
+      "prefix": "XXX100XXX0X00111111X",
+      "suffix_weight": 1,
+      "mass": "1116074/826152189"
+    },
+    {
+      "prefix": "XXX10X00000111X01X11",
+      "suffix_weight": 2,
+      "mass": "20156260/826152189"
+    },
+    {
+      "prefix": "XXXX00111110110X0011",
+      "suffix_weight": 1,
+      "mass": "94132792/4130760945"
+    },
+    {
+      "prefix": "XXXX0011X110XX111X11",
+      "suffix_weight": 1,
+      "mass": "88681402/4130760945"
+    },
+    {
+      "prefix": "XXXX0011X1X10X111111",
+      "suffix_weight": 2,
+      "mass": "13848086/826152189"
+    },
+    {
+      "prefix": "XXXX0011X1X10X1111X1",
+      "suffix_weight": 1,
+      "mass": "15318728/4130760945"
+    },
+    {
+      "prefix": "XXXX0011X1X10X111X11",
+      "suffix_weight": 1,
+      "mass": "3866548/826152189"
+    },
+    {
+      "prefix": "XXXX0011X1XX111111XX",
+      "suffix_weight": 1,
+      "mass": "78474268/4130760945"
+    },
+    {
+      "prefix": "XXXX0011X1XX1111X11X",
+      "suffix_weight": 1,
+      "mass": "170512246/4130760945"
+    },
+    {
+      "prefix": "XXXX0011X1XX11X1111X",
+      "suffix_weight": 1,
+      "mass": "30314092/4130760945"
+    },
+    {
+      "prefix": "XXXX0011XX1X1X111101",
+      "suffix_weight": 1,
+      "mass": "70356982/4130760945"
+    },
+    {
+      "prefix": "XXXX0011XX1X1X11X111",
+      "suffix_weight": 1,
+      "mass": "38000044/1376920315"
+    },
+    {
+      "prefix": "XXXX001X1XX1101111X1",
+      "suffix_weight": 1,
+      "mass": "26612804/1376920315"
+    },
+    {
+      "prefix": "XXXX0X0011X10X1111X1",
+      "suffix_weight": 1,
+      "mass": "12730220/826152189"
+    },
+    {
+      "prefix": "XXXX0X0011X10X111X11",
+      "suffix_weight": 1,
+      "mass": "3882404/1376920315"
+    },
+    {
+      "prefix": "XXXX0X011X1X0111111X",
+      "suffix_weight": 1,
+      "mass": "878528/826152189"
+    },
+    {
+      "prefix": "XXXX0X0X000111X01X10",
+      "suffix_weight": 0,
+      "mass": "33659758/1376920315"
+    },
+    {
+      "prefix": "XXXX0XX0011X10111011",
+      "suffix_weight": 1,
+      "mass": "21805616/4130760945"
+    },
+    {
+      "prefix": "XXXX0XX0011X101111XX",
+      "suffix_weight": 0,
+      "mass": "7299920/826152189"
+    },
+    {
+      "prefix": "XXXX0XX0011X10111X11",
+      "suffix_weight": 1,
+      "mass": "11196544/4130760945"
+    },
+    {
+      "prefix": "XXXX0XX0011X1011X111",
+      "suffix_weight": 1,
+      "mass": "85025744/4130760945"
+    },
+    {
+      "prefix": "XXXX0XX0011XX1111X11",
+      "suffix_weight": 1,
+      "mass": "19890134/826152189"
+    },
+    {
+      "prefix": "XXXX0XXX00111011111X",
+      "suffix_weight": 1,
+      "mass": "55627204/4130760945"
+    },
+    {
+      "prefix": "XXXXX0011X110X111011",
+      "suffix_weight": 1,
+      "mass": "55620578/4130760945"
+    },
+    {
+      "prefix": "XXXXX0011X110X11111X",
+      "suffix_weight": 1,
+      "mass": "172643314/4130760945"
+    },
+    {
+      "prefix": "XXXXX0011X110X11X11X",
+      "suffix_weight": 0,
+      "mass": "88729124/4130760945"
+    },
+    {
+      "prefix": "XXXXX0011X110X1X111X",
+      "suffix_weight": 0,
+      "mass": "26701064/4130760945"
+    },
+    {
+      "prefix": "XXXXX0011XX1X1111X11",
+      "suffix_weight": 1,
+      "mass": "13963518/1376920315"
+    },
+    {
+      "prefix": "XXXXX0X1000X10001001",
+      "suffix_weight": 0,
+      "mass": "181026154/4130760945"
+    },
+    {
+      "prefix": "XXXXX0XX0011X1111101",
+      "suffix_weight": 1,
+      "mass": "3791252/4130760945"
+    },
+    {
+      "prefix": "XXXXX0XX0011X1111110",
+      "suffix_weight": 1,
+      "mass": "50865532/1376920315"
+    },
+    {
+      "prefix": "XXXXX0XX0011X11111X1",
+      "suffix_weight": 1,
+      "mass": "135188/826152189"
+    },
+    {
+      "prefix": "XXXXX0XX0011X1111X11",
+      "suffix_weight": 1,
+      "mass": "13543672/1376920315"
+    },
+    {
+      "prefix": "XXXXX0XX0011X111X111",
+      "suffix_weight": 1,
+      "mass": "199118942/4130760945"
+    },
+    {
+      "prefix": "XXXXX10000001X100011",
+      "suffix_weight": 1,
+      "mass": "5401358/826152189"
+    },
+    {
+      "prefix": "XXXXXX0011X101111101",
+      "suffix_weight": 1,
+      "mass": "1969142/4130760945"
+    },
+    {
+      "prefix": "XXXXXX0011X1101111X1",
+      "suffix_weight": 1,
+      "mass": "19665266/1376920315"
+    },
+    {
+      "prefix": "XXXXXX0011X11011X111",
+      "suffix_weight": 1,
+      "mass": "110414648/4130760945"
+    },
+    {
+      "prefix": "XXXXXX0011X1X111X111",
+      "suffix_weight": 1,
+      "mass": "37809506/4130760945"
+    }
+  ]
+}

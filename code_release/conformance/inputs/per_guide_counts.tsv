@@ -1,0 +1,551 @@
+tool	guide_id	guide	n	r	patterns_emitted	distinct_deletion_words_recovered	source_derived_deletion_words	raw_positions_or_alignments	deficit	evidence_state	method	count_test_result
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g0	GATTTCTATGACCTGTATGG	20	16	15	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g0	GATTTCTATGACCTGTATGG	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g0	GATTTCTATGACCTGTATGG	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g100	GGTCCCGGTGGTGTGGGCCC	20	11	11	N/A	N/A	18	0	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	no count deficit on this guide
+Cas-OFFinder 3.0.0 develop	g100	GGTCCCGGTGGTGTGGGCCC	20	11	11	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g100	GGTCCCGGTGGTGTGGGCCC	20	11	11	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g101	GGGGCCACTAGGGACAGGAT	20	13	12	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g101	GGGGCCACTAGGGACAGGAT	20	13	12	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g101	GGGGCCACTAGGGACAGGAT	20	13	12	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g102	GCTCGGGGACACAGGATCCC	20	14	13	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g102	GCTCGGGGACACAGGATCCC	20	14	14	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g102	GCTCGGGGACACAGGATCCC	20	14	14	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g103	GGCCACGGAGCGAGACATCT	20	17	16	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g103	GGCCACGGAGCGAGACATCT	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g103	GGCCACGGAGCGAGACATCT	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g104	GTGGGATCGGAGCAGTTCAG	20	16	14	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g104	GTGGGATCGGAGCAGTTCAG	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g104	GTGGGATCGGAGCAGTTCAG	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g105	GAAGCGTGATGACAAAGAGG	20	16	15	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g105	GAAGCGTGATGACAAAGAGG	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g105	GAAGCGTGATGACAAAGAGG	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g106	GCATTTTCTTCACGGAAACA	20	13	11	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g106	GCATTTTCTTCACGGAAACA	20	13	12	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g106	GCATTTTCTTCACGGAAACA	20	13	12	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g107	GGAAGGAGGAGGCCTAAGGA	20	12	11	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g107	GGAAGGAGGAGGCCTAAGGA	20	12	11	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g107	GGAAGGAGGAGGCCTAAGGA	20	12	11	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g108	GCAGCATAGTGAGCCCAGAA	20	17	16	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g108	GCAGCATAGTGAGCCCAGAA	20	17	17	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g108	GCAGCATAGTGAGCCCAGAA	20	17	17	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g109	GTGTGTGAGTATGCATCTCC	20	19	18	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g109	GTGTGTGAGTATGCATCTCC	20	19	19	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g109	GTGTGTGAGTATGCATCTCC	20	19	19	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g10	GGCATACTCATCTTTTTCAG	20	15	14	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g10	GGCATACTCATCTTTTTCAG	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g10	GGCATACTCATCTTTTTCAG	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g11	GGACAGTAAGAAGGAAAAAC	20	12	11	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g11	GGACAGTAAGAAGGAAAAAC	20	12	11	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g11	GGACAGTAAGAAGGAAAAAC	20	12	11	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g12	GGTGGTGTGGGCCCAGGAGG	20	12	12	N/A	N/A	18	0	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	no count deficit on this guide
+Cas-OFFinder 3.0.0 develop	g12	GGTGGTGTGGGCCCAGGAGG	20	12	12	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g12	GGTGGTGTGGGCCCAGGAGG	20	12	12	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g13	GAAGTTGACTTACTGAAGAA	20	15	14	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g13	GAAGTTGACTTACTGAAGAA	20	15	15	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g13	GAAGTTGACTTACTGAAGAA	20	15	15	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g14	GTCGAGAAAAGCTTTGAAAC	20	13	11	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g14	GTCGAGAAAAGCTTTGAAAC	20	13	12	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g14	GTCGAGAAAAGCTTTGAAAC	20	13	12	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g15	GGGGGTTCCAGGGCCTGTCT	20	11	10	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g15	GGGGGTTCCAGGGCCTGTCT	20	11	10	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g15	GGGGGTTCCAGGGCCTGTCT	20	11	10	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g16	GGCCGAGATGTCTCGCTCCG	20	17	16	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g16	GGCCGAGATGTCTCGCTCCG	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g16	GGCCGAGATGTCTCGCTCCG	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g17	GGCAGAAACCCTGGTGGTCG	20	13	12	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g17	GGCAGAAACCCTGGTGGTCG	20	13	12	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g17	GGCAGAAACCCTGGTGGTCG	20	13	12	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g18	GAGAATCAAAATCGGTGAAT	20	14	12	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g18	GAGAATCAAAATCGGTGAAT	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g18	GAGAATCAAAATCGGTGAAT	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g19	GCCCTGGCCAGTCGTCTGGG	20	14	13	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g19	GCCCTGGCCAGTCGTCTGGG	20	14	14	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g19	GCCCTGGCCAGTCGTCTGGG	20	14	14	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g1	GGGAACCCAGCGAGTGAAGA	20	14	13	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g1	GGGAACCCAGCGAGTGAAGA	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g1	GGGAACCCAGCGAGTGAAGA	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g20	GAAGATGATGGAGTAGATGG	20	17	16	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g20	GAAGATGATGGAGTAGATGG	20	17	17	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g20	GAAGATGATGGAGTAGATGG	20	17	17	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g21	GGTGGATGATGGTGCCGTCG	20	16	15	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g21	GGTGGATGATGGTGCCGTCG	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g21	GGTGGATGATGGTGCCGTCG	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g22	GCAGATGGAATCATCTAGGA	20	17	15	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g22	GCAGATGGAATCATCTAGGA	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g22	GCAGATGGAATCATCTAGGA	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g23	GGCCAGTACCACAGCAGGCT	20	16	15	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g23	GGCCAGTACCACAGCAGGCT	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g23	GGCCAGTACCACAGCAGGCT	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g24	GAAGAAACTGAGAAGCATGA	20	16	14	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g24	GAAGAAACTGAGAAGCATGA	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g24	GAAGAAACTGAGAAGCATGA	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g25	GAGCAGGGCTGGGGAGAAGG	20	13	12	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g25	GAGCAGGGCTGGGGAGAAGG	20	13	13	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g25	GAGCAGGGCTGGGGAGAAGG	20	13	13	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g26	GAAGCATGACGGACAAGTAC	20	17	15	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g26	GAAGCATGACGGACAAGTAC	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g26	GAAGCATGACGGACAAGTAC	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g27	GGTTTCACCGAGACCTCAGT	20	15	14	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g27	GGTTTCACCGAGACCTCAGT	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g27	GGTTTCACCGAGACCTCAGT	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g28	GCTGTCCTGAAGTGGACATA	20	17	15	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g28	GCTGTCCTGAAGTGGACATA	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g28	GCTGTCCTGAAGTGGACATA	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g29	GGGCTGCAGGGGAGCTGGGC	20	13	12	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g29	GGGCTGCAGGGGAGCTGGGC	20	13	12	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g29	GGGCTGCAGGGGAGCTGGGC	20	13	12	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g2	GTACAGGCTGCACCTGTCAG	20	18	16	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g2	GTACAGGCTGCACCTGTCAG	20	18	17	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g2	GTACAGGCTGCACCTGTCAG	20	18	17	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g30	GCTGGTACACGGCAGGGTCA	20	16	14	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g30	GCTGGTACACGGCAGGGTCA	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g30	GCTGGTACACGGCAGGGTCA	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g31	GCTGACCCCGCTGGGCAGGC	20	14	12	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g31	GCTGACCCCGCTGGGCAGGC	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g31	GCTGACCCCGCTGGGCAGGC	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g32	GTTTGCGACTCTGACAGAGC	20	18	16	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g32	GTTTGCGACTCTGACAGAGC	20	18	17	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g32	GTTTGCGACTCTGACAGAGC	20	18	17	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g33	GGGACTCTACATCTGCAAGG	20	16	16	N/A	N/A	18	0	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	no count deficit on this guide
+Cas-OFFinder 3.0.0 develop	g33	GGGACTCTACATCTGCAAGG	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g33	GGGACTCTACATCTGCAAGG	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g34	GGGGATTTCTATGACCTGTA	20	14	13	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g34	GGGGATTTCTATGACCTGTA	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g34	GGGGATTTCTATGACCTGTA	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g35	GCACGTGGCCCAGCCTGCTG	20	16	14	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g35	GCACGTGGCCCAGCCTGCTG	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g35	GCACGTGGCCCAGCCTGCTG	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g36	GACACCTTCTTCCCCAGCCC	20	12	11	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g36	GACACCTTCTTCCCCAGCCC	20	12	12	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g36	GACACCTTCTTCCCCAGCCC	20	12	12	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g37	GGGGGATTGTGGGGCTGCAG	20	12	11	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g37	GGGGGATTGTGGGGCTGCAG	20	12	11	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g37	GGGGGATTGTGGGGCTGCAG	20	12	11	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g38	GCATACTCATCTTTTTCAGT	20	16	14	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g38	GCATACTCATCTTTTTCAGT	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g38	GCATACTCATCTTTTTCAGT	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g39	GCTGCCGCCCAGTGGGACTT	20	14	13	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g39	GCTGCCGCCCAGTGGGACTT	20	14	14	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g39	GCTGCCGCCCAGTGGGACTT	20	14	14	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g3	GTCAGGGTTCTGGATATCTG	20	16	14	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g3	GTCAGGGTTCTGGATATCTG	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g3	GTCAGGGTTCTGGATATCTG	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g40	GGTCACCACGAGCAGGGCTG	20	16	15	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g40	GGTCACCACGAGCAGGGCTG	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g40	GGTCACCACGAGCAGGGCTG	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g41	GTGGAGCGCAGTGGTCTCCG	20	17	15	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g41	GTGGAGCGCAGTGGTCTCCG	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g41	GTGGAGCGCAGTGGTCTCCG	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g42	GGAAACTTGGCCACTCTATG	20	14	13	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g42	GGAAACTTGGCCACTCTATG	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g42	GGAAACTTGGCCACTCTATG	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g43	GGGCGGTGCTACAACTGGGC	20	14	13	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g43	GGGCGGTGCTACAACTGGGC	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g43	GGGCGGTGCTACAACTGGGC	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g44	GTGGTACTGGCCAGCAGCCG	20	16	14	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g44	GTGGTACTGGCCAGCAGCCG	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g44	GTGGTACTGGCCAGCAGCCG	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g45	GCTGTTTCTGCAGCCGCTTT	20	15	14	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g45	GCTGTTTCTGCAGCCGCTTT	20	15	15	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g45	GCTGTTTCTGCAGCCGCTTT	20	15	15	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g46	GAGTAGCGCGAGCACAGCTA	20	20	18	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g46	GAGTAGCGCGAGCACAGCTA	20	20	19	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g46	GAGTAGCGCGAGCACAGCTA	20	20	19	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g47	GCCGTGGCAAACTGGTACTT	20	14	13	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g47	GCCGTGGCAAACTGGTACTT	20	14	14	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g47	GCCGTGGCAAACTGGTACTT	20	14	14	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g48	GTATGGAAAATGAGAGCTGC	20	16	14	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g48	GTATGGAAAATGAGAGCTGC	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g48	GTATGGAAAATGAGAGCTGC	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g49	GGCACCAACTGGATGGATCA	20	15	14	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g49	GGCACCAACTGGATGGATCA	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g49	GGCACCAACTGGATGGATCA	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g4	GCGTGACTTCCACATGAGCG	20	18	16	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g4	GCGTGACTTCCACATGAGCG	20	18	17	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g4	GCGTGACTTCCACATGAGCG	20	18	17	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g50	GCTGGCGATGCCTCGGCTGC	20	17	15	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g50	GCTGGCGATGCCTCGGCTGC	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g50	GCTGGCGATGCCTCGGCTGC	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g51	GGGTATTATTGATGCTATTC	20	15	14	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g51	GGGTATTATTGATGCTATTC	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g51	GGGTATTATTGATGCTATTC	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g52	GGTGAGGGAGGAGAGATGCC	20	15	15	N/A	N/A	18	0	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	no count deficit on this guide
+Cas-OFFinder 3.0.0 develop	g52	GGTGAGGGAGGAGAGATGCC	20	15	15	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g52	GGTGAGGGAGGAGAGATGCC	20	15	15	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g53	GTCCCCTGAGCCCATTTCCT	20	12	10	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g53	GTCCCCTGAGCCCATTTCCT	20	12	11	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g53	GTCCCCTGAGCCCATTTCCT	20	12	11	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g54	GCTACTCTCTCTTTCTGGCC	20	16	15	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g54	GCTACTCTCTCTTTCTGGCC	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g54	GCTACTCTCTCTTTCTGGCC	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g55	GCACAAGGCTCAGCTGAACC	20	16	15	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g55	GCACAAGGCTCAGCTGAACC	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g55	GCACAAGGCTCAGCTGAACC	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g56	GGCCCAGCCTGCTGTGGTAC	20	15	14	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g56	GGCCCAGCCTGCTGTGGTAC	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g56	GGCCCAGCCTGCTGTGGTAC	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g57	GAGGTTCACTTGATTTCCAC	20	14	12	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g57	GAGGTTCACTTGATTTCCAC	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g57	GAGGTTCACTTGATTTCCAC	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g58	GTGCGGCAACCTACATGATG	20	17	15	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g58	GTGCGGCAACCTACATGATG	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g58	GTGCGGCAACCTACATGATG	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g59	GTAGAGCGGAGGCAGGAGGC	20	16	14	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g59	GTAGAGCGGAGGCAGGAGGC	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g59	GTAGAGCGGAGGCAGGAGGC	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g5	GCTTGTCCGTCTGGTTGCTG	20	16	14	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g5	GCTTGTCCGTCTGGTTGCTG	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g5	GCTTGTCCGTCTGGTTGCTG	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g60	GATGCTATTCAGGATGCAGT	20	18	16	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g60	GATGCTATTCAGGATGCAGT	20	18	17	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g60	GATGCTATTCAGGATGCAGT	20	18	17	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g61	GGTACCTATCGATTGTCAGG	20	16	16	N/A	N/A	18	0	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	no count deficit on this guide
+Cas-OFFinder 3.0.0 develop	g61	GGTACCTATCGATTGTCAGG	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g61	GGTACCTATCGATTGTCAGG	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g62	GTCACCAATCCTGTCCCTAG	20	15	13	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g62	GTCACCAATCCTGTCCCTAG	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g62	GTCACCAATCCTGTCCCTAG	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g63	GAAGGCTGAGATCCTGGAGG	20	15	14	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g63	GAAGGCTGAGATCCTGGAGG	20	15	15	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g63	GAAGGCTGAGATCCTGGAGG	20	15	15	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g64	GAACAAGGTGTTCCCACCCG	20	12	10	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g64	GAACAAGGTGTTCCCACCCG	20	12	11	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g64	GAACAAGGTGTTCCCACCCG	20	12	11	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g65	GTTGGAGAAGCTGCAGGTGA	20	16	14	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g65	GTTGGAGAAGCTGCAGGTGA	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g65	GTTGGAGAAGCTGCAGGTGA	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g66	GTCTCCCTGATCCATCCAGT	20	16	14	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g66	GTCTCCCTGATCCATCCAGT	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g66	GTCTCCCTGATCCATCCAGT	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g67	GCTGCCCCGCCTGCCCAGCG	20	14	12	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g67	GCTGCCCCGCCTGCCCAGCG	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g67	GCTGCCCCGCCTGCCCAGCG	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g68	GGTGACAAGTGTGATCACTT	20	17	17	N/A	N/A	18	0	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	no count deficit on this guide
+Cas-OFFinder 3.0.0 develop	g68	GGTGACAAGTGTGATCACTT	20	17	17	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g68	GGTGACAAGTGTGATCACTT	20	17	17	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g69	GGCAGCATAGTGAGCCCAGA	20	17	16	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g69	GGCAGCATAGTGAGCCCAGA	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g69	GGCAGCATAGTGAGCCCAGA	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g6	GCTGCAGAAACAGCAAGCCC	20	15	14	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g6	GCTGCAGAAACAGCAAGCCC	20	15	15	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g6	GCTGCAGAAACAGCAAGCCC	20	15	15	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g70	GGGATCAGGTGACCCATATT	20	14	14	N/A	N/A	18	0	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	no count deficit on this guide
+Cas-OFFinder 3.0.0 develop	g70	GGGATCAGGTGACCCATATT	20	14	14	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g70	GGGATCAGGTGACCCATATT	20	14	14	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g71	GTCTGGGCGGTGCTACAACT	20	16	14	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g71	GTCTGGGCGGTGCTACAACT	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g71	GTCTGGGCGGTGCTACAACT	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g72	GGTGCACAGTGGGGTCAGCA	20	16	15	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g72	GGTGCACAGTGGGGTCAGCA	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g72	GGTGCACAGTGGGGTCAGCA	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g73	GTGAGTAGAGCGGAGGCAGG	20	17	16	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g73	GTGAGTAGAGCGGAGGCAGG	20	17	17	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g73	GTGAGTAGAGCGGAGGCAGG	20	17	17	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g74	GGATTTCCTCCTCGACCACC	20	13	13	N/A	N/A	18	0	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	no count deficit on this guide
+Cas-OFFinder 3.0.0 develop	g74	GGATTTCCTCCTCGACCACC	20	13	13	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g74	GGATTTCCTCCTCGACCACC	20	13	13	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g75	GCCTCTCCAGCCAGGGGCTG	20	14	12	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g75	GCCTCTCCAGCCAGGGGCTG	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g75	GCCTCTCCAGCCAGGGGCTG	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g76	GAGGGCTCACCAGAGGTAGG	20	15	14	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g76	GAGGGCTCACCAGAGGTAGG	20	15	15	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g76	GAGGGCTCACCAGAGGTAGG	20	15	15	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g77	GATTTCCTCCTCGACCACCA	20	14	12	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g77	GATTTCCTCCTCGACCACCA	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g77	GATTTCCTCCTCGACCACCA	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g78	GGCCCCACTGTGGGGTGGAG	20	12	11	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g78	GGCCCCACTGTGGGGTGGAG	20	12	11	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g78	GGCCCCACTGTGGGGTGGAG	20	12	11	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g79	GATAACTACACCGAGGAAAT	20	15	13	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g79	GATAACTACACCGAGGAAAT	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g79	GATAACTACACCGAGGAAAT	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g7	GTCCCTAGTGGCCCCACTGT	20	14	12	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g7	GTCCCTAGTGGCCCCACTGT	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g7	GTCCCTAGTGGCCCCACTGT	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g80	GCGCCGAGAAGGAAGTGCTC	20	16	14	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g80	GCGCCGAGAAGGAAGTGCTC	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g80	GCGCCGAGAAGGAAGTGCTC	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g81	GCCCTGCTCGTGGTGACCGA	20	16	14	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g81	GCCCTGCTCGTGGTGACCGA	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g81	GCCCTGCTCGTGGTGACCGA	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g82	GGAGAAGGTGGGGGGGTTCC	20	9	9	N/A	N/A	18	0	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	no count deficit on this guide
+Cas-OFFinder 3.0.0 develop	g82	GGAGAAGGTGGGGGGGTTCC	20	9	9	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g82	GGAGAAGGTGGGGGGGTTCC	20	9	9	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g83	GGAATCTGCCTAACAGGAGG	20	14	14	N/A	N/A	18	0	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	no count deficit on this guide
+Cas-OFFinder 3.0.0 develop	g83	GGAATCTGCCTAACAGGAGG	20	14	14	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g83	GGAATCTGCCTAACAGGAGG	20	14	14	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g84	GGACCGCAGCCAGCCCGGCC	20	13	13	N/A	N/A	18	0	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	no count deficit on this guide
+Cas-OFFinder 3.0.0 develop	g84	GGACCGCAGCCAGCCCGGCC	20	13	13	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g84	GGACCGCAGCCAGCCCGGCC	20	13	13	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g85	GCTGGGCAGGAGCCCCCTCC	20	12	11	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g85	GCTGGGCAGGAGCCCCCTCC	20	12	12	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g85	GCTGGGCAGGAGCCCCCTCC	20	12	12	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g86	GCAAACATGCTGTCCTGAAG	20	16	14	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g86	GCAAACATGCTGTCCTGAAG	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g86	GCAAACATGCTGTCCTGAAG	20	16	15	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g87	GATGTGGGAGGCTCAGTTCC	20	15	14	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g87	GATGTGGGAGGCTCAGTTCC	20	15	15	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g87	GATGTGGGAGGCTCAGTTCC	20	15	15	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g88	GGACTGAGGGCCATGGACAC	20	15	14	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g88	GGACTGAGGGCCATGGACAC	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g88	GGACTGAGGGCCATGGACAC	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g89	GAGACCCTGCTCAAGGGCCG	20	14	12	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g89	GAGACCCTGCTCAAGGGCCG	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g89	GAGACCCTGCTCAAGGGCCG	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g8	GAAGGTGGCGTTGTCCCCTT	20	12	11	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g8	GAAGGTGGCGTTGTCCCCTT	20	12	12	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g8	GAAGGTGGCGTTGTCCCCTT	20	12	12	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g90	GAGCCACATTAACCGGCCCT	20	13	11	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g90	GAGCCACATTAACCGGCCCT	20	13	12	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g90	GAGCCACATTAACCGGCCCT	20	13	12	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g91	GTCCCCTCCACCCCACAGTG	20	13	11	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g91	GTCCCCTCCACCCCACAGTG	20	13	12	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g91	GTCCCCTCCACCCCACAGTG	20	13	12	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g92	GGGGCAGCTCCGGCGCTCCT	20	14	13	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g92	GGGGCAGCTCCGGCGCTCCT	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g92	GGGGCAGCTCCGGCGCTCCT	20	14	13	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g93	GCTGTGTTTGCGTCTCTCCC	20	16	15	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g93	GCTGTGTTTGCGTCTCTCCC	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g93	GCTGTGTTTGCGTCTCTCCC	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g94	GGGCAATGGATTGGTCATCC	20	13	13	N/A	N/A	18	0	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	no count deficit on this guide
+Cas-OFFinder 3.0.0 develop	g94	GGGCAATGGATTGGTCATCC	20	13	13	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g94	GGGCAATGGATTGGTCATCC	20	13	13	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g95	GCTTCGGCAGGCTGACAGCC	20	16	15	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g95	GCTTCGGCAGGCTGACAGCC	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g95	GCTTCGGCAGGCTGACAGCC	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g96	GATGCAGAGACCCTGCTCAA	20	17	16	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g96	GATGCAGAGACCCTGCTCAA	20	17	17	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g96	GATGCAGAGACCCTGCTCAA	20	17	17	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g97	GAGAAGGTGGGGGGGTTCCA	20	10	8	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g97	GAGAAGGTGGGGGGGTTCCA	20	10	9	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g97	GAGAAGGTGGGGGGGTTCCA	20	10	9	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g98	GGCGCCCTGGCCAGTCGTCT	20	15	14	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g98	GGCGCCCTGGCCAGTCGTCT	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g98	GGCGCCCTGGCCAGTCGTCT	20	15	14	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g99	GACATTAAAGATAGTCATCT	20	17	15	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g99	GACATTAAAGATAGTCATCT	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g99	GACATTAAAGATAGTCATCT	20	17	16	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g9	GGGGGGTTCCAGGGCCTGTC	20	10	9	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+Cas-OFFinder 3.0.0 develop	g9	GGGGGGTTCCAGGGCCTGTC	20	10	9	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g9	GGGGGGTTCCAGGGCCTGTC	20	10	9	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+CRISPRitz 2.9.0 native TST	g0	GATTTCTATGACCTGTATGG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g1	GGGAACCCAGCGAGTGAAGA	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g2	GTACAGGCTGCACCTGTCAG	20	18	N/A	18	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g3	GTCAGGGTTCTGGATATCTG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g4	GCGTGACTTCCACATGAGCG	20	18	N/A	18	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g5	GCTTGTCCGTCTGGTTGCTG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g6	GCTGCAGAAACAGCAAGCCC	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g7	GTCCCTAGTGGCCCCACTGT	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g8	GAAGGTGGCGTTGTCCCCTT	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g9	GGGGGGTTCCAGGGCCTGTC	20	10	N/A	10	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g10	GGCATACTCATCTTTTTCAG	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g11	GGACAGTAAGAAGGAAAAAC	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g12	GGTGGTGTGGGCCCAGGAGG	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g13	GAAGTTGACTTACTGAAGAA	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g14	GTCGAGAAAAGCTTTGAAAC	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g15	GGGGGTTCCAGGGCCTGTCT	20	11	N/A	11	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g16	GGCCGAGATGTCTCGCTCCG	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g17	GGCAGAAACCCTGGTGGTCG	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g18	GAGAATCAAAATCGGTGAAT	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g19	GCCCTGGCCAGTCGTCTGGG	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g20	GAAGATGATGGAGTAGATGG	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g21	GGTGGATGATGGTGCCGTCG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g22	GCAGATGGAATCATCTAGGA	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g23	GGCCAGTACCACAGCAGGCT	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g24	GAAGAAACTGAGAAGCATGA	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g25	GAGCAGGGCTGGGGAGAAGG	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g26	GAAGCATGACGGACAAGTAC	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g27	GGTTTCACCGAGACCTCAGT	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g28	GCTGTCCTGAAGTGGACATA	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g29	GGGCTGCAGGGGAGCTGGGC	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g30	GCTGGTACACGGCAGGGTCA	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g31	GCTGACCCCGCTGGGCAGGC	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g32	GTTTGCGACTCTGACAGAGC	20	18	N/A	18	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g33	GGGACTCTACATCTGCAAGG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g34	GGGGATTTCTATGACCTGTA	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g35	GCACGTGGCCCAGCCTGCTG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g36	GACACCTTCTTCCCCAGCCC	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g37	GGGGGATTGTGGGGCTGCAG	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g38	GCATACTCATCTTTTTCAGT	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g39	GCTGCCGCCCAGTGGGACTT	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g40	GGTCACCACGAGCAGGGCTG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g41	GTGGAGCGCAGTGGTCTCCG	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g42	GGAAACTTGGCCACTCTATG	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g43	GGGCGGTGCTACAACTGGGC	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g44	GTGGTACTGGCCAGCAGCCG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g45	GCTGTTTCTGCAGCCGCTTT	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g46	GAGTAGCGCGAGCACAGCTA	20	20	N/A	20	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g47	GCCGTGGCAAACTGGTACTT	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g48	GTATGGAAAATGAGAGCTGC	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g49	GGCACCAACTGGATGGATCA	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g50	GCTGGCGATGCCTCGGCTGC	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g51	GGGTATTATTGATGCTATTC	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g52	GGTGAGGGAGGAGAGATGCC	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g53	GTCCCCTGAGCCCATTTCCT	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g54	GCTACTCTCTCTTTCTGGCC	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g55	GCACAAGGCTCAGCTGAACC	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g56	GGCCCAGCCTGCTGTGGTAC	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g57	GAGGTTCACTTGATTTCCAC	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g58	GTGCGGCAACCTACATGATG	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g59	GTAGAGCGGAGGCAGGAGGC	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g60	GATGCTATTCAGGATGCAGT	20	18	N/A	18	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g61	GGTACCTATCGATTGTCAGG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g62	GTCACCAATCCTGTCCCTAG	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g63	GAAGGCTGAGATCCTGGAGG	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g64	GAACAAGGTGTTCCCACCCG	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g65	GTTGGAGAAGCTGCAGGTGA	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g66	GTCTCCCTGATCCATCCAGT	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g67	GCTGCCCCGCCTGCCCAGCG	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g68	GGTGACAAGTGTGATCACTT	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g69	GGCAGCATAGTGAGCCCAGA	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g70	GGGATCAGGTGACCCATATT	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g71	GTCTGGGCGGTGCTACAACT	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g72	GGTGCACAGTGGGGTCAGCA	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g73	GTGAGTAGAGCGGAGGCAGG	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g74	GGATTTCCTCCTCGACCACC	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g75	GCCTCTCCAGCCAGGGGCTG	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g76	GAGGGCTCACCAGAGGTAGG	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g77	GATTTCCTCCTCGACCACCA	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g78	GGCCCCACTGTGGGGTGGAG	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g79	GATAACTACACCGAGGAAAT	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g80	GCGCCGAGAAGGAAGTGCTC	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g81	GCCCTGCTCGTGGTGACCGA	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g82	GGAGAAGGTGGGGGGGTTCC	20	9	N/A	9	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g83	GGAATCTGCCTAACAGGAGG	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g84	GGACCGCAGCCAGCCCGGCC	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g85	GCTGGGCAGGAGCCCCCTCC	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g86	GCAAACATGCTGTCCTGAAG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g87	GATGTGGGAGGCTCAGTTCC	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g88	GGACTGAGGGCCATGGACAC	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g89	GAGACCCTGCTCAAGGGCCG	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g90	GAGCCACATTAACCGGCCCT	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g91	GTCCCCTCCACCCCACAGTG	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g92	GGGGCAGCTCCGGCGCTCCT	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g93	GCTGTGTTTGCGTCTCTCCC	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g94	GGGCAATGGATTGGTCATCC	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g95	GCTTCGGCAGGCTGACAGCC	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g96	GATGCAGAGACCCTGCTCAA	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g97	GAGAAGGTGGGGGGGTTCCA	20	10	N/A	10	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g98	GGCGCCCTGGCCAGTCGTCT	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g99	GACATTAAAGATAGTCATCT	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g100	GGTCCCGGTGGTGTGGGCCC	20	11	N/A	11	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g101	GGGGCCACTAGGGACAGGAT	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g102	GCTCGGGGACACAGGATCCC	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g103	GGCCACGGAGCGAGACATCT	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g104	GTGGGATCGGAGCAGTTCAG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g105	GAAGCGTGATGACAAAGAGG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g106	GCATTTTCTTCACGGAAACA	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g107	GGAAGGAGGAGGCCTAAGGA	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g108	GCAGCATAGTGAGCCCAGAA	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g109	GTGTGTGAGTATGCATCTCC	20	19	N/A	19	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g0	GATTTCTATGACCTGTATGG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g1	GGGAACCCAGCGAGTGAAGA	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g2	GTACAGGCTGCACCTGTCAG	20	18	N/A	18	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g3	GTCAGGGTTCTGGATATCTG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g4	GCGTGACTTCCACATGAGCG	20	18	N/A	18	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g5	GCTTGTCCGTCTGGTTGCTG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g6	GCTGCAGAAACAGCAAGCCC	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g7	GTCCCTAGTGGCCCCACTGT	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g8	GAAGGTGGCGTTGTCCCCTT	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g9	GGGGGGTTCCAGGGCCTGTC	20	10	N/A	10	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g10	GGCATACTCATCTTTTTCAG	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g11	GGACAGTAAGAAGGAAAAAC	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g12	GGTGGTGTGGGCCCAGGAGG	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g13	GAAGTTGACTTACTGAAGAA	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g14	GTCGAGAAAAGCTTTGAAAC	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g15	GGGGGTTCCAGGGCCTGTCT	20	11	N/A	11	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g16	GGCCGAGATGTCTCGCTCCG	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g17	GGCAGAAACCCTGGTGGTCG	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g18	GAGAATCAAAATCGGTGAAT	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g19	GCCCTGGCCAGTCGTCTGGG	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g20	GAAGATGATGGAGTAGATGG	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g21	GGTGGATGATGGTGCCGTCG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g22	GCAGATGGAATCATCTAGGA	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g23	GGCCAGTACCACAGCAGGCT	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g24	GAAGAAACTGAGAAGCATGA	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g25	GAGCAGGGCTGGGGAGAAGG	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g26	GAAGCATGACGGACAAGTAC	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g27	GGTTTCACCGAGACCTCAGT	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g28	GCTGTCCTGAAGTGGACATA	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g29	GGGCTGCAGGGGAGCTGGGC	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g30	GCTGGTACACGGCAGGGTCA	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g31	GCTGACCCCGCTGGGCAGGC	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g32	GTTTGCGACTCTGACAGAGC	20	18	N/A	18	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g33	GGGACTCTACATCTGCAAGG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g34	GGGGATTTCTATGACCTGTA	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g35	GCACGTGGCCCAGCCTGCTG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g36	GACACCTTCTTCCCCAGCCC	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g37	GGGGGATTGTGGGGCTGCAG	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g38	GCATACTCATCTTTTTCAGT	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g39	GCTGCCGCCCAGTGGGACTT	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g40	GGTCACCACGAGCAGGGCTG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g41	GTGGAGCGCAGTGGTCTCCG	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g42	GGAAACTTGGCCACTCTATG	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g43	GGGCGGTGCTACAACTGGGC	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g44	GTGGTACTGGCCAGCAGCCG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g45	GCTGTTTCTGCAGCCGCTTT	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g46	GAGTAGCGCGAGCACAGCTA	20	20	N/A	20	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g47	GCCGTGGCAAACTGGTACTT	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g48	GTATGGAAAATGAGAGCTGC	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g49	GGCACCAACTGGATGGATCA	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g50	GCTGGCGATGCCTCGGCTGC	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g51	GGGTATTATTGATGCTATTC	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g52	GGTGAGGGAGGAGAGATGCC	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g53	GTCCCCTGAGCCCATTTCCT	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g54	GCTACTCTCTCTTTCTGGCC	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g55	GCACAAGGCTCAGCTGAACC	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g56	GGCCCAGCCTGCTGTGGTAC	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g57	GAGGTTCACTTGATTTCCAC	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g58	GTGCGGCAACCTACATGATG	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g59	GTAGAGCGGAGGCAGGAGGC	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g60	GATGCTATTCAGGATGCAGT	20	18	N/A	18	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g61	GGTACCTATCGATTGTCAGG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g62	GTCACCAATCCTGTCCCTAG	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g63	GAAGGCTGAGATCCTGGAGG	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g64	GAACAAGGTGTTCCCACCCG	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g65	GTTGGAGAAGCTGCAGGTGA	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g66	GTCTCCCTGATCCATCCAGT	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g67	GCTGCCCCGCCTGCCCAGCG	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g68	GGTGACAAGTGTGATCACTT	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g69	GGCAGCATAGTGAGCCCAGA	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g70	GGGATCAGGTGACCCATATT	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g71	GTCTGGGCGGTGCTACAACT	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g72	GGTGCACAGTGGGGTCAGCA	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g73	GTGAGTAGAGCGGAGGCAGG	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g74	GGATTTCCTCCTCGACCACC	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g75	GCCTCTCCAGCCAGGGGCTG	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g76	GAGGGCTCACCAGAGGTAGG	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g77	GATTTCCTCCTCGACCACCA	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g78	GGCCCCACTGTGGGGTGGAG	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g79	GATAACTACACCGAGGAAAT	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g80	GCGCCGAGAAGGAAGTGCTC	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g81	GCCCTGCTCGTGGTGACCGA	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g82	GGAGAAGGTGGGGGGGTTCC	20	9	N/A	9	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g83	GGAATCTGCCTAACAGGAGG	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g84	GGACCGCAGCCAGCCCGGCC	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g85	GCTGGGCAGGAGCCCCCTCC	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g86	GCAAACATGCTGTCCTGAAG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g87	GATGTGGGAGGCTCAGTTCC	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g88	GGACTGAGGGCCATGGACAC	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g89	GAGACCCTGCTCAAGGGCCG	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g90	GAGCCACATTAACCGGCCCT	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g91	GTCCCCTCCACCCCACAGTG	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g92	GGGGCAGCTCCGGCGCTCCT	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g93	GCTGTGTTTGCGTCTCTCCC	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g94	GGGCAATGGATTGGTCATCC	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g95	GCTTCGGCAGGCTGACAGCC	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g96	GATGCAGAGACCCTGCTCAA	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g97	GAGAAGGTGGGGGGGTTCCA	20	10	N/A	10	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g98	GGCGCCCTGGCCAGTCGTCT	20	15	N/A	15	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g99	GACATTAAAGATAGTCATCT	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g100	GGTCCCGGTGGTGTGGGCCC	20	11	N/A	11	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g101	GGGGCCACTAGGGACAGGAT	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g102	GCTCGGGGACACAGGATCCC	20	14	N/A	14	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g103	GGCCACGGAGCGAGACATCT	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g104	GTGGGATCGGAGCAGTTCAG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g105	GAAGCGTGATGACAAAGAGG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g106	GCATTTTCTTCACGGAAACA	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g107	GGAAGGAGGAGGCCTAAGGA	20	12	N/A	12	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g108	GCAGCATAGTGAGCCCAGAA	20	17	N/A	17	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.7.1 native TST	g109	GTGTGTGAGTATGCATCTCC	20	19	N/A	19	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only

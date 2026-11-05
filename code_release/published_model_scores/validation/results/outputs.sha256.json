@@ -1,0 +1,14 @@
+{
+  "CIRCLE_seq_10gRNA_wholeDataset.csv.scores.tsv": "aeb0c5e4d9812c190bc82d3e890fed30994746402fb0710d2c8f4414923c1900",
+  "Kleinstiver_5gRNA_wholeDataset.csv.scores.tsv": "f54480026972ef12a3edb92a31c25ca41acdfb23d552c5d6aea32fecf2c04615",
+  "Listgarten_22gRNA_wholeDataset.csv.scores.tsv": "bb29db44eec31484cea10d1f17e4303a80794359ed75bf9c6ccbc7ecea065bb3",
+  "elevation_6gRNA_wholeDataset.csv.scores.tsv": "2dc6d098f4d97274bd988de6d8e38edc6b9617c62706f9b63ef87c090da46a5b",
+  "execution.json": "68c41f4fad17bce12d48b287376bf85222471ca0c893121ead8f763c2577edec",
+  "float32_target_scores.tsv": "7442a9df1532ee1ea916f920b3024bf29ec26c9299d8b91fb10472912eba90a7",
+  "precision_check.json": "1acd703e613aed3f10c2ffe3d223c6952ee97431dc03a8b3096f288ae4c142a7",
+  "presence_audit.json": "721712f75d4e5808b2b0cfa6c72221d534bf56aadb102602b6b57ce90664ee5c",
+  "readme_examples.json": "d082e87dfeb4c0c2618cf56094b761fa8150d4ff817046f8c6bfd214d4f6e1a1",
+  "summary.json": "573259740a6a0965507034415c27ac1c81d39dcbd3bd541e116d79cc9a1bf806",
+  "target_scores.tsv": "2f40abb0c12d82ae3528b35684467a1143d9c4455b0cda5fd3197df911b4c4df",
+  "validation.json": "8340097f81db70192c988c3978679a859e3a258b5ad44a5a50f46f14e3814597"
+}

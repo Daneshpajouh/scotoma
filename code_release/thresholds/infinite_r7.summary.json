@@ -1,0 +1,137 @@
+{
+  "status": "PROVED: exact computer-assisted infinite-range packing certificate",
+  "r": 7,
+  "alpha": 14,
+  "beta": 7,
+  "min_n": 15,
+  "scale": 52,
+  "dmax": 2,
+  "mass_type": "constant",
+  "C0": null,
+  "residues": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "family": [
+    {
+      "prefix": "000000",
+      "distance": 0,
+      "mass": "2/13"
+    },
+    {
+      "prefix": "111111",
+      "distance": 0,
+      "mass": "2/13"
+    },
+    {
+      "prefix": "000011",
+      "distance": 0,
+      "mass": "3/13"
+    },
+    {
+      "prefix": "001111",
+      "distance": 0,
+      "mass": "3/13"
+    },
+    {
+      "prefix": "00011X",
+      "distance": 1,
+      "mass": "7/26"
+    },
+    {
+      "prefix": "X00111",
+      "distance": 1,
+      "mass": "7/26"
+    },
+    {
+      "prefix": "0011X1",
+      "distance": 1,
+      "mass": "3/13"
+    },
+    {
+      "prefix": "0X0011",
+      "distance": 1,
+      "mass": "3/13"
+    },
+    {
+      "prefix": "00X000",
+      "distance": 1,
+      "mass": "11/13"
+    },
+    {
+      "prefix": "111X11",
+      "distance": 1,
+      "mass": "11/13"
+    },
+    {
+      "prefix": "01110X",
+      "distance": 2,
+      "mass": "3/13"
+    },
+    {
+      "prefix": "X10001",
+      "distance": 2,
+      "mass": "3/13"
+    },
+    {
+      "prefix": "011110",
+      "distance": 1,
+      "mass": "5/13"
+    },
+    {
+      "prefix": "100001",
+      "distance": 1,
+      "mass": "5/13"
+    },
+    {
+      "prefix": "0111X0",
+      "distance": 2,
+      "mass": "5/13"
+    },
+    {
+      "prefix": "1X0001",
+      "distance": 2,
+      "mass": "5/13"
+    },
+    {
+      "prefix": "0X001X",
+      "distance": 2,
+      "mass": "7/13"
+    },
+    {
+      "prefix": "X011X1",
+      "distance": 2,
+      "mass": "7/13"
+    },
+    {
+      "prefix": "10011X",
+      "distance": 2,
+      "mass": "3/13"
+    },
+    {
+      "prefix": "X00110",
+      "distance": 2,
+      "mass": "3/13"
+    }
+  ],
+  "prefix_count": 729,
+  "unique_profiles": 378,
+  "moment": {
+    "cutoff": 59,
+    "t": "7/5",
+    "prefix_potential": "1433/343",
+    "rho_upper": "184/295",
+    "moment_factor": "30221/30975",
+    "bound": "3122246670340449496756082575545770259005940526468960874441700978614496309370016094657554953705533285945113443937887937983047166601731033379227697917745310350101189489715189081135447199048785430720375270343477749995047219987125707757074617123242940147041654046714116973/3198613072782824515211026718924492731300455839314006871402549713806995758310494689002374834384992452190714692940535974854089978827834327514795657862738392168495200943403607553901421447415670913072747097853498973972485319253200065914288785506869317032396793365478515625",
+    "bound_less_than_99_over_100": true
+  },
+  "polynomial_rows": 15930,
+  "checked_newton_coefficients": 477900,
+  "checked_finite_values": 0,
+  "maximum_shift": 0,
+  "seconds": 3.34,
+  "certificate_sha256": "b073a15111cc987328dcafeb289c43def94c34f2c7f21d8d60ef25d69ac03492"
+}

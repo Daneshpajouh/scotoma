@@ -1,0 +1,306 @@
+INTEGRITY_PASS 1678
+PACKAGE_BEGIN monotonicity
+COMMAND code_release /usr/local/bin/python3 -B monotonicity/verify_finite.py --table monotonicity/tau_values.csv
+EXACT PASS N=3 r=1 m=0 tau=1
+EXACT PASS N=3 r=1 m=1 tau=1
+EXACT PASS N=3 r=1 m=2 tau=1
+EXACT PASS N=3 r=1 m=3 tau=1
+EXACT PASS N=3 r=2 m=0 tau=2
+EXACT PASS N=3 r=2 m=1 tau=2
+EXACT PASS N=3 r=2 m=2 tau=25/16
+EXACT PASS N=3 r=2 m=3 tau=1
+EXACT PASS N=3 r=3 m=0 tau=3
+EXACT PASS N=3 r=3 m=1 tau=11/4
+EXACT PASS N=3 r=3 m=2 tau=38/23
+EXACT PASS N=3 r=3 m=3 tau=1
+EXACT PASS N=3 r=4 m=0 tau=4
+EXACT PASS N=3 r=4 m=1 tau=11/3
+EXACT PASS N=3 r=4 m=2 tau=22/13
+EXACT PASS N=3 r=4 m=3 tau=1
+EXACT PASS N=4 r=1 m=0 tau=1
+EXACT PASS N=4 r=1 m=1 tau=1
+EXACT PASS N=4 r=1 m=2 tau=1
+EXACT PASS N=4 r=1 m=3 tau=1
+EXACT PASS N=4 r=1 m=4 tau=1
+EXACT PASS N=4 r=2 m=0 tau=2
+EXACT PASS N=4 r=2 m=1 tau=2
+EXACT PASS N=4 r=2 m=2 tau=2
+EXACT PASS N=4 r=2 m=3 tau=92/65
+EXACT PASS N=4 r=2 m=4 tau=1
+EXACT PASS N=4 r=3 m=0 tau=3
+EXACT PASS N=4 r=3 m=1 tau=3
+EXACT PASS N=4 r=3 m=2 tau=52/21
+EXACT PASS N=4 r=3 m=3 tau=146/101
+EXACT PASS N=4 r=3 m=4 tau=1
+EXACT PASS N=4 r=4 m=0 tau=4
+EXACT PASS N=4 r=4 m=1 tau=4
+EXACT PASS N=4 r=4 m=2 tau=46/15
+EXACT PASS N=4 r=4 m=3 tau=260/179
+EXACT PASS N=4 r=4 m=4 tau=1
+EXACT PASS N=4 r=5 m=0 tau=5
+EXACT PASS N=4 r=5 m=1 tau=5
+EXACT PASS N=4 r=5 m=2 tau=8532/2573
+EXACT PASS N=4 r=5 m=3 tau=86/59
+EXACT PASS N=4 r=5 m=4 tau=1
+EXACT PASS N=5 r=1 m=0 tau=1
+EXACT PASS N=5 r=1 m=1 tau=1
+EXACT PASS N=5 r=1 m=2 tau=1
+EXACT PASS N=5 r=1 m=3 tau=1
+EXACT PASS N=5 r=1 m=4 tau=1
+EXACT PASS N=5 r=1 m=5 tau=1
+EXACT PASS N=5 r=2 m=0 tau=2
+EXACT PASS N=5 r=2 m=1 tau=2
+EXACT PASS N=5 r=2 m=2 tau=2
+EXACT PASS N=5 r=2 m=3 tau=2
+EXACT PASS N=5 r=2 m=4 tau=353/272
+EXACT PASS N=5 r=2 m=5 tau=1
+EXACT PASS N=5 r=3 m=0 tau=3
+EXACT PASS N=5 r=3 m=1 tau=3
+EXACT PASS N=5 r=3 m=2 tau=3
+EXACT PASS N=5 r=3 m=3 tau=61/27
+EXACT PASS N=5 r=3 m=4 tau=577/442
+EXACT PASS N=5 r=3 m=5 tau=1
+EXACT PASS N=5 r=4 m=0 tau=4
+EXACT PASS N=5 r=4 m=1 tau=4
+EXACT PASS N=5 r=4 m=2 tau=91/23
+EXACT PASS N=5 r=4 m=3 tau=814/313
+EXACT PASS N=5 r=4 m=4 tau=1030/787
+EXACT PASS N=5 r=4 m=5 tau=1
+EXACT PASS N=5 r=5 m=0 tau=5
+EXACT PASS N=5 r=5 m=1 tau=5
+EXACT PASS N=5 r=5 m=2 tau=1735/373
+EXACT PASS N=5 r=5 m=3 tau=1801846065178306/674097035870059
+EXACT PASS N=5 r=5 m=4 tau=2398/1831
+EXACT PASS N=5 r=5 m=5 tau=1
+EXACT PASS N=5 r=6 m=0 tau=6
+EXACT PASS N=5 r=6 m=1 tau=6
+EXACT PASS N=5 r=6 m=2 tau=43204/8089
+EXACT PASS N=5 r=6 m=3 tau=3034380220813795839464981758661/1130410893720122606408103894299
+EXACT PASS N=5 r=6 m=4 tau=38/29
+EXACT PASS N=5 r=6 m=5 tau=1
+EXACT PASS N=6 r=1 m=0 tau=1
+EXACT PASS N=6 r=1 m=1 tau=1
+EXACT PASS N=6 r=1 m=2 tau=1
+EXACT PASS N=6 r=1 m=3 tau=1
+EXACT PASS N=6 r=1 m=4 tau=1
+EXACT PASS N=6 r=1 m=5 tau=1
+EXACT PASS N=6 r=1 m=6 tau=1
+EXACT PASS N=6 r=2 m=0 tau=2
+EXACT PASS N=6 r=2 m=1 tau=2
+EXACT PASS N=6 r=2 m=2 tau=2
+EXACT PASS N=6 r=2 m=3 tau=2
+EXACT PASS N=6 r=2 m=4 tau=365/203
+EXACT PASS N=6 r=2 m=5 tau=5563/4591
+EXACT PASS N=6 r=2 m=6 tau=1
+EXACT PASS N=6 r=3 m=0 tau=3
+EXACT PASS N=6 r=3 m=1 tau=3
+EXACT PASS N=6 r=3 m=2 tau=3
+EXACT PASS N=6 r=3 m=3 tau=25/9
+EXACT PASS N=6 r=3 m=4 tau=579/287
+EXACT PASS N=6 r=3 m=5 tau=7321/6025
+EXACT PASS N=6 r=3 m=6 tau=1
+EXACT PASS N=6 r=4 m=0 tau=4
+EXACT PASS N=6 r=4 m=1 tau=4
+EXACT PASS N=6 r=4 m=2 tau=4
+EXACT PASS N=6 r=4 m=3 tau=102/29
+EXACT PASS N=6 r=4 m=4 tau=35276264531/16785251423
+EXACT PASS N=6 r=4 m=5 tau=1825/1501
+EXACT PASS N=6 r=4 m=6 tau=1
+EXACT PASS N=6 r=5 m=0 tau=5
+EXACT PASS N=6 r=5 m=1 tau=5
+EXACT PASS N=6 r=5 m=2 tau=5
+EXACT PASS N=6 r=5 m=3 tau=1067/265
+EXACT PASS N=6 r=5 m=4 tau=4892255122989263344358261381459324127093584065/2312019490120703014432901047613961795124359547
+EXACT PASS N=6 r=5 m=5 tau=3190/2623
+EXACT PASS N=6 r=5 m=6 tau=1
+EXACT PASS N=6 r=6 m=0 tau=6
+EXACT PASS N=6 r=6 m=1 tau=6
+EXACT PASS N=6 r=6 m=2 tau=6
+EXACT PASS N=6 r=6 m=3 tau=2602286882318/583099173387
+EXACT PASS N=6 r=6 m=4 tau=290457601622553685697276411486099367751591976265643959621436609827585402648023363402912141917068425045309/136762308445143803087244274483878257738356865869324917454864144612174008652209358073306835965542127797400
+EXACT PASS N=6 r=6 m=5 tau=911/749
+EXACT PASS N=6 r=6 m=6 tau=1
+EXACT PASS N=6 r=7 m=0 tau=7
+EXACT PASS N=6 r=7 m=1 tau=7
+EXACT PASS N=6 r=7 m=2 tau=7
+EXACT PASS N=6 r=7 m=3 tau=29144885065490450716071/6116486981085029629973
+EXACT PASS N=6 r=7 m=4 tau=4023952627250887854441156302286330390857343925715421900265971233898255306098466465348279949578394272092630162842224649211842228889105912184799558924849224730892/1890577848850200726500468067665868445173400679433804830382852125071697909733881689479020365809488243831953799543105469488344886464224612235023019426147317722021
+EXACT PASS N=6 r=7 m=5 tau=1366/1123
+EXACT PASS N=6 r=7 m=6 tau=1
+EXACT VERIFICATION PASS: 126 optima, 104 comparisons, 104 mass-preserving feasible pushforwards; 1.960s
+REPLAY_RESOURCES {"package": "monotonicity", "command": ["/usr/local/bin/python3", "-B", "monotonicity/verify_finite.py", "--table", "monotonicity/tau_values.csv"], "exit_code": 0, "wall_seconds": 2.0161195419495925, "peak_child_rss_bytes": 30605312, "user_seconds": 1.944696, "system_seconds": 0.029095}
+COMMAND code_release /usr/local/bin/python3 -B monotonicity/audit_map.py
+MAP PASS N=3 r=1 m=1 C=3 pairs=640 ties=0
+MAP PASS N=3 r=1 m=2 C=3 pairs=2368 ties=0
+MAP PASS N=3 r=1 m=3 C=3 pairs=4096 ties=0
+MAP PASS N=3 r=2 m=1 C=2 pairs=1024 ties=2
+MAP PASS N=3 r=2 m=2 C=2 pairs=2944 ties=12
+MAP PASS N=3 r=2 m=3 C=2 pairs=4096 ties=18
+MAP PASS N=3 r=3 m=1 C=1 pairs=1344 ties=5
+MAP PASS N=3 r=3 m=2 C=1 pairs=3328 ties=19
+MAP PASS N=3 r=3 m=3 C=1 pairs=4096 ties=12
+MAP PASS N=3 r=4 m=1 C=0 pairs=1664 ties=8
+MAP PASS N=3 r=4 m=2 C=0 pairs=3584 ties=22
+MAP PASS N=3 r=4 m=3 C=0 pairs=4096 ties=8
+MAP PASS N=4 r=1 m=1 C=4 pairs=3328 ties=0
+MAP PASS N=4 r=1 m=2 C=4 pairs=17152 ties=0
+MAP PASS N=4 r=1 m=3 C=4 pairs=44800 ties=0
+MAP PASS N=4 r=1 m=4 C=4 pairs=65536 ties=0
+MAP PASS N=4 r=2 m=1 C=3 pairs=5632 ties=2
+MAP PASS N=4 r=2 m=2 C=3 pairs=24064 ties=18
+MAP PASS N=4 r=2 m=3 C=3 pairs=51712 ties=54
+MAP PASS N=4 r=2 m=4 C=3 pairs=65536 ties=54
+MAP PASS N=4 r=3 m=1 C=2 pairs=7680 ties=5
+MAP PASS N=4 r=3 m=2 C=2 pairs=29440 ties=34
+MAP PASS N=4 r=3 m=3 C=2 pairs=56320 ties=69
+MAP PASS N=4 r=3 m=4 C=2 pairs=65536 ties=36
+MAP PASS N=4 r=4 m=1 C=1 pairs=9728 ties=8
+MAP PASS N=4 r=4 m=2 C=1 pairs=34304 ties=46
+MAP PASS N=4 r=4 m=3 C=1 pairs=59392 ties=74
+MAP PASS N=4 r=4 m=4 C=1 pairs=65536 ties=24
+MAP PASS N=4 r=5 m=1 C=0 pairs=11776 ties=11
+MAP PASS N=4 r=5 m=2 C=0 pairs=38912 ties=58
+MAP PASS N=4 r=5 m=3 C=0 pairs=61440 ties=72
+MAP PASS N=4 r=5 m=4 C=0 pairs=65536 ties=16
+MAP PASS N=5 r=1 m=1 C=5 pairs=16384 ties=0
+MAP PASS N=5 r=1 m=2 C=5 pairs=108544 ties=0
+MAP PASS N=5 r=1 m=3 C=5 pairs=385024 ties=0
+MAP PASS N=5 r=1 m=4 C=5 pairs=799744 ties=0
+MAP PASS N=5 r=1 m=5 C=5 pairs=1048576 ties=0
+MAP PASS N=5 r=2 m=1 C=4 pairs=28672 ties=2
+MAP PASS N=5 r=2 m=2 C=4 pairs=163840 ties=24
+MAP PASS N=5 r=2 m=3 C=4 pairs=495616 ties=108
+MAP PASS N=5 r=2 m=4 C=4 pairs=882688 ties=216
+MAP PASS N=5 r=2 m=5 C=4 pairs=1048576 ties=162
+MAP PASS N=5 r=3 m=1 C=3 pairs=39936 ties=5
+MAP PASS N=5 r=3 m=2 C=3 pairs=209920 ties=49
+MAP PASS N=5 r=3 m=3 C=3 pairs=578560 ties=171
+MAP PASS N=5 r=3 m=4 C=3 pairs=937984 ties=243
+MAP PASS N=5 r=3 m=5 C=3 pairs=1048576 ties=108
+MAP PASS N=5 r=4 m=1 C=2 pairs=51200 ties=8
+MAP PASS N=5 r=4 m=2 C=2 pairs=253952 ties=70
+MAP PASS N=5 r=4 m=3 C=2 pairs=649216 ties=212
+MAP PASS N=5 r=4 m=4 C=2 pairs=974848 ties=246
+MAP PASS N=5 r=4 m=5 C=2 pairs=1048576 ties=72
+MAP PASS N=5 r=5 m=1 C=1 pairs=62464 ties=11
+MAP PASS N=5 r=5 m=2 C=1 pairs=296960 ties=91
+MAP PASS N=5 r=5 m=3 C=1 pairs=712704 ties=246
+MAP PASS N=5 r=5 m=4 C=1 pairs=999424 ties=232
+MAP PASS N=5 r=5 m=5 C=1 pairs=1048576 ties=48
+MAP PASS N=5 r=6 m=1 C=0 pairs=73728 ties=14
+MAP PASS N=5 r=6 m=2 C=0 pairs=339968 ties=112
+MAP PASS N=5 r=6 m=3 C=0 pairs=770048 ties=276
+MAP PASS N=5 r=6 m=4 C=0 pairs=1015808 ties=208
+MAP PASS N=5 r=6 m=5 C=0 pairs=1048576 ties=32
+MAP PASS N=6 r=1 m=1 C=6 pairs=77824 ties=0
+MAP PASS N=6 r=1 m=2 C=6 pairs=630784 ties=0
+MAP PASS N=6 r=1 m=3 C=6 pairs=2842624 ties=0
+MAP PASS N=6 r=1 m=4 C=6 pairs=7819264 ties=0
+MAP PASS N=6 r=1 m=5 C=6 pairs=13791232 ties=0
+MAP PASS N=6 r=1 m=6 C=6 pairs=16777216 ties=0
+MAP PASS N=6 r=2 m=1 C=5 pairs=139264 ties=2
+MAP PASS N=6 r=2 m=2 C=5 pairs=999424 ties=30
+MAP PASS N=6 r=2 m=3 C=5 pairs=3948544 ties=180
+MAP PASS N=6 r=2 m=4 C=5 pairs=9478144 ties=540
+MAP PASS N=6 r=2 m=5 C=5 pairs=14786560 ties=810
+MAP PASS N=6 r=2 m=6 C=5 pairs=16777216 ties=486
+MAP PASS N=6 r=3 m=1 C=4 pairs=196608 ties=5
+MAP PASS N=6 r=3 m=2 C=4 pairs=1318912 ties=64
+MAP PASS N=6 r=3 m=3 C=4 pairs=4833280 ties=318
+MAP PASS N=6 r=3 m=4 C=4 pairs=10694656 ties=756
+MAP PASS N=6 r=3 m=5 C=4 pairs=15450112 ties=837
+MAP PASS N=6 r=3 m=6 C=4 pairs=16777216 ties=324
+MAP PASS N=6 r=4 m=1 C=3 pairs=253952 ties=8
+MAP PASS N=6 r=4 m=2 C=3 pairs=1630208 ties=94
+MAP PASS N=6 r=4 m=3 C=3 pairs=5644288 ties=422
+MAP PASS N=6 r=4 m=4 C=3 pairs=11689984 ties=882
+MAP PASS N=6 r=4 m=5 C=3 pairs=15892480 ties=810
+MAP PASS N=6 r=4 m=6 C=3 pairs=16777216 ties=216
+MAP PASS N=6 r=5 m=1 C=2 pairs=311296 ties=11
+MAP PASS N=6 r=5 m=2 C=2 pairs=1937408 ties=124
+MAP PASS N=6 r=5 m=3 C=2 pairs=6414336 ties=519
+MAP PASS N=6 r=5 m=4 C=2 pairs=12550144 ties=970
+MAP PASS N=6 r=5 m=5 C=2 pairs=16187392 ties=744
+MAP PASS N=6 r=5 m=6 C=2 pairs=16777216 ties=144
+MAP PASS N=6 r=6 m=1 C=1 pairs=368640 ties=14
+MAP PASS N=6 r=6 m=2 C=1 pairs=2244608 ties=154
+MAP PASS N=6 r=6 m=3 C=1 pairs=7159808 ties=612
+MAP PASS N=6 r=6 m=4 C=1 pairs=13303808 ties=1036
+MAP PASS N=6 r=6 m=5 C=1 pairs=16384000 ties=656
+MAP PASS N=6 r=6 m=6 C=1 pairs=16777216 ties=96
+MAP PASS N=6 r=7 m=1 C=0 pairs=425984 ties=17
+MAP PASS N=6 r=7 m=2 C=0 pairs=2551808 ties=184
+MAP PASS N=6 r=7 m=3 C=0 pairs=7897088 ties=705
+MAP PASS N=6 r=7 m=4 C=0 pairs=13959168 ties=1080
+MAP PASS N=6 r=7 m=5 C=0 pairs=16515072 ties=560
+MAP PASS N=6 r=7 m=6 C=0 pairs=16777216 ties=64
+{"status": "VERIFIED-COMPUTATIONALLY", "map_instances": 104, "source_points_checked": 107663, "centre_point_pairs": 375724544, "pairs_with_centres_containing_2_or_3": 369545696, "tied_shell_sources": 18127, "C_zero_map_instances": 18, "C_zero_tied_shell_sources": 3447, "inclusion_violations": 0, "elapsed_seconds": 0.9831271250150166}
+REPLAY_RESOURCES {"package": "monotonicity", "command": ["/usr/local/bin/python3", "-B", "monotonicity/audit_map.py"], "exit_code": 0, "wall_seconds": 1.1062135000247508, "peak_child_rss_bytes": 72679424, "user_seconds": 1.035755, "system_seconds": 0.044153}
+COMMAND code_release /usr/local/bin/python3 -B monotonicity/run_controls.py
+{
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "controls": [
+    {
+      "name": "inflated_packing",
+      "status": "REFUTED",
+      "expected": "REJECTED",
+      "actual": "REJECTED",
+      "exit_code": 1,
+      "diagnostic": "REJECTED: (3, 2, 0): packing ball load exceeds 1: 2"
+    },
+    {
+      "name": "empty_cover",
+      "status": "REFUTED",
+      "expected": "REJECTED",
+      "actual": "REJECTED",
+      "exit_code": 1,
+      "diagnostic": "REJECTED: (3, 2, 0): cover short: 0"
+    },
+    {
+      "name": "injected_increase",
+      "status": "REFUTED",
+      "expected": "REJECTED",
+      "actual": "REJECTED",
+      "exit_code": 1,
+      "diagnostic": "REJECTED: MONOTONICITY FAIL N=3, r=2, m=1: 2 < 3"
+    },
+    {
+      "name": "reversed_monotonicity",
+      "status": "REFUTED",
+      "expected": "REJECTED",
+      "actual": "REJECTED",
+      "mutation": "Assert tau(m-1) <= tau(m) on the actual exact N=3,r=2 row",
+      "diagnostic": "reversed inequality rejected at m=2: 2 > 25/16"
+    },
+    {
+      "name": "uncorrected_shell",
+      "status": "REFUTED",
+      "expected": "REJECTED",
+      "actual": "REJECTED",
+      "mutation": "Fix a shell word instead of correcting it",
+      "diagnostic": "identity mutant leaves shell word 100 outside U_0"
+    },
+    {
+      "name": "overwrite_pushforward",
+      "status": "REFUTED",
+      "expected": "REJECTED",
+      "actual": "REJECTED",
+      "mutation": "Overwrite colliding weights instead of summing each fibre",
+      "diagnostic": "overwrite mutant retains 1/2 of source mass 1"
+    },
+    {
+      "name": "same_radius_inclusion",
+      "status": "REFUTED",
+      "expected": "REJECTED",
+      "actual": "REJECTED",
+      "mutation": "Replace B_(m-1)(c) by B_m(c) in the preimage claim",
+      "diagnostic": "same-radius mutant fails: d(f(100),010)=1 but d(100,010)=2"
+    }
+  ],
+  "expected_rejections": 7,
+  "actual_rejections": 7,
+  "unexpected_acceptances": 0
+}
+REPLAY_RESOURCES {"package": "monotonicity", "command": ["/usr/local/bin/python3", "-B", "monotonicity/run_controls.py"], "exit_code": 0, "wall_seconds": 0.25500287499744445, "peak_child_rss_bytes": 72679424, "user_seconds": 0.16984500000000002, "system_seconds": 0.06943500000000001}
+PACKAGE_PASS monotonicity
+time: sysctl kern.clockrate: Operation not permitted

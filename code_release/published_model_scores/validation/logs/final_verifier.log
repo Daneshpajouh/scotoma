@@ -1,0 +1,8 @@
+PASS: all pinned inputs and sources
+PASS: CIRCLE_seq_10gRNA_wholeDataset.csv: 584949 rows; max independent score difference 1.78e-15
+PASS: elevation_6gRNA_wholeDataset.csv: 213943 rows; max independent score difference 2e-15
+PASS: Kleinstiver_5gRNA_wholeDataset.csv: 95829 rows; max independent score difference 2.3e-15
+PASS: Listgarten_22gRNA_wholeDataset.csv: 383463 rows; max independent score difference 2e-15
+PASS: one-byte corruption controls and generated findings
+PASS: all 10888 target scores, every summary number, and all README discrepancies
+{"absent_above_cutoff": 27, "largest_absolute_independent_score_difference": 5.773159728050814e-15, "status": "PASS", "target_above_cutoff": 9046, "target_rows_replayed": 10888, "validation_rows_replayed": 1278184}

@@ -1,0 +1,13 @@
+input_seals_verified
+Traceback (most recent call last):
+  File "<repo>/HOSTILE_REVIEW_2026-11-01/R15_paperA_aligned_scores/published_model_aligned_scores/produce.py", line 387, in <module>
+    run()
+    ~~~^^
+  File "<repo>/HOSTILE_REVIEW_2026-11-01/R15_paperA_aligned_scores/published_model_aligned_scores/produce.py", line 348, in run
+    active = prepare_active(spacers,treatment)
+  File "<repo>/HOSTILE_REVIEW_2026-11-01/R15_paperA_aligned_scores/published_model_aligned_scores/produce.py", line 131, in prepare_active
+    require(costs[19] == int(s['mm']), 'Assay mismatch label differs')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/HOSTILE_REVIEW_2026-11-01/R15_paperA_aligned_scores/published_model_aligned_scores/integrity.py", line 29, in require
+    raise ValueError(message)
+ValueError: Assay mismatch label differs

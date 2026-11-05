@@ -1,0 +1,9 @@
+{
+  "acceptance_stages_checked": 6,
+  "attribution_lines_absent": true,
+  "document_links_valid": true,
+  "originals_match_snapshots": null,
+  "reports_recomputed": 14,
+  "snapshot_digests_checked": 352,
+  "status": "passed"
+}

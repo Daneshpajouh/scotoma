@@ -1,0 +1,392 @@
+[
+  {
+    "deposit": "Tracking2_VEGFA2_293T",
+    "guide": "GACCCCCTCCACCCCGCCTC",
+    "location": "chr1:121395975-121395997",
+    "chrom": "chr1",
+    "start": "121395975",
+    "end": "121395997",
+    "strand": "+",
+    "target": "TATTCCCCCCACCCCGCCTCGGC",
+    "deletions": "0",
+    "insertions": "0",
+    "mismatches": "5",
+    "trackscore": "3.004",
+    "delta_indel_percent": "0.114",
+    "source": "Tracking2_supp__41467_2026_76778_MOESM4_ESM.xlsx",
+    "sheet": "VEGFA2_293T_CIRCLE-CasOFF",
+    "row": 181,
+    "reference": "ref_hg38_chr1_121395940_121396032.json",
+    "window_start": 121395940,
+    "annotated_scored": {
+      "complete": 4,
+      "wrapper": 4,
+      "native": 4
+    },
+    "canonical_NGG": false,
+    "wrapper_only": false,
+    "native_only": false,
+    "window": "CGCCACGGCTTTTTGCCCCCCCGCCGCCGCGGCTTATTCCCCCCACCCCGCCTCGGCTTTTTGCCCGCCGCTGCTTTGTGCCCCCCCGGCGC",
+    "mapping_status": "mapped",
+    "locus_min": {
+      "full": 4,
+      "wrapper": 5,
+      "native": 5,
+      "no_bulge": 12,
+      "any_bulge": 4
+    },
+    "locus_witness": {
+      "full": [
+        "RNA",
+        "+",
+        34,
+        "GACCCCCTCCACCCCGCCT",
+        "TATTCCCCCCACCCCGCCT"
+      ],
+      "wrapper": [
+        "RNA",
+        "+",
+        34,
+        "GACCCCCTCCACCCCGCCC",
+        "TATTCCCCCCACCCCGCCT"
+      ],
+      "native": [
+        "RNA",
+        "+",
+        34,
+        "GACCCCCTCCACCCCGCCC",
+        "TATTCCCCCCACCCCGCCT"
+      ]
+    },
+    "canonical_site": "TATTCCCCCCACCCCGCCTCGG",
+    "canonical_core": "TATTCCCCCCACCCCGCCT",
+    "canonical_start0": 121395974,
+    "canonical_end0": 121395996,
+    "canonical_strand": "+",
+    "independent_reference_file": "Tracking2_witness_chr1_121395974_121395996.txt",
+    "independent_reference_url": "https://rest.ensembl.org/sequence/region/human/1:121395975..121395996:1?content-type=text/plain",
+    "independent_DP": [
+      4,
+      5,
+      5
+    ],
+    "independent_packed_min": {
+      "complete": 4,
+      "wrapper": 5,
+      "native": 5
+    },
+    "verified": true
+  },
+  {
+    "deposit": "Tracking2_VEGFA2_293T",
+    "guide": "GACCCCCTCCACCCCGCCTC",
+    "location": "chr11:32073136-32073159",
+    "chrom": "chr11",
+    "start": "32073136",
+    "end": "32073159",
+    "strand": "+",
+    "target": "CACCCCCCCCAACCCCGCCTCGGC",
+    "deletions": "0",
+    "insertions": "1",
+    "mismatches": "3",
+    "trackscore": "2.04",
+    "delta_indel_percent": "0.017",
+    "source": "Tracking2_supp__41467_2026_76778_MOESM4_ESM.xlsx",
+    "sheet": "VEGFA2_293T_CIRCLE-CasOFF",
+    "row": 422,
+    "reference": "ref_hg38_chr11_32073101_32073194.json",
+    "window_start": 32073101,
+    "annotated_scored": {
+      "complete": 2,
+      "wrapper": 2,
+      "native": 2
+    },
+    "canonical_NGG": false,
+    "wrapper_only": false,
+    "native_only": false,
+    "window": "CAGCTTCATTCTCCTCCTACCCCTGTTAACATCGCACCCCCCCCAACCCCGCCTCGGCTCCACCCCCACCTCATCCTGCACATCACTGCCTGG",
+    "mapping_status": "mapped",
+    "locus_min": {
+      "full": 4,
+      "wrapper": 5,
+      "native": 5,
+      "no_bulge": 7,
+      "any_bulge": 4
+    },
+    "locus_witness": {
+      "full": [
+        "RNA",
+        "+",
+        35,
+        "GACCCCCTCCACCCCGCCT",
+        "ACCCCCCCCAACCCCGCCT"
+      ],
+      "wrapper": [
+        "RNA",
+        "+",
+        35,
+        "GACCCCCTCCACCCCGCCC",
+        "ACCCCCCCCAACCCCGCCT"
+      ],
+      "native": [
+        "RNA",
+        "+",
+        35,
+        "GACCCCCTCCACCCCGCCC",
+        "ACCCCCCCCAACCCCGCCT"
+      ]
+    },
+    "canonical_site": "ACCCCCCCCAACCCCGCCTCGG",
+    "canonical_core": "ACCCCCCCCAACCCCGCCT",
+    "canonical_start0": 32073136,
+    "canonical_end0": 32073158,
+    "canonical_strand": "+",
+    "independent_reference_file": "Tracking2_witness_chr11_32073136_32073158.txt",
+    "independent_reference_url": "https://rest.ensembl.org/sequence/region/human/11:32073137..32073158:1?content-type=text/plain",
+    "independent_DP": [
+      4,
+      5,
+      5
+    ],
+    "independent_packed_min": {
+      "complete": 4,
+      "wrapper": 5,
+      "native": 5
+    },
+    "verified": true
+  },
+  {
+    "deposit": "Tracking2_VEGFA2_293T",
+    "guide": "GACCCCCTCCACCCCGCCTC",
+    "location": "chr18:57434112-57434134",
+    "chrom": "chr18",
+    "start": "57434112",
+    "end": "57434134",
+    "strand": "+",
+    "target": "CTACCCCTCCACCCCGACTCGGA",
+    "deletions": "0",
+    "insertions": "0",
+    "mismatches": "5",
+    "trackscore": "22.74",
+    "delta_indel_percent": "4.996",
+    "source": "Tracking2_supp__41467_2026_76778_MOESM4_ESM.xlsx",
+    "sheet": "VEGFA2_293T_CIRCLE-CasOFF",
+    "row": 1143,
+    "reference": "ref_hg38_chr18_57434077_57434169.json",
+    "window_start": 57434077,
+    "annotated_scored": {
+      "complete": 4,
+      "wrapper": 4,
+      "native": 4
+    },
+    "canonical_NGG": false,
+    "wrapper_only": false,
+    "native_only": false,
+    "window": "GCTTTATGCCGGGTGTTGGCCTCTCTGTCTTCAACTACCCCTCCACCCCGACTCGGACTGCAGAAATCTCCAACTCTCTGTCCCCCAGTTCC",
+    "mapping_status": "mapped",
+    "locus_min": {
+      "full": 4,
+      "wrapper": 5,
+      "native": 5,
+      "no_bulge": 11,
+      "any_bulge": 4
+    },
+    "locus_witness": {
+      "full": [
+        "RNA",
+        "+",
+        34,
+        "GACCCCCTCCACCCCGCCT",
+        "CTACCCCTCCACCCCGACT"
+      ],
+      "wrapper": [
+        "RNA",
+        "+",
+        34,
+        "GACCCCCTCCACCCCGCCC",
+        "CTACCCCTCCACCCCGACT"
+      ],
+      "native": [
+        "RNA",
+        "+",
+        34,
+        "GACCCCCTCCACCCCGCCC",
+        "CTACCCCTCCACCCCGACT"
+      ]
+    },
+    "canonical_site": "CTACCCCTCCACCCCGACTCGG",
+    "canonical_core": "CTACCCCTCCACCCCGACT",
+    "canonical_start0": 57434111,
+    "canonical_end0": 57434133,
+    "canonical_strand": "+",
+    "independent_reference_file": "Tracking2_witness_chr18_57434111_57434133.txt",
+    "independent_reference_url": "https://rest.ensembl.org/sequence/region/human/18:57434112..57434133:1?content-type=text/plain",
+    "independent_DP": [
+      4,
+      5,
+      5
+    ],
+    "independent_packed_min": {
+      "complete": 4,
+      "wrapper": 5,
+      "native": 5
+    },
+    "verified": true
+  },
+  {
+    "deposit": "Tracking2_VEGFA2_293T",
+    "guide": "GACCCCCTCCACCCCGCCTC",
+    "location": "chr19:5536276-5536298",
+    "chrom": "chr19",
+    "start": "5536276",
+    "end": "5536298",
+    "strand": "-",
+    "target": "AACCCACCCCACCCCACCTCGGA",
+    "deletions": "0",
+    "insertions": "0",
+    "mismatches": "5",
+    "trackscore": "5.491",
+    "delta_indel_percent": "0.033",
+    "source": "Tracking2_supp__41467_2026_76778_MOESM4_ESM.xlsx",
+    "sheet": "VEGFA2_293T_CIRCLE-CasOFF",
+    "row": 1194,
+    "reference": "ref_hg38_chr19_5536241_5536333.json",
+    "window_start": 5536241,
+    "annotated_scored": {
+      "complete": 4,
+      "wrapper": 4,
+      "native": 4
+    },
+    "canonical_NGG": false,
+    "wrapper_only": false,
+    "native_only": false,
+    "window": "TGGTCCATGCTGAGGGAACGGCAGGAGCAGAGGCTCCGAGGTGGGGTGGGGTGGGTTTGAGCCCCTAAGAGGCAGCCAGTTGTAATAGAGGC",
+    "mapping_status": "mapped",
+    "locus_min": {
+      "full": 4,
+      "wrapper": 5,
+      "native": 5,
+      "no_bulge": 10,
+      "any_bulge": 4
+    },
+    "locus_witness": {
+      "full": [
+        "RNA",
+        "-",
+        35,
+        "GACCCCCTCCACCCCGCCT",
+        "AACCCACCCCACCCCACCT"
+      ],
+      "wrapper": [
+        "RNA",
+        "-",
+        35,
+        "GACCCCCTCCACCCCGCCC",
+        "AACCCACCCCACCCCACCT"
+      ],
+      "native": [
+        "RNA",
+        "-",
+        35,
+        "GACCCCCTCCACCCCGCCC",
+        "AACCCACCCCACCCCACCT"
+      ]
+    },
+    "canonical_site": "AACCCACCCCACCCCACCTCGG",
+    "canonical_core": "AACCCACCCCACCCCACCT",
+    "canonical_start0": 5536276,
+    "canonical_end0": 5536298,
+    "canonical_strand": "-",
+    "independent_reference_file": "Tracking2_witness_chr19_5536276_5536298.txt",
+    "independent_reference_url": "https://rest.ensembl.org/sequence/region/human/19:5536277..5536298:-1?content-type=text/plain",
+    "independent_DP": [
+      4,
+      5,
+      5
+    ],
+    "independent_packed_min": {
+      "complete": 4,
+      "wrapper": 5,
+      "native": 5
+    },
+    "verified": true
+  },
+  {
+    "deposit": "Tracking2_VEGFA2_293T",
+    "guide": "GACCCCCTCCACCCCGCCTC",
+    "location": "chrX:68433937-68433960",
+    "chrom": "chrX",
+    "start": "68433937",
+    "end": "68433960",
+    "strand": "+",
+    "target": "GTCTCCCCACCACCCCGCCTGGGA",
+    "deletions": "0",
+    "insertions": "1",
+    "mismatches": "4",
+    "trackscore": "2.371",
+    "delta_indel_percent": "0.084",
+    "source": "Tracking2_supp__41467_2026_76778_MOESM4_ESM.xlsx",
+    "sheet": "VEGFA2_293T_CIRCLE-CasOFF",
+    "row": 2665,
+    "reference": "ref_hg38_chrX_68433902_68433995.json",
+    "window_start": 68433902,
+    "annotated_scored": {
+      "complete": 3,
+      "wrapper": 3,
+      "native": 3
+    },
+    "canonical_NGG": false,
+    "wrapper_only": false,
+    "native_only": false,
+    "window": "TTTCCGTTTGCACTCCCCAAGACTCCTCCCTGCAGTCTCCCCACCACCCCGCCTGGGAGGCTGCTCTCCCAGAACGGCATTCCCAGCCTGCCG",
+    "mapping_status": "mapped",
+    "locus_min": {
+      "full": 4,
+      "wrapper": 5,
+      "native": 5,
+      "no_bulge": 10,
+      "any_bulge": 4
+    },
+    "locus_witness": {
+      "full": [
+        "RNA",
+        "+",
+        35,
+        "GACCCCCTCCACCCCGCCT",
+        "TCTCCCCACCACCCCGCCT"
+      ],
+      "wrapper": [
+        "RNA",
+        "+",
+        35,
+        "GACCCCCTCCACCCCGCCC",
+        "TCTCCCCACCACCCCGCCT"
+      ],
+      "native": [
+        "RNA",
+        "+",
+        35,
+        "GACCCCCTCCACCCCGCCC",
+        "TCTCCCCACCACCCCGCCT"
+      ]
+    },
+    "canonical_site": "TCTCCCCACCACCCCGCCTGGG",
+    "canonical_core": "TCTCCCCACCACCCCGCCT",
+    "canonical_start0": 68433937,
+    "canonical_end0": 68433959,
+    "canonical_strand": "+",
+    "independent_reference_file": "Tracking2_witness_chrX_68433937_68433959.txt",
+    "independent_reference_url": "https://rest.ensembl.org/sequence/region/human/X:68433938..68433959:1?content-type=text/plain",
+    "independent_DP": [
+      4,
+      5,
+      5
+    ],
+    "independent_packed_min": {
+      "complete": 4,
+      "wrapper": 5,
+      "native": 5
+    },
+    "verified": true
+  }
+]

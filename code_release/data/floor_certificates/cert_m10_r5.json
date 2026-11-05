@@ -1,0 +1,93 @@
+{
+ "N": 19,
+ "m": 10,
+ "r": 5,
+ "free_length": 15,
+ "status": "PROVED",
+ "criterion": "K >= ceil(LP*); a feasible dual of mass > r-1 proves K = r",
+ "restriction": "none; the dual support carries non-binary active prefixes",
+ "exact_total_mass": "833332/167695",
+ "exact_total_mass_float": 4.969331226333522,
+ "ceiling": 5,
+ "exact_max_ball_mass": "1",
+ "max_ball_at": [
+  "100X",
+  0
+ ],
+ "centre_classes_verified": 1296,
+ "centre_classes_note": "ALL (active-prefix type, free weight) classes, 3^4 x 16. Not the 2^4 binary-prefix classes: this dual has non-binary support, so the binary reduction is unavailable and was not used.",
+ "support_orbits": 13,
+ "rounding": "solver masses rounded DOWN to denominator 1000000 (preserves feasibility), then scaled by the exact maximum load 100617/100000 so the released dual is feasible everywhere with maximum ball mass exactly 1",
+ "dual": [
+  {
+   "prefix": "0001",
+   "free_weight": 9,
+   "mass": "127448/503085"
+  },
+  {
+   "prefix": "00X0",
+   "free_weight": 9,
+   "mass": "2/3"
+  },
+  {
+   "prefix": "00X1",
+   "free_weight": 8,
+   "mass": "26831/335390"
+  },
+  {
+   "prefix": "01X1",
+   "free_weight": 8,
+   "mass": "26831/335390"
+  },
+  {
+   "prefix": "0X11",
+   "free_weight": 8,
+   "mass": "127448/503085"
+  },
+  {
+   "prefix": "1000",
+   "free_weight": 10,
+   "mass": "52619/167695"
+  },
+  {
+   "prefix": "100X",
+   "free_weight": 9,
+   "mass": "2/3"
+  },
+  {
+   "prefix": "110X",
+   "free_weight": 9,
+   "mass": "1/3"
+  },
+  {
+   "prefix": "1110",
+   "free_weight": 10,
+   "mass": "10807/33539"
+  },
+  {
+   "prefix": "1X11",
+   "free_weight": 9,
+   "mass": "2/3"
+  },
+  {
+   "prefix": "X100",
+   "free_weight": 9,
+   "mass": "1/3"
+  },
+  {
+   "prefix": "X10X",
+   "free_weight": 8,
+   "mass": "1/3"
+  },
+  {
+   "prefix": "X110",
+   "free_weight": 9,
+   "mass": "2/3"
+  }
+ ],
+ "DO_NOT_READ_THE_MASS_AS_A_MEASUREMENT": "exact_total_mass is a safe LOWER bound on tau*, not tau* itself: masses were rounded down and the column set offered to the LP was capped, both of which can only weaken it. ceil of it is what proves K = r.",
+ "independently_checked_by": [
+  "verify_ceiling_certificate.py",
+  "verify_F_independent.py"
+ ]
+}

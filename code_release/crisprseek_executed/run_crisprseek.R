@@ -1,0 +1,13 @@
+lib <- Sys.getenv("RLIB"); .libPaths(c(lib, .libPaths()))
+suppressMessages({library(CRISPRseek); library(reticulate)})
+setwd(Sys.getenv("WD"))
+cat("CRISPRseek:", as.character(packageVersion("CRISPRseek")), "\n")
+cat("default backend:", as.character(eval(formals(CRISPRseek::getOfftargetWithBulge)$cas_offinder_version))[1], "\n")
+# the exact file the release ships, and the exact function prepCasOFFinderBulge returns
+w <- system.file("extdata", "Cas-OFFinder/cas-offinder-bulge", package = "CRISPRseek")
+cat("bundled wrapper:", w, "\n")
+source_python(w)
+cat("sourced, function present:", exists("cas_offinder_bulge"), "\n")
+invisible(cas_offinder_bulge("input.txt", "D", "unused.txt", "/bin/true"))
+cat("pattern file written:", file.exists("input_bulge.txt"), "\n")
+cat("pattern file lines:", length(readLines("input_bulge.txt")), "\n")

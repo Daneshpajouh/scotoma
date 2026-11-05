@@ -1,0 +1,13 @@
+INTEGRITY_PASS 1678
+PACKAGE_BEGIN cellular
+COMMAND code_release/cellular /usr/local/bin/python3 -B independent_recheck.py
+TATTCCCCCCACCCCGCCT full=4 wrapper=5 no_bulge=12 claim=4/5/12 OK
+ACCCCCCCCAACCCCGCCT full=4 wrapper=5 no_bulge=7 claim=4/5/7 OK
+CTACCCCTCCACCCCGACT full=4 wrapper=5 no_bulge=11 claim=4/5/11 OK
+AACCCACCCCACCCCACCT full=4 wrapper=5 no_bulge=10 claim=4/5/10 OK
+TCTCCCCACCACCCCGCCT full=4 wrapper=5 no_bulge=10 claim=4/5/10 OK
+
+5 of 5 witnesses reproduced; mismatches: 0
+REPLAY_RESOURCES {"package": "cellular", "command": ["/usr/local/bin/python3", "-B", "independent_recheck.py"], "exit_code": 0, "wall_seconds": 0.03577562497230247, "peak_child_rss_bytes": 19513344, "user_seconds": 0.02179, "system_seconds": 0.009734}
+PACKAGE_PASS cellular
+time: sysctl kern.clockrate: Operation not permitted

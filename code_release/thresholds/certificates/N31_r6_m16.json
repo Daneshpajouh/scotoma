@@ -1,0 +1,74 @@
+{
+  "N": 31,
+  "r": 6,
+  "m": 16,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "00011",
+      "tail_weight": 16,
+      "mass": "1"
+    },
+    {
+      "prefix": "0011X",
+      "tail_weight": 15,
+      "mass": "13/15"
+    },
+    {
+      "prefix": "001X1",
+      "tail_weight": 15,
+      "mass": "2/15"
+    },
+    {
+      "prefix": "01000",
+      "tail_weight": 15,
+      "mass": "1"
+    },
+    {
+      "prefix": "01111",
+      "tail_weight": 16,
+      "mass": "1"
+    },
+    {
+      "prefix": "10001",
+      "tail_weight": 15,
+      "mass": "1"
+    },
+    {
+      "prefix": "11110",
+      "tail_weight": 15,
+      "mass": "20/31"
+    },
+    {
+      "prefix": "111XX",
+      "tail_weight": 14,
+      "mass": "11/31"
+    }
+  ],
+  "verification": {
+    "max_load": "1",
+    "witness": {
+      "prefix": "00000",
+      "tail_weight": 0
+    },
+    "centre_classes": 6561,
+    "region_masses": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "mass": "6",
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 107,
+    "private_orbits": 116,
+    "rounds": 2,
+    "seconds": 0.054,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

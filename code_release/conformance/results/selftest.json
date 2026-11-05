@@ -1,0 +1,82 @@
+{
+  "cases": {
+    "positive": {
+      "emitted_words": 20,
+      "producer_exit": 0,
+      "r": 20,
+      "suite_exit": 0,
+      "suite_report": {
+        "budget": 4,
+        "emitted_rows": 20,
+        "guide_status_counts": {
+          "exact": 1
+        },
+        "guides": 1,
+        "guides_incomplete": 0,
+        "invalid_words": 0,
+        "missing_words": 0,
+        "per_guide": {
+          "guide": {
+            "distinct_emitted": 20,
+            "emitted_rows": 20,
+            "guide": "GAGTAGCGCGAGCACAGCTA",
+            "invalid_words": [],
+            "missing_words": [],
+            "multiplicities": {},
+            "r": 20,
+            "redundant_rows": 0,
+            "status": "exact",
+            "valid_distinct": 20,
+            "word_set_exact": true
+          }
+        },
+        "redundant_rows": 0,
+        "required_words": 20,
+        "sound_uniqueness_applies_to_all": true,
+        "status": "exact",
+        "valid_distinct_words": 20
+      }
+    },
+    "terminal-dropped": {
+      "emitted_words": 19,
+      "producer_exit": 0,
+      "r": 20,
+      "suite_exit": 1,
+      "suite_report": {
+        "budget": 4,
+        "emitted_rows": 19,
+        "guide_status_counts": {
+          "incomplete": 1
+        },
+        "guides": 1,
+        "guides_incomplete": 1,
+        "invalid_words": 0,
+        "missing_words": 1,
+        "per_guide": {
+          "guide": {
+            "distinct_emitted": 19,
+            "emitted_rows": 19,
+            "guide": "GAGTAGCGCGAGCACAGCTA",
+            "invalid_words": [],
+            "missing_words": [
+              "GAGTAGCGCGAGCACAGCT"
+            ],
+            "multiplicities": {},
+            "r": 20,
+            "redundant_rows": 0,
+            "status": "incomplete",
+            "valid_distinct": 19,
+            "word_set_exact": false
+          }
+        },
+        "redundant_rows": 0,
+        "required_words": 20,
+        "sound_uniqueness_applies_to_all": true,
+        "status": "incomplete",
+        "valid_distinct_words": 19
+      }
+    }
+  },
+  "mutation": "required_words(g) minus {g[:-1]}",
+  "status": "passed"
+}

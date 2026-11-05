@@ -1,0 +1,1690 @@
+{
+  "budget": 4,
+  "emitted_rows": 1491,
+  "guide_status_counts": {
+    "exact": 12,
+    "incomplete": 98
+  },
+  "guides": 110,
+  "guides_incomplete": 98,
+  "invalid_words": 0,
+  "missing_words": 143,
+  "per_guide": {
+    "g0": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GATTTCTATGACCTGTATGG",
+      "invalid_words": [],
+      "missing_words": [
+        "ATTTCTATGACCTGTATGG"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    },
+    "g1": {
+      "distinct_emitted": 13,
+      "emitted_rows": 13,
+      "guide": "GGGAACCCAGCGAGTGAAGA",
+      "invalid_words": [],
+      "missing_words": [
+        "GGGAACCCAGCGAGTGAAG"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 13,
+      "word_set_exact": false
+    },
+    "g10": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GGCATACTCATCTTTTTCAG",
+      "invalid_words": [],
+      "missing_words": [
+        "GGCATACTCATCTTTTTCA"
+      ],
+      "multiplicities": {},
+      "r": 15,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g100": {
+      "distinct_emitted": 11,
+      "emitted_rows": 11,
+      "guide": "GGTCCCGGTGGTGTGGGCCC",
+      "invalid_words": [],
+      "missing_words": [],
+      "multiplicities": {},
+      "r": 11,
+      "redundant_rows": 0,
+      "status": "exact",
+      "valid_distinct": 11,
+      "word_set_exact": true
+    },
+    "g101": {
+      "distinct_emitted": 12,
+      "emitted_rows": 12,
+      "guide": "GGGGCCACTAGGGACAGGAT",
+      "invalid_words": [],
+      "missing_words": [
+        "GGGGCCACTAGGGACAGGA"
+      ],
+      "multiplicities": {},
+      "r": 13,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 12,
+      "word_set_exact": false
+    },
+    "g102": {
+      "distinct_emitted": 13,
+      "emitted_rows": 13,
+      "guide": "GCTCGGGGACACAGGATCCC",
+      "invalid_words": [],
+      "missing_words": [
+        "CTCGGGGACACAGGATCCC"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 13,
+      "word_set_exact": false
+    },
+    "g103": {
+      "distinct_emitted": 16,
+      "emitted_rows": 16,
+      "guide": "GGCCACGGAGCGAGACATCT",
+      "invalid_words": [],
+      "missing_words": [
+        "GGCCACGGAGCGAGACATC"
+      ],
+      "multiplicities": {},
+      "r": 17,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 16,
+      "word_set_exact": false
+    },
+    "g104": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GTGGGATCGGAGCAGTTCAG",
+      "invalid_words": [],
+      "missing_words": [
+        "GTGGGATCGGAGCAGTTCA",
+        "TGGGATCGGAGCAGTTCAG"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g105": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GAAGCGTGATGACAAAGAGG",
+      "invalid_words": [],
+      "missing_words": [
+        "AAGCGTGATGACAAAGAGG"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    },
+    "g106": {
+      "distinct_emitted": 11,
+      "emitted_rows": 11,
+      "guide": "GCATTTTCTTCACGGAAACA",
+      "invalid_words": [],
+      "missing_words": [
+        "CATTTTCTTCACGGAAACA",
+        "GCATTTTCTTCACGGAAAC"
+      ],
+      "multiplicities": {},
+      "r": 13,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 11,
+      "word_set_exact": false
+    },
+    "g107": {
+      "distinct_emitted": 11,
+      "emitted_rows": 11,
+      "guide": "GGAAGGAGGAGGCCTAAGGA",
+      "invalid_words": [],
+      "missing_words": [
+        "GGAAGGAGGAGGCCTAAGG"
+      ],
+      "multiplicities": {},
+      "r": 12,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 11,
+      "word_set_exact": false
+    },
+    "g108": {
+      "distinct_emitted": 16,
+      "emitted_rows": 16,
+      "guide": "GCAGCATAGTGAGCCCAGAA",
+      "invalid_words": [],
+      "missing_words": [
+        "CAGCATAGTGAGCCCAGAA"
+      ],
+      "multiplicities": {},
+      "r": 17,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 16,
+      "word_set_exact": false
+    },
+    "g109": {
+      "distinct_emitted": 18,
+      "emitted_rows": 18,
+      "guide": "GTGTGTGAGTATGCATCTCC",
+      "invalid_words": [],
+      "missing_words": [
+        "TGTGTGAGTATGCATCTCC"
+      ],
+      "multiplicities": {},
+      "r": 19,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 18,
+      "word_set_exact": false
+    },
+    "g11": {
+      "distinct_emitted": 11,
+      "emitted_rows": 11,
+      "guide": "GGACAGTAAGAAGGAAAAAC",
+      "invalid_words": [],
+      "missing_words": [
+        "GGACAGTAAGAAGGAAAAA"
+      ],
+      "multiplicities": {},
+      "r": 12,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 11,
+      "word_set_exact": false
+    },
+    "g12": {
+      "distinct_emitted": 12,
+      "emitted_rows": 12,
+      "guide": "GGTGGTGTGGGCCCAGGAGG",
+      "invalid_words": [],
+      "missing_words": [],
+      "multiplicities": {},
+      "r": 12,
+      "redundant_rows": 0,
+      "status": "exact",
+      "valid_distinct": 12,
+      "word_set_exact": true
+    },
+    "g13": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GAAGTTGACTTACTGAAGAA",
+      "invalid_words": [],
+      "missing_words": [
+        "AAGTTGACTTACTGAAGAA"
+      ],
+      "multiplicities": {},
+      "r": 15,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g14": {
+      "distinct_emitted": 11,
+      "emitted_rows": 11,
+      "guide": "GTCGAGAAAAGCTTTGAAAC",
+      "invalid_words": [],
+      "missing_words": [
+        "GTCGAGAAAAGCTTTGAAA",
+        "TCGAGAAAAGCTTTGAAAC"
+      ],
+      "multiplicities": {},
+      "r": 13,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 11,
+      "word_set_exact": false
+    },
+    "g15": {
+      "distinct_emitted": 10,
+      "emitted_rows": 10,
+      "guide": "GGGGGTTCCAGGGCCTGTCT",
+      "invalid_words": [],
+      "missing_words": [
+        "GGGGGTTCCAGGGCCTGTC"
+      ],
+      "multiplicities": {},
+      "r": 11,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 10,
+      "word_set_exact": false
+    },
+    "g16": {
+      "distinct_emitted": 16,
+      "emitted_rows": 16,
+      "guide": "GGCCGAGATGTCTCGCTCCG",
+      "invalid_words": [],
+      "missing_words": [
+        "GGCCGAGATGTCTCGCTCC"
+      ],
+      "multiplicities": {},
+      "r": 17,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 16,
+      "word_set_exact": false
+    },
+    "g17": {
+      "distinct_emitted": 12,
+      "emitted_rows": 12,
+      "guide": "GGCAGAAACCCTGGTGGTCG",
+      "invalid_words": [],
+      "missing_words": [
+        "GGCAGAAACCCTGGTGGTC"
+      ],
+      "multiplicities": {},
+      "r": 13,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 12,
+      "word_set_exact": false
+    },
+    "g18": {
+      "distinct_emitted": 12,
+      "emitted_rows": 12,
+      "guide": "GAGAATCAAAATCGGTGAAT",
+      "invalid_words": [],
+      "missing_words": [
+        "AGAATCAAAATCGGTGAAT",
+        "GAGAATCAAAATCGGTGAA"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 12,
+      "word_set_exact": false
+    },
+    "g19": {
+      "distinct_emitted": 13,
+      "emitted_rows": 13,
+      "guide": "GCCCTGGCCAGTCGTCTGGG",
+      "invalid_words": [],
+      "missing_words": [
+        "CCCTGGCCAGTCGTCTGGG"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 13,
+      "word_set_exact": false
+    },
+    "g2": {
+      "distinct_emitted": 16,
+      "emitted_rows": 16,
+      "guide": "GTACAGGCTGCACCTGTCAG",
+      "invalid_words": [],
+      "missing_words": [
+        "GTACAGGCTGCACCTGTCA",
+        "TACAGGCTGCACCTGTCAG"
+      ],
+      "multiplicities": {},
+      "r": 18,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 16,
+      "word_set_exact": false
+    },
+    "g20": {
+      "distinct_emitted": 16,
+      "emitted_rows": 16,
+      "guide": "GAAGATGATGGAGTAGATGG",
+      "invalid_words": [],
+      "missing_words": [
+        "AAGATGATGGAGTAGATGG"
+      ],
+      "multiplicities": {},
+      "r": 17,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 16,
+      "word_set_exact": false
+    },
+    "g21": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GGTGGATGATGGTGCCGTCG",
+      "invalid_words": [],
+      "missing_words": [
+        "GGTGGATGATGGTGCCGTC"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    },
+    "g22": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GCAGATGGAATCATCTAGGA",
+      "invalid_words": [],
+      "missing_words": [
+        "CAGATGGAATCATCTAGGA",
+        "GCAGATGGAATCATCTAGG"
+      ],
+      "multiplicities": {},
+      "r": 17,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    },
+    "g23": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GGCCAGTACCACAGCAGGCT",
+      "invalid_words": [],
+      "missing_words": [
+        "GGCCAGTACCACAGCAGGC"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    },
+    "g24": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GAAGAAACTGAGAAGCATGA",
+      "invalid_words": [],
+      "missing_words": [
+        "AAGAAACTGAGAAGCATGA",
+        "GAAGAAACTGAGAAGCATG"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g25": {
+      "distinct_emitted": 12,
+      "emitted_rows": 12,
+      "guide": "GAGCAGGGCTGGGGAGAAGG",
+      "invalid_words": [],
+      "missing_words": [
+        "AGCAGGGCTGGGGAGAAGG"
+      ],
+      "multiplicities": {},
+      "r": 13,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 12,
+      "word_set_exact": false
+    },
+    "g26": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GAAGCATGACGGACAAGTAC",
+      "invalid_words": [],
+      "missing_words": [
+        "AAGCATGACGGACAAGTAC",
+        "GAAGCATGACGGACAAGTA"
+      ],
+      "multiplicities": {},
+      "r": 17,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    },
+    "g27": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GGTTTCACCGAGACCTCAGT",
+      "invalid_words": [],
+      "missing_words": [
+        "GGTTTCACCGAGACCTCAG"
+      ],
+      "multiplicities": {},
+      "r": 15,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g28": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GCTGTCCTGAAGTGGACATA",
+      "invalid_words": [],
+      "missing_words": [
+        "CTGTCCTGAAGTGGACATA",
+        "GCTGTCCTGAAGTGGACAT"
+      ],
+      "multiplicities": {},
+      "r": 17,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    },
+    "g29": {
+      "distinct_emitted": 12,
+      "emitted_rows": 12,
+      "guide": "GGGCTGCAGGGGAGCTGGGC",
+      "invalid_words": [],
+      "missing_words": [
+        "GGGCTGCAGGGGAGCTGGG"
+      ],
+      "multiplicities": {},
+      "r": 13,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 12,
+      "word_set_exact": false
+    },
+    "g3": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GTCAGGGTTCTGGATATCTG",
+      "invalid_words": [],
+      "missing_words": [
+        "GTCAGGGTTCTGGATATCT",
+        "TCAGGGTTCTGGATATCTG"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g30": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GCTGGTACACGGCAGGGTCA",
+      "invalid_words": [],
+      "missing_words": [
+        "CTGGTACACGGCAGGGTCA",
+        "GCTGGTACACGGCAGGGTC"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g31": {
+      "distinct_emitted": 12,
+      "emitted_rows": 12,
+      "guide": "GCTGACCCCGCTGGGCAGGC",
+      "invalid_words": [],
+      "missing_words": [
+        "CTGACCCCGCTGGGCAGGC",
+        "GCTGACCCCGCTGGGCAGG"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 12,
+      "word_set_exact": false
+    },
+    "g32": {
+      "distinct_emitted": 16,
+      "emitted_rows": 16,
+      "guide": "GTTTGCGACTCTGACAGAGC",
+      "invalid_words": [],
+      "missing_words": [
+        "GTTTGCGACTCTGACAGAG",
+        "TTTGCGACTCTGACAGAGC"
+      ],
+      "multiplicities": {},
+      "r": 18,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 16,
+      "word_set_exact": false
+    },
+    "g33": {
+      "distinct_emitted": 16,
+      "emitted_rows": 16,
+      "guide": "GGGACTCTACATCTGCAAGG",
+      "invalid_words": [],
+      "missing_words": [],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "exact",
+      "valid_distinct": 16,
+      "word_set_exact": true
+    },
+    "g34": {
+      "distinct_emitted": 13,
+      "emitted_rows": 13,
+      "guide": "GGGGATTTCTATGACCTGTA",
+      "invalid_words": [],
+      "missing_words": [
+        "GGGGATTTCTATGACCTGT"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 13,
+      "word_set_exact": false
+    },
+    "g35": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GCACGTGGCCCAGCCTGCTG",
+      "invalid_words": [],
+      "missing_words": [
+        "CACGTGGCCCAGCCTGCTG",
+        "GCACGTGGCCCAGCCTGCT"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g36": {
+      "distinct_emitted": 11,
+      "emitted_rows": 11,
+      "guide": "GACACCTTCTTCCCCAGCCC",
+      "invalid_words": [],
+      "missing_words": [
+        "ACACCTTCTTCCCCAGCCC"
+      ],
+      "multiplicities": {},
+      "r": 12,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 11,
+      "word_set_exact": false
+    },
+    "g37": {
+      "distinct_emitted": 11,
+      "emitted_rows": 11,
+      "guide": "GGGGGATTGTGGGGCTGCAG",
+      "invalid_words": [],
+      "missing_words": [
+        "GGGGGATTGTGGGGCTGCA"
+      ],
+      "multiplicities": {},
+      "r": 12,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 11,
+      "word_set_exact": false
+    },
+    "g38": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GCATACTCATCTTTTTCAGT",
+      "invalid_words": [],
+      "missing_words": [
+        "CATACTCATCTTTTTCAGT",
+        "GCATACTCATCTTTTTCAG"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g39": {
+      "distinct_emitted": 13,
+      "emitted_rows": 13,
+      "guide": "GCTGCCGCCCAGTGGGACTT",
+      "invalid_words": [],
+      "missing_words": [
+        "CTGCCGCCCAGTGGGACTT"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 13,
+      "word_set_exact": false
+    },
+    "g4": {
+      "distinct_emitted": 16,
+      "emitted_rows": 16,
+      "guide": "GCGTGACTTCCACATGAGCG",
+      "invalid_words": [],
+      "missing_words": [
+        "CGTGACTTCCACATGAGCG",
+        "GCGTGACTTCCACATGAGC"
+      ],
+      "multiplicities": {},
+      "r": 18,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 16,
+      "word_set_exact": false
+    },
+    "g40": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GGTCACCACGAGCAGGGCTG",
+      "invalid_words": [],
+      "missing_words": [
+        "GGTCACCACGAGCAGGGCT"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    },
+    "g41": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GTGGAGCGCAGTGGTCTCCG",
+      "invalid_words": [],
+      "missing_words": [
+        "GTGGAGCGCAGTGGTCTCC",
+        "TGGAGCGCAGTGGTCTCCG"
+      ],
+      "multiplicities": {},
+      "r": 17,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    },
+    "g42": {
+      "distinct_emitted": 13,
+      "emitted_rows": 13,
+      "guide": "GGAAACTTGGCCACTCTATG",
+      "invalid_words": [],
+      "missing_words": [
+        "GGAAACTTGGCCACTCTAT"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 13,
+      "word_set_exact": false
+    },
+    "g43": {
+      "distinct_emitted": 13,
+      "emitted_rows": 13,
+      "guide": "GGGCGGTGCTACAACTGGGC",
+      "invalid_words": [],
+      "missing_words": [
+        "GGGCGGTGCTACAACTGGG"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 13,
+      "word_set_exact": false
+    },
+    "g44": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GTGGTACTGGCCAGCAGCCG",
+      "invalid_words": [],
+      "missing_words": [
+        "GTGGTACTGGCCAGCAGCC",
+        "TGGTACTGGCCAGCAGCCG"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g45": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GCTGTTTCTGCAGCCGCTTT",
+      "invalid_words": [],
+      "missing_words": [
+        "CTGTTTCTGCAGCCGCTTT"
+      ],
+      "multiplicities": {},
+      "r": 15,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g46": {
+      "distinct_emitted": 18,
+      "emitted_rows": 18,
+      "guide": "GAGTAGCGCGAGCACAGCTA",
+      "invalid_words": [],
+      "missing_words": [
+        "AGTAGCGCGAGCACAGCTA",
+        "GAGTAGCGCGAGCACAGCT"
+      ],
+      "multiplicities": {},
+      "r": 20,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 18,
+      "word_set_exact": false
+    },
+    "g47": {
+      "distinct_emitted": 13,
+      "emitted_rows": 13,
+      "guide": "GCCGTGGCAAACTGGTACTT",
+      "invalid_words": [],
+      "missing_words": [
+        "CCGTGGCAAACTGGTACTT"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 13,
+      "word_set_exact": false
+    },
+    "g48": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GTATGGAAAATGAGAGCTGC",
+      "invalid_words": [],
+      "missing_words": [
+        "GTATGGAAAATGAGAGCTG",
+        "TATGGAAAATGAGAGCTGC"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g49": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GGCACCAACTGGATGGATCA",
+      "invalid_words": [],
+      "missing_words": [
+        "GGCACCAACTGGATGGATC"
+      ],
+      "multiplicities": {},
+      "r": 15,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g5": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GCTTGTCCGTCTGGTTGCTG",
+      "invalid_words": [],
+      "missing_words": [
+        "CTTGTCCGTCTGGTTGCTG",
+        "GCTTGTCCGTCTGGTTGCT"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g50": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GCTGGCGATGCCTCGGCTGC",
+      "invalid_words": [],
+      "missing_words": [
+        "CTGGCGATGCCTCGGCTGC",
+        "GCTGGCGATGCCTCGGCTG"
+      ],
+      "multiplicities": {},
+      "r": 17,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    },
+    "g51": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GGGTATTATTGATGCTATTC",
+      "invalid_words": [],
+      "missing_words": [
+        "GGGTATTATTGATGCTATT"
+      ],
+      "multiplicities": {},
+      "r": 15,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g52": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GGTGAGGGAGGAGAGATGCC",
+      "invalid_words": [],
+      "missing_words": [],
+      "multiplicities": {},
+      "r": 15,
+      "redundant_rows": 0,
+      "status": "exact",
+      "valid_distinct": 15,
+      "word_set_exact": true
+    },
+    "g53": {
+      "distinct_emitted": 10,
+      "emitted_rows": 10,
+      "guide": "GTCCCCTGAGCCCATTTCCT",
+      "invalid_words": [],
+      "missing_words": [
+        "GTCCCCTGAGCCCATTTCC",
+        "TCCCCTGAGCCCATTTCCT"
+      ],
+      "multiplicities": {},
+      "r": 12,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 10,
+      "word_set_exact": false
+    },
+    "g54": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GCTACTCTCTCTTTCTGGCC",
+      "invalid_words": [],
+      "missing_words": [
+        "CTACTCTCTCTTTCTGGCC"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    },
+    "g55": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GCACAAGGCTCAGCTGAACC",
+      "invalid_words": [],
+      "missing_words": [
+        "CACAAGGCTCAGCTGAACC"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    },
+    "g56": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GGCCCAGCCTGCTGTGGTAC",
+      "invalid_words": [],
+      "missing_words": [
+        "GGCCCAGCCTGCTGTGGTA"
+      ],
+      "multiplicities": {},
+      "r": 15,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g57": {
+      "distinct_emitted": 12,
+      "emitted_rows": 12,
+      "guide": "GAGGTTCACTTGATTTCCAC",
+      "invalid_words": [],
+      "missing_words": [
+        "AGGTTCACTTGATTTCCAC",
+        "GAGGTTCACTTGATTTCCA"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 12,
+      "word_set_exact": false
+    },
+    "g58": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GTGCGGCAACCTACATGATG",
+      "invalid_words": [],
+      "missing_words": [
+        "GTGCGGCAACCTACATGAT",
+        "TGCGGCAACCTACATGATG"
+      ],
+      "multiplicities": {},
+      "r": 17,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    },
+    "g59": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GTAGAGCGGAGGCAGGAGGC",
+      "invalid_words": [],
+      "missing_words": [
+        "GTAGAGCGGAGGCAGGAGG",
+        "TAGAGCGGAGGCAGGAGGC"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g6": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GCTGCAGAAACAGCAAGCCC",
+      "invalid_words": [],
+      "missing_words": [
+        "CTGCAGAAACAGCAAGCCC"
+      ],
+      "multiplicities": {},
+      "r": 15,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g60": {
+      "distinct_emitted": 16,
+      "emitted_rows": 16,
+      "guide": "GATGCTATTCAGGATGCAGT",
+      "invalid_words": [],
+      "missing_words": [
+        "ATGCTATTCAGGATGCAGT",
+        "GATGCTATTCAGGATGCAG"
+      ],
+      "multiplicities": {},
+      "r": 18,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 16,
+      "word_set_exact": false
+    },
+    "g61": {
+      "distinct_emitted": 16,
+      "emitted_rows": 16,
+      "guide": "GGTACCTATCGATTGTCAGG",
+      "invalid_words": [],
+      "missing_words": [],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "exact",
+      "valid_distinct": 16,
+      "word_set_exact": true
+    },
+    "g62": {
+      "distinct_emitted": 13,
+      "emitted_rows": 13,
+      "guide": "GTCACCAATCCTGTCCCTAG",
+      "invalid_words": [],
+      "missing_words": [
+        "GTCACCAATCCTGTCCCTA",
+        "TCACCAATCCTGTCCCTAG"
+      ],
+      "multiplicities": {},
+      "r": 15,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 13,
+      "word_set_exact": false
+    },
+    "g63": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GAAGGCTGAGATCCTGGAGG",
+      "invalid_words": [],
+      "missing_words": [
+        "AAGGCTGAGATCCTGGAGG"
+      ],
+      "multiplicities": {},
+      "r": 15,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g64": {
+      "distinct_emitted": 10,
+      "emitted_rows": 10,
+      "guide": "GAACAAGGTGTTCCCACCCG",
+      "invalid_words": [],
+      "missing_words": [
+        "AACAAGGTGTTCCCACCCG",
+        "GAACAAGGTGTTCCCACCC"
+      ],
+      "multiplicities": {},
+      "r": 12,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 10,
+      "word_set_exact": false
+    },
+    "g65": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GTTGGAGAAGCTGCAGGTGA",
+      "invalid_words": [],
+      "missing_words": [
+        "GTTGGAGAAGCTGCAGGTG",
+        "TTGGAGAAGCTGCAGGTGA"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g66": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GTCTCCCTGATCCATCCAGT",
+      "invalid_words": [],
+      "missing_words": [
+        "GTCTCCCTGATCCATCCAG",
+        "TCTCCCTGATCCATCCAGT"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g67": {
+      "distinct_emitted": 12,
+      "emitted_rows": 12,
+      "guide": "GCTGCCCCGCCTGCCCAGCG",
+      "invalid_words": [],
+      "missing_words": [
+        "CTGCCCCGCCTGCCCAGCG",
+        "GCTGCCCCGCCTGCCCAGC"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 12,
+      "word_set_exact": false
+    },
+    "g68": {
+      "distinct_emitted": 17,
+      "emitted_rows": 17,
+      "guide": "GGTGACAAGTGTGATCACTT",
+      "invalid_words": [],
+      "missing_words": [],
+      "multiplicities": {},
+      "r": 17,
+      "redundant_rows": 0,
+      "status": "exact",
+      "valid_distinct": 17,
+      "word_set_exact": true
+    },
+    "g69": {
+      "distinct_emitted": 16,
+      "emitted_rows": 16,
+      "guide": "GGCAGCATAGTGAGCCCAGA",
+      "invalid_words": [],
+      "missing_words": [
+        "GGCAGCATAGTGAGCCCAG"
+      ],
+      "multiplicities": {},
+      "r": 17,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 16,
+      "word_set_exact": false
+    },
+    "g7": {
+      "distinct_emitted": 12,
+      "emitted_rows": 12,
+      "guide": "GTCCCTAGTGGCCCCACTGT",
+      "invalid_words": [],
+      "missing_words": [
+        "GTCCCTAGTGGCCCCACTG",
+        "TCCCTAGTGGCCCCACTGT"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 12,
+      "word_set_exact": false
+    },
+    "g70": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GGGATCAGGTGACCCATATT",
+      "invalid_words": [],
+      "missing_words": [],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "exact",
+      "valid_distinct": 14,
+      "word_set_exact": true
+    },
+    "g71": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GTCTGGGCGGTGCTACAACT",
+      "invalid_words": [],
+      "missing_words": [
+        "GTCTGGGCGGTGCTACAAC",
+        "TCTGGGCGGTGCTACAACT"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g72": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GGTGCACAGTGGGGTCAGCA",
+      "invalid_words": [],
+      "missing_words": [
+        "GGTGCACAGTGGGGTCAGC"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    },
+    "g73": {
+      "distinct_emitted": 16,
+      "emitted_rows": 16,
+      "guide": "GTGAGTAGAGCGGAGGCAGG",
+      "invalid_words": [],
+      "missing_words": [
+        "TGAGTAGAGCGGAGGCAGG"
+      ],
+      "multiplicities": {},
+      "r": 17,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 16,
+      "word_set_exact": false
+    },
+    "g74": {
+      "distinct_emitted": 13,
+      "emitted_rows": 13,
+      "guide": "GGATTTCCTCCTCGACCACC",
+      "invalid_words": [],
+      "missing_words": [],
+      "multiplicities": {},
+      "r": 13,
+      "redundant_rows": 0,
+      "status": "exact",
+      "valid_distinct": 13,
+      "word_set_exact": true
+    },
+    "g75": {
+      "distinct_emitted": 12,
+      "emitted_rows": 12,
+      "guide": "GCCTCTCCAGCCAGGGGCTG",
+      "invalid_words": [],
+      "missing_words": [
+        "CCTCTCCAGCCAGGGGCTG",
+        "GCCTCTCCAGCCAGGGGCT"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 12,
+      "word_set_exact": false
+    },
+    "g76": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GAGGGCTCACCAGAGGTAGG",
+      "invalid_words": [],
+      "missing_words": [
+        "AGGGCTCACCAGAGGTAGG"
+      ],
+      "multiplicities": {},
+      "r": 15,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g77": {
+      "distinct_emitted": 12,
+      "emitted_rows": 12,
+      "guide": "GATTTCCTCCTCGACCACCA",
+      "invalid_words": [],
+      "missing_words": [
+        "ATTTCCTCCTCGACCACCA",
+        "GATTTCCTCCTCGACCACC"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 12,
+      "word_set_exact": false
+    },
+    "g78": {
+      "distinct_emitted": 11,
+      "emitted_rows": 11,
+      "guide": "GGCCCCACTGTGGGGTGGAG",
+      "invalid_words": [],
+      "missing_words": [
+        "GGCCCCACTGTGGGGTGGA"
+      ],
+      "multiplicities": {},
+      "r": 12,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 11,
+      "word_set_exact": false
+    },
+    "g79": {
+      "distinct_emitted": 13,
+      "emitted_rows": 13,
+      "guide": "GATAACTACACCGAGGAAAT",
+      "invalid_words": [],
+      "missing_words": [
+        "ATAACTACACCGAGGAAAT",
+        "GATAACTACACCGAGGAAA"
+      ],
+      "multiplicities": {},
+      "r": 15,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 13,
+      "word_set_exact": false
+    },
+    "g8": {
+      "distinct_emitted": 11,
+      "emitted_rows": 11,
+      "guide": "GAAGGTGGCGTTGTCCCCTT",
+      "invalid_words": [],
+      "missing_words": [
+        "AAGGTGGCGTTGTCCCCTT"
+      ],
+      "multiplicities": {},
+      "r": 12,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 11,
+      "word_set_exact": false
+    },
+    "g80": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GCGCCGAGAAGGAAGTGCTC",
+      "invalid_words": [],
+      "missing_words": [
+        "CGCCGAGAAGGAAGTGCTC",
+        "GCGCCGAGAAGGAAGTGCT"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g81": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GCCCTGCTCGTGGTGACCGA",
+      "invalid_words": [],
+      "missing_words": [
+        "CCCTGCTCGTGGTGACCGA",
+        "GCCCTGCTCGTGGTGACCG"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g82": {
+      "distinct_emitted": 9,
+      "emitted_rows": 9,
+      "guide": "GGAGAAGGTGGGGGGGTTCC",
+      "invalid_words": [],
+      "missing_words": [],
+      "multiplicities": {},
+      "r": 9,
+      "redundant_rows": 0,
+      "status": "exact",
+      "valid_distinct": 9,
+      "word_set_exact": true
+    },
+    "g83": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GGAATCTGCCTAACAGGAGG",
+      "invalid_words": [],
+      "missing_words": [],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "exact",
+      "valid_distinct": 14,
+      "word_set_exact": true
+    },
+    "g84": {
+      "distinct_emitted": 13,
+      "emitted_rows": 13,
+      "guide": "GGACCGCAGCCAGCCCGGCC",
+      "invalid_words": [],
+      "missing_words": [],
+      "multiplicities": {},
+      "r": 13,
+      "redundant_rows": 0,
+      "status": "exact",
+      "valid_distinct": 13,
+      "word_set_exact": true
+    },
+    "g85": {
+      "distinct_emitted": 11,
+      "emitted_rows": 11,
+      "guide": "GCTGGGCAGGAGCCCCCTCC",
+      "invalid_words": [],
+      "missing_words": [
+        "CTGGGCAGGAGCCCCCTCC"
+      ],
+      "multiplicities": {},
+      "r": 12,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 11,
+      "word_set_exact": false
+    },
+    "g86": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GCAAACATGCTGTCCTGAAG",
+      "invalid_words": [],
+      "missing_words": [
+        "CAAACATGCTGTCCTGAAG",
+        "GCAAACATGCTGTCCTGAA"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g87": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GATGTGGGAGGCTCAGTTCC",
+      "invalid_words": [],
+      "missing_words": [
+        "ATGTGGGAGGCTCAGTTCC"
+      ],
+      "multiplicities": {},
+      "r": 15,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g88": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GGACTGAGGGCCATGGACAC",
+      "invalid_words": [],
+      "missing_words": [
+        "GGACTGAGGGCCATGGACA"
+      ],
+      "multiplicities": {},
+      "r": 15,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g89": {
+      "distinct_emitted": 12,
+      "emitted_rows": 12,
+      "guide": "GAGACCCTGCTCAAGGGCCG",
+      "invalid_words": [],
+      "missing_words": [
+        "AGACCCTGCTCAAGGGCCG",
+        "GAGACCCTGCTCAAGGGCC"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 12,
+      "word_set_exact": false
+    },
+    "g9": {
+      "distinct_emitted": 9,
+      "emitted_rows": 9,
+      "guide": "GGGGGGTTCCAGGGCCTGTC",
+      "invalid_words": [],
+      "missing_words": [
+        "GGGGGGTTCCAGGGCCTGT"
+      ],
+      "multiplicities": {},
+      "r": 10,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 9,
+      "word_set_exact": false
+    },
+    "g90": {
+      "distinct_emitted": 11,
+      "emitted_rows": 11,
+      "guide": "GAGCCACATTAACCGGCCCT",
+      "invalid_words": [],
+      "missing_words": [
+        "AGCCACATTAACCGGCCCT",
+        "GAGCCACATTAACCGGCCC"
+      ],
+      "multiplicities": {},
+      "r": 13,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 11,
+      "word_set_exact": false
+    },
+    "g91": {
+      "distinct_emitted": 11,
+      "emitted_rows": 11,
+      "guide": "GTCCCCTCCACCCCACAGTG",
+      "invalid_words": [],
+      "missing_words": [
+        "GTCCCCTCCACCCCACAGT",
+        "TCCCCTCCACCCCACAGTG"
+      ],
+      "multiplicities": {},
+      "r": 13,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 11,
+      "word_set_exact": false
+    },
+    "g92": {
+      "distinct_emitted": 13,
+      "emitted_rows": 13,
+      "guide": "GGGGCAGCTCCGGCGCTCCT",
+      "invalid_words": [],
+      "missing_words": [
+        "GGGGCAGCTCCGGCGCTCC"
+      ],
+      "multiplicities": {},
+      "r": 14,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 13,
+      "word_set_exact": false
+    },
+    "g93": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GCTGTGTTTGCGTCTCTCCC",
+      "invalid_words": [],
+      "missing_words": [
+        "CTGTGTTTGCGTCTCTCCC"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    },
+    "g94": {
+      "distinct_emitted": 13,
+      "emitted_rows": 13,
+      "guide": "GGGCAATGGATTGGTCATCC",
+      "invalid_words": [],
+      "missing_words": [],
+      "multiplicities": {},
+      "r": 13,
+      "redundant_rows": 0,
+      "status": "exact",
+      "valid_distinct": 13,
+      "word_set_exact": true
+    },
+    "g95": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GCTTCGGCAGGCTGACAGCC",
+      "invalid_words": [],
+      "missing_words": [
+        "CTTCGGCAGGCTGACAGCC"
+      ],
+      "multiplicities": {},
+      "r": 16,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    },
+    "g96": {
+      "distinct_emitted": 16,
+      "emitted_rows": 16,
+      "guide": "GATGCAGAGACCCTGCTCAA",
+      "invalid_words": [],
+      "missing_words": [
+        "ATGCAGAGACCCTGCTCAA"
+      ],
+      "multiplicities": {},
+      "r": 17,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 16,
+      "word_set_exact": false
+    },
+    "g97": {
+      "distinct_emitted": 8,
+      "emitted_rows": 8,
+      "guide": "GAGAAGGTGGGGGGGTTCCA",
+      "invalid_words": [],
+      "missing_words": [
+        "AGAAGGTGGGGGGGTTCCA",
+        "GAGAAGGTGGGGGGGTTCC"
+      ],
+      "multiplicities": {},
+      "r": 10,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 8,
+      "word_set_exact": false
+    },
+    "g98": {
+      "distinct_emitted": 14,
+      "emitted_rows": 14,
+      "guide": "GGCGCCCTGGCCAGTCGTCT",
+      "invalid_words": [],
+      "missing_words": [
+        "GGCGCCCTGGCCAGTCGTC"
+      ],
+      "multiplicities": {},
+      "r": 15,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 14,
+      "word_set_exact": false
+    },
+    "g99": {
+      "distinct_emitted": 15,
+      "emitted_rows": 15,
+      "guide": "GACATTAAAGATAGTCATCT",
+      "invalid_words": [],
+      "missing_words": [
+        "ACATTAAAGATAGTCATCT",
+        "GACATTAAAGATAGTCATC"
+      ],
+      "multiplicities": {},
+      "r": 17,
+      "redundant_rows": 0,
+      "status": "incomplete",
+      "valid_distinct": 15,
+      "word_set_exact": false
+    }
+  },
+  "redundant_rows": 0,
+  "required_words": 1634,
+  "sound_uniqueness_applies_to_all": true,
+  "status": "incomplete",
+  "valid_distinct_words": 1491
+}

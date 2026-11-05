@@ -1,0 +1,38 @@
+[
+  {
+    "control": "zero-local",
+    "exit_code": 1,
+    "stderr": "REJECTED: local bound too small: (2, (0, 0, 0))",
+    "outcome": "FAILED_AS_REQUIRED"
+  },
+  {
+    "control": "empty-polynomial",
+    "exit_code": 1,
+    "stderr": "REJECTED: polynomial cover fails: u=2,s=0,e=0,f=0,t=1,b=0",
+    "outcome": "FAILED_AS_REQUIRED"
+  },
+  {
+    "control": "missing-local",
+    "exit_code": 1,
+    "stderr": "REJECTED: missing local row",
+    "outcome": "FAILED_AS_REQUIRED"
+  },
+  {
+    "control": "lower-path",
+    "exit_code": 1,
+    "stderr": "REJECTED: path bound differs for u=2",
+    "outcome": "FAILED_AS_REQUIRED"
+  },
+  {
+    "control": "zero-tail",
+    "exit_code": 1,
+    "stderr": "REJECTED: tail bound too small for u=2",
+    "outcome": "FAILED_AS_REQUIRED"
+  },
+  {
+    "control": "wrong-p",
+    "exit_code": 1,
+    "stderr": "REJECTED: global parameters altered",
+    "outcome": "FAILED_AS_REQUIRED"
+  }
+]

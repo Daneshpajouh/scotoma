@@ -1,0 +1,47 @@
+{
+  "binary_sha256": {
+    "corrected": "cee9231169ec193bd7e7756981dd96411e786033b75922d6a9c4fb2df50350fa",
+    "released": "b8991a89143763809f1684517613eadc6e179a362044001da5a152ce9754849c"
+  },
+  "build_provenance_sha256": "a4e8af21ac673e01dcb193ec2f6324f5084a93bf46334b4a9ddc11862ab7eeab",
+  "finished": "2026-11-01T01:08:38-0700",
+  "guide_id": "sg1617",
+  "host": "fc30616",
+  "input_sha256": {
+    "input_rna0.txt": "33a7bd0237b0562ab734447428c1cddea0834661c72827307771c2a1bd643e64",
+    "input_rna1.txt": "a39ee97af3573b2b81b6dc945afd2f2182b9e56ee86bcbfdd8983a9890968b21"
+  },
+  "job_id": "1731656",
+  "reference_bytes": 3144230986,
+  "reference_sha256": "9cce8b926416dd96b152deea85188495b75f7ac8d634cc723a017067be8702b7",
+  "runs": {
+    "corrected_rna0": {
+      "output_sha256": "643fab1c0ce116529dfcc0716767489f32a62fe6b7dcd4f8bf4307820184bab5",
+      "returncode": 0,
+      "rows_including_header": 145,
+      "wall_ns": 1979706802
+    },
+    "corrected_rna1": {
+      "output_sha256": "33653b1720825bde50b4274768bbd68667909974aabf953f85696008818ac7b3",
+      "returncode": 0,
+      "rows_including_header": 9362,
+      "wall_ns": 6210417338
+    },
+    "released_rna0": {
+      "output_sha256": "643fab1c0ce116529dfcc0716767489f32a62fe6b7dcd4f8bf4307820184bab5",
+      "returncode": 0,
+      "rows_including_header": 145,
+      "wall_ns": 2047097782
+    },
+    "released_rna1": {
+      "output_sha256": "136b70fe002c60883bdb6cda7d0dde87cfa8dca59bfdc1ab6ccb4d419a3f3fcf",
+      "returncode": 0,
+      "rows_including_header": 8807,
+      "wall_ns": 6187273007
+    }
+  },
+  "spacer": "CTAACAGTTGCTTTTATCAC",
+  "staged_bases": 3088286401,
+  "staged_records": 25,
+  "started": "2026-11-01T01:07:04-0700"
+}

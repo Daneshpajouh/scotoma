@@ -1,0 +1,70 @@
+{
+  "status": "CLOSED",
+  "tau_lower": "1705077373666855718687227382604337046832144385693044738312709224896507431746021435642000336439911589532148903305577191774/157902004496838393308019884592602294835878858563835801941990171596085527544256559111288038074728640264635448059358257479",
+  "tau_upper": "852538686833427859343613691302168523416072192846522369156354612448253715873010717821000168219955794766074451652788595887/78899977057428335067109435563896270586523997494320552436152089744293652562046654641639628261949562507353319776884783067",
+  "matched_exactly": false,
+  "closed": true,
+  "fractional_route_refuted": false,
+  "K_lower": 11,
+  "K_upper": 11,
+  "K": 11,
+  "N": 20,
+  "r": 11,
+  "m": 10,
+  "reports": {
+    "cover": {
+      "passes": true,
+      "extremum": "1",
+      "extremum_exact": true,
+      "at": [
+        9796,
+        7
+      ],
+      "violations": 0,
+      "arithmetic": "arbitrary precision integer convolution and exact division",
+      "total_mass": "852538686833427859343613691302168523416072192846522369156354612448253715873010717821000168219955794766074451652788595887/78899977057428335067109435563896270586523997494320552436152089744293652562046654641639628261949562507353319776884783067",
+      "support_orbits": 397,
+      "orbits_checked": 351751,
+      "total_centre_orbits": 649539,
+      "seconds": 0.2782874181866646,
+      "normalization_proof": {
+        "original_extremum": "157799954114856670134218871127792541173047994988641104872304179488587305124093309283279256523899125014706639553769566134/157902004496838393308019884592602294835878858563835801941990171596085527544256559111288038074728640264635448059358257479",
+        "original_report": "/scratch/YOUR_ACCOUNT/ZR3_exact_tau_n21_23/runs/full_1576400/cell_20_11_10/round_005_cover.json"
+      }
+    },
+    "packing": {
+      "passes": true,
+      "extremum": "1",
+      "extremum_exact": true,
+      "at": [
+        0,
+        0
+      ],
+      "violations": 0,
+      "arithmetic": "arbitrary precision integer convolution and exact division",
+      "total_mass": "1705077373666855718687227382604337046832144385693044738312709224896507431746021435642000336439911589532148903305577191774/157902004496838393308019884592602294835878858563835801941990171596085527544256559111288038074728640264635448059358257479",
+      "support_orbits": 404,
+      "orbits_checked": 649539,
+      "total_centre_orbits": 649539,
+      "seconds": 0.2798888562247157,
+      "normalization_proof": {
+        "original_extremum": "1",
+        "original_report": "/scratch/YOUR_ACCOUNT/ZR3_exact_tau_n21_23/runs/full_1576400/cell_20_11_10/round_005_packing.json"
+      }
+    }
+  },
+  "state": {
+    "termination": "decisive exact certificate verified",
+    "round": 5,
+    "reconstruction": "exact active equalities",
+    "decisive_certificate": "decision.certificate.json"
+  },
+  "elapsed_seconds": 15.993834464810789,
+  "enumeration": {
+    "centre_orbits": 649539,
+    "point_orbits": 351751,
+    "ambient_words": 1099511627776,
+    "union_words": 55890336928
+  },
+  "certificate_sha256": "2593314f8eeaaa9002d6919d347f8efb9b81fbcef0a76c35534c972a684aef88"
+}

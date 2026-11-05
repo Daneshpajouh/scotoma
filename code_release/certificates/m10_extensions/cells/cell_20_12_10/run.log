@@ -1,0 +1,101 @@
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 730, "classes": 1771470}
+{"stage": "LP", "N": 20, "r": 12, "m": 10, "round": 1, "points": 1536, "centres": 460, "elapsed": 1.663882965222001}
+{"stage": "numeric_proposal", "display_only": 11.728446703063625, "round": 1}
+{"stage": "reconstruct", "cover": 146, "packing": 146, "backend": "auto"}
+exact reconstruction: pivots=32/146 seconds=0.1
+exact reconstruction: pivots=64/146 seconds=0.3
+exact reconstruction: pivots=96/146 seconds=0.5
+exact reconstruction: pivots=128/146 seconds=0.6
+exact reconstruction: pivots=32/146 seconds=0.1
+exact reconstruction: pivots=64/146 seconds=0.1
+exact reconstruction: pivots=96/146 seconds=0.1
+exact reconstruction: pivots=128/146 seconds=0.1
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 290, "classes": 954446}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 292, "classes": 1771470}
+{"stage": "certified_bounds", "lower_display": 10.601460935605576, "upper_display": 12.0, "status": "OPEN", "added": 839}
+{"stage": "LP", "N": 20, "r": 12, "m": 10, "round": 2, "points": 2048, "centres": 787, "elapsed": 4.701452513225377}
+{"stage": "numeric_proposal", "display_only": 11.668838223871997, "round": 2}
+{"stage": "reconstruct", "cover": 200, "packing": 200, "backend": "auto"}
+exact reconstruction: pivots=32/200 seconds=0.2
+exact reconstruction: pivots=64/200 seconds=0.5
+exact reconstruction: pivots=96/200 seconds=0.9
+exact reconstruction: pivots=128/200 seconds=1.3
+exact reconstruction: pivots=160/200 seconds=1.6
+exact reconstruction: pivots=192/200 seconds=1.7
+exact reconstruction: pivots=32/200 seconds=0.1
+exact reconstruction: pivots=64/200 seconds=0.2
+exact reconstruction: pivots=96/200 seconds=0.3
+exact reconstruction: pivots=128/200 seconds=0.3
+exact reconstruction: pivots=160/200 seconds=0.4
+exact reconstruction: pivots=192/200 seconds=0.4
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 399, "classes": 954446}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 400, "classes": 1771470}
+{"stage": "certified_bounds", "lower_display": 10.601460935605576, "upper_display": 12.0, "status": "OPEN", "added": 646}
+{"stage": "LP", "N": 20, "r": 12, "m": 10, "round": 3, "points": 2560, "centres": 921, "elapsed": 10.376704628579319}
+{"stage": "numeric_proposal", "display_only": 11.686555354261227, "round": 3}
+{"stage": "reconstruct", "cover": 246, "packing": 246, "backend": "auto"}
+exact reconstruction: pivots=32/246 seconds=0.3
+exact reconstruction: pivots=64/246 seconds=0.7
+exact reconstruction: pivots=96/246 seconds=1.4
+exact reconstruction: pivots=128/246 seconds=2.4
+exact reconstruction: pivots=160/246 seconds=3.2
+exact reconstruction: pivots=192/246 seconds=3.9
+exact reconstruction: pivots=224/246 seconds=4.2
+exact reconstruction: pivots=32/246 seconds=0.2
+exact reconstruction: pivots=64/246 seconds=0.3
+exact reconstruction: pivots=96/246 seconds=0.4
+exact reconstruction: pivots=128/246 seconds=0.6
+exact reconstruction: pivots=160/246 seconds=0.7
+exact reconstruction: pivots=192/246 seconds=0.8
+exact reconstruction: pivots=224/246 seconds=0.8
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 489, "classes": 954446}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 492, "classes": 1771470}
+{"stage": "certified_bounds", "lower_display": 10.601460935605576, "upper_display": 11.784000858473183, "status": "OPEN", "added": 364}
+{"stage": "LP", "N": 20, "r": 12, "m": 10, "round": 4, "points": 2852, "centres": 993, "elapsed": 19.98691396228969}
+{"stage": "numeric_proposal", "display_only": 11.688905346717728, "round": 4}
+{"stage": "reconstruct", "cover": 278, "packing": 278, "backend": "auto"}
+exact reconstruction: pivots=32/278 seconds=0.4
+exact reconstruction: pivots=64/278 seconds=1.0
+exact reconstruction: pivots=96/278 seconds=1.9
+exact reconstruction: pivots=128/278 seconds=3.2
+exact reconstruction: pivots=160/278 seconds=4.7
+exact reconstruction: pivots=192/278 seconds=6.0
+exact reconstruction: pivots=224/278 seconds=6.9
+exact reconstruction: pivots=256/278 seconds=7.2
+exact reconstruction: pivots=32/278 seconds=0.2
+exact reconstruction: pivots=64/278 seconds=0.4
+exact reconstruction: pivots=96/278 seconds=0.6
+exact reconstruction: pivots=128/278 seconds=0.8
+exact reconstruction: pivots=160/278 seconds=1.0
+exact reconstruction: pivots=192/278 seconds=1.2
+exact reconstruction: pivots=224/278 seconds=1.3
+exact reconstruction: pivots=256/278 seconds=1.3
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 554, "classes": 954446}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 556, "classes": 1771470}
+{"stage": "certified_bounds", "lower_display": 10.623205341348005, "upper_display": 11.735673418324163, "status": "OPEN", "added": 112}
+{"stage": "LP", "N": 20, "r": 12, "m": 10, "round": 5, "points": 2913, "centres": 1044, "elapsed": 33.480670678429306}
+{"stage": "numeric_proposal", "display_only": 11.689022618532897, "round": 5}
+{"stage": "reconstruct", "cover": 307, "packing": 307, "backend": "auto"}
+exact reconstruction: pivots=32/307 seconds=0.5
+exact reconstruction: pivots=64/307 seconds=1.3
+exact reconstruction: pivots=96/307 seconds=2.6
+exact reconstruction: pivots=128/307 seconds=4.4
+exact reconstruction: pivots=160/307 seconds=6.6
+exact reconstruction: pivots=192/307 seconds=8.9
+exact reconstruction: pivots=224/307 seconds=10.7
+exact reconstruction: pivots=256/307 seconds=11.8
+exact reconstruction: pivots=288/307 seconds=12.2
+exact reconstruction: pivots=32/307 seconds=0.3
+exact reconstruction: pivots=64/307 seconds=0.5
+exact reconstruction: pivots=96/307 seconds=0.8
+exact reconstruction: pivots=128/307 seconds=1.1
+exact reconstruction: pivots=160/307 seconds=1.4
+exact reconstruction: pivots=192/307 seconds=1.6
+exact reconstruction: pivots=224/307 seconds=1.8
+exact reconstruction: pivots=256/307 seconds=1.9
+exact reconstruction: pivots=288/307 seconds=2.0
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 612, "classes": 954446}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 614, "classes": 1771470}
+{"stage": "certified_bounds", "lower_display": 11.225851944986522, "upper_display": 11.70424533508527, "status": "CLOSED", "added": 29}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 614, "classes": 1771470}
+{"stage": "finished", "status": "CLOSED", "termination": "decisive exact certificate verified"}

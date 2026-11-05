@@ -1,0 +1,59 @@
+\paperheading{Introduction}
+\label{sec:intro}
+In enumeration-based validation, a search nominates off-target candidates and a subset
+is assayed. The reported number assayed out of number nominated depends on search
+class, assembly and treatment of sequence absent from it. Mismatch, bulge and PAM
+policies change the list \citep{kalter2025offtarget,park2016casoffinderbulge}.
+A bulge is an unpaired base or contiguous stretch in the guide--site alignment.
+
+\paragraph{Contributions.}
+We prove an unrestricted covering floor and the unique minimum sound pattern family
+theorem, and derive the $2016$ Cas-OFFinder bulge wrapper's
+\citep{bae2014casoffinder} positional deficit for every bulge size. Under soundness, every accepted word lies in the complete deletion union; the
+unique minimum holds for $m\le n-3$, including wildcard competitors. The elementary
+construction gives $K=r$ for $n\ge20$, $m\le5$; the companion's weighting theorem extends
+this to $m\le9$ \citep{companion_reach}. Fractional thresholds and integer obstructions
+belong to the companion. Tool audit and assembly measurements connect omitted patterns to
+nomination losses at clinical guide sg1617 ($4{,}414\to4{,}778$), $129$ CHANGE-seq
+\citep{lazzarotto2020changeseq} sites and five Tracking-seq2 cellular loci.
+
+\paragraph{Why the omission matters for nomination.}
+Expansion inserts wildcards for unpaired DNA bases ($n$ non-degenerate patterns) or
+deletes guide bases for unpaired RNA bases ($r$ words), then matches within a substitution
+budget \citep{park2016casoffinderbulge}. Deletions within a maximal run coincide: the
+run-count identity gives one word per run. The audited sources fix their sets without
+matching lower bounds against freely placed centres
+\citep{park2016casoffinderbulge,casoffinder_source}. The executed $2016$ wrapper omits the
+terminal RNA placement; restoring it on clinical guide sg1617 raises the count from
+$4{,}414$ to $4{,}778$ loci ($364$ corrected-only, all position~$20$ at four mismatches).
+At four mismatches the same omission excludes $129$ measured-active CHANGE-seq rows on
+$40$ guides before targeted testing. CRISPRseek $1.52.0$'s default dedicated bulge route
+(backend $2.4.1$), executed in R, emits $1{,}491/1{,}634$ distinct words and is short on
+$98/110$ spacers, missing only endpoint words---the generator's design, not a crash.
+Tracking-seq2 \citep{cong2026tracking2} supplies five cellular loci of one guide that the
+same terminal omission alone reaches at four under NGG. Section~\ref{ssec:tool-audit}
+separates source reading, parser execution and native search.
+
+\paragraph{Activity context and prior diagnoses.}
+At matched $\le4$ mismatches, bulges account for $55.7\%$ of active in vitro off-target
+rows ($23{,}692/42{,}572$) in the CHANGE-seq tables redistributed with CRISPR-Bulge
+\citep{lazzarotto2020changeseq,yaish2024bulges}, versus $25.8\%$ and $27.6\%$ in the
+GUIDE-seq deposits ($312$ of $1{,}207$ and $147$ of $533$); those candidates were enumerated by alignment, not by the expansion we
+audit \citep{yaish2023swoffinder,yaish2024bulges}. Earlier work reports incomplete bulge
+search or proves completeness for a new aligner
+\citep{yaish2023swoffinder,yaish2024bulges}. CRISPRitz identifies a different defect
+between two bulges \citep{cancellieri2020crispritz}; CALITAS treats mixed-gap restrictions
+\citep{fennell2021calitas}. A preprint reports $7{,}860$ off-targets the expansion fails to
+return and leaves the cause open \citep{labun2025chopoff}. We do not claim those are ours:
+their first printed missed site needs a two-sided bulge, a different limitation, and the
+full list is not deposited.
+
+\paragraph{Scope and release.}
+These are sequence-similarity nominations, with no cleavage or safety inference.
+Genome-wide CHANGE-seq and GUIDE-seq do not begin from an enumerated list
+\citep{lazzarotto2020changeseq,tsai2015guideseq}, so zero of $459$ deposited
+bulge-bearing cellular actives being affected is the expected control for that design;
+the positive cellular case is the Tracking-seq2 five-locus set above, with the NGG/NGA
+scope stated in the abstract. We release \toolname, an enumerator for haplotype-resolved
+assemblies, with soundness checks and audit artifacts at \repourl. The appendix retains
+remaining measurements, algorithms and fixtures.

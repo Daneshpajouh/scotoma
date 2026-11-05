@@ -1,0 +1,14 @@
+VERIFIER_EXIT_CODE=1
+Traceback (most recent call last):
+  File "<repo>/code_release/published_model_scores/aligned/verify.py", line 446, in <module>
+    verify(args.input_root.resolve(),args.integrity_only,args.scores_only)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/code_release/published_model_scores/aligned/verify.py", line 179, in verify
+    check_pins(root)
+    ~~~~~~~~~~^^^^^^
+  File "<repo>/code_release/published_model_scores/aligned/integrity.py", line 39, in check_pins
+    require(sha(root/rel) == expected, 'SHA-256 mismatch: '+rel)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/code_release/published_model_scores/aligned/integrity.py", line 29, in require
+    raise ValueError(message)
+ValueError: SHA-256 mismatch: inputs/corrected_only_alignments.part000.tsv

@@ -1,0 +1,191 @@
+INTEGRITY_PASS 1670
+PACKAGE_BEGIN upper_rows
+COMMAND code_release/upper_rows c++ -O3 -std=c++17 -pthread -I/opt/homebrew/include tensor_general.cpp -o tensor_general
+2026-10-30 21:06:49.220 xcodebuild[39932:185569972]  DVTFilePathFSEvents: Failed to start fs event stream.
+2026-10-30 21:06:49.570 xcodebuild[39932:185569969] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+REPLAY_RESOURCES {"package": "upper_rows", "command": ["c++", "-O3", "-std=c++17", "-pthread", "-I/opt/homebrew/include", "tensor_general.cpp", "-o", "tensor_general"], "exit_code": 0, "wall_seconds": 4.630251875030808, "peak_child_rss_bytes": 202342400, "user_seconds": 1.623404, "system_seconds": 0.20951299999999998}
+COMMAND code_release/upper_rows c++ -O3 -std=c++17 -pthread -I/opt/homebrew/include tensor_screen.cpp -o tensor_screen
+REPLAY_RESOURCES {"package": "upper_rows", "command": ["c++", "-O3", "-std=c++17", "-pthread", "-I/opt/homebrew/include", "tensor_screen.cpp", "-o", "tensor_screen"], "exit_code": 0, "wall_seconds": 1.5369077079812996, "peak_child_rss_bytes": 202342400, "user_seconds": 1.4121369999999998, "system_seconds": 0.11874199999999999}
+COMMAND code_release/upper_rows c++ -O3 -std=c++17 -pthread -I/opt/homebrew/include refine.cpp -o refine
+REPLAY_RESOURCES {"package": "upper_rows", "command": ["c++", "-O3", "-std=c++17", "-pthread", "-I/opt/homebrew/include", "refine.cpp", "-o", "refine"], "exit_code": 0, "wall_seconds": 1.4547214999911375, "peak_child_rss_bytes": 202342400, "user_seconds": 1.2389110000000003, "system_seconds": 0.11937000000000003}
+COMMAND code_release/upper_rows /usr/local/bin/python3 -B verify_one.py cell_19_11_10.certificate.json
+{"status": "VERIFIED-COMPUTATIONALLY", "r": 11, "matched_exactly": true, "K_lower": 10, "K_upper": 11}
+REPLAY_RESOURCES {"package": "upper_rows", "command": ["/usr/local/bin/python3", "-B", "verify_one.py", "cell_19_11_10.certificate.json"], "exit_code": 0, "wall_seconds": 0.9855297920294106, "peak_child_rss_bytes": 356237312, "user_seconds": 3.1990669999999994, "system_seconds": 0.3177459999999999}
+COMMAND code_release/upper_rows /usr/local/bin/python3 -B verify_one.py cell_19_12_10.certificate.json
+{"status": "VERIFIED-COMPUTATIONALLY", "r": 12, "matched_exactly": true, "K_lower": 11, "K_upper": 12}
+REPLAY_RESOURCES {"package": "upper_rows", "command": ["/usr/local/bin/python3", "-B", "verify_one.py", "cell_19_12_10.certificate.json"], "exit_code": 0, "wall_seconds": 2.5485554579645395, "peak_child_rss_bytes": 1670807552, "user_seconds": 9.179238999999999, "system_seconds": 1.054566}
+COMMAND code_release/upper_rows /usr/local/bin/python3 -B verify_one.py cell_19_13_10.certificate.json
+{"status": "VERIFIED-COMPUTATIONALLY", "r": 13, "matched_exactly": true, "K_lower": 12, "K_upper": 13}
+REPLAY_RESOURCES {"package": "upper_rows", "command": ["/usr/local/bin/python3", "-B", "verify_one.py", "cell_19_13_10.certificate.json"], "exit_code": 0, "wall_seconds": 10.18690583301941, "peak_child_rss_bytes": 8029552640, "user_seconds": 42.030658, "system_seconds": 8.383753}
+COMMAND code_release/upper_rows /usr/local/bin/python3 -B verify_one.py cell_19_14_10.certificate.json
+{"status": "VERIFIED-COMPUTATIONALLY", "r": 14, "matched_exactly": true, "K_lower": 13, "K_upper": 14}
+REPLAY_RESOURCES {"package": "upper_rows", "command": ["/usr/local/bin/python3", "-B", "verify_one.py", "cell_19_14_10.certificate.json"], "exit_code": 0, "wall_seconds": 4.518351541017182, "peak_child_rss_bytes": 8029552640, "user_seconds": 7.577831999999994, "system_seconds": 1.4819549999999992}
+COMMAND code_release/upper_rows /usr/local/bin/python3 -B verify_one.py cell_19_15_10.certificate.json
+{"status": "VERIFIED-COMPUTATIONALLY", "r": 15, "matched_exactly": true, "K_lower": 13, "K_upper": 15}
+REPLAY_RESOURCES {"package": "upper_rows", "command": ["/usr/local/bin/python3", "-B", "verify_one.py", "cell_19_15_10.certificate.json"], "exit_code": 0, "wall_seconds": 10.038980957993772, "peak_child_rss_bytes": 8029552640, "user_seconds": 21.163483, "system_seconds": 2.0185520000000015}
+COMMAND code_release/upper_rows /usr/local/bin/python3 -B verify_bounds.py cell_19_16_10.bounds.certificate.json
+{"status": "VERIFIED-COMPUTATIONALLY", "r": 16, "K_lower": 14, "K_upper": 16, "matched_exactly": false}
+REPLAY_RESOURCES {"package": "upper_rows", "command": ["/usr/local/bin/python3", "-B", "verify_bounds.py", "cell_19_16_10.bounds.certificate.json"], "exit_code": 0, "wall_seconds": 17.3985930000199, "peak_child_rss_bytes": 8029552640, "user_seconds": 36.323863, "system_seconds": 3.776240999999999}
+COMMAND code_release/upper_rows /usr/local/bin/python3 -B verify_bounds.py cell_19_17_10.bounds.certificate.json
+{"status": "VERIFIED-COMPUTATIONALLY", "r": 17, "K_lower": 14, "K_upper": 17, "matched_exactly": false}
+REPLAY_RESOURCES {"package": "upper_rows", "command": ["/usr/local/bin/python3", "-B", "verify_bounds.py", "cell_19_17_10.bounds.certificate.json"], "exit_code": 0, "wall_seconds": 31.09805154101923, "peak_child_rss_bytes": 8029552640, "user_seconds": 77.90345099999999, "system_seconds": 7.217869}
+COMMAND code_release/upper_rows /usr/local/bin/python3 -B make_table.py
+[
+  {
+    "r": 11,
+    "resolution": "EXACT_TAU_K_BOUNDED",
+    "K_lower": 10,
+    "K_upper": 11,
+    "tau_interval": [
+      "9.861497",
+      "9.861498"
+    ],
+    "cover_partition": [
+      11
+    ]
+  },
+  {
+    "r": 12,
+    "resolution": "EXACT_TAU_K_BOUNDED",
+    "K_lower": 11,
+    "K_upper": 12,
+    "tau_interval": [
+      "10.601460",
+      "10.601461"
+    ],
+    "cover_partition": [
+      12
+    ]
+  },
+  {
+    "r": 13,
+    "resolution": "EXACT_TAU_K_BOUNDED",
+    "K_lower": 12,
+    "K_upper": 13,
+    "tau_interval": [
+      "11.328686",
+      "11.328687"
+    ],
+    "cover_partition": [
+      13
+    ]
+  },
+  {
+    "r": 14,
+    "resolution": "EXACT_TAU_K_BOUNDED",
+    "K_lower": 13,
+    "K_upper": 14,
+    "tau_interval": [
+      "12.048995",
+      "12.048996"
+    ],
+    "cover_partition": [
+      14
+    ]
+  },
+  {
+    "r": 15,
+    "resolution": "EXACT_TAU_K_BOUNDED",
+    "K_lower": 13,
+    "K_upper": 15,
+    "tau_interval": [
+      "12.760167",
+      "12.760168"
+    ],
+    "cover_partition": [
+      15
+    ]
+  },
+  {
+    "r": 16,
+    "resolution": "BOUNDS_ONLY",
+    "K_lower": 14,
+    "K_upper": 16,
+    "tau_interval": [
+      null,
+      null
+    ],
+    "cover_partition": [
+      16
+    ]
+  },
+  {
+    "r": 17,
+    "resolution": "BOUNDS_ONLY",
+    "K_lower": 14,
+    "K_upper": 17,
+    "tau_interval": [
+      null,
+      null
+    ],
+    "cover_partition": [
+      17
+    ]
+  },
+  {
+    "r": 18,
+    "resolution": "BOUNDS_ONLY",
+    "K_lower": 14,
+    "K_upper": 18,
+    "tau_interval": [
+      null,
+      null
+    ],
+    "cover_partition": [
+      1,
+      17
+    ]
+  },
+  {
+    "r": 19,
+    "resolution": "BOUNDS_ONLY",
+    "K_lower": 14,
+    "K_upper": 19,
+    "tau_interval": [
+      null,
+      null
+    ],
+    "cover_partition": [
+      1,
+      1,
+      17
+    ]
+  },
+  {
+    "r": 20,
+    "resolution": "BOUNDS_ONLY",
+    "K_lower": 14,
+    "K_upper": 20,
+    "tau_interval": [
+      null,
+      null
+    ],
+    "cover_partition": [
+      1,
+      1,
+      1,
+      17
+    ]
+  }
+]
+REPLAY_RESOURCES {"package": "upper_rows", "command": ["/usr/local/bin/python3", "-B", "make_table.py"], "exit_code": 0, "wall_seconds": 8.914212458010297, "peak_child_rss_bytes": 8029552640, "user_seconds": 7.201115000000016, "system_seconds": 0.4527220000000014}
+COMMAND code_release/upper_rows /usr/local/bin/python3 -B audit_table.py
+{
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "table_rows": 10,
+  "rows_passed": 10,
+  "control": {
+    "name": "upper_bound_used_to_claim_K_equal_r",
+    "expected": "FAIL",
+    "observed": "FAIL",
+    "reason": "K equality has no forcing lower bound"
+  },
+  "transport_control": {
+    "name": "wrong_transport_coordinate_permutation",
+    "expected": "FAIL",
+    "observed": "FAIL",
+    "reason": "transport does not map the source library to the specified sublibrary"
+  }
+}
+REPLAY_RESOURCES {"package": "upper_rows", "command": ["/usr/local/bin/python3", "-B", "audit_table.py"], "exit_code": 0, "wall_seconds": 18.616996583004948, "peak_child_rss_bytes": 8029552640, "user_seconds": 15.007655, "system_seconds": 0.5520789999999991}
+PACKAGE_PASS upper_rows

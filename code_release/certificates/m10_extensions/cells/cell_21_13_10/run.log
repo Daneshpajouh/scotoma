@@ -1,0 +1,33 @@
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 1191, "classes": 5314410}
+{"stage": "LP", "N": 21, "r": 13, "m": 10, "round": 1, "points": 1536, "centres": 514, "elapsed": 8.59995638485998}
+{"stage": "numeric_proposal", "display_only": 13.000000000001462, "round": 1}
+{"stage": "reconstruct", "cover": 7, "packing": 166, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 13, "classes": 2558789}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 332, "classes": 5314410}
+{"stage": "certified_bounds", "lower_display": 11.328686774372557, "upper_display": 13.0, "status": "OPEN", "added": 521}
+{"stage": "LP", "N": 21, "r": 13, "m": 10, "round": 2, "points": 1536, "centres": 1035, "elapsed": 11.064306044951081}
+{"stage": "numeric_proposal", "display_only": 13.000000000041274, "round": 2}
+{"stage": "reconstruct", "cover": 7, "packing": 226, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 13, "classes": 2558789}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 451, "classes": 5314410}
+{"stage": "certified_bounds", "lower_display": 11.328686774372557, "upper_display": 13.0, "status": "OPEN", "added": 396}
+{"stage": "LP", "N": 21, "r": 13, "m": 10, "round": 3, "points": 1536, "centres": 1431, "elapsed": 13.809985181316733}
+{"stage": "numeric_proposal", "display_only": 13.0, "round": 3}
+{"stage": "reconstruct", "cover": 7, "packing": 242, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 13, "classes": 2558789}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 482, "classes": 5314410}
+{"stage": "certified_bounds", "lower_display": 11.522442202400649, "upper_display": 13.0, "status": "OPEN", "added": 134}
+{"stage": "LP", "N": 21, "r": 13, "m": 10, "round": 4, "points": 1536, "centres": 1565, "elapsed": 16.88048580661416}
+{"stage": "numeric_proposal", "display_only": 13.00000000000083, "round": 4}
+{"stage": "reconstruct", "cover": 7, "packing": 258, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 13, "classes": 2558789}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 514, "classes": 5314410}
+{"stage": "certified_bounds", "lower_display": 11.522442202400649, "upper_display": 13.0, "status": "OPEN", "added": 118}
+{"stage": "LP", "N": 21, "r": 13, "m": 10, "round": 5, "points": 1536, "centres": 1683, "elapsed": 20.065432882867754}
+{"stage": "numeric_proposal", "display_only": 12.99999999999986, "round": 5}
+{"stage": "reconstruct", "cover": 7, "packing": 270, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 13, "classes": 2558789}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 539, "classes": 5314410}
+{"stage": "certified_bounds", "lower_display": 12.067903059616192, "upper_display": 13.0, "status": "CLOSED", "added": 87}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 539, "classes": 5314410}
+{"stage": "finished", "status": "CLOSED", "termination": "decisive exact certificate verified"}

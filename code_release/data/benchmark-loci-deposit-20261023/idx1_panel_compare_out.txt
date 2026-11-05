@@ -1,0 +1,10 @@
+CRISPRitz rows in scope: b10 661239 b01 1930943
+[either] CRISPRitz loci 1207622 SWOffinder loci 1207623 both 1207622 CRISPRitz only 0 SWOffinder only 1
+[either] shared loci with the same best (edits, bulges, mismatches): 1207622 of 1207622
+[either] CRISPRitz-only by best: []
+[either] SWOffinder-only by best: [((5, 1, 4), 1)]
+[rna_only] CRISPRitz loci 978104 SWOffinder loci 973505 both 973505 CRISPRitz only 4599 SWOffinder only 0
+[rna_only] shared loci with the same best (edits, bulges, mismatches): 973505 of 973505
+[rna_only] CRISPRitz-only by best: [((5, 1, 4), 4382), ((4, 1, 3), 113), ((4, 0, 4), 91), ((3, 1, 2), 8), ((3, 0, 3), 5)]
+[rna_only] SWOffinder-only by best: []
+guides with loci: CRISPRitz 110 SWOffinder 110 guides where counts differ 1

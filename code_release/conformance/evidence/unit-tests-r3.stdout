@@ -1,0 +1,12 @@
+cli-exact-r3: exit 0 (expected 0)
+cli-incomplete-r3: exit 1 (expected 1)
+cli-redundant-r3: exit 1 (expected 1)
+cli-invalid-r3: exit 1 (expected 1)
+cli-empty-r3: exit 1 (expected 1)
+cli-unknown-id-r3: exit 2 (expected 2)
+cli-broken-json-r3: exit 2 (expected 2)
+cli-negative-budget-r3: exit 2 (expected 2)
+cli-count-only-r3: exit 0 (expected 0)
+{"exhaustive_guides": 5460, "maximum_exhaustive_length": 6}
+cli-empty-word-r3: exit 0 (expected 0)
+cli-duplicate-id-r3: exit 2 (expected 2)

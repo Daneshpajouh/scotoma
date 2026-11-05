@@ -1,0 +1,17 @@
+INTEGRITY_PASS 1670
+PACKAGE_BEGIN m9_full_weight
+COMMAND code_release /usr/local/bin/python3 -B -I certificates/m9_full_weight/verify.py
+first prime seconds 31.2305
+second prime seconds 60.6515
+{
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "support_and_regional_masses": "PASS",
+  "mass": "20",
+  "centre_classes": 1162261467,
+  "transform_replayed": true,
+  "deposited_record_checked": true,
+  "maximum_load": "1",
+  "nonpattern_max": "39995753666499/40000000000000"
+}
+REPLAY_RESOURCES {"package": "m9_full_weight", "command": ["/usr/local/bin/python3", "-B", "-I", "certificates/m9_full_weight/verify.py"], "exit_code": 0, "wall_seconds": 68.46592116699321, "peak_child_rss_bytes": 4684251136, "user_seconds": 185.431211, "system_seconds": 23.373086}
+PACKAGE_PASS m9_full_weight

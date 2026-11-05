@@ -1,0 +1,497 @@
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 3202, "classes": 33480783}
+{"stage": "LP", "N": 20, "r": 15, "m": 10, "round": 1, "points": 1536, "centres": 570, "elapsed": 6.812006369233131}
+{"stage": "numeric_proposal", "display_only": 14.302607150318998, "round": 1}
+{"stage": "reconstruct", "cover": 213, "packing": 213, "backend": "auto"}
+exact reconstruction: pivots=32/213 seconds=0.2
+exact reconstruction: pivots=64/213 seconds=0.6
+exact reconstruction: pivots=96/213 seconds=1.3
+exact reconstruction: pivots=128/213 seconds=2.0
+exact reconstruction: pivots=160/213 seconds=2.5
+exact reconstruction: pivots=192/213 seconds=2.7
+exact reconstruction: pivots=32/213 seconds=0.1
+exact reconstruction: pivots=64/213 seconds=0.2
+exact reconstruction: pivots=96/213 seconds=0.3
+exact reconstruction: pivots=128/213 seconds=0.4
+exact reconstruction: pivots=160/213 seconds=0.4
+exact reconstruction: pivots=192/213 seconds=0.5
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 422, "classes": 17464385}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 424, "classes": 33480783}
+{"stage": "certified_bounds", "lower_display": 12.76016783896997, "upper_display": 15.0, "status": "OPEN", "added": 1033}
+{"stage": "LP", "N": 20, "r": 15, "m": 10, "round": 2, "points": 2048, "centres": 1091, "elapsed": 14.465165708214045}
+{"stage": "numeric_proposal", "display_only": 14.311157887421482, "round": 2}
+{"stage": "reconstruct", "cover": 300, "packing": 300, "backend": "auto"}
+exact reconstruction: pivots=32/300 seconds=0.4
+exact reconstruction: pivots=64/300 seconds=1.4
+exact reconstruction: pivots=96/300 seconds=3.0
+exact reconstruction: pivots=128/300 seconds=5.4
+exact reconstruction: pivots=160/300 seconds=8.1
+exact reconstruction: pivots=192/300 seconds=10.6
+exact reconstruction: pivots=224/300 seconds=12.8
+exact reconstruction: pivots=256/300 seconds=14.1
+exact reconstruction: pivots=288/300 seconds=14.4
+exact reconstruction: pivots=32/300 seconds=0.2
+exact reconstruction: pivots=64/300 seconds=0.5
+exact reconstruction: pivots=96/300 seconds=0.7
+exact reconstruction: pivots=128/300 seconds=1.0
+exact reconstruction: pivots=160/300 seconds=1.3
+exact reconstruction: pivots=192/300 seconds=1.6
+exact reconstruction: pivots=224/300 seconds=1.9
+exact reconstruction: pivots=256/300 seconds=2.0
+exact reconstruction: pivots=288/300 seconds=2.0
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 595, "classes": 17464385}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 597, "classes": 33480783}
+{"stage": "certified_bounds", "lower_display": 12.76016783896997, "upper_display": 15.0, "status": "OPEN", "added": 1028}
+{"stage": "LP", "N": 20, "r": 15, "m": 10, "round": 3, "points": 2563, "centres": 1604, "elapsed": 37.5351321361959}
+{"stage": "numeric_proposal", "display_only": 14.349239134645815, "round": 3}
+{"stage": "reconstruct", "cover": 376, "packing": 376, "backend": "auto"}
+exact reconstruction: pivots=32/376 seconds=0.6
+exact reconstruction: pivots=64/376 seconds=1.8
+exact reconstruction: pivots=96/376 seconds=4.0
+exact reconstruction: pivots=128/376 seconds=7.8
+exact reconstruction: pivots=160/376 seconds=12.8
+exact reconstruction: pivots=192/376 seconds=19.0
+exact reconstruction: pivots=224/376 seconds=25.4
+exact reconstruction: pivots=256/376 seconds=31.5
+exact reconstruction: pivots=288/376 seconds=36.2
+exact reconstruction: pivots=320/376 seconds=38.9
+exact reconstruction: pivots=352/376 seconds=40.0
+exact reconstruction: pivots=32/376 seconds=0.4
+exact reconstruction: pivots=64/376 seconds=0.8
+exact reconstruction: pivots=96/376 seconds=1.2
+exact reconstruction: pivots=128/376 seconds=1.7
+exact reconstruction: pivots=160/376 seconds=2.2
+exact reconstruction: pivots=192/376 seconds=2.8
+exact reconstruction: pivots=224/376 seconds=3.4
+exact reconstruction: pivots=256/376 seconds=3.9
+exact reconstruction: pivots=288/376 seconds=4.3
+exact reconstruction: pivots=320/376 seconds=4.6
+exact reconstruction: pivots=352/376 seconds=4.7
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 747, "classes": 17464385}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 750, "classes": 33480783}
+{"stage": "certified_bounds", "lower_display": 12.76016783896997, "upper_display": 15.0, "status": "OPEN", "added": 1032}
+{"stage": "LP", "N": 20, "r": 15, "m": 10, "round": 4, "points": 3078, "centres": 2121, "elapsed": 92.93143904022872}
+{"stage": "numeric_proposal", "display_only": 14.305103839107186, "round": 4}
+{"stage": "reconstruct", "cover": 470, "packing": 470, "backend": "auto"}
+exact reconstruction: pivots=32/470 seconds=1.1
+exact reconstruction: pivots=64/470 seconds=3.8
+exact reconstruction: pivots=96/470 seconds=9.1
+exact reconstruction: pivots=128/470 seconds=17.8
+exact reconstruction: pivots=160/470 seconds=29.3
+exact reconstruction: pivots=192/470 seconds=43.5
+exact reconstruction: pivots=224/470 seconds=60.1
+exact reconstruction: pivots=256/470 seconds=77.2
+exact reconstruction: pivots=288/470 seconds=93.6
+exact reconstruction: pivots=320/470 seconds=108.3
+exact reconstruction: pivots=352/470 seconds=120.7
+exact reconstruction: pivots=384/470 seconds=129.1
+exact reconstruction: pivots=416/470 seconds=134.0
+exact reconstruction: pivots=448/470 seconds=135.8
+exact reconstruction: pivots=32/470 seconds=0.6
+exact reconstruction: pivots=64/470 seconds=1.2
+exact reconstruction: pivots=96/470 seconds=1.8
+exact reconstruction: pivots=128/470 seconds=2.7
+exact reconstruction: pivots=160/470 seconds=3.8
+exact reconstruction: pivots=192/470 seconds=5.0
+exact reconstruction: pivots=224/470 seconds=6.4
+exact reconstruction: pivots=256/470 seconds=7.8
+exact reconstruction: pivots=288/470 seconds=9.1
+exact reconstruction: pivots=320/470 seconds=10.3
+exact reconstruction: pivots=352/470 seconds=11.4
+exact reconstruction: pivots=384/470 seconds=12.1
+exact reconstruction: pivots=416/470 seconds=12.5
+exact reconstruction: pivots=448/470 seconds=12.7
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 934, "classes": 17464385}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 936, "classes": 33480783}
+{"stage": "certified_bounds", "lower_display": 12.76016783896997, "upper_display": 15.0, "status": "OPEN", "added": 1030}
+{"stage": "LP", "N": 20, "r": 15, "m": 10, "round": 5, "points": 3591, "centres": 2638, "elapsed": 256.51700037298724}
+{"stage": "numeric_proposal", "display_only": 14.26875005803657, "round": 5}
+{"stage": "reconstruct", "cover": 505, "packing": 505, "backend": "auto"}
+exact reconstruction: pivots=32/505 seconds=1.2
+exact reconstruction: pivots=64/505 seconds=3.6
+exact reconstruction: pivots=96/505 seconds=7.9
+exact reconstruction: pivots=128/505 seconds=14.9
+exact reconstruction: pivots=160/505 seconds=25.6
+exact reconstruction: pivots=192/505 seconds=39.9
+exact reconstruction: pivots=224/505 seconds=56.8
+exact reconstruction: pivots=256/505 seconds=75.4
+exact reconstruction: pivots=288/505 seconds=93.8
+exact reconstruction: pivots=320/505 seconds=110.1
+exact reconstruction: pivots=352/505 seconds=124.3
+exact reconstruction: pivots=384/505 seconds=135.8
+exact reconstruction: pivots=416/505 seconds=143.7
+exact reconstruction: pivots=448/505 seconds=148.3
+exact reconstruction: pivots=480/505 seconds=150.0
+exact reconstruction: pivots=32/505 seconds=0.7
+exact reconstruction: pivots=64/505 seconds=1.4
+exact reconstruction: pivots=96/505 seconds=2.1
+exact reconstruction: pivots=128/505 seconds=3.0
+exact reconstruction: pivots=160/505 seconds=4.1
+exact reconstruction: pivots=192/505 seconds=5.7
+exact reconstruction: pivots=224/505 seconds=7.4
+exact reconstruction: pivots=256/505 seconds=9.2
+exact reconstruction: pivots=288/505 seconds=11.0
+exact reconstruction: pivots=320/505 seconds=12.9
+exact reconstruction: pivots=352/505 seconds=14.6
+exact reconstruction: pivots=384/505 seconds=15.9
+exact reconstruction: pivots=416/505 seconds=16.8
+exact reconstruction: pivots=448/505 seconds=17.3
+exact reconstruction: pivots=480/505 seconds=17.5
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 1003, "classes": 17464385}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1007, "classes": 33480783}
+{"stage": "certified_bounds", "lower_display": 13.051864250158092, "upper_display": 15.0, "status": "OPEN", "added": 949}
+{"stage": "LP", "N": 20, "r": 15, "m": 10, "round": 6, "points": 4104, "centres": 3074, "elapsed": 444.66255554929376}
+{"stage": "numeric_proposal", "display_only": 14.282127443466086, "round": 6}
+{"stage": "reconstruct", "cover": 603, "packing": 603, "backend": "auto"}
+exact reconstruction: pivots=32/603 seconds=1.7
+exact reconstruction: pivots=64/603 seconds=5.4
+exact reconstruction: pivots=96/603 seconds=12.7
+exact reconstruction: pivots=128/603 seconds=25.2
+exact reconstruction: pivots=160/603 seconds=43.5
+exact reconstruction: pivots=192/603 seconds=68.4
+exact reconstruction: pivots=224/603 seconds=99.1
+exact reconstruction: pivots=256/603 seconds=135.3
+exact reconstruction: pivots=288/603 seconds=172.9
+exact reconstruction: pivots=320/603 seconds=210.9
+exact reconstruction: pivots=352/603 seconds=248.1
+exact reconstruction: pivots=384/603 seconds=282.9
+exact reconstruction: pivots=416/603 seconds=313.3
+exact reconstruction: pivots=448/603 seconds=338.6
+exact reconstruction: pivots=480/603 seconds=357.9
+exact reconstruction: pivots=512/603 seconds=371.0
+exact reconstruction: pivots=544/603 seconds=378.0
+exact reconstruction: pivots=576/603 seconds=380.7
+exact reconstruction: pivots=32/603 seconds=1.1
+exact reconstruction: pivots=64/603 seconds=2.2
+exact reconstruction: pivots=96/603 seconds=3.6
+exact reconstruction: pivots=128/603 seconds=5.1
+exact reconstruction: pivots=160/603 seconds=6.7
+exact reconstruction: pivots=192/603 seconds=9.1
+exact reconstruction: pivots=224/603 seconds=11.7
+exact reconstruction: pivots=256/603 seconds=14.7
+exact reconstruction: pivots=288/603 seconds=18.1
+exact reconstruction: pivots=320/603 seconds=21.7
+exact reconstruction: pivots=352/603 seconds=25.4
+exact reconstruction: pivots=384/603 seconds=29.0
+exact reconstruction: pivots=416/603 seconds=32.2
+exact reconstruction: pivots=448/603 seconds=35.0
+exact reconstruction: pivots=480/603 seconds=37.2
+exact reconstruction: pivots=512/603 seconds=38.6
+exact reconstruction: pivots=544/603 seconds=39.5
+exact reconstruction: pivots=576/603 seconds=39.9
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 1199, "classes": 17464385}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1203, "classes": 33480783}
+{"stage": "certified_bounds", "lower_display": 13.2646563961943, "upper_display": 14.770718147707115, "status": "OPEN", "added": 722}
+{"stage": "LP", "N": 20, "r": 15, "m": 10, "round": 7, "points": 4617, "centres": 3283, "elapsed": 900.0943636912853}
+{"stage": "numeric_proposal", "display_only": 14.301898975132685, "round": 7}
+{"stage": "reconstruct", "cover": 703, "packing": 703, "backend": "auto"}
+exact reconstruction: pivots=32/703 seconds=2.6
+exact reconstruction: pivots=64/703 seconds=7.8
+exact reconstruction: pivots=96/703 seconds=16.9
+exact reconstruction: pivots=128/703 seconds=32.6
+exact reconstruction: pivots=160/703 seconds=57.5
+exact reconstruction: pivots=192/703 seconds=90.6
+exact reconstruction: pivots=224/703 seconds=134.0
+exact reconstruction: pivots=256/703 seconds=187.0
+exact reconstruction: pivots=288/703 seconds=247.2
+exact reconstruction: pivots=320/703 seconds=311.4
+exact reconstruction: pivots=352/703 seconds=379.8
+exact reconstruction: pivots=384/703 seconds=449.3
+exact reconstruction: pivots=416/703 seconds=516.6
+exact reconstruction: pivots=448/703 seconds=579.9
+exact reconstruction: pivots=480/703 seconds=637.4
+exact reconstruction: pivots=512/703 seconds=686.6
+exact reconstruction: pivots=544/703 seconds=724.6
+exact reconstruction: pivots=576/703 seconds=753.1
+exact reconstruction: pivots=608/703 seconds=772.2
+exact reconstruction: pivots=640/703 seconds=783.2
+exact reconstruction: pivots=672/703 seconds=787.6
+exact reconstruction: pivots=32/703 seconds=1.6
+exact reconstruction: pivots=64/703 seconds=3.1
+exact reconstruction: pivots=96/703 seconds=4.8
+exact reconstruction: pivots=128/703 seconds=6.7
+exact reconstruction: pivots=160/703 seconds=9.1
+exact reconstruction: pivots=192/703 seconds=12.4
+exact reconstruction: pivots=224/703 seconds=16.7
+exact reconstruction: pivots=256/703 seconds=22.0
+exact reconstruction: pivots=288/703 seconds=28.4
+exact reconstruction: pivots=320/703 seconds=35.7
+exact reconstruction: pivots=352/703 seconds=43.1
+exact reconstruction: pivots=384/703 seconds=50.7
+exact reconstruction: pivots=416/703 seconds=58.0
+exact reconstruction: pivots=448/703 seconds=64.9
+exact reconstruction: pivots=480/703 seconds=71.2
+exact reconstruction: pivots=512/703 seconds=76.7
+exact reconstruction: pivots=544/703 seconds=81.3
+exact reconstruction: pivots=576/703 seconds=84.8
+exact reconstruction: pivots=608/703 seconds=87.3
+exact reconstruction: pivots=640/703 seconds=88.7
+exact reconstruction: pivots=672/703 seconds=89.3
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 1397, "classes": 17464385}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1404, "classes": 33480783}
+{"stage": "certified_bounds", "lower_display": 13.2646563961943, "upper_display": 14.743646228241463, "status": "OPEN", "added": 738}
+{"stage": "LP", "N": 20, "r": 15, "m": 10, "round": 8, "points": 5130, "centres": 3508, "elapsed": 1829.9367306190543}
+{"stage": "numeric_proposal", "display_only": 14.31698522462949, "round": 8}
+{"stage": "reconstruct", "cover": 779, "packing": 779, "backend": "auto"}
+exact reconstruction: pivots=32/779 seconds=3.2
+exact reconstruction: pivots=64/779 seconds=9.7
+exact reconstruction: pivots=96/779 seconds=21.5
+exact reconstruction: pivots=128/779 seconds=41.2
+exact reconstruction: pivots=160/779 seconds=71.5
+exact reconstruction: pivots=192/779 seconds=114.0
+exact reconstruction: pivots=224/779 seconds=170.8
+exact reconstruction: pivots=256/779 seconds=241.0
+exact reconstruction: pivots=288/779 seconds=322.1
+exact reconstruction: pivots=320/779 seconds=408.1
+exact reconstruction: pivots=352/779 seconds=501.6
+exact reconstruction: pivots=384/779 seconds=601.0
+exact reconstruction: pivots=416/779 seconds=703.6
+exact reconstruction: pivots=448/779 seconds=806.2
+exact reconstruction: pivots=480/779 seconds=907.1
+exact reconstruction: pivots=512/779 seconds=1003.2
+exact reconstruction: pivots=544/779 seconds=1085.1
+exact reconstruction: pivots=576/779 seconds=1155.2
+exact reconstruction: pivots=608/779 seconds=1212.9
+exact reconstruction: pivots=640/779 seconds=1257.0
+exact reconstruction: pivots=672/779 seconds=1287.5
+exact reconstruction: pivots=704/779 seconds=1306.1
+exact reconstruction: pivots=736/779 seconds=1314.6
+exact reconstruction: pivots=768/779 seconds=1316.7
+exact reconstruction: pivots=32/779 seconds=2.0
+exact reconstruction: pivots=64/779 seconds=4.1
+exact reconstruction: pivots=96/779 seconds=6.8
+exact reconstruction: pivots=128/779 seconds=10.2
+exact reconstruction: pivots=160/779 seconds=14.7
+exact reconstruction: pivots=192/779 seconds=20.0
+exact reconstruction: pivots=224/779 seconds=26.4
+exact reconstruction: pivots=256/779 seconds=34.3
+exact reconstruction: pivots=288/779 seconds=43.8
+exact reconstruction: pivots=320/779 seconds=54.9
+exact reconstruction: pivots=352/779 seconds=66.6
+exact reconstruction: pivots=384/779 seconds=78.3
+exact reconstruction: pivots=416/779 seconds=89.6
+exact reconstruction: pivots=448/779 seconds=101.0
+exact reconstruction: pivots=480/779 seconds=112.0
+exact reconstruction: pivots=512/779 seconds=122.5
+exact reconstruction: pivots=544/779 seconds=132.1
+exact reconstruction: pivots=576/779 seconds=140.4
+exact reconstruction: pivots=608/779 seconds=147.3
+exact reconstruction: pivots=640/779 seconds=152.8
+exact reconstruction: pivots=672/779 seconds=157.0
+exact reconstruction: pivots=704/779 seconds=159.5
+exact reconstruction: pivots=736/779 seconds=160.7
+exact reconstruction: pivots=768/779 seconds=160.9
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 1544, "classes": 17464385}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1553, "classes": 33480783}
+{"stage": "certified_bounds", "lower_display": 13.28692037442627, "upper_display": 14.606087790352474, "status": "OPEN", "added": 732}
+{"stage": "LP", "N": 20, "r": 15, "m": 10, "round": 9, "points": 5642, "centres": 3728, "elapsed": 3389.365376606118}
+{"stage": "numeric_proposal", "display_only": 14.32648506942429, "round": 9}
+{"stage": "reconstruct", "cover": 869, "packing": 869, "backend": "auto"}
+exact reconstruction: pivots=32/869 seconds=4.5
+exact reconstruction: pivots=64/869 seconds=13.0
+exact reconstruction: pivots=96/869 seconds=29.3
+exact reconstruction: pivots=128/869 seconds=56.9
+exact reconstruction: pivots=160/869 seconds=99.6
+exact reconstruction: pivots=192/869 seconds=158.1
+exact reconstruction: pivots=224/869 seconds=235.4
+exact reconstruction: pivots=256/869 seconds=331.0
+exact reconstruction: pivots=288/869 seconds=446.5
+exact reconstruction: pivots=320/869 seconds=569.7
+exact reconstruction: pivots=352/869 seconds=702.7
+exact reconstruction: pivots=384/869 seconds=845.2
+exact reconstruction: pivots=416/869 seconds=994.3
+exact reconstruction: pivots=448/869 seconds=1145.8
+exact reconstruction: pivots=480/869 seconds=1300.5
+exact reconstruction: pivots=512/869 seconds=1454.4
+exact reconstruction: pivots=544/869 seconds=1594.4
+exact reconstruction: pivots=576/869 seconds=1723.4
+exact reconstruction: pivots=608/869 seconds=1840.9
+exact reconstruction: pivots=640/869 seconds=1944.6
+exact reconstruction: pivots=672/869 seconds=2032.6
+exact reconstruction: pivots=704/869 seconds=2103.1
+exact reconstruction: pivots=736/869 seconds=2155.2
+exact reconstruction: pivots=768/869 seconds=2190.8
+exact reconstruction: pivots=800/869 seconds=2211.3
+exact reconstruction: pivots=832/869 seconds=2220.0
+exact reconstruction: pivots=864/869 seconds=2221.8
+exact reconstruction: pivots=32/869 seconds=2.2
+exact reconstruction: pivots=64/869 seconds=4.7
+exact reconstruction: pivots=96/869 seconds=7.8
+exact reconstruction: pivots=128/869 seconds=11.5
+exact reconstruction: pivots=160/869 seconds=17.2
+exact reconstruction: pivots=192/869 seconds=23.9
+exact reconstruction: pivots=224/869 seconds=32.6
+exact reconstruction: pivots=256/869 seconds=43.1
+exact reconstruction: pivots=288/869 seconds=55.0
+exact reconstruction: pivots=320/869 seconds=68.5
+exact reconstruction: pivots=352/869 seconds=83.5
+exact reconstruction: pivots=384/869 seconds=99.7
+exact reconstruction: pivots=416/869 seconds=116.7
+exact reconstruction: pivots=448/869 seconds=134.7
+exact reconstruction: pivots=480/869 seconds=152.7
+exact reconstruction: pivots=512/869 seconds=170.5
+exact reconstruction: pivots=544/869 seconds=187.8
+exact reconstruction: pivots=576/869 seconds=203.9
+exact reconstruction: pivots=608/869 seconds=218.8
+exact reconstruction: pivots=640/869 seconds=232.1
+exact reconstruction: pivots=672/869 seconds=243.3
+exact reconstruction: pivots=704/869 seconds=252.3
+exact reconstruction: pivots=736/869 seconds=259.1
+exact reconstruction: pivots=768/869 seconds=263.7
+exact reconstruction: pivots=800/869 seconds=266.3
+exact reconstruction: pivots=832/869 seconds=267.5
+exact reconstruction: pivots=864/869 seconds=267.7
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 1718, "classes": 17464385}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1733, "classes": 33480783}
+{"stage": "certified_bounds", "lower_display": 13.363534005685883, "upper_display": 14.498996553223668, "status": "OPEN", "added": 701}
+{"stage": "LP", "N": 20, "r": 15, "m": 10, "round": 10, "points": 6155, "centres": 3916, "elapsed": 6006.516169381328}
+{"stage": "numeric_proposal", "display_only": 14.332955742216472, "round": 10}
+{"stage": "reconstruct", "cover": 942, "packing": 942, "backend": "auto"}
+exact reconstruction: pivots=32/942 seconds=5.2
+exact reconstruction: pivots=64/942 seconds=15.7
+exact reconstruction: pivots=96/942 seconds=34.9
+exact reconstruction: pivots=128/942 seconds=65.4
+exact reconstruction: pivots=160/942 seconds=113.0
+exact reconstruction: pivots=192/942 seconds=182.9
+exact reconstruction: pivots=224/942 seconds=284.3
+exact reconstruction: pivots=256/942 seconds=417.8
+exact reconstruction: pivots=288/942 seconds=575.8
+exact reconstruction: pivots=320/942 seconds=753.2
+exact reconstruction: pivots=352/942 seconds=943.3
+exact reconstruction: pivots=384/942 seconds=1146.3
+exact reconstruction: pivots=416/942 seconds=1356.0
+exact reconstruction: pivots=448/942 seconds=1579.6
+exact reconstruction: pivots=480/942 seconds=1812.0
+exact reconstruction: pivots=512/942 seconds=2046.9
+exact reconstruction: pivots=544/942 seconds=2267.6
+exact reconstruction: pivots=576/942 seconds=2478.3
+exact reconstruction: pivots=608/942 seconds=2676.3
+exact reconstruction: pivots=640/942 seconds=2858.4
+exact reconstruction: pivots=672/942 seconds=3019.7
+exact reconstruction: pivots=704/942 seconds=3154.5
+exact reconstruction: pivots=736/942 seconds=3271.2
+exact reconstruction: pivots=768/942 seconds=3363.8
+exact reconstruction: pivots=800/942 seconds=3434.6
+exact reconstruction: pivots=832/942 seconds=3482.9
+exact reconstruction: pivots=864/942 seconds=3512.3
+exact reconstruction: pivots=896/942 seconds=3526.5
+exact reconstruction: pivots=928/942 seconds=3530.4
+exact reconstruction: pivots=32/942 seconds=2.9
+exact reconstruction: pivots=64/942 seconds=6.0
+exact reconstruction: pivots=96/942 seconds=10.4
+exact reconstruction: pivots=128/942 seconds=16.2
+exact reconstruction: pivots=160/942 seconds=23.7
+exact reconstruction: pivots=192/942 seconds=31.6
+exact reconstruction: pivots=224/942 seconds=41.3
+exact reconstruction: pivots=256/942 seconds=52.9
+exact reconstruction: pivots=288/942 seconds=66.4
+exact reconstruction: pivots=320/942 seconds=83.0
+exact reconstruction: pivots=352/942 seconds=101.0
+exact reconstruction: pivots=384/942 seconds=121.6
+exact reconstruction: pivots=416/942 seconds=142.5
+exact reconstruction: pivots=448/942 seconds=165.0
+exact reconstruction: pivots=480/942 seconds=187.6
+exact reconstruction: pivots=512/942 seconds=210.3
+exact reconstruction: pivots=544/942 seconds=233.1
+exact reconstruction: pivots=576/942 seconds=255.2
+exact reconstruction: pivots=608/942 seconds=276.2
+exact reconstruction: pivots=640/942 seconds=296.5
+exact reconstruction: pivots=672/942 seconds=314.7
+exact reconstruction: pivots=704/942 seconds=331.2
+exact reconstruction: pivots=736/942 seconds=345.0
+exact reconstruction: pivots=768/942 seconds=356.7
+exact reconstruction: pivots=800/942 seconds=365.4
+exact reconstruction: pivots=832/942 seconds=371.3
+exact reconstruction: pivots=864/942 seconds=374.8
+exact reconstruction: pivots=896/942 seconds=376.4
+exact reconstruction: pivots=928/942 seconds=376.8
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 1867, "classes": 17464385}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1879, "classes": 33480783}
+{"stage": "certified_bounds", "lower_display": 13.567121822653673, "upper_display": 14.427810416738371, "status": "OPEN", "added": 702}
+{"stage": "LP", "N": 20, "r": 15, "m": 10, "round": 11, "points": 6669, "centres": 4104, "elapsed": 10084.083230243996}
+{"stage": "numeric_proposal", "display_only": 14.335856036625705, "round": 11}
+{"stage": "reconstruct", "cover": 1036, "packing": 1036, "backend": "auto"}
+exact reconstruction: pivots=32/1036 seconds=5.3
+exact reconstruction: pivots=64/1036 seconds=15.8
+exact reconstruction: pivots=96/1036 seconds=33.8
+exact reconstruction: pivots=128/1036 seconds=62.1
+exact reconstruction: pivots=160/1036 seconds=114.3
+exact reconstruction: pivots=192/1036 seconds=193.8
+exact reconstruction: pivots=224/1036 seconds=303.8
+exact reconstruction: pivots=256/1036 seconds=448.4
+exact reconstruction: pivots=288/1036 seconds=626.8
+exact reconstruction: pivots=320/1036 seconds=829.7
+exact reconstruction: pivots=352/1036 seconds=1064.5
+exact reconstruction: pivots=384/1036 seconds=1325.5
+exact reconstruction: pivots=416/1036 seconds=1606.0
+exact reconstruction: pivots=448/1036 seconds=1901.9
+exact reconstruction: pivots=480/1036 seconds=2209.9
+exact reconstruction: pivots=512/1036 seconds=2523.0
+exact reconstruction: pivots=544/1036 seconds=2812.1
+exact reconstruction: pivots=576/1036 seconds=3094.5
+exact reconstruction: pivots=608/1036 seconds=3369.3
+exact reconstruction: pivots=640/1036 seconds=3630.6
+exact reconstruction: pivots=672/1036 seconds=3884.4
+{"stage": "reconstruction_fallback", "reason": ["exact Fraction/Bareiss reconstruction budget"]}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 2054, "classes": 17464385}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 2068, "classes": 33480783}
+{"stage": "certified_bounds", "lower_display": 13.825286570649457, "upper_display": 14.38788473081443, "status": "OPEN", "added": 635}
+{"stage": "LP", "N": 20, "r": 15, "m": 10, "round": 12, "points": 7182, "centres": 4226, "elapsed": 14190.878028875217}
+{"stage": "numeric_proposal", "display_only": 14.337662933567556, "round": 12}
+{"stage": "reconstruct", "cover": 1123, "packing": 1123, "backend": "auto"}
+exact reconstruction: pivots=32/1123 seconds=6.3
+exact reconstruction: pivots=64/1123 seconds=20.0
+exact reconstruction: pivots=96/1123 seconds=43.6
+exact reconstruction: pivots=128/1123 seconds=80.3
+exact reconstruction: pivots=160/1123 seconds=133.0
+exact reconstruction: pivots=192/1123 seconds=207.2
+exact reconstruction: pivots=224/1123 seconds=318.6
+exact reconstruction: pivots=256/1123 seconds=469.4
+exact reconstruction: pivots=288/1123 seconds=663.1
+exact reconstruction: pivots=320/1123 seconds=895.9
+exact reconstruction: pivots=352/1123 seconds=1167.1
+exact reconstruction: pivots=384/1123 seconds=1473.1
+exact reconstruction: pivots=416/1123 seconds=1811.0
+exact reconstruction: pivots=448/1123 seconds=2183.9
+exact reconstruction: pivots=480/1123 seconds=2574.3
+{"stage": "reconstruction_fallback", "reason": ["exact Fraction/Bareiss reconstruction budget"]}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 2226, "classes": 17464385}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 2240, "classes": 33480783}
+{"stage": "certified_bounds", "lower_display": 13.825286570649457, "upper_display": 14.369503315049485, "status": "OPEN", "added": 572}
+{"stage": "LP", "N": 20, "r": 15, "m": 10, "round": 13, "points": 7634, "centres": 4346, "elapsed": 17334.079924634192}
+{"stage": "numeric_proposal", "display_only": 14.338113084753653, "round": 13}
+{"stage": "reconstruct", "cover": 1211, "packing": 1211, "backend": "auto"}
+exact reconstruction: pivots=32/1211 seconds=7.5
+exact reconstruction: pivots=64/1211 seconds=25.7
+exact reconstruction: pivots=96/1211 seconds=57.6
+exact reconstruction: pivots=128/1211 seconds=116.2
+exact reconstruction: pivots=160/1211 seconds=208.8
+exact reconstruction: pivots=192/1211 seconds=335.6
+exact reconstruction: pivots=224/1211 seconds=503.1
+exact reconstruction: pivots=256/1211 seconds=722.0
+exact reconstruction: pivots=288/1211 seconds=986.4
+exact reconstruction: pivots=320/1211 seconds=1290.6
+exact reconstruction: pivots=352/1211 seconds=1637.4
+exact reconstruction: pivots=384/1211 seconds=2025.5
+{"stage": "reconstruction_fallback", "reason": ["exact Fraction/Bareiss reconstruction budget"]}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 2403, "classes": 17464385}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 2416, "classes": 33480783}
+{"stage": "certified_bounds", "lower_display": 13.898933659885323, "upper_display": 14.356018732595887, "status": "OPEN", "added": 135}
+{"stage": "LP", "N": 20, "r": 15, "m": 10, "round": 14, "points": 7724, "centres": 4391, "elapsed": 19694.839552121237}
+{"stage": "numeric_proposal", "display_only": 14.338130136298707, "round": 14}
+{"stage": "reconstruct", "cover": 1224, "packing": 1224, "backend": "auto"}
+exact reconstruction: pivots=32/1224 seconds=7.2
+exact reconstruction: pivots=64/1224 seconds=23.6
+exact reconstruction: pivots=96/1224 seconds=56.9
+exact reconstruction: pivots=128/1224 seconds=111.9
+exact reconstruction: pivots=160/1224 seconds=192.3
+exact reconstruction: pivots=192/1224 seconds=300.7
+exact reconstruction: pivots=224/1224 seconds=448.8
+exact reconstruction: pivots=256/1224 seconds=645.0
+exact reconstruction: pivots=288/1224 seconds=895.5
+exact reconstruction: pivots=320/1224 seconds=1183.3
+{"stage": "reconstruction_fallback", "reason": ["exact Fraction/Bareiss reconstruction budget"]}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 2426, "classes": 17464385}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 2442, "classes": 33480783}
+{"stage": "certified_bounds", "lower_display": 14.00211175915166, "upper_display": 14.344829440116387, "status": "CLOSED", "added": 62}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 2442, "classes": 33480783}
+{"stage": "finished", "status": "CLOSED", "termination": "decisive exact certificate verified"}

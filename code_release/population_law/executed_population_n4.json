@@ -1,0 +1,13 @@
+{
+  "complete": 16,
+  "disagreements": [],
+  "evidence_class": "the shipped 2016 wrapper source executed per guide in its own dry-run mode",
+  "guides": 256,
+  "guides_where_execution_disagrees_with_predicate": 0,
+  "n": 4,
+  "predicate_expectation": 240,
+  "route": "cas-offinder-bulge v1.2 beta (2016-07-06); CRISPRseek backend 2.4.1",
+  "short": 240,
+  "short_fraction": "240/256",
+  "short_percent": 93.75
+}

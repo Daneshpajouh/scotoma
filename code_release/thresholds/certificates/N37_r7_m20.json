@@ -1,0 +1,190 @@
+{
+  "N": 37,
+  "r": 7,
+  "m": 20,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "000001",
+      "tail_weight": 20,
+      "mass": "5461137186023/96254716323385"
+    },
+    {
+      "prefix": "000111",
+      "tail_weight": 20,
+      "mass": "18382357693654/96254716323385"
+    },
+    {
+      "prefix": "00011X",
+      "tail_weight": 19,
+      "mass": "58848482315167/192509432646770"
+    },
+    {
+      "prefix": "000X00",
+      "tail_weight": 19,
+      "mass": "28997684247727/192509432646770"
+    },
+    {
+      "prefix": "00111X",
+      "tail_weight": 19,
+      "mass": "1858901775430/19250943264677"
+    },
+    {
+      "prefix": "0011X0",
+      "tail_weight": 18,
+      "mass": "4180181928031/96254716323385"
+    },
+    {
+      "prefix": "0011XX",
+      "tail_weight": 18,
+      "mass": "3854517716236/19250943264677"
+    },
+    {
+      "prefix": "010001",
+      "tail_weight": 19,
+      "mass": "40926395518593/192509432646770"
+    },
+    {
+      "prefix": "01111X",
+      "tail_weight": 19,
+      "mass": "39199889611064/96254716323385"
+    },
+    {
+      "prefix": "011XX1",
+      "tail_weight": 18,
+      "mass": "57054826712321/96254716323385"
+    },
+    {
+      "prefix": "01X000",
+      "tail_weight": 18,
+      "mass": "17840938934762/96254716323385"
+    },
+    {
+      "prefix": "0X001X",
+      "tail_weight": 18,
+      "mass": "57450797782956/96254716323385"
+    },
+    {
+      "prefix": "0X01XX",
+      "tail_weight": 17,
+      "mass": "3349078887489/96254716323385"
+    },
+    {
+      "prefix": "0XX000",
+      "tail_weight": 18,
+      "mass": "12939793896303/38501886529354"
+    },
+    {
+      "prefix": "100111",
+      "tail_weight": 19,
+      "mass": "32747279386361/96254716323385"
+    },
+    {
+      "prefix": "100X00",
+      "tail_weight": 18,
+      "mass": "51848669890639/192509432646770"
+    },
+    {
+      "prefix": "11101X",
+      "tail_weight": 18,
+      "mass": "39199889611064/96254716323385"
+    },
+    {
+      "prefix": "111100",
+      "tail_weight": 18,
+      "mass": "5360369879340/19250943264677"
+    },
+    {
+      "prefix": "1111XX",
+      "tail_weight": 18,
+      "mass": "8178970796704/96254716323385"
+    },
+    {
+      "prefix": "11X1X1",
+      "tail_weight": 18,
+      "mass": "22074006518917/96254716323385"
+    },
+    {
+      "prefix": "1X0001",
+      "tail_weight": 18,
+      "mass": "38301449101831/192509432646770"
+    },
+    {
+      "prefix": "1XX001",
+      "tail_weight": 17,
+      "mass": "1791505834011/192509432646770"
+    },
+    {
+      "prefix": "X0001X",
+      "tail_weight": 18,
+      "mass": "16241378918744/96254716323385"
+    },
+    {
+      "prefix": "X001XX",
+      "tail_weight": 17,
+      "mass": "2961454308611/38501886529354"
+    },
+    {
+      "prefix": "X01111",
+      "tail_weight": 19,
+      "mass": "42162484427217/96254716323385"
+    },
+    {
+      "prefix": "X011X0",
+      "tail_weight": 17,
+      "mass": "21344952509807/96254716323385"
+    },
+    {
+      "prefix": "X0X001",
+      "tail_weight": 18,
+      "mass": "100567807820289/192509432646770"
+    },
+    {
+      "prefix": "X0X011",
+      "tail_weight": 18,
+      "mass": "1688727536221/38501886529354"
+    },
+    {
+      "prefix": "X10000",
+      "tail_weight": 18,
+      "mass": "2256446231473/38501886529354"
+    },
+    {
+      "prefix": "XX0011",
+      "tail_weight": 18,
+      "mass": "7336288312453/38501886529354"
+    },
+    {
+      "prefix": "XX011X",
+      "tail_weight": 17,
+      "mass": "989624685354/19250943264677"
+    }
+  ],
+  "verification": {
+    "max_load": "1",
+    "witness": {
+      "prefix": "000000",
+      "tail_weight": 0
+    },
+    "centre_classes": 23328,
+    "region_masses": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "mass": "7",
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 234,
+    "private_orbits": 339,
+    "rounds": 8,
+    "seconds": 0.383,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

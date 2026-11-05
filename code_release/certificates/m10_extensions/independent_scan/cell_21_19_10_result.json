@@ -1,0 +1,113 @@
+{
+  "name": "cell_21_19_10",
+  "certificate_sha256": "3a93a4f59a42c2a87b7dda5cdf0afb05c93a6f8cf7ceb7e02b3cebacce50296b",
+  "N": 21,
+  "r": 19,
+  "m": 10,
+  "total_mass": "38000000000/2067821339",
+  "mass_decimal": "18.376829411373",
+  "mass_minus_r_minus_1": "779215898/2067821339",
+  "mass_exceeds_r_minus_1": true,
+  "support_classes": 2165,
+  "support_inside_U": true,
+  "support_min_distances": [
+    10
+  ],
+  "resource_estimate": {
+    "classes": 1549681956,
+    "ambient_words": 4398046511104,
+    "density_denominator_bits": 45,
+    "intermediate_bound_bits": 90,
+    "backend": "signed128",
+    "estimated_bytes_per_entry": 16,
+    "principal_estimate_bytes": 24794911296,
+    "transform_prefix_triples": 18596183472,
+    "transform_radial_multiply_adds": 12397455648
+  },
+  "global_maximum_status": "EXHAUSTIVE_EXACT_PASS",
+  "producer_embedded_certificate_sha256": "7f2f5769b4144e539f94752e1079c11b8585bb2540d708a6a9ea5a55a142ca03",
+  "producer_embedded_hash_matches_decision_file": false,
+  "independently_counted_unit_witness": {
+    "prefix": "101111111110110101",
+    "suffix_weight": 0,
+    "exact_load": "1"
+  },
+  "negative_controls": {
+    "scaled_one_class": {
+      "status": "REJECTED",
+      "class_index": 5,
+      "factor": "1000000001/1000000000",
+      "overloaded_at": {
+        "prefix": "101111111110110101",
+        "suffix_weight": 0
+      },
+      "exact_load": "2067821339005186257/2067821339000000000",
+      "excess": "5186257/2067821339000000000"
+    },
+    "moved_one_class": {
+      "status": "REJECTED",
+      "class_index": 5,
+      "prefix": "XXXXXXXXXXXXXXXXXX",
+      "suffix_weight": 3,
+      "minimum_library_distance": 21
+    },
+    "raw_row_index": 22,
+    "serialized_scaled_excess": "18650279/2067821339000000000",
+    "files": {
+      "scaled.certificate.json": "c0dd58697aaf8d4f738c6e6ea2bce1fefa24b4e3edc4e631d5cd5a5e133778ac",
+      "outside.certificate.json": "479462baf72059d3ba2a4caa8782f21a63694a68e466214eff9bb8de1be61b99"
+    }
+  },
+  "negative_controls_at_global_argmax": {
+    "scaled_one_class": {
+      "status": "REJECTED",
+      "class_index": 9,
+      "factor": "1000000001/1000000000",
+      "overloaded_at": {
+        "prefix": "010100100000000010",
+        "suffix_weight": 0
+      },
+      "exact_load": "2067821339040550771/2067821339000000000",
+      "excess": "40550771/2067821339000000000"
+    },
+    "moved_one_class": {
+      "status": "REJECTED",
+      "class_index": 9,
+      "prefix": "XXXXXXXXXXXXXXXXXX",
+      "suffix_weight": 3,
+      "minimum_library_distance": 21
+    },
+    "raw_row_index": 93,
+    "serialized_scaled_excess": "1492821/258477667375000000",
+    "files": {
+      "scaled.certificate.json": "80877a596ff6b53efb6e52a411734b116a6e3bd4bd35a4802aa5ad3d61787c36",
+      "outside.certificate.json": "ba07138a85415681a144c19feaaae7ec43de466dc096c2b605d2b8daee87bd3d"
+    }
+  },
+  "exact_maximum": "1",
+  "argmax": {
+    "prefix": "010100100000000010",
+    "suffix_weight": 0
+  },
+  "argmax_in_certificate_coordinates": {
+    "prefix": "101011011111111101",
+    "suffix_weight": 0
+  },
+  "classes_checked": 1549681956,
+  "backend": "signed128",
+  "density_input_sha256": "53b3bf837ed877adb4e73eb8aa648700b423c9fde04178e639604c24dd206d00",
+  "native_result_sha256": "d1dca9631e04a847ced71dc870b2634a458b33a4f5f0a9f667ac2dd448e63a2a",
+  "binary_sha256": "8ad5ec044b1108ba3ae5194021a1673f0a62b486c6fc3b1dc3025bb5ff20b277",
+  "elapsed_seconds": 38.97765638699639,
+  "verifier_identity": {
+    "measure.py": "10ce2d95b04b7aba485ac22f60ab0a6775ef806fb54afac83b773f2ee999354f",
+    "exact_tensor.cpp": "e8b9ee7eaaff5f930fc402840d21a2a2b1f732bf4538fbaa48f03644914a1ba5",
+    "run_verify.py": "1b6e2fe4b2f0c87e6cce0e1917d5ec67cfe9457ba8f6fe76a715c73aae1164ea",
+    "test_kernel.py": "f5628f76d9cbe42d278d7541e26c0a0990e4d2d7abbdeb5965ff67799ddb7d45",
+    "inputs/manifest.json": "cce81436aa5b97caf312ae44fbba6d51fd28f175934fd254971cb1bb26ae0b80"
+  },
+  "slurm_job_id": "2205420",
+  "slurm_array_task_id": null,
+  "closure_verified": true,
+  "execution_state": "H3"
+}

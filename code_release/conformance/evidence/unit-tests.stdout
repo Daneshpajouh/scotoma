@@ -1,0 +1,12 @@
+cli-exact: exit 0 (expected 0)
+cli-incomplete: exit 1 (expected 1)
+cli-redundant: exit 1 (expected 1)
+cli-invalid: exit 1 (expected 1)
+cli-empty: exit 1 (expected 1)
+cli-unknown-id: exit 2 (expected 2)
+cli-broken-json: exit 2 (expected 2)
+cli-negative-budget: exit 2 (expected 2)
+cli-count-only: exit 0 (expected 0)
+{"exhaustive_guides": 5460, "maximum_exhaustive_length": 6}
+cli-empty-word: exit 0 (expected 0)
+cli-duplicate-id: exit 2 (expected 2)

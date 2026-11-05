@@ -1,0 +1,330 @@
+{
+  "guides": {
+    "g107": {
+      "mm5": {
+        "corrected": 174214,
+        "corrected_only": 6030,
+        "released": 168184,
+        "released_only": 0,
+        "terminal_attributable": 6030
+      },
+      "mm6": {
+        "corrected": 726158,
+        "corrected_only": 27379,
+        "released": 698779,
+        "released_only": 0,
+        "terminal_attributable": 27379
+      },
+      "mm7": {
+        "corrected": 2349484,
+        "corrected_only": 107370,
+        "released": 2242114,
+        "released_only": 0,
+        "terminal_attributable": 107370
+      }
+    },
+    "g11": {
+      "mm5": {
+        "corrected": 128835,
+        "corrected_only": 23701,
+        "released": 105134,
+        "released_only": 0,
+        "terminal_attributable": 23701
+      },
+      "mm6": {
+        "corrected": 640147,
+        "corrected_only": 103666,
+        "released": 536481,
+        "released_only": 0,
+        "terminal_attributable": 103666
+      },
+      "mm7": {
+        "corrected": 2297555,
+        "corrected_only": 208491,
+        "released": 2089064,
+        "released_only": 0,
+        "terminal_attributable": 208491
+      }
+    },
+    "g19": {
+      "mm5": {
+        "corrected": 36522,
+        "corrected_only": 0,
+        "released": 36522,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm6": {
+        "corrected": 199419,
+        "corrected_only": 0,
+        "released": 199419,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm7": {
+        "corrected": 926521,
+        "corrected_only": 0,
+        "released": 926521,
+        "released_only": 0,
+        "terminal_attributable": 0
+      }
+    },
+    "g27": {
+      "mm5": {
+        "corrected": 20169,
+        "corrected_only": 1833,
+        "released": 18336,
+        "released_only": 0,
+        "terminal_attributable": 1833
+      },
+      "mm6": {
+        "corrected": 138716,
+        "corrected_only": 11508,
+        "released": 127208,
+        "released_only": 0,
+        "terminal_attributable": 11508
+      },
+      "mm7": {
+        "corrected": 741411,
+        "corrected_only": 60510,
+        "released": 680901,
+        "released_only": 0,
+        "terminal_attributable": 60510
+      }
+    },
+    "g3": {
+      "mm5": {
+        "corrected": 46766,
+        "corrected_only": 4005,
+        "released": 42761,
+        "released_only": 0,
+        "terminal_attributable": 4005
+      },
+      "mm6": {
+        "corrected": 309371,
+        "corrected_only": 38576,
+        "released": 270795,
+        "released_only": 0,
+        "terminal_attributable": 38576
+      },
+      "mm7": {
+        "corrected": 1500162,
+        "corrected_only": 239877,
+        "released": 1260285,
+        "released_only": 0,
+        "terminal_attributable": 239877
+      }
+    },
+    "g35": {
+      "mm5": {
+        "corrected": 58006,
+        "corrected_only": 2932,
+        "released": 55074,
+        "released_only": 0,
+        "terminal_attributable": 2932
+      },
+      "mm6": {
+        "corrected": 341681,
+        "corrected_only": 21482,
+        "released": 320199,
+        "released_only": 0,
+        "terminal_attributable": 21482
+      },
+      "mm7": {
+        "corrected": 1546195,
+        "corrected_only": 110179,
+        "released": 1436016,
+        "released_only": 0,
+        "terminal_attributable": 110179
+      }
+    },
+    "g43": {
+      "mm5": {
+        "corrected": 20473,
+        "corrected_only": 1386,
+        "released": 19087,
+        "released_only": 0,
+        "terminal_attributable": 1386
+      },
+      "mm6": {
+        "corrected": 136401,
+        "corrected_only": 9980,
+        "released": 126421,
+        "released_only": 0,
+        "terminal_attributable": 9980
+      },
+      "mm7": {
+        "corrected": 747822,
+        "corrected_only": 54280,
+        "released": 693542,
+        "released_only": 0,
+        "terminal_attributable": 54280
+      }
+    },
+    "g51": {
+      "mm5": {
+        "corrected": 44851,
+        "corrected_only": 2320,
+        "released": 42531,
+        "released_only": 0,
+        "terminal_attributable": 2320
+      },
+      "mm6": {
+        "corrected": 301243,
+        "corrected_only": 15137,
+        "released": 286106,
+        "released_only": 0,
+        "terminal_attributable": 15137
+      },
+      "mm7": {
+        "corrected": 1457173,
+        "corrected_only": 68961,
+        "released": 1388212,
+        "released_only": 0,
+        "terminal_attributable": 68961
+      }
+    },
+    "g59": {
+      "mm5": {
+        "corrected": 284542,
+        "corrected_only": 9433,
+        "released": 275109,
+        "released_only": 0,
+        "terminal_attributable": 9433
+      },
+      "mm6": {
+        "corrected": 1120441,
+        "corrected_only": 50747,
+        "released": 1069694,
+        "released_only": 0,
+        "terminal_attributable": 50747
+      },
+      "mm7": {
+        "corrected": 3185087,
+        "corrected_only": 167383,
+        "released": 3017704,
+        "released_only": 0,
+        "terminal_attributable": 167383
+      }
+    },
+    "g67": {
+      "mm5": {
+        "corrected": 69001,
+        "corrected_only": 4556,
+        "released": 64445,
+        "released_only": 0,
+        "terminal_attributable": 4556
+      },
+      "mm6": {
+        "corrected": 457917,
+        "corrected_only": 20403,
+        "released": 437514,
+        "released_only": 0,
+        "terminal_attributable": 20403
+      },
+      "mm7": {
+        "corrected": 1850645,
+        "corrected_only": 92350,
+        "released": 1758295,
+        "released_only": 0,
+        "terminal_attributable": 92350
+      }
+    },
+    "g75": {
+      "mm5": {
+        "corrected": 77175,
+        "corrected_only": 4150,
+        "released": 73025,
+        "released_only": 0,
+        "terminal_attributable": 4150
+      },
+      "mm6": {
+        "corrected": 382282,
+        "corrected_only": 20390,
+        "released": 361892,
+        "released_only": 0,
+        "terminal_attributable": 20390
+      },
+      "mm7": {
+        "corrected": 1557657,
+        "corrected_only": 96067,
+        "released": 1461590,
+        "released_only": 0,
+        "terminal_attributable": 96067
+      }
+    },
+    "g83": {
+      "mm5": {
+        "corrected": 36701,
+        "corrected_only": 0,
+        "released": 36701,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm6": {
+        "corrected": 212739,
+        "corrected_only": 0,
+        "released": 212739,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm7": {
+        "corrected": 1096109,
+        "corrected_only": 0,
+        "released": 1096109,
+        "released_only": 0,
+        "terminal_attributable": 0
+      }
+    },
+    "g91": {
+      "mm5": {
+        "corrected": 50825,
+        "corrected_only": 2545,
+        "released": 48280,
+        "released_only": 0,
+        "terminal_attributable": 2545
+      },
+      "mm6": {
+        "corrected": 257479,
+        "corrected_only": 13331,
+        "released": 244148,
+        "released_only": 0,
+        "terminal_attributable": 13331
+      },
+      "mm7": {
+        "corrected": 1036236,
+        "corrected_only": 75123,
+        "released": 961113,
+        "released_only": 0,
+        "terminal_attributable": 75123
+      }
+    },
+    "g99": {
+      "mm5": {
+        "corrected": 57187,
+        "corrected_only": 2153,
+        "released": 55034,
+        "released_only": 0,
+        "terminal_attributable": 2153
+      },
+      "mm6": {
+        "corrected": 358493,
+        "corrected_only": 12934,
+        "released": 345559,
+        "released_only": 0,
+        "terminal_attributable": 12934
+      },
+      "mm7": {
+        "corrected": 1736097,
+        "corrected_only": 61663,
+        "released": 1674434,
+        "released_only": 0,
+        "terminal_attributable": 61663
+      }
+    }
+  },
+  "host": "fc30630",
+  "job": "2463965",
+  "nshards": 8,
+  "shard": 3
+}

@@ -1,0 +1,82 @@
+{
+  "N": 18,
+  "r": 5,
+  "m": 10,
+  "kind": "SHORT",
+  "support": [
+    {
+      "prefix": "1111",
+      "tail_weight": 0,
+      "mass": "545/937"
+    },
+    {
+      "prefix": "1111",
+      "tail_weight": 1,
+      "mass": "8561/56220"
+    },
+    {
+      "prefix": "0111",
+      "tail_weight": 1,
+      "mass": "24073/18740"
+    },
+    {
+      "prefix": "0011",
+      "tail_weight": 0,
+      "mass": "323/937"
+    },
+    {
+      "prefix": "0011",
+      "tail_weight": 2,
+      "mass": "637/9370"
+    },
+    {
+      "prefix": "0001",
+      "tail_weight": 1,
+      "mass": "24073/18740"
+    },
+    {
+      "prefix": "0000",
+      "tail_weight": 0,
+      "mass": "545/937"
+    },
+    {
+      "prefix": "0000",
+      "tail_weight": 1,
+      "mass": "8561/56220"
+    },
+    {
+      "prefix": "0110",
+      "tail_weight": 1,
+      "mass": "5537/28110"
+    },
+    {
+      "prefix": "1001",
+      "tail_weight": 1,
+      "mass": "5537/28110"
+    },
+    {
+      "prefix": "1100",
+      "tail_weight": 0,
+      "mass": "392/42165"
+    }
+  ],
+  "verification": {
+    "private_orbits": 40,
+    "minimum": "1",
+    "mass": "409249/84330",
+    "deficit": "12401/84330",
+    "witness": {
+      "prefix": "0000",
+      "tail_weight": 10
+    },
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 37,
+    "private_orbits": 40,
+    "rounds": 1,
+    "seconds": 0.009,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

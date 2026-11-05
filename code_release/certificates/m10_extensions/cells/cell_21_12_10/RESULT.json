@@ -1,0 +1,58 @@
+{
+  "status": "CLOSED",
+  "tau_lower": "3840000000/346362511",
+  "tau_upper": "12",
+  "matched_exactly": false,
+  "closed": true,
+  "fractional_route_refuted": false,
+  "K_lower": 12,
+  "K_upper": 12,
+  "K": 12,
+  "N": 21,
+  "r": 12,
+  "m": 10,
+  "reports": {
+    "cover": {
+      "passes": true,
+      "total_mass": "12",
+      "extremum": "1",
+      "extremum_exact": false,
+      "proof": "Every point in U lies in at least one of the r explicit library balls.",
+      "verification": "universal analytic bound; no sweep claimed"
+    },
+    "packing": {
+      "passes": true,
+      "extremum": "1",
+      "extremum_exact": true,
+      "at": [
+        121379,
+        0
+      ],
+      "violations": 0,
+      "arithmetic": "arbitrary precision integer convolution and exact division",
+      "total_mass": "3840000000/346362511",
+      "support_orbits": 484,
+      "orbits_checked": 1948617,
+      "total_centre_orbits": 1948617,
+      "seconds": 0.32416503224521875,
+      "normalization_proof": {
+        "original_extremum": "346362511/320000000",
+        "original_report": "/scratch/YOUR_ACCOUNT/ZR3_exact_tau_n21_23/runs/full_1576400/cell_21_12_10/round_009_packing.json"
+      }
+    }
+  },
+  "state": {
+    "termination": "decisive exact certificate verified",
+    "round": 9,
+    "reconstruction": "exact active equalities",
+    "decisive_certificate": "decision.certificate.json"
+  },
+  "elapsed_seconds": 13.965723430737853,
+  "enumeration": {
+    "centre_orbits": 1948617,
+    "point_orbits": 954458,
+    "ambient_words": 4398046511104,
+    "union_words": 119271430664
+  },
+  "certificate_sha256": "4107c902602e56468b87ebcf92c048ef720698ddb930bb7e84a5c8fcd0cea3de"
+}

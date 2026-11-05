@@ -1,0 +1,117 @@
+{
+  "N": 15,
+  "r": 7,
+  "m": 8,
+  "kind": "SHORT",
+  "support": [
+    {
+      "prefix": "111111",
+      "tail_weight": 0,
+      "mass": "2/3"
+    },
+    {
+      "prefix": "011111",
+      "tail_weight": 1,
+      "mass": "57/40"
+    },
+    {
+      "prefix": "001111",
+      "tail_weight": 0,
+      "mass": "2/5"
+    },
+    {
+      "prefix": "000111",
+      "tail_weight": 1,
+      "mass": "39/40"
+    },
+    {
+      "prefix": "000011",
+      "tail_weight": 0,
+      "mass": "2/5"
+    },
+    {
+      "prefix": "000001",
+      "tail_weight": 1,
+      "mass": "57/40"
+    },
+    {
+      "prefix": "000000",
+      "tail_weight": 0,
+      "mass": "2/3"
+    },
+    {
+      "prefix": "000010",
+      "tail_weight": 0,
+      "mass": "2/45"
+    },
+    {
+      "prefix": "000110",
+      "tail_weight": 1,
+      "mass": "9/40"
+    },
+    {
+      "prefix": "011000",
+      "tail_weight": 0,
+      "mass": "1/18"
+    },
+    {
+      "prefix": "011001",
+      "tail_weight": 0,
+      "mass": "1/9"
+    },
+    {
+      "prefix": "011110",
+      "tail_weight": 1,
+      "mass": "3/40"
+    },
+    {
+      "prefix": "100001",
+      "tail_weight": 1,
+      "mass": "3/40"
+    },
+    {
+      "prefix": "100110",
+      "tail_weight": 1,
+      "mass": "3/40"
+    },
+    {
+      "prefix": "100111",
+      "tail_weight": 1,
+      "mass": "9/40"
+    },
+    {
+      "prefix": "101110",
+      "tail_weight": 0,
+      "mass": "1/36"
+    },
+    {
+      "prefix": "101111",
+      "tail_weight": 0,
+      "mass": "1/60"
+    },
+    {
+      "prefix": "111001",
+      "tail_weight": 0,
+      "mass": "1/18"
+    }
+  ],
+  "verification": {
+    "private_orbits": 339,
+    "minimum": "1",
+    "mass": "125/18",
+    "deficit": "1/18",
+    "witness": {
+      "prefix": "000111",
+      "tail_weight": 8
+    },
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 135,
+    "private_orbits": 339,
+    "rounds": 1,
+    "seconds": 0.036,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

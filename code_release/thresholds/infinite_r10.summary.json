@@ -1,0 +1,87 @@
+{
+  "status": "PROVED: exact computer-assisted infinite-range packing certificate",
+  "r": 10,
+  "alpha": 30,
+  "beta": 0,
+  "min_n": 30,
+  "scale": 2,
+  "dmax": 2,
+  "mass_type": "constant",
+  "C0": null,
+  "residues": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "family": [
+    {
+      "prefix": "000000110",
+      "distance": 1,
+      "mass": "1"
+    },
+    {
+      "prefix": "100111111",
+      "distance": 1,
+      "mass": "1"
+    },
+    {
+      "prefix": "000011101",
+      "distance": 1,
+      "mass": "1"
+    },
+    {
+      "prefix": "010001111",
+      "distance": 1,
+      "mass": "1"
+    },
+    {
+      "prefix": "00111101X",
+      "distance": 2,
+      "mass": "1"
+    },
+    {
+      "prefix": "X01000011",
+      "distance": 2,
+      "mass": "1"
+    },
+    {
+      "prefix": "0111101X1",
+      "distance": 2,
+      "mass": "1"
+    },
+    {
+      "prefix": "0X0100001",
+      "distance": 2,
+      "mass": "1"
+    },
+    {
+      "prefix": "1000X0000",
+      "distance": 2,
+      "mass": "1"
+    },
+    {
+      "prefix": "1111X1110",
+      "distance": 2,
+      "mass": "1"
+    }
+  ],
+  "prefix_count": 19683,
+  "unique_profiles": 8208,
+  "moment": {
+    "cutoff": 45,
+    "t": "3/2",
+    "prefix_potential": "1079/243",
+    "rho_upper": "3/5",
+    "moment_factor": "29/30",
+    "bound": "693316203368818852592757164773881710727208936267438548758433389586571/717897987691852588770249000000000000000000000000000000000000000000000",
+    "bound_less_than_99_over_100": true
+  },
+  "polynomial_rows": 15525,
+  "checked_newton_coefficients": 357075,
+  "checked_finite_values": 0,
+  "maximum_shift": 0,
+  "seconds": 33.723,
+  "certificate_sha256": "b26498abc37a908984fffda7ce871e922873d8bb8f8a6512e66c10c656d7dc0f"
+}

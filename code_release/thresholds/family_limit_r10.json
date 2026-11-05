@@ -1,0 +1,58 @@
+{
+  "r": 10,
+  "alpha": 30,
+  "min_n_candidate": 30,
+  "status": "CONJECTURE: candidate from limiting packing",
+  "support": [
+    {
+      "prefix": "000000110",
+      "distance": 1,
+      "mass": "1"
+    },
+    {
+      "prefix": "100111111",
+      "distance": 1,
+      "mass": "1"
+    },
+    {
+      "prefix": "000011101",
+      "distance": 1,
+      "mass": "1"
+    },
+    {
+      "prefix": "010001111",
+      "distance": 1,
+      "mass": "1"
+    },
+    {
+      "prefix": "00111101X",
+      "distance": 2,
+      "mass": "1"
+    },
+    {
+      "prefix": "X01000011",
+      "distance": 2,
+      "mass": "1"
+    },
+    {
+      "prefix": "0111101X1",
+      "distance": 2,
+      "mass": "1"
+    },
+    {
+      "prefix": "0X0100001",
+      "distance": 2,
+      "mass": "1"
+    },
+    {
+      "prefix": "1000X0000",
+      "distance": 2,
+      "mass": "1"
+    },
+    {
+      "prefix": "1111X1110",
+      "distance": 2,
+      "mass": "1"
+    }
+  ]
+}

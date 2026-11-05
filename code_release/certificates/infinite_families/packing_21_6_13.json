@@ -1,0 +1,133 @@
+{
+  "N": 21,
+  "r": 6,
+  "m": 13,
+  "packing": [
+    {
+      "prefix": "0011X",
+      "suffix_weight": 12,
+      "mass": "4565501/100000000"
+    },
+    {
+      "prefix": "001X1",
+      "suffix_weight": 12,
+      "mass": "8515619/100000000"
+    },
+    {
+      "prefix": "00X00",
+      "suffix_weight": 12,
+      "mass": "4297851/25000000"
+    },
+    {
+      "prefix": "011X1",
+      "suffix_weight": 12,
+      "mass": "11933247/100000000"
+    },
+    {
+      "prefix": "011XX",
+      "suffix_weight": 11,
+      "mass": "39666609/100000000"
+    },
+    {
+      "prefix": "01X1X",
+      "suffix_weight": 11,
+      "mass": "298417/100000000"
+    },
+    {
+      "prefix": "0X001",
+      "suffix_weight": 12,
+      "mass": "3020901/25000000"
+    },
+    {
+      "prefix": "0X011",
+      "suffix_weight": 12,
+      "mass": "8160707/100000000"
+    },
+    {
+      "prefix": "0X01X",
+      "suffix_weight": 11,
+      "mass": "14112837/50000000"
+    },
+    {
+      "prefix": "0XX00",
+      "suffix_weight": 11,
+      "mass": "4858321/20000000"
+    },
+    {
+      "prefix": "10X00",
+      "suffix_weight": 11,
+      "mass": "1082293/20000000"
+    },
+    {
+      "prefix": "111XX",
+      "suffix_weight": 11,
+      "mass": "12198161/100000000"
+    },
+    {
+      "prefix": "11X10",
+      "suffix_weight": 11,
+      "mass": "2809839/50000000"
+    },
+    {
+      "prefix": "11X11",
+      "suffix_weight": 12,
+      "mass": "1716707/10000000"
+    },
+    {
+      "prefix": "11X1X",
+      "suffix_weight": 11,
+      "mass": "8548887/50000000"
+    },
+    {
+      "prefix": "11XX1",
+      "suffix_weight": 11,
+      "mass": "24380341/100000000"
+    },
+    {
+      "prefix": "11XXX",
+      "suffix_weight": 10,
+      "mass": "5884243/25000000"
+    },
+    {
+      "prefix": "X0011",
+      "suffix_weight": 12,
+      "mass": "4767317/100000000"
+    },
+    {
+      "prefix": "X001X",
+      "suffix_weight": 11,
+      "mass": "34489901/100000000"
+    },
+    {
+      "prefix": "X011X",
+      "suffix_weight": 11,
+      "mass": "1722293/5000000"
+    },
+    {
+      "prefix": "X01X1",
+      "suffix_weight": 11,
+      "mass": "28169191/100000000"
+    },
+    {
+      "prefix": "X0X00",
+      "suffix_weight": 11,
+      "mass": "3483757/20000000"
+    },
+    {
+      "prefix": "XX000",
+      "suffix_weight": 11,
+      "mass": "1184911/10000000"
+    },
+    {
+      "prefix": "XX001",
+      "suffix_weight": 11,
+      "mass": "2483377/6250000"
+    },
+    {
+      "prefix": "XXX00",
+      "suffix_weight": 10,
+      "mass": "23837629/100000000"
+    }
+  ],
+  "status": "VERIFIED-COMPUTATIONALLY"
+}

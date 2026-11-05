@@ -1,0 +1,73 @@
+{
+  "CIRCLE_seq_10gRNA_wholeDataset.csv": {
+    "above_cutoff_label_0": 40467,
+    "above_cutoff_label_1": 7113,
+    "auprc_trapezoidal": 0.7506115184328546,
+    "auroc": 0.987971998455431,
+    "auroc_exact": "1402040099/1419109146",
+    "first_data_row_1based": 1,
+    "label_0_mean": 0.0033373744564463214,
+    "label_0_median": 1.0795698679675521e-07,
+    "label_1_mean": 0.36607565186451513,
+    "label_1_median": 0.33241042861242337,
+    "last_data_row_1based": 584949,
+    "negative": 577578,
+    "positive": 7371,
+    "rows": 584949
+  },
+  "Kleinstiver_5gRNA_wholeDataset.csv": {
+    "above_cutoff_label_0": 5933,
+    "above_cutoff_label_1": 54,
+    "auprc_trapezoidal": 0.31980235549860114,
+    "auroc": 0.994556686678848,
+    "auroc_exact": "285761/287325",
+    "first_data_row_1based": 1,
+    "label_0_mean": 0.0025670872688495516,
+    "label_0_median": 1.0533181708536226e-06,
+    "label_1_mean": 0.40978066862887463,
+    "label_1_median": 0.41754229999847653,
+    "last_data_row_1based": 95829,
+    "negative": 95775,
+    "positive": 54,
+    "rows": 95829
+  },
+  "Listgarten_22gRNA_wholeDataset.csv": {
+    "above_cutoff_label_0": 23688,
+    "above_cutoff_label_1": 55,
+    "auprc_trapezoidal": 0.3171847321178329,
+    "auroc": 0.9954513554972727,
+    "auroc_exact": "21373129/21470792",
+    "first_data_row_1based": 1,
+    "label_0_mean": 0.002218907464420386,
+    "label_0_median": 3.632148623530494e-07,
+    "label_1_mean": 0.503424922433385,
+    "label_1_median": 0.5728375430613479,
+    "last_data_row_1based": 383463,
+    "negative": 383407,
+    "positive": 56,
+    "rows": 383463
+  },
+  "elevation_6gRNA_wholeDataset.csv": {
+    "above_cutoff_label_0": 8997,
+    "above_cutoff_label_1": 53,
+    "auprc_trapezoidal": 0.35500818074575946,
+    "auroc": 0.9820712336495498,
+    "auroc_exact": "25205801/25665960",
+    "first_data_row_1based": 1,
+    "label_0_mean": 0.0018112453180376773,
+    "label_0_median": 2.6910779945960206e-08,
+    "label_1_mean": 0.4752915903140923,
+    "label_1_median": 0.5728375430613479,
+    "last_data_row_1based": 213943,
+    "negative": 213883,
+    "positive": 60,
+    "rows": 213943
+  },
+  "gate": {
+    "criteria": "Own-data AUROC > 9/10 and positive mean > negative mean in both files; both Table 2 AUROCs round to .995 and Listgarten AUPRC rounds to .317. Kleinstiver AUPRC and README example discrepancies are retained separately.",
+    "kleinstiver_auprc_matches_published": false,
+    "own_label_separation": true,
+    "pass_for_scoring": true,
+    "three_published_rounded_benchmarks_match": true
+  }
+}

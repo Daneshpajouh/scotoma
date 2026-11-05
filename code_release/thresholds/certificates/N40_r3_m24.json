@@ -1,0 +1,47 @@
+{
+  "N": 40,
+  "r": 3,
+  "m": 24,
+  "kind": "SHORT",
+  "support": [
+    {
+      "prefix": "11",
+      "tail_weight": 0,
+      "mass": "12666666673/18999999996"
+    },
+    {
+      "prefix": "01",
+      "tail_weight": 1,
+      "mass": "19/12"
+    },
+    {
+      "prefix": "00",
+      "tail_weight": 0,
+      "mass": "12666666673/18999999996"
+    },
+    {
+      "prefix": "10",
+      "tail_weight": 0,
+      "mass": "263888891/18999999996"
+    }
+  ],
+  "verification": {
+    "private_orbits": 5,
+    "minimum": "1",
+    "mass": "4640046297/1583333333",
+    "deficit": "109953702/1583333333",
+    "witness": {
+      "prefix": "01",
+      "tail_weight": 24
+    },
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 11,
+    "private_orbits": 5,
+    "rounds": 1,
+    "seconds": 0.117,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

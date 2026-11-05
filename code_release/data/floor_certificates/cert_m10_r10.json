@@ -1,0 +1,1308 @@
+{
+ "N": 19,
+ "m": 10,
+ "r": 10,
+ "free_length": 10,
+ "status": "PROVED",
+ "criterion": "K >= ceil(LP*); a feasible dual of mass > r-1 proves K = r",
+ "restriction": "none; the dual support carries non-binary active prefixes",
+ "exact_total_mass": "9999999865/1098657693",
+ "exact_total_mass_float": 9.102015967952632,
+ "ceiling": 10,
+ "exact_max_ball_mass": "1",
+ "max_ball_at": [
+  "110010110",
+  0
+ ],
+ "centre_classes_verified": 216513,
+ "centre_classes_note": "ALL (active-prefix type, free weight) classes, 3^9 x 11. Not the 2^9 binary-prefix classes: this dual has non-binary support, so the binary reduction is unavailable and was not used.",
+ "support_orbits": 256,
+ "rounding": "solver masses rounded DOWN to denominator 1000000000 (preserves feasibility), then scaled by the exact maximum load 1098657693/1000000000 so the released dual is feasible everywhere with maximum ball mass exactly 1",
+ "dual": [
+  {
+   "prefix": "00001010X",
+   "free_weight": 7,
+   "mass": "8315299/1098657693"
+  },
+  {
+   "prefix": "00001XX0X",
+   "free_weight": 6,
+   "mass": "13298839/1098657693"
+  },
+  {
+   "prefix": "00001XXXX",
+   "free_weight": 5,
+   "mass": "5692727/1098657693"
+  },
+  {
+   "prefix": "000X01000",
+   "free_weight": 8,
+   "mass": "7560137/1098657693"
+  },
+  {
+   "prefix": "000X01001",
+   "free_weight": 7,
+   "mass": "5517208/156951099"
+  },
+  {
+   "prefix": "000X010X0",
+   "free_weight": 7,
+   "mass": "62196835/1098657693"
+  },
+  {
+   "prefix": "000X0XX0X",
+   "free_weight": 6,
+   "mass": "4231048/1098657693"
+  },
+  {
+   "prefix": "000X0XXXX",
+   "free_weight": 5,
+   "mass": "12689777/1098657693"
+  },
+  {
+   "prefix": "000X10XX1",
+   "free_weight": 5,
+   "mass": "11182778/1098657693"
+  },
+  {
+   "prefix": "000X10XXX",
+   "free_weight": 5,
+   "mass": "10403471/1098657693"
+  },
+  {
+   "prefix": "000XX0001",
+   "free_weight": 7,
+   "mass": "587242/1098657693"
+  },
+  {
+   "prefix": "000XX000X",
+   "free_weight": 7,
+   "mass": "38281288/1098657693"
+  },
+  {
+   "prefix": "000XX0010",
+   "free_weight": 7,
+   "mass": "43007600/1098657693"
+  },
+  {
+   "prefix": "000XX001X",
+   "free_weight": 6,
+   "mass": "47663432/1098657693"
+  },
+  {
+   "prefix": "000XX0100",
+   "free_weight": 7,
+   "mass": "804905/52317033"
+  },
+  {
+   "prefix": "000XX0X0X",
+   "free_weight": 6,
+   "mass": "963512/1098657693"
+  },
+  {
+   "prefix": "000XX0XX0",
+   "free_weight": 6,
+   "mass": "16111898/1098657693"
+  },
+  {
+   "prefix": "000XX0XXX",
+   "free_weight": 5,
+   "mass": "8529215/366219231"
+  },
+  {
+   "prefix": "0011X110X",
+   "free_weight": 6,
+   "mass": "12482072/1098657693"
+  },
+  {
+   "prefix": "001X1X110",
+   "free_weight": 6,
+   "mass": "26769394/1098657693"
+  },
+  {
+   "prefix": "00X001010",
+   "free_weight": 7,
+   "mass": "5169744/122073077"
+  },
+  {
+   "prefix": "00X00101X",
+   "free_weight": 6,
+   "mass": "41421844/1098657693"
+  },
+  {
+   "prefix": "00X001XX0",
+   "free_weight": 6,
+   "mass": "1062665/366219231"
+  },
+  {
+   "prefix": "00X001XXX",
+   "free_weight": 5,
+   "mass": "10931513/366219231"
+  },
+  {
+   "prefix": "00X00X10X",
+   "free_weight": 6,
+   "mass": "63471757/1098657693"
+  },
+  {
+   "prefix": "00X0X01X0",
+   "free_weight": 6,
+   "mass": "64927207/1098657693"
+  },
+  {
+   "prefix": "00X0XX001",
+   "free_weight": 6,
+   "mass": "22464563/366219231"
+  },
+  {
+   "prefix": "00X0XX0X1",
+   "free_weight": 5,
+   "mass": "14629495/366219231"
+  },
+  {
+   "prefix": "00X0XXXX0",
+   "free_weight": 5,
+   "mass": "85051786/1098657693"
+  },
+  {
+   "prefix": "00X0XXXXX",
+   "free_weight": 4,
+   "mass": "51766417/1098657693"
+  },
+  {
+   "prefix": "00XX0001X",
+   "free_weight": 6,
+   "mass": "37041257/1098657693"
+  },
+  {
+   "prefix": "00XX00100",
+   "free_weight": 7,
+   "mass": "4272385/122073077"
+  },
+  {
+   "prefix": "00XX00X10",
+   "free_weight": 6,
+   "mass": "49513988/1098657693"
+  },
+  {
+   "prefix": "00XX00X1X",
+   "free_weight": 5,
+   "mass": "1914896/1098657693"
+  },
+  {
+   "prefix": "00XX0X001",
+   "free_weight": 6,
+   "mass": "8857235/366219231"
+  },
+  {
+   "prefix": "00XX0X00X",
+   "free_weight": 6,
+   "mass": "483507/122073077"
+  },
+  {
+   "prefix": "00XX0XX00",
+   "free_weight": 6,
+   "mass": "40855631/1098657693"
+  },
+  {
+   "prefix": "00XX0XX0X",
+   "free_weight": 5,
+   "mass": "36228775/1098657693"
+  },
+  {
+   "prefix": "0101X1100",
+   "free_weight": 7,
+   "mass": "23232365/1098657693"
+  },
+  {
+   "prefix": "0101X110X",
+   "free_weight": 6,
+   "mass": "66693062/1098657693"
+  },
+  {
+   "prefix": "0101X1110",
+   "free_weight": 7,
+   "mass": "25703476/1098657693"
+  },
+  {
+   "prefix": "01100XXXX",
+   "free_weight": 5,
+   "mass": "2241674/1098657693"
+  },
+  {
+   "prefix": "01101X111",
+   "free_weight": 7,
+   "mass": "12856435/366219231"
+  },
+  {
+   "prefix": "011100XX0",
+   "free_weight": 7,
+   "mass": "1073459/366219231"
+  },
+  {
+   "prefix": "011100XXX",
+   "free_weight": 6,
+   "mass": "2930038/1098657693"
+  },
+  {
+   "prefix": "0111XX111",
+   "free_weight": 7,
+   "mass": "661796/1098657693"
+  },
+  {
+   "prefix": "011X1XX11",
+   "free_weight": 6,
+   "mass": "3787742/156951099"
+  },
+  {
+   "prefix": "011XX110X",
+   "free_weight": 6,
+   "mass": "46908772/1098657693"
+  },
+  {
+   "prefix": "011XX1X10",
+   "free_weight": 6,
+   "mass": "29538554/1098657693"
+  },
+  {
+   "prefix": "011XX1X11",
+   "free_weight": 6,
+   "mass": "67414579/1098657693"
+  },
+  {
+   "prefix": "011XXX110",
+   "free_weight": 6,
+   "mass": "48225434/1098657693"
+  },
+  {
+   "prefix": "01X100X00",
+   "free_weight": 7,
+   "mass": "2881862/52317033"
+  },
+  {
+   "prefix": "01X100X01",
+   "free_weight": 6,
+   "mass": "2027185/156951099"
+  },
+  {
+   "prefix": "01X1100X0",
+   "free_weight": 7,
+   "mass": "10592840/122073077"
+  },
+  {
+   "prefix": "01X1100X1",
+   "free_weight": 6,
+   "mass": "9942568/366219231"
+  },
+  {
+   "prefix": "01X1100XX",
+   "free_weight": 6,
+   "mass": "10942898/366219231"
+  },
+  {
+   "prefix": "01X110X01",
+   "free_weight": 6,
+   "mass": "14217974/1098657693"
+  },
+  {
+   "prefix": "01X110X0X",
+   "free_weight": 6,
+   "mass": "26260958/1098657693"
+  },
+  {
+   "prefix": "01X1X110X",
+   "free_weight": 6,
+   "mass": "13247209/1098657693"
+  },
+  {
+   "prefix": "01X1XX110",
+   "free_weight": 6,
+   "mass": "7053553/1098657693"
+  },
+  {
+   "prefix": "01XX11000",
+   "free_weight": 7,
+   "mass": "646588/17439011"
+  },
+  {
+   "prefix": "01XX1100X",
+   "free_weight": 6,
+   "mass": "3523501/52317033"
+  },
+  {
+   "prefix": "01XX1X110",
+   "free_weight": 6,
+   "mass": "89779519/1098657693"
+  },
+  {
+   "prefix": "01XXX1100",
+   "free_weight": 6,
+   "mass": "32095066/1098657693"
+  },
+  {
+   "prefix": "0X11000X1",
+   "free_weight": 6,
+   "mass": "13059808/366219231"
+  },
+  {
+   "prefix": "0X1100X01",
+   "free_weight": 6,
+   "mass": "9939917/366219231"
+  },
+  {
+   "prefix": "0X1100X0X",
+   "free_weight": 6,
+   "mass": "115226651/1098657693"
+  },
+  {
+   "prefix": "0X1100XX0",
+   "free_weight": 6,
+   "mass": "9516392/1098657693"
+  },
+  {
+   "prefix": "0X1100XXX",
+   "free_weight": 5,
+   "mass": "39112835/1098657693"
+  },
+  {
+   "prefix": "0X11100X1",
+   "free_weight": 6,
+   "mass": "13045808/366219231"
+  },
+  {
+   "prefix": "0X11100XX",
+   "free_weight": 6,
+   "mass": "11119982/1098657693"
+  },
+  {
+   "prefix": "0X1X1100X",
+   "free_weight": 6,
+   "mass": "33615065/1098657693"
+  },
+  {
+   "prefix": "0X1XX1100",
+   "free_weight": 6,
+   "mass": "7899896/366219231"
+  },
+  {
+   "prefix": "0X1XX110X",
+   "free_weight": 5,
+   "mass": "1776848/122073077"
+  },
+  {
+   "prefix": "0X1XX1X10",
+   "free_weight": 5,
+   "mass": "8734286/1098657693"
+  },
+  {
+   "prefix": "0X1XX1X11",
+   "free_weight": 5,
+   "mass": "14635633/366219231"
+  },
+  {
+   "prefix": "0XX10X111",
+   "free_weight": 5,
+   "mass": "3740896/366219231"
+  },
+  {
+   "prefix": "100001XX0",
+   "free_weight": 7,
+   "mass": "15501043/1098657693"
+  },
+  {
+   "prefix": "10000X1XX",
+   "free_weight": 6,
+   "mass": "8428373/1098657693"
+  },
+  {
+   "prefix": "1000X0101",
+   "free_weight": 7,
+   "mass": "25652636/1098657693"
+  },
+  {
+   "prefix": "1000X010X",
+   "free_weight": 7,
+   "mass": "44611408/1098657693"
+  },
+  {
+   "prefix": "1000X01X0",
+   "free_weight": 7,
+   "mass": "20307449/1098657693"
+  },
+  {
+   "prefix": "1000X10X0",
+   "free_weight": 7,
+   "mass": "15243875/366219231"
+  },
+  {
+   "prefix": "1000XXXX0",
+   "free_weight": 6,
+   "mass": "16193293/1098657693"
+  },
+  {
+   "prefix": "100X001X0",
+   "free_weight": 7,
+   "mass": "6697221/122073077"
+  },
+  {
+   "prefix": "100X001XX",
+   "free_weight": 6,
+   "mass": "10610801/122073077"
+  },
+  {
+   "prefix": "100X00X10",
+   "free_weight": 7,
+   "mass": "40523779/1098657693"
+  },
+  {
+   "prefix": "100X0X011",
+   "free_weight": 6,
+   "mass": "26801539/1098657693"
+  },
+  {
+   "prefix": "100X0X01X",
+   "free_weight": 6,
+   "mass": "100072895/1098657693"
+  },
+  {
+   "prefix": "100X0X10X",
+   "free_weight": 6,
+   "mass": "731371/122073077"
+  },
+  {
+   "prefix": "100X0XX00",
+   "free_weight": 7,
+   "mass": "35347520/366219231"
+  },
+  {
+   "prefix": "100X0XX01",
+   "free_weight": 6,
+   "mass": "89830001/1098657693"
+  },
+  {
+   "prefix": "100X0XX0X",
+   "free_weight": 6,
+   "mass": "15308261/156951099"
+  },
+  {
+   "prefix": "100X0XXX0",
+   "free_weight": 6,
+   "mass": "9691363/1098657693"
+  },
+  {
+   "prefix": "100X0XXXX",
+   "free_weight": 5,
+   "mass": "10835479/1098657693"
+  },
+  {
+   "prefix": "100XX0010",
+   "free_weight": 7,
+   "mass": "572849/52317033"
+  },
+  {
+   "prefix": "100XX001X",
+   "free_weight": 6,
+   "mass": "4373725/156951099"
+  },
+  {
+   "prefix": "100XX0X00",
+   "free_weight": 7,
+   "mass": "478836/122073077"
+  },
+  {
+   "prefix": "100XX0X01",
+   "free_weight": 6,
+   "mass": "1004504/156951099"
+  },
+  {
+   "prefix": "100XX0XX0",
+   "free_weight": 6,
+   "mass": "5047815/122073077"
+  },
+  {
+   "prefix": "100XXX001",
+   "free_weight": 6,
+   "mass": "48228412/1098657693"
+  },
+  {
+   "prefix": "100XXX0X0",
+   "free_weight": 6,
+   "mass": "12242302/1098657693"
+  },
+  {
+   "prefix": "101011X11",
+   "free_weight": 7,
+   "mass": "46477045/1098657693"
+  },
+  {
+   "prefix": "1011X110X",
+   "free_weight": 7,
+   "mass": "42120427/1098657693"
+  },
+  {
+   "prefix": "1011XX110",
+   "free_weight": 7,
+   "mass": "570896/52317033"
+  },
+  {
+   "prefix": "1011XX111",
+   "free_weight": 7,
+   "mass": "14323675/366219231"
+  },
+  {
+   "prefix": "101X11000",
+   "free_weight": 8,
+   "mass": "62380442/1098657693"
+  },
+  {
+   "prefix": "101X1110X",
+   "free_weight": 7,
+   "mass": "2801408/1098657693"
+  },
+  {
+   "prefix": "10X0XX001",
+   "free_weight": 6,
+   "mass": "29527789/1098657693"
+  },
+  {
+   "prefix": "10X0XX0X0",
+   "free_weight": 6,
+   "mass": "4053397/156951099"
+  },
+  {
+   "prefix": "10X0XX0X1",
+   "free_weight": 5,
+   "mass": "1241729/156951099"
+  },
+  {
+   "prefix": "10X0XX0XX",
+   "free_weight": 5,
+   "mass": "36426268/1098657693"
+  },
+  {
+   "prefix": "10X11X110",
+   "free_weight": 7,
+   "mass": "13531081/366219231"
+  },
+  {
+   "prefix": "10X11XX11",
+   "free_weight": 6,
+   "mass": "49620484/1098657693"
+  },
+  {
+   "prefix": "1100X001X",
+   "free_weight": 7,
+   "mass": "11855950/1098657693"
+  },
+  {
+   "prefix": "1100X0101",
+   "free_weight": 7,
+   "mass": "23243695/1098657693"
+  },
+  {
+   "prefix": "1100XX0X0",
+   "free_weight": 7,
+   "mass": "1851509/52317033"
+  },
+  {
+   "prefix": "1100XX0X1",
+   "free_weight": 6,
+   "mass": "23725141/1098657693"
+  },
+  {
+   "prefix": "1100XX0XX",
+   "free_weight": 6,
+   "mass": "6510874/156951099"
+  },
+  {
+   "prefix": "1100XXX00",
+   "free_weight": 7,
+   "mass": "3040546/366219231"
+  },
+  {
+   "prefix": "1100XXX01",
+   "free_weight": 6,
+   "mass": "32110850/1098657693"
+  },
+  {
+   "prefix": "11011110X",
+   "free_weight": 8,
+   "mass": "25013321/1098657693"
+  },
+  {
+   "prefix": "11011XX11",
+   "free_weight": 7,
+   "mass": "5493425/156951099"
+  },
+  {
+   "prefix": "1101X110X",
+   "free_weight": 7,
+   "mass": "4651988/1098657693"
+  },
+  {
+   "prefix": "1101XX111",
+   "free_weight": 7,
+   "mass": "2409352/156951099"
+  },
+  {
+   "prefix": "11100X010",
+   "free_weight": 8,
+   "mass": "62397514/1098657693"
+  },
+  {
+   "prefix": "11100X01X",
+   "free_weight": 7,
+   "mass": "86419985/1098657693"
+  },
+  {
+   "prefix": "11100XX00",
+   "free_weight": 8,
+   "mass": "22973731/1098657693"
+  },
+  {
+   "prefix": "11100XX01",
+   "free_weight": 7,
+   "mass": "13566494/366219231"
+  },
+  {
+   "prefix": "11100XXX0",
+   "free_weight": 7,
+   "mass": "15531244/1098657693"
+  },
+  {
+   "prefix": "11100XXXX",
+   "free_weight": 6,
+   "mass": "51716054/1098657693"
+  },
+  {
+   "prefix": "11101X111",
+   "free_weight": 8,
+   "mass": "838646/122073077"
+  },
+  {
+   "prefix": "1110X0XX0",
+   "free_weight": 7,
+   "mass": "60836/17439011"
+  },
+  {
+   "prefix": "1110X0XXX",
+   "free_weight": 6,
+   "mass": "16443814/366219231"
+  },
+  {
+   "prefix": "11X1100X0",
+   "free_weight": 8,
+   "mass": "62928332/1098657693"
+  },
+  {
+   "prefix": "11X1100XX",
+   "free_weight": 7,
+   "mass": "29162590/1098657693"
+  },
+  {
+   "prefix": "11X110X01",
+   "free_weight": 7,
+   "mass": "60496379/1098657693"
+  },
+  {
+   "prefix": "11X1XX110",
+   "free_weight": 7,
+   "mass": "4401668/1098657693"
+  },
+  {
+   "prefix": "11XX11000",
+   "free_weight": 8,
+   "mass": "2550517/122073077"
+  },
+  {
+   "prefix": "11XX1100X",
+   "free_weight": 7,
+   "mass": "58536932/366219231"
+  },
+  {
+   "prefix": "11XX1X110",
+   "free_weight": 7,
+   "mass": "106004147/1098657693"
+  },
+  {
+   "prefix": "11XX1XX11",
+   "free_weight": 6,
+   "mass": "40950992/1098657693"
+  },
+  {
+   "prefix": "11XXX1100",
+   "free_weight": 7,
+   "mass": "9131228/1098657693"
+  },
+  {
+   "prefix": "11XXX110X",
+   "free_weight": 6,
+   "mass": "4411081/122073077"
+  },
+  {
+   "prefix": "1X011X110",
+   "free_weight": 7,
+   "mass": "8598839/156951099"
+  },
+  {
+   "prefix": "1X01X1110",
+   "free_weight": 7,
+   "mass": "20338643/1098657693"
+  },
+  {
+   "prefix": "1X01X1X11",
+   "free_weight": 6,
+   "mass": "64980614/1098657693"
+  },
+  {
+   "prefix": "1X101110X",
+   "free_weight": 7,
+   "mass": "27775759/1098657693"
+  },
+  {
+   "prefix": "1X101X111",
+   "free_weight": 7,
+   "mass": "62257732/1098657693"
+  },
+  {
+   "prefix": "1X10X1110",
+   "free_weight": 7,
+   "mass": "45698246/1098657693"
+  },
+  {
+   "prefix": "1X1100X00",
+   "free_weight": 8,
+   "mass": "62929255/1098657693"
+  },
+  {
+   "prefix": "1X1100X01",
+   "free_weight": 7,
+   "mass": "95386265/1098657693"
+  },
+  {
+   "prefix": "1X1100X0X",
+   "free_weight": 7,
+   "mass": "1113256/1098657693"
+  },
+  {
+   "prefix": "1X1100XX0",
+   "free_weight": 7,
+   "mass": "15541070/366219231"
+  },
+  {
+   "prefix": "1X1100XXX",
+   "free_weight": 6,
+   "mass": "53286634/366219231"
+  },
+  {
+   "prefix": "1X110X0X0",
+   "free_weight": 7,
+   "mass": "7984328/1098657693"
+  },
+  {
+   "prefix": "1X1X100X0",
+   "free_weight": 7,
+   "mass": "2682434/366219231"
+  },
+  {
+   "prefix": "1X1X100XX",
+   "free_weight": 6,
+   "mass": "67817893/1098657693"
+  },
+  {
+   "prefix": "1X1X1100X",
+   "free_weight": 7,
+   "mass": "92266012/1098657693"
+  },
+  {
+   "prefix": "1X1XX1100",
+   "free_weight": 7,
+   "mass": "38886842/1098657693"
+  },
+  {
+   "prefix": "1X1XX110X",
+   "free_weight": 6,
+   "mass": "30623464/1098657693"
+  },
+  {
+   "prefix": "1X1XX1X10",
+   "free_weight": 6,
+   "mass": "9457354/366219231"
+  },
+  {
+   "prefix": "1X1XXX110",
+   "free_weight": 6,
+   "mass": "12292862/1098657693"
+  },
+  {
+   "prefix": "1XX011110",
+   "free_weight": 7,
+   "mass": "15496160/1098657693"
+  },
+  {
+   "prefix": "1XX011X11",
+   "free_weight": 6,
+   "mass": "1008488/366219231"
+  },
+  {
+   "prefix": "1XX110001",
+   "free_weight": 7,
+   "mass": "3278039/1098657693"
+  },
+  {
+   "prefix": "1XX1100X0",
+   "free_weight": 7,
+   "mass": "15550523/366219231"
+  },
+  {
+   "prefix": "1XX1100X1",
+   "free_weight": 6,
+   "mass": "9444896/1098657693"
+  },
+  {
+   "prefix": "1XX1100XX",
+   "free_weight": 6,
+   "mass": "26355983/1098657693"
+  },
+  {
+   "prefix": "1XX1X1000",
+   "free_weight": 7,
+   "mass": "3827543/1098657693"
+  },
+  {
+   "prefix": "1XX1X110X",
+   "free_weight": 6,
+   "mass": "10446829/122073077"
+  },
+  {
+   "prefix": "1XX1XX110",
+   "free_weight": 6,
+   "mass": "45408751/1098657693"
+  },
+  {
+   "prefix": "1XX1XX111",
+   "free_weight": 6,
+   "mass": "16031446/1098657693"
+  },
+  {
+   "prefix": "1XXX11000",
+   "free_weight": 7,
+   "mass": "15471104/1098657693"
+  },
+  {
+   "prefix": "1XXX1X110",
+   "free_weight": 6,
+   "mass": "9743374/1098657693"
+  },
+  {
+   "prefix": "1XXXX1110",
+   "free_weight": 6,
+   "mass": "2300123/156951099"
+  },
+  {
+   "prefix": "1XXXX1X11",
+   "free_weight": 5,
+   "mass": "4053715/52317033"
+  },
+  {
+   "prefix": "X01011X11",
+   "free_weight": 6,
+   "mass": "41493566/1098657693"
+  },
+  {
+   "prefix": "X011100XX",
+   "free_weight": 6,
+   "mass": "28963702/1098657693"
+  },
+  {
+   "prefix": "X0111XX11",
+   "free_weight": 6,
+   "mass": "36998987/1098657693"
+  },
+  {
+   "prefix": "X011X1100",
+   "free_weight": 7,
+   "mass": "11839822/1098657693"
+  },
+  {
+   "prefix": "X011X110X",
+   "free_weight": 6,
+   "mass": "100272770/1098657693"
+  },
+  {
+   "prefix": "X011XX110",
+   "free_weight": 6,
+   "mass": "4371973/156951099"
+  },
+  {
+   "prefix": "X011XX111",
+   "free_weight": 6,
+   "mass": "15900797/366219231"
+  },
+  {
+   "prefix": "X01X11000",
+   "free_weight": 7,
+   "mass": "86424647/1098657693"
+  },
+  {
+   "prefix": "X01X1100X",
+   "free_weight": 6,
+   "mass": "115225189/1098657693"
+  },
+  {
+   "prefix": "X01X1110X",
+   "free_weight": 6,
+   "mass": "38348585/1098657693"
+  },
+  {
+   "prefix": "X01X1X110",
+   "free_weight": 6,
+   "mass": "14296853/156951099"
+  },
+  {
+   "prefix": "X0X11XX11",
+   "free_weight": 5,
+   "mass": "1898689/1098657693"
+  },
+  {
+   "prefix": "X10000100",
+   "free_weight": 8,
+   "mass": "24996364/1098657693"
+  },
+  {
+   "prefix": "X100010X0",
+   "free_weight": 7,
+   "mass": "27768574/1098657693"
+  },
+  {
+   "prefix": "X1000X010",
+   "free_weight": 7,
+   "mass": "45434/17439011"
+  },
+  {
+   "prefix": "X1000X01X",
+   "free_weight": 6,
+   "mass": "12763840/366219231"
+  },
+  {
+   "prefix": "X100X0010",
+   "free_weight": 7,
+   "mass": "42050828/1098657693"
+  },
+  {
+   "prefix": "X100X0011",
+   "free_weight": 6,
+   "mass": "12522269/1098657693"
+  },
+  {
+   "prefix": "X100X001X",
+   "free_weight": 6,
+   "mass": "100314338/1098657693"
+  },
+  {
+   "prefix": "X100X0100",
+   "free_weight": 7,
+   "mass": "4645315/1098657693"
+  },
+  {
+   "prefix": "X100X0101",
+   "free_weight": 6,
+   "mass": "22245932/366219231"
+  },
+  {
+   "prefix": "X100X010X",
+   "free_weight": 6,
+   "mass": "73064650/1098657693"
+  },
+  {
+   "prefix": "X100X0X01",
+   "free_weight": 6,
+   "mass": "13220716/1098657693"
+  },
+  {
+   "prefix": "X100X0XX0",
+   "free_weight": 6,
+   "mass": "94001402/1098657693"
+  },
+  {
+   "prefix": "X100X0XXX",
+   "free_weight": 5,
+   "mass": "140110949/1098657693"
+  },
+  {
+   "prefix": "X100XX001",
+   "free_weight": 6,
+   "mass": "15618727/366219231"
+  },
+  {
+   "prefix": "X100XX0X0",
+   "free_weight": 6,
+   "mass": "30609164/1098657693"
+  },
+  {
+   "prefix": "X100XX0X1",
+   "free_weight": 5,
+   "mass": "16004801/1098657693"
+  },
+  {
+   "prefix": "X100XXX00",
+   "free_weight": 6,
+   "mass": "39719965/1098657693"
+  },
+  {
+   "prefix": "X10101111",
+   "free_weight": 7,
+   "mass": "8319643/1098657693"
+  },
+  {
+   "prefix": "X101X110X",
+   "free_weight": 6,
+   "mass": "8114342/122073077"
+  },
+  {
+   "prefix": "X101X1110",
+   "free_weight": 7,
+   "mass": "44529410/1098657693"
+  },
+  {
+   "prefix": "X10X11X11",
+   "free_weight": 6,
+   "mass": "3023120/52317033"
+  },
+  {
+   "prefix": "X10X1X110",
+   "free_weight": 6,
+   "mass": "940403/156951099"
+  },
+  {
+   "prefix": "X1100X01X",
+   "free_weight": 6,
+   "mass": "115220989/1098657693"
+  },
+  {
+   "prefix": "X1100X0X0",
+   "free_weight": 7,
+   "mass": "30733705/366219231"
+  },
+  {
+   "prefix": "X1100X0X1",
+   "free_weight": 6,
+   "mass": "33574715/1098657693"
+  },
+  {
+   "prefix": "X1100X0XX",
+   "free_weight": 6,
+   "mass": "4812874/1098657693"
+  },
+  {
+   "prefix": "X1100XX00",
+   "free_weight": 7,
+   "mass": "58540696/366219231"
+  },
+  {
+   "prefix": "X1100XX01",
+   "free_weight": 6,
+   "mass": "24674114/366219231"
+  },
+  {
+   "prefix": "X1100XXXX",
+   "free_weight": 5,
+   "mass": "69020998/1098657693"
+  },
+  {
+   "prefix": "X111XX111",
+   "free_weight": 7,
+   "mass": "12757568/366219231"
+  },
+  {
+   "prefix": "X11X1XX11",
+   "free_weight": 6,
+   "mass": "4376437/1098657693"
+  },
+  {
+   "prefix": "X1X100X01",
+   "free_weight": 6,
+   "mass": "26270393/1098657693"
+  },
+  {
+   "prefix": "X1X1100X0",
+   "free_weight": 7,
+   "mass": "1200308/1098657693"
+  },
+  {
+   "prefix": "X1X1100X1",
+   "free_weight": 6,
+   "mass": "115230385/1098657693"
+  },
+  {
+   "prefix": "X1X1XX111",
+   "free_weight": 6,
+   "mass": "914584/1098657693"
+  },
+  {
+   "prefix": "X1XX01111",
+   "free_weight": 6,
+   "mass": "13263508/1098657693"
+  },
+  {
+   "prefix": "X1XX1X110",
+   "free_weight": 6,
+   "mass": "107200070/1098657693"
+  },
+  {
+   "prefix": "X1XX1X111",
+   "free_weight": 6,
+   "mass": "4244474/1098657693"
+  },
+  {
+   "prefix": "X1XX1XX11",
+   "free_weight": 5,
+   "mass": "36203506/1098657693"
+  },
+  {
+   "prefix": "XX011X110",
+   "free_weight": 6,
+   "mass": "10611518/122073077"
+  },
+  {
+   "prefix": "XX0X11110",
+   "free_weight": 6,
+   "mass": "8464741/1098657693"
+  },
+  {
+   "prefix": "XX110001X",
+   "free_weight": 6,
+   "mass": "3223688/122073077"
+  },
+  {
+   "prefix": "XX11000X1",
+   "free_weight": 6,
+   "mass": "11106374/1098657693"
+  },
+  {
+   "prefix": "XX1100X00",
+   "free_weight": 7,
+   "mass": "9723113/366219231"
+  },
+  {
+   "prefix": "XX1100X01",
+   "free_weight": 6,
+   "mass": "1562257/52317033"
+  },
+  {
+   "prefix": "XX1100XX0",
+   "free_weight": 6,
+   "mass": "26341306/1098657693"
+  },
+  {
+   "prefix": "XX1100XXX",
+   "free_weight": 5,
+   "mass": "13546136/366219231"
+  },
+  {
+   "prefix": "XX110X0X0",
+   "free_weight": 6,
+   "mass": "67831712/1098657693"
+  },
+  {
+   "prefix": "XX1X1100X",
+   "free_weight": 6,
+   "mass": "4757939/1098657693"
+  },
+  {
+   "prefix": "XX1XX1100",
+   "free_weight": 6,
+   "mass": "45595430/1098657693"
+  },
+  {
+   "prefix": "XX1XX1X10",
+   "free_weight": 5,
+   "mass": "4046108/122073077"
+  },
+  {
+   "prefix": "XXX011X11",
+   "free_weight": 5,
+   "mass": "3661543/122073077"
+  },
+  {
+   "prefix": "XXX10X111",
+   "free_weight": 5,
+   "mass": "1138742/122073077"
+  },
+  {
+   "prefix": "XXX110001",
+   "free_weight": 6,
+   "mass": "968818/366219231"
+  },
+  {
+   "prefix": "XXX1100X0",
+   "free_weight": 6,
+   "mass": "159792439/1098657693"
+  },
+  {
+   "prefix": "XXX1100X1",
+   "free_weight": 5,
+   "mass": "39167714/1098657693"
+  },
+  {
+   "prefix": "XXX1100XX",
+   "free_weight": 5,
+   "mass": "40609897/1098657693"
+  },
+  {
+   "prefix": "XXX1X1000",
+   "free_weight": 6,
+   "mass": "16456192/366219231"
+  },
+  {
+   "prefix": "XXX1X110X",
+   "free_weight": 5,
+   "mass": "46711606/366219231"
+  },
+  {
+   "prefix": "XXX1XX111",
+   "free_weight": 5,
+   "mass": "3671975/156951099"
+  },
+  {
+   "prefix": "XXXX01111",
+   "free_weight": 5,
+   "mass": "5814589/1098657693"
+  },
+  {
+   "prefix": "XXXX11000",
+   "free_weight": 6,
+   "mass": "51731719/1098657693"
+  },
+  {
+   "prefix": "XXXX11001",
+   "free_weight": 5,
+   "mass": "246961/122073077"
+  },
+  {
+   "prefix": "XXXX1100X",
+   "free_weight": 5,
+   "mass": "69028235/1098657693"
+  },
+  {
+   "prefix": "XXXX1X110",
+   "free_weight": 5,
+   "mass": "10836685/1098657693"
+  },
+  {
+   "prefix": "XXXX1X111",
+   "free_weight": 5,
+   "mass": "12568873/1098657693"
+  },
+  {
+   "prefix": "XXXXX1X11",
+   "free_weight": 4,
+   "mass": "51594293/1098657693"
+  }
+ ],
+ "DO_NOT_READ_THE_MASS_AS_A_MEASUREMENT": "exact_total_mass is a safe LOWER bound on tau*, not tau* itself: masses were rounded down and the column set offered to the LP was capped, both of which can only weaken it. ceil of it is what proves K = r.",
+ "independently_checked_by": [
+  "verify_ceiling_certificate.py",
+  "verify_F_independent.py"
+ ]
+}

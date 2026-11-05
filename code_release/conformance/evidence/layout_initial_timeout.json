@@ -1,0 +1,11 @@
+{
+  "driver_command": "nice -n 10 /usr/local/bin/python3 -I - (recorded inline driver invoking check_sentence.py)",
+  "driver_exit_code": 1,
+  "child_command": [
+    "/usr/local/bin/python3",
+    "-I",
+    "<repo>/HOSTILE_REVIEW_2026-11-01/R19_conformance_standard/conformance/check_sentence.py"
+  ],
+  "child_result": "timeout; no normal exit code",
+  "note": "initial driver timeout interrupted layout validation; later recorded run repeats the full check"
+}

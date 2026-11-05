@@ -1,0 +1,13 @@
+{
+  "byte_offset_0based": 163,
+  "changed_byte": 67,
+  "changed_bytes": 1,
+  "changed_sha256": "946b0596cbc3f6ba2abfb0c6353470e0bf76f39d8aff3566b443c20afe72c5a3",
+  "corrupted_verifier_exit_code": 1,
+  "input": "inputs/corrected_only_alignments.part000.tsv",
+  "original_byte": 71,
+  "original_sha256": "e763196cfc8e4ef39479efcdf325aa370a44b1d09304d52d4130fa1a2b087fc0",
+  "rejected_before_scoring": true,
+  "status": "PASS",
+  "unmodified_verifier_exit_code": 0
+}

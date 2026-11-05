@@ -1,0 +1,13 @@
+{
+  "by_held_by": {
+    "-": 34,
+    "dnabulge21+ungapped20": 4587,
+    "ungapped20": 6267
+  },
+  "by_in_published_files": {
+    "no": 34,
+    "yes": 10854
+  },
+  "definition": "Strip gaps/padding, remove final three PAM bases, and test contiguous 19-base protospacer windows for the same 20-base guide spacer.",
+  "rows": 10888
+}

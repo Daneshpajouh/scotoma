@@ -1,0 +1,37 @@
+\paperheading{Discussion and reproducibility}
+\label{sec:discussion}
+\begin{table}[t]
+\centering
+\caption{Evidence spine: headline claims and replay routes. Paths are relative to
+\texttt{code\_release/}; T = \texttt{tool\_audit}, F = \texttt{T/fieldlevel},
+I = \texttt{T/independent}.}
+\label{tab:evidence-spine}
+\small\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{0.98}
+\begin{tabular}{@{}p{0.33\linewidth}p{0.22\linewidth}p{0.41\linewidth}@{}}
+\toprule
+\raggedright Claim &\raggedright Evidence kind &\raggedright Where to replay \tabularnewline
+\midrule
+\raggedright $K=r$, $n\ge20$: $m\le5$ here, $m\le9$ in~\citep{companion_reach} &\raggedright Proof &\raggedright \Cref{thm:general}; \path{verify_transversal_lengths.py} \tabularnewline
+\raggedright Unique sound minimum, $m\le n-3$; deficit for $1\le b\le n-2$ &\raggedright Proof &\raggedright Theorem~\ref{thm:sound}, Proposition~\ref{prop:deficit}, in body \tabularnewline
+\raggedright Wrapper $98/110$, parser $73/110$, Rust fixture $1{,}561/1{,}634$, CRISPRseek $1{,}491/1{,}634$ &\raggedright Executed tool runs; version-3 tags static &\raggedright \path{T/REPORT.md}; \path{F/lead_cli_check/}; \path{T/v3_tags/}; \path{crisprseek_executed/} \tabularnewline
+\raggedright $583/260$; $129/40$ losses (alt.\ $148/43$) &\raggedright Exhaustive; independent row agreement &\raggedright \path{I/schema4_full_RESULT.md}; appendix \tabularnewline
+\raggedright sg1617 $4{,}414\to4{,}778$ ($364$ corrected-only); GRCh38 primary $34{,}941$, none reverse &\raggedright Executed assembly runs &\raggedright \path{clinical_guide/}; \path{genome_endtoend/} \tabularnewline
+\raggedright Tracking-seq2 five loci, exclusive pos.~$20$ @4 under NGG &\raggedright Verified cellular &\raggedright \path{cellular/verify_cellular_witnesses.py} \tabularnewline
+\bottomrule
+\end{tabular}
+\end{table}
+The supplementary measurements quantify five enumeration choices; their two-order
+spread is measured, not inferred from the covering theorem. A nomination should
+declare assembly and version, mismatch threshold, gap and PAM policy, and number
+nominated with number assayed \citep{kalter2025offtarget,fda2026ngs}.
+Bulge and mismatch scope makes recall an upper bound, this panel lacks
+exchangeability, and its assay counts establish no population effect or safety guarantee.
+The companion retains the unrestricted fractional boundaries \citep{companion_reach}.
+
+\paragraph{Interpreting a missing nomination.}
+Guide and emitter fix the pattern deficit; genome and budget determine lost loci. The annotation
+and single-implementation mismatch-matched read-depth comparisons detect no separation on the
+tested covariates, and neither rank omitted sites nor establish equivalence; a negative assay on
+nominated candidates cannot account for un-nominated ones.
+
+\paragraph{Data availability.} Code, certificates and every checker named above are at \repourl. The external CHANGE-seq table is not redistributed here; its archive, digest and replay commands are in the appendix \citep{zw4_reconciliation_2026}.

@@ -1,0 +1,67 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(<repo>/HOSTILE_REVIEW_2026
+-11-01/R15_paperA_aligned_scores/published_model_aligned_scores/layout/sentence
+_layout.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/lmodern.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty)
+(<home>/Library/texmf/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/microtype/microtype-pdftex.d
+ef) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/microtype/microtype.cfg)
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/t1lmr.fd)
+(<home>/Library/texmf/tex/latex/l3backend/l3backend-pdftex.def)
+(<repo>/HOSTILE_REVIEW_2026
+-11-01/R15_paperA_aligned_scores/published_model_aligned_scores/layout/sentence
+_layout.aux)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/ot1lmr.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/omllmm.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/omslmsy.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/omxlmex.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+PROPOSED_LINES=3
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/t1lmtt.fd)
+REMOVED_LINES=5
+
+[1{/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/
+usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local
+/texlive/2025basic/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/
+2025basic/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+(<repo>/HOSTILE_REVIEW_2026
+-11-01/R15_paperA_aligned_scores/published_model_aligned_scores/layout/sentence
+_layout.aux) )</usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lm
+mi10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmr10.p
+fb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on <repo>/HO
+STILE_REVIEW_2026-11-01/R15_paperA_aligned_scores/published_model_aligned_score
+s/layout/sentence_layout.pdf (1 page, 59664 bytes).
+Transcript written on <home>/Desktop/Projects/PhD/_supervisor/RECOMB_202
+7/HOSTILE_REVIEW_2026-11-01/R15_paperA_aligned_scores/published_model_aligned_s
+cores/layout/sentence_layout.log.

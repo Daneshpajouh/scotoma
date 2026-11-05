@@ -1,0 +1,17 @@
+target	distance_to_family	distance_to_cover	in_union	covered
+AA	0	0	1	1
+AC	0	0	1	1
+AG	0	0	1	1
+AT	0	0	1	1
+CA	0	1	1	1
+CC	1	1	1	1
+CG	1	1	1	1
+CT	1	1	1	1
+GA	0	1	1	1
+GC	1	1	1	1
+GG	1	1	1	1
+GT	1	1	1	1
+TA	0	1	1	1
+TC	1	1	1	1
+TG	1	1	1	1
+TT	1	1	1	1

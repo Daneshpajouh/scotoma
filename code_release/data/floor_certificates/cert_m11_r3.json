@@ -1,0 +1,53 @@
+{
+ "N": 19,
+ "m": 11,
+ "r": 3,
+ "free_length": 17,
+ "status": "PROVED",
+ "criterion": "K >= ceil(LP*); a feasible dual of mass > r-1 proves K = r",
+ "restriction": "none; the dual support carries non-binary active prefixes",
+ "exact_total_mass": "50999966/17531243",
+ "exact_total_mass_float": 2.9090901312588047,
+ "ceiling": 3,
+ "exact_max_ball_mass": "1",
+ "max_ball_at": [
+  "10",
+  1
+ ],
+ "centre_classes_verified": 162,
+ "centre_classes_note": "ALL (active-prefix type, free weight) classes, 3^2 x 18. Not the 2^2 binary-prefix classes: this dual has non-binary support, so the binary reduction is unavailable and was not used.",
+ "support_orbits": 5,
+ "rounding": "solver masses rounded DOWN to denominator 1000000 (preserves feasibility), then scaled by the exact maximum load 17531243/17000000 so the released dual is feasible everywhere with maximum ball mass exactly 1",
+ "dual": [
+  {
+   "prefix": "00",
+   "free_weight": 11,
+   "mass": "14834132/17531243"
+  },
+  {
+   "prefix": "0X",
+   "free_weight": 10,
+   "mass": "2697101/17531243"
+  },
+  {
+   "prefix": "10",
+   "free_weight": 11,
+   "mass": "15937500/17531243"
+  },
+  {
+   "prefix": "11",
+   "free_weight": 11,
+   "mass": "2697101/17531243"
+  },
+  {
+   "prefix": "X1",
+   "free_weight": 10,
+   "mass": "14834132/17531243"
+  }
+ ],
+ "DO_NOT_READ_THE_MASS_AS_A_MEASUREMENT": "exact_total_mass is a safe LOWER bound on tau*, not tau* itself: masses were rounded down and the column set offered to the LP was capped, both of which can only weaken it. ceil of it is what proves K = r.",
+ "independently_checked_by": [
+  "verify_ceiling_certificate.py",
+  "verify_F_independent.py"
+ ]
+}

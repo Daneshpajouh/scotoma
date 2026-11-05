@@ -1,0 +1,1149 @@
+{
+  "all": {
+    "above_3_over_1000": 9046,
+    "equal_3_over_1000": 0,
+    "fraction_above_exact": "4523/5444",
+    "histogram": [
+      {
+        "lower": "0",
+        "rows": 68,
+        "upper": "0.000001",
+        "upper_inclusive": false
+      },
+      {
+        "lower": "0.000001",
+        "rows": 406,
+        "upper": "0.0001",
+        "upper_inclusive": false
+      },
+      {
+        "lower": "0.0001",
+        "rows": 748,
+        "upper": "0.001",
+        "upper_inclusive": false
+      },
+      {
+        "lower": "0.001",
+        "rows": 620,
+        "upper": "0.003",
+        "upper_inclusive": false
+      },
+      {
+        "lower": "0.003",
+        "rows": 967,
+        "upper": "0.01",
+        "upper_inclusive": false
+      },
+      {
+        "lower": "0.01",
+        "rows": 2059,
+        "upper": "0.1",
+        "upper_inclusive": false
+      },
+      {
+        "lower": "0.1",
+        "rows": 831,
+        "upper": "0.5",
+        "upper_inclusive": false
+      },
+      {
+        "lower": "0.5",
+        "rows": 5189,
+        "upper": "1",
+        "upper_inclusive": true
+      }
+    ],
+    "mean": 0.4974503328136292,
+    "nearest_cutoff_distance": 8.606169728783281e-07,
+    "percent_above": 83.08229243203527,
+    "population_sd": 0.47733981538801823,
+    "quantiles_linear": {
+      "0": 4.2428581272551963e-10,
+      "0.01": 2.793534049394213e-06,
+      "0.05": 0.0001464322896242503,
+      "0.25": 0.009144694740084572,
+      "0.5": 0.26042616739141594,
+      "0.75": 0.9999999999999989,
+      "0.95": 1.0,
+      "0.99": 1.0,
+      "1": 1.0
+    },
+    "rows": 10888
+  },
+  "by_guide": {
+    "g00": {
+      "above_3_over_1000": 1171,
+      "equal_3_over_1000": 0,
+      "fraction_above_exact": "1171/1432",
+      "histogram": [
+        {
+          "lower": "0",
+          "rows": 0,
+          "upper": "0.000001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.000001",
+          "rows": 21,
+          "upper": "0.0001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.0001",
+          "rows": 121,
+          "upper": "0.001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.001",
+          "rows": 119,
+          "upper": "0.003",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.003",
+          "rows": 163,
+          "upper": "0.01",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.01",
+          "rows": 210,
+          "upper": "0.1",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.1",
+          "rows": 15,
+          "upper": "0.5",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.5",
+          "rows": 783,
+          "upper": "1",
+          "upper_inclusive": true
+        }
+      ],
+      "mean": 0.5535304034148235,
+      "nearest_cutoff_distance": 1.564856400401461e-05,
+      "percent_above": 81.77374301675978,
+      "population_sd": 0.4907147431640114,
+      "quantiles_linear": {
+        "0": 9.311890938805497e-06,
+        "0.01": 7.782919340374897e-05,
+        "0.05": 0.0003577808243901583,
+        "0.25": 0.006511543975456232,
+        "0.5": 0.9999999999998805,
+        "0.75": 0.9999999999999984,
+        "0.95": 1.0,
+        "0.99": 1.0,
+        "1": 1.0
+      },
+      "rows": 1432
+    },
+    "g01": {
+      "above_3_over_1000": 1547,
+      "equal_3_over_1000": 0,
+      "fraction_above_exact": "1547/2120",
+      "histogram": [
+        {
+          "lower": "0",
+          "rows": 62,
+          "upper": "0.000001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.000001",
+          "rows": 195,
+          "upper": "0.0001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.0001",
+          "rows": 165,
+          "upper": "0.001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.001",
+          "rows": 151,
+          "upper": "0.003",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.003",
+          "rows": 279,
+          "upper": "0.01",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.01",
+          "rows": 636,
+          "upper": "0.1",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.1",
+          "rows": 228,
+          "upper": "0.5",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.5",
+          "rows": 404,
+          "upper": "1",
+          "upper_inclusive": true
+        }
+      ],
+      "mean": 0.21469245833170542,
+      "nearest_cutoff_distance": 1.190595942005548e-05,
+      "percent_above": 72.97169811320755,
+      "population_sd": 0.3620821015904662,
+      "quantiles_linear": {
+        "0": 4.2428581272551963e-10,
+        "0.01": 6.532691738974756e-08,
+        "0.05": 3.691132408627603e-06,
+        "0.25": 0.0022573219485662044,
+        "0.5": 0.02203439621650887,
+        "0.75": 0.1753071765650608,
+        "0.95": 0.999999988086962,
+        "0.99": 0.9999999999981575,
+        "1": 0.9999999999999662
+      },
+      "rows": 2120
+    },
+    "g02": {
+      "above_3_over_1000": 600,
+      "equal_3_over_1000": 0,
+      "fraction_above_exact": "150/167",
+      "histogram": [
+        {
+          "lower": "0",
+          "rows": 0,
+          "upper": "0.000001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.000001",
+          "rows": 2,
+          "upper": "0.0001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.0001",
+          "rows": 26,
+          "upper": "0.001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.001",
+          "rows": 40,
+          "upper": "0.003",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.003",
+          "rows": 85,
+          "upper": "0.01",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.01",
+          "rows": 316,
+          "upper": "0.1",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.1",
+          "rows": 197,
+          "upper": "0.5",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.5",
+          "rows": 2,
+          "upper": "1",
+          "upper_inclusive": true
+        }
+      ],
+      "mean": 0.08650860427244494,
+      "nearest_cutoff_distance": 6.112382824403175e-05,
+      "percent_above": 89.82035928143712,
+      "population_sd": 0.10515824272753423,
+      "quantiles_linear": {
+        "0": 2.5618212717314453e-05,
+        "0.01": 0.00027177697451374796,
+        "0.05": 0.0013216209368052453,
+        "0.25": 0.011081059404886393,
+        "0.5": 0.045047585669671514,
+        "0.75": 0.11889679985329625,
+        "0.95": 0.32634451778930657,
+        "0.99": 0.4353579311381211,
+        "1": 0.518151622128419
+      },
+      "rows": 668
+    },
+    "g03": {
+      "above_3_over_1000": 1050,
+      "equal_3_over_1000": 0,
+      "fraction_above_exact": "35/38",
+      "histogram": [
+        {
+          "lower": "0",
+          "rows": 0,
+          "upper": "0.000001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.000001",
+          "rows": 10,
+          "upper": "0.0001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.0001",
+          "rows": 38,
+          "upper": "0.001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.001",
+          "rows": 42,
+          "upper": "0.003",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.003",
+          "rows": 83,
+          "upper": "0.01",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.01",
+          "rows": 291,
+          "upper": "0.1",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.1",
+          "rows": 136,
+          "upper": "0.5",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.5",
+          "rows": 540,
+          "upper": "1",
+          "upper_inclusive": true
+        }
+      ],
+      "mean": 0.5091679621142615,
+      "nearest_cutoff_distance": 1.2395977327714289e-06,
+      "percent_above": 92.10526315789474,
+      "population_sd": 0.46975369761596286,
+      "quantiles_linear": {
+        "0": 1.3491791546682475e-05,
+        "0.01": 0.00016192848719557326,
+        "0.05": 0.0010955361627833689,
+        "0.25": 0.02915091132377277,
+        "0.5": 0.2737120945002678,
+        "0.75": 1.0,
+        "0.95": 1.0,
+        "0.99": 1.0,
+        "1": 1.0
+      },
+      "rows": 1140
+    },
+    "g04": {
+      "above_3_over_1000": 707,
+      "equal_3_over_1000": 0,
+      "fraction_above_exact": "707/766",
+      "histogram": [
+        {
+          "lower": "0",
+          "rows": 0,
+          "upper": "0.000001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.000001",
+          "rows": 2,
+          "upper": "0.0001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.0001",
+          "rows": 20,
+          "upper": "0.001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.001",
+          "rows": 37,
+          "upper": "0.003",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.003",
+          "rows": 69,
+          "upper": "0.01",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.01",
+          "rows": 177,
+          "upper": "0.1",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.1",
+          "rows": 108,
+          "upper": "0.5",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.5",
+          "rows": 353,
+          "upper": "1",
+          "upper_inclusive": true
+        }
+      ],
+      "mean": 0.49775246870477624,
+      "nearest_cutoff_distance": 4.180723821784027e-06,
+      "percent_above": 92.2976501305483,
+      "population_sd": 0.45980285713929303,
+      "quantiles_linear": {
+        "0": 6.308377578504466e-05,
+        "0.01": 0.00037164038862539555,
+        "0.05": 0.0018547862815733885,
+        "0.25": 0.025293475267226417,
+        "0.5": 0.29755258814146135,
+        "0.75": 0.9999999999999998,
+        "0.95": 1.0,
+        "0.99": 1.0,
+        "1": 1.0
+      },
+      "rows": 766
+    },
+    "g05": {
+      "above_3_over_1000": 362,
+      "equal_3_over_1000": 0,
+      "fraction_above_exact": "181/302",
+      "histogram": [
+        {
+          "lower": "0",
+          "rows": 1,
+          "upper": "0.000001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.000001",
+          "rows": 51,
+          "upper": "0.0001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.0001",
+          "rows": 117,
+          "upper": "0.001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.001",
+          "rows": 73,
+          "upper": "0.003",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.003",
+          "rows": 84,
+          "upper": "0.01",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.01",
+          "rows": 80,
+          "upper": "0.1",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.1",
+          "rows": 7,
+          "upper": "0.5",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.5",
+          "rows": 191,
+          "upper": "1",
+          "upper_inclusive": true
+        }
+      ],
+      "mean": 0.3206394142332636,
+      "nearest_cutoff_distance": 8.606169728783281e-07,
+      "percent_above": 59.93377483443709,
+      "population_sd": 0.4595049518207485,
+      "quantiles_linear": {
+        "0": 3.817989744008395e-09,
+        "0.01": 9.100926320222602e-06,
+        "0.05": 5.5072757721617896e-05,
+        "0.25": 0.0007760568561100583,
+        "0.5": 0.006362033125285127,
+        "0.75": 0.9999999894548992,
+        "0.95": 0.9999999999996275,
+        "0.99": 0.9999999999999922,
+        "1": 0.9999999999999989
+      },
+      "rows": 604
+    },
+    "g06": {
+      "above_3_over_1000": 426,
+      "equal_3_over_1000": 0,
+      "fraction_above_exact": "71/85",
+      "histogram": [
+        {
+          "lower": "0",
+          "rows": 0,
+          "upper": "0.000001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.000001",
+          "rows": 16,
+          "upper": "0.0001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.0001",
+          "rows": 31,
+          "upper": "0.001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.001",
+          "rows": 37,
+          "upper": "0.003",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.003",
+          "rows": 42,
+          "upper": "0.01",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.01",
+          "rows": 91,
+          "upper": "0.1",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.1",
+          "rows": 24,
+          "upper": "0.5",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.5",
+          "rows": 269,
+          "upper": "1",
+          "upper_inclusive": true
+        }
+      ],
+      "mean": 0.5416428476001499,
+      "nearest_cutoff_distance": 5.3633375429695496e-05,
+      "percent_above": 83.52941176470588,
+      "population_sd": 0.48261024401772207,
+      "quantiles_linear": {
+        "0": 9.443116745902738e-06,
+        "0.01": 3.731258089650113e-05,
+        "0.05": 0.0004129377908460832,
+        "0.25": 0.01052079915758825,
+        "0.5": 0.9999874480329531,
+        "0.75": 0.9999999999998074,
+        "0.95": 0.9999999999999991,
+        "0.99": 1.0,
+        "1": 1.0
+      },
+      "rows": 510
+    },
+    "g07": {
+      "above_3_over_1000": 586,
+      "equal_3_over_1000": 0,
+      "fraction_above_exact": "293/305",
+      "histogram": [
+        {
+          "lower": "0",
+          "rows": 0,
+          "upper": "0.000001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.000001",
+          "rows": 0,
+          "upper": "0.0001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.0001",
+          "rows": 8,
+          "upper": "0.001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.001",
+          "rows": 16,
+          "upper": "0.003",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.003",
+          "rows": 36,
+          "upper": "0.01",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.01",
+          "rows": 129,
+          "upper": "0.1",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.1",
+          "rows": 92,
+          "upper": "0.5",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.5",
+          "rows": 329,
+          "upper": "1",
+          "upper_inclusive": true
+        }
+      ],
+      "mean": 0.5803544098938903,
+      "nearest_cutoff_distance": 7.269572190042966e-06,
+      "percent_above": 96.06557377049181,
+      "population_sd": 0.45600485897810455,
+      "quantiles_linear": {
+        "0": 0.00043368592190970293,
+        "0.01": 0.0009185382864078879,
+        "0.05": 0.003935102689310127,
+        "0.25": 0.05198932734411755,
+        "0.5": 0.9999999999999639,
+        "0.75": 0.9999999999999998,
+        "0.95": 1.0,
+        "0.99": 1.0,
+        "1": 1.0
+      },
+      "rows": 610
+    },
+    "g08": {
+      "above_3_over_1000": 335,
+      "equal_3_over_1000": 0,
+      "fraction_above_exact": "335/643",
+      "histogram": [
+        {
+          "lower": "0",
+          "rows": 5,
+          "upper": "0.000001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.000001",
+          "rows": 89,
+          "upper": "0.0001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.0001",
+          "rows": 157,
+          "upper": "0.001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.001",
+          "rows": 57,
+          "upper": "0.003",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.003",
+          "rows": 52,
+          "upper": "0.01",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.01",
+          "rows": 5,
+          "upper": "0.1",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.1",
+          "rows": 2,
+          "upper": "0.5",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.5",
+          "rows": 276,
+          "upper": "1",
+          "upper_inclusive": true
+        }
+      ],
+      "mean": 0.42719602793079975,
+      "nearest_cutoff_distance": 2.8705873235837397e-05,
+      "percent_above": 52.099533437013996,
+      "population_sd": 0.49032290237041265,
+      "quantiles_linear": {
+        "0": 1.1453999759576299e-09,
+        "0.01": 1.6079064124133447e-06,
+        "0.05": 1.2594273520995638e-05,
+        "0.25": 0.000311246823196525,
+        "0.5": 0.0039968451646947714,
+        "0.75": 0.9999999977977276,
+        "0.95": 0.9999999999998634,
+        "0.99": 0.999999999999995,
+        "1": 0.9999999999999984
+      },
+      "rows": 643
+    },
+    "g11": {
+      "above_3_over_1000": 361,
+      "equal_3_over_1000": 0,
+      "fraction_above_exact": "1",
+      "histogram": [
+        {
+          "lower": "0",
+          "rows": 0,
+          "upper": "0.000001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.000001",
+          "rows": 0,
+          "upper": "0.0001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.0001",
+          "rows": 0,
+          "upper": "0.001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.001",
+          "rows": 0,
+          "upper": "0.003",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.003",
+          "rows": 0,
+          "upper": "0.01",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.01",
+          "rows": 0,
+          "upper": "0.1",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.1",
+          "rows": 0,
+          "upper": "0.5",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.5",
+          "rows": 361,
+          "upper": "1",
+          "upper_inclusive": true
+        }
+      ],
+      "mean": 0.9999999997123501,
+      "nearest_cutoff_distance": 0.9969999598828557,
+      "percent_above": 100.0,
+      "population_sd": 2.7344401729662466e-09,
+      "quantiles_linear": {
+        "0": 0.9999999598828557,
+        "0.01": 0.9999999982966631,
+        "0.05": 0.999999999758707,
+        "0.25": 0.999999999990975,
+        "0.5": 0.9999999999994684,
+        "0.75": 0.9999999999999694,
+        "0.95": 0.9999999999999989,
+        "0.99": 1.0,
+        "1": 1.0
+      },
+      "rows": 361
+    },
+    "g12": {
+      "above_3_over_1000": 191,
+      "equal_3_over_1000": 0,
+      "fraction_above_exact": "191/192",
+      "histogram": [
+        {
+          "lower": "0",
+          "rows": 0,
+          "upper": "0.000001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.000001",
+          "rows": 0,
+          "upper": "0.0001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.0001",
+          "rows": 1,
+          "upper": "0.001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.001",
+          "rows": 0,
+          "upper": "0.003",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.003",
+          "rows": 0,
+          "upper": "0.01",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.01",
+          "rows": 1,
+          "upper": "0.1",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.1",
+          "rows": 1,
+          "upper": "0.5",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.5",
+          "rows": 189,
+          "upper": "1",
+          "upper_inclusive": true
+        }
+      ],
+      "mean": 0.9843211081758039,
+      "nearest_cutoff_distance": 0.0027214049949025776,
+      "percent_above": 99.47916666666667,
+      "population_sd": 0.11199619669076823,
+      "quantiles_linear": {
+        "0": 0.00027859500509742235,
+        "0.01": 0.3940616303810788,
+        "0.05": 0.9991515062722707,
+        "0.25": 0.9999999104900072,
+        "0.5": 0.9999999995753129,
+        "0.75": 0.9999999999899836,
+        "0.95": 0.9999999999997344,
+        "0.99": 0.9999999999999656,
+        "1": 0.9999999999999971
+      },
+      "rows": 192
+    },
+    "g14": {
+      "above_3_over_1000": 1492,
+      "equal_3_over_1000": 0,
+      "fraction_above_exact": "1",
+      "histogram": [
+        {
+          "lower": "0",
+          "rows": 0,
+          "upper": "0.000001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.000001",
+          "rows": 0,
+          "upper": "0.0001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.0001",
+          "rows": 0,
+          "upper": "0.001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.001",
+          "rows": 0,
+          "upper": "0.003",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.003",
+          "rows": 0,
+          "upper": "0.01",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.01",
+          "rows": 0,
+          "upper": "0.1",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.1",
+          "rows": 0,
+          "upper": "0.5",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.5",
+          "rows": 1492,
+          "upper": "1",
+          "upper_inclusive": true
+        }
+      ],
+      "mean": 0.9999999999999988,
+      "nearest_cutoff_distance": 0.996999999999658,
+      "percent_above": 100.0,
+      "population_sd": 1.203637178563518e-14,
+      "quantiles_linear": {
+        "0": 0.999999999999658,
+        "0.01": 0.9999999999999759,
+        "0.05": 0.9999999999999976,
+        "0.25": 0.9999999999999998,
+        "0.5": 1.0,
+        "0.75": 1.0,
+        "0.95": 1.0,
+        "0.99": 1.0,
+        "1": 1.0
+      },
+      "rows": 1492
+    },
+    "g15": {
+      "above_3_over_1000": 218,
+      "equal_3_over_1000": 0,
+      "fraction_above_exact": "109/175",
+      "histogram": [
+        {
+          "lower": "0",
+          "rows": 0,
+          "upper": "0.000001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.000001",
+          "rows": 20,
+          "upper": "0.0001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.0001",
+          "rows": 64,
+          "upper": "0.001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.001",
+          "rows": 48,
+          "upper": "0.003",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.003",
+          "rows": 74,
+          "upper": "0.01",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.01",
+          "rows": 123,
+          "upper": "0.1",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.1",
+          "rows": 21,
+          "upper": "0.5",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.5",
+          "rows": 0,
+          "upper": "1",
+          "upper_inclusive": true
+        }
+      ],
+      "mean": 0.02377460484510421,
+      "nearest_cutoff_distance": 3.111510713318504e-05,
+      "percent_above": 62.285714285714285,
+      "population_sd": 0.048102217571122215,
+      "quantiles_linear": {
+        "0": 2.490049114661433e-06,
+        "0.01": 1.4255217223421247e-05,
+        "0.05": 8.506187642888119e-05,
+        "0.25": 0.0011285778191758363,
+        "0.5": 0.007211960570341654,
+        "0.75": 0.02411745568859987,
+        "0.95": 0.10925838667844498,
+        "0.99": 0.22607942900507366,
+        "1": 0.40680691475024644
+      },
+      "rows": 350
+    }
+  },
+  "by_in_published_files": {
+    "no": {
+      "above_3_over_1000": 27,
+      "equal_3_over_1000": 0,
+      "fraction_above_exact": "27/34",
+      "histogram": [
+        {
+          "lower": "0",
+          "rows": 1,
+          "upper": "0.000001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.000001",
+          "rows": 2,
+          "upper": "0.0001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.0001",
+          "rows": 3,
+          "upper": "0.001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.001",
+          "rows": 1,
+          "upper": "0.003",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.003",
+          "rows": 3,
+          "upper": "0.01",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.01",
+          "rows": 3,
+          "upper": "0.1",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.1",
+          "rows": 2,
+          "upper": "0.5",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.5",
+          "rows": 19,
+          "upper": "1",
+          "upper_inclusive": true
+        }
+      ],
+      "mean": 0.5705728560919414,
+      "nearest_cutoff_distance": 0.0007317838403870194,
+      "percent_above": 79.41176470588235,
+      "population_sd": 0.48428204349800247,
+      "quantiles_linear": {
+        "0": 1.720245268369809e-07,
+        "0.01": 1.365201547729398e-05,
+        "0.05": 7.149064498697608e-05,
+        "0.25": 0.004204980364697394,
+        "0.5": 0.9999999999993519,
+        "0.75": 1.0,
+        "0.95": 1.0,
+        "0.99": 1.0,
+        "1": 1.0
+      },
+      "rows": 34
+    },
+    "yes": {
+      "above_3_over_1000": 9019,
+      "equal_3_over_1000": 0,
+      "fraction_above_exact": "9019/10854",
+      "histogram": [
+        {
+          "lower": "0",
+          "rows": 67,
+          "upper": "0.000001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.000001",
+          "rows": 404,
+          "upper": "0.0001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.0001",
+          "rows": 745,
+          "upper": "0.001",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.001",
+          "rows": 619,
+          "upper": "0.003",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.003",
+          "rows": 964,
+          "upper": "0.01",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.01",
+          "rows": 2056,
+          "upper": "0.1",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.1",
+          "rows": 829,
+          "upper": "0.5",
+          "upper_inclusive": false
+        },
+        {
+          "lower": "0.5",
+          "rows": 5170,
+          "upper": "1",
+          "upper_inclusive": true
+        }
+      ],
+      "mean": 0.4972212775536824,
+      "nearest_cutoff_distance": 8.606169728783281e-07,
+      "percent_above": 83.09379030772065,
+      "population_sd": 0.4773003100218316,
+      "quantiles_linear": {
+        "0": 4.2428581272551963e-10,
+        "0.01": 2.800772491090776e-06,
+        "0.05": 0.000147342027363427,
+        "0.25": 0.009167191373928837,
+        "0.5": 0.2591903389664474,
+        "0.75": 0.9999999999999989,
+        "0.95": 1.0,
+        "0.99": 1.0,
+        "1": 1.0
+      },
+      "rows": 10854
+    }
+  },
+  "cutoff": {
+    "calibration": "CIRCLE-seq leave-one-guide-out; not calibrated for this combined-data checkpoint",
+    "comparison": "strictly greater",
+    "exact": "3/1000",
+    "source": "Lin et al. 2020, sensitivity-analysis section before Figure 14"
+  },
+  "input_policy": "Literal TSV spacer/off_target_19mer; published encoder separately left-pads each to 24. No PAM, gap placement, flanks or alignment added."
+}

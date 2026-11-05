@@ -1,0 +1,156 @@
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1958, "classes": 12754584}
+{"stage": "LP", "N": 20, "r": 14, "m": 10, "round": 1, "points": 1536, "centres": 536, "elapsed": 3.0331871639937162}
+{"stage": "numeric_proposal", "display_only": 13.461911609343863, "round": 1}
+{"stage": "reconstruct", "cover": 200, "packing": 200, "backend": "auto"}
+exact reconstruction: pivots=32/200 seconds=0.2
+exact reconstruction: pivots=64/200 seconds=0.6
+exact reconstruction: pivots=96/200 seconds=1.1
+exact reconstruction: pivots=128/200 seconds=1.8
+exact reconstruction: pivots=160/200 seconds=2.2
+exact reconstruction: pivots=192/200 seconds=2.4
+exact reconstruction: pivots=32/200 seconds=0.1
+exact reconstruction: pivots=64/200 seconds=0.2
+exact reconstruction: pivots=96/200 seconds=0.3
+exact reconstruction: pivots=128/200 seconds=0.4
+exact reconstruction: pivots=160/200 seconds=0.4
+exact reconstruction: pivots=192/200 seconds=0.4
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 400, "classes": 6753165}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 400, "classes": 12754584}
+{"stage": "certified_bounds", "lower_display": 12.048995373414826, "upper_display": 14.0, "status": "OPEN", "added": 1026}
+{"stage": "LP", "N": 20, "r": 14, "m": 10, "round": 2, "points": 2048, "centres": 1050, "elapsed": 9.689124003984034}
+{"stage": "numeric_proposal", "display_only": 13.474689914553837, "round": 2}
+{"stage": "reconstruct", "cover": 267, "packing": 267, "backend": "auto"}
+exact reconstruction: pivots=32/267 seconds=0.3
+exact reconstruction: pivots=64/267 seconds=1.1
+exact reconstruction: pivots=96/267 seconds=2.6
+exact reconstruction: pivots=128/267 seconds=4.6
+exact reconstruction: pivots=160/267 seconds=6.9
+exact reconstruction: pivots=192/267 seconds=9.0
+exact reconstruction: pivots=224/267 seconds=10.2
+exact reconstruction: pivots=256/267 seconds=10.6
+exact reconstruction: pivots=32/267 seconds=0.2
+exact reconstruction: pivots=64/267 seconds=0.3
+exact reconstruction: pivots=96/267 seconds=0.5
+exact reconstruction: pivots=128/267 seconds=0.7
+exact reconstruction: pivots=160/267 seconds=0.9
+exact reconstruction: pivots=192/267 seconds=1.0
+exact reconstruction: pivots=224/267 seconds=1.1
+exact reconstruction: pivots=256/267 seconds=1.1
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 534, "classes": 6753165}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 534, "classes": 12754584}
+{"stage": "certified_bounds", "lower_display": 12.048995373414826, "upper_display": 14.0, "status": "OPEN", "added": 1024}
+{"stage": "LP", "N": 20, "r": 14, "m": 10, "round": 3, "points": 2560, "centres": 1562, "elapsed": 26.070813283789903}
+{"stage": "numeric_proposal", "display_only": 13.410043882100702, "round": 3}
+{"stage": "reconstruct", "cover": 329, "packing": 329, "backend": "auto"}
+exact reconstruction: pivots=32/329 seconds=0.5
+exact reconstruction: pivots=64/329 seconds=1.6
+exact reconstruction: pivots=96/329 seconds=3.2
+exact reconstruction: pivots=128/329 seconds=5.8
+exact reconstruction: pivots=160/329 seconds=9.2
+exact reconstruction: pivots=192/329 seconds=12.8
+exact reconstruction: pivots=224/329 seconds=16.1
+exact reconstruction: pivots=256/329 seconds=18.6
+exact reconstruction: pivots=288/329 seconds=19.9
+exact reconstruction: pivots=320/329 seconds=20.2
+exact reconstruction: pivots=32/329 seconds=0.3
+exact reconstruction: pivots=64/329 seconds=0.6
+exact reconstruction: pivots=96/329 seconds=1.0
+exact reconstruction: pivots=128/329 seconds=1.4
+exact reconstruction: pivots=160/329 seconds=1.9
+exact reconstruction: pivots=192/329 seconds=2.3
+exact reconstruction: pivots=224/329 seconds=2.6
+exact reconstruction: pivots=256/329 seconds=2.8
+exact reconstruction: pivots=288/329 seconds=3.0
+exact reconstruction: pivots=320/329 seconds=3.0
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 657, "classes": 6753165}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 658, "classes": 12754584}
+{"stage": "certified_bounds", "lower_display": 12.048995373414826, "upper_display": 14.0, "status": "OPEN", "added": 958}
+{"stage": "LP", "N": 20, "r": 14, "m": 10, "round": 4, "points": 3072, "centres": 2008, "elapsed": 56.80158252362162}
+{"stage": "numeric_proposal", "display_only": 13.41798318326054, "round": 4}
+{"stage": "reconstruct", "cover": 415, "packing": 415, "backend": "auto"}
+exact reconstruction: pivots=32/415 seconds=0.8
+exact reconstruction: pivots=64/415 seconds=2.9
+exact reconstruction: pivots=96/415 seconds=6.3
+exact reconstruction: pivots=128/415 seconds=11.8
+exact reconstruction: pivots=160/415 seconds=19.6
+exact reconstruction: pivots=192/415 seconds=28.9
+exact reconstruction: pivots=224/415 seconds=39.2
+exact reconstruction: pivots=256/415 seconds=49.2
+exact reconstruction: pivots=288/415 seconds=57.2
+exact reconstruction: pivots=320/415 seconds=63.3
+exact reconstruction: pivots=352/415 seconds=67.1
+exact reconstruction: pivots=384/415 seconds=68.8
+exact reconstruction: pivots=32/415 seconds=0.5
+exact reconstruction: pivots=64/415 seconds=1.1
+exact reconstruction: pivots=96/415 seconds=1.7
+exact reconstruction: pivots=128/415 seconds=2.5
+exact reconstruction: pivots=160/415 seconds=3.3
+exact reconstruction: pivots=192/415 seconds=4.2
+exact reconstruction: pivots=224/415 seconds=5.1
+exact reconstruction: pivots=256/415 seconds=5.9
+exact reconstruction: pivots=288/415 seconds=6.6
+exact reconstruction: pivots=320/415 seconds=7.2
+exact reconstruction: pivots=352/415 seconds=7.5
+exact reconstruction: pivots=384/415 seconds=7.7
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 828, "classes": 6753165}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 830, "classes": 12754584}
+{"stage": "certified_bounds", "lower_display": 12.071251124233225, "upper_display": 13.860037024742114, "status": "OPEN", "added": 769}
+{"stage": "LP", "N": 20, "r": 14, "m": 10, "round": 5, "points": 3584, "centres": 2265, "elapsed": 146.65379086369649}
+{"stage": "numeric_proposal", "display_only": 13.438007331118998, "round": 5}
+{"stage": "reconstruct", "cover": 498, "packing": 498, "backend": "auto"}
+exact reconstruction: pivots=32/498 seconds=1.4
+exact reconstruction: pivots=64/498 seconds=4.4
+exact reconstruction: pivots=96/498 seconds=10.0
+exact reconstruction: pivots=128/498 seconds=18.9
+exact reconstruction: pivots=160/498 seconds=31.1
+exact reconstruction: pivots=192/498 seconds=46.8
+exact reconstruction: pivots=224/498 seconds=65.8
+exact reconstruction: pivots=256/498 seconds=86.8
+exact reconstruction: pivots=288/498 seconds=106.5
+{"stage": "reconstruction_fallback", "reason": ["exact Fraction/Bareiss reconstruction budget"]}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 993, "classes": 6753165}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 996, "classes": 12754584}
+{"stage": "certified_bounds", "lower_display": 12.222560013588481, "upper_display": 13.791601595979222, "status": "OPEN", "added": 721}
+{"stage": "LP", "N": 20, "r": 14, "m": 10, "round": 6, "points": 4096, "centres": 2474, "elapsed": 272.18780205305666}
+{"stage": "numeric_proposal", "display_only": 13.453176417729699, "round": 6}
+{"stage": "reconstruct", "cover": 585, "packing": 585, "backend": "auto"}
+exact reconstruction: pivots=32/585 seconds=1.8
+exact reconstruction: pivots=64/585 seconds=5.9
+exact reconstruction: pivots=96/585 seconds=13.8
+exact reconstruction: pivots=128/585 seconds=27.4
+exact reconstruction: pivots=160/585 seconds=47.5
+exact reconstruction: pivots=192/585 seconds=74.5
+{"stage": "reconstruction_fallback", "reason": ["exact Fraction/Bareiss reconstruction budget"]}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 1168, "classes": 6753165}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1170, "classes": 12754584}
+{"stage": "certified_bounds", "lower_display": 12.588256731263293, "upper_display": 13.602498694796154, "status": "OPEN", "added": 685}
+{"stage": "LP", "N": 20, "r": 14, "m": 10, "round": 7, "points": 4608, "centres": 2647, "elapsed": 372.1865692548454}
+{"stage": "numeric_proposal", "display_only": 13.45923886460777, "round": 7}
+{"stage": "reconstruct", "cover": 649, "packing": 649, "backend": "auto"}
+exact reconstruction: pivots=32/649 seconds=2.4
+exact reconstruction: pivots=64/649 seconds=8.1
+exact reconstruction: pivots=96/649 seconds=18.5
+exact reconstruction: pivots=128/649 seconds=33.9
+{"stage": "reconstruction_fallback", "reason": ["exact Fraction/Bareiss reconstruction budget"]}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 1295, "classes": 6753165}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1298, "classes": 12754584}
+{"stage": "certified_bounds", "lower_display": 12.588256731263293, "upper_display": 13.56058120337731, "status": "OPEN", "added": 676}
+{"stage": "LP", "N": 20, "r": 14, "m": 10, "round": 8, "points": 5120, "centres": 2811, "elapsed": 454.6492261807434}
+{"stage": "numeric_proposal", "display_only": 13.461882522824931, "round": 8}
+{"stage": "reconstruct", "cover": 734, "packing": 734, "backend": "auto"}
+exact reconstruction: pivots=32/734 seconds=3.1
+exact reconstruction: pivots=64/734 seconds=10.7
+{"stage": "reconstruction_fallback", "reason": ["exact Fraction/Bareiss reconstruction budget"]}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 1466, "classes": 6753165}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1468, "classes": 12754584}
+{"stage": "certified_bounds", "lower_display": 12.588256731263293, "upper_display": 13.499823050057875, "status": "OPEN", "added": 357}
+{"stage": "LP", "N": 20, "r": 14, "m": 10, "round": 9, "points": 5393, "centres": 2895, "elapsed": 527.7606453956105}
+{"stage": "numeric_proposal", "display_only": 13.462183943007894, "round": 9}
+{"stage": "reconstruct", "cover": 783, "packing": 783, "backend": "auto"}
+exact reconstruction: pivots=32/783 seconds=3.4
+{"stage": "reconstruction_fallback", "reason": ["exact Fraction/Bareiss reconstruction budget"]}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 1564, "classes": 6753165}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1566, "classes": 12754584}
+{"stage": "certified_bounds", "lower_display": 13.047996712182371, "upper_display": 13.473982093034081, "status": "CLOSED", "added": 87}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1566, "classes": 12754584}
+{"stage": "finished", "status": "CLOSED", "termination": "decisive exact certificate verified"}

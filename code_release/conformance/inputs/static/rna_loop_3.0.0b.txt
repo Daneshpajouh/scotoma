@@ -1,0 +1,7 @@
+			for (i = 1; i <= m_rnabulgesize; i++) {
+				preNcnt = m_dnabulgesize + i;
+				for (j = 1; j < sline[0].find_last_not_of('N') + 1 - i; j++) {
+					bi = make_pair(sline[0].substr(j, i), j);
+					add_compare(string(preNcnt, 'N') + sline[0].substr(0, j) + sline[0].substr(j + i), ci, bi);
+				}
+			}

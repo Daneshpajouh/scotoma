@@ -1,0 +1,57 @@
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 730, "classes": 1948617}
+{"stage": "LP", "N": 21, "r": 12, "m": 10, "round": 1, "points": 1536, "centres": 460, "elapsed": 1.7838780973106623}
+{"stage": "numeric_proposal", "display_only": 11.999999999999506, "round": 1}
+{"stage": "reconstruct", "cover": 6, "packing": 147, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 12, "classes": 954458}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 294, "classes": 1948617}
+{"stage": "certified_bounds", "lower_display": 10.601460935605576, "upper_display": 12.0, "status": "OPEN", "added": 516}
+{"stage": "LP", "N": 21, "r": 12, "m": 10, "round": 2, "points": 1536, "centres": 976, "elapsed": 2.6841856418177485}
+{"stage": "numeric_proposal", "display_only": 11.999999999997794, "round": 2}
+{"stage": "reconstruct", "cover": 6, "packing": 201, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 12, "classes": 954458}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 402, "classes": 1948617}
+{"stage": "certified_bounds", "lower_display": 10.601460935605576, "upper_display": 12.0, "status": "OPEN", "added": 176}
+{"stage": "LP", "N": 21, "r": 12, "m": 10, "round": 3, "points": 1536, "centres": 1152, "elapsed": 3.7821625024080276}
+{"stage": "numeric_proposal", "display_only": 12.000000000025826, "round": 3}
+{"stage": "reconstruct", "cover": 6, "packing": 217, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 12, "classes": 954458}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 434, "classes": 1948617}
+{"stage": "certified_bounds", "lower_display": 10.601460935605576, "upper_display": 12.0, "status": "OPEN", "added": 125}
+{"stage": "LP", "N": 21, "r": 12, "m": 10, "round": 4, "points": 1536, "centres": 1277, "elapsed": 4.988354980014265}
+{"stage": "numeric_proposal", "display_only": 12.000000000000446, "round": 4}
+{"stage": "reconstruct", "cover": 6, "packing": 229, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 12, "classes": 954458}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 458, "classes": 1948617}
+{"stage": "certified_bounds", "lower_display": 10.601460935605576, "upper_display": 12.0, "status": "OPEN", "added": 118}
+{"stage": "LP", "N": 21, "r": 12, "m": 10, "round": 5, "points": 1536, "centres": 1395, "elapsed": 6.31429916806519}
+{"stage": "numeric_proposal", "display_only": 12.000000000002382, "round": 5}
+{"stage": "reconstruct", "cover": 6, "packing": 242, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 12, "classes": 954458}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 484, "classes": 1948617}
+{"stage": "certified_bounds", "lower_display": 10.71843741488807, "upper_display": 12.0, "status": "OPEN", "added": 77}
+{"stage": "LP", "N": 21, "r": 12, "m": 10, "round": 6, "points": 1536, "centres": 1472, "elapsed": 7.691268928349018}
+{"stage": "numeric_proposal", "display_only": 11.999999999985668, "round": 6}
+{"stage": "reconstruct", "cover": 6, "packing": 239, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 12, "classes": 954458}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 478, "classes": 1948617}
+{"stage": "certified_bounds", "lower_display": 10.986377943067401, "upper_display": 12.0, "status": "OPEN", "added": 80}
+{"stage": "LP", "N": 21, "r": 12, "m": 10, "round": 7, "points": 1536, "centres": 1552, "elapsed": 8.960091733373702}
+{"stage": "numeric_proposal", "display_only": 11.999999999998229, "round": 7}
+{"stage": "reconstruct", "cover": 6, "packing": 271, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 12, "classes": 954458}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 542, "classes": 1948617}
+{"stage": "certified_bounds", "lower_display": 10.991180584647742, "upper_display": 12.0, "status": "OPEN", "added": 89}
+{"stage": "LP", "N": 21, "r": 12, "m": 10, "round": 8, "points": 1536, "centres": 1641, "elapsed": 10.53965099900961}
+{"stage": "numeric_proposal", "display_only": 12.000000000003958, "round": 8}
+{"stage": "reconstruct", "cover": 6, "packing": 262, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 12, "classes": 954458}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 524, "classes": 1948617}
+{"stage": "certified_bounds", "lower_display": 10.991180584647742, "upper_display": 12.0, "status": "OPEN", "added": 70}
+{"stage": "LP", "N": 21, "r": 12, "m": 10, "round": 9, "points": 1536, "centres": 1711, "elapsed": 12.098137873224914}
+{"stage": "numeric_proposal", "display_only": 12.000000000000396, "round": 9}
+{"stage": "reconstruct", "cover": 6, "packing": 242, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "integer", "support": 12, "classes": 954458}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 484, "classes": 1948617}
+{"stage": "certified_bounds", "lower_display": 11.086650194656892, "upper_display": 12.0, "status": "CLOSED", "added": 32}
+{"stage": "sweep", "side": "packing", "method": "integer", "support": 484, "classes": 1948617}
+{"stage": "finished", "status": "CLOSED", "termination": "decisive exact certificate verified"}

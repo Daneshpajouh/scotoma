@@ -1,0 +1,11 @@
+{
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "N": 6,
+  "m": 2,
+  "literal_centres_checked": 4096,
+  "literal_support_points": 117,
+  "orbit_classes_compared": 243,
+  "mass": "5",
+  "literal_maximum_load": "1",
+  "all_loads_agree": true
+}

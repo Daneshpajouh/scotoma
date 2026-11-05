@@ -1,0 +1,20 @@
+--- a/cas-offinder-bulge
++++ b/cas-offinder-bulge
+@@ -56,7 +56,7 @@
+                             bg_tgt = 'N' * len_pam + target[:i] + 'N' * bulge_size + target[i:] + 'N' * (bulge_dna - bulge_size)
+                             bg_tgts[bg_tgt].add(mismatch)
+                     for bulge_size in range(1, bulge_rna+1):
+-                        for i in range(1, len(target)-bulge_size):
++                        for i in range(len(target)-bulge_size+1):
+                             bg_tgt = 'N' * len_pam + target[:i] + target[i+bulge_size:] + 'N' * (bulge_dna + bulge_size)
+                             bg_tgts[bg_tgt].add(mismatch)
+                             rnabulge_dic[bg_tgt].append( (i, int(mismatch), target[i:i+bulge_size]) )
+@@ -69,7 +69,7 @@
+                             bg_tgt = 'N' * (bulge_dna - bulge_size) + target[:i] + 'N' * bulge_size + target[i:] + 'N' * len_pam
+                             bg_tgts[bg_tgt].add(mismatch)
+                     for bulge_size in range(1, bulge_rna+1):
+-                        for i in range(1, len(target)-bulge_size):
++                        for i in range(len(target)-bulge_size+1):
+                             bg_tgt = 'N' * (bulge_dna + bulge_size) + target[:i] + target[i+bulge_size:] + 'N' * len_pam
+                             bg_tgts[bg_tgt].add(mismatch)
+                             rnabulge_dic[bg_tgt].append( (i, int(mismatch), target[i:i+bulge_size]) )

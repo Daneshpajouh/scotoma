@@ -1,0 +1,61 @@
+tool	guide_id	guide	n	r	patterns_emitted	distinct_deletion_words_recovered	source_derived_deletion_words	raw_positions_or_alignments	deficit	evidence_state	method	count_test_result
+CALITAS 1.0.1	g82	GGAGAAGGTGGGGGGGTTCC	20	9	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	dynamic-programming alignment; native runtime UNTESTED	N/A: no independent deletion-pattern library
+CHOPOFF symbolic RNA-gap component	g82	GGAGAAGGTGGGGGGGTTCC	20	9	N/A	N/A	9	20	0	VERIFIED-COMPUTATIONALLY	Python source transcription; native tool UNTESTED	source component has all r; normal prefix-probe count N/A
+CRISPRitz 2.7.1 native TST	g82	GGAGAAGGTGGGGGGGTTCC	20	9	N/A	9	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g82	GGAGAAGGTGGGGGGGTTCC	20	9	N/A	9	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRme 2.1.14	g82	GGAGAAGGTGGGGGGGTTCC	20	9	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	delegated TST alignment search; full pipeline UNTESTED	N/A: no independent deletion-pattern library
+CRISPRme+ 2.8.0	g82	GGAGAAGGTGGGGGGGTTCC	20	9	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	delegated TST alignment search; full pipeline UNTESTED	N/A: no independent deletion-pattern library
+Cas-OFFinder 3.0.0 develop	g82	GGAGAAGGTGGGGGGGTTCC	20	9	9	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g82	GGAGAAGGTGGGGGGGTTCC	20	9	9	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g82	GGAGAAGGTGGGGGGGTTCC	20	9	9	N/A	N/A	18	0	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	no count deficit on this guide
+SWOffinder 1.0.1	g82	GGAGAAGGTGGGGGGGTTCC	20	9	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	dynamic-programming alignment; native runtime UNTESTED	N/A: no independent deletion-pattern library
+CALITAS 1.0.1	g97	GAGAAGGTGGGGGGGTTCCA	20	10	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	dynamic-programming alignment; native runtime UNTESTED	N/A: no independent deletion-pattern library
+CHOPOFF symbolic RNA-gap component	g97	GAGAAGGTGGGGGGGTTCCA	20	10	N/A	N/A	10	20	0	VERIFIED-COMPUTATIONALLY	Python source transcription; native tool UNTESTED	source component has all r; normal prefix-probe count N/A
+CRISPRitz 2.7.1 native TST	g97	GAGAAGGTGGGGGGGTTCCA	20	10	N/A	10	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g97	GAGAAGGTGGGGGGGTTCCA	20	10	N/A	10	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRme 2.1.14	g97	GAGAAGGTGGGGGGGTTCCA	20	10	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	delegated TST alignment search; full pipeline UNTESTED	N/A: no independent deletion-pattern library
+CRISPRme+ 2.8.0	g97	GAGAAGGTGGGGGGGTTCCA	20	10	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	delegated TST alignment search; full pipeline UNTESTED	N/A: no independent deletion-pattern library
+Cas-OFFinder 3.0.0 develop	g97	GAGAAGGTGGGGGGGTTCCA	20	10	9	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g97	GAGAAGGTGGGGGGGTTCCA	20	10	9	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g97	GAGAAGGTGGGGGGGTTCCA	20	10	8	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+SWOffinder 1.0.1	g97	GAGAAGGTGGGGGGGTTCCA	20	10	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	dynamic-programming alignment; native runtime UNTESTED	N/A: no independent deletion-pattern library
+CALITAS 1.0.1	g101	GGGGCCACTAGGGACAGGAT	20	13	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	dynamic-programming alignment; native runtime UNTESTED	N/A: no independent deletion-pattern library
+CHOPOFF symbolic RNA-gap component	g101	GGGGCCACTAGGGACAGGAT	20	13	N/A	N/A	13	20	0	VERIFIED-COMPUTATIONALLY	Python source transcription; native tool UNTESTED	source component has all r; normal prefix-probe count N/A
+CRISPRitz 2.7.1 native TST	g101	GGGGCCACTAGGGACAGGAT	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g101	GGGGCCACTAGGGACAGGAT	20	13	N/A	13	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRme 2.1.14	g101	GGGGCCACTAGGGACAGGAT	20	13	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	delegated TST alignment search; full pipeline UNTESTED	N/A: no independent deletion-pattern library
+CRISPRme+ 2.8.0	g101	GGGGCCACTAGGGACAGGAT	20	13	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	delegated TST alignment search; full pipeline UNTESTED	N/A: no independent deletion-pattern library
+Cas-OFFinder 3.0.0 develop	g101	GGGGCCACTAGGGACAGGAT	20	13	12	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g101	GGGGCCACTAGGGACAGGAT	20	13	12	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g101	GGGGCCACTAGGGACAGGAT	20	13	12	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+SWOffinder 1.0.1	g101	GGGGCCACTAGGGACAGGAT	20	13	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	dynamic-programming alignment; native runtime UNTESTED	N/A: no independent deletion-pattern library
+CALITAS 1.0.1	g0	GATTTCTATGACCTGTATGG	20	16	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	dynamic-programming alignment; native runtime UNTESTED	N/A: no independent deletion-pattern library
+CHOPOFF symbolic RNA-gap component	g0	GATTTCTATGACCTGTATGG	20	16	N/A	N/A	16	20	0	VERIFIED-COMPUTATIONALLY	Python source transcription; native tool UNTESTED	source component has all r; normal prefix-probe count N/A
+CRISPRitz 2.7.1 native TST	g0	GATTTCTATGACCTGTATGG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g0	GATTTCTATGACCTGTATGG	20	16	N/A	16	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRme 2.1.14	g0	GATTTCTATGACCTGTATGG	20	16	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	delegated TST alignment search; full pipeline UNTESTED	N/A: no independent deletion-pattern library
+CRISPRme+ 2.8.0	g0	GATTTCTATGACCTGTATGG	20	16	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	delegated TST alignment search; full pipeline UNTESTED	N/A: no independent deletion-pattern library
+Cas-OFFinder 3.0.0 develop	g0	GATTTCTATGACCTGTATGG	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder tag 3.0.0b3	g0	GATTTCTATGACCTGTATGG	20	16	16	N/A	N/A	19	0	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	no count deficit on this guide
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g0	GATTTCTATGACCTGTATGG	20	16	15	N/A	N/A	18	1	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+SWOffinder 1.0.1	g0	GATTTCTATGACCTGTATGG	20	16	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	dynamic-programming alignment; native runtime UNTESTED	N/A: no independent deletion-pattern library
+CALITAS 1.0.1	g2	GTACAGGCTGCACCTGTCAG	20	18	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	dynamic-programming alignment; native runtime UNTESTED	N/A: no independent deletion-pattern library
+CHOPOFF symbolic RNA-gap component	g2	GTACAGGCTGCACCTGTCAG	20	18	N/A	N/A	18	20	0	VERIFIED-COMPUTATIONALLY	Python source transcription; native tool UNTESTED	source component has all r; normal prefix-probe count N/A
+CRISPRitz 2.7.1 native TST	g2	GTACAGGCTGCACCTGTCAG	20	18	N/A	18	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g2	GTACAGGCTGCACCTGTCAG	20	18	N/A	18	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRme 2.1.14	g2	GTACAGGCTGCACCTGTCAG	20	18	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	delegated TST alignment search; full pipeline UNTESTED	N/A: no independent deletion-pattern library
+CRISPRme+ 2.8.0	g2	GTACAGGCTGCACCTGTCAG	20	18	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	delegated TST alignment search; full pipeline UNTESTED	N/A: no independent deletion-pattern library
+Cas-OFFinder 3.0.0 develop	g2	GTACAGGCTGCACCTGTCAG	20	18	17	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g2	GTACAGGCTGCACCTGTCAG	20	18	17	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g2	GTACAGGCTGCACCTGTCAG	20	18	16	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+SWOffinder 1.0.1	g2	GTACAGGCTGCACCTGTCAG	20	18	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	dynamic-programming alignment; native runtime UNTESTED	N/A: no independent deletion-pattern library
+CALITAS 1.0.1	g46	GAGTAGCGCGAGCACAGCTA	20	20	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	dynamic-programming alignment; native runtime UNTESTED	N/A: no independent deletion-pattern library
+CHOPOFF symbolic RNA-gap component	g46	GAGTAGCGCGAGCACAGCTA	20	20	N/A	N/A	20	20	0	VERIFIED-COMPUTATIONALLY	Python source transcription; native tool UNTESTED	source component has all r; normal prefix-probe count N/A
+CRISPRitz 2.7.1 native TST	g46	GAGTAGCGCGAGCACAGCTA	20	20	N/A	20	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRitz 2.9.0 native TST	g46	GAGTAGCGCGAGCACAGCTA	20	20	N/A	20	N/A	20	0	VERIFIED-COMPUTATIONALLY	native exact synthetic-target search; no standalone pattern list	PASS positional fixture only
+CRISPRme 2.1.14	g46	GAGTAGCGCGAGCACAGCTA	20	20	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	delegated TST alignment search; full pipeline UNTESTED	N/A: no independent deletion-pattern library
+CRISPRme+ 2.8.0	g46	GAGTAGCGCGAGCACAGCTA	20	20	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	delegated TST alignment search; full pipeline UNTESTED	N/A: no independent deletion-pattern library
+Cas-OFFinder 3.0.0 develop	g46	GAGTAGCGCGAGCACAGCTA	20	20	19	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder tag 3.0.0b3	g46	GAGTAGCGCGAGCACAGCTA	20	20	19	N/A	N/A	19	1	VERIFIED-COMPUTATIONALLY	verbatim parseInput source harness	FAIL
+Cas-OFFinder-bulge v1.2 beta (2016 script)	g46	GAGTAGCGCGAGCACAGCTA	20	20	18	N/A	N/A	18	2	VERIFIED-COMPUTATIONALLY	official unmodified dry-run	FAIL
+SWOffinder 1.0.1	g46	GAGTAGCGCGAGCACAGCTA	20	20	N/A	N/A	N/A	N/A	N/A	PROVED (source architecture)	dynamic-programming alignment; native runtime UNTESTED	N/A: no independent deletion-pattern library

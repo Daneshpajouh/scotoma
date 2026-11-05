@@ -1,0 +1,34 @@
+% RECOMB 2027 submission. Format (recomb.org/recomb2027/call_for_papers, read 2026-10-13):
+% 10 pages maximum including figures, tables and captions, bibliography excluded;
+% US Letter; minimum 10 pt; 1 inch margins; PDF; no mandatory template.
+% Do not shrink fonts or margins to fit. The call permits "an additional title page
+% containing the paper title, author list, and abstract", so title, authors and abstract
+% sit on their own page and the ten-page body starts at Section 1.
+%
+% Packages are limited to a standard TeX Live distribution so the paper builds on
+% Overleaf and on a stock install.
+\documentclass[11pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[protrusion=false,expansion=false]{microtype}
+% Include the page-number footer within the one-inch printable boundary.
+\usepackage[left=1.005in,right=1.015in,top=1in,bottom=1.05in,includefoot]{geometry}
+\setlength{\emergencystretch}{2em}
+\usepackage{url}
+\newcount\proposedlines
+\newcount\removedlines
+\begin{document}
+\setbox0=\vbox{\hsize=\textwidth\noindent At the published CRISPR-Net cutoff, $19/129$ missed measured-active sites qualify versus $3/21$ returned sites at four mismatches; genome-wide, guide- and mismatch-matched nomination counts are $1{,}029/34{,}941$ versus $187/34{,}941$.\par\global\proposedlines=\prevgraf}
+\typeout{PROPOSED_LINES=\the\proposedlines}
+\box0
+\bigskip
+\setbox0=\vbox{\hsize=\textwidth\noindent The tables and one command
+are at \path{code_release/genome_endtoend/}, where the checker recomputes every number above
+from the sequences and coordinates and a deposited script runs it on twenty-three corrupted
+copies: it rejects twenty-two, among them one locus repeated $34{,}941$ times and counts moved
+between subgroups so that every total still agrees, and accepts one invented reference base,
+which needs the reference to catch.\par\global\removedlines=\prevgraf}
+\typeout{REMOVED_LINES=\the\removedlines}
+\box0
+\end{document}

@@ -1,0 +1,69 @@
+{
+  "status": "CLOSED",
+  "tau_lower": "5600000000/275384063",
+  "tau_upper": "21",
+  "matched_exactly": false,
+  "closed": true,
+  "fractional_route_refuted": false,
+  "K_lower": 21,
+  "K_upper": 21,
+  "K": 21,
+  "N": 22,
+  "r": 21,
+  "m": 10,
+  "reports": {
+    "cover": {
+      "passes": true,
+      "total_mass": "21",
+      "extremum": "1",
+      "extremum_exact": false,
+      "proof": "Every point in U lies in at least one of the r explicit library balls.",
+      "verification": "universal analytic bound; no sweep claimed"
+    },
+    "packing": {
+      "passes": true,
+      "extremum": "1",
+      "extremum_exact": true,
+      "at": [
+        190273,
+        0
+      ],
+      "violations": 0,
+      "violation_count_is_lower_bound": false,
+      "complete_flag_list": true,
+      "screen_flagged": 1325,
+      "refinement_queries": 1325,
+      "rounding_denominator": 1000000000000,
+      "screen_error_bound": "1491/1000000000000",
+      "actual_rounding_error": "0",
+      "crt_absolute_bound": "193536000000000000",
+      "crt_modulus": "4611685975477714963",
+      "rounded_extremum": "826152189/800000000",
+      "conservative_extremum": "1032690237741/1000000000000",
+      "arithmetic": "exact two-prime CRT, proven rounding bounds, arbitrary precision refinement",
+      "total_mass": "5600000000/275384063",
+      "support_orbits": 1491,
+      "orbits_checked": 10460353203,
+      "total_centre_orbits": 10460353203,
+      "seconds": 466.8322842461057,
+      "normalization_proof": {
+        "original_extremum": "826152189/800000000",
+        "original_report": "/scratch/YOUR_ACCOUNT/ZR3_exact_tau_n21_23/runs/full_1576400/cell_22_21_10/round_015_packing.json"
+      }
+    }
+  },
+  "state": {
+    "termination": "decisive exact certificate verified",
+    "round": 15,
+    "reconstruction": "exact active equalities",
+    "decisive_certificate": "decision.certificate.json"
+  },
+  "elapsed_seconds": 16708.652684001718,
+  "enumeration": {
+    "centre_orbits": 10460353203,
+    "point_orbits": 2449247078,
+    "ambient_words": 17592186044416,
+    "union_words": 363672131210
+  },
+  "certificate_sha256": "a8c8c223e68d57021771f0b04d71db5161f9e4e9bb14374ae15bf72913ee96aa"
+}

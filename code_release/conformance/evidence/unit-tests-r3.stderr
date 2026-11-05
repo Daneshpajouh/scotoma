@@ -1,0 +1,18 @@
+test_budget_boundaries (__main__.ConformanceTests.test_budget_boundaries) ... ok
+test_cli_all_verdicts_and_malformed (__main__.ConformanceTests.test_cli_all_verdicts_and_malformed) ... ok
+test_complete_redundant (__main__.ConformanceTests.test_complete_redundant) ... ok
+test_duplicates_cannot_repair_shortfall (__main__.ConformanceTests.test_duplicates_cannot_repair_shortfall) ... ok
+test_equal_count_invalid_substitution (__main__.ConformanceTests.test_equal_count_invalid_substitution) ... ok
+test_exhaustive_independent_oracle (__main__.ConformanceTests.test_exhaustive_independent_oracle) ... ok
+test_foreign_concrete_word_is_invalid (__main__.ConformanceTests.test_foreign_concrete_word_is_invalid) ... ok
+test_invalid_inputs (__main__.ConformanceTests.test_invalid_inputs) ... ok
+test_missing_entire_guide (__main__.ConformanceTests.test_missing_entire_guide) ... ok
+test_raw_alignment_adapter_rejects_corruption (__main__.ConformanceTests.test_raw_alignment_adapter_rejects_corruption) ... ok
+test_shared_words_keep_ownership (__main__.ConformanceTests.test_shared_words_keep_ownership) ... ok
+test_terminal_run_positive_control (__main__.ConformanceTests.test_terminal_run_positive_control) ... ok
+test_tsv_and_empty_word (__main__.ConformanceTests.test_tsv_and_empty_word) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.601s
+
+OK

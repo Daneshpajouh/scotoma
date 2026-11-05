@@ -1,0 +1,22 @@
+m  N0  n0  B(N0)  B(N0-1)  worst(s,E0)  B nonincreasing 2m+2..100  B(N)<1 for N0..100
+6  27  28  24/25  77/76  (2, 0)  rises=0  True
+7  31  32  651/667  45/44  (2, 0)  rises=0  True
+8  35  36  424/429  103/100  (2, 0)  rises=0  True
+9  39  40  1071/1073  29/28  (2, 0)  rises=0  True
+10  44  45  75/77  165/164  (2, 0)  rises=0  True
+11  48  49  407/414  319/315  (2, 0)  rises=0  True
+12  52  53  322/325  948/931  (2, 0)  rises=0  True
+length lemma m=6: 0 increases in 24892 (n, sigma, eps, D) tests, pools n up to 61 against n + 1
+length lemma m=7: 0 increases in 36392 (n, sigma, eps, D) tests, pools n up to 61 against n + 1
+length lemma m=8: 0 increases in 50706 (n, sigma, eps, D) tests, pools n up to 61 against n + 1
+length lemma m=9: 0 increases in 68015 (n, sigma, eps, D) tests, pools n up to 61 against n + 1
+length lemma m=10: 0 increases in 88462 (n, sigma, eps, D) tests, pools n up to 61 against n + 1
+length lemma m=11: 0 increases in 112152 (n, sigma, eps, D) tests, pools n up to 61 against n + 1
+length lemma m=12: 0 increases in 139152 (n, sigma, eps, D) tests, pools n up to 61 against n + 1
+neighbour lemma N=2: 0 violations in 27 (centre, E) tests
+neighbour lemma N=3: 0 violations in 108 (centre, E) tests
+neighbour lemma N=4: 0 violations in 405 (centre, E) tests
+neighbour lemma N=5: 0 violations in 1458 (centre, E) tests
+neighbour lemma N=6: 0 violations in 5103 (centre, E) tests
+neighbour lemma N=7: 0 violations in 17496 (centre, E) tests
+neighbour lemma N=8: 0 violations in 59049 (centre, E) tests

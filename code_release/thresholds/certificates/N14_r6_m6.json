@@ -1,0 +1,124 @@
+{
+  "N": 14,
+  "r": 6,
+  "m": 6,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "00011",
+      "tail_weight": 6,
+      "mass": "2/5"
+    },
+    {
+      "prefix": "001XX",
+      "tail_weight": 4,
+      "mass": "1/5"
+    },
+    {
+      "prefix": "00XX0",
+      "tail_weight": 4,
+      "mass": "2/5"
+    },
+    {
+      "prefix": "01101",
+      "tail_weight": 5,
+      "mass": "2/5"
+    },
+    {
+      "prefix": "01110",
+      "tail_weight": 5,
+      "mass": "1/5"
+    },
+    {
+      "prefix": "01XX1",
+      "tail_weight": 4,
+      "mass": "2/5"
+    },
+    {
+      "prefix": "0X000",
+      "tail_weight": 5,
+      "mass": "3/5"
+    },
+    {
+      "prefix": "0X01X",
+      "tail_weight": 4,
+      "mass": "3/5"
+    },
+    {
+      "prefix": "1110X",
+      "tail_weight": 4,
+      "mass": "1/5"
+    },
+    {
+      "prefix": "1111X",
+      "tail_weight": 5,
+      "mass": "1/5"
+    },
+    {
+      "prefix": "11X10",
+      "tail_weight": 4,
+      "mass": "1/5"
+    },
+    {
+      "prefix": "11X11",
+      "tail_weight": 5,
+      "mass": "1/5"
+    },
+    {
+      "prefix": "1X001",
+      "tail_weight": 4,
+      "mass": "1/5"
+    },
+    {
+      "prefix": "1X1XX",
+      "tail_weight": 3,
+      "mass": "1/5"
+    },
+    {
+      "prefix": "X0001",
+      "tail_weight": 5,
+      "mass": "2/5"
+    },
+    {
+      "prefix": "X0111",
+      "tail_weight": 5,
+      "mass": "3/5"
+    },
+    {
+      "prefix": "X011X",
+      "tail_weight": 4,
+      "mass": "1/5"
+    },
+    {
+      "prefix": "X0X01",
+      "tail_weight": 4,
+      "mass": "2/5"
+    }
+  ],
+  "verification": {
+    "max_load": "1",
+    "witness": {
+      "prefix": "00000",
+      "tail_weight": 0
+    },
+    "centre_classes": 2430,
+    "region_masses": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "mass": "6",
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 137,
+    "private_orbits": 116,
+    "rounds": 16,
+    "seconds": 0.095,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

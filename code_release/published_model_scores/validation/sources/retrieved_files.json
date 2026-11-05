@@ -1,0 +1,23 @@
+[
+  {
+    "path": "code/scoring_models/CRISPR_Net_CIRCLE_elevation_SITE_structure.json",
+    "url": "https://raw.githubusercontent.com/JasonLinjc/CRISPR-Net/0843c485b1d476f899bedb93a7dd2df42547c1e1/code/scoring_models/CRISPR_Net_CIRCLE_elevation_SITE_structure.json",
+    "bytes": 7263,
+    "git_blob": "6c0d0faedd1434436cc1415c52072271c10ba1cc",
+    "sha256": "266ef89c167fbcd913e33c918fed3027eca679198947fa1223521d46fd241ef4"
+  },
+  {
+    "path": "data/Dataset II (mismatch-only)/dataset II-5/Kleinstiver_5gRNA_wholeDataset.csv",
+    "url": "https://raw.githubusercontent.com/JasonLinjc/CRISPR-Net/0843c485b1d476f899bedb93a7dd2df42547c1e1/data/Dataset%20II%20%28mismatch-only%29/dataset%20II-5/Kleinstiver_5gRNA_wholeDataset.csv",
+    "bytes": 4983208,
+    "git_blob": "59287ef0bcd4eb2192e69bba5093f8718ce8a6b3",
+    "sha256": "2bd3860b7a78af42b1c1a29c13c16263d519e54b5b7829921d9e4fc8bba81049"
+  },
+  {
+    "path": "data/Dataset II (mismatch-only)/dataset II-6/Listgarten_22gRNA_wholeDataset.csv",
+    "url": "https://raw.githubusercontent.com/JasonLinjc/CRISPR-Net/0843c485b1d476f899bedb93a7dd2df42547c1e1/data/Dataset%20II%20%28mismatch-only%29/dataset%20II-6/Listgarten_22gRNA_wholeDataset.csv",
+    "bytes": 21474038,
+    "git_blob": "95d92eeeaa95250c525a3d6d9bd52bd8c574fce0",
+    "sha256": "74fc9151fc175cf48aaf9712eeb1216ac42306a72453f041b17e8d6b9389097b"
+  }
+]

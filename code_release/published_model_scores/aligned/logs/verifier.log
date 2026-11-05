@@ -1,0 +1,31 @@
+PASS input SHA-256 seals
+independent_source_replay:chr1
+independent_source_replay:chr2
+independent_source_replay:chr3
+independent_source_replay:chr4
+independent_source_replay:chr5
+independent_source_replay:chr6
+independent_source_replay:chr7
+independent_source_replay:chr8
+independent_source_replay:chr9
+independent_source_replay:chr10
+independent_source_replay:chr11
+independent_source_replay:chr12
+independent_source_replay:chr13
+independent_source_replay:chr14
+independent_source_replay:chr15
+independent_source_replay:chr16
+independent_source_replay:chr17
+independent_source_replay:chr18
+independent_source_replay:chr19
+independent_source_replay:chr20
+independent_source_replay:chr21
+independent_source_replay:chr22
+independent_source_replay:chrX
+independent_source_replay:chrY
+independent_source_replay:chrM
+PASS independent tensor and forward replay: treatment
+PASS independent tensor and forward replay: control
+PASS independent tensor and forward replay: active
+{"exit_code": 0, "findings_numeric_summary_reproduced": false, "independently_replayed_score_rows": 70142, "maximum_absolute_score_difference": 1.609823385706477e-15, "missed_active_treatment_overlap_rows": 129, "peak_rss_bytes": 482852864, "scored_rows_by_arm": {"active": 260, "control": 34941, "treatment": 34941}, "status": "PASS", "wall_seconds": 24.019877749989973}
+VERIFIER_EXIT_CODE=0

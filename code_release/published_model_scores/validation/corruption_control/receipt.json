@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "input": "unreachable_sequences.tsv",
+      "byte_offset_0based": 64,
+      "original_byte": 71,
+      "altered_byte": 84,
+      "changed_bytes": 1,
+      "length": 703457,
+      "original_sha256": "5442bf2b3202c7eae45414769186df9c204c418639a2c92ebd877583d8eed27d",
+      "altered_sha256": "6b0e5c624d293f55691c24d8c14cfc5b8abcfddae4b893efe97c97fc8962517e",
+      "verifier_exit_status": 1,
+      "verifier_stderr": "REJECT: SHA-256 mismatch: inputs/unreachable_sequences.tsv",
+      "outcome": "REJECTED"
+    },
+    {
+      "input": "CRISPR_Net_CIRCLE_elevation_SITE_weights.h5",
+      "byte_offset_0based": 100000,
+      "original_byte": 111,
+      "altered_byte": 110,
+      "changed_bytes": 1,
+      "length": 312432,
+      "original_sha256": "a7f6aa381520f5c68fa1f099a6ef3ebc3b8ce846709b97dfde2053f26ca62f80",
+      "altered_sha256": "e81c2d1042d06e8aae04a8d40fceb8612720272bb9b30d0df44310ab040b1468",
+      "verifier_exit_status": 1,
+      "verifier_stderr": "REJECT: SHA-256 mismatch: inputs/CRISPR_Net_CIRCLE_elevation_SITE_weights.h5",
+      "outcome": "REJECTED"
+    }
+  ]
+}

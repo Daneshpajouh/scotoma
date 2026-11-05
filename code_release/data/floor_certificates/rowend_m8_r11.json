@@ -1,0 +1,21 @@
+{
+ "N": 19,
+ "m": 8,
+ "r": 11,
+ "free_length": 9,
+ "status": "WITHDRAWN_2026-10-22",
+ "claim": "no fractional dual can prove K=r here, because ceil(tau*) < r",
+ "exact_cover_value": "9639109/1000000",
+ "exact_cover_value_float": 9.639109,
+ "ceiling": 10,
+ "needed_for_proof": "ceiling < 11",
+ "orbit_constraints_checked": 6230,
+ "violations": 0,
+ "support_centres": 130,
+ "generation_rounds": 3,
+ "active_constraints_at_end": 2032,
+ "rounding": "primal rounded UP to denominator 1000000, which preserves feasibility",
+ "method": "constraint generation on the primal; the exact check is over ALL orbits",
+ "withdrawal_reason": "INVALID. This minimised over binary-prefix centres subject to covering only binary-prefix ORBITS, so the resulting \"cover\" does not cover all of U. Restricting the constraint set LOWERS the primal optimum, so the value is a lower bound on the true fractional covering number and NOT the upper bound a row-end requires. Checked directly against the unreduced LP at five small cells: my value sits BELOW the true tau* at four of them, e.g. N=6 r=4 m=3 gives 2.43355054 against a true 3.51724138.",
+ "what_survives": "Nothing of the row-end claim. The dual certificates in cert_*.json are unaffected: a feasible dual bounds tau* from below whatever its support, and their ball constraints were checked over all centres by a reduction that is valid precisely because their support is binary."
+}

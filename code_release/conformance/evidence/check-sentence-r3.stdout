@@ -1,0 +1,42 @@
+paper-before-pass1-r4: exit 0 (expected 0)
+paper-before-pass2-r4: exit 0 (expected 0)
+paper-before-pdfinfo-r4: exit 0 (expected 0)
+paper-before-text-r4: exit 0 (expected 0)
+paper-before-bbox-r4: exit 0 (expected 0)
+paper-after-pass1-r4: exit 0 (expected 0)
+paper-after-pass2-r4: exit 0 (expected 0)
+paper-after-pdfinfo-r4: exit 0 (expected 0)
+paper-after-text-r4: exit 0 (expected 0)
+paper-after-bbox-r4: exit 0 (expected 0)
+sentence-line-measure-r3: exit 0 (expected 0)
+sentence-render-r2: exit 0 (expected 0)
+sentence-context-render: exit 0 (expected 0)
+{
+  "caveat": "local replacement proposal only; paper_v7 was not edited",
+  "new_printed_lines": 2,
+  "new_sentence_tex": "The emitter, suite and patch are in\n\\path{HOSTILE_REVIEW_2026-11-01/R19_conformance_standard/conformance/}.",
+  "old_printed_lines": 2,
+  "old_sentence_tex": "No audited route emits the minimum\nfamily and nothing else: two fall below its word set and two attain it but serialise it in more\nrows.",
+  "paper_builds": {
+    "after": {
+      "body_pages": 10,
+      "pdfinfo_pages": 15,
+      "references_physical_page": 12,
+      "total_pdf_pages": 15
+    },
+    "before": {
+      "body_pages": 10,
+      "pdfinfo_pages": 15,
+      "references_physical_page": 12,
+      "total_pdf_pages": 15
+    }
+  },
+  "rendered_context_physical_page": 5,
+  "source_sha256": {
+    "main.bbl": "f1c7d9a41502e3fe65ebac5110764a66f1ffddd5441267001a9cbdf1ee9d22cd",
+    "main.tex": "5846748cdf0f2ba22676adb48b4d4f6262bcaa665dd3699e4e7768fc6de7e13f",
+    "sections/01_introduction.tex": "60eb53f80fefceebfea4c0948af59a4e24fd947c2f343c83a0fb66dc787c5dd1",
+    "sections/03_method.tex": "da734a30e49bf1f6ff4e34a5c689e02e0656167556cb4b56a0f6abf70e1ca174",
+    "sections/07_discussion.tex": "90b0f5353a6879fb78edad48cf698b79aab02d3b0328df8f277397d0a95d4f25"
+  }
+}

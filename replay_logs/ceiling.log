@@ -1,0 +1,55 @@
+INTEGRITY_PASS 1670
+PACKAGE_BEGIN ceiling
+COMMAND code_release /usr/local/bin/python3 -B gap_census/checker.py ceiling/cover_19_11_7.converted.json
+{
+  "N": 19,
+  "r": 7,
+  "m": 11,
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "total_centre_orbits": 10206,
+  "total_point_orbits": 6690,
+  "centre_word_count": 274877906944,
+  "union_word_count": 46287433453,
+  "cover": {
+    "passes": true,
+    "extremum": "241312793/241312500",
+    "at": {
+      "prefix": "0X0111",
+      "suffix_weight": 10
+    },
+    "violations": 0,
+    "orbits_checked": 6690,
+    "total_mass": "2883093/500000",
+    "support_orbits": 50
+  },
+  "passes": true,
+  "elapsed_seconds": 0.377
+}
+REPLAY_RESOURCES {"package": "ceiling", "command": ["/usr/local/bin/python3", "-B", "gap_census/checker.py", "ceiling/cover_19_11_7.converted.json"], "exit_code": 0, "wall_seconds": 0.4275108329602517, "peak_child_rss_bytes": 28098560, "user_seconds": 0.400659, "system_seconds": 0.014988999999999999}
+COMMAND code_release /usr/local/bin/python3 -B gap_census/checker.py ceiling/cover_19_12_5.converted.json
+{
+  "N": 19,
+  "r": 5,
+  "m": 12,
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "total_centre_orbits": 1296,
+  "total_point_orbits": 910,
+  "centre_word_count": 274877906944,
+  "union_word_count": 78492250669,
+  "cover": {
+    "passes": true,
+    "extremum": "13513514719/13513500000",
+    "at": {
+      "prefix": "0XX0",
+      "suffix_weight": 10
+    },
+    "violations": 0,
+    "orbits_checked": 910,
+    "total_mass": "3832059/1000000",
+    "support_orbits": 16
+  },
+  "passes": true,
+  "elapsed_seconds": 0.019
+}
+REPLAY_RESOURCES {"package": "ceiling", "command": ["/usr/local/bin/python3", "-B", "gap_census/checker.py", "ceiling/cover_19_12_5.converted.json"], "exit_code": 0, "wall_seconds": 0.06621395796537399, "peak_child_rss_bytes": 28098560, "user_seconds": 0.04660599999999998, "system_seconds": 0.014467}
+PACKAGE_PASS ceiling

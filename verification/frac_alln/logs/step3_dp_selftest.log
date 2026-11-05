@@ -1,0 +1,12 @@
+control (N,m)=(7,2) r=8: DP 1 vs brute force 1  -> ok
+control (N,m)=(8,2) r=9: DP 1 vs brute force 1  -> ok
+control (N,m)=(8,3) r=9: DP 347/280 vs brute force 347/280  -> ok
+controls: the DP reproduces the exact maximum at every size where brute force is possible.
+
+N=19, m=6, r=20
+  lcm of sphere sizes          : 2,376,192
+  exact maximum ball weight    : 1 = 1.000000000
+  attained at (0/1/X word)     : 1111111111111111111
+  feasible (no ball above 1)   : True
+
+So every covering code of the union has at least r = 20 centres, and the r patterns attain it: the covering number is exactly 20 at m = 6.

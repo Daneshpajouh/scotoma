@@ -1,0 +1,303 @@
+\begin{thebibliography}{32}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abbasian et~al.(2024)Abbasian, Mirmohseni, and
+  Nasiri~Kenari]{abbasian2024errorball}
+Aryan Abbasian, Mahtab Mirmohseni, and Masoumeh Nasiri~Kenari.
+\newblock On the size of error ball in dna storage channels.
+\newblock arXiv:2410.15290, 2024.
+
+\bibitem[Abu-Sini and Yaakobi(2021)]{abusini2021reconstruction}
+Maria Abu-Sini and Eitan Yaakobi.
+\newblock On levenshtein's reconstruction problem under insertions, deletions,
+  and substitutions.
+\newblock \emph{IEEE Transactions on Information Theory}, 67\penalty0
+  (11):\penalty0 7132--7158, 2021.
+\newblock \doi{10.1109/TIT.2021.3110710}.
+
+\bibitem[Bae et~al.(2014)Bae, Park, and Kim]{bae2014casoffinder}
+Sangsu Bae, Jeongbin Park, and Jin-Soo Kim.
+\newblock Cas-{OFFinder}: a fast and versatile algorithm that searches for
+  potential off-target sites of {Cas9} {RNA}-guided endonucleases.
+\newblock \emph{Bioinformatics}, 30\penalty0 (10):\penalty0 1473--1475, 2014.
+\newblock \doi{10.1093/bioinformatics/btu048}.
+
+\bibitem[Bae et~al.(2026)Bae, Park, and Kim]{casoffinder_source}
+Sangsu Bae, Jeongbin Park, and Jin-Soo Kim.
+\newblock Cas-{OFFinder} source repository, development branch with native
+  bulge support.
+\newblock \url{https://github.com/snugel/cas-offinder}, 2026.
+\newblock Bulge position sets read from \texttt{cas-offinder.cpp} on the
+  \texttt{develop} branch, commit \texttt{0a9ac005}, 2022-08-31, read
+  2026-10-20. Latest tagged release \texttt{3.0.0b3}, 2021-07-29; no non-beta
+  release carries native bulges.
+
+\bibitem[Cancellieri et~al.(2020)Cancellieri, Canver, Bombieri, Giugno, and
+  Pinello]{cancellieri2020crispritz}
+Samuele Cancellieri, Matthew~C. Canver, Nicola Bombieri, Rosalba Giugno, and
+  Luca Pinello.
+\newblock {CRISPRitz}: rapid, high-throughput and variant-aware in silico
+  off-target site identification for {CRISPR} genome editing.
+\newblock \emph{Bioinformatics}, 36\penalty0 (7):\penalty0 2001--2008, 2020.
+\newblock \doi{10.1093/bioinformatics/btz867}.
+
+\bibitem[Cancellieri et~al.(2023)Cancellieri, Zeng, Lin, Tognon, Nguyen, Lin,
+  Bombieri, Maitland, Ciuculescu, Katta, Tsai, Armant, Wolfe, Giugno, Bauer,
+  and Pinello]{cancellieri2023variant}
+Samuele Cancellieri, Jing Zeng, Linda~Yingqi Lin, Manuel Tognon, My~Anh Nguyen,
+  Jiecong Lin, Nicola Bombieri, Stacy~A. Maitland, Marioara-Felicia Ciuculescu,
+  Varun Katta, Shengdar~Q. Tsai, Myriam Armant, Scot~A. Wolfe, Rosalba Giugno,
+  Daniel~E. Bauer, and Luca Pinello.
+\newblock Human genetic diversity alters off-target outcomes of therapeutic
+  gene editing.
+\newblock \emph{Nature Genetics}, 55\penalty0 (1):\penalty0 34--43, 2023.
+\newblock \doi{10.1038/s41588-022-01257-y}.
+
+\bibitem[Cas-OFFinder 2()]{casoffinder2_rust_2026}
+Cas-OFFinder 2.
+\newblock {Cas-OFFinder 2}: {Rust} rewrite, release v1.0.0.
+\newblock \url{https://github.com/pnucolab/cas-offinder-rust/tree/v1.0.0},
+  2026.
+\newblock Tag v1.0.0, 29 August 2026, commit \texttt{d7df0f45}. Terminal RNA
+  placement excluded in \path{cas-offinder-lib/src/traceback.rs}, lines
+  228--240; inspected snapshot and CPU fixture audit, 31 October 2026.
+
+\bibitem[Cas-OFFinder source audit()]{casoffinder_v3_tags_2026}
+Cas-OFFinder source audit.
+\newblock {Cas-OFFinder} version-3 tags: single-base {RNA}-bulge positions
+  emitted.
+\newblock Public artifact deposit,
+  \url{https://github.com/Daneshpajouh/scotoma}, 2026.
+\newblock Tagged-source reading and loop-bound emulation, 31 October. Record:
+  \path{code_release/tool_audit/v3_tags/FINDING.md}.
+
+\bibitem[Cong et~al.(2026)Cong, Xu, Chen, Yuan, Lin, Yang, Ju, Wang, Wang,
+  Zhang, Li, Li, and Zhu]{cong2026tracking2}
+Tingting Cong, Runda Xu, Xuancheng Chen, Junsong Yuan, Zuomiao Lin, Wenqin
+  Yang, Anji Ju, Liren Wang, Qingcan Wang, Jiqin Zhang, Yinqing Li, Dali Li,
+  and Ming Zhu.
+\newblock Ultra-sensitive profiling of {CRISPR-Cas} off-target effects with
+  {Tracking-seq2}.
+\newblock \emph{Nature Communications}, 17\penalty0 (1):\penalty0 9659, 2026.
+\newblock \doi{10.1038/s41467-026-76778-9}.
+
+\bibitem[Daneshpajouh et~al.(2026)Daneshpajouh, Fowler, and
+  Wiese]{companion_reach}
+Amirhossein Daneshpajouh, Megan Fowler, and Kay~C. Wiese.
+\newblock The exact reach of fractional certificates for single-deletion
+  pattern covers, 2026.
+\newblock Companion submission to RECOMB 2027.
+
+\bibitem[Fennell et~al.(2021)Fennell, Zhang, Isik, Wang, Gotta, Wilson, and
+  Marco]{fennell2021calitas}
+Tim Fennell, Deric Zhang, Meltem Isik, Tongyao Wang, Gregory Gotta,
+  Christopher~J. Wilson, and Eugenio Marco.
+\newblock {CALITAS}: A {CRISPR-Cas}-aware {ALigner} for {In silico off-TArget
+  Search}.
+\newblock \emph{The CRISPR Journal}, 4\penalty0 (2), 2021.
+\newblock \doi{10.1089/crispr.2020.0036}.
+
+\bibitem[Fiala et~al.(2005)Fiala, Kratochv{\'i}l, and
+  Proskurowski]{fiala2005distant}
+Ji{\v r}{\'i} Fiala, Jan Kratochv{\'i}l, and Andrzej Proskurowski.
+\newblock Systems of distant representatives.
+\newblock \emph{Discrete Applied Mathematics}, 145\penalty0 (2):\penalty0
+  306--316, 2005.
+\newblock \doi{10.1016/j.dam.2004.02.018}.
+
+\bibitem[Field-level positional audit()]{fieldlevel_audit_2026}
+Field-level positional audit.
+\newblock {Cas-OFFinder 2} positional audit, independent {CPU CLI} verification
+  and wrapper-distribution source traces.
+\newblock Public artifact deposit,
+  \url{https://github.com/Daneshpajouh/scotoma}, 2026.
+\newblock Records in \path{code_release/tool_audit/fieldlevel/}:
+  \path{RESULT.md}, \path{lead_cli_check/LEAD_VERIFICATION.md} and
+  \path{lead_crisprseek_trace/TRACE.md}, 31 October. Distribution roles are
+  static source observations, with no affected-user counts.
+
+\bibitem[Gottlieb and Reinert(2025)]{gottlieb2025search}
+Simon Gottlieb and Knut Reinert.
+\newblock Search schemes for approximate string matching.
+\newblock \emph{NAR Genomics and Bioinformatics}, 7\penalty0 (1), 2025.
+\newblock \doi{10.1093/nargab/lqaf025}.
+
+\bibitem[Independent nomination audit()]{zw4_reconciliation_2026}
+Independent nomination audit.
+\newblock Independent full-table audit and reconciliation of terminal {RNA}
+  losses.
+\newblock Public artifact deposit,
+  \url{https://github.com/Daneshpajouh/scotoma}, 2026.
+\newblock Records in \path{code_release/tool_audit/independent/}:
+  \path{schema4_full_RESULT.md} and \path{schema4_full.log}. Completed direct
+  full-table scans under both PAM policies, with exact row-identity and
+  multiplicity agreement, 31 October.
+
+\bibitem[Kalter et~al.(2025)Kalter, Fuster-Garc{\'i}a, Silva, Ronco-D{\'i}az,
+  Roncelli, Turchiano, Gorodkin, Cathomen, Benabdellah, Lee, and
+  Hendel]{kalter2025offtarget}
+Nechama Kalter, Carla Fuster-Garc{\'i}a, Alfredo Silva, V{\'i}ctor
+  Ronco-D{\'i}az, Stefano Roncelli, Giandomenico Turchiano, Jan Gorodkin, Toni
+  Cathomen, Karim Benabdellah, Ciaran Lee, and Ayal Hendel.
+\newblock Off-target effects in {CRISPR-Cas} genome editing for human
+  therapeutics: progress and challenges.
+\newblock \emph{Molecular Therapy Nucleic Acids}, 36\penalty0 (3):\penalty0
+  102636, 2025.
+\newblock \doi{10.1016/j.omtn.2025.102636}.
+
+\bibitem[Kucherov et~al.(2005)Kucherov, No{\'e}, and
+  Roytberg]{kucherov2005multiseed}
+Gregory Kucherov, Laurent No{\'e}, and Mikhail Roytberg.
+\newblock Multiseed lossless filtration.
+\newblock \emph{IEEE/ACM Transactions on Computational Biology and
+  Bioinformatics}, 2\penalty0 (1):\penalty0 51--61, 2005.
+\newblock \doi{10.1109/tcbb.2005.12}.
+
+\bibitem[Labun et~al.(2025)Labun, Rio, Tjeldnes, Swirski, Komisarczuk,
+  Haapaniemi, and Valen]{labun2025chopoff}
+Kornel Labun, Oline Rio, H{\aa}kon Tjeldnes, Micha{\l} Swirski, Anna~Zofia
+  Komisarczuk, Emma Haapaniemi, and Eivind Valen.
+\newblock {CHOPOFF}: symbolic alignments enable fast and sensitive {CRISPR}
+  off-target detection.
+\newblock \emph{bioRxiv}, 2025.
+\newblock \doi{10.1101/2025.01.06.603201}.
+\newblock Preprint, posted 6 January 2025; full text read and author list taken
+  from the publisher's citation metadata 1 November 2026.
+
+\bibitem[Lan et~al.(2026)Lan, Sun, Yu, and Ge]{lan2026burstballs}
+Zhaojun Lan, Yubo Sun, Wenjun Yu, and Gennian Ge.
+\newblock Sequence reconstruction under channels with multiple bursts of
+  insertions or deletions.
+\newblock \emph{IEEE Transactions on Information Theory}, 72\penalty0
+  (1):\penalty0 315--330, 2026.
+\newblock \doi{10.1109/TIT.2025.3633899}.
+
+\bibitem[Lazzarotto et~al.(2020)Lazzarotto, Malinin, Li, Zhang, Yang, Lee,
+  Cowley, He, Lan, Jividen, Katta, Kolmakova, Petersen, Qi, Strelcov, Maragh,
+  Krenciute, Ma, Cheng, and Tsai]{lazzarotto2020changeseq}
+Cicera~R. Lazzarotto, Nikolay~L. Malinin, Yichao Li, Ruochi Zhang, Yang Yang,
+  GaHyun Lee, Eleanor Cowley, Yanghua He, Xin Lan, Kasey Jividen, Varun Katta,
+  Natalia~G. Kolmakova, Christopher~T. Petersen, Qian Qi, Evgheni Strelcov,
+  Samantha Maragh, Giedre Krenciute, Jian Ma, Yong Cheng, and Shengdar~Q. Tsai.
+\newblock {CHANGE-seq} reveals genetic and epigenetic effects on {CRISPR-Cas9}
+  genome-wide activity.
+\newblock \emph{Nature Biotechnology}, 38\penalty0 (11):\penalty0 1317--1327,
+  2020.
+\newblock \doi{10.1038/s41587-020-0555-7}.
+
+\bibitem[Levenshtein(1967)]{levenshtein1967adjacent}
+Vladimir~I. Levenshtein.
+\newblock Asymptotically optimum binary code with correction for losses of one
+  or two adjacent bits.
+\newblock \emph{Problemy Kibernetiki}, 19:\penalty0 293--298, 1967.
+\newblock The Russian original. The English translation appeared in Systems
+  Theory Research 19 (1970), first page 298, which is how
+  \citet{schoeny2016burst} give their reference 10 and
+  \citet{lan2026burstballs} give it; our year and pages are the original's, so
+  the two are not in conflict. Cited as the attributed origin of the
+  burst-deletion ball size; not consulted directly.
+
+\bibitem[Levenshtein(2001)]{levenshtein2001reconstruction}
+Vladimir~I. Levenshtein.
+\newblock Efficient reconstruction of sequences from their subsequences or
+  supersequences.
+\newblock \emph{Journal of Combinatorial Theory, Series A}, 93\penalty0
+  (2):\penalty0 310--332, 2001.
+\newblock \doi{10.1006/jcta.2000.3081}.
+
+\bibitem[Lin et~al.(2020)Lin, Zhang, Zhang, Chen, and Wong]{lin2020crisprnet}
+Jiecong Lin, Zhaolei Zhang, Shixiong Zhang, Junyi Chen, and Ka-Chun Wong.
+\newblock {CRISPR}-{N}et: a recurrent convolutional network quantifies {CRISPR}
+  off-target activities with mismatches and indels.
+\newblock \emph{Advanced Science}, 7\penalty0 (13):\penalty0 1903562, 2020.
+\newblock \doi{10.1002/advs.201903562}.
+\newblock Deposited datasets read 1 November 2026 from the authors' repository
+  at commit 0843c48; the two indel files' SHA-256 digests are pinned in the
+  release.
+
+\bibitem[Park and Bae(2016)]{park2016casoffinderbulge}
+Jeongbin Park and Sangsu Bae.
+\newblock Cas-{OFFinder}-bulge: bulge-aware off-target search by wildcard
+  expansion over {Cas-OFFinder}.
+\newblock \url{https://github.com/hyugel/cas-offinder-bulge}, 2016.
+\newblock Version 1.2 beta, 2016-07-06.
+
+\bibitem[Renders et~al.(2024)Renders, Depuydt, Rahmann, and
+  Fostier]{renders2024lossless}
+Luca Renders, Lore Depuydt, Sven Rahmann, and Jan Fostier.
+\newblock Lossless approximate pattern matching: Automated design of efficient
+  search schemes.
+\newblock \emph{Journal of Computational Biology}, 31\penalty0 (10):\penalty0
+  975--989, 2024.
+\newblock \doi{10.1089/cmb.2024.0664}.
+
+\bibitem[Schneider et~al.(2017)Schneider, Graves-Lindsay, Howe, Bouk, Chen,
+  et~al.]{schneider2017grch38}
+Valerie~A. Schneider, Tina Graves-Lindsay, Kerstin Howe, Nathan Bouk,
+  Hsiu-Chuan Chen, et~al.
+\newblock Evaluation of {GRCh38} and de novo haploid genome assemblies
+  demonstrates the enduring quality of the reference assembly.
+\newblock \emph{Genome Research}, 27\penalty0 (5):\penalty0 849--864, 2017.
+\newblock \doi{10.1101/gr.213611.116}.
+
+\bibitem[Schoeny et~al.(2017)Schoeny, Wachter-Zeh, Gabrys, and
+  Yaakobi]{schoeny2016burst}
+Clayton Schoeny, Antonia Wachter-Zeh, Ryan Gabrys, and Eitan Yaakobi.
+\newblock Codes correcting a burst of deletions or insertions.
+\newblock \emph{IEEE Transactions on Information Theory}, 63\penalty0
+  (4):\penalty0 1971--1985, 2017.
+\newblock \doi{10.1109/TIT.2017.2661747}.
+
+\bibitem[Tsai et~al.(2015)Tsai, Zheng, Nguyen, Liebers, Topkar, Thapar,
+  Wyvekens, Khayter, Iafrate, Le, Aryee, and Joung]{tsai2015guideseq}
+Shengdar~Q. Tsai, Zongli Zheng, Nhu~T. Nguyen, Matthew Liebers, Ved~V. Topkar,
+  Vishal Thapar, Nicolas Wyvekens, Cyd Khayter, A.~John Iafrate, Long~P. Le,
+  Martin~J. Aryee, and J.~Keith Joung.
+\newblock {GUIDE-seq} enables genome-wide profiling of off-target cleavage by
+  {CRISPR-Cas} nucleases.
+\newblock \emph{Nature Biotechnology}, 33\penalty0 (2):\penalty0 187--197,
+  2015.
+\newblock \doi{10.1038/nbt.3117}.
+
+\bibitem[{U.S. Food and Drug Administration, Center for Biologics Evaluation
+  and Research}(2026)]{fda2026ngs}
+{U.S. Food and Drug Administration, Center for Biologics Evaluation and
+  Research}.
+\newblock Safety assessment of genome editing in human gene therapy products
+  using next-generation sequencing.
+\newblock Draft Guidance for Industry. Contains Nonbinding Recommendations.
+  \url{https://www.fda.gov/media/191966/download}, April 2026.
+\newblock Draft, not for implementation.
+
+\bibitem[Yaish and Orenstein(2024)]{yaish2024bulges}
+Ofir Yaish and Yaron Orenstein.
+\newblock Generating, modeling and evaluating a large-scale set of
+  {CRISPR/Cas9} off-target sites with bulges.
+\newblock \emph{Nucleic Acids Research}, 52\penalty0 (12):\penalty0 6777--6790,
+  2024.
+\newblock \doi{10.1093/nar/gkae428}.
+
+\bibitem[Yaish et~al.(2024)Yaish, Malle, Cohen, and
+  Orenstein]{yaish2023swoffinder}
+Ofir Yaish, Amichai Malle, Eliav Cohen, and Yaron Orenstein.
+\newblock {SWOffinder}: efficient and versatile search of {CRISPR} off-targets
+  with bulges by {Smith-Waterman} alignment.
+\newblock \emph{iScience}, 27\penalty0 (1):\penalty0 108557, 2024.
+\newblock \doi{10.1016/j.isci.2023.108557}.
+
+\bibitem[Zhu et~al.(2026)]{crisprseek_1531_source}
+Lihua~Julie Zhu et~al.
+\newblock {CRISPRseek}: design of guide {RNAs} in {CRISPR} genome-editing
+  systems.
+\newblock Bioconductor package source,
+  \url{https://github.com/bioc/CRISPRseek}, 2026.
+\newblock Version 1.53.1; DESCRIPTION commit \texttt{604cea08}, 13 October
+  2026. Bulge caller and helper commit \texttt{ef901b7b}; offTargetAnalysis
+  commit \texttt{373f6f53}; bundled wrapper commit \texttt{b71c045e}. Static
+  source trace, not executed in R.
+
+\end{thebibliography}

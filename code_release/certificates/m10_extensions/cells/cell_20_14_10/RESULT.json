@@ -1,0 +1,92 @@
+{
+  "status": "CLOSED",
+  "tau_lower": "708535997/54302282",
+  "tau_upper": "1130823449952/83926447441",
+  "matched_exactly": false,
+  "closed": true,
+  "fractional_route_refuted": false,
+  "K_lower": 14,
+  "K_upper": 14,
+  "K": 14,
+  "N": 20,
+  "r": 14,
+  "m": 10,
+  "reports": {
+    "cover": {
+      "passes": true,
+      "extremum": "1",
+      "extremum_exact": true,
+      "at": [
+        31458,
+        6
+      ],
+      "violations": 0,
+      "violation_count_is_lower_bound": false,
+      "complete_flag_list": true,
+      "screen_flagged": 1668,
+      "refinement_queries": 1668,
+      "rounding_denominator": 1000000000000,
+      "screen_error_bound": "391/250000000000",
+      "actual_rounding_error": "0",
+      "crt_absolute_bound": "20354822099136000",
+      "crt_modulus": "4611685975477714963",
+      "rounded_extremum": "83926447441/84000000000",
+      "conservative_extremum": "10490805913703/10500000000000",
+      "arithmetic": "exact two-prime CRT, proven rounding bounds, arbitrary precision refinement",
+      "total_mass": "1130823449952/83926447441",
+      "support_orbits": 1564,
+      "orbits_checked": 6753165,
+      "total_centre_orbits": 12754584,
+      "seconds": 1.2021569833159447,
+      "normalization_proof": {
+        "original_extremum": "83926447441/84000000000",
+        "original_report": "/scratch/YOUR_ACCOUNT/zr3v2/ZR3_v2/runs/n20_2105334/ladder_N20/cell_20_14_10/solver/round_009_cover.json"
+      }
+    },
+    "packing": {
+      "passes": true,
+      "extremum": "1",
+      "extremum_exact": true,
+      "at": [
+        540551,
+        0
+      ],
+      "violations": 0,
+      "violation_count_is_lower_bound": false,
+      "complete_flag_list": true,
+      "screen_flagged": 1622,
+      "refinement_queries": 1622,
+      "rounding_denominator": 10000000000,
+      "screen_error_bound": "783/5000000000",
+      "actual_rounding_error": "0",
+      "crt_absolute_bound": "2637984946987353600",
+      "crt_modulus": "4611685975477714963",
+      "rounded_extremum": "515871679/500000000",
+      "conservative_extremum": "5158717573/5000000000",
+      "arithmetic": "exact two-prime CRT, proven rounding bounds, arbitrary precision refinement",
+      "total_mass": "708535997/54302282",
+      "support_orbits": 1566,
+      "orbits_checked": 12754584,
+      "total_centre_orbits": 12754584,
+      "seconds": 1.1800439250655472,
+      "normalization_proof": {
+        "original_extremum": "515871679/500000000",
+        "original_report": "/scratch/YOUR_ACCOUNT/zr3v2/ZR3_v2/runs/n20_2105334/ladder_N20/cell_20_14_10/solver/round_009_packing.json"
+      }
+    }
+  },
+  "state": {
+    "termination": "decisive exact certificate verified",
+    "round": 9,
+    "reconstruction": "common-denominator rational proposal; no equality asserted",
+    "decisive_certificate": "decision.certificate.json"
+  },
+  "elapsed_seconds": 588.3177737118676,
+  "enumeration": {
+    "centre_orbits": 12754584,
+    "point_orbits": 6753165,
+    "ambient_words": 1099511627776,
+    "union_words": 66845907838
+  },
+  "certificate_sha256": "1a90478af4689af6dc4711d9e849373e113656378bb7d59067f802e76066f83b"
+}

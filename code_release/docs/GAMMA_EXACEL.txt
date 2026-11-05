@@ -1,0 +1,68 @@
+spacer CTAACAGTTGCTTTTATCAC, GRCh38, 25 contigs (chr1-22, X, Y, M), both strands, <= 6 mismatches, NGG and NAG PAMs
+  genomic windows returned by the scan       : 28,176
+  on-target windows (zero mismatches)        : 1
+  candidate off-target sites N (windows)     : 28,175   <- denominator used
+  distinct off-target 23-mers (for contrast) : 26,334
+  mismatch histogram of windows: 0mm:1, 2mm:1, 3mm:18, 4mm:362, 5mm:3,185, 6mm:24,609
+
+WITH REPLACEMENT (i.i.d. draws): m0 = min{m : (1 - k/N)^m <= delta1}
+delta1 = 0.05
+  population        N   k   gamma = k/N        m0    m0/N
+       sites   28,175   1     3.549e-05    84,404   2.996
+       sites   28,175   2     7.098e-05    42,201   1.498
+       sites   28,175   5     1.775e-04    16,880   0.599
+       sites   28,175  10     3.549e-04     8,439   0.300
+   sequences   26,334   1     3.797e-05    78,889   2.996
+   sequences   26,334   2     7.595e-05    39,444   1.498
+   sequences   26,334   5     1.899e-04    15,777   0.599
+   sequences   26,334  10     3.797e-04     7,888   0.300
+delta1 = 0.025
+  population        N   k   gamma = k/N        m0    m0/N
+       sites   28,175   1     3.549e-05   103,933   3.689
+       sites   28,175   2     7.098e-05    51,966   1.844
+       sites   28,175   5     1.775e-04    20,785   0.738
+       sites   28,175  10     3.549e-04    10,392   0.369
+   sequences   26,334   1     3.797e-05    97,142   3.689
+   sequences   26,334   2     7.595e-05    48,570   1.844
+   sequences   26,334   5     1.899e-04    19,427   0.738
+   sequences   26,334  10     3.797e-04     9,713   0.369
+delta1 = 0.01
+  population        N   k   gamma = k/N        m0    m0/N
+       sites   28,175   1     3.549e-05   129,749   4.605
+       sites   28,175   2     7.098e-05    64,874   2.303
+       sites   28,175   5     1.775e-04    25,948   0.921
+       sites   28,175  10     3.549e-04    12,973   0.460
+   sequences   26,334   1     3.797e-05   121,271   4.605
+   sequences   26,334   2     7.595e-05    60,634   2.302
+   sequences   26,334   5     1.899e-04    24,253   0.921
+   sequences   26,334  10     3.797e-04    12,125   0.460
+
+WITHOUT REPLACEMENT (hypergeometric zero-defect plan), N = candidate off-target sites
+  'closed form' is ceil(N * (1 - delta1^(1/k))), the leading-order expression; it is
+  never smaller than the exact requirement.
+    delta1    k  exact sites  closed form  exact / N
+      0.05    1       26,767       26,767     0.9500
+      0.05    2       21,875       21,875     0.7764
+      0.05    5       12,699       12,700     0.4507
+      0.05   10        7,293        7,294     0.2588
+      0.05   25        3,181        3,182     0.1129
+      0.05   50        1,638        1,639     0.0581
+     0.025    1       27,471       27,471     0.9750
+     0.025    2       23,720       23,721     0.8419
+     0.025    5       14,702       14,703     0.5218
+     0.025   10        8,691        8,692     0.3085
+     0.025   25        3,864        3,866     0.1371
+     0.025   50        2,003        2,004     0.0711
+      0.01    1       27,894       27,894     0.9900
+      0.01    2       25,358       25,358     0.9000
+      0.01    5       16,958       16,959     0.6019
+      0.01   10       10,397       10,398     0.3690
+      0.01   25        4,739        4,741     0.1682
+      0.01   50        2,477        2,480     0.0879
+
+READING. At k = 1 the certificate costs 95 per cent of the candidate set at delta1 = 0.05:
+a census in all but name, which is the price of a zero-false-alarm claim when a single
+missed site would break it. The price falls fast in k. The operative question for a trial is
+not 'is this guide clean' but 'if it is not, at how many sites at minimum', which is a
+mechanism question about the editing enzyme and the assay, not something the validation
+data can answer (Proposition 2 of the paper).

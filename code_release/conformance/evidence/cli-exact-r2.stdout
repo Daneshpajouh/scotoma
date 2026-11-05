@@ -1,0 +1,31 @@
+{
+  "budget": 4,
+  "emitted_rows": 8,
+  "guide_status_counts": {
+    "exact": 1
+  },
+  "guides": 1,
+  "guides_incomplete": 0,
+  "invalid_words": 0,
+  "missing_words": 0,
+  "per_guide": {
+    "guide": {
+      "distinct_emitted": 8,
+      "emitted_rows": 8,
+      "guide": "ACGTACGT",
+      "invalid_words": [],
+      "missing_words": [],
+      "multiplicities": {},
+      "r": 8,
+      "redundant_rows": 0,
+      "status": "exact",
+      "valid_distinct": 8,
+      "word_set_exact": true
+    }
+  },
+  "redundant_rows": 0,
+  "required_words": 8,
+  "sound_uniqueness_applies_to_all": true,
+  "status": "exact",
+  "valid_distinct_words": 8
+}

@@ -1,0 +1,9 @@
+{
+  "active_scores.tsv": "129d9d4a9c63b0d5d1c968a5c8dfe408e106a62e58dce1d344d15b156e22285b",
+  "control_scores.tsv": "8b497a8080e752e2077f1fae9f600a60d3f9b8493f8ae7c814c52b256e85b08d",
+  "encoder_convention.json": "ecbf990f39e8327fccecaa201fc0077c1ca671f4da48123ce8a1a39e93779bb2",
+  "execution.json": "315fcf2c4066ac6791702465d621eeb0887328cdf6da803d17831367ab5a2530",
+  "resources.json": "1d6ab73fe6dad6f7edac20bef3085f4eae0df26066a6357e501394594ccaa648",
+  "summary.json": "ab594df558212f3dfa3d916dc2558b6d7bc21f7c7f07ddc0b2c4f6ff0aed7e29",
+  "treatment_scores.tsv": "153ed3cc52223616cb0148925321101c1083b57aa4c7800db146ab09315e8c7e"
+}

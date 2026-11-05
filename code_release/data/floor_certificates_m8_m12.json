@@ -1,0 +1,67 @@
+[
+ {
+  "N": 20,
+  "m": 8,
+  "r": 6,
+  "lam": "0",
+  "inner_max": "116/99",
+  "bound": "116/99",
+  "threshold": "6/5",
+  "margin": "14/495",
+  "attaining_centre": "11111111110000000002",
+  "centre_attains_inner": true,
+  "admitted": true
+ },
+ {
+  "N": 20,
+  "m": 9,
+  "r": 4,
+  "lam": "7/680",
+  "inner_max": "175/136",
+  "bound": "903/680",
+  "threshold": "4/3",
+  "margin": "11/2040",
+  "attaining_centre": "11111111111111000002",
+  "centre_attains_inner": true,
+  "admitted": true
+ },
+ {
+  "N": 20,
+  "m": 10,
+  "r": 3,
+  "lam": "17367/622336",
+  "inner_max": "2642725/1867008",
+  "bound": "699757/466752",
+  "threshold": "3/2",
+  "margin": "371/466752",
+  "attaining_centre": "11111111112222000000",
+  "centre_attains_inner": true,
+  "admitted": true
+ },
+ {
+  "N": 20,
+  "m": 11,
+  "r": 3,
+  "lam": "1/8",
+  "inner_max": "3227/3264",
+  "bound": "4451/3264",
+  "threshold": "3/2",
+  "margin": "445/3264",
+  "attaining_centre": "11111111111110000222",
+  "centre_attains_inner": true,
+  "admitted": true
+ },
+ {
+  "N": 20,
+  "m": 12,
+  "r": 2,
+  "lam": "2292847/11698176",
+  "inner_max": "226806443/152076288",
+  "bound": "286420465/152076288",
+  "threshold": "2",
+  "margin": "17732111/152076288",
+  "attaining_centre": "11112222222222220000",
+  "centre_attains_inner": true,
+  "admitted": true
+ }
+]

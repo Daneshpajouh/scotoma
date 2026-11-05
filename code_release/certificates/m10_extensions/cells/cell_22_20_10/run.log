@@ -1,0 +1,148 @@
+{"stage": "LP", "N": 22, "r": 20, "m": 10, "round": 1, "points": 1536, "centres": 1064, "elapsed": 11.904520911164582}
+{"stage": "numeric_proposal", "display_only": 19.777979269037683, "round": 1}
+{"stage": "reconstruct", "cover": 210, "packing": 210, "backend": "auto"}
+exact reconstruction: pivots=32/210 seconds=0.1
+exact reconstruction: pivots=64/210 seconds=0.3
+exact reconstruction: pivots=96/210 seconds=0.5
+exact reconstruction: pivots=128/210 seconds=0.7
+exact reconstruction: pivots=160/210 seconds=0.9
+exact reconstruction: pivots=192/210 seconds=1.0
+exact reconstruction: pivots=32/210 seconds=0.1
+exact reconstruction: pivots=64/210 seconds=0.2
+exact reconstruction: pivots=96/210 seconds=0.3
+exact reconstruction: pivots=128/210 seconds=0.3
+exact reconstruction: pivots=160/210 seconds=0.4
+exact reconstruction: pivots=192/210 seconds=0.4
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 420, "classes": 1224594392}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 420, "classes": 4649045868}
+{"stage": "certified_bounds", "lower_display": 11.724702879075544, "upper_display": 20.0, "status": "OPEN", "added": 1025}
+{"stage": "LP", "N": 22, "r": 20, "m": 10, "round": 2, "points": 2048, "centres": 1577, "elapsed": 450.2121299440041}
+{"stage": "numeric_proposal", "display_only": 20.0, "round": 2}
+{"stage": "reconstruct", "cover": 10, "packing": 269, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 20, "classes": 1224594392}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 538, "classes": 4649045868}
+{"stage": "certified_bounds", "lower_display": 13.015698619043715, "upper_display": 20.0, "status": "OPEN", "added": 514}
+{"stage": "LP", "N": 22, "r": 20, "m": 10, "round": 3, "points": 2048, "centres": 2091, "elapsed": 911.0047335596755}
+{"stage": "numeric_proposal", "display_only": 19.74965825599514, "round": 3}
+{"stage": "reconstruct", "cover": 265, "packing": 265, "backend": "auto"}
+exact reconstruction: pivots=32/265 seconds=0.3
+exact reconstruction: pivots=64/265 seconds=0.6
+exact reconstruction: pivots=96/265 seconds=1.0
+exact reconstruction: pivots=128/265 seconds=1.4
+exact reconstruction: pivots=160/265 seconds=1.9
+exact reconstruction: pivots=192/265 seconds=2.4
+exact reconstruction: pivots=224/265 seconds=2.7
+exact reconstruction: pivots=256/265 seconds=2.8
+exact reconstruction: pivots=32/265 seconds=0.2
+exact reconstruction: pivots=64/265 seconds=0.3
+exact reconstruction: pivots=96/265 seconds=0.5
+exact reconstruction: pivots=128/265 seconds=0.6
+exact reconstruction: pivots=160/265 seconds=0.8
+exact reconstruction: pivots=192/265 seconds=0.9
+exact reconstruction: pivots=224/265 seconds=0.9
+exact reconstruction: pivots=256/265 seconds=0.9
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 528, "classes": 1224594392}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 530, "classes": 4649045868}
+{"stage": "certified_bounds", "lower_display": 15.523746265157502, "upper_display": 20.0, "status": "OPEN", "added": 1024}
+{"stage": "LP", "N": 22, "r": 20, "m": 10, "round": 4, "points": 2560, "centres": 2603, "elapsed": 1365.9886900009587}
+{"stage": "numeric_proposal", "display_only": 20.0000000000001, "round": 4}
+{"stage": "reconstruct", "cover": 10, "packing": 362, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 20, "classes": 1224594392}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 724, "classes": 4649045868}
+{"stage": "certified_bounds", "lower_display": 15.758122355506993, "upper_display": 20.0, "status": "OPEN", "added": 515}
+{"stage": "LP", "N": 22, "r": 20, "m": 10, "round": 5, "points": 2560, "centres": 3118, "elapsed": 1791.4318497348577}
+{"stage": "numeric_proposal", "display_only": 19.96736953304756, "round": 5}
+{"stage": "reconstruct", "cover": 354, "packing": 354, "backend": "auto"}
+exact reconstruction: pivots=32/354 seconds=0.4
+exact reconstruction: pivots=64/354 seconds=1.0
+exact reconstruction: pivots=96/354 seconds=2.0
+exact reconstruction: pivots=128/354 seconds=3.2
+exact reconstruction: pivots=160/354 seconds=4.8
+exact reconstruction: pivots=192/354 seconds=7.2
+exact reconstruction: pivots=224/354 seconds=9.7
+exact reconstruction: pivots=256/354 seconds=11.9
+exact reconstruction: pivots=288/354 seconds=13.5
+exact reconstruction: pivots=320/354 seconds=14.3
+exact reconstruction: pivots=352/354 seconds=14.4
+exact reconstruction: pivots=32/354 seconds=0.3
+exact reconstruction: pivots=64/354 seconds=0.6
+exact reconstruction: pivots=96/354 seconds=0.9
+exact reconstruction: pivots=128/354 seconds=1.3
+exact reconstruction: pivots=160/354 seconds=1.6
+exact reconstruction: pivots=192/354 seconds=2.0
+exact reconstruction: pivots=224/354 seconds=2.3
+exact reconstruction: pivots=256/354 seconds=2.5
+exact reconstruction: pivots=288/354 seconds=2.7
+exact reconstruction: pivots=320/354 seconds=2.8
+exact reconstruction: pivots=352/354 seconds=2.8
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 707, "classes": 1224594392}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 708, "classes": 4649045868}
+{"stage": "certified_bounds", "lower_display": 17.02009896063424, "upper_display": 20.0, "status": "OPEN", "added": 998}
+{"stage": "LP", "N": 22, "r": 20, "m": 10, "round": 6, "points": 3072, "centres": 3604, "elapsed": 2257.406166058965}
+{"stage": "numeric_proposal", "display_only": 19.99999999999971, "round": 6}
+{"stage": "reconstruct", "cover": 10, "packing": 492, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 20, "classes": 1224594392}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 984, "classes": 4649045868}
+{"stage": "certified_bounds", "lower_display": 17.02009896063424, "upper_display": 20.0, "status": "OPEN", "added": 513}
+{"stage": "LP", "N": 22, "r": 20, "m": 10, "round": 7, "points": 3072, "centres": 4117, "elapsed": 2678.549087804742}
+{"stage": "numeric_proposal", "display_only": 20.000000000000057, "round": 7}
+{"stage": "reconstruct", "cover": 10, "packing": 540, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 20, "classes": 1224594392}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1080, "classes": 4649045868}
+{"stage": "certified_bounds", "lower_display": 17.866949555150992, "upper_display": 20.0, "status": "OPEN", "added": 255}
+{"stage": "LP", "N": 22, "r": 20, "m": 10, "round": 8, "points": 3072, "centres": 4372, "elapsed": 3150.087693703361}
+{"stage": "numeric_proposal", "display_only": 20.000000000002167, "round": 8}
+{"stage": "reconstruct", "cover": 10, "packing": 518, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 20, "classes": 1224594392}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1036, "classes": 4649045868}
+{"stage": "certified_bounds", "lower_display": 18.294529723350436, "upper_display": 20.0, "status": "OPEN", "added": 187}
+{"stage": "LP", "N": 22, "r": 20, "m": 10, "round": 9, "points": 3072, "centres": 4559, "elapsed": 3605.8869669865817}
+{"stage": "numeric_proposal", "display_only": 19.99999999994996, "round": 9}
+{"stage": "reconstruct", "cover": 10, "packing": 565, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 20, "classes": 1224594392}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1130, "classes": 4649045868}
+{"stage": "certified_bounds", "lower_display": 18.294529723350436, "upper_display": 20.0, "status": "OPEN", "added": 112}
+{"stage": "LP", "N": 22, "r": 20, "m": 10, "round": 10, "points": 3072, "centres": 4671, "elapsed": 4074.8889977894723}
+{"stage": "numeric_proposal", "display_only": 20.000000000000142, "round": 10}
+{"stage": "reconstruct", "cover": 10, "packing": 551, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 20, "classes": 1224594392}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1102, "classes": 4649045868}
+{"stage": "certified_bounds", "lower_display": 18.423779936449392, "upper_display": 20.0, "status": "OPEN", "added": 131}
+{"stage": "LP", "N": 22, "r": 20, "m": 10, "round": 11, "points": 3072, "centres": 4802, "elapsed": 4511.115640078671}
+{"stage": "numeric_proposal", "display_only": 19.999999999999954, "round": 11}
+{"stage": "reconstruct", "cover": 10, "packing": 545, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 20, "classes": 1224594392}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1090, "classes": 4649045868}
+{"stage": "certified_bounds", "lower_display": 18.423779936449392, "upper_display": 20.0, "status": "OPEN", "added": 112}
+{"stage": "LP", "N": 22, "r": 20, "m": 10, "round": 12, "points": 3072, "centres": 4914, "elapsed": 4956.598519057967}
+{"stage": "numeric_proposal", "display_only": 19.999999999999204, "round": 12}
+{"stage": "reconstruct", "cover": 10, "packing": 543, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 20, "classes": 1224594392}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1086, "classes": 4649045868}
+{"stage": "certified_bounds", "lower_display": 18.753412195069775, "upper_display": 20.0, "status": "OPEN", "added": 58}
+{"stage": "LP", "N": 22, "r": 20, "m": 10, "round": 13, "points": 3072, "centres": 4972, "elapsed": 5438.386175049469}
+{"stage": "numeric_proposal", "display_only": 20.00000000000043, "round": 13}
+{"stage": "reconstruct", "cover": 10, "packing": 584, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 20, "classes": 1224594392}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1168, "classes": 4649045868}
+{"stage": "certified_bounds", "lower_display": 18.753412195069775, "upper_display": 20.0, "status": "OPEN", "added": 82}
+{"stage": "LP", "N": 22, "r": 20, "m": 10, "round": 14, "points": 3072, "centres": 5054, "elapsed": 5951.371063721366}
+{"stage": "numeric_proposal", "display_only": 20.0, "round": 14}
+{"stage": "reconstruct", "cover": 10, "packing": 566, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 20, "classes": 1224594392}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1132, "classes": 4649045868}
+{"stage": "certified_bounds", "lower_display": 18.849301516206854, "upper_display": 20.0, "status": "OPEN", "added": 45}
+{"stage": "LP", "N": 22, "r": 20, "m": 10, "round": 15, "points": 3072, "centres": 5099, "elapsed": 6447.564417905174}
+{"stage": "numeric_proposal", "display_only": 19.999999999999986, "round": 15}
+{"stage": "reconstruct", "cover": 10, "packing": 552, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 20, "classes": 1224594392}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1104, "classes": 4649045868}
+{"stage": "certified_bounds", "lower_display": 18.914167616114536, "upper_display": 20.0, "status": "OPEN", "added": 61}
+{"stage": "LP", "N": 22, "r": 20, "m": 10, "round": 16, "points": 3072, "centres": 5160, "elapsed": 6942.563138767146}
+{"stage": "numeric_proposal", "display_only": 19.999999999999986, "round": 16}
+{"stage": "reconstruct", "cover": 10, "packing": 587, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 20, "classes": 1224594392}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1174, "classes": 4649045868}
+{"stage": "certified_bounds", "lower_display": 19.14637479059861, "upper_display": 20.0, "status": "CLOSED", "added": 57}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1174, "classes": 4649045868}
+{"stage": "finished", "status": "CLOSED", "termination": "decisive exact certificate verified"}

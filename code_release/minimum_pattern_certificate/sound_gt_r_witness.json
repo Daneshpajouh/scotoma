@@ -1,0 +1,136 @@
+{
+  "definition": "sound iff B_m(c)subseteq Um; companion unique-sound theorem applies only for m<=n-3; this deposit settles |sound|>r outside that range",
+  "primary_witness": {
+    "guide": "AACCG",
+    "n": 5,
+    "m": 3,
+    "n_minus_3": 2,
+    "outside_companion_soundness_range": true,
+    "r": 3,
+    "deletion_words": [
+      "AACC",
+      "AACG",
+      "ACCG"
+    ],
+    "|Um|": 220,
+    "space": 256,
+    "Um_proper": true,
+    "Um_nonempty": true,
+    "|sound|": 4,
+    "sound_gt_r": true,
+    "extra_sound_centres": [
+      "ACCC"
+    ],
+    "explicit_rminus1_cover": [
+      "AAAC",
+      "ACCG"
+    ],
+    "has_rminus1_DNA_cover": true
+  },
+  "control_inside_theorem_AACCG_m2": {
+    "guide": "AACCG",
+    "n": 5,
+    "m": 2,
+    "n_minus_3": 2,
+    "outside_companion_soundness_range": false,
+    "r": 3,
+    "deletion_words": [
+      "AACC",
+      "AACG",
+      "ACCG"
+    ],
+    "|Um|": 115,
+    "space": 256,
+    "Um_proper": true,
+    "Um_nonempty": true,
+    "|sound|": 3,
+    "sound_gt_r": false,
+    "extra_sound_centres": [],
+    "explicit_rminus1_cover": null,
+    "has_rminus1_DNA_cover": false
+  },
+  "panel": [
+    {
+      "guide": "AACCG",
+      "n": 5,
+      "m": 3,
+      "n_minus_3": 2,
+      "outside_companion_soundness_range": true,
+      "r": 3,
+      "deletion_words": [
+        "AACC",
+        "AACG",
+        "ACCG"
+      ],
+      "|Um|": 220,
+      "space": 256,
+      "Um_proper": true,
+      "Um_nonempty": true,
+      "|sound|": 4,
+      "sound_gt_r": true,
+      "extra_sound_centres": [
+        "ACCC"
+      ],
+      "explicit_rminus1_cover": [
+        "AAAC",
+        "ACCG"
+      ],
+      "has_rminus1_DNA_cover": true
+    },
+    {
+      "guide": "AACCGG",
+      "n": 6,
+      "m": 4,
+      "n_minus_3": 3,
+      "outside_companion_soundness_range": true,
+      "r": 3,
+      "deletion_words": [
+        "AACCG",
+        "AACGG",
+        "ACCGG"
+      ],
+      "|Um|": 916,
+      "space": 1024,
+      "Um_proper": true,
+      "Um_nonempty": true,
+      "|sound|": 4,
+      "sound_gt_r": true,
+      "extra_sound_centres": [
+        "ACCCG"
+      ],
+      "explicit_rminus1_cover": [
+        "AAACA",
+        "ACCGG"
+      ],
+      "has_rminus1_DNA_cover": true
+    },
+    {
+      "guide": "AACCG",
+      "n": 5,
+      "m": 2,
+      "n_minus_3": 2,
+      "outside_companion_soundness_range": false,
+      "r": 3,
+      "deletion_words": [
+        "AACC",
+        "AACG",
+        "ACCG"
+      ],
+      "|Um|": 115,
+      "space": 256,
+      "Um_proper": true,
+      "Um_nonempty": true,
+      "|sound|": 3,
+      "sound_gt_r": false,
+      "extra_sound_centres": [],
+      "explicit_rminus1_cover": null,
+      "has_rminus1_DNA_cover": false
+    }
+  ],
+  "status": "PASS",
+  "settled_questions": {
+    "exists_settleable_sound_gt_r_Um_proper_outside_theorem": true,
+    "primary_also_has_explicit_DNA_rminus1_cover": true,
+    "note": "No settleable instance was found with |sound|>r AND no r-1 DNA cover; every outside-theorem |sound|>r witness checked so far admits an explicit (r-1)-cover. Certificate 'no r-1 cover' teeth therefore remain on |sound|=r instances inside m<=n-3."
+  }
+}

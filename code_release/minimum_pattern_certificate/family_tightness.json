@@ -1,0 +1,380 @@
+{
+  "definitions": {
+    "Um": "union of radius-m Hamming balls about the r deletion words",
+    "companion_range": "m <= n-3",
+    "hypothesis_under_test": "m<=n-3 cannot be weakened to m<=n-2",
+    "quantity_bounded_by_theorem": "the set of sound centres equals the r deletion words when m<=n-3",
+    "quantity_|sound|": "cardinality of sound-centre set (exhaustive)",
+    "sound": "centre c with B_m(c) subseteq Um"
+  },
+  "family_rows": [
+    {
+      "family_member": "alternating_AC",
+      "inside_control": {
+        "Um_nonempty": true,
+        "Um_proper": true,
+        "at_m_equals_n_minus_2": false,
+        "at_m_equals_n_minus_3": true,
+        "deletion_words": [
+          "AA",
+          "AC",
+          "CA"
+        ],
+        "extra_sound_centres": [],
+        "guide": "ACA",
+        "m": 0,
+        "n": 3,
+        "outside_companion_range": false,
+        "r": 3,
+        "sound_gt_r": false,
+        "space": 16,
+        "|Um|": 3,
+        "|sound|": 3
+      },
+      "outside": {
+        "Um_nonempty": true,
+        "Um_proper": true,
+        "at_m_equals_n_minus_2": true,
+        "at_m_equals_n_minus_3": false,
+        "deletion_words": [
+          "AA",
+          "AC",
+          "CA"
+        ],
+        "extra_sound_centres": [
+          "CC"
+        ],
+        "guide": "ACA",
+        "m": 1,
+        "n": 3,
+        "outside_companion_range": true,
+        "r": 3,
+        "sound_gt_r": true,
+        "space": 16,
+        "|Um|": 12,
+        "|sound|": 4
+      }
+    },
+    {
+      "family_member": "alternating_AC",
+      "inside_control": {
+        "Um_nonempty": true,
+        "Um_proper": true,
+        "at_m_equals_n_minus_2": false,
+        "at_m_equals_n_minus_3": true,
+        "deletion_words": [
+          "AAC",
+          "ACA",
+          "ACC",
+          "CAC"
+        ],
+        "extra_sound_centres": [],
+        "guide": "ACAC",
+        "m": 1,
+        "n": 4,
+        "outside_companion_range": false,
+        "r": 4,
+        "sound_gt_r": false,
+        "space": 64,
+        "|Um|": 26,
+        "|sound|": 4
+      },
+      "outside": {
+        "Um_nonempty": true,
+        "Um_proper": true,
+        "at_m_equals_n_minus_2": true,
+        "at_m_equals_n_minus_3": false,
+        "deletion_words": [
+          "AAC",
+          "ACA",
+          "ACC",
+          "CAC"
+        ],
+        "extra_sound_centres": [
+          "AAA",
+          "CAA",
+          "CCA",
+          "CCC"
+        ],
+        "guide": "ACAC",
+        "m": 2,
+        "n": 4,
+        "outside_companion_range": true,
+        "r": 4,
+        "sound_gt_r": true,
+        "space": 64,
+        "|Um|": 56,
+        "|sound|": 8
+      }
+    },
+    {
+      "family_member": "alternating_AC",
+      "inside_control": {
+        "Um_nonempty": true,
+        "Um_proper": true,
+        "at_m_equals_n_minus_2": false,
+        "at_m_equals_n_minus_3": true,
+        "deletion_words": [
+          "AACA",
+          "ACAA",
+          "ACAC",
+          "ACCA",
+          "CACA"
+        ],
+        "extra_sound_centres": [],
+        "guide": "ACACA",
+        "m": 2,
+        "n": 5,
+        "outside_companion_range": false,
+        "r": 5,
+        "sound_gt_r": false,
+        "space": 256,
+        "|Um|": 152,
+        "|sound|": 5
+      },
+      "outside": {
+        "Um_nonempty": true,
+        "Um_proper": true,
+        "at_m_equals_n_minus_2": true,
+        "at_m_equals_n_minus_3": false,
+        "deletion_words": [
+          "AACA",
+          "ACAA",
+          "ACAC",
+          "ACCA",
+          "CACA"
+        ],
+        "extra_sound_centres": [
+          "AAAA",
+          "AAAC",
+          "AACC",
+          "ACCC",
+          "CAAA",
+          "CAAC",
+          "CACC",
+          "CCAA",
+          "CCAC",
+          "CCCA",
+          "CCCC"
+        ],
+        "guide": "ACACA",
+        "m": 3,
+        "n": 5,
+        "outside_companion_range": true,
+        "r": 5,
+        "sound_gt_r": true,
+        "space": 256,
+        "|Um|": 240,
+        "|sound|": 16
+      }
+    },
+    {
+      "family_member": "alternating_AC",
+      "inside_control": {
+        "Um_nonempty": true,
+        "Um_proper": true,
+        "at_m_equals_n_minus_2": false,
+        "at_m_equals_n_minus_3": true,
+        "deletion_words": [
+          "AACAC",
+          "ACAAC",
+          "ACACA",
+          "ACACC",
+          "ACCAC",
+          "CACAC"
+        ],
+        "extra_sound_centres": [],
+        "guide": "ACACAC",
+        "m": 3,
+        "n": 6,
+        "outside_companion_range": false,
+        "r": 6,
+        "sound_gt_r": false,
+        "space": 1024,
+        "|Um|": 752,
+        "|sound|": 6
+      },
+      "outside": {
+        "Um_nonempty": true,
+        "Um_proper": true,
+        "at_m_equals_n_minus_2": true,
+        "at_m_equals_n_minus_3": false,
+        "deletion_words": [
+          "AACAC",
+          "ACAAC",
+          "ACACA",
+          "ACACC",
+          "ACCAC",
+          "CACAC"
+        ],
+        "extra_sound_centres": [
+          "AAAAA",
+          "AAAAC",
+          "AAACA",
+          "AAACC",
+          "AACAA",
+          "AACCA",
+          "AACCC",
+          "ACAAA",
+          "ACCAA",
+          "ACCCA",
+          "ACCCC",
+          "CAAAA",
+          "CAAAC",
+          "CAACA",
+          "CAACC",
+          "CACAA",
+          "CACCA",
+          "CACCC",
+          "CCAAA",
+          "CCAAC",
+          "CCACA",
+          "CCACC",
+          "CCCAA",
+          "CCCAC",
+          "CCCCA",
+          "CCCCC"
+        ],
+        "guide": "ACACAC",
+        "m": 4,
+        "n": 6,
+        "outside_companion_range": true,
+        "r": 6,
+        "sound_gt_r": true,
+        "space": 1024,
+        "|Um|": 992,
+        "|sound|": 32
+      }
+    }
+  ],
+  "negatives": [
+    {
+      "claim_tested": "alternating_AC family verified for all n>=3 (infinite)",
+      "open_n": "n>=7 (L=6,m=5 exhaustive ball enumeration exceeds 20 min / 2GB under nice 15)",
+      "result": "NEGATIVE_UNDER_LOCAL_LIMITS",
+      "verified_n": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "what_holds": "For every n in {3,4,5,6}, guide (AC)*[:n] at m=n-2 has |sound|>r with Um proper; at m=n-3 |sound|=r."
+    }
+  ],
+  "producer": "academic_lead_r10_paperB/aaccg_tightness/family_tightness_producer.py",
+  "settled": {
+    "AACCG_rminus1_cover": [
+      "AACC",
+      "ACCG"
+    ],
+    "family_alternating_AC_n_3_to_6_all_inside_sound_eq_r": true,
+    "family_alternating_AC_n_3_to_6_all_outside_sound_gt_r": true,
+    "minimal_control": {
+      "Um_nonempty": true,
+      "Um_proper": true,
+      "at_m_equals_n_minus_2": false,
+      "at_m_equals_n_minus_3": true,
+      "deletion_words": [
+        "AA",
+        "AC",
+        "CA"
+      ],
+      "extra_sound_centres": [],
+      "guide": "ACA",
+      "m": 0,
+      "n": 3,
+      "outside_companion_range": false,
+      "r": 3,
+      "sound_gt_r": false,
+      "space": 16,
+      "|Um|": 3,
+      "|sound|": 3
+    },
+    "minimal_rminus1_cover": [
+      "AA",
+      "CC"
+    ],
+    "minimal_witness": {
+      "Um_nonempty": true,
+      "Um_proper": true,
+      "at_m_equals_n_minus_2": true,
+      "at_m_equals_n_minus_3": false,
+      "deletion_words": [
+        "AA",
+        "AC",
+        "CA"
+      ],
+      "extra_sound_centres": [
+        "CC"
+      ],
+      "guide": "ACA",
+      "m": 1,
+      "n": 3,
+      "outside_companion_range": true,
+      "r": 3,
+      "sound_gt_r": true,
+      "space": 16,
+      "|Um|": 12,
+      "|sound|": 4
+    },
+    "n3_firstA_outside_witness_count": 9,
+    "n3_firstA_outside_witnesses": [
+      "ACA",
+      "ACG",
+      "ACT",
+      "AGA",
+      "AGC",
+      "AGT",
+      "ATA",
+      "ATC",
+      "ATG"
+    ],
+    "secondary_AACCG": {
+      "Um_nonempty": true,
+      "Um_proper": true,
+      "at_m_equals_n_minus_2": true,
+      "at_m_equals_n_minus_3": false,
+      "deletion_words": [
+        "AACC",
+        "AACG",
+        "ACCG"
+      ],
+      "extra_sound_centres": [
+        "ACCC"
+      ],
+      "guide": "AACCG",
+      "m": 3,
+      "n": 5,
+      "outside_companion_range": true,
+      "r": 3,
+      "sound_gt_r": true,
+      "space": 256,
+      "|Um|": 220,
+      "|sound|": 4
+    },
+    "secondary_AACCG_control": {
+      "Um_nonempty": true,
+      "Um_proper": true,
+      "at_m_equals_n_minus_2": false,
+      "at_m_equals_n_minus_3": true,
+      "deletion_words": [
+        "AACC",
+        "AACG",
+        "ACCG"
+      ],
+      "extra_sound_centres": [],
+      "guide": "AACCG",
+      "m": 2,
+      "n": 5,
+      "outside_companion_range": false,
+      "r": 3,
+      "sound_gt_r": false,
+      "space": 256,
+      "|Um|": 115,
+      "|sound|": 3
+    },
+    "statement": "The companion hypothesis m<=n-3 cannot be weakened to m<=n-2. Minimal witness ACA (n=3,m=1): |sound|=4>r=3. Secondary AACCG (n=5,m=3): |sound|=4>r=3. Finite family: for every n in {3,4,5,6}, alternating AC guide at m=n-2 has |sound|>r and Um proper; at m=n-3 the same guide has |sound|=r."
+  },
+  "shares_code_with_r6_deposit": false,
+  "status": "PASS"
+}

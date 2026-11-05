@@ -1,0 +1,8 @@
+DNA-bulge rows scored: 331995   skipped: 9063   authors-branch table misses passed over: 8241
+
+edits     pos       neg    B drop  AUTHORS      A - B
+    1       2         1  (below the pre-registered 20/20 floor)
+    2      58        19  (below the pre-registered 20/20 floor)
+    3     712       908    0.6728   0.6036    -0.0693
+    4    3527     22855    0.7006   0.6033    -0.0973
+    5    2126    301787    0.7524   0.7809    +0.0285

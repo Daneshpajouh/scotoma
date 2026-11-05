@@ -1,0 +1,42 @@
+[
+  {
+    "event": "input_seals_verified",
+    "peak_rss_bytes": 55197696,
+    "utc": "2026-11-03T02:30:40.858343+00:00"
+  },
+  {
+    "event": "score_independent_controls_frozen",
+    "peak_rss_bytes": 369000448,
+    "utc": "2026-11-03T02:30:52.725673+00:00"
+  },
+  {
+    "event": "encoder_convention_pinned_all_rows_before_any_score",
+    "peak_rss_bytes": 369082368,
+    "utc": "2026-11-03T02:30:57.544599+00:00"
+  },
+  {
+    "event": "deposited_validation_gate_confirmed",
+    "peak_rss_bytes": 369082368,
+    "utc": "2026-11-03T02:30:57.546101+00:00"
+  },
+  {
+    "event": "treatment_scored",
+    "peak_rss_bytes": 397099008,
+    "utc": "2026-11-03T02:30:59.450402+00:00"
+  },
+  {
+    "event": "control_scored",
+    "peak_rss_bytes": 401571840,
+    "utc": "2026-11-03T02:31:01.426917+00:00"
+  },
+  {
+    "event": "active_scored",
+    "peak_rss_bytes": 401571840,
+    "utc": "2026-11-03T02:31:01.445907+00:00"
+  },
+  {
+    "event": "all_score_summaries_written",
+    "peak_rss_bytes": 401571840,
+    "utc": "2026-11-03T02:31:03.074566+00:00"
+  }
+]

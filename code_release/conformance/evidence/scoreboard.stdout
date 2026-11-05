@@ -1,0 +1,17 @@
+{"fixture_bases": 140158, "fixture_planted_words_absent": 0, "guides": 110, "pooled_required_words": 1629, "reference_source_lines": 56, "required_guide_specific_words": 1634, "summary_rows_crosschecked": 1160}
+| Route | Evidence from Table 1 | Distinct / required | Missing (guides) | Repeated word rows | Verdict |
+|---|---|---:|---:|---:|---|
+| Cas-OFFinder wrapper 2016 (wrapper) | executed | 1491 / 1634 | 143 (98) | 0 | incomplete |
+| Cas-OFFinder 3.0.0b3 (native_b3) | executed | 1561 / 1634 | 73 (73) | 529 | incomplete |
+| Cas-OFFinder develop (native_develop) | executed | 1561 / 1634 | 73 (73) | 529 | incomplete |
+| Cas-OFFinder 3.0.0b / 3.0.0b2 (native_early_static) | static | 1491 / 1634 | 143 (98) | 0 | incomplete |
+| CRISPRitz 2.7.1 (crispritz_2.7.1) | executed | 1634 / 1634 | 0 (0) | 566 | redundant; exact word set |
+| CRISPRitz 2.9.0 (crispritz_2.9.0) | executed | 1634 / 1634 | 0 (0) | 566 | redundant; exact word set |
+| Cas-OFFinder 2 Rust 1.0.0 (rust_cli) | executed | 1561 / 1634 | 73 (73) | 529 | incomplete |
+| Cas-OFFinder 2 Rust 1.0.0 (rust_forward) | executed | 1561 / 1634 | 73 (73) | 529 | incomplete |
+| Cas-OFFinder 2 Rust 1.0.0 (rust_reverse) | executed | 1561 / 1634 | 73 (73) | 529 | incomplete |
+| CRISPRseek 1.52.0 default bulge route (crisprseek) | executed | 1491 / 1634 | 143 (98) | 0 | incomplete |
+| CRISPRme 2.1.14 / CRISPRme+ 2.8.0 (source) | static | N/A | N/A | N/A | not certifiable |
+| CHOPOFF 1.0.3 (source) | static | N/A | N/A | N/A | not certifiable |
+| SWOffinder 1.0.1 (source) | static | N/A | N/A | N/A | not certifiable |
+| CALITAS 7a3456c (source) | static | N/A | N/A | N/A | not certifiable |

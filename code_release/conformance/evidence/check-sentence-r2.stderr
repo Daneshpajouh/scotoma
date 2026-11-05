@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<repo>/HOSTILE_REVIEW_2026-11-01/R19_conformance_standard/conformance/check_sentence.py", line 92, in <module>
+    main()
+    ~~~~^^
+  File "<repo>/HOSTILE_REVIEW_2026-11-01/R19_conformance_standard/conformance/check_sentence.py", line 79, in main
+    selected_page = next(i + 1 for i, page in enumerate(pages)
+                         if "The emitter, suite and patch are in" in " ".join(word.text or "" for word in page.findall(".//{*}word")))
+StopIteration

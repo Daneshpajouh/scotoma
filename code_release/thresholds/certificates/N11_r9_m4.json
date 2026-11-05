@@ -1,0 +1,302 @@
+{
+  "N": 11,
+  "r": 9,
+  "m": 4,
+  "kind": "FULL",
+  "support": [
+    {
+      "prefix": "00001XXX",
+      "tail_weight": 1,
+      "mass": "85235960377/285593136497"
+    },
+    {
+      "prefix": "0001X11X",
+      "tail_weight": 2,
+      "mass": "48542633127/285593136497"
+    },
+    {
+      "prefix": "000XXX01",
+      "tail_weight": 1,
+      "mass": "130405584943/285593136497"
+    },
+    {
+      "prefix": "00110X11",
+      "tail_weight": 2,
+      "mass": "53735824409/285593136497"
+    },
+    {
+      "prefix": "00111X1X",
+      "tail_weight": 2,
+      "mass": "671296793009/3427117637964"
+    },
+    {
+      "prefix": "001X1011",
+      "tail_weight": 2,
+      "mass": "70600605581/285593136497"
+    },
+    {
+      "prefix": "001XX110",
+      "tail_weight": 1,
+      "mass": "79569956879/571186272994"
+    },
+    {
+      "prefix": "00X0001X",
+      "tail_weight": 2,
+      "mass": "46849100405/285593136497"
+    },
+    {
+      "prefix": "00X01X10",
+      "tail_weight": 1,
+      "mass": "8476383122/285593136497"
+    },
+    {
+      "prefix": "0100001X",
+      "tail_weight": 2,
+      "mass": "119948105745/285593136497"
+    },
+    {
+      "prefix": "01101110",
+      "tail_weight": 2,
+      "mass": "139332467733/571186272994"
+    },
+    {
+      "prefix": "0110XX11",
+      "tail_weight": 1,
+      "mass": "4499148295/571186272994"
+    },
+    {
+      "prefix": "01111010",
+      "tail_weight": 2,
+      "mass": "48239303589/571186272994"
+    },
+    {
+      "prefix": "0111110X",
+      "tail_weight": 2,
+      "mass": "85348604913/285593136497"
+    },
+    {
+      "prefix": "0111XXX1",
+      "tail_weight": 1,
+      "mass": "191071399199/571186272994"
+    },
+    {
+      "prefix": "011XX111",
+      "tail_weight": 2,
+      "mass": "8673372176/285593136497"
+    },
+    {
+      "prefix": "01X0011X",
+      "tail_weight": 1,
+      "mass": "33514419544/285593136497"
+    },
+    {
+      "prefix": "0X0001X1",
+      "tail_weight": 2,
+      "mass": "73035687993/285593136497"
+    },
+    {
+      "prefix": "0X00XX00",
+      "tail_weight": 1,
+      "mass": "52377039046/285593136497"
+    },
+    {
+      "prefix": "0X011011",
+      "tail_weight": 2,
+      "mass": "18090429727/285593136497"
+    },
+    {
+      "prefix": "0X011X1X",
+      "tail_weight": 1,
+      "mass": "91915326155/285593136497"
+    },
+    {
+      "prefix": "0X01X1X1",
+      "tail_weight": 1,
+      "mass": "89474444907/285593136497"
+    },
+    {
+      "prefix": "0XXX0001",
+      "tail_weight": 1,
+      "mass": "63281189369/285593136497"
+    },
+    {
+      "prefix": "10010001",
+      "tail_weight": 2,
+      "mass": "16427092658/285593136497"
+    },
+    {
+      "prefix": "100111XX",
+      "tail_weight": 1,
+      "mass": "22866295785/285593136497"
+    },
+    {
+      "prefix": "1001X110",
+      "tail_weight": 1,
+      "mass": "6708511468/285593136497"
+    },
+    {
+      "prefix": "10X0001X",
+      "tail_weight": 1,
+      "mass": "33684858590/285593136497"
+    },
+    {
+      "prefix": "10X10011",
+      "tail_weight": 1,
+      "mass": "39061070272/285593136497"
+    },
+    {
+      "prefix": "1111101X",
+      "tail_weight": 2,
+      "mass": "25319331152/285593136497"
+    },
+    {
+      "prefix": "1111XXX1",
+      "tail_weight": 1,
+      "mass": "192098251859/571186272994"
+    },
+    {
+      "prefix": "111X1XX1",
+      "tail_weight": 1,
+      "mass": "47788186265/571186272994"
+    },
+    {
+      "prefix": "1X000011",
+      "tail_weight": 2,
+      "mass": "24830579409/285593136497"
+    },
+    {
+      "prefix": "1X000X01",
+      "tail_weight": 1,
+      "mass": "2265087798/285593136497"
+    },
+    {
+      "prefix": "1X1X1110",
+      "tail_weight": 1,
+      "mass": "7370154411/285593136497"
+    },
+    {
+      "prefix": "1X1XX111",
+      "tail_weight": 1,
+      "mass": "132960431872/285593136497"
+    },
+    {
+      "prefix": "X000011X",
+      "tail_weight": 2,
+      "mass": "51085600883/285593136497"
+    },
+    {
+      "prefix": "X00011XX",
+      "tail_weight": 1,
+      "mass": "67725573896/285593136497"
+    },
+    {
+      "prefix": "X00100X0",
+      "tail_weight": 1,
+      "mass": "36418199255/285593136497"
+    },
+    {
+      "prefix": "X0011010",
+      "tail_weight": 1,
+      "mass": "5769478047/285593136497"
+    },
+    {
+      "prefix": "X0011100",
+      "tail_weight": 1,
+      "mass": "2226017281/285593136497"
+    },
+    {
+      "prefix": "X00XX000",
+      "tail_weight": 1,
+      "mass": "118094881708/285593136497"
+    },
+    {
+      "prefix": "X0100001",
+      "tail_weight": 2,
+      "mass": "3262590552/285593136497"
+    },
+    {
+      "prefix": "X0111110",
+      "tail_weight": 2,
+      "mass": "118607026145/571186272994"
+    },
+    {
+      "prefix": "X0111X0X",
+      "tail_weight": 0,
+      "mass": "70087834411/3427117637964"
+    },
+    {
+      "prefix": "X01X101X",
+      "tail_weight": 0,
+      "mass": "386162710/285593136497"
+    },
+    {
+      "prefix": "X0X001X1",
+      "tail_weight": 1,
+      "mass": "79886775763/285593136497"
+    },
+    {
+      "prefix": "X0X00X00",
+      "tail_weight": 1,
+      "mass": "43047292359/285593136497"
+    },
+    {
+      "prefix": "X0X0X001",
+      "tail_weight": 1,
+      "mass": "69951591177/285593136497"
+    },
+    {
+      "prefix": "XX001111",
+      "tail_weight": 2,
+      "mass": "124155219102/285593136497"
+    },
+    {
+      "prefix": "XX0X0000",
+      "tail_weight": 1,
+      "mass": "1208712796/285593136497"
+    },
+    {
+      "prefix": "XX0X0111",
+      "tail_weight": 1,
+      "mass": "48070652314/285593136497"
+    },
+    {
+      "prefix": "XXX000X0",
+      "tail_weight": 0,
+      "mass": "34447011333/285593136497"
+    },
+    {
+      "prefix": "XXXX0011",
+      "tail_weight": 0,
+      "mass": "21219422076/285593136497"
+    }
+  ],
+  "verification": {
+    "max_load": "1",
+    "witness": {
+      "prefix": "00000000",
+      "tail_weight": 0
+    },
+    "centre_classes": 26244,
+    "region_masses": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "mass": "9",
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "passes": true
+  },
+  "search": {
+    "rows": 1068,
+    "private_orbits": 2429,
+    "rounds": 49,
+    "seconds": 47.018,
+    "candidate_solver": "scipy linprog highs; not evidence until exact check"
+  }
+}

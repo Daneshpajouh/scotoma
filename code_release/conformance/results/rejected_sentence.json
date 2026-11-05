@@ -1,0 +1,9 @@
+{
+  "old": "No audited route emits the minimum\nfamily and nothing else: two fall below its word set and two attain it but serialise it in more\nrows.",
+  "rejected_new": "The reference emitter, conformance suite and wrapper patch are at\n\\path{HOSTILE_REVIEW_2026-11-01/R19_conformance_standard/conformance/}.",
+  "before_body_pages": 10,
+  "after_body_pages": 11,
+  "stage": "check-sentence",
+  "exit_code": 1,
+  "reason": "full paragraph and float layout exceeded page budget despite isolated sentence fitting"
+}

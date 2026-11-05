@@ -1,0 +1,64 @@
+{
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "controls": [
+    {
+      "name": "inflated_packing",
+      "status": "REFUTED",
+      "expected": "REJECTED",
+      "actual": "REJECTED",
+      "exit_code": 1,
+      "diagnostic": "REJECTED: (3, 2, 0): packing ball load exceeds 1: 2"
+    },
+    {
+      "name": "empty_cover",
+      "status": "REFUTED",
+      "expected": "REJECTED",
+      "actual": "REJECTED",
+      "exit_code": 1,
+      "diagnostic": "REJECTED: (3, 2, 0): cover short: 0"
+    },
+    {
+      "name": "injected_increase",
+      "status": "REFUTED",
+      "expected": "REJECTED",
+      "actual": "REJECTED",
+      "exit_code": 1,
+      "diagnostic": "REJECTED: MONOTONICITY FAIL N=3, r=2, m=1: 2 < 3"
+    },
+    {
+      "name": "reversed_monotonicity",
+      "status": "REFUTED",
+      "expected": "REJECTED",
+      "actual": "REJECTED",
+      "mutation": "Assert tau(m-1) <= tau(m) on the actual exact N=3,r=2 row",
+      "diagnostic": "reversed inequality rejected at m=2: 2 > 25/16"
+    },
+    {
+      "name": "uncorrected_shell",
+      "status": "REFUTED",
+      "expected": "REJECTED",
+      "actual": "REJECTED",
+      "mutation": "Fix a shell word instead of correcting it",
+      "diagnostic": "identity mutant leaves shell word 100 outside U_0"
+    },
+    {
+      "name": "overwrite_pushforward",
+      "status": "REFUTED",
+      "expected": "REJECTED",
+      "actual": "REJECTED",
+      "mutation": "Overwrite colliding weights instead of summing each fibre",
+      "diagnostic": "overwrite mutant retains 1/2 of source mass 1"
+    },
+    {
+      "name": "same_radius_inclusion",
+      "status": "REFUTED",
+      "expected": "REJECTED",
+      "actual": "REJECTED",
+      "mutation": "Replace B_(m-1)(c) by B_m(c) in the preimage claim",
+      "diagnostic": "same-radius mutant fails: d(f(100),010)=1 but d(100,010)=2"
+    }
+  ],
+  "expected_rejections": 7,
+  "actual_rejections": 7,
+  "unexpected_acceptances": 0
+}

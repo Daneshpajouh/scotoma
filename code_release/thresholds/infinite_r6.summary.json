@@ -1,0 +1,127 @@
+{
+  "status": "PROVED: exact computer-assisted infinite-range packing certificate",
+  "r": 6,
+  "alpha": 12,
+  "beta": 6,
+  "min_n": 13,
+  "scale": 148,
+  "dmax": 2,
+  "mass_type": "constant",
+  "C0": null,
+  "residues": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "family": [
+    {
+      "prefix": "00000",
+      "distance": 0,
+      "mass": "19/37"
+    },
+    {
+      "prefix": "11111",
+      "distance": 0,
+      "mass": "19/37"
+    },
+    {
+      "prefix": "00011",
+      "distance": 0,
+      "mass": "16/37"
+    },
+    {
+      "prefix": "00111",
+      "distance": 0,
+      "mass": "16/37"
+    },
+    {
+      "prefix": "01000",
+      "distance": 1,
+      "mass": "15/74"
+    },
+    {
+      "prefix": "11101",
+      "distance": 1,
+      "mass": "15/74"
+    },
+    {
+      "prefix": "01110",
+      "distance": 1,
+      "mass": "19/74"
+    },
+    {
+      "prefix": "10001",
+      "distance": 1,
+      "mass": "19/74"
+    },
+    {
+      "prefix": "011X0",
+      "distance": 2,
+      "mass": "6/37"
+    },
+    {
+      "prefix": "1X001",
+      "distance": 2,
+      "mass": "6/37"
+    },
+    {
+      "prefix": "011X1",
+      "distance": 1,
+      "mass": "21/74"
+    },
+    {
+      "prefix": "0X001",
+      "distance": 1,
+      "mass": "21/74"
+    },
+    {
+      "prefix": "011XX",
+      "distance": 2,
+      "mass": "11/37"
+    },
+    {
+      "prefix": "XX001",
+      "distance": 2,
+      "mass": "11/37"
+    },
+    {
+      "prefix": "10000",
+      "distance": 1,
+      "mass": "21/74"
+    },
+    {
+      "prefix": "11110",
+      "distance": 1,
+      "mass": "21/74"
+    },
+    {
+      "prefix": "X001X",
+      "distance": 2,
+      "mass": "21/37"
+    },
+    {
+      "prefix": "X011X",
+      "distance": 2,
+      "mass": "21/37"
+    }
+  ],
+  "prefix_count": 243,
+  "unique_profiles": 126,
+  "moment": {
+    "cutoff": 54,
+    "t": "7/5",
+    "prefix_potential": "1308/343",
+    "rho_upper": "28/45",
+    "moment_factor": "4607/4725",
+    "bound": "291118597900636074919112893910967769596373013046314626755154480371512465225960785497462721483430147025295047667695670898841528071272484575055321925938572531291021479267215493431787919130942343533334964/299137430562702752502058062708123185211384959652408872189035948591565211940532508597342156816963940731024292023857343822703623731312310201863986455659743648257016535030317072596517391502857208251953125",
+    "bound_less_than_99_over_100": true
+  },
+  "polynomial_rows": 9990,
+  "checked_newton_coefficients": 274725,
+  "checked_finite_values": 0,
+  "maximum_shift": 0,
+  "seconds": 1.624,
+  "certificate_sha256": "047204f1f93be13e8dbcb2a67bef16520c2e7ae04788eb1214e207ea179bcb1e"
+}

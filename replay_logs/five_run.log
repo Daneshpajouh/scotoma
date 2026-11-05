@@ -1,0 +1,479 @@
+INTEGRITY_PASS 1678
+PACKAGE_BEGIN five_run
+COMMAND code_release /usr/local/bin/python3 -B five_run/verify_k3.py
+{
+  "theorem_status": "PROVED",
+  "range": "integers n >= 10, r=5, 0 <= m <= floor((3n-11)/5)",
+  "construction_orbits": 11,
+  "prefix_classes": 81,
+  "distinct_prefix_profiles": 44,
+  "maximal_prefix_profiles": 4,
+  "polynomial_rows": 920,
+  "nonnegative_newton_coefficients_checked": 21620,
+  "certificate_sha256": "f1ad101b011d34d4c941ec80a4268616ba08fcd5602b07f18bc2108aab0bbc97",
+  "large_distance_bound": {
+    "cutoff": 46,
+    "t": "7/5",
+    "rho_upper": "71/115",
+    "moment_factor": "11749/12075",
+    "prefix_potential": "169/49",
+    "uniform_load_bound": "2804970379867235300388585986900924402579097592228528351323016603068996616081048377719148859453113382896909200097886067851946843361909852953438071839075206752272582975552006483528298954593169/2864207604830879254900541893436332229687274518341701033210182279915536661159168072614002623987009014472835083928846173537050685517609499678058911456036972342786839362815953791141510009765625",
+    "below_99_over_100": true,
+    "strictly_below_one": true
+  },
+  "finite_checks": [
+    {
+      "n": 10,
+      "N": 9,
+      "C": 5,
+      "m": 3,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 486,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 11,
+      "N": 10,
+      "C": 6,
+      "m": 4,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 567,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 12,
+      "N": 11,
+      "C": 7,
+      "m": 5,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 648,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 13,
+      "N": 12,
+      "C": 8,
+      "m": 5,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 729,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 14,
+      "N": 13,
+      "C": 9,
+      "m": 6,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 810,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 15,
+      "N": 14,
+      "C": 10,
+      "m": 6,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 891,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 16,
+      "N": 15,
+      "C": 11,
+      "m": 7,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 972,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 17,
+      "N": 16,
+      "C": 12,
+      "m": 8,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 1053,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 18,
+      "N": 17,
+      "C": 13,
+      "m": 8,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 1134,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 19,
+      "N": 18,
+      "C": 14,
+      "m": 9,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 1215,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 20,
+      "N": 19,
+      "C": 15,
+      "m": 9,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 1296,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 21,
+      "N": 20,
+      "C": 16,
+      "m": 10,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 1377,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 22,
+      "N": 21,
+      "C": 17,
+      "m": 11,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 1458,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 27,
+      "N": 26,
+      "C": 22,
+      "m": 14,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 1863,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 32,
+      "N": 31,
+      "C": 27,
+      "m": 17,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 2268,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 52,
+      "N": 51,
+      "C": 47,
+      "m": 29,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 3888,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 102,
+      "N": 101,
+      "C": 97,
+      "m": 59,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 7938,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 103,
+      "N": 102,
+      "C": 98,
+      "m": 59,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 8019,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 137,
+      "N": 136,
+      "C": 132,
+      "m": 80,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 10773,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    },
+    {
+      "n": 202,
+      "N": 201,
+      "C": 197,
+      "m": 119,
+      "mass": "5",
+      "private_region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "max_load": "1",
+      "argmax": [
+        "0000",
+        0
+      ],
+      "centre_classes": 16038,
+      "status": "VERIFIED-COMPUTATIONALLY"
+    }
+  ],
+  "controls": [
+    {
+      "control": "n=17, radius 9 instead of 8",
+      "outcome": "REJECTED-AS-REQUIRED",
+      "reason": "load FAILED: 9002/7425 at ('0011', 3)",
+      "explicit_witness": {
+        "prefix": "0011",
+        "tail_weight": 1,
+        "load": "41/36"
+      }
+    },
+    {
+      "control": "give free-letter orbits tail weight m",
+      "outcome": "REJECTED-AS-REQUIRED",
+      "reason": "privacy FAILED at prefix 0012, tail weight 8, radius 8"
+    }
+  ]
+}
+REPLAY_RESOURCES {"package": "five_run", "command": ["/usr/local/bin/python3", "-B", "five_run/verify_k3.py"], "exit_code": 0, "wall_seconds": 1.982724750007037, "peak_child_rss_bytes": 35635200, "user_seconds": 1.899246, "system_seconds": 0.038314}
+COMMAND code_release /usr/local/bin/python3 -B five_run/independent_literal_check.py
+{
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "N": 6,
+  "m": 2,
+  "literal_centres_checked": 4096,
+  "literal_support_points": 117,
+  "orbit_classes_compared": 243,
+  "mass": "5",
+  "literal_maximum_load": "1",
+  "all_loads_agree": true
+}
+REPLAY_RESOURCES {"package": "five_run", "command": ["/usr/local/bin/python3", "-B", "five_run/independent_literal_check.py"], "exit_code": 0, "wall_seconds": 0.3664657920016907, "peak_child_rss_bytes": 35635200, "user_seconds": 0.22816000000000014, "system_seconds": 0.022516999999999995}
+PACKAGE_PASS five_run
+time: sysctl kern.clockrate: Operation not permitted

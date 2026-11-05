@@ -1,0 +1,68 @@
+{
+  "D": 1000000000000,
+  "columns": {
+    "end0": 0,
+    "end1": 7074,
+    "next0": 1513,
+    "next1": 2065
+  },
+  "certs": [
+    {
+      "name": "omit_both_ends",
+      "subtracted": [],
+      "banned": [
+        0,
+        7074
+      ],
+      "multiple": 10,
+      "signed_dot": 10020000594807,
+      "z_nnz": 215
+    },
+    {
+      "name": "end0_omit_1513",
+      "subtracted": [
+        0
+      ],
+      "banned": [
+        1513
+      ],
+      "multiple": 9,
+      "signed_dot": 9020000146095,
+      "z_nnz": 270
+    },
+    {
+      "name": "end0_and_1513",
+      "subtracted": [
+        0,
+        1513
+      ],
+      "banned": [],
+      "multiple": 8,
+      "signed_dot": 8020001389392,
+      "z_nnz": 215
+    },
+    {
+      "name": "end7074_omit_2065",
+      "subtracted": [
+        7074
+      ],
+      "banned": [
+        2065
+      ],
+      "multiple": 9,
+      "signed_dot": 9020000146095,
+      "z_nnz": 270
+    },
+    {
+      "name": "end7074_and_2065",
+      "subtracted": [
+        7074,
+        2065
+      ],
+      "banned": [],
+      "multiple": 8,
+      "signed_dot": 8020001389392,
+      "z_nnz": 215
+    }
+  ]
+}

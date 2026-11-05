@@ -1,0 +1,104 @@
+scoreboard-r3: exit 0 (expected 0)
+ (native_early_static) | static | 1491 / 1634 | 143 (98) | 0 | incomplete |
+| CRISPRitz 2.7.1 (crispritz_2.7.1) | executed | 1634 / 1634 | 0 (0) | 566 | redundant; exact word set |
+| CRISPRitz 2.9.0 (crispritz_2.9.0) | executed | 1634 / 1634 | 0 (0) | 566 | redundant; exact word set |
+| Cas-OFFinder 2 Rust 1.0.0 (rust_cli) | executed | 1561 / 1634 | 73 (73) | 529 | incomplete |
+| Cas-OFFinder 2 Rust 1.0.0 (rust_forward) | executed | 1561 / 1634 | 73 (73) | 529 | incomplete |
+| Cas-OFFinder 2 Rust 1.0.0 (rust_reverse) | executed | 1561 / 1634 | 73 (73) | 529 | incomplete |
+| CRISPRseek 1.52.0 default bulge route (crisprseek) | executed | 1491 / 1634 | 143 (98) | 0 | incomplete |
+| CRISPRme 2.1.14 / CRISPRme+ 2.8.0 (source) | static | N/A | N/A | N/A | not certifiable |
+| CHOPOFF 1.0.3 (source) | static | N/A | N/A | N/A | not certifiable |
+| SWOffinder 1.0.1 (source) | static | N/A | N/A | N/A | not certifiable |
+| CALITAS 7a3456c (source) | static | N/A | N/A | N/A | not certifiable |
+
+validate-patch-r2: exit 0 (expected 0)
+s": 0,
+      "missing_words": 0,
+      "redundant_rows": 0,
+      "required_words": 1634,
+      "sound_uniqueness_applies_to_all": true,
+      "status": "exact",
+      "valid_distinct_words": 1634
+    },
+    "trailing_before": {
+      "budget": 4,
+      "emitted_rows": 1491,
+      "fixture_pooled_emitted": 1490,
+      "fixture_pooled_invalid": 0,
+      "fixture_pooled_missing": 139,
+      "fixture_pooled_required": 1629,
+      "guide_status_counts": {
+        "exact": 12,
+        "incomplete": 98
+      },
+      "guides": 110,
+      "guides_incomplete": 98,
+      "invalid_words": 0,
+      "missing_words": 143,
+      "redundant_rows": 0,
+      "required_words": 1634,
+      "sound_uniqueness_applies_to_all": true,
+      "status": "incomplete",
+      "valid_distinct_words": 1491
+    }
+  },
+  "scope": "single-deletion word generation only; dry-run, no native search",
+  "source_sha256": "c4b6231cd5420e5ebc7c3e32754c010ca3e2d68e7fe6bb823ce8ea13855bde13",
+  "unified_diff_physical_lines": 20
+}
+
+selftest-r2: exit 0 (expected 0)
+selftest-producer-positive-r2: exit 0 (expected 0)
+selftest-suite-positive-r2: exit 0 (expected 0)
+selftest-producer-terminal-dropped-r2: exit 0 (expected 0)
+selftest-suite-terminal-dropped-r2: exit 1 (expected 1)
+{"missing_word": "GAGTAGCGCGAGCACAGCT", "mutant_emitted": 19, "mutant_suite_exit": 1, "positive_suite_exit": 0, "required": 20, "status": "passed"}
+
+unit-tests-r3: exit 0 (expected 0)
+cli-exact-r3: exit 0 (expected 0)
+cli-incomplete-r3: exit 1 (expected 1)
+cli-redundant-r3: exit 1 (expected 1)
+cli-invalid-r3: exit 1 (expected 1)
+cli-empty-r3: exit 1 (expected 1)
+cli-unknown-id-r3: exit 2 (expected 2)
+cli-broken-json-r3: exit 2 (expected 2)
+cli-negative-budget-r3: exit 2 (expected 2)
+cli-count-only-r3: exit 0 (expected 0)
+{"exhaustive_guides": 5460, "maximum_exhaustive_length": 6}
+cli-empty-word-r3: exit 0 (expected 0)
+cli-duplicate-id-r3: exit 2 (expected 2)
+
+check-sentence-r3: exit 0 (expected 0)
+ld_sentence_tex": "No audited route emits the minimum\nfamily and nothing else: two fall below its word set and two attain it but serialise it in more\nrows.",
+  "paper_builds": {
+    "after": {
+      "body_pages": 10,
+      "pdfinfo_pages": 15,
+      "references_physical_page": 12,
+      "total_pdf_pages": 15
+    },
+    "before": {
+      "body_pages": 10,
+      "pdfinfo_pages": 15,
+      "references_physical_page": 12,
+      "total_pdf_pages": 15
+    }
+  },
+  "rendered_context_physical_page": 5,
+  "source_sha256": {
+    "main.bbl": "f1c7d9a41502e3fe65ebac5110764a66f1ffddd5441267001a9cbdf1ee9d22cd",
+    "main.tex": "5846748cdf0f2ba22676adb48b4d4f6262bcaa665dd3699e4e7768fc6de7e13f",
+    "sections/01_introduction.tex": "60eb53f80fefceebfea4c0948af59a4e24fd947c2f343c83a0fb66dc787c5dd1",
+    "sections/03_method.tex": "da734a30e49bf1f6ff4e34a5c689e02e0656167556cb4b56a0f6abf70e1ca174",
+    "sections/07_discussion.tex": "90b0f5353a6879fb78edad48cf698b79aab02d3b0328df8f277397d0a95d4f25"
+  }
+}
+
+render-docs: exit 0 (expected 0)
+{"findings": "FINDINGS.md", "new_sentence_lines": 2, "readme": "conformance/README.md", "tests_passed": 13}
+
+verify-deposit: exit 0 (expected 0)
+{"acceptance_stages_checked": 6, "attribution_lines_absent": true, "document_links_valid": true, "originals_match_snapshots": null, "reports_recomputed": 14, "snapshot_digests_checked": 352, "status": "passed"}
+
+checksum-check: exit 0 (expected 0)
+Deposit replay passed. Commands and exit codes: evidence/runs.jsonl

@@ -1,0 +1,318 @@
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 1, "points": 1536, "centres": 1182, "elapsed": 19.671771208755672}
+{"stage": "numeric_proposal", "display_only": 21.93697700570193, "round": 1}
+{"stage": "reconstruct", "cover": 235, "packing": 235, "backend": "auto"}
+exact reconstruction: pivots=32/235 seconds=0.2
+exact reconstruction: pivots=64/235 seconds=0.4
+exact reconstruction: pivots=96/235 seconds=0.6
+exact reconstruction: pivots=128/235 seconds=0.7
+exact reconstruction: pivots=160/235 seconds=0.8
+exact reconstruction: pivots=192/235 seconds=0.9
+exact reconstruction: pivots=224/235 seconds=0.9
+exact reconstruction: pivots=32/235 seconds=0.2
+exact reconstruction: pivots=64/235 seconds=0.3
+exact reconstruction: pivots=96/235 seconds=0.4
+exact reconstruction: pivots=128/235 seconds=0.6
+exact reconstruction: pivots=160/235 seconds=0.7
+exact reconstruction: pivots=192/235 seconds=0.7
+exact reconstruction: pivots=224/235 seconds=0.8
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 470, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 470, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 11.544346009222048, "upper_display": 23.0, "status": "OPEN", "added": 1038}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 2, "points": 2053, "centres": 1703, "elapsed": 2521.499940706417}
+{"stage": "numeric_proposal", "display_only": 21.617366454417624, "round": 2}
+{"stage": "reconstruct", "cover": 283, "packing": 284, "backend": "auto"}
+exact reconstruction: pivots=32/283 seconds=0.3
+exact reconstruction: pivots=64/283 seconds=0.6
+exact reconstruction: pivots=96/283 seconds=0.9
+exact reconstruction: pivots=128/283 seconds=1.3
+exact reconstruction: pivots=160/283 seconds=1.6
+exact reconstruction: pivots=192/283 seconds=1.9
+exact reconstruction: pivots=224/283 seconds=2.2
+exact reconstruction: pivots=256/283 seconds=2.3
+exact reconstruction: pivots=32/283 seconds=0.2
+exact reconstruction: pivots=64/283 seconds=0.5
+exact reconstruction: pivots=96/283 seconds=0.7
+exact reconstruction: pivots=128/283 seconds=0.9
+exact reconstruction: pivots=160/283 seconds=1.1
+exact reconstruction: pivots=192/283 seconds=1.3
+exact reconstruction: pivots=224/283 seconds=1.4
+exact reconstruction: pivots=256/283 seconds=1.4
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 562, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 568, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 15.356374733933453, "upper_display": 23.0, "status": "OPEN", "added": 1027}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 3, "points": 2565, "centres": 2218, "elapsed": 5014.7510101674125}
+{"stage": "numeric_proposal", "display_only": 22.06097314689963, "round": 3}
+{"stage": "reconstruct", "cover": 321, "packing": 321, "backend": "auto"}
+exact reconstruction: pivots=32/321 seconds=0.4
+exact reconstruction: pivots=64/321 seconds=0.8
+exact reconstruction: pivots=96/321 seconds=1.4
+exact reconstruction: pivots=128/321 seconds=1.9
+exact reconstruction: pivots=160/321 seconds=2.5
+exact reconstruction: pivots=192/321 seconds=3.0
+exact reconstruction: pivots=224/321 seconds=3.3
+exact reconstruction: pivots=256/321 seconds=3.6
+exact reconstruction: pivots=288/321 seconds=3.8
+exact reconstruction: pivots=320/321 seconds=3.8
+exact reconstruction: pivots=32/321 seconds=0.3
+exact reconstruction: pivots=64/321 seconds=0.6
+exact reconstruction: pivots=96/321 seconds=1.0
+exact reconstruction: pivots=128/321 seconds=1.4
+exact reconstruction: pivots=160/321 seconds=1.8
+exact reconstruction: pivots=192/321 seconds=2.2
+exact reconstruction: pivots=224/321 seconds=2.4
+exact reconstruction: pivots=256/321 seconds=2.6
+exact reconstruction: pivots=288/321 seconds=2.7
+exact reconstruction: pivots=320/321 seconds=2.7
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 636, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 641, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 16.10941685198582, "upper_display": 23.0, "status": "OPEN", "added": 1026}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 4, "points": 3077, "centres": 2732, "elapsed": 8094.389781925827}
+{"stage": "numeric_proposal", "display_only": 22.093225797902022, "round": 4}
+{"stage": "reconstruct", "cover": 369, "packing": 370, "backend": "auto"}
+exact reconstruction: pivots=32/369 seconds=0.5
+exact reconstruction: pivots=64/369 seconds=1.1
+exact reconstruction: pivots=96/369 seconds=1.9
+exact reconstruction: pivots=128/369 seconds=2.9
+exact reconstruction: pivots=160/369 seconds=4.1
+exact reconstruction: pivots=192/369 seconds=5.2
+exact reconstruction: pivots=224/369 seconds=6.3
+exact reconstruction: pivots=256/369 seconds=7.2
+exact reconstruction: pivots=288/369 seconds=7.8
+exact reconstruction: pivots=320/369 seconds=8.2
+exact reconstruction: pivots=352/369 seconds=8.4
+exact reconstruction: pivots=32/369 seconds=0.4
+exact reconstruction: pivots=64/369 seconds=0.8
+exact reconstruction: pivots=96/369 seconds=1.3
+exact reconstruction: pivots=128/369 seconds=1.9
+exact reconstruction: pivots=160/369 seconds=2.5
+exact reconstruction: pivots=192/369 seconds=3.1
+exact reconstruction: pivots=224/369 seconds=3.7
+exact reconstruction: pivots=256/369 seconds=4.1
+exact reconstruction: pivots=288/369 seconds=4.5
+exact reconstruction: pivots=320/369 seconds=4.6
+exact reconstruction: pivots=352/369 seconds=4.7
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 734, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 739, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 17.644489470147132, "upper_display": 23.0, "status": "OPEN", "added": 1026}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 5, "points": 3589, "centres": 3246, "elapsed": 11515.278851953335}
+{"stage": "numeric_proposal", "display_only": 22.46347695723748, "round": 5}
+{"stage": "reconstruct", "cover": 413, "packing": 413, "backend": "auto"}
+exact reconstruction: pivots=32/413 seconds=0.6
+exact reconstruction: pivots=64/413 seconds=1.3
+exact reconstruction: pivots=96/413 seconds=2.1
+exact reconstruction: pivots=128/413 seconds=3.0
+exact reconstruction: pivots=160/413 seconds=3.8
+exact reconstruction: pivots=192/413 seconds=4.6
+exact reconstruction: pivots=224/413 seconds=5.5
+exact reconstruction: pivots=256/413 seconds=6.4
+exact reconstruction: pivots=288/413 seconds=7.5
+exact reconstruction: pivots=320/413 seconds=8.5
+exact reconstruction: pivots=352/413 seconds=9.1
+exact reconstruction: pivots=384/413 seconds=9.4
+exact reconstruction: pivots=32/413 seconds=0.5
+exact reconstruction: pivots=64/413 seconds=1.0
+exact reconstruction: pivots=96/413 seconds=1.5
+exact reconstruction: pivots=128/413 seconds=2.1
+exact reconstruction: pivots=160/413 seconds=2.7
+exact reconstruction: pivots=192/413 seconds=3.4
+exact reconstruction: pivots=224/413 seconds=4.0
+exact reconstruction: pivots=256/413 seconds=4.6
+exact reconstruction: pivots=288/413 seconds=5.2
+exact reconstruction: pivots=320/413 seconds=5.6
+exact reconstruction: pivots=352/413 seconds=5.9
+exact reconstruction: pivots=384/413 seconds=6.0
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 822, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 826, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 17.644489470147132, "upper_display": 23.0, "status": "OPEN", "added": 1026}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 6, "points": 4102, "centres": 3759, "elapsed": 14922.841937622055}
+{"stage": "numeric_proposal", "display_only": 22.82315151017278, "round": 6}
+{"stage": "reconstruct", "cover": 465, "packing": 465, "backend": "auto"}
+exact reconstruction: pivots=32/465 seconds=0.7
+exact reconstruction: pivots=64/465 seconds=1.6
+exact reconstruction: pivots=96/465 seconds=2.5
+exact reconstruction: pivots=128/465 seconds=3.6
+exact reconstruction: pivots=160/465 seconds=4.7
+exact reconstruction: pivots=192/465 seconds=5.9
+exact reconstruction: pivots=224/465 seconds=7.3
+exact reconstruction: pivots=256/465 seconds=8.8
+exact reconstruction: pivots=288/465 seconds=10.7
+exact reconstruction: pivots=320/465 seconds=12.5
+exact reconstruction: pivots=352/465 seconds=14.1
+exact reconstruction: pivots=384/465 seconds=15.2
+exact reconstruction: pivots=416/465 seconds=15.7
+exact reconstruction: pivots=448/465 seconds=15.9
+exact reconstruction: pivots=32/465 seconds=0.5
+exact reconstruction: pivots=64/465 seconds=1.1
+exact reconstruction: pivots=96/465 seconds=1.7
+exact reconstruction: pivots=128/465 seconds=2.5
+exact reconstruction: pivots=160/465 seconds=3.2
+exact reconstruction: pivots=192/465 seconds=3.9
+exact reconstruction: pivots=224/465 seconds=4.6
+exact reconstruction: pivots=256/465 seconds=5.3
+exact reconstruction: pivots=288/465 seconds=6.0
+exact reconstruction: pivots=320/465 seconds=6.7
+exact reconstruction: pivots=352/465 seconds=7.2
+exact reconstruction: pivots=384/465 seconds=7.6
+exact reconstruction: pivots=416/465 seconds=7.8
+exact reconstruction: pivots=448/465 seconds=7.9
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 926, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 930, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 18.00650984086217, "upper_display": 23.0, "status": "OPEN", "added": 1027}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 7, "points": 4614, "centres": 4274, "elapsed": 17392.35849612672}
+{"stage": "numeric_proposal", "display_only": 22.866253715212906, "round": 7}
+{"stage": "reconstruct", "cover": 547, "packing": 549, "backend": "auto"}
+exact reconstruction: pivots=32/547 seconds=1.1
+exact reconstruction: pivots=64/547 seconds=2.7
+exact reconstruction: pivots=96/547 seconds=4.3
+exact reconstruction: pivots=128/547 seconds=6.2
+exact reconstruction: pivots=160/547 seconds=8.5
+exact reconstruction: pivots=192/547 seconds=11.0
+exact reconstruction: pivots=224/547 seconds=13.9
+exact reconstruction: pivots=256/547 seconds=16.9
+exact reconstruction: pivots=288/547 seconds=20.1
+exact reconstruction: pivots=320/547 seconds=23.9
+exact reconstruction: pivots=352/547 seconds=28.5
+exact reconstruction: pivots=384/547 seconds=32.9
+exact reconstruction: pivots=416/547 seconds=36.6
+exact reconstruction: pivots=448/547 seconds=39.4
+exact reconstruction: pivots=480/547 seconds=41.1
+exact reconstruction: pivots=512/547 seconds=41.9
+exact reconstruction: pivots=544/547 seconds=42.0
+exact reconstruction: pivots=32/547 seconds=1.0
+exact reconstruction: pivots=64/547 seconds=2.1
+exact reconstruction: pivots=96/547 seconds=3.3
+exact reconstruction: pivots=128/547 seconds=4.7
+exact reconstruction: pivots=160/547 seconds=6.2
+exact reconstruction: pivots=192/547 seconds=7.7
+exact reconstruction: pivots=224/547 seconds=9.1
+exact reconstruction: pivots=256/547 seconds=10.5
+exact reconstruction: pivots=288/547 seconds=11.9
+exact reconstruction: pivots=320/547 seconds=13.3
+exact reconstruction: pivots=352/547 seconds=14.8
+exact reconstruction: pivots=384/547 seconds=16.2
+exact reconstruction: pivots=416/547 seconds=17.3
+exact reconstruction: pivots=448/547 seconds=18.2
+exact reconstruction: pivots=480/547 seconds=18.7
+exact reconstruction: pivots=512/547 seconds=19.0
+exact reconstruction: pivots=544/547 seconds=19.1
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 1090, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1098, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 18.34751381636038, "upper_display": 23.0, "status": "OPEN", "added": 1027}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 8, "points": 5126, "centres": 4789, "elapsed": 19928.603570518084}
+{"stage": "numeric_proposal", "display_only": 23.000000000004565, "round": 8}
+{"stage": "reconstruct", "cover": 12, "packing": 687, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 23, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1373, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 18.34751381636038, "upper_display": 23.0, "status": "OPEN", "added": 515}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 9, "points": 5126, "centres": 5304, "elapsed": 22415.74850144144}
+{"stage": "numeric_proposal", "display_only": 22.99999999994496, "round": 9}
+{"stage": "reconstruct", "cover": 12, "packing": 663, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 23, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1325, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 20.576191613698157, "upper_display": 23.0, "status": "OPEN", "added": 513}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 10, "points": 5126, "centres": 5817, "elapsed": 24907.13452668581}
+{"stage": "numeric_proposal", "display_only": 22.94183187632137, "round": 10}
+{"stage": "reconstruct", "cover": 732, "packing": 732, "backend": "auto"}
+exact reconstruction: pivots=32/732 seconds=2.1
+exact reconstruction: pivots=64/732 seconds=5.1
+exact reconstruction: pivots=96/732 seconds=8.5
+exact reconstruction: pivots=128/732 seconds=12.5
+exact reconstruction: pivots=160/732 seconds=17.8
+exact reconstruction: pivots=192/732 seconds=24.5
+exact reconstruction: pivots=224/732 seconds=32.2
+exact reconstruction: pivots=256/732 seconds=40.6
+exact reconstruction: pivots=288/732 seconds=49.3
+exact reconstruction: pivots=320/732 seconds=58.5
+exact reconstruction: pivots=352/732 seconds=68.4
+exact reconstruction: pivots=384/732 seconds=79.5
+exact reconstruction: pivots=416/732 seconds=91.0
+exact reconstruction: pivots=448/732 seconds=103.5
+exact reconstruction: pivots=480/732 seconds=116.6
+exact reconstruction: pivots=512/732 seconds=129.1
+exact reconstruction: pivots=544/732 seconds=140.2
+exact reconstruction: pivots=576/732 seconds=149.5
+exact reconstruction: pivots=608/732 seconds=156.7
+exact reconstruction: pivots=640/732 seconds=161.4
+exact reconstruction: pivots=672/732 seconds=164.0
+exact reconstruction: pivots=704/732 seconds=165.0
+exact reconstruction: pivots=32/732 seconds=1.8
+exact reconstruction: pivots=64/732 seconds=3.8
+exact reconstruction: pivots=96/732 seconds=6.1
+exact reconstruction: pivots=128/732 seconds=8.5
+exact reconstruction: pivots=160/732 seconds=11.6
+exact reconstruction: pivots=192/732 seconds=14.8
+exact reconstruction: pivots=224/732 seconds=18.2
+exact reconstruction: pivots=256/732 seconds=21.6
+exact reconstruction: pivots=288/732 seconds=25.3
+exact reconstruction: pivots=320/732 seconds=29.3
+exact reconstruction: pivots=352/732 seconds=33.5
+exact reconstruction: pivots=384/732 seconds=38.1
+exact reconstruction: pivots=416/732 seconds=43.0
+exact reconstruction: pivots=448/732 seconds=48.2
+exact reconstruction: pivots=480/732 seconds=53.1
+exact reconstruction: pivots=512/732 seconds=57.5
+exact reconstruction: pivots=544/732 seconds=61.7
+exact reconstruction: pivots=576/732 seconds=65.2
+exact reconstruction: pivots=608/732 seconds=68.0
+exact reconstruction: pivots=640/732 seconds=70.0
+exact reconstruction: pivots=672/732 seconds=71.1
+exact reconstruction: pivots=704/732 seconds=71.5
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 1458, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1463, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 21.903928202929933, "upper_display": 23.0, "status": "OPEN", "added": 642}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 11, "points": 5639, "centres": 5946, "elapsed": 27646.166037656367}
+{"stage": "numeric_proposal", "display_only": 22.999999999999403, "round": 11}
+{"stage": "reconstruct", "cover": 12, "packing": 845, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 23, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1689, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 21.903928202929933, "upper_display": 23.0, "status": "OPEN", "added": 514}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 12, "points": 5639, "centres": 6460, "elapsed": 30161.699322514236}
+{"stage": "numeric_proposal", "display_only": 22.999999999998142, "round": 12}
+{"stage": "reconstruct", "cover": 12, "packing": 932, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 23, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1862, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 21.903928202929933, "upper_display": 23.0, "status": "OPEN", "added": 247}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 13, "points": 5639, "centres": 6707, "elapsed": 32677.690592496656}
+{"stage": "numeric_proposal", "display_only": 22.99999999999389, "round": 13}
+{"stage": "reconstruct", "cover": 12, "packing": 933, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 23, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1863, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 21.903928202929933, "upper_display": 23.0, "status": "OPEN", "added": 172}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 14, "points": 5639, "centres": 6879, "elapsed": 35425.881253963336}
+{"stage": "numeric_proposal", "display_only": 22.999999999998064, "round": 14}
+{"stage": "reconstruct", "cover": 12, "packing": 969, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 23, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1934, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 21.903928202929933, "upper_display": 23.0, "status": "OPEN", "added": 153}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 15, "points": 5639, "centres": 7032, "elapsed": 37948.865786056966}
+{"stage": "numeric_proposal", "display_only": 23.000000000003034, "round": 15}
+{"stage": "reconstruct", "cover": 12, "packing": 945, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 23, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1887, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 21.903928202929933, "upper_display": 23.0, "status": "OPEN", "added": 140}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 16, "points": 5639, "centres": 7172, "elapsed": 40631.019593938254}
+{"stage": "numeric_proposal", "display_only": 23.000000000000252, "round": 16}
+{"stage": "reconstruct", "cover": 12, "packing": 985, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 23, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1966, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 21.903928202929933, "upper_display": 23.0, "status": "OPEN", "added": 96}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 17, "points": 5639, "centres": 7268, "elapsed": 43251.93975804187}
+{"stage": "numeric_proposal", "display_only": 22.99999999999949, "round": 17}
+{"stage": "reconstruct", "cover": 12, "packing": 956, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 23, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1909, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 21.903928202929933, "upper_display": 23.0, "status": "OPEN", "added": 73}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 18, "points": 5639, "centres": 7341, "elapsed": 45870.01457743719}
+{"stage": "numeric_proposal", "display_only": 22.99999999998781, "round": 18}
+{"stage": "reconstruct", "cover": 12, "packing": 1017, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 23, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 2030, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 21.903928202929933, "upper_display": 23.0, "status": "OPEN", "added": 67}
+{"stage": "LP", "N": 22, "r": 23, "m": 10, "round": 19, "points": 5639, "centres": 7408, "elapsed": 48492.4684589589}
+{"stage": "numeric_proposal", "display_only": 22.999999999997506, "round": 19}
+{"stage": "reconstruct", "cover": 12, "packing": 983, "backend": "auto"}
+{"stage": "sweep", "side": "cover", "method": "screen", "support": 23, "classes": 6025560114}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1963, "classes": 31381059609}
+{"stage": "certified_bounds", "lower_display": 22.255585204451542, "upper_display": 23.0, "status": "CLOSED", "added": 50}
+{"stage": "sweep", "side": "packing", "method": "screen", "support": 1963, "classes": 31381059609}
+{"stage": "finished", "status": "CLOSED", "termination": "decisive exact certificate verified"}

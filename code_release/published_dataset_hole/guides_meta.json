@@ -1,0 +1,932 @@
+{
+ "g00": {
+  "datasets": [
+   "CIRCLE"
+  ],
+  "spacer": "GAACACAAAGCATAGACTGC",
+  "words": {
+   "AACACAAAGCATAGACTGC": [
+    1
+   ],
+   "GAAACAAAGCATAGACTGC": [
+    4
+   ],
+   "GAACAAAAGCATAGACTGC": [
+    6
+   ],
+   "GAACACAAACATAGACTGC": [
+    10
+   ],
+   "GAACACAAAGATAGACTGC": [
+    11
+   ],
+   "GAACACAAAGCAAGACTGC": [
+    13
+   ],
+   "GAACACAAAGCATAACTGC": [
+    15
+   ],
+   "GAACACAAAGCATAGACGC": [
+    18
+   ],
+   "GAACACAAAGCATAGACTC": [
+    19
+   ],
+   "GAACACAAAGCATAGACTG": [
+    20
+   ],
+   "GAACACAAAGCATAGATGC": [
+    17
+   ],
+   "GAACACAAAGCATAGCTGC": [
+    16
+   ],
+   "GAACACAAAGCATGACTGC": [
+    14
+   ],
+   "GAACACAAAGCTAGACTGC": [
+    12
+   ],
+   "GAACACAAGCATAGACTGC": [
+    7,
+    8,
+    9
+   ],
+   "GAACCAAAGCATAGACTGC": [
+    5
+   ],
+   "GACACAAAGCATAGACTGC": [
+    2,
+    3
+   ]
+  }
+ },
+ "g01": {
+  "datasets": [
+   "CIRCLE"
+  ],
+  "spacer": "GACCCCCTCCACCCCGCCTC",
+  "words": {
+   "ACCCCCTCCACCCCGCCTC": [
+    1
+   ],
+   "GACCCCCCCACCCCGCCTC": [
+    8
+   ],
+   "GACCCCCTCACCCCGCCTC": [
+    9,
+    10
+   ],
+   "GACCCCCTCCACCCCCCTC": [
+    16
+   ],
+   "GACCCCCTCCACCCCGCCC": [
+    19
+   ],
+   "GACCCCCTCCACCCCGCCT": [
+    20
+   ],
+   "GACCCCCTCCACCCCGCTC": [
+    17,
+    18
+   ],
+   "GACCCCCTCCACCCGCCTC": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "GACCCCCTCCCCCCGCCTC": [
+    11
+   ],
+   "GACCCCTCCACCCCGCCTC": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "GCCCCCTCCACCCCGCCTC": [
+    2
+   ]
+  }
+ },
+ "g02": {
+  "datasets": [
+   "CIRCLE"
+  ],
+  "spacer": "GAGTCCGAGCAGAAGAAGAA",
+  "words": {
+   "AGTCCGAGCAGAAGAAGAA": [
+    1
+   ],
+   "GAGCCGAGCAGAAGAAGAA": [
+    4
+   ],
+   "GAGTCCAGCAGAAGAAGAA": [
+    7
+   ],
+   "GAGTCCGACAGAAGAAGAA": [
+    9
+   ],
+   "GAGTCCGAGAGAAGAAGAA": [
+    10
+   ],
+   "GAGTCCGAGCAAAGAAGAA": [
+    12
+   ],
+   "GAGTCCGAGCAGAAAAGAA": [
+    15
+   ],
+   "GAGTCCGAGCAGAAGAAAA": [
+    18
+   ],
+   "GAGTCCGAGCAGAAGAAGA": [
+    19,
+    20
+   ],
+   "GAGTCCGAGCAGAAGAGAA": [
+    16,
+    17
+   ],
+   "GAGTCCGAGCAGAGAAGAA": [
+    13,
+    14
+   ],
+   "GAGTCCGAGCGAAGAAGAA": [
+    11
+   ],
+   "GAGTCCGGCAGAAGAAGAA": [
+    8
+   ],
+   "GAGTCGAGCAGAAGAAGAA": [
+    5,
+    6
+   ],
+   "GATCCGAGCAGAAGAAGAA": [
+    3
+   ],
+   "GGTCCGAGCAGAAGAAGAA": [
+    2
+   ]
+  }
+ },
+ "g03": {
+  "datasets": [
+   "ELEV"
+  ],
+  "spacer": "GATGGTAGATGGAGACTCAG",
+  "words": {
+   "ATGGTAGATGGAGACTCAG": [
+    1
+   ],
+   "GAGGTAGATGGAGACTCAG": [
+    3
+   ],
+   "GATGGAGATGGAGACTCAG": [
+    6
+   ],
+   "GATGGTAATGGAGACTCAG": [
+    8
+   ],
+   "GATGGTAGAGGAGACTCAG": [
+    10
+   ],
+   "GATGGTAGATGAGACTCAG": [
+    11,
+    12
+   ],
+   "GATGGTAGATGGAACTCAG": [
+    14
+   ],
+   "GATGGTAGATGGAGACCAG": [
+    17
+   ],
+   "GATGGTAGATGGAGACTAG": [
+    18
+   ],
+   "GATGGTAGATGGAGACTCA": [
+    20
+   ],
+   "GATGGTAGATGGAGACTCG": [
+    19
+   ],
+   "GATGGTAGATGGAGATCAG": [
+    16
+   ],
+   "GATGGTAGATGGAGCTCAG": [
+    15
+   ],
+   "GATGGTAGATGGGACTCAG": [
+    13
+   ],
+   "GATGGTAGTGGAGACTCAG": [
+    9
+   ],
+   "GATGGTGATGGAGACTCAG": [
+    7
+   ],
+   "GATGTAGATGGAGACTCAG": [
+    4,
+    5
+   ],
+   "GTGGTAGATGGAGACTCAG": [
+    2
+   ]
+  }
+ },
+ "g04": {
+  "datasets": [
+   "ELEV"
+  ],
+  "spacer": "GCAGCCAGTACAGCTCACCA",
+  "words": {
+   "CAGCCAGTACAGCTCACCA": [
+    1
+   ],
+   "GAGCCAGTACAGCTCACCA": [
+    2
+   ],
+   "GCACCAGTACAGCTCACCA": [
+    4
+   ],
+   "GCAGCAGTACAGCTCACCA": [
+    5,
+    6
+   ],
+   "GCAGCCAGACAGCTCACCA": [
+    9
+   ],
+   "GCAGCCAGTAAGCTCACCA": [
+    11
+   ],
+   "GCAGCCAGTACACTCACCA": [
+    13
+   ],
+   "GCAGCCAGTACAGCCACCA": [
+    15
+   ],
+   "GCAGCCAGTACAGCTACCA": [
+    16
+   ],
+   "GCAGCCAGTACAGCTCACA": [
+    18,
+    19
+   ],
+   "GCAGCCAGTACAGCTCACC": [
+    20
+   ],
+   "GCAGCCAGTACAGCTCCCA": [
+    17
+   ],
+   "GCAGCCAGTACAGTCACCA": [
+    14
+   ],
+   "GCAGCCAGTACGCTCACCA": [
+    12
+   ],
+   "GCAGCCAGTCAGCTCACCA": [
+    10
+   ],
+   "GCAGCCATACAGCTCACCA": [
+    8
+   ],
+   "GCAGCCGTACAGCTCACCA": [
+    7
+   ],
+   "GCGCCAGTACAGCTCACCA": [
+    3
+   ]
+  }
+ },
+ "g05": {
+  "datasets": [
+   "ELEV"
+  ],
+  "spacer": "GCCCTGCTGCCCCAGTTCGA",
+  "words": {
+   "CCCTGCTGCCCCAGTTCGA": [
+    1
+   ],
+   "GCCCGCTGCCCCAGTTCGA": [
+    5
+   ],
+   "GCCCTCTGCCCCAGTTCGA": [
+    6
+   ],
+   "GCCCTGCGCCCCAGTTCGA": [
+    8
+   ],
+   "GCCCTGCTCCCCAGTTCGA": [
+    9
+   ],
+   "GCCCTGCTGCCCAGTTCGA": [
+    10,
+    11,
+    12,
+    13
+   ],
+   "GCCCTGCTGCCCCAGTCGA": [
+    16,
+    17
+   ],
+   "GCCCTGCTGCCCCAGTTCA": [
+    19
+   ],
+   "GCCCTGCTGCCCCAGTTCG": [
+    20
+   ],
+   "GCCCTGCTGCCCCAGTTGA": [
+    18
+   ],
+   "GCCCTGCTGCCCCATTCGA": [
+    15
+   ],
+   "GCCCTGCTGCCCCGTTCGA": [
+    14
+   ],
+   "GCCCTGTGCCCCAGTTCGA": [
+    7
+   ],
+   "GCCTGCTGCCCCAGTTCGA": [
+    2,
+    3,
+    4
+   ]
+  }
+ },
+ "g06": {
+  "datasets": [
+   "ELEV"
+  ],
+  "spacer": "GCCGGAGGGGTTTGCACAGA",
+  "words": {
+   "CCGGAGGGGTTTGCACAGA": [
+    1
+   ],
+   "GCCGAGGGGTTTGCACAGA": [
+    4,
+    5
+   ],
+   "GCCGGAGGGGTTGCACAGA": [
+    11,
+    12,
+    13
+   ],
+   "GCCGGAGGGGTTTCACAGA": [
+    14
+   ],
+   "GCCGGAGGGGTTTGACAGA": [
+    15
+   ],
+   "GCCGGAGGGGTTTGCAAGA": [
+    17
+   ],
+   "GCCGGAGGGGTTTGCACAA": [
+    19
+   ],
+   "GCCGGAGGGGTTTGCACAG": [
+    20
+   ],
+   "GCCGGAGGGGTTTGCACGA": [
+    18
+   ],
+   "GCCGGAGGGGTTTGCCAGA": [
+    16
+   ],
+   "GCCGGAGGGTTTGCACAGA": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "GCCGGGGGGTTTGCACAGA": [
+    6
+   ],
+   "GCGGAGGGGTTTGCACAGA": [
+    2,
+    3
+   ]
+  }
+ },
+ "g07": {
+  "datasets": [
+   "ELEV"
+  ],
+  "spacer": "GCTAGAGTCACAAGTCCCAC",
+  "words": {
+   "CTAGAGTCACAAGTCCCAC": [
+    1
+   ],
+   "GCAGAGTCACAAGTCCCAC": [
+    3
+   ],
+   "GCTAAGTCACAAGTCCCAC": [
+    5
+   ],
+   "GCTAGAGCACAAGTCCCAC": [
+    8
+   ],
+   "GCTAGAGTACAAGTCCCAC": [
+    9
+   ],
+   "GCTAGAGTCAAAGTCCCAC": [
+    11
+   ],
+   "GCTAGAGTCACAAGCCCAC": [
+    15
+   ],
+   "GCTAGAGTCACAAGTCCAC": [
+    16,
+    17,
+    18
+   ],
+   "GCTAGAGTCACAAGTCCCA": [
+    20
+   ],
+   "GCTAGAGTCACAAGTCCCC": [
+    19
+   ],
+   "GCTAGAGTCACAATCCCAC": [
+    14
+   ],
+   "GCTAGAGTCACAGTCCCAC": [
+    12,
+    13
+   ],
+   "GCTAGAGTCCAAGTCCCAC": [
+    10
+   ],
+   "GCTAGATCACAAGTCCCAC": [
+    7
+   ],
+   "GCTAGGTCACAAGTCCCAC": [
+    6
+   ],
+   "GCTGAGTCACAAGTCCCAC": [
+    4
+   ],
+   "GTAGAGTCACAAGTCCCAC": [
+    2
+   ]
+  }
+ },
+ "g08": {
+  "datasets": [
+   "ELEV"
+  ],
+  "spacer": "GCTTCCGTTGCTTAGCTCTG",
+  "words": {
+   "CTTCCGTTGCTTAGCTCTG": [
+    1
+   ],
+   "GCTCCGTTGCTTAGCTCTG": [
+    3,
+    4
+   ],
+   "GCTTCCGTGCTTAGCTCTG": [
+    8,
+    9
+   ],
+   "GCTTCCGTTCTTAGCTCTG": [
+    10
+   ],
+   "GCTTCCGTTGCTAGCTCTG": [
+    12,
+    13
+   ],
+   "GCTTCCGTTGCTTACTCTG": [
+    15
+   ],
+   "GCTTCCGTTGCTTAGCCTG": [
+    17
+   ],
+   "GCTTCCGTTGCTTAGCTCG": [
+    19
+   ],
+   "GCTTCCGTTGCTTAGCTCT": [
+    20
+   ],
+   "GCTTCCGTTGCTTAGCTTG": [
+    18
+   ],
+   "GCTTCCGTTGCTTAGTCTG": [
+    16
+   ],
+   "GCTTCCGTTGCTTGCTCTG": [
+    14
+   ],
+   "GCTTCCGTTGTTAGCTCTG": [
+    11
+   ],
+   "GCTTCCTTGCTTAGCTCTG": [
+    7
+   ],
+   "GCTTCGTTGCTTAGCTCTG": [
+    5,
+    6
+   ],
+   "GTTCCGTTGCTTAGCTCTG": [
+    2
+   ]
+  }
+ },
+ "g09": {
+  "datasets": [
+   "CIRCLE"
+  ],
+  "spacer": "GGAATCCCTTCTGCAGCACC",
+  "words": {
+   "GAATCCCTTCTGCAGCACC": [
+    1,
+    2
+   ],
+   "GGAACCCTTCTGCAGCACC": [
+    5
+   ],
+   "GGAATCCCTCTGCAGCACC": [
+    9,
+    10
+   ],
+   "GGAATCCCTTCGCAGCACC": [
+    12
+   ],
+   "GGAATCCCTTCTCAGCACC": [
+    13
+   ],
+   "GGAATCCCTTCTGAGCACC": [
+    14
+   ],
+   "GGAATCCCTTCTGCACACC": [
+    16
+   ],
+   "GGAATCCCTTCTGCAGACC": [
+    17
+   ],
+   "GGAATCCCTTCTGCAGCAC": [
+    19,
+    20
+   ],
+   "GGAATCCCTTCTGCAGCCC": [
+    18
+   ],
+   "GGAATCCCTTCTGCGCACC": [
+    15
+   ],
+   "GGAATCCCTTTGCAGCACC": [
+    11
+   ],
+   "GGAATCCTTCTGCAGCACC": [
+    6,
+    7,
+    8
+   ],
+   "GGATCCCTTCTGCAGCACC": [
+    3,
+    4
+   ]
+  }
+ },
+ "g10": {
+  "datasets": [
+   "CIRCLE"
+  ],
+  "spacer": "GGCACTGCGGCTGGAGGTGG",
+  "words": {
+   "GCACTGCGGCTGGAGGTGG": [
+    1,
+    2
+   ],
+   "GGACTGCGGCTGGAGGTGG": [
+    3
+   ],
+   "GGCACGCGGCTGGAGGTGG": [
+    6
+   ],
+   "GGCACTCGGCTGGAGGTGG": [
+    7
+   ],
+   "GGCACTGCGCTGGAGGTGG": [
+    9,
+    10
+   ],
+   "GGCACTGCGGCGGAGGTGG": [
+    12
+   ],
+   "GGCACTGCGGCTGAGGTGG": [
+    13,
+    14
+   ],
+   "GGCACTGCGGCTGGAGGGG": [
+    18
+   ],
+   "GGCACTGCGGCTGGAGGTG": [
+    19,
+    20
+   ],
+   "GGCACTGCGGCTGGAGTGG": [
+    16,
+    17
+   ],
+   "GGCACTGCGGCTGGGGTGG": [
+    15
+   ],
+   "GGCACTGCGGTGGAGGTGG": [
+    11
+   ],
+   "GGCACTGGGCTGGAGGTGG": [
+    8
+   ],
+   "GGCATGCGGCTGGAGGTGG": [
+    5
+   ],
+   "GGCCTGCGGCTGGAGGTGG": [
+    4
+   ]
+  }
+ },
+ "g11": {
+  "datasets": [
+   "CIRCLE"
+  ],
+  "spacer": "GGCCCAGACTGAGCACGTGA",
+  "words": {
+   "GCCCAGACTGAGCACGTGA": [
+    1,
+    2
+   ],
+   "GGCCAGACTGAGCACGTGA": [
+    3,
+    4,
+    5
+   ],
+   "GGCCCAACTGAGCACGTGA": [
+    7
+   ],
+   "GGCCCAGACGAGCACGTGA": [
+    10
+   ],
+   "GGCCCAGACTAGCACGTGA": [
+    11
+   ],
+   "GGCCCAGACTGACACGTGA": [
+    13
+   ],
+   "GGCCCAGACTGAGACGTGA": [
+    14
+   ],
+   "GGCCCAGACTGAGCACGGA": [
+    18
+   ],
+   "GGCCCAGACTGAGCACGTA": [
+    19
+   ],
+   "GGCCCAGACTGAGCACGTG": [
+    20
+   ],
+   "GGCCCAGACTGAGCACTGA": [
+    17
+   ],
+   "GGCCCAGACTGAGCAGTGA": [
+    16
+   ],
+   "GGCCCAGACTGAGCCGTGA": [
+    15
+   ],
+   "GGCCCAGACTGGCACGTGA": [
+    12
+   ],
+   "GGCCCAGATGAGCACGTGA": [
+    9
+   ],
+   "GGCCCAGCTGAGCACGTGA": [
+    8
+   ],
+   "GGCCCGACTGAGCACGTGA": [
+    6
+   ]
+  }
+ },
+ "g12": {
+  "datasets": [
+   "CIRCLE"
+  ],
+  "spacer": "GGGAAAGACCCAGCATCCGT",
+  "words": {
+   "GGAAAGACCCAGCATCCGT": [
+    1,
+    2,
+    3
+   ],
+   "GGGAAAACCCAGCATCCGT": [
+    7
+   ],
+   "GGGAAAGACCAGCATCCGT": [
+    9,
+    10,
+    11
+   ],
+   "GGGAAAGACCCACATCCGT": [
+    13
+   ],
+   "GGGAAAGACCCAGATCCGT": [
+    14
+   ],
+   "GGGAAAGACCCAGCACCGT": [
+    16
+   ],
+   "GGGAAAGACCCAGCATCCG": [
+    20
+   ],
+   "GGGAAAGACCCAGCATCCT": [
+    19
+   ],
+   "GGGAAAGACCCAGCATCGT": [
+    17,
+    18
+   ],
+   "GGGAAAGACCCAGCTCCGT": [
+    15
+   ],
+   "GGGAAAGACCCGCATCCGT": [
+    12
+   ],
+   "GGGAAAGCCCAGCATCCGT": [
+    8
+   ],
+   "GGGAAGACCCAGCATCCGT": [
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ "g13": {
+  "datasets": [
+   "CIRCLE"
+  ],
+  "spacer": "GGGTGGGGGGAGTTTGCTCC",
+  "words": {
+   "GGGGGGGGGAGTTTGCTCC": [
+    4
+   ],
+   "GGGTGGGGGAGTTTGCTCC": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "GGGTGGGGGGAGTTGCTCC": [
+    13,
+    14,
+    15
+   ],
+   "GGGTGGGGGGAGTTTCTCC": [
+    16
+   ],
+   "GGGTGGGGGGAGTTTGCCC": [
+    18
+   ],
+   "GGGTGGGGGGAGTTTGCTC": [
+    19,
+    20
+   ],
+   "GGGTGGGGGGAGTTTGTCC": [
+    17
+   ],
+   "GGGTGGGGGGATTTGCTCC": [
+    12
+   ],
+   "GGGTGGGGGGGTTTGCTCC": [
+    11
+   ],
+   "GGTGGGGGGAGTTTGCTCC": [
+    1,
+    2,
+    3
+   ]
+  }
+ },
+ "g14": {
+  "datasets": [
+   "CIRCLE"
+  ],
+  "spacer": "GGTGAGTGAGTGTGTGCGTG",
+  "words": {
+   "GGGAGTGAGTGTGTGCGTG": [
+    3
+   ],
+   "GGTAGTGAGTGTGTGCGTG": [
+    4
+   ],
+   "GGTGAGGAGTGTGTGCGTG": [
+    7
+   ],
+   "GGTGAGTAGTGTGTGCGTG": [
+    8
+   ],
+   "GGTGAGTGAGGTGTGCGTG": [
+    11
+   ],
+   "GGTGAGTGAGTGGTGCGTG": [
+    13
+   ],
+   "GGTGAGTGAGTGTGGCGTG": [
+    15
+   ],
+   "GGTGAGTGAGTGTGTCGTG": [
+    16
+   ],
+   "GGTGAGTGAGTGTGTGCGG": [
+    19
+   ],
+   "GGTGAGTGAGTGTGTGCGT": [
+    20
+   ],
+   "GGTGAGTGAGTGTGTGCTG": [
+    18
+   ],
+   "GGTGAGTGAGTGTGTGGTG": [
+    17
+   ],
+   "GGTGAGTGAGTGTTGCGTG": [
+    14
+   ],
+   "GGTGAGTGAGTTGTGCGTG": [
+    12
+   ],
+   "GGTGAGTGATGTGTGCGTG": [
+    10
+   ],
+   "GGTGAGTGGTGTGTGCGTG": [
+    9
+   ],
+   "GGTGATGAGTGTGTGCGTG": [
+    6
+   ],
+   "GGTGGTGAGTGTGTGCGTG": [
+    5
+   ],
+   "GTGAGTGAGTGTGTGCGTG": [
+    1,
+    2
+   ]
+  }
+ },
+ "g15": {
+  "datasets": [
+   "CIRCLE"
+  ],
+  "spacer": "GTTGCCCCACAGGGCAGTAA",
+  "words": {
+   "GTGCCCCACAGGGCAGTAA": [
+    2,
+    3
+   ],
+   "GTTCCCCACAGGGCAGTAA": [
+    4
+   ],
+   "GTTGCCCACAGGGCAGTAA": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "GTTGCCCCAAGGGCAGTAA": [
+    10
+   ],
+   "GTTGCCCCACAGGCAGTAA": [
+    12,
+    13,
+    14
+   ],
+   "GTTGCCCCACAGGGAGTAA": [
+    15
+   ],
+   "GTTGCCCCACAGGGCAGAA": [
+    18
+   ],
+   "GTTGCCCCACAGGGCAGTA": [
+    19,
+    20
+   ],
+   "GTTGCCCCACAGGGCATAA": [
+    17
+   ],
+   "GTTGCCCCACAGGGCGTAA": [
+    16
+   ],
+   "GTTGCCCCACGGGCAGTAA": [
+    11
+   ],
+   "GTTGCCCCCAGGGCAGTAA": [
+    9
+   ],
+   "TTGCCCCACAGGGCAGTAA": [
+    1
+   ]
+  }
+ }
+}

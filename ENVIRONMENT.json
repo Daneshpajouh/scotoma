@@ -1,0 +1,15 @@
+{
+  "validated_utc": "2026-10-31T04:54:03.545602+00:00",
+  "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.5.1",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.7",
+    "pytest": "9.0.2"
+  },
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "node": "v22.15.1",
+  "public_base_tree": "0de5b8d3d7a30fcece66c8ebc99899ade73dfa7e",
+  "measurements_scope": "rusage maximum RSS, not an aggregate concurrent RSS measurement"
+}

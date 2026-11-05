@@ -1,0 +1,281 @@
+{
+  "r": 7,
+  "alpha": 14,
+  "min_n_candidate": 15,
+  "status": "CONJECTURE: candidate before infinite verification",
+  "support": [
+    {
+      "prefix": "000000",
+      "distance": 0,
+      "mass": "2/13"
+    },
+    {
+      "prefix": "111111",
+      "distance": 0,
+      "mass": "2/13"
+    },
+    {
+      "prefix": "000011",
+      "distance": 0,
+      "mass": "3/13"
+    },
+    {
+      "prefix": "001111",
+      "distance": 0,
+      "mass": "3/13"
+    },
+    {
+      "prefix": "00011X",
+      "distance": 1,
+      "mass": "7/26"
+    },
+    {
+      "prefix": "X00111",
+      "distance": 1,
+      "mass": "7/26"
+    },
+    {
+      "prefix": "0011X1",
+      "distance": 1,
+      "mass": "3/13"
+    },
+    {
+      "prefix": "0X0011",
+      "distance": 1,
+      "mass": "3/13"
+    },
+    {
+      "prefix": "00X000",
+      "distance": 1,
+      "mass": "11/13"
+    },
+    {
+      "prefix": "111X11",
+      "distance": 1,
+      "mass": "11/13"
+    },
+    {
+      "prefix": "01110X",
+      "distance": 2,
+      "mass": "3/13"
+    },
+    {
+      "prefix": "X10001",
+      "distance": 2,
+      "mass": "3/13"
+    },
+    {
+      "prefix": "011110",
+      "distance": 1,
+      "mass": "5/13"
+    },
+    {
+      "prefix": "100001",
+      "distance": 1,
+      "mass": "5/13"
+    },
+    {
+      "prefix": "0111X0",
+      "distance": 2,
+      "mass": "5/13"
+    },
+    {
+      "prefix": "1X0001",
+      "distance": 2,
+      "mass": "5/13"
+    },
+    {
+      "prefix": "0X001X",
+      "distance": 2,
+      "mass": "7/13"
+    },
+    {
+      "prefix": "X011X1",
+      "distance": 2,
+      "mass": "7/13"
+    },
+    {
+      "prefix": "10011X",
+      "distance": 2,
+      "mass": "3/13"
+    },
+    {
+      "prefix": "X00110",
+      "distance": 2,
+      "mass": "3/13"
+    }
+  ],
+  "finite_checks": [
+    {
+      "n": 18,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 8748,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 23,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 12393,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 28,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 16038,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 33,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 19683,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 38,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 23328,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 43,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 26973,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 48,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 30618,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": 78,
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 52488,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    },
+    {
+      "n": "limit rho=3/5",
+      "max_load": "1",
+      "witness": {
+        "prefix": "000000",
+        "tail_weight": 0
+      },
+      "centre_classes": 9477,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "7"
+    }
+  ]
+}

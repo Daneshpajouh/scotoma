@@ -1,0 +1,174 @@
+% Status: PROVED. This file is an appendix insert; it needs amsmath,
+% amssymb, amsthm, and proposition/corollary theorem environments.
+\subsection{Monotonicity of the optimal fractional certificate}
+\label{app:mismatch-monotonicity}
+
+\noindent\textbf{Status: PROVED.}
+Let $\Sigma$ be a finite nonempty alphabet, let $N\geq 0$, and let
+$\mathcal P=(P_0,\ldots,P_{s-1})$ be a fixed, ordered, nonempty library of
+distinct words in $\Sigma^N$. Distances are Hamming distances. For every
+integer $t\geq 0$, write
+\[
+ B_t(c)=\{x\in\Sigma^N:d(x,c)\leq t\},
+ \qquad U_t=\bigcup_{j=0}^{s-1}B_t(P_j).
+\]
+The fractional covering number $\tau_t^*=\tau^*(\mathcal P,t)$ is the
+minimum of $\sum_{c\in\Sigma^N}a_c$ over $a_c\geq 0$ satisfying
+\[
+ \sum_{\substack{c\in\Sigma^N\\d(x,c)\leq t}}a_c\geq 1
+ \qquad(x\in U_t).
+\]
+Its dual feasible set consists of the packings
+\[
+ \mathcal W_t=\left\{w:U_t\longrightarrow\mathbb R_{\geq0}:
+     \sum_{x\in U_t\cap B_t(c)}w(x)\leq1
+     \text{ for every }c\in\Sigma^N\right\}.
+\]
+Both programs are finite and feasible: the library itself is a cover, and
+the zero packing is feasible. Every feasible packing satisfies $w(x)\leq1$
+by the constraint for the centre $c=x$. Thus the packing feasible set is
+compact, and finite linear-programming duality gives
+\[
+ \tau_t^*=\max_{w\in\mathcal W_t}\sum_{x\in U_t}w(x).
+\]
+
+\begin{proposition}[Monotonicity in the mismatch budget]
+\label{prop:mismatch-monotonicity}
+For every library above and every integer $m\geq1$,
+\[
+ \boxed{\tau^*(\mathcal P,m-1)\geq\tau^*(\mathcal P,m).}
+\]
+More precisely, every feasible packing on $U_m$ has a feasible packing on
+$U_{m-1}$ of exactly the same total mass. Centres in both programs range
+over all of $\Sigma^N$.
+\end{proposition}
+
+\begin{proof}
+Fix $m\geq1$. We first define a single map
+$f_m:U_m\longrightarrow U_{m-1}$, independently of any packing or centre.
+Put $\delta(x)=\min_{0\leq j<s}d(x,P_j)$. If $\delta(x)\leq m-1$, set
+$f_m(x)=x$. Otherwise $x\in U_m$ and the integrality of Hamming distance
+give $\delta(x)=m$. Define
+\[
+ j(x)=\min\{j:d(x,P_j)=m\},\qquad
+ k(x)=\min\{i\in\{1,\ldots,N\}:x_i\ne(P_{j(x)})_i\}.
+\]
+The first set is nonempty because $\delta(x)=m$. The second is nonempty
+because $d(x,P_{j(x)})=m\geq1$. Replace just coordinate $k(x)$ by the
+letter of $P_{j(x)}$ at that coordinate:
+\[
+ (f_m(x))_i=
+ \begin{cases}
+ (P_{j(x)})_i,&i=k(x),\\
+ x_i,&i\ne k(x).
+ \end{cases}
+\]
+Both minima are taken in fixed finite orders, so this is a well-defined,
+canonical map even when several patterns are nearest to $x$. In this
+second case,
+\[
+ d(f_m(x),P_{j(x)})=m-1,\qquad d(x,f_m(x))=1.
+\]
+In the first case $f_m(x)=x\in U_{m-1}$. Consequently, in all cases
+\[
+ f_m(U_m)\subseteq U_{m-1},\qquad
+ d(x,f_m(x))\leq1,
+ \qquad f_m|_{U_{m-1}}=\mathrm{id}.
+\]
+If the second case has no inputs (in particular, when $m>N$), the same
+definition is simply the identity on $U_m=U_{m-1}$.
+
+Now fix an arbitrary centre $c\in\Sigma^N$. For any $x\in U_m$ with
+$f_m(x)\in B_{m-1}(c)$, the triangle inequality yields
+\[
+ d(x,c)\leq d(x,f_m(x))+d(f_m(x),c)\leq1+(m-1)=m.
+\]
+Hence, with inverse images taken in the domain $U_m$,
+\begin{equation}
+ \label{eq:mismatch-preimage}
+ f_m^{-1}\bigl(U_{m-1}\cap B_{m-1}(c)\bigr)
+ \subseteq U_m\cap B_m(c)
+ \qquad(c\in\Sigma^N).
+\end{equation}
+No letter of $c$ is restricted: coordinatewise, the inequality used here
+is $\mathbf1[x_i\ne c_i]\leq\mathbf1[x_i\ne(f_m(x))_i]
++\mathbf1[(f_m(x))_i\ne c_i]$ for arbitrary alphabet letters.
+
+Let $w\in\mathcal W_m$. Define its pushforward on the entire target by
+\[
+ \widehat w(y)=\sum_{\substack{x\in U_m\\f_m(x)=y}}w(x)
+ \qquad(y\in U_{m-1}),
+\]
+where an empty sum is zero. These weights are nonnegative. For every
+$c\in\Sigma^N$, equation~\eqref{eq:mismatch-preimage} and nonnegativity
+give
+\begin{align*}
+ \sum_{y\in U_{m-1}\cap B_{m-1}(c)}\widehat w(y)
+ &=\sum_{\substack{x\in U_m\\f_m(x)\in B_{m-1}(c)}}w(x)\\
+ &\leq\sum_{x\in U_m\cap B_m(c)}w(x)\leq1.
+\end{align*}
+Thus $\widehat w\in\mathcal W_{m-1}$. Since $f_m$ is defined on every
+source point and every image lies in $U_{m-1}$, its fibres indexed by
+$U_{m-1}$ partition $U_m$. All sums are finite, so
+\[
+ \sum_{y\in U_{m-1}}\widehat w(y)
+ =\sum_{y\in U_{m-1}}\sum_{\substack{x\in U_m\\f_m(x)=y}}w(x)
+ =\sum_{x\in U_m}w(x).
+\]
+In particular, colliding source points have their weights added, and no
+mass is lost outside $U_{m-1}$. Applying this construction to an optimal
+packing on $U_m$ proves
+$\tau_{m-1}^*\geq\sum_y\widehat w(y)=\tau_m^*$.
+\end{proof}
+
+\paragraph{Boundary ties and the absence of a free block.}
+The correction is toward the first nearest pattern, regardless of how
+many other patterns also lie at distance $m$. Its membership in
+$B_{m-1}(P_{j(x)})$ suffices; preservation of any other nearest-pattern
+relationship is unnecessary. The corrected coordinate may be any
+coordinate where $x$ differs from this pattern. In particular, for the
+staircase library below the proof works unchanged when $C=0$. It requires
+neither a common padding coordinate nor any unused alphabet letter.
+
+\begin{corollary}[Initial ranges and their thresholds]
+\label{cor:mismatch-thresholds}
+Over $\Sigma=\{0,1,2,3\}$, fix $N\geq0$ and $1\leq r\leq N+1$, and
+put $L=r-1$, $C=N-L$, and $P_j=0^j1^{L-j}0^C$ for $0\leq j\leq L$.
+Write $\tau^*(N,r,m)$ for this library's fractional covering number.
+For $r\geq2$, there are unique integers
+$M_{\mathrm{full}},M_{\mathrm{ceil}}\in\{0,\ldots,N-1\}$ such that
+\begin{align*}
+ \{m\in\mathbb Z_{\geq0}:\tau^*(N,r,m)=r\}
+    &=\{0,\ldots,M_{\mathrm{full}}\},\\
+ \{m\in\mathbb Z_{\geq0}:\tau^*(N,r,m)>r-1\}
+    &=\{0,\ldots,M_{\mathrm{ceil}}\}.
+\end{align*}
+Moreover $M_{\mathrm{full}}\leq M_{\mathrm{ceil}}$. If $r=1$, then
+$\tau^*(N,1,m)=1$ for every $m\geq0$, so both ranges are all nonnegative
+integers and there is no finite failure threshold.
+\end{corollary}
+
+\begin{proof}
+The $r$ library balls give $\tau^*(N,r,m)\leq r$ at every budget.
+At $m=0$ the $r$ distinct library words are distinct singleton targets,
+so $\tau^*(N,r,0)=r$. At every $m\geq N$, each Hamming ball is
+$\Sigma^N$, giving $\tau^*(N,r,m)=1$: one centre is a feasible cover,
+and weight one on a single word is a feasible packing. For $r\geq2$,
+monotonicity therefore makes each displayed set a nonempty finite initial
+segment, establishing the unique thresholds. Full weight implies
+$\tau^*>r-1$, so the first threshold is at most the second.
+If $r=1$, the single library ball gives the upper bound one, and weight
+one on its centre gives the lower bound one at every budget.
+\end{proof}
+
+\paragraph{Which certificate reaches the integer minimum.}
+If $K(N,r,m)$ denotes the minimum number of unrestricted radius-$m$ balls
+covering $U_m$, then
+\[
+ \left\lceil\tau^*(N,r,m)\right\rceil\leq K(N,r,m)\leq r.
+\]
+Consequently $\tau^*>r-1$ already certifies $K=r$, whereas full weight
+means the stronger equality $\tau^*=r$. Both certificate criteria have
+the initial-range property proved above. The theorem concerns the
+optimal fractional value; a particular prescribed weighting requires
+its own analysis. No soundness restriction on centres is used.

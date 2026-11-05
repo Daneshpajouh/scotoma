@@ -1,0 +1,330 @@
+{
+  "guides": {
+    "g10": {
+      "mm5": {
+        "corrected": 40589,
+        "corrected_only": 3601,
+        "released": 36988,
+        "released_only": 0,
+        "terminal_attributable": 3601
+      },
+      "mm6": {
+        "corrected": 260331,
+        "corrected_only": 19699,
+        "released": 240632,
+        "released_only": 0,
+        "terminal_attributable": 19699
+      },
+      "mm7": {
+        "corrected": 1346051,
+        "corrected_only": 87147,
+        "released": 1258904,
+        "released_only": 0,
+        "terminal_attributable": 87147
+      }
+    },
+    "g106": {
+      "mm5": {
+        "corrected": 44613,
+        "corrected_only": 2134,
+        "released": 42479,
+        "released_only": 0,
+        "terminal_attributable": 2134
+      },
+      "mm6": {
+        "corrected": 281709,
+        "corrected_only": 13938,
+        "released": 267771,
+        "released_only": 0,
+        "terminal_attributable": 13938
+      },
+      "mm7": {
+        "corrected": 1220230,
+        "corrected_only": 63638,
+        "released": 1156592,
+        "released_only": 0,
+        "terminal_attributable": 63638
+      }
+    },
+    "g18": {
+      "mm5": {
+        "corrected": 46462,
+        "corrected_only": 2794,
+        "released": 43668,
+        "released_only": 0,
+        "terminal_attributable": 2794
+      },
+      "mm6": {
+        "corrected": 261021,
+        "corrected_only": 18079,
+        "released": 242942,
+        "released_only": 0,
+        "terminal_attributable": 18079
+      },
+      "mm7": {
+        "corrected": 1254919,
+        "corrected_only": 87354,
+        "released": 1167565,
+        "released_only": 0,
+        "terminal_attributable": 87354
+      }
+    },
+    "g2": {
+      "mm5": {
+        "corrected": 37704,
+        "corrected_only": 1996,
+        "released": 35708,
+        "released_only": 0,
+        "terminal_attributable": 1996
+      },
+      "mm6": {
+        "corrected": 237036,
+        "corrected_only": 12434,
+        "released": 224602,
+        "released_only": 0,
+        "terminal_attributable": 12434
+      },
+      "mm7": {
+        "corrected": 1155642,
+        "corrected_only": 58987,
+        "released": 1096655,
+        "released_only": 0,
+        "terminal_attributable": 58987
+      }
+    },
+    "g26": {
+      "mm5": {
+        "corrected": 29785,
+        "corrected_only": 1518,
+        "released": 28267,
+        "released_only": 0,
+        "terminal_attributable": 1518
+      },
+      "mm6": {
+        "corrected": 206475,
+        "corrected_only": 10435,
+        "released": 196040,
+        "released_only": 0,
+        "terminal_attributable": 10435
+      },
+      "mm7": {
+        "corrected": 1111482,
+        "corrected_only": 55293,
+        "released": 1056189,
+        "released_only": 0,
+        "terminal_attributable": 55293
+      }
+    },
+    "g34": {
+      "mm5": {
+        "corrected": 26631,
+        "corrected_only": 1681,
+        "released": 24950,
+        "released_only": 0,
+        "terminal_attributable": 1681
+      },
+      "mm6": {
+        "corrected": 205338,
+        "corrected_only": 11336,
+        "released": 194002,
+        "released_only": 0,
+        "terminal_attributable": 11336
+      },
+      "mm7": {
+        "corrected": 1170387,
+        "corrected_only": 55927,
+        "released": 1114460,
+        "released_only": 0,
+        "terminal_attributable": 55927
+      }
+    },
+    "g42": {
+      "mm5": {
+        "corrected": 78491,
+        "corrected_only": 1287,
+        "released": 77204,
+        "released_only": 0,
+        "terminal_attributable": 1287
+      },
+      "mm6": {
+        "corrected": 303858,
+        "corrected_only": 8629,
+        "released": 295229,
+        "released_only": 0,
+        "terminal_attributable": 8629
+      },
+      "mm7": {
+        "corrected": 1269927,
+        "corrected_only": 43281,
+        "released": 1226646,
+        "released_only": 0,
+        "terminal_attributable": 43281
+      }
+    },
+    "g50": {
+      "mm5": {
+        "corrected": 37031,
+        "corrected_only": 2506,
+        "released": 34525,
+        "released_only": 0,
+        "terminal_attributable": 2506
+      },
+      "mm6": {
+        "corrected": 225027,
+        "corrected_only": 14429,
+        "released": 210598,
+        "released_only": 0,
+        "terminal_attributable": 14429
+      },
+      "mm7": {
+        "corrected": 1164423,
+        "corrected_only": 67852,
+        "released": 1096571,
+        "released_only": 0,
+        "terminal_attributable": 67852
+      }
+    },
+    "g58": {
+      "mm5": {
+        "corrected": 18687,
+        "corrected_only": 1043,
+        "released": 17644,
+        "released_only": 0,
+        "terminal_attributable": 1043
+      },
+      "mm6": {
+        "corrected": 156673,
+        "corrected_only": 12436,
+        "released": 144237,
+        "released_only": 0,
+        "terminal_attributable": 12436
+      },
+      "mm7": {
+        "corrected": 820793,
+        "corrected_only": 32508,
+        "released": 788285,
+        "released_only": 0,
+        "terminal_attributable": 32508
+      }
+    },
+    "g66": {
+      "mm5": {
+        "corrected": 32534,
+        "corrected_only": 2218,
+        "released": 30316,
+        "released_only": 0,
+        "terminal_attributable": 2218
+      },
+      "mm6": {
+        "corrected": 197472,
+        "corrected_only": 12817,
+        "released": 184655,
+        "released_only": 0,
+        "terminal_attributable": 12817
+      },
+      "mm7": {
+        "corrected": 970681,
+        "corrected_only": 55871,
+        "released": 914810,
+        "released_only": 0,
+        "terminal_attributable": 55871
+      }
+    },
+    "g74": {
+      "mm5": {
+        "corrected": 33652,
+        "corrected_only": 0,
+        "released": 33652,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm6": {
+        "corrected": 199160,
+        "corrected_only": 0,
+        "released": 199160,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm7": {
+        "corrected": 1040783,
+        "corrected_only": 0,
+        "released": 1040783,
+        "released_only": 0,
+        "terminal_attributable": 0
+      }
+    },
+    "g82": {
+      "mm5": {
+        "corrected": 69491,
+        "corrected_only": 0,
+        "released": 69491,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm6": {
+        "corrected": 361514,
+        "corrected_only": 0,
+        "released": 361514,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm7": {
+        "corrected": 1559717,
+        "corrected_only": 0,
+        "released": 1559717,
+        "released_only": 0,
+        "terminal_attributable": 0
+      }
+    },
+    "g90": {
+      "mm5": {
+        "corrected": 26489,
+        "corrected_only": 3456,
+        "released": 23033,
+        "released_only": 0,
+        "terminal_attributable": 3456
+      },
+      "mm6": {
+        "corrected": 133092,
+        "corrected_only": 11440,
+        "released": 121652,
+        "released_only": 0,
+        "terminal_attributable": 11440
+      },
+      "mm7": {
+        "corrected": 639531,
+        "corrected_only": 58035,
+        "released": 581496,
+        "released_only": 0,
+        "terminal_attributable": 58035
+      }
+    },
+    "g98": {
+      "mm5": {
+        "corrected": 25100,
+        "corrected_only": 1363,
+        "released": 23737,
+        "released_only": 0,
+        "terminal_attributable": 1363
+      },
+      "mm6": {
+        "corrected": 158284,
+        "corrected_only": 8444,
+        "released": 149840,
+        "released_only": 0,
+        "terminal_attributable": 8444
+      },
+      "mm7": {
+        "corrected": 804452,
+        "corrected_only": 42568,
+        "released": 761884,
+        "released_only": 0,
+        "terminal_attributable": 42568
+      }
+    }
+  },
+  "host": "fc30629",
+  "job": "2463964",
+  "nshards": 8,
+  "shard": 2
+}

@@ -1,0 +1,11 @@
+[
+  "\\raggedright Cas-OFFinder wrapper, 2016 (\\texttt{b5d6ab4}) &\\raggedright $1$, $20$ &\\raggedright $19$ of $20$ &\\raggedright Executed wrapper dry-run \\tabularnewline",
+  "\\raggedright Cas-OFFinder $3.0.0\\mathrm{b}$, $3.0.0\\mathrm{b}2$ &\\raggedright $1$, $20$ &\\raggedright Untested &\\raggedright Static source and loop-bound emulation \\tabularnewline",
+  "\\raggedright Cas-OFFinder $3.0.0\\mathrm{b}3$/develop &\\raggedright $20$ &\\raggedright $20$ of $20$ &\\raggedright Executed parser; full native search failed OpenCL discovery \\tabularnewline",
+  "\\raggedright Cas-OFFinder 2, Rust $1.0.0$ (2026) &\\raggedright $20$ in planted RNA fixture &\\raggedright Inapplicable &\\raggedright Executed CPU CLI; independent harness agrees \\tabularnewline",
+  "\\raggedright CRISPRseek $1.52.0$ &\\raggedright $1$, $20$ via $2.4.1$; $20$ via $3.0.0\\mathrm{b}3$ &\\raggedright Untested &\\raggedright Executed in R, default route \\tabularnewline",
+  "\\raggedright CRISPRitz $2.9.0$, $2.7.1$ &\\raggedright None in RNA fixture &\\raggedright Untested &\\raggedright Native RNA search \\tabularnewline",
+  "\\raggedright CRISPRme $2.1.14$; CRISPRme+ $2.8.0$ &\\raggedright Delegate to the CRISPRitz engines above &\\raggedright Untested &\\raggedright Static source and captured forwarding commands; pipelines untested \\tabularnewline",
+  "\\raggedright CHOPOFF $1.0.3$ &\\raggedright None in symbolic RNA graph &\\raggedright Untested &\\raggedright Static source and graph transcription; native runtime untested \\tabularnewline",
+  "\\raggedright SWOffinder $1.0.1$ \\citep{yaish2023swoffinder}; CALITAS \\texttt{7a3456c} &\\raggedright Alignment engines; count test inapplicable &\\raggedright Inapplicable &\\raggedright Static alignment source; native runtimes untested \\tabularnewline"
+]

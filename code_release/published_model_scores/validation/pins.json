@@ -1,0 +1,16 @@
+{
+  "inputs/CIRCLE_seq_10gRNA_wholeDataset.csv": "86d88947ef9c0a1b545814c4e4241e4f6103d15a4d056d697a4ea5b6017648a8",
+  "inputs/CRISPR_Net_CIRCLE_elevation_SITE_weights.h5": "a7f6aa381520f5c68fa1f099a6ef3ebc3b8ce846709b97dfde2053f26ca62f80",
+  "inputs/Kleinstiver_5gRNA_wholeDataset.csv": "2bd3860b7a78af42b1c1a29c13c16263d519e54b5b7829921d9e4fc8bba81049",
+  "inputs/Listgarten_22gRNA_wholeDataset.csv": "74fc9151fc175cf48aaf9712eeb1216ac42306a72453f041b17e8d6b9389097b",
+  "inputs/elevation_6gRNA_wholeDataset.csv": "56f1c95a0a3d61b873af984f7a2110e27538540b49904b913982d63764dcbb55",
+  "inputs/unreachable_sequences.tsv": "5442bf2b3202c7eae45414769186df9c204c418639a2c92ebd877583d8eed27d",
+  "sources/CRISPR_Net.py": "6498762f7bd8316b88c8d8b6155846a8b0381db2f1ac674ec505078c2dea133d",
+  "sources/CRISPR_Net_CIRCLE_elevation_SITE_structure.json": "266ef89c167fbcd913e33c918fed3027eca679198947fa1223521d46fd241ef4",
+  "sources/Encoder_sgRNA_off.py": "b0bf97d757a75b31607a2fdc76ff8800b9be63a154945a62631ae95158eb616e",
+  "sources/README.md": "e303cf14144716db45a5dd677a7ffe1f1f02e6c070046eec0c7f2e723185d441",
+  "sources/data_README.md": "20c700d21d7d138f2920fed385dbc61ef00a5e16aeba01b7d4cc5da858fcd41e",
+  "sources/encode_data.py": "07ecdb3a2fb86bc41cb9898df8c93a535e2ca9e6eeda586271fde83e2f18b35e",
+  "sources/evaluate_CRISPR_Net.py": "16fb612c8fb95dfd830f54ffd9859dbf435107e7b45355e6c61471bd2d4f35fd",
+  "sources/retrieved_files.json": "281d1ec4bfd1db898e256d57da07c26d139d8a125f7a244c2050216d97031712"
+}

@@ -1,0 +1,156 @@
+{
+  "N": 19,
+  "r": 5,
+  "m": 10,
+  "cover": [
+    {
+      "prefix": "0000",
+      "suffix_weight": 0,
+      "mass": "87/125"
+    },
+    {
+      "prefix": "0001",
+      "suffix_weight": 1,
+      "mass": "36/25"
+    },
+    {
+      "prefix": "0011",
+      "suffix_weight": 0,
+      "mass": "37/150"
+    },
+    {
+      "prefix": "0011",
+      "suffix_weight": 1,
+      "mass": "9/50"
+    },
+    {
+      "prefix": "001X",
+      "suffix_weight": 0,
+      "mass": "4/125"
+    },
+    {
+      "prefix": "0100",
+      "suffix_weight": 0,
+      "mass": "2/125"
+    },
+    {
+      "prefix": "0110",
+      "suffix_weight": 0,
+      "mass": "7/750"
+    },
+    {
+      "prefix": "0111",
+      "suffix_weight": 1,
+      "mass": "36/25"
+    },
+    {
+      "prefix": "011X",
+      "suffix_weight": 0,
+      "mass": "28/375"
+    },
+    {
+      "prefix": "1001",
+      "suffix_weight": 0,
+      "mass": "7/750"
+    },
+    {
+      "prefix": "1010",
+      "suffix_weight": 0,
+      "mass": "1/150"
+    },
+    {
+      "prefix": "1101",
+      "suffix_weight": 0,
+      "mass": "2/125"
+    },
+    {
+      "prefix": "1111",
+      "suffix_weight": 0,
+      "mass": "87/125"
+    },
+    {
+      "prefix": "X001",
+      "suffix_weight": 0,
+      "mass": "28/375"
+    },
+    {
+      "prefix": "X011",
+      "suffix_weight": 0,
+      "mass": "4/125"
+    }
+  ],
+  "packing": [
+    {
+      "prefix": "0001",
+      "suffix_weight": 10,
+      "mass": "353/1125"
+    },
+    {
+      "prefix": "001X",
+      "suffix_weight": 9,
+      "mass": "1/3"
+    },
+    {
+      "prefix": "0111",
+      "suffix_weight": 10,
+      "mass": "29/90"
+    },
+    {
+      "prefix": "011X",
+      "suffix_weight": 9,
+      "mass": "2/3"
+    },
+    {
+      "prefix": "0X00",
+      "suffix_weight": 9,
+      "mass": "2/3"
+    },
+    {
+      "prefix": "1000",
+      "suffix_weight": 9,
+      "mass": "19/75"
+    },
+    {
+      "prefix": "10X0",
+      "suffix_weight": 8,
+      "mass": "4/75"
+    },
+    {
+      "prefix": "11X0",
+      "suffix_weight": 8,
+      "mass": "23/75"
+    },
+    {
+      "prefix": "11X1",
+      "suffix_weight": 9,
+      "mass": "2/3"
+    },
+    {
+      "prefix": "1X00",
+      "suffix_weight": 8,
+      "mass": "2/75"
+    },
+    {
+      "prefix": "1X10",
+      "suffix_weight": 8,
+      "mass": "2/75"
+    },
+    {
+      "prefix": "X001",
+      "suffix_weight": 9,
+      "mass": "2/3"
+    },
+    {
+      "prefix": "X011",
+      "suffix_weight": 9,
+      "mass": "1/3"
+    },
+    {
+      "prefix": "X01X",
+      "suffix_weight": 8,
+      "mass": "1/3"
+    }
+  ],
+  "normalization": "total mass, uniform within each orbit",
+  "orientation": "canonical 0^j 1^(r-1-j) 0^(N-r+1)"
+}

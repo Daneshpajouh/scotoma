@@ -1,0 +1,35 @@
+{
+  "literal": {
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "literal_comparisons": 3645,
+    "passes": true
+  },
+  "controls": [
+    {
+      "name": "radius_increase_preserving_region_masses",
+      "exit_code": 1,
+      "outcome": "REJECTED-AS-REQUIRED",
+      "status": "REFUTED",
+      "reason": "packing overload: 332/275 at ((0, 0, 0, 1, 1), 2)"
+    },
+    {
+      "name": "scale_private_dual_down",
+      "exit_code": 1,
+      "outcome": "REJECTED-AS-REQUIRED",
+      "status": "REFUTED",
+      "reason": "private dual undercoverage: 999/1000 at ((2, 0, 0, 1, 2), 6)"
+    },
+    {
+      "name": "invent_empty_private_region",
+      "exit_code": 1,
+      "outcome": "REJECTED-AS-REQUIRED",
+      "status": "REFUTED",
+      "reason": "claimed empty region has private points"
+    }
+  ],
+  "short_tail_count_agreement": {
+    "status": "VERIFIED-COMPUTATIONALLY",
+    "exact_comparisons": 1995,
+    "passes": true
+  }
+}

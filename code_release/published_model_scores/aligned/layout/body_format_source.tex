@@ -1,0 +1,182 @@
+% RECOMB 2027 submission. Format (recomb.org/recomb2027/call_for_papers, read 2026-10-13):
+% 10 pages maximum including figures, tables and captions, bibliography excluded;
+% US Letter; minimum 10 pt; 1 inch margins; PDF; no mandatory template.
+% Do not shrink fonts or margins to fit. The call permits "an additional title page
+% containing the paper title, author list, and abstract", so title, authors and abstract
+% sit on their own page and the ten-page body starts at Section 1.
+%
+% Packages are limited to a standard TeX Live distribution so the paper builds on
+% Overleaf and on a stock install.
+\documentclass[11pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[protrusion=false,expansion=false]{microtype}
+% Include the page-number footer within the one-inch printable boundary.
+\usepackage[left=1.005in,right=1.015in,top=1in,bottom=1.05in,includefoot]{geometry}
+\setlength{\emergencystretch}{2em}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\usepackage{url}
+\makeatletter
+\g@addto@macro\UrlBreaks{\UrlOrds\do\/\do\-\do\.}
+\makeatother
+\usepackage{booktabs}
+% 2026-11-02: Table 1 (the tool audit, about 496 pt tall) was being set on a FLOAT PAGE, where
+% LaTeX centres it vertically and left about 140 pt of dead space at the top of a body page, at a
+% venue that counts body pages. 496/636 = 78 % of the text height, over the default
+% \topfraction of 0.7, so no text page would take it. These four parameters let a tall float sit
+% at the top of a text page with text below it, and forbid a float page unless the float nearly
+% fills one. Measured effect on this build: body 11 pages -> 10.
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.9}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.92}
+\usepackage{graphicx}
+\usepackage[numbers,sort&compress]{natbib}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem{remark}{Remark}
+
+
+% Cross-references without cleveref: \Cref{thm:x} prints "Theorem 3", chosen by label prefix.
+% Labels from the main paper keep their prefix when imported (M-thm:x in the appendix).
+\makeatletter
+\newcommand{\Cref}[1]{\@Cref#1:\@nil{#1}}
+\def\@Cref#1:#2\@nil#3{\csname Cref@#1\endcsname~\ref{#3}}
+\def\Cref@thm{Theorem}\def\Cref@prop{Proposition}\def\Cref@def{Definition}
+\def\Cref@lem{Lemma}\def\Cref@sec{Section}\def\Cref@ssec{Section}\def\Cref@tab{Table}
+\def\Cref@fig{Figure}\def\Cref@app{Appendix}
+% 2026-10-22: \Cref dispatches on the label PREFIX via \csname Cref@#1\endcsname, so a
+% prefix with no entry expands to nothing and prints a bare number. "rem" had no entry
+% and the body read "1 licenses adding per-class pattern counts". Two reviewers read that
+% as an uncompiled draft. cleveref is NOT loaded here, so \crefname would have been inert.
+\def\Cref@rem{Remark}\expandafter\def\csname Cref@M-rem\endcsname{Remark}
+\expandafter\def\csname Cref@M-thm\endcsname{Theorem}
+\expandafter\def\csname Cref@M-prop\endcsname{Proposition}
+\expandafter\def\csname Cref@M-def\endcsname{Definition}
+\expandafter\def\csname Cref@M-sec\endcsname{Section}
+\expandafter\def\csname Cref@M-ssec\endcsname{Section}
+\expandafter\def\csname Cref@M-tab\endcsname{Table}
+\expandafter\def\csname Cref@M-fig\endcsname{Figure}
+\makeatother
+
+\newcommand{\TV}{\mathrm{TV}}
+\newcommand{\Prob}{\mathbb{P}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\calP}{\mathcal{P}}
+\newcommand{\calA}{\mathcal{A}}
+\newcommand{\calN}{\mathcal{N}}
+\newcommand{\Bin}{\mathrm{Bin}}
+\newcommand{\cl}{\operatorname{cl}}
+
+% REMOVED 2026-10-20: a dead \title/\author block for a DIFFERENT paper ("When can a finite
+% screen certify zero false alarms?") sat here, overridden by the live \title/\author after
+% 
+% \begin{document}. It rendered nothing, but if the later block were ever edited away the wrong
+% title would print. Provenance comment preserved below.
+%
+% AUTHOR LIST: confirmed in chat 2026-10-19: full name Amirhossein Daneshpajouh, order
+% Daneshpajouh, Fowler, Wiese. Supersedes the 2026-10-13 record which used the short form.
+% RESOLVED 2026-10-20 by Amir: full first name Amirhossein goes on papers (he goes by Amir socially).
+% before submission; see ../DECISIONS_FOR_AMIR_2026-10-20.md (section: author name).
+
+% The repository URL is required in the submission (the call mandates a public repo) and must be
+% withheld from review artefacts. One source, two artefacts: build the review PDF with
+%   pdflatex "\def\reviewblind{}\input{main.tex}"
+% which blanks the author block and the URL and changes nothing else, so every superscript is
+% typeset exactly as in the submission build.
+% The tool name is also withheld in the review build. The venue is single-blind and requires no
+% anonymisation, so this is for our own scoring rounds only: the public repository is named after
+% the tool, so leaving the name in while removing the URL leaves a string that reaches the URL in
+% one search, and a scoring round whose readers can identify us is not measuring what we think it
+% is. One lane deanonymised us through the URL on 2026-10-21, so these readers do look.
+\providecommand{\repourl}{\url{https://github.com/Daneshpajouh/scotoma}}
+\providecommand{\toolname}{\textsc{Scotoma}}
+\providecommand{\authorblock}{Amirhossein Daneshpajouh \and Megan Fowler \and Kay C. Wiese\\
+  School of Computing Science, Simon Fraser University}
+\makeatletter
+\@ifundefined{reviewblind}{}{%
+  \renewcommand{\repourl}{[REPOSITORY URL WITHHELD]}%
+  \renewcommand{\toolname}{[TOOL NAME WITHHELD]}%
+  \renewcommand{\authorblock}{\normalsize [AUTHOR LIST AND AFFILIATION WITHHELD FOR REVIEW]}%
+}
+\makeatother
+
+\begin{document}
+
+\title{Exact minimum pattern sets for bulge-aware CRISPR off-target search}
+\author{\authorblock}
+\date{}
+\hypersetup{pageanchor=false,
+  pdftitle={Exact minimum pattern sets for bulge-aware CRISPR off-target search},
+  pdfauthor={Amirhossein Daneshpajouh, Megan Fowler, Kay C. Wiese}}
+\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+A bulge-aware CRISPR off-target search expands a guide into shorter patterns and matches
+each within a substitution budget. The bulge is not a refinement at that budget: of the
+$42{,}572$ off-target sites on the CHANGE-seq panel with measured \emph{in vitro} activity
+within four mismatches, $23{,}692$ carry one, which is $55.7$ per cent, and in two cellular
+GUIDE-seq deposits the share at the same budget is $312$ of $1{,}207$ and $147$ of $533$.
+What allowing one
+costs is a configuration choice and not a property of the guide: on the $110$-guide panel at
+four mismatches under NGG, one single-base bulge multiplies the candidate count by $35$, a
+union through two bases by $108$, a mixed DNA and RNA class by $188$ and the union of all
+three by $276$, a $7.9$-fold spread at fixed panel, assembly, PAM and mismatch budget.
+
+Under the soundness requirement that every accepted word belong to the radius-$m$ union of
+the $r$ distinct single-deletion words of a length-$n$ guide, that deletion library is the
+unique minimum sound pattern family for $m\le n-3$, even against wildcard competitors. An
+elementary scattered-transversal construction proves the unrestricted floor $K=r$ for
+$n\ge20$, $m\le5$; the companion's weighting theorem extends it through $m\le9$
+\citep{companion_reach}. The minimum is the run count, read off the guide in linear time
+with no search, so a tool's own count of distinct deletion words decides completeness
+before any genome is scanned.
+
+The audited $2016$ bulge wrapper is short of $r$ on $98$ of the $110$ panel guides, and we
+give its positional deficit in closed form for every bulge size. The terminal deletion
+position holds $583$ sites with measured \emph{in vitro} activity; $260$ sit on guides the
+omission exposes, and
+$129$ of those, on $40$ guides, are reached by no other pattern it emits within the budget
+and by no bulge-free alignment within that budget either. Against the $323$ sites it spares at that
+position, the $129$ do not separate on gene overlap ($60.5$ against $58.8$ per cent, Fisher
+$p=0.83$) or on protein-coding overlap ($48.8$ against $51.4$, $p=0.68$), and at the
+four-mismatch boundary no read-depth difference is detected (median $14$ against $16$ over
+$213$ spared rows, $p=0.33$; $p=0.015$ against the whole spared set, a comparison
+confounded by mismatch count).
+
+Executed instances scope the consequence. On clinical guide sg1617 the released wrapper
+reports $4{,}414$ loci and a corrected build $4{,}778$, the $364$ added all at spacer
+position~$20$; over GRCh38 primary the difference is $34{,}941$ loci of one alignment
+class; in two deposited indel training sets all $238{,}705$ RNA-bulge rows place the
+deletion at positions $2$ to $19$, while the endpoint words reach $35{,}272$ loci no
+interior word reaches; CRISPRseek $1.52.0$ emits $1{,}491$ of the $1{,}634$ words this
+panel requires; Cas-OFFinder 3.0.0b3 supports bulges natively and returns all twenty DNA
+patterns, yet its executed parser omits RNA position~$20$ and so misses the same $129$; and
+five Tracking-seq2 loci of one guide, active in $293$T cells, are reached at four
+substitutions only by deleting position~$20$ under NGG, two of the five being
+ungapped-reachable at four if NGA is admitted, and one of the five amplicon-confirmed by
+its authors. We release
+the enumerator, its soundness checks and the audit artifacts. All figures are nomination
+counts, not population safety rates.
+\end{abstract}
+\newpage
+\setcounter{page}{1}
+\hypersetup{pageanchor=true}
+
+
+\providecommand{\paperheading}[1]{\section{#1}}
+\providecommand{\discsubsec}[1]{\subsection{#1}}
+\newif\ifrecombmode \recombmodetrue
+\input{sections/01_introduction}
+\input{sections/03_method}
+\input{sections/07_discussion}
+
+\clearpage
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

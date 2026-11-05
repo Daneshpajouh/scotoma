@@ -1,0 +1,253 @@
+[
+  {
+    "budget": 0,
+    "emitted_rows": 1491,
+    "evidence_state": "executed",
+    "guide_status_counts": {
+      "exact": 12,
+      "incomplete": 98
+    },
+    "guides": 110,
+    "guides_incomplete": 98,
+    "invalid_words": 0,
+    "missing_words": 143,
+    "redundant_rows": 0,
+    "required_words": 1634,
+    "route": "wrapper",
+    "scope": "deposited official dry-run patterns",
+    "sound_uniqueness_applies_to_all": true,
+    "status": "incomplete",
+    "tool": "Cas-OFFinder wrapper 2016",
+    "valid_distinct_words": 1491,
+    "word_set_status": "incomplete"
+  },
+  {
+    "budget": 0,
+    "emitted_rows": 1561,
+    "evidence_state": "executed",
+    "guide_status_counts": {
+      "exact": 37,
+      "incomplete": 73
+    },
+    "guides": 110,
+    "guides_incomplete": 73,
+    "invalid_words": 0,
+    "missing_words": 73,
+    "redundant_rows": 0,
+    "required_words": 1634,
+    "route": "native_b3",
+    "scope": "deposited parser map keys (placement metadata collapsed); full native search untested",
+    "sound_uniqueness_applies_to_all": true,
+    "status": "incomplete",
+    "tool": "Cas-OFFinder 3.0.0b3",
+    "valid_distinct_words": 1561,
+    "word_set_status": "incomplete"
+  },
+  {
+    "budget": 0,
+    "emitted_rows": 1561,
+    "evidence_state": "executed",
+    "guide_status_counts": {
+      "exact": 37,
+      "incomplete": 73
+    },
+    "guides": 110,
+    "guides_incomplete": 73,
+    "invalid_words": 0,
+    "missing_words": 73,
+    "redundant_rows": 0,
+    "required_words": 1634,
+    "route": "native_develop",
+    "scope": "deposited parser map keys (placement metadata collapsed); full native search untested",
+    "sound_uniqueness_applies_to_all": true,
+    "status": "incomplete",
+    "tool": "Cas-OFFinder develop",
+    "valid_distinct_words": 1561,
+    "word_set_status": "incomplete"
+  },
+  {
+    "budget": 0,
+    "emitted_rows": 1491,
+    "evidence_state": "static",
+    "guide_status_counts": {
+      "exact": 12,
+      "incomplete": 98
+    },
+    "guides": 110,
+    "guides_incomplete": 98,
+    "invalid_words": 0,
+    "missing_words": 143,
+    "redundant_rows": 0,
+    "required_words": 1634,
+    "route": "native_early_static",
+    "scope": "loop-bound emulation; native parsers not executed",
+    "sound_uniqueness_applies_to_all": true,
+    "status": "incomplete",
+    "tool": "Cas-OFFinder 3.0.0b / 3.0.0b2",
+    "valid_distinct_words": 1491,
+    "word_set_status": "incomplete"
+  },
+  {
+    "budget": 0,
+    "emitted_rows": 2200,
+    "evidence_state": "executed",
+    "guide_status_counts": {
+      "exact": 1,
+      "redundant": 109
+    },
+    "guides": 110,
+    "guides_incomplete": 0,
+    "invalid_words": 0,
+    "missing_words": 0,
+    "redundant_rows": 566,
+    "required_words": 1634,
+    "route": "crispritz_2.7.1",
+    "scope": "deposited native RNA fixture; projected row duplicates reported separately",
+    "sound_uniqueness_applies_to_all": true,
+    "status": "redundant",
+    "tool": "CRISPRitz 2.7.1",
+    "valid_distinct_words": 1634,
+    "word_set_status": "exact"
+  },
+  {
+    "budget": 0,
+    "emitted_rows": 2200,
+    "evidence_state": "executed",
+    "guide_status_counts": {
+      "exact": 1,
+      "redundant": 109
+    },
+    "guides": 110,
+    "guides_incomplete": 0,
+    "invalid_words": 0,
+    "missing_words": 0,
+    "redundant_rows": 566,
+    "required_words": 1634,
+    "route": "crispritz_2.9.0",
+    "scope": "deposited native RNA fixture; projected row duplicates reported separately",
+    "sound_uniqueness_applies_to_all": true,
+    "status": "redundant",
+    "tool": "CRISPRitz 2.9.0",
+    "valid_distinct_words": 1634,
+    "word_set_status": "exact"
+  },
+  {
+    "budget": 0,
+    "emitted_rows": 2090,
+    "evidence_state": "executed",
+    "guide_status_counts": {
+      "exact": 1,
+      "incomplete": 73,
+      "redundant": 36
+    },
+    "guides": 110,
+    "guides_incomplete": 73,
+    "invalid_words": 0,
+    "missing_words": 73,
+    "redundant_rows": 529,
+    "required_words": 1634,
+    "route": "rust_cli",
+    "scope": "deposited CPU CLI RNA fixture",
+    "sound_uniqueness_applies_to_all": true,
+    "status": "incomplete",
+    "tool": "Cas-OFFinder 2 Rust 1.0.0",
+    "valid_distinct_words": 1561,
+    "word_set_status": "incomplete"
+  },
+  {
+    "budget": 0,
+    "emitted_rows": 2090,
+    "evidence_state": "executed",
+    "guide_status_counts": {
+      "exact": 1,
+      "incomplete": 73,
+      "redundant": 36
+    },
+    "guides": 110,
+    "guides_incomplete": 73,
+    "invalid_words": 0,
+    "missing_words": 73,
+    "redundant_rows": 529,
+    "required_words": 1634,
+    "route": "rust_forward",
+    "scope": "deposited serial CPU harness, forward fixture",
+    "sound_uniqueness_applies_to_all": true,
+    "status": "incomplete",
+    "tool": "Cas-OFFinder 2 Rust 1.0.0",
+    "valid_distinct_words": 1561,
+    "word_set_status": "incomplete"
+  },
+  {
+    "budget": 0,
+    "emitted_rows": 2090,
+    "evidence_state": "executed",
+    "guide_status_counts": {
+      "exact": 1,
+      "incomplete": 73,
+      "redundant": 36
+    },
+    "guides": 110,
+    "guides_incomplete": 73,
+    "invalid_words": 0,
+    "missing_words": 73,
+    "redundant_rows": 529,
+    "required_words": 1634,
+    "route": "rust_reverse",
+    "scope": "deposited serial CPU harness, reverse fixture",
+    "sound_uniqueness_applies_to_all": true,
+    "status": "incomplete",
+    "tool": "Cas-OFFinder 2 Rust 1.0.0",
+    "valid_distinct_words": 1561,
+    "word_set_status": "incomplete"
+  },
+  {
+    "budget": 0,
+    "emitted_rows": 1491,
+    "evidence_state": "executed",
+    "guide_status_counts": {
+      "exact": 12,
+      "incomplete": 98
+    },
+    "guides": 110,
+    "guides_incomplete": 98,
+    "invalid_words": 0,
+    "missing_words": 143,
+    "redundant_rows": 0,
+    "required_words": 1634,
+    "route": "crisprseek",
+    "scope": "Table 1: executed in R; pooled file equals wrapper union; per-guide ownership from wrapper dumps",
+    "sound_uniqueness_applies_to_all": true,
+    "status": "incomplete",
+    "tool": "CRISPRseek 1.52.0 default bulge route",
+    "valid_distinct_words": 1491,
+    "word_set_status": "incomplete"
+  },
+  {
+    "evidence_state": "static",
+    "scope": "delegated CRISPRitz engines checked separately; pipelines untested",
+    "status": "not_certifiable",
+    "tool": "CRISPRme 2.1.14 / CRISPRme+ 2.8.0",
+    "word_set_status": "N/A"
+  },
+  {
+    "evidence_state": "static",
+    "scope": "symbolic source-component counts match; no native full-word output deposited",
+    "status": "not_certifiable",
+    "tool": "CHOPOFF 1.0.3",
+    "word_set_status": "N/A"
+  },
+  {
+    "evidence_state": "static",
+    "scope": "alignment architecture; native runtime untested; count criterion inapplicable",
+    "status": "not_certifiable",
+    "tool": "SWOffinder 1.0.1",
+    "word_set_status": "N/A"
+  },
+  {
+    "evidence_state": "static",
+    "scope": "alignment architecture; native runtime untested; count criterion inapplicable",
+    "status": "not_certifiable",
+    "tool": "CALITAS 7a3456c",
+    "word_set_status": "N/A"
+  }
+]

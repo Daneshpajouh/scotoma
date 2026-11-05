@@ -1,0 +1,50 @@
+INTEGRITY_PASS 1670
+PACKAGE_BEGIN m9_closure
+COMMAND code_release /usr/local/bin/python3 -B -I certificates/m9_closure/verify.py verify
+2026-10-30 20:59:55.907 xcodebuild[76553:185359604]  DVTFilePathFSEvents: Failed to start fs event stream.
+2026-10-30 20:59:56.163 xcodebuild[76553:185359574] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+PASS dp N=5 m=2 guards=(1,) max=96 classes=243 witness=11111
+PASS symmetry N=5 m=2 four_classes=1024 max=96
+PASS dp N=5 m=2 guards=(1, 2) max=56 classes=243 witness=01000
+PASS symmetry N=5 m=2 four_classes=1024 max=56
+PASS dp N=6 m=3 guards=(1, 2) max=153 classes=729 witness=110222
+PASS symmetry N=6 m=3 four_classes=4096 max=153
+PASS dp N=6 m=3 guards=(2, 3) max=156 classes=729 witness=000001
+PASS symmetry N=6 m=3 four_classes=4096 max=156
+ALL PASS
+enumerated shells=34 N=4 m=2
+anchor identity shells=138
+PASS dp N=4 m=2 max=33 classes=81 witness=0000
+PASS symmetry N=4 m=2 four_classes=256
+PASS scale N=4 m=2
+PASS dp N=5 m=2 max=135 classes=243 witness=00000
+PASS symmetry N=5 m=2 four_classes=1024
+PASS scale N=5 m=2
+PASS dp N=5 m=3 max=102 classes=243 witness=00000
+PASS symmetry N=5 m=3 four_classes=1024
+PASS scale N=5 m=3
+ALL PASS
+{"file": "packing_N20_r21_m9.json", "passed": true, "mass": "25728861133195119900/1285411466839188713", "max_load": "118463520783899631790080/118463520783899631790080", "errors": []}
+{"file": "packing_N21_r22_m9.json", "passed": true, "mass": "1244606387850518652960/59159674329805194787", "max_load": "388466085519232831049356800/388466085519232831049356800", "errors": []}
+{"file": "packing_N22_r23_m9.json", "passed": true, "mass": "222870000000048450/10022082107013869", "max_load": "77662932653827967477391360/77662932653827967477391360", "errors": []}
+{"file": "packing_N23_r24_m9.json", "passed": true, "mass": "11174042880000000000000/479696779442938946033", "max_load": "77365496588557193216202240/77365496588557193216202240", "errors": []}
+{"file": "packing_N24_r25_m9.json", "passed": true, "mass": "18623404799997765191424/771843880811584148951", "max_load": "19683871386009343600207982400/19683871386009343600207982400", "errors": []}
+{
+  "certificates": 5,
+  "certificates_passed": true,
+  "overload_rejected": true,
+  "outside_rejected": true,
+  "overload_errors": [
+    "overload: computed maximum 234701242383944925388800 exceeds normalizer 118463520783899631790080",
+    "stored mass 25728861133195119900/1285411466839188713 != recomputed 27014272600034800080/1285411466839188713",
+    "stored max load does not equal computed maximum over normalizer"
+  ],
+  "outside_errors": [
+    "outside support: min distance 20 exceeds budget 9"
+  ],
+  "passed": true
+}
+{"reports": [{"family": "guarded_tagged_shells", "N": 20, "r": 21, "rows": 192, "errors": [], "stored_mass": "25728861133195119900/1285411466839188713", "mass": "25728861133195119900/1285411466839188713", "mass_above": true, "H": "116237721600", "normalizer": "118463520783899631790080", "computed_maximum": "118463520783899631790080", "classes": 3486784401, "dp_seconds": 1.81565, "witness": "00111110000002000000", "max_load": "118463520783899631790080/118463520783899631790080", "passed": true, "file": "packing_N20_r21_m9.json"}, {"family": "guarded_private_shells", "N": 21, "r": 22, "rows": 80, "errors": [], "stored_mass": "1244606387850518652960/59159674329805194787", "mass": "1244606387850518652960/59159674329805194787", "mass_above": true, "H": "375447840768000", "normalizer": "388466085519232831049356800", "computed_maximum": "388466085519232831049356800", "classes": 10460353203, "dp_seconds": 0.134819, "witness": "111111000000000000022", "max_load": "388466085519232831049356800/388466085519232831049356800", "passed": true, "file": "packing_N21_r22_m9.json"}, {"family": "guarded_private_shells", "N": 22, "r": 23, "rows": 67, "errors": [], "stored_mass": "222870000000048450/10022082107013869", "mass": "222870000000048450/10022082107013869", "mass_above": true, "H": "75089568153600", "normalizer": "77662932653827967477391360", "computed_maximum": "77662932653827967477391360", "classes": 31381059609, "dp_seconds": 0.017461, "witness": "1001110000000000000000", "max_load": "77662932653827967477391360/77662932653827967477391360", "passed": true, "file": "packing_N22_r23_m9.json"}, {"family": "guarded_private_shells", "N": 23, "r": 24, "rows": 77, "errors": [], "stored_mass": "11174042880000000000000/479696779442938946033", "mass": "11174042880000000000000/479696779442938946033", "mass_above": true, "H": "75089568153600", "normalizer": "77365496588557193216202240", "computed_maximum": "77365496588557193216202240", "classes": 94143178827, "dp_seconds": 0.0226744, "witness": "11111111111111110000222", "max_load": "77365496588557193216202240/77365496588557193216202240", "passed": true, "file": "packing_N23_r24_m9.json"}, {"family": "guarded_private_shells", "N": 24, "r": 25, "rows": 76, "errors": [], "stored_mass": "18623404799997765191424/771843880811584148951", "mass": "18623404799997765191424/771843880811584148951", "mass_above": true, "H": "18997660742860800", "normalizer": "19683871386009343600207982400", "computed_maximum": "19683871386009343600207982400", "classes": 282429536481, "dp_seconds": 0.0311024, "witness": "111111111111111100222222", "max_load": "19683871386009343600207982400/19683871386009343600207982400", "passed": true, "file": "packing_N24_r25_m9.json"}]}
+REPLAY_RESOURCES {"package": "m9_closure", "command": ["/usr/local/bin/python3", "-B", "-I", "certificates/m9_closure/verify.py", "verify"], "exit_code": 0, "wall_seconds": 10.598524667031597, "peak_child_rss_bytes": 895385600, "user_seconds": 26.827797, "system_seconds": 1.380231}
+PACKAGE_PASS m9_closure
+time: sysctl kern.clockrate: Operation not permitted

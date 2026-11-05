@@ -1,0 +1,44 @@
+INTEGRITY_PASS 1670
+PACKAGE_BEGIN m10_r11
+COMMAND code_release /usr/local/bin/python3 -B -I certificates/m10_r11/verify.py verify
+SMALL_EXHAUSTIVE_OK suffix_histograms 55 kernel_probabilities 9072
+PACKING 420 all_orbits_in_U True
+PACKING_MASS 212256312135656890888567616658599353067092046925829614950749199919914343426922481595565904120363169334059208432669299623700640276628674138498414665798010897734347385224725872275311829477838585811541290383/21523739915242553864357602080797979447534202473411106158381344968410506682318685710207222477156779635732061706941039092324230314247069493941780362326005647728514612931019607964617292377184271255423549831
+THRESHOLD 18542652898473906109349197931417538039284224665129659525317095204219783286054310203700901825952152612470653070199947792782567448405048693022391404863960068177715868845549400593756198083180144512729341904/21523739915242553864357602080797979447534202473411106158381344968410506682318685710207222477156779635732061706941039092324230314247069493941780362326005647728514612931019607964617292377184271255423549831
+KERNEL_DENOMINATOR 1693052928
+FILTER_DATA_OK table_entries 12100 table_mismatches 0
+SCAN suffix_weight 0 eligible 2940 ineligible 56109 threshold_exact_fallback 0 load_exact_fallback 268
+SCAN suffix_weight 1 eligible 3569 ineligible 55480 threshold_exact_fallback 0 load_exact_fallback 101
+SCAN suffix_weight 2 eligible 3147 ineligible 55902 threshold_exact_fallback 0 load_exact_fallback 38
+SCAN suffix_weight 3 eligible 1783 ineligible 57266 threshold_exact_fallback 0 load_exact_fallback 5
+SCAN suffix_weight 4 eligible 558 ineligible 58491 threshold_exact_fallback 0 load_exact_fallback 0
+SCAN suffix_weight 5 eligible 55 ineligible 58994 threshold_exact_fallback 0 load_exact_fallback 0
+SCAN suffix_weight 6 eligible 0 ineligible 59049 threshold_exact_fallback 0 load_exact_fallback 0
+SCAN suffix_weight 7 eligible 0 ineligible 59049 threshold_exact_fallback 0 load_exact_fallback 0
+SCAN suffix_weight 8 eligible 0 ineligible 59049 threshold_exact_fallback 0 load_exact_fallback 0
+SCAN suffix_weight 9 eligible 0 ineligible 59049 threshold_exact_fallback 0 load_exact_fallback 0
+FULL_SCAN_OK 590490 eligible 12052 ineligible 578438 threshold_fallbacks 0 load_fallbacks 412 tight 412
+MATRIX_OK rows 420 columns 12052 exact_entries 5061840 mismatches 0
+DUAL_OK omit_both_ends worst 995916339936 dot 10020000594807 margin 20000594807
+DUAL_OK end0_omit_1513 worst 984546780120 dot 9020000146095 margin 20000146095
+DUAL_OK end0_and_1513 worst 988266038976 dot 8020001389392 margin 20001389392
+DUAL_OK end7074_omit_2065 worst 984546780120 dot 9020000146095 margin 20000146095
+DUAL_OK end7074_and_2065 worst 988266038976 dot 8020001389392 margin 20001389392
+CASE_SPLIT_OK integer_tuples 1001 branch_counts [66, 220, 495, 55, 165]
+FRACTIONAL_COVER suffix_weight 0 U_orbits 59049 exact_fallbacks 0
+FRACTIONAL_COVER suffix_weight 1 U_orbits 59048 exact_fallbacks 0
+FRACTIONAL_COVER suffix_weight 2 U_orbits 58983 exact_fallbacks 0
+FRACTIONAL_COVER suffix_weight 3 U_orbits 57948 exact_fallbacks 0
+FRACTIONAL_COVER suffix_weight 4 U_orbits 52008 exact_fallbacks 31
+FRACTIONAL_COVER suffix_weight 5 U_orbits 37266 exact_fallbacks 152
+FRACTIONAL_COVER suffix_weight 6 U_orbits 19122 exact_fallbacks 185
+FRACTIONAL_COVER suffix_weight 7 U_orbits 6642 exact_fallbacks 50
+FRACTIONAL_COVER suffix_weight 8 U_orbits 1482 exact_fallbacks 2
+FRACTIONAL_COVER suffix_weight 9 U_orbits 192 exact_fallbacks 0
+FRACTIONAL_UPPER_OK {"label": "VERIFIED-COMPUTATIONALLY", "cover_classes": 412, "U_orbits": 351740, "exact_fallbacks": 420, "tight_coverage_orbits": 420, "mass": "212256312135656890888567616658599353067092046925829614950749199919914343426922481595565904120363169334059208432669299623700640276628674138498414665798010897734347385224725872275311829477838585811541290383/21523739915242553864357602080797979447534202473411106158381344968410506682318685710207222477156779635732061706941039092324230314247069493941780362326005647728514612931019607964617292377184271255423549831", "strictly_below_ten": true, "matched_packing_mass": true}
+WRONG_BUDGET_REJECTED changed_probabilities 4850
+INFLATED_DUAL_REJECTED column cap violated at 790: 3182916170808 > 1000000000000
+M10_R11_VERIFIED K(19,11,10)=11 ceil(tau_star)=10 seconds 8.494
+REPLAY_RESOURCES {"package": "m10_r11", "command": ["/usr/local/bin/python3", "-B", "-I", "certificates/m10_r11/verify.py", "verify"], "exit_code": 0, "wall_seconds": 8.786968540982343, "peak_child_rss_bytes": 803848192, "user_seconds": 6.353116, "system_seconds": 0.40479899999999996}
+PACKAGE_PASS m10_r11
+time: sysctl kern.clockrate: Operation not permitted

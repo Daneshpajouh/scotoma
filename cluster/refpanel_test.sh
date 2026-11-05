@@ -1,0 +1,25 @@
+#!/bin/bash
+#SBATCH --account=YOUR_ALLOCATION
+#SBATCH --job-name=BLINDPAN
+#SBATCH --time=03:00:00
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=96G
+#SBATCH --output=/scratch/YOUR_ACCOUNT/umbra_run/BLINDPANEL_%j.out
+set -uo pipefail
+HAP="${1:?hap}"
+module load StdEnv/2023 2>/dev/null || true
+module load scipy-stack 2>/dev/null || true
+PKG=${SCRATCH:?set SCRATCH to your own scratch directory}/umbra_pkg2
+export PYTHONPATH="$PKG${PYTHONPATH:+:$PYTHONPATH}"
+export PYTHONUNBUFFERED=1
+echo "host $(hostname) hap $HAP date $(date -u +%FT%TZ)"
+python3 -m scotoma.cli scan \
+  --assembly ${SCRATCH:?set SCRATCH to your own scratch directory}/hprc_r2/assemblies/${HAP}.fa.gz \
+  --universe ${SCRATCH:?set SCRATCH to your own scratch directory}/addressability/GS_GRCh38.npz \
+  --panel ${SCRATCH:?set SCRATCH to your own scratch directory}/recomb_mg/data/CHANGEseq_CR_Lazzarotto_2020_dataset.csv --changeseq \
+  --keep-present 1.0 \
+  --panel-from-blind \
+  --seed 20261020 \
+  --assume-universe-pam \
+  --out-json ${SCRATCH:?set SCRATCH to your own scratch directory}/umbra_run/BLINDPANEL_${HAP}.json
+echo "REFPANEL DONE $HAP"

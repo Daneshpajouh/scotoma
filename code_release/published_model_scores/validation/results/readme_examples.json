@@ -1,0 +1,44 @@
+[
+  {
+    "on_seq": "GAGT_CCGAGCAGAAGAAGAATGG",
+    "off_seq": "GAGTACCAAGTAGAAGAAAAATTT",
+    "readme_score": 0.0,
+    "recomputed_score": 3.6357468551931674e-12,
+    "absolute_difference": 3.6357468551931674e-12
+  },
+  {
+    "on_seq": "GTTGCCCCACAGGGCAGTAAAGG",
+    "off_seq": "GTGGACACCCCGGGCAGGAAAGG",
+    "readme_score": 1.490116e-07,
+    "recomputed_score": 5.1053012593108925e-08,
+    "absolute_difference": 9.795858740689106e-08
+  },
+  {
+    "on_seq": "GGGTGGGGGGAGTTTGCTCCCGG",
+    "off_seq": "GTGTGGGGTAAATTTGCTCCCAG",
+    "readme_score": 0.6078471,
+    "recomputed_score": 0.3504494235868844,
+    "absolute_difference": 0.25739767641311556
+  },
+  {
+    "on_seq": "GGGTGGGGGGAGTTTGCTCCAGG",
+    "off_seq": "AGGTGGGGTGA_TTTGCTCCAGG",
+    "readme_score": 0.3451956,
+    "recomputed_score": 0.14604079682895288,
+    "absolute_difference": 0.1991548031710471
+  },
+  {
+    "on_seq": "GATGGTAGATGGAGACTCAGNGG",
+    "off_seq": "GGTAGGAAATGGAGAGGCAGAGG",
+    "readme_score": 5.029583e-05,
+    "recomputed_score": 3.828621347218483e-06,
+    "absolute_difference": 4.646720865278152e-05
+  },
+  {
+    "on_seq": "GAGTCCGAGCAGAAGAAGAAAGG",
+    "off_seq": "GAGTTAGAGCAGAAGAAGAAAGG",
+    "readme_score": 0.9269089,
+    "recomputed_score": 0.9184679342458933,
+    "absolute_difference": 0.008440965754106688
+  }
+]

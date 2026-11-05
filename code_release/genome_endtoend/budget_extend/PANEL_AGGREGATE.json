@@ -1,0 +1,73 @@
+{
+  "attribution_violations": [],
+  "n_guides": 110,
+  "released_only_violations": [],
+  "rows": [
+    {
+      "budget": "mm5",
+      "corrected": 6195422,
+      "corrected_only": 253519,
+      "guides_with_deficit": 73,
+      "released": 5941903,
+      "share_pct": 4.092037636822802,
+      "terminal_attributable": 253519
+    },
+    {
+      "budget": "mm6",
+      "corrected": 34315684,
+      "corrected_only": 1546525,
+      "guides_with_deficit": 73,
+      "released": 32769159,
+      "share_pct": 4.506758483963193,
+      "terminal_attributable": 1546525
+    },
+    {
+      "budget": "mm7",
+      "corrected": 150719531,
+      "corrected_only": 6275358,
+      "guides_with_deficit": 73,
+      "released": 144444173,
+      "share_pct": 4.163599739439211,
+      "terminal_attributable": 6275358
+    }
+  ],
+  "zero_deficit_guides": [
+    "g0",
+    "g100",
+    "g102",
+    "g105",
+    "g108",
+    "g109",
+    "g12",
+    "g13",
+    "g19",
+    "g20",
+    "g25",
+    "g33",
+    "g36",
+    "g39",
+    "g45",
+    "g47",
+    "g52",
+    "g54",
+    "g55",
+    "g6",
+    "g61",
+    "g63",
+    "g68",
+    "g70",
+    "g73",
+    "g74",
+    "g76",
+    "g8",
+    "g82",
+    "g83",
+    "g84",
+    "g85",
+    "g87",
+    "g93",
+    "g94",
+    "g95",
+    "g96"
+  ]
+}

@@ -1,0 +1,5 @@
+selftest-producer-positive-r2: exit 0 (expected 0)
+selftest-suite-positive-r2: exit 0 (expected 0)
+selftest-producer-terminal-dropped-r2: exit 0 (expected 0)
+selftest-suite-terminal-dropped-r2: exit 1 (expected 1)
+{"missing_word": "GAGTAGCGCGAGCACAGCT", "mutant_emitted": 19, "mutant_suite_exit": 1, "positive_suite_exit": 0, "required": 20, "status": "passed"}

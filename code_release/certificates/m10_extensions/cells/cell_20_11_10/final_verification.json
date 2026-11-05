@@ -1,0 +1,41 @@
+{
+  "status": "CLOSED",
+  "tau_lower": "1705077373666855718687227382604337046832144385693044738312709224896507431746021435642000336439911589532148903305577191774/157902004496838393308019884592602294835878858563835801941990171596085527544256559111288038074728640264635448059358257479",
+  "tau_upper": "11",
+  "matched_exactly": false,
+  "closed": true,
+  "fractional_route_refuted": false,
+  "K_lower": 11,
+  "K_upper": 11,
+  "K": 11,
+  "N": 20,
+  "r": 11,
+  "m": 10,
+  "passes": true,
+  "reports": {
+    "packing": {
+      "passes": true,
+      "extremum": "1",
+      "extremum_exact": true,
+      "at": [
+        0,
+        0
+      ],
+      "violations": 0,
+      "arithmetic": "arbitrary precision integer convolution and exact division",
+      "total_mass": "1705077373666855718687227382604337046832144385693044738312709224896507431746021435642000336439911589532148903305577191774/157902004496838393308019884592602294835878858563835801941990171596085527544256559111288038074728640264635448059358257479",
+      "support_orbits": 404,
+      "orbits_checked": 649539,
+      "total_centre_orbits": 649539,
+      "seconds": 0.3277762569487095
+    }
+  },
+  "enumeration": {
+    "centre_orbits": 649539,
+    "point_orbits": 351751,
+    "ambient_words": 1099511627776,
+    "union_words": 55890336928
+  },
+  "elapsed_seconds": 0.3384476890787482,
+  "certificate_sha256": "bce693c3d36d72a820ab257348fe004ea9a7ec30e677edfc5b1c5e0dba5eceab"
+}

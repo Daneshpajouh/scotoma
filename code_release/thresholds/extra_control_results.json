@@ -1,0 +1,38 @@
+[
+  {
+    "name": "r6_use_five_run_boundary",
+    "status": "REFUTED",
+    "outcome": "REJECTED-AS-REQUIRED",
+    "reason": "packing overload: 19046/18315 at ((0, 0, 0, 0, 1), 2)"
+  },
+  {
+    "name": "r7_finite_only_constant_candidate",
+    "status": "REFUTED",
+    "outcome": "REJECTED-AS-REQUIRED",
+    "reason": "packing overload: 412780571/411334200 at ((0, 0, 0, 0, 1, 1), 2)"
+  },
+  {
+    "name": "r7_first_inverse_candidate",
+    "status": "REFUTED",
+    "outcome": "REJECTED-AS-REQUIRED",
+    "reason": "packing overload: 1514758/1507005 at ((0, 0, 0, 0, 0, 1), 1)"
+  },
+  {
+    "name": "r8_ignore_late_transition",
+    "status": "REFUTED",
+    "outcome": "REJECTED-AS-REQUIRED",
+    "reason": "packing overload: 9513874/9465525 at ((0, 0, 0, 0, 0, 0, 1), 2)"
+  },
+  {
+    "name": "r7_symbolic_upper_weights_scaled_down",
+    "status": "REFUTED",
+    "outcome": "REJECTED-AS-REQUIRED",
+    "reason": "upper coverage (0, 0, 0, 0, 0, 0) coefficient negative"
+  },
+  {
+    "name": "r7_constant_obstruction_scaled_down",
+    "status": "REFUTED",
+    "outcome": "REJECTED-AS-REQUIRED",
+    "reason": "constant-family dual coefficient below one"
+  }
+]

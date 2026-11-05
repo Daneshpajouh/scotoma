@@ -1,0 +1,334 @@
+{
+  "r": 6,
+  "alpha": 12,
+  "min_n_candidate": 13,
+  "status": "VERIFIED-COMPUTATIONALLY at listed lengths; infinite range CONJECTURE",
+  "support": [
+    {
+      "prefix": "00000",
+      "distance": 0,
+      "mass": "19/37"
+    },
+    {
+      "prefix": "11111",
+      "distance": 0,
+      "mass": "19/37"
+    },
+    {
+      "prefix": "00011",
+      "distance": 0,
+      "mass": "16/37"
+    },
+    {
+      "prefix": "00111",
+      "distance": 0,
+      "mass": "16/37"
+    },
+    {
+      "prefix": "01000",
+      "distance": 1,
+      "mass": "15/74"
+    },
+    {
+      "prefix": "11101",
+      "distance": 1,
+      "mass": "15/74"
+    },
+    {
+      "prefix": "01110",
+      "distance": 1,
+      "mass": "19/74"
+    },
+    {
+      "prefix": "10001",
+      "distance": 1,
+      "mass": "19/74"
+    },
+    {
+      "prefix": "011X0",
+      "distance": 2,
+      "mass": "6/37"
+    },
+    {
+      "prefix": "1X001",
+      "distance": 2,
+      "mass": "6/37"
+    },
+    {
+      "prefix": "011X1",
+      "distance": 1,
+      "mass": "21/74"
+    },
+    {
+      "prefix": "0X001",
+      "distance": 1,
+      "mass": "21/74"
+    },
+    {
+      "prefix": "011XX",
+      "distance": 2,
+      "mass": "11/37"
+    },
+    {
+      "prefix": "XX001",
+      "distance": 2,
+      "mass": "11/37"
+    },
+    {
+      "prefix": "10000",
+      "distance": 1,
+      "mass": "21/74"
+    },
+    {
+      "prefix": "11110",
+      "distance": 1,
+      "mass": "21/74"
+    },
+    {
+      "prefix": "X001X",
+      "distance": 2,
+      "mass": "21/37"
+    },
+    {
+      "prefix": "X011X",
+      "distance": 2,
+      "mass": "21/37"
+    }
+  ],
+  "finite_checks": [
+    {
+      "n": 13,
+      "max_load": "1",
+      "witness": {
+        "prefix": "00000",
+        "tail_weight": 0
+      },
+      "centre_classes": 1944,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "6"
+    },
+    {
+      "n": 14,
+      "max_load": "1",
+      "witness": {
+        "prefix": "00000",
+        "tail_weight": 0
+      },
+      "centre_classes": 2187,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "6"
+    },
+    {
+      "n": 15,
+      "max_load": "1",
+      "witness": {
+        "prefix": "00000",
+        "tail_weight": 0
+      },
+      "centre_classes": 2430,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "6"
+    },
+    {
+      "n": 16,
+      "max_load": "1",
+      "witness": {
+        "prefix": "00000",
+        "tail_weight": 0
+      },
+      "centre_classes": 2673,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "6"
+    },
+    {
+      "n": 17,
+      "max_load": "1",
+      "witness": {
+        "prefix": "00000",
+        "tail_weight": 0
+      },
+      "centre_classes": 2916,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "6"
+    },
+    {
+      "n": 18,
+      "max_load": "1",
+      "witness": {
+        "prefix": "00000",
+        "tail_weight": 0
+      },
+      "centre_classes": 3159,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "6"
+    },
+    {
+      "n": 19,
+      "max_load": "1",
+      "witness": {
+        "prefix": "00000",
+        "tail_weight": 0
+      },
+      "centre_classes": 3402,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "6"
+    },
+    {
+      "n": 20,
+      "max_load": "1",
+      "witness": {
+        "prefix": "00000",
+        "tail_weight": 0
+      },
+      "centre_classes": 3645,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "6"
+    },
+    {
+      "n": 21,
+      "max_load": "1",
+      "witness": {
+        "prefix": "00000",
+        "tail_weight": 0
+      },
+      "centre_classes": 3888,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "6"
+    },
+    {
+      "n": 22,
+      "max_load": "1",
+      "witness": {
+        "prefix": "00000",
+        "tail_weight": 0
+      },
+      "centre_classes": 4131,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "6"
+    },
+    {
+      "n": 28,
+      "max_load": "1",
+      "witness": {
+        "prefix": "00000",
+        "tail_weight": 0
+      },
+      "centre_classes": 5589,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "6"
+    },
+    {
+      "n": 43,
+      "max_load": "1",
+      "witness": {
+        "prefix": "00000",
+        "tail_weight": 0
+      },
+      "centre_classes": 9234,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "6"
+    },
+    {
+      "n": 73,
+      "max_load": "1",
+      "witness": {
+        "prefix": "00000",
+        "tail_weight": 0
+      },
+      "centre_classes": 16524,
+      "region_masses": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "mass": "6"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "active_alignment": "Deposited terminal alignment; guide spacer plus NNN in both arms; join row_index to sites129.json, verify coordinates, guide, reads and return bits.",
+  "control_sampling": "Lowest SHA256(aligned-control-v1<TAB>guide<TAB>chrom<TAB>strand<TAB>pam_coord) per guide, same number as treatment, RNA single gap, exactly four substitutions, literal NGG; smallest DNA string for alignment ties.",
+  "conversion": "Replace deposited alignment - with _ before independently left-padding both 23-character strings to 24. All non-gap characters stay fixed.",
+  "cutoff": "Strictly greater than exact rational 3/1000. No fitting or threshold changes.",
+  "gap_character": "_",
+  "padding_character": "-",
+  "precision": "Unchanged float64 forward pass, stored weights promoted from float32.",
+  "scope": "In-silico nominations; no cleavage, clinical risk or ranking-impact inference."
+}

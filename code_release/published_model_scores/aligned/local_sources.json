@@ -1,0 +1,74 @@
+{
+  "inputs/CRISPR_Net_CIRCLE_elevation_SITE_weights.h5": {
+    "sha256": "a7f6aa381520f5c68fa1f099a6ef3ebc3b8ce846709b97dfde2053f26ca62f80",
+    "source": "<repo>/HOSTILE_REVIEW_2026-11-01/R15_paperA_published_model/published_model_scores/inputs/CRISPR_Net_CIRCLE_elevation_SITE_weights.h5"
+  },
+  "inputs/README.md": {
+    "sha256": "f9771ab34327a0da4baa5567f8eae366b65a2aff6add6c75ab9c4f1380622612",
+    "source": "<repo>/code_release/genome_endtoend/README.md"
+  },
+  "inputs/active_sites.part000.tsv": {
+    "sha256": "55f47c11c0c1025762466f3b20a5bca822d8afd6d3f279fc8e0c249ef71900ca",
+    "source": "<repo>/code_release/genome_endtoend/active_sites.part000.tsv"
+  },
+  "inputs/body_excerpt.tex": {
+    "sha256": "ea02fb04b69a6ae9bd99fc9036a9e28b1f99e1be47954928fe37d353fbf8d270",
+    "source": "<repo>/paper_v7/sections/03_method.tex"
+  },
+  "inputs/corrected_only_alignments.part000.tsv": {
+    "sha256": "e763196cfc8e4ef39479efcdf325aa370a44b1d09304d52d4130fa1a2b087fc0",
+    "source": "<repo>/code_release/genome_endtoend/corrected_only_alignments.part000.tsv"
+  },
+  "inputs/per_chromosome.tsv": {
+    "sha256": "3f35e24bc3b4c0ad1326c3762d68158619e499d54c44640f3ec009535cf2c734",
+    "source": "<repo>/code_release/genome_endtoend/per_chromosome.tsv"
+  },
+  "inputs/per_guide.tsv": {
+    "sha256": "77daf16a3075c799e30a9cbd3f9a1ce68b25c316d70ba9c6ebb3f3c6e7c6483a",
+    "source": "<repo>/code_release/genome_endtoend/per_guide.tsv"
+  },
+  "inputs/released_only_alignments.part000.tsv": {
+    "sha256": "69e1424d025aee64b91e1b3794ff1a113a08d376352aabc4076a7accc9cdb929",
+    "source": "<repo>/code_release/genome_endtoend/released_only_alignments.part000.tsv"
+  },
+  "inputs/sites129.json": {
+    "sha256": "12db5cb98cddc3ef2f5125cbeb121457869398909234bc07f6d77ddc6a64bc9a",
+    "source": "<repo>/code_release/data/sites129.json"
+  },
+  "inputs/ungapped_baseline_total.tsv": {
+    "sha256": "e03db4568bc09fb0680c599d73fbc969489f9325b14258b4ecbb6986fc07e24e",
+    "source": "<repo>/code_release/genome_endtoend/ungapped_baseline_total.tsv"
+  },
+  "vendor/CRISPR_Net_CIRCLE_elevation_SITE_structure.json": {
+    "sha256": "266ef89c167fbcd913e33c918fed3027eca679198947fa1223521d46fd241ef4",
+    "source": "<repo>/HOSTILE_REVIEW_2026-11-01/R15_paperA_published_model/published_model_scores/sources/CRISPR_Net_CIRCLE_elevation_SITE_structure.json"
+  },
+  "vendor/Encoder_sgRNA_off.py": {
+    "sha256": "b0bf97d757a75b31607a2fdc76ff8800b9be63a154945a62631ae95158eb616e",
+    "source": "<repo>/HOSTILE_REVIEW_2026-11-01/R15_paperA_published_model/published_model_scores/sources/Encoder_sgRNA_off.py"
+  },
+  "vendor/README.md": {
+    "sha256": "e303cf14144716db45a5dd677a7ffe1f1f02e6c070046eec0c7f2e723185d441",
+    "source": "<repo>/HOSTILE_REVIEW_2026-11-01/R15_paperA_published_model/published_model_scores/sources/README.md"
+  },
+  "vendor/model_numpy.py": {
+    "sha256": "17868da48f98c1f388242bb31cec0d72eefaa8cec76332da371582a16550c392",
+    "source": "<repo>/HOSTILE_REVIEW_2026-11-01/R15_paperA_published_model/published_model_scores/model_numpy.py"
+  },
+  "vendor/prior_execution.json": {
+    "sha256": "68c41f4fad17bce12d48b287376bf85222471ca0c893121ead8f763c2577edec",
+    "source": "<repo>/HOSTILE_REVIEW_2026-11-01/R15_paperA_published_model/published_model_scores/results/execution.json"
+  },
+  "vendor/prior_summary.json": {
+    "sha256": "573259740a6a0965507034415c27ac1c81d39dcbd3bd541e116d79cc9a1bf806",
+    "source": "<repo>/HOSTILE_REVIEW_2026-11-01/R15_paperA_published_model/published_model_scores/results/summary.json"
+  },
+  "vendor/prior_validation.json": {
+    "sha256": "8340097f81db70192c988c3978679a859e3a258b5ad44a5a50f46f14e3814597",
+    "source": "<repo>/HOSTILE_REVIEW_2026-11-01/R15_paperA_published_model/published_model_scores/results/validation.json"
+  },
+  "vendor/verify.py": {
+    "sha256": "ecea122372c789b32a18f8205a9c397e640bffd0643e2c21b7e0f83b95a31760",
+    "source": "<repo>/HOSTILE_REVIEW_2026-11-01/R15_paperA_published_model/published_model_scores/verify.py"
+  }
+}

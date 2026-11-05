@@ -1,0 +1,65 @@
+{
+  "source": {
+    "citation": "Chaudhari HG, Penterman J, Whitton HJ, Spencer SJ, Flanagan N, Lei Zhang MC, Huang E, Khedkar AS, Toomey JM, Shearer CA, Needham AW, Ho TW, Kulman JD, Cradick TJ, Kernytsky A. Evaluation of Homology-Independent CRISPR-Cas9 Off-Target Assessment Methods. The CRISPR Journal 3(6):440-453, 2020.",
+    "doi": "10.1089/crispr.2020.0053",
+    "pmcid": "PMC7757695",
+    "supplementary_archive_sha256": "4157631713a0859d435599c3eaaa30603a80624affe0a265de7d9ff8d773266e",
+    "supplementary_archive_bytes": 20118094,
+    "files_read": {
+      "Supp_FileS3.csv": {"sha256": "780cf8580bfb4b7c022e2077917249292469bf479d6ecbd732b2029149692126", "lines": 57},
+      "Supp_FileS5.csv": {"sha256": "c66bd982ea5b94f68e43ccfc346a0cff130d7015f14e73ead7528d0888998d84", "lines": 214}
+    },
+    "note": "The archive is not redistributed here. Fetch it from PMC7757695 and the two digests above identify the files these values were read from."
+  },
+  "guide": "TGGTAATGATGGCTTCAACA",
+  "guide_name": "IL2RG",
+  "locus": "chr1:14947683-14947705",
+  "strand": "-",
+  "assembly": "GRCh38",
+  "window": {
+    "interval_one_based_inclusive": "chr1:14947643-14947745",
+    "length": 103,
+    "forward_sequence": "CCAGCTGTGCCACCTGGACCAGCTCTGTGACCTTGAACAAACCTGTTGAAGCCTCCATTACTGCCTCTGCAAAATGGAGAGAATGCTAGCACTTCTCCCATGG",
+    "read_from": "the staged GRCh38 primary assembly used by this project's genome-scale runs, not a web service"
+  },
+  "canonical_core": "CAGTAATGGAGGCTTCAAC",
+  "canonical_pam": "AGG",
+  "source_register": {
+    "alignment": "--||||||--||||||||||PAM",
+    "protospacer": "CAGTAATGGAGGCTTCAACA",
+    "pam": "GGT",
+    "mismatches": 4,
+    "gaps": 0,
+    "note": "The source's own register is ungapped at four substitutions against a noncanonical GGT PAM. Under strict NGG that register is unavailable, which is why this locus is a false negative for an NGG emitter policy and not a claim about the source study's list."
+  },
+  "source_measurements": {
+    "cells": "HEK293T/Cas9",
+    "hybrid_capture_sequence_confirmation": "edited",
+    "hybrid_capture_diff_indel_replicates_pct": [6.494623656, 7.31261426, 0.0],
+    "hybrid_capture_diff_indel_mean_pct": 4.574306961,
+    "hybrid_capture_read_depth_mean": 2978.666667,
+    "rhampseq_diff_indel_replicates_pct": [0.672915521, 1.275717591, 0.097273702],
+    "rhampseq_diff_indel_mean_pct": 0.681968938,
+    "rhampseq_control_indel_mean_pct": 0.004174957,
+    "rhampseq_coverage_mean": 15846.5,
+    "discovery_counts": {"GUIDE-seq": "626;722;17162", "CIRCLE-seq": "483;387;326", "SITE-seq": "126;145;150"},
+    "note": "These are the source's own reported values, transcribed from the two CSVs above. They are not recomputed from reads here and are cited as the authors' result."
+  },
+  "deletion_distances_by_position": [15, 15, 15, 14, 13, 13, 12, 11, 10, 10, 10, 10, 9, 8, 8, 7, 6, 6, 5, 4],
+  "minima_under_strict_NGG": {
+    "complete_family_1_to_20": 4,
+    "released_build_1_to_19": 5,
+    "wrapper_2_to_19": 5,
+    "best_ungapped_20_base_register": 12,
+    "best_single_DNA_bulge_register": 11
+  },
+  "executed_wrapper": {
+    "program": "code_release/conformance/upstream/cas-offinder-bulge",
+    "mode": "dry run, one RNA bulge, budget four",
+    "distinct_words_emitted": 13,
+    "complete_library_size": 15,
+    "emitted_positions": "2..19",
+    "terminal_word_present": false,
+    "first_word_present": false
+  }
+}

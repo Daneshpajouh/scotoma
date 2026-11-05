@@ -1,0 +1,122 @@
+FULL_START job=1652960 host=fc30554
+independent_audit.py: OK
+gap_oracle.py: OK
+test_independent.py: OK
+identity_manifest.py: OK
+review_returned.py: OK
+reference_identity_manifest.json: OK
+cluster_smoke.sbatch: OK
+cluster_full.sbatch: OK
+PAM_POLICY_START name=pam_inclusive_deposit
+HASH_START bytes_expected=878760836
+HASH_COMPLETE bytes=878760836 sha256=68f3e1d7eb9e9e18e3ddc859752be8d156378a3e681b0fff329fe679366adc11
+CSV_OPEN header=["sgRNA", "chrom", "SiteWindow", "Align.strand", "Align.chromStart", "Align.chromEnd", "Align.off-target", "Align.sgRNA", "Align.#Mismatches", "Align.#Bulges", "reads"]
+PROGRESS pam_policy=pam_inclusive_deposit rows=100000 active=2057 matched=259 losses_m4=6..6 unresolved_anchors=0 seconds=1.121
+PROGRESS pam_policy=pam_inclusive_deposit rows=200000 active=5008 matched=759 losses_m4=6..6 unresolved_anchors=0 seconds=1.717
+PROGRESS pam_policy=pam_inclusive_deposit rows=300000 active=9317 matched=1516 losses_m4=6..6 unresolved_anchors=1 seconds=2.378
+PROGRESS pam_policy=pam_inclusive_deposit rows=400000 active=14537 matched=2425 losses_m4=6..6 unresolved_anchors=1 seconds=3.095
+PROGRESS pam_policy=pam_inclusive_deposit rows=500000 active=17071 matched=2790 losses_m4=7..7 unresolved_anchors=1 seconds=3.664
+PROGRESS pam_policy=pam_inclusive_deposit rows=600000 active=23308 matched=3526 losses_m4=39..39 unresolved_anchors=1 seconds=4.388
+PROGRESS pam_policy=pam_inclusive_deposit rows=700000 active=30640 matched=5141 losses_m4=39..39 unresolved_anchors=3 seconds=5.272
+PROGRESS pam_policy=pam_inclusive_deposit rows=800000 active=37412 matched=6594 losses_m4=39..39 unresolved_anchors=3 seconds=6.102
+PROGRESS pam_policy=pam_inclusive_deposit rows=900000 active=39531 matched=7001 losses_m4=39..39 unresolved_anchors=3 seconds=6.67
+PROGRESS pam_policy=pam_inclusive_deposit rows=1000000 active=41015 matched=7191 losses_m4=41..41 unresolved_anchors=3 seconds=7.189
+PROGRESS pam_policy=pam_inclusive_deposit rows=1100000 active=43010 matched=7485 losses_m4=42..42 unresolved_anchors=4 seconds=7.748
+PROGRESS pam_policy=pam_inclusive_deposit rows=1200000 active=44979 matched=7644 losses_m4=42..42 unresolved_anchors=4 seconds=8.253
+PROGRESS pam_policy=pam_inclusive_deposit rows=1300000 active=47461 matched=7692 losses_m4=42..42 unresolved_anchors=4 seconds=8.726
+PROGRESS pam_policy=pam_inclusive_deposit rows=1400000 active=49025 matched=8045 losses_m4=43..43 unresolved_anchors=4 seconds=9.277
+PROGRESS pam_policy=pam_inclusive_deposit rows=1500000 active=49717 matched=8157 losses_m4=43..43 unresolved_anchors=4 seconds=9.763
+PROGRESS pam_policy=pam_inclusive_deposit rows=1600000 active=51583 matched=8432 losses_m4=44..44 unresolved_anchors=4 seconds=10.302
+PROGRESS pam_policy=pam_inclusive_deposit rows=1700000 active=54570 matched=9095 losses_m4=50..50 unresolved_anchors=4 seconds=10.945
+PROGRESS pam_policy=pam_inclusive_deposit rows=1800000 active=57142 matched=9518 losses_m4=51..51 unresolved_anchors=4 seconds=11.533
+PROGRESS pam_policy=pam_inclusive_deposit rows=1900000 active=59349 matched=9905 losses_m4=53..53 unresolved_anchors=4 seconds=12.121
+PROGRESS pam_policy=pam_inclusive_deposit rows=2000000 active=61256 matched=10262 losses_m4=53..53 unresolved_anchors=4 seconds=12.686
+PROGRESS pam_policy=pam_inclusive_deposit rows=2100000 active=63222 matched=10550 losses_m4=56..56 unresolved_anchors=4 seconds=13.218
+PROGRESS pam_policy=pam_inclusive_deposit rows=2200000 active=64236 matched=10693 losses_m4=57..57 unresolved_anchors=5 seconds=13.719
+PROGRESS pam_policy=pam_inclusive_deposit rows=2300000 active=66479 matched=11067 losses_m4=63..63 unresolved_anchors=8 seconds=14.272
+PROGRESS pam_policy=pam_inclusive_deposit rows=2400000 active=69926 matched=11534 losses_m4=67..67 unresolved_anchors=8 seconds=14.863
+PROGRESS pam_policy=pam_inclusive_deposit rows=2500000 active=72379 matched=11837 losses_m4=88..88 unresolved_anchors=9 seconds=15.433
+PROGRESS pam_policy=pam_inclusive_deposit rows=2600000 active=76803 matched=12428 losses_m4=91..91 unresolved_anchors=9 seconds=16.09
+PROGRESS pam_policy=pam_inclusive_deposit rows=2700000 active=81892 matched=13081 losses_m4=92..92 unresolved_anchors=9 seconds=16.749
+PROGRESS pam_policy=pam_inclusive_deposit rows=2800000 active=82534 matched=13207 losses_m4=95..95 unresolved_anchors=9 seconds=17.241
+PROGRESS pam_policy=pam_inclusive_deposit rows=2900000 active=83662 matched=13360 losses_m4=95..95 unresolved_anchors=10 seconds=17.741
+PROGRESS pam_policy=pam_inclusive_deposit rows=3000000 active=84526 matched=13453 losses_m4=96..96 unresolved_anchors=10 seconds=18.231
+PROGRESS pam_policy=pam_inclusive_deposit rows=3100000 active=87325 matched=13938 losses_m4=97..97 unresolved_anchors=10 seconds=18.83
+PROGRESS pam_policy=pam_inclusive_deposit rows=3200000 active=93399 matched=15272 losses_m4=102..102 unresolved_anchors=12 seconds=19.674
+PROGRESS pam_policy=pam_inclusive_deposit rows=3300000 active=96865 matched=15937 losses_m4=106..106 unresolved_anchors=13 seconds=20.332
+PROGRESS pam_policy=pam_inclusive_deposit rows=3400000 active=102762 matched=16682 losses_m4=109..109 unresolved_anchors=13 seconds=21.012
+PROGRESS pam_policy=pam_inclusive_deposit rows=3500000 active=107042 matched=17223 losses_m4=115..115 unresolved_anchors=13 seconds=21.637
+PROGRESS pam_policy=pam_inclusive_deposit rows=3600000 active=111418 matched=17780 losses_m4=115..115 unresolved_anchors=13 seconds=22.271
+PROGRESS pam_policy=pam_inclusive_deposit rows=3700000 active=114611 matched=18343 losses_m4=115..115 unresolved_anchors=13 seconds=22.92
+PROGRESS pam_policy=pam_inclusive_deposit rows=3800000 active=118071 matched=18959 losses_m4=115..115 unresolved_anchors=15 seconds=23.595
+PROGRESS pam_policy=pam_inclusive_deposit rows=3900000 active=120463 matched=19329 losses_m4=116..116 unresolved_anchors=15 seconds=24.17
+PROGRESS pam_policy=pam_inclusive_deposit rows=4000000 active=146657 matched=19710 losses_m4=118..118 unresolved_anchors=15 seconds=24.942
+PROGRESS pam_policy=pam_inclusive_deposit rows=4100000 active=181552 matched=20098 losses_m4=118..118 unresolved_anchors=15 seconds=25.785
+PROGRESS pam_policy=pam_inclusive_deposit rows=4200000 active=184144 matched=20410 losses_m4=120..120 unresolved_anchors=15 seconds=26.337
+PROGRESS pam_policy=pam_inclusive_deposit rows=4300000 active=185951 matched=20841 losses_m4=123..123 unresolved_anchors=15 seconds=26.906
+PROGRESS pam_policy=pam_inclusive_deposit rows=4400000 active=187278 matched=21098 losses_m4=128..128 unresolved_anchors=15 seconds=27.442
+PROGRESS pam_policy=pam_inclusive_deposit rows=4500000 active=191125 matched=21726 losses_m4=138..138 unresolved_anchors=15 seconds=28.099
+PROGRESS pam_policy=pam_inclusive_deposit rows=4600000 active=194212 matched=22295 losses_m4=139..139 unresolved_anchors=15 seconds=28.707
+PROGRESS pam_policy=pam_inclusive_deposit rows=4700000 active=197164 matched=23095 losses_m4=140..140 unresolved_anchors=15 seconds=29.383
+PROGRESS pam_policy=pam_inclusive_deposit rows=4800000 active=200122 matched=23453 losses_m4=144..144 unresolved_anchors=15 seconds=29.964
+PROGRESS pam_policy=pam_inclusive_deposit rows=4900000 active=201636 matched=23648 losses_m4=147..147 unresolved_anchors=15 seconds=30.487
+COMPLETE scope=FULL_RAW_AUDIT rows=4936278 seconds=30.669
+PAM_POLICY_COMPLETE name=pam_inclusive_deposit losses=148..148 guides=43..43
+PAM_POLICY_START name=paper_ngg_core_only
+HASH_START bytes_expected=878760836
+HASH_COMPLETE bytes=878760836 sha256=68f3e1d7eb9e9e18e3ddc859752be8d156378a3e681b0fff329fe679366adc11
+CSV_OPEN header=["sgRNA", "chrom", "SiteWindow", "Align.strand", "Align.chromStart", "Align.chromEnd", "Align.off-target", "Align.sgRNA", "Align.#Mismatches", "Align.#Bulges", "reads"]
+PROGRESS pam_policy=paper_ngg_core_only rows=100000 active=2057 matched=259 losses_m4=6..6 unresolved_anchors=0 seconds=1.129
+PROGRESS pam_policy=paper_ngg_core_only rows=200000 active=5008 matched=759 losses_m4=6..6 unresolved_anchors=0 seconds=1.736
+PROGRESS pam_policy=paper_ngg_core_only rows=300000 active=9317 matched=1516 losses_m4=6..6 unresolved_anchors=1 seconds=2.412
+PROGRESS pam_policy=paper_ngg_core_only rows=400000 active=14537 matched=2425 losses_m4=6..6 unresolved_anchors=1 seconds=3.146
+PROGRESS pam_policy=paper_ngg_core_only rows=500000 active=17071 matched=2790 losses_m4=7..7 unresolved_anchors=1 seconds=3.72
+PROGRESS pam_policy=paper_ngg_core_only rows=600000 active=23308 matched=3526 losses_m4=37..37 unresolved_anchors=1 seconds=4.455
+PROGRESS pam_policy=paper_ngg_core_only rows=700000 active=30640 matched=5141 losses_m4=37..37 unresolved_anchors=3 seconds=5.355
+PROGRESS pam_policy=paper_ngg_core_only rows=800000 active=37412 matched=6594 losses_m4=37..37 unresolved_anchors=3 seconds=6.203
+PROGRESS pam_policy=paper_ngg_core_only rows=900000 active=39531 matched=7001 losses_m4=37..37 unresolved_anchors=3 seconds=6.782
+PROGRESS pam_policy=paper_ngg_core_only rows=1000000 active=41015 matched=7191 losses_m4=39..39 unresolved_anchors=3 seconds=7.313
+PROGRESS pam_policy=paper_ngg_core_only rows=1100000 active=43010 matched=7485 losses_m4=40..40 unresolved_anchors=4 seconds=7.881
+PROGRESS pam_policy=paper_ngg_core_only rows=1200000 active=44979 matched=7644 losses_m4=40..40 unresolved_anchors=4 seconds=8.397
+PROGRESS pam_policy=paper_ngg_core_only rows=1300000 active=47461 matched=7692 losses_m4=40..40 unresolved_anchors=4 seconds=8.887
+PROGRESS pam_policy=paper_ngg_core_only rows=1400000 active=49025 matched=8045 losses_m4=41..41 unresolved_anchors=4 seconds=9.449
+PROGRESS pam_policy=paper_ngg_core_only rows=1500000 active=49717 matched=8157 losses_m4=41..41 unresolved_anchors=4 seconds=9.948
+PROGRESS pam_policy=paper_ngg_core_only rows=1600000 active=51583 matched=8432 losses_m4=42..42 unresolved_anchors=4 seconds=10.5
+PROGRESS pam_policy=paper_ngg_core_only rows=1700000 active=54570 matched=9095 losses_m4=46..46 unresolved_anchors=4 seconds=11.162
+PROGRESS pam_policy=paper_ngg_core_only rows=1800000 active=57142 matched=9518 losses_m4=47..47 unresolved_anchors=4 seconds=11.764
+PROGRESS pam_policy=paper_ngg_core_only rows=1900000 active=59349 matched=9905 losses_m4=49..49 unresolved_anchors=4 seconds=12.36
+PROGRESS pam_policy=paper_ngg_core_only rows=2000000 active=61256 matched=10262 losses_m4=49..49 unresolved_anchors=4 seconds=12.935
+PROGRESS pam_policy=paper_ngg_core_only rows=2100000 active=63222 matched=10550 losses_m4=52..52 unresolved_anchors=4 seconds=13.479
+PROGRESS pam_policy=paper_ngg_core_only rows=2200000 active=64236 matched=10693 losses_m4=53..53 unresolved_anchors=5 seconds=13.995
+PROGRESS pam_policy=paper_ngg_core_only rows=2300000 active=66479 matched=11067 losses_m4=59..59 unresolved_anchors=8 seconds=14.566
+PROGRESS pam_policy=paper_ngg_core_only rows=2400000 active=69926 matched=11534 losses_m4=62..62 unresolved_anchors=8 seconds=15.17
+PROGRESS pam_policy=paper_ngg_core_only rows=2500000 active=72379 matched=11837 losses_m4=82..82 unresolved_anchors=9 seconds=15.756
+PROGRESS pam_policy=paper_ngg_core_only rows=2600000 active=76803 matched=12428 losses_m4=85..85 unresolved_anchors=9 seconds=16.428
+PROGRESS pam_policy=paper_ngg_core_only rows=2700000 active=81892 matched=13081 losses_m4=86..86 unresolved_anchors=9 seconds=17.096
+PROGRESS pam_policy=paper_ngg_core_only rows=2800000 active=82534 matched=13207 losses_m4=87..87 unresolved_anchors=9 seconds=17.599
+PROGRESS pam_policy=paper_ngg_core_only rows=2900000 active=83662 matched=13360 losses_m4=87..87 unresolved_anchors=10 seconds=18.109
+PROGRESS pam_policy=paper_ngg_core_only rows=3000000 active=84526 matched=13453 losses_m4=88..88 unresolved_anchors=10 seconds=18.605
+PROGRESS pam_policy=paper_ngg_core_only rows=3100000 active=87325 matched=13938 losses_m4=89..89 unresolved_anchors=10 seconds=19.216
+PROGRESS pam_policy=paper_ngg_core_only rows=3200000 active=93399 matched=15272 losses_m4=92..92 unresolved_anchors=12 seconds=20.079
+PROGRESS pam_policy=paper_ngg_core_only rows=3300000 active=96865 matched=15937 losses_m4=96..96 unresolved_anchors=13 seconds=20.751
+PROGRESS pam_policy=paper_ngg_core_only rows=3400000 active=102762 matched=16682 losses_m4=99..99 unresolved_anchors=13 seconds=21.442
+PROGRESS pam_policy=paper_ngg_core_only rows=3500000 active=107042 matched=17223 losses_m4=103..103 unresolved_anchors=13 seconds=22.08
+PROGRESS pam_policy=paper_ngg_core_only rows=3600000 active=111418 matched=17780 losses_m4=103..103 unresolved_anchors=13 seconds=22.723
+PROGRESS pam_policy=paper_ngg_core_only rows=3700000 active=114611 matched=18343 losses_m4=103..103 unresolved_anchors=13 seconds=23.384
+PROGRESS pam_policy=paper_ngg_core_only rows=3800000 active=118071 matched=18959 losses_m4=103..103 unresolved_anchors=15 seconds=24.069
+PROGRESS pam_policy=paper_ngg_core_only rows=3900000 active=120463 matched=19329 losses_m4=103..103 unresolved_anchors=15 seconds=24.66
+PROGRESS pam_policy=paper_ngg_core_only rows=4000000 active=146657 matched=19710 losses_m4=104..104 unresolved_anchors=15 seconds=25.438
+PROGRESS pam_policy=paper_ngg_core_only rows=4100000 active=181552 matched=20098 losses_m4=104..104 unresolved_anchors=15 seconds=26.29
+PROGRESS pam_policy=paper_ngg_core_only rows=4200000 active=184144 matched=20410 losses_m4=105..105 unresolved_anchors=15 seconds=26.852
+PROGRESS pam_policy=paper_ngg_core_only rows=4300000 active=185951 matched=20841 losses_m4=108..108 unresolved_anchors=15 seconds=27.428
+PROGRESS pam_policy=paper_ngg_core_only rows=4400000 active=187278 matched=21098 losses_m4=112..112 unresolved_anchors=15 seconds=27.965
+PROGRESS pam_policy=paper_ngg_core_only rows=4500000 active=191125 matched=21726 losses_m4=120..120 unresolved_anchors=15 seconds=28.638
+PROGRESS pam_policy=paper_ngg_core_only rows=4600000 active=194212 matched=22295 losses_m4=121..121 unresolved_anchors=15 seconds=29.26
+PROGRESS pam_policy=paper_ngg_core_only rows=4700000 active=197164 matched=23095 losses_m4=122..122 unresolved_anchors=15 seconds=29.952
+PROGRESS pam_policy=paper_ngg_core_only rows=4800000 active=200122 matched=23453 losses_m4=126..126 unresolved_anchors=15 seconds=30.548
+PROGRESS pam_policy=paper_ngg_core_only rows=4900000 active=201636 matched=23648 losses_m4=129..129 unresolved_anchors=15 seconds=31.079
+COMPLETE scope=FULL_RAW_AUDIT rows=4936278 seconds=31.263
+PAM_POLICY_COMPLETE name=paper_ngg_core_only losses=129..129 guides=40..40
+REFERENCE_COMPARISON pam_policy=pam_inclusive_deposit exact_agreement=true scope=FULL_RAW_AUDIT
+REFERENCE_COMPARISON pam_policy=paper_ngg_core_only exact_agreement=true scope=FULL_RAW_AUDIT
+DUAL_POLICY_COMPLETE scope=FULL_RAW_AUDIT rows_per_policy=4936278 seconds=62.059

@@ -1,0 +1,20 @@
+INTEGRITY_PASS 1678
+PACKAGE_BEGIN gap_census
+COMMAND code_release /usr/local/bin/python3 -B gap_census/final_verify.py
+{"certificate": "cell_19_10_10.certificate.json", "status": "VERIFIED-COMPUTATIONALLY", "tau_star": "12941917280894700614746624472517648894117485194003692715671900935973112204633498165026164220140512684187264210/1421873710417109437813620756749198488807004684798463016130405520175215420698913393685347700358458555799597879", "passes": true}
+{"certificate": "cell_19_2_14.certificate.json", "status": "VERIFIED-COMPUTATIONALLY", "tau_star": "87272127410594482/50395685589364537", "passes": true}
+{"certificate": "cell_19_3_11.certificate.json", "status": "VERIFIED-COMPUTATIONALLY", "tau_star": "32/11", "passes": true}
+{"certificate": "cell_19_3_12.certificate.json", "status": "VERIFIED-COMPUTATIONALLY", "tau_star": "25/9", "passes": true}
+{"certificate": "cell_19_4_11.certificate.json", "status": "VERIFIED-COMPUTATIONALLY", "tau_star": "810/211", "passes": true}
+{"certificate": "cell_19_4_12.certificate.json", "status": "VERIFIED-COMPUTATIONALLY", "tau_star": "7282844/2121625", "passes": true}
+{"certificate": "cell_19_5_10.certificate.json", "status": "VERIFIED-COMPUTATIONALLY", "tau_star": "3727/750", "passes": true}
+{"certificate": "cell_19_5_11.certificate.json", "status": "VERIFIED-COMPUTATIONALLY", "tau_star": "592183/130130", "passes": true}
+{"certificate": "cell_19_6_10.certificate.json", "status": "VERIFIED-COMPUTATIONALLY", "tau_star": "187833202/31818475", "passes": true}
+{"certificate": "cell_19_6_11.certificate.json", "status": "VERIFIED-COMPUTATIONALLY", "tau_star": "4028652890958214/777988275644019", "passes": true}
+{"certificate": "cell_19_7_10.certificate.json", "status": "VERIFIED-COMPUTATIONALLY", "tau_star": "56293895968956124/8380744780500885", "passes": true}
+{"certificate": "cell_19_8_10.certificate.json", "status": "VERIFIED-COMPUTATIONALLY", "tau_star": "3068568555929525663256735469/407570843226541222662111642", "passes": true}
+{"certificate": "cell_19_9_10.certificate.json", "status": "VERIFIED-COMPUTATIONALLY", "tau_star": "1498746598253955427542291610940355129830127116601533617877/180043157422464124019796341513955607907990577831617027585", "passes": true}
+{"certificate": "cell_5_4_3.certificate.json", "status": "VERIFIED-COMPUTATIONALLY", "tau_star": "814/313", "passes": true}
+REPLAY_RESOURCES {"package": "gap_census", "command": ["/usr/local/bin/python3", "-B", "gap_census/final_verify.py"], "exit_code": 0, "wall_seconds": 34.50865516701015, "peak_child_rss_bytes": 86638592, "user_seconds": 32.799707, "system_seconds": 0.220325}
+PACKAGE_PASS gap_census
+time: sysctl kern.clockrate: Operation not permitted

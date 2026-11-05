@@ -1,0 +1,113 @@
+{
+  "name": "cell_20_14_10",
+  "certificate_sha256": "b134f0859f814da4233592be0c12ab5dd683c32cf6bb48fbc0d60b6bd042ec59",
+  "N": 20,
+  "r": 14,
+  "m": 10,
+  "total_mass": "708535997/54302282",
+  "mass_decimal": "13.0479967121824",
+  "mass_minus_r_minus_1": "2606331/54302282",
+  "mass_exceeds_r_minus_1": true,
+  "support_classes": 1566,
+  "support_inside_U": true,
+  "support_min_distances": [
+    10
+  ],
+  "resource_estimate": {
+    "classes": 12754584,
+    "ambient_words": 1099511627776,
+    "density_denominator_bits": 56,
+    "intermediate_bound_bits": 107,
+    "backend": "signed128",
+    "estimated_bytes_per_entry": 16,
+    "principal_estimate_bytes": 204073344,
+    "transform_prefix_triples": 110539728,
+    "transform_radial_multiply_adds": 204073344
+  },
+  "global_maximum_status": "EXHAUSTIVE_EXACT_PASS",
+  "producer_embedded_certificate_sha256": "1a90478af4689af6dc4711d9e849373e113656378bb7d59067f802e76066f83b",
+  "producer_embedded_hash_matches_decision_file": false,
+  "independently_counted_unit_witness": {
+    "prefix": "011100100001X",
+    "suffix_weight": 0,
+    "exact_load": "1"
+  },
+  "negative_controls": {
+    "scaled_one_class": {
+      "status": "REJECTED",
+      "class_index": 18,
+      "factor": "1000000001/1000000000",
+      "overloaded_at": {
+        "prefix": "011100100001X",
+        "suffix_weight": 0
+      },
+      "exact_load": "206348671600263423/206348671600000000",
+      "excess": "263423/206348671600000000"
+    },
+    "moved_one_class": {
+      "status": "REJECTED",
+      "class_index": 18,
+      "prefix": "XXXXXXXXXXXXX",
+      "suffix_weight": 7,
+      "minimum_library_distance": 20
+    },
+    "raw_row_index": 51,
+    "serialized_scaled_excess": "1645663/4126973432000000000",
+    "files": {
+      "scaled.certificate.json": "2103ab0ca17da643d44c8b5ec5beec8c192491188f3b43dbacc59cc13878b4e5",
+      "outside.certificate.json": "7da2d51d9bdbb051b6a6d1347a7aba91ec97d8c8750601071cffa498831a2aad"
+    }
+  },
+  "negative_controls_at_global_argmax": {
+    "scaled_one_class": {
+      "status": "REJECTED",
+      "class_index": 81,
+      "factor": "1000000001/1000000000",
+      "overloaded_at": {
+        "prefix": "X011110110001",
+        "suffix_weight": 0
+      },
+      "exact_load": "515871679000530129/515871679000000000",
+      "excess": "530129/515871679000000000"
+    },
+    "moved_one_class": {
+      "status": "REJECTED",
+      "class_index": 81,
+      "prefix": "XXXXXXXXXXXXX",
+      "suffix_weight": 7,
+      "minimum_library_distance": 20
+    },
+    "raw_row_index": 220,
+    "serialized_scaled_excess": "87943/23185244000000000",
+    "files": {
+      "scaled.certificate.json": "61d8278d5dfa2936a361b851b364460016e0e41f1d6399a9ccef299cec41ca06",
+      "outside.certificate.json": "03f2b9076eb7a25f4ac57b1401da28ce08d7ecb63c637b2804e12656bc62ef28"
+    }
+  },
+  "exact_maximum": "1",
+  "argmax": {
+    "prefix": "X011110110001",
+    "suffix_weight": 0
+  },
+  "argmax_in_certificate_coordinates": {
+    "prefix": "X100001001110",
+    "suffix_weight": 0
+  },
+  "classes_checked": 12754584,
+  "backend": "signed128",
+  "density_input_sha256": "f1e6c4303351148a5a39145e3fa939488d223920e1fd3f3bf56758eeb759406a",
+  "native_result_sha256": "c0678201885ef1beae83b00ebb66027050809919c23303bf5e795faa9e0a948b",
+  "binary_sha256": "8ad5ec044b1108ba3ae5194021a1673f0a62b486c6fc3b1dc3025bb5ff20b277",
+  "elapsed_seconds": 0.7225729804486036,
+  "verifier_identity": {
+    "measure.py": "10ce2d95b04b7aba485ac22f60ab0a6775ef806fb54afac83b773f2ee999354f",
+    "exact_tensor.cpp": "e8b9ee7eaaff5f930fc402840d21a2a2b1f732bf4538fbaa48f03644914a1ba5",
+    "run_verify.py": "1b6e2fe4b2f0c87e6cce0e1917d5ec67cfe9457ba8f6fe76a715c73aae1164ea",
+    "test_kernel.py": "f5628f76d9cbe42d278d7541e26c0a0990e4d2d7abbdeb5965ff67799ddb7d45",
+    "inputs/manifest.json": "d040b60e769d58311facebb337a914b2f9c6f7771629c41fc2c6986d50b5cf4a"
+  },
+  "slurm_job_id": "2147658",
+  "slurm_array_task_id": null,
+  "closure_verified": true,
+  "execution_state": "H3"
+}

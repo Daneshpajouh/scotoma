@@ -1,0 +1,26 @@
+INTEGRITY_PASS 1670
+PACKAGE_BEGIN r20_m8
+COMMAND code_release node certificates/r20_m8/dual20.js
+{
+  orbits: 1162261467,
+  max_integer_score: 402688,
+  centre: '1001010000001000000',
+  mass: '30348/1573',
+  strict_margin_numerator: 461,
+  seconds: 19.344
+}
+REPLAY_RESOURCES {"package": "r20_m8", "command": ["node", "certificates/r20_m8/dual20.js"], "exit_code": 0, "wall_seconds": 19.577996125037316, "peak_child_rss_bytes": 4873994240, "user_seconds": 104.34949, "system_seconds": 12.815662}
+COMMAND code_release /usr/local/bin/python3 -B -I certificates/r20_m8/independent_check.py
+support words: 46,100
+support words with distance to the staircase above 8: 0
+distances from support to the staircase: [8]
+total mass = 30348/1573 = 19.2930705658
+mass in the ball at the reported attaining centre = 1
+worst ball mass over 140 probe centres = 1553/1573 (must be <= 1)
+templates touching the attaining ball: 27; not touching: 537
+CONTROL A, a touching template raised by 1: ball mass = 1574/1573 -> exceeds 1: True
+CONTROL B, a non-touching template raised by 40: ball mass = 1 (must stay 1)
+
+INDEPENDENT CHECK PASSED: support inside U, mass 30348/1573 > 19, attaining ball exactly 1, no probe above 1, and the control fails as it must.
+REPLAY_RESOURCES {"package": "r20_m8", "command": ["/usr/local/bin/python3", "-B", "-I", "certificates/r20_m8/independent_check.py"], "exit_code": 0, "wall_seconds": 7.194396541977767, "peak_child_rss_bytes": 4873994240, "user_seconds": 6.781592000000003, "system_seconds": 0.051168000000000546}
+PACKAGE_PASS r20_m8

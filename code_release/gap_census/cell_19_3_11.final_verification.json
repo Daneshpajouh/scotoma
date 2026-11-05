@@ -1,0 +1,43 @@
+{
+  "N": 19,
+  "r": 3,
+  "m": 11,
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "total_centre_orbits": 162,
+  "total_point_orbits": 101,
+  "centre_word_count": 274877906944,
+  "union_word_count": 31417935160,
+  "cover": {
+    "passes": true,
+    "extremum": "1",
+    "at": {
+      "prefix": "00",
+      "suffix_weight": 11
+    },
+    "violations": 0,
+    "orbits_checked": 101,
+    "total_mass": "32/11",
+    "support_orbits": 4
+  },
+  "packing": {
+    "passes": true,
+    "extremum": "1",
+    "at": {
+      "prefix": "00",
+      "suffix_weight": 0
+    },
+    "violations": 0,
+    "orbits_checked": 162,
+    "total_mass": "32/11",
+    "support_orbits": 5
+  },
+  "passes": true,
+  "matched_exactly": true,
+  "tau_star": "32/11",
+  "deficit": "1/11",
+  "K": 3,
+  "K_reason": "ceil(exact packing mass) = r; library cover has r balls",
+  "elapsed_seconds": 0.006,
+  "certificate": "cell_19_3_11.certificate.json",
+  "certificate_sha256": "0deaede47b2e5c3d7d31e01cf0d9af6dbe0bea0c262a1a1b86a94fc4c55281b2"
+}

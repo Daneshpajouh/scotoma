@@ -1,0 +1,236 @@
+[
+  {
+    "disposition": "count/source summary or input; no emitted word set to certify",
+    "nonempty_rows_including_header": 551,
+    "sha256": "29c4c9a417672e1200e7ce9c134d52b98e60f2011a4e7134b334da0795ab10e2",
+    "source": "code_release/tool_audit/audit_all110_native_counts.tsv"
+  },
+  {
+    "disposition": "count/source summary or input; no emitted word set to certify",
+    "nonempty_rows_including_header": 61,
+    "sha256": "5be7555fd44ad096985279f3b8792b72edb9a18b2aa31aa71b24c45a3c101351",
+    "source": "code_release/tool_audit/audit_selected_counts.tsv"
+  },
+  {
+    "disposition": "checked from raw CRISPRitz alignments, including duplicate deposited copies",
+    "nonempty_rows_including_header": 2201,
+    "sha256": "81f213ef5878bc18b374db86b5aa4136656741a60f0783ae6a9fe027f2c78878",
+    "source": "code_release/tool_audit/crispritz_audit/run/rna1.targets.txt"
+  },
+  {
+    "disposition": "checked from raw CRISPRitz alignments, including duplicate deposited copies",
+    "nonempty_rows_including_header": 2201,
+    "sha256": "81f213ef5878bc18b374db86b5aa4136656741a60f0783ae6a9fe027f2c78878",
+    "source": "code_release/tool_audit/crispritz_audit/run_2_7_1/rna1.targets.txt"
+  },
+  {
+    "disposition": "panel input, checked against all per-guide evidence",
+    "nonempty_rows_including_header": 110,
+    "sha256": "238218a2165c411b64a557361c728c969383182ba7cb6ff0d15399d4797e938c",
+    "source": "code_release/tool_audit/selftest/guides.tsv"
+  },
+  {
+    "disposition": "count/source summary or input; no emitted word set to certify",
+    "nonempty_rows_including_header": 112,
+    "sha256": "c1ff894bdae3ba29df6a1194bb7c3b85a3e932c10f7d310c479166f9eb7ccbe5",
+    "source": "code_release/tool_audit/selftest/input_example.txt"
+  },
+  {
+    "disposition": "checked from raw CRISPRitz alignments, including duplicate deposited copies",
+    "nonempty_rows_including_header": 2201,
+    "sha256": "81f213ef5878bc18b374db86b5aa4136656741a60f0783ae6a9fe027f2c78878",
+    "source": "code_release/tool_conformance/crispritz_2.7.1_rna1.targets.tsv"
+  },
+  {
+    "disposition": "checked from raw CRISPRitz alignments, including duplicate deposited copies",
+    "nonempty_rows_including_header": 2201,
+    "sha256": "81f213ef5878bc18b374db86b5aa4136656741a60f0783ae6a9fe027f2c78878",
+    "source": "code_release/tool_conformance/crispritz_2.9.0_rna1.targets.tsv"
+  },
+  {
+    "disposition": "count/source summary or input; no emitted word set to certify",
+    "nonempty_rows_including_header": 111,
+    "sha256": "966ebf2c02d2b7aa787d528f6681e04d34533b0adb45b7fa45dd306b5e4de648",
+    "source": "code_release/tool_conformance/crispritz_per_guide.tsv"
+  },
+  {
+    "disposition": "count/source summary or input; no emitted word set to certify",
+    "nonempty_rows_including_header": 551,
+    "sha256": "29c4c9a417672e1200e7ce9c134d52b98e60f2011a4e7134b334da0795ab10e2",
+    "source": "code_release/tool_conformance/per_guide_counts.tsv"
+  },
+  {
+    "disposition": "checked as CRISPRseek input / pooled emitted pattern file",
+    "nonempty_rows_including_header": 112,
+    "sha256": "f7a06f48792ddf022362b8699cadb43ce267d6015a660c7f968d418349883451",
+    "source": "code_release/crisprseek_executed/input.txt"
+  },
+  {
+    "disposition": "checked as CRISPRseek input / pooled emitted pattern file",
+    "nonempty_rows_including_header": 1602,
+    "sha256": "7be6b008d957fa54ef47f428453b8e7b08ced4027ddfff17913c9c2aefc522f6",
+    "source": "code_release/crisprseek_executed/input_bulge.txt"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 261,
+    "sha256": "55f47c11c0c1025762466f3b20a5bca822d8afd6d3f279fc8e0c249ef71900ca",
+    "source": "code_release/genome_endtoend/active_sites.part000.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 34942,
+    "sha256": "e763196cfc8e4ef39479efcdf325aa370a44b1d09304d52d4130fa1a2b087fc0",
+    "source": "code_release/genome_endtoend/corrected_only_alignments.part000.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 2,
+    "sha256": "a4ecd363d07c43131b7a2bb4f63a84b957b6030223ed5b1ae8d32c0d5fb6c147",
+    "source": "code_release/genome_endtoend/difference_classes.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 26,
+    "sha256": "3f35e24bc3b4c0ad1326c3762d68158619e499d54c44640f3ec009535cf2c734",
+    "source": "code_release/genome_endtoend/per_chromosome.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 111,
+    "sha256": "77daf16a3075c799e30a9cbd3f9a1ce68b25c316d70ba9c6ebb3f3c6e7c6483a",
+    "source": "code_release/genome_endtoend/per_guide.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 1,
+    "sha256": "69e1424d025aee64b91e1b3794ff1a113a08d376352aabc4076a7accc9cdb929",
+    "source": "code_release/genome_endtoend/released_only_alignments.part000.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 111,
+    "sha256": "e03db4568bc09fb0680c599d73fbc969489f9325b14258b4ecbb6986fc07e24e",
+    "source": "code_release/genome_endtoend/ungapped_baseline_total.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 145,
+    "sha256": "643fab1c0ce116529dfcc0716767489f32a62fe6b7dcd4f8bf4307820184bab5",
+    "source": "code_release/clinical_guide/corrected_rna0.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 9362,
+    "sha256": "33653b1720825bde50b4274768bbd68667909974aabf953f85696008818ac7b3",
+    "source": "code_release/clinical_guide/corrected_rna1.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 145,
+    "sha256": "643fab1c0ce116529dfcc0716767489f32a62fe6b7dcd4f8bf4307820184bab5",
+    "source": "code_release/clinical_guide/released_rna0.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 8807,
+    "sha256": "136b70fe002c60883bdb6cda7d0dde87cfa8dca59bfdc1ab6ccb4d419a3f3fcf",
+    "source": "code_release/clinical_guide/released_rna1.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 2,
+    "sha256": "7dec704b0f1a919ad90671d8c2719bfdf5fee9a5facc2982797b08b14bc30b36",
+    "source": "code_release/clinical_guide/sweep_mm0_corrected_rna0.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 3,
+    "sha256": "609f8d34493575ccbfe9b3df4a3f704b85df4eb2e7dd0ff7fa0f97401eed8e72",
+    "source": "code_release/clinical_guide/sweep_mm0_corrected_rna1.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 2,
+    "sha256": "7dec704b0f1a919ad90671d8c2719bfdf5fee9a5facc2982797b08b14bc30b36",
+    "source": "code_release/clinical_guide/sweep_mm0_released_rna0.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 3,
+    "sha256": "609f8d34493575ccbfe9b3df4a3f704b85df4eb2e7dd0ff7fa0f97401eed8e72",
+    "source": "code_release/clinical_guide/sweep_mm0_released_rna1.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 2,
+    "sha256": "7dec704b0f1a919ad90671d8c2719bfdf5fee9a5facc2982797b08b14bc30b36",
+    "source": "code_release/clinical_guide/sweep_mm1_corrected_rna0.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 11,
+    "sha256": "8f9f974dc28983ffe77cd46786aa3f41a2e6b952189c816b1da63456835847e6",
+    "source": "code_release/clinical_guide/sweep_mm1_corrected_rna1.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 2,
+    "sha256": "7dec704b0f1a919ad90671d8c2719bfdf5fee9a5facc2982797b08b14bc30b36",
+    "source": "code_release/clinical_guide/sweep_mm1_released_rna0.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 11,
+    "sha256": "8f9f974dc28983ffe77cd46786aa3f41a2e6b952189c816b1da63456835847e6",
+    "source": "code_release/clinical_guide/sweep_mm1_released_rna1.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 2,
+    "sha256": "7dec704b0f1a919ad90671d8c2719bfdf5fee9a5facc2982797b08b14bc30b36",
+    "source": "code_release/clinical_guide/sweep_mm2_corrected_rna0.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 72,
+    "sha256": "6add30018a5a9c3bbcaef8073b056918f6bd871e9eff4d022a50a016adb4ca14",
+    "source": "code_release/clinical_guide/sweep_mm2_corrected_rna1.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 2,
+    "sha256": "7dec704b0f1a919ad90671d8c2719bfdf5fee9a5facc2982797b08b14bc30b36",
+    "source": "code_release/clinical_guide/sweep_mm2_released_rna0.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 70,
+    "sha256": "e822329e9ca1181c7d8beca09a342d5ef41bbf499e3ffb95ebe2ff116bf2852b",
+    "source": "code_release/clinical_guide/sweep_mm2_released_rna1.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 8,
+    "sha256": "3b39db515e48f2547cba918411b4d4cbac6bdeb0e6241f8fa4901b9bf03bea99",
+    "source": "code_release/clinical_guide/sweep_mm3_corrected_rna0.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 883,
+    "sha256": "8b20b44dac410fc820aeb7b0f4105185eefe24549c0b7f840a01c278d7c2d01d",
+    "source": "code_release/clinical_guide/sweep_mm3_corrected_rna1.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 8,
+    "sha256": "3b39db515e48f2547cba918411b4d4cbac6bdeb0e6241f8fa4901b9bf03bea99",
+    "source": "code_release/clinical_guide/sweep_mm3_released_rna0.tsv"
+  },
+  {
+    "disposition": "not a pattern library: selected genomic output or summary; target universe not exhausted",
+    "nonempty_rows_including_header": 818,
+    "sha256": "a12dc324c82a600af8a9c0fcfb6675c727ad9cb0bf6d421b1c496670150804e9",
+    "source": "code_release/clinical_guide/sweep_mm3_released_rna1.tsv"
+  }
+]

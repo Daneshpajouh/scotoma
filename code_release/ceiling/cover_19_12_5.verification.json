@@ -1,0 +1,24 @@
+{
+  "N": 19,
+  "r": 5,
+  "m": 12,
+  "status": "VERIFIED-COMPUTATIONALLY",
+  "total_centre_orbits": 1296,
+  "total_point_orbits": 910,
+  "centre_word_count": 274877906944,
+  "union_word_count": 78492250669,
+  "cover": {
+    "passes": true,
+    "extremum": "13513514719/13513500000",
+    "at": {
+      "prefix": "0XX0",
+      "suffix_weight": 10
+    },
+    "violations": 0,
+    "orbits_checked": 910,
+    "total_mass": "3832059/1000000",
+    "support_orbits": 16
+  },
+  "passes": true,
+  "elapsed_seconds": 0.02
+}

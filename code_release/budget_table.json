@@ -1,0 +1,158 @@
+{
+  "N_sites": 28175,
+  "windows_total": 28176,
+  "method": "exact hypergeometric zero-defect via m0_search.m0_hypergeom",
+  "source": "data/exacel_enumeration_summary.json",
+  "rows": [
+    {
+      "k": 1,
+      "delta1": "0.05",
+      "gamma_lower_bound": 3.54924578527063e-05,
+      "exact_sites": 26767,
+      "exact_fraction": 0.9500266193433895,
+      "iid_draws": 84404,
+      "closed_form_sites": 26767,
+      "overshoot": 0
+    },
+    {
+      "k": 2,
+      "delta1": "0.05",
+      "gamma_lower_bound": 7.09849157054126e-05,
+      "exact_sites": 21875,
+      "exact_fraction": 0.7763975155279503,
+      "iid_draws": 42201,
+      "closed_form_sites": 21875,
+      "overshoot": 0
+    },
+    {
+      "k": 5,
+      "delta1": "0.05",
+      "gamma_lower_bound": 0.0001774622892635315,
+      "exact_sites": 12699,
+      "exact_fraction": 0.4507187222715173,
+      "iid_draws": 16880,
+      "closed_form_sites": 12700,
+      "overshoot": 1
+    },
+    {
+      "k": 10,
+      "delta1": "0.05",
+      "gamma_lower_bound": 0.000354924578527063,
+      "exact_sites": 7293,
+      "exact_fraction": 0.258846495119787,
+      "iid_draws": 8439,
+      "closed_form_sites": 7294,
+      "overshoot": 1
+    },
+    {
+      "k": 25,
+      "delta1": "0.05",
+      "gamma_lower_bound": 0.0008873114463176575,
+      "exact_sites": 3181,
+      "exact_fraction": 0.11290150842945874,
+      "iid_draws": 3375,
+      "closed_form_sites": 3182,
+      "overshoot": 1
+    },
+    {
+      "k": 1,
+      "delta1": "0.025",
+      "gamma_lower_bound": 3.54924578527063e-05,
+      "exact_sites": 27471,
+      "exact_fraction": 0.9750133096716948,
+      "iid_draws": 103933,
+      "closed_form_sites": 27471,
+      "overshoot": 0
+    },
+    {
+      "k": 2,
+      "delta1": "0.025",
+      "gamma_lower_bound": 7.09849157054126e-05,
+      "exact_sites": 23720,
+      "exact_fraction": 0.8418811002661934,
+      "iid_draws": 51966,
+      "closed_form_sites": 23721,
+      "overshoot": 1
+    },
+    {
+      "k": 5,
+      "delta1": "0.025",
+      "gamma_lower_bound": 0.0001774622892635315,
+      "exact_sites": 14702,
+      "exact_fraction": 0.521810115350488,
+      "iid_draws": 20785,
+      "closed_form_sites": 14703,
+      "overshoot": 1
+    },
+    {
+      "k": 10,
+      "delta1": "0.025",
+      "gamma_lower_bound": 0.000354924578527063,
+      "exact_sites": 8691,
+      "exact_fraction": 0.30846495119787043,
+      "iid_draws": 10392,
+      "closed_form_sites": 8692,
+      "overshoot": 1
+    },
+    {
+      "k": 25,
+      "delta1": "0.025",
+      "gamma_lower_bound": 0.0008873114463176575,
+      "exact_sites": 3864,
+      "exact_fraction": 0.13714285714285715,
+      "iid_draws": 4156,
+      "closed_form_sites": 3866,
+      "overshoot": 2
+    },
+    {
+      "k": 1,
+      "delta1": "0.01",
+      "gamma_lower_bound": 3.54924578527063e-05,
+      "exact_sites": 27894,
+      "exact_fraction": 0.9900266193433895,
+      "iid_draws": 129749,
+      "closed_form_sites": 27894,
+      "overshoot": 0
+    },
+    {
+      "k": 2,
+      "delta1": "0.01",
+      "gamma_lower_bound": 7.09849157054126e-05,
+      "exact_sites": 25358,
+      "exact_fraction": 0.9000177462289264,
+      "iid_draws": 64874,
+      "closed_form_sites": 25358,
+      "overshoot": 0
+    },
+    {
+      "k": 5,
+      "delta1": "0.01",
+      "gamma_lower_bound": 0.0001774622892635315,
+      "exact_sites": 16958,
+      "exact_fraction": 0.6018811002661935,
+      "iid_draws": 25948,
+      "closed_form_sites": 16959,
+      "overshoot": 1
+    },
+    {
+      "k": 10,
+      "delta1": "0.01",
+      "gamma_lower_bound": 0.000354924578527063,
+      "exact_sites": 10397,
+      "exact_fraction": 0.3690150842945874,
+      "iid_draws": 12973,
+      "closed_form_sites": 10398,
+      "overshoot": 1
+    },
+    {
+      "k": 25,
+      "delta1": "0.01",
+      "gamma_lower_bound": 0.0008873114463176575,
+      "exact_sites": 4739,
+      "exact_fraction": 0.16819875776397517,
+      "iid_draws": 5188,
+      "closed_form_sites": 4741,
+      "overshoot": 2
+    }
+  ]
+}

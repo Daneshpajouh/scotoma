@@ -1,0 +1,12 @@
+INTEGRITY_PASS 1678
+PACKAGE_BEGIN pooled
+COMMAND code_release /usr/local/bin/python3 -B -I certificates/pooled_m4_1629/my_private_check.py
+library rebuilt from guides: 1629 | equals census library: True
+words: 3258 distinct: 3258 | outside U: 0 | not private: 0 | library words owning exactly two: 1629 of 1629
+PASS
+REPLAY_RESOURCES {"package": "pooled", "command": ["/usr/local/bin/python3", "-B", "-I", "certificates/pooled_m4_1629/my_private_check.py"], "exit_code": 0, "wall_seconds": 4.004008874995634, "peak_child_rss_bytes": 19152896, "user_seconds": 3.953308, "system_seconds": 0.020701999999999998}
+COMMAND code_release /usr/local/bin/python3 -B -I certificates/pooled_m4_1629/space_verify.py data/producers_2026-10-20/bulge_census_full_idx_rna.json
+{"status": "PASS", "support": 3258, "mass": "1629", "pair_checks": 5305653, "triangles_checked": 7404, "worst_ball_mass_bound": "1", "negative_control_detected": true, "source_sha256": "8f8c03c4971656cba9dbf34ab8f37ec38955872a52d777d36f48ae6bc2264d23", "support_sha256": "7213bb411954d2247e6df1e0f31533f6bf88fa87499048e9e7f14e36fe052a6e", "seconds": 3.142177709029056, "peak_rss_mib": 25.5}
+REPLAY_RESOURCES {"package": "pooled", "command": ["/usr/local/bin/python3", "-B", "-I", "certificates/pooled_m4_1629/space_verify.py", "data/producers_2026-10-20/bulge_census_full_idx_rna.json"], "exit_code": 0, "wall_seconds": 3.1898348750546575, "peak_child_rss_bytes": 26771456, "user_seconds": 3.1500719999999998, "system_seconds": 0.022479}
+PACKAGE_PASS pooled
+time: sysctl kern.clockrate: Operation not permitted

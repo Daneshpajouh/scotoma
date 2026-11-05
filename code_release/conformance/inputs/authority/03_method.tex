@@ -1,0 +1,466 @@
+\paperheading{Covering floor and minimum sound pattern families}
+\label{sec:method}
+\label{sec:construction}
+
+Let $g=g_1\cdots g_n$ have maximal runs $R_0,\ldots,R_{r-1}$, run $k$ beginning at
+$a_k$, and let $D_k$ delete one base of that run. Put $N=n-1$, $L=\{D_k:k<r\}$,
+and $U_m=\bigcup_{P\in L}B_m(P)$. Write $K(N,r,m)$ for the minimum number of radius-$m$
+balls covering $U_m$, with centres anywhere in the four-letter space. The coordinate isometry
+below makes this depend only on $N,r,m$. The companion submission studies unrestricted covering and its fractional relaxation
+\citep{companion_reach}. We first prove the elementary floor
+needed at the deployed budget, then the minimum under soundness.
+
+\begin{proposition}\label{prop:structure}
+$D_k[p]=g_p$ for $p<a_k$ and $D_k[p]=g_{p+1}$ for $p\ge a_k$.
+Thus \emph{(i)} $d(D_k,D_j)=|k-j|$; \emph{(ii)} coordinate $p$ is informative exactly when
+$g_p\ne g_{p+1}$. Ordering these $r-1$ coordinates first and relabelling their
+two values gives $D_k=1^k0^{r-1-k}$ there, followed by \emph{(iii)} $N-r+1$ constant zeros:
+the canonical word $P_k=1^k0^{N-k}$, in the same index $k$.
+\end{proposition}
+\begin{proof}
+Deletion fixes the prefix and shifts the suffix left. Two deletion words differ
+at exactly the intervening run boundaries. Each coordinate switches once as
+$k$ increases, giving the staircase.
+\end{proof}
+This structure is published \citep{abusini2021reconstruction,abbasian2024errorball};
+its relabelling leaves letters $2,3$ unused at every coordinate.
+
+\begin{theorem}[A scattered transversal pins the covering number]\label{thm:floor}
+Let $S$ be a finite word set. A \emph{$2m$-scattered transversal} chooses
+$x_P\in B_m(P)$ for each $P\in S$, with $d(x_P,x_Q)>2m$ for $P\ne Q$.
+If one exists, every radius-$m$ ball cover of $\bigcup_{P\in S}B_m(P)$
+has at least $|S|$ balls, and $S$ attains that minimum.
+\end{theorem}
+\begin{proof}
+Every representative must be covered; a ball containing two would put them within
+$2m$. This is the unit-weight covering bound. Distant representatives are a published
+notion \citep{fiala2005distant}; their existence is sufficient, not necessary.
+\end{proof}
+
+\begin{theorem}[The constructive range]\label{thm:general}
+Every four-letter spacer of length $n\ge20$ admits such a transversal for every
+integer $0\le m\le5$. Hence $K(n-1,r,m)=r$.
+\end{theorem}
+\begin{proof}
+At $m=0$ take the library. Otherwise, in canonical coordinates, overwrite
+$\tau_k(s)=1+((k+s-1)\bmod19)$ in $P_k$, using the first $m$ offsets
+$(4,6,9,12,16)$ with letters $(2,3,2,3,2)$. Each witness is at distance $m$
+from its pattern. The exact distance formulas give pairwise distance at least
+$2m+1$ in the nineteen cyclic cases; the appendix supplies the formulas and tables,
+including same-letter overlaps. For separation $t\ge19$, only the at most $m$
+shared overwrites can cancel a differing boundary coordinate, so distance is at least
+$t-m\ge2m+1$. Coordinates outside the cycle only add. The coordinate isometry
+and restriction to the $r$ patterns finish the proof.
+\end{proof}
+
+This elementary construction alone settles the deployed budget $m=4$ and every
+$m\le5$. The companion's weighting theorem extends the same equality through
+$m\le9$ \citep{companion_reach}: it assigns fractional mass where one separated
+representative per pattern no longer suffices.
+That extension, $K(n-1,r,m)=r$ for every $n\ge20$, every run count and $0\le m\le9$, is
+\emph{not} a result of this paper and is left unnumbered here. It, the full-weight stopping
+budgets, the fractional thresholds, the integer obstructions including $K(19,11,10)=11$ with
+$9<\tau^*(19,11,10)<10$, and the infinite families are the companion's, cited and not claimed
+\citep{companion_reach}; this paper's own are the elementary transversal floor through $m\le5$,
+the minimum sound pattern family theorem, the deficit law and the tool and assay measurements.
+
+\subsection{Soundness, pooling and burst scope}
+
+\begin{theorem}[The bound reaches the patterns an enumerator emits, per guide]\label{thm:sound}
+Fix a spacer, let $L$ be its complete single-deletion library with $\lvert L\rvert=r$, let $U$ be the
+union of the radius-$m$ balls around $L$, and let $m\le N-2$. Call a pattern \emph{sound} when every
+word it accepts lies in $U$. Then at four letters no sound pattern carries a wildcard, and
+the only sound centres are the $r$ members of $L$, so the fewest sound patterns whose acceptances
+cover $U$ is exactly $r$, attained by $L$ and by nothing else.
+\end{theorem}
+
+\begin{proof}
+Each coordinate uses at most two library letters. If a pattern has a wildcard at $j$, write an
+unused letter there and at $m$ other coordinates. It accepts the result within its budget,
+but the result is at distance at least $m+1$ from every library word. A centre already carrying
+unused letters at $s\ge1$ coordinates similarly escapes by changing $\min(m,N-s)$ others.
+Thus a sound centre uses only library letters and is binary on the informative coordinates.
+If it is unsorted, choose $u<v$ with bits $0,1$. Every staircase word disagrees at $u$ or $v$.
+Changing $m$ other coordinates to unused letters is possible because $m\le N-2$ and yields
+an accepted word outside $U$. The sound centres are therefore exactly $L$.
+Finally, for each $D_j$, keep its one or two neighbour-boundary coordinates fixed and change
+$m$ other coordinates to unused letters. This point lies in its ball and outside every other
+library ball. Each $D_j$ is indispensable, so $L$ is the unique minimum sound family.
+\end{proof}
+At $n=20$ the soundness hypothesis is $m\le17$, including the deployed
+four-mismatch budget for every run count.
+The appendix retains a single-implementation $3{,}697{,}920$-centre check; the proof does not rely on it.
+\paragraph{Two minima and a sequence-only count test.}
+Soundness forbids words outside $U$; unrestricted covering requires only covering $U$. At
+$m=2$ the guide \texttt{ACGTA} has unrestricted minimum four and sound minimum five, one of
+the smallest such separations within $m\le N-2$; the appendix gives the finite check and the
+explicit cover, and the length ranges above are unchanged.
+
+For every $n\ge20$ and every $m\le5$, by \Cref{thm:general}, fewer than $r$ distinct
+wildcard-free centres cannot cover $U$ wherever placed; for budgets six through nine that
+conclusion is the companion's \citep{companion_reach}. One pass computes $r$ before any scan. A count of at least $r$ is
+insufficient, since duplicates do not enlarge the word set; alignment engines are tested by
+equality of projected target words with the deletion set. The appendix compares generate-and-diff and
+search-scheme tests and their costs.
+
+The theorem is per guide. Pooled libraries can use all four letters at a coordinate
+and admit sound wildcards. Nonzero false-positive budgets and pooled sound minima
+remain open \citep{kucherov2005multiseed,renders2024lossless,gottlieb2025search};
+the companion treats unrestricted pooling separately \citep{companion_reach}.
+
+\begin{proposition}[Burst structure]\label{prop:bstructure}
+For deletion of $g_i\cdots g_{i+b-1}$, $D_i[p]=g_p$ for $p<i$ and $g_{p+b}$
+otherwise. Hence $D_i=D_j$ ($i<j$) exactly when $g_p=g_{p+b}$ throughout
+$i\le p<j$, including \Cref{prop:deficit}'s adjacent collision condition.
+Indexing distinct words by these changes gives $d(D_i,D_j)=|i-j|$; each coordinate
+uses at most two letters and switches once. Thus \Cref{thm:floor} applies whenever
+a transversal exists at length $N=n-b$. At $n=20,m=4$, $b=1$ follows from
+\Cref{thm:general}. For $b=2,3$, set $N=20-b$ and overwrite canonical $P_k$ at
+$1+((k+s-1)\bmod N)$, $s=(2,5,9,13)$, with letters $(2,3,2,3)$.
+Each witness has radius four; literal Hamming checks of all $171$ pairs at
+$N=18$ and $153$ at $N=17$ give minimum distance nine. Restricting the chain
+settles every burst library. The appendix gives replay and panel structure
+checks for $b=1$ to $5$; large $b$ can fail.
+\end{proposition}
+
+Contiguity matters: \texttt{AACAA} has four unrestricted two-deletion words but
+covering number three at radius one; its single-deletion library has size and covering
+number three. The appendix retains complete enumeration and support-search negatives:
+construction failure at $m=5$ for $b=2,3$ does not refute the floor. The companion
+treats insertion \citep{companion_reach}; no mixed-class floor is claimed.
+
+\paperheading{Expansion counts and measured tool incompleteness}
+\label{sec:reduction}
+This section audits wildcard expansion within $m$ substitutions. A sequence occurring
+$a$ times contributes $a$ genomic sites; both qualifying strands contribute two.
+Pattern counts are set cardinalities. Unless stated otherwise, the census uses
+NGG on both strands and excludes PAM bases from substitution distance.
+
+\begin{proposition}[Deficit at every bulge size]\label{prop:deficit}
+For $1\le b\le n-2$, the $b$-burst-deletion ball $B_b(g)$ deletes one contiguous
+block. Its published size is $1+|\{i\in[1,n-b]:g_i\ne g_{i+b}\}|$
+\citep{lan2026burstballs,schoeny2016burst,levenshtein1967adjacent}.
+The wrapper \citep{park2016casoffinderbulge} emits $n-1$ of $n$ DNA patterns and
+$1+|\{i\in[2,n-b-1]:g_i\ne g_{i+b}\}|$ RNA words. The RNA-word deficit is
+$\Delta_{\rm RNA}=\mathbf{1}[g_1\ne g_{b+1}]+\mathbf{1}[g_n\ne g_{n-b}]$.
+The DNA-pattern deficit is $\Delta_{\rm DNA}=1$, so the combined deficit is
+$1+\Delta_{\rm RNA}\in\{1,2,3\}$: its leading one counts the lost DNA pattern.
+Slot $0$ is degenerate for every $b$; wrapper RNA words retain $g_1,g_n$.
+\end{proposition}
+
+\begin{proof}
+Adjacent block-deletion starts give the same word exactly when $g_i=g_{i+b}$;
+the collision classes are contiguous. Counting the first word and then each change
+gives the published ball-size identity. The wrapper retains only starts
+$2,\ldots,n-b$, removing the first and last change terms. Its DNA loop retains
+slots $1,\ldots,n-1$, while the complete non-degenerate set is $1,\ldots,n$.
+Slot $0$ is byte-identical to the padded no-bulge pattern; slot $n$ places the
+wildcard between spacer and PAM and is distinct. Thus one DNA pattern is always
+lost, with the two endpoint indicators deciding the RNA loss. The appendix gives
+both PAM orientations and the full source-loop derivation.
+\end{proof}
+
+\subsection{Tool versions, positions and execution scope}
+\label{ssec:tool-audit}
+Omitted positions and missing words differ (Table~\ref{tab:tool-audit}). Write
+$s=\mathbf{1}[g_1\ne g_2]$, $e=\mathbf{1}[g_{n-1}\ne g_n]$.
+The wrapper emits $r-s-e$ RNA words, the executed native parser $r-e$:
+an endpoint omission loses a word only for a singleton terminal run.
+
+Word-set completeness alone is not enough, and the two sides are not equally grave.
+Against this panel's minimum of $1{,}634$ distinct words the $2016$ wrapper emits $1{,}491$ and
+the native $3.0.0$ parsers $1{,}561$; below the minimum a search loses sites. CRISPRitz $2.7.1$
+and $2.9.0$ emit all $1{,}634$, in $2{,}200$ alignment rows of which $566$ repeat a locus already
+reported, one of them seven times, differing only in where the gap sits inside a run; above the
+minimum a search costs reading and storage but loses nothing. No audited route emits the minimum
+family and nothing else: two fall below its word set and two attain it but serialise it in more
+rows. It cannot be undercut by \Cref{thm:floor} and need not be exceeded by the companion's
+minimum \citep{companion_reach}. Replay: \path{code_release/tool_conformance/}.
+
+\begin{table}[!tbp]
+\centering
+\caption{Audited single-base bulge routes. RNA positions are one-based on a 20-base
+spacer, $1$ PAM-distal and $20$ PAM-proximal; DNA counts refer to the $20$ distinct
+non-degenerate patterns, excluding slot $0$, and ``untested'' records this audit's scope.
+The appendix pins every snapshot and source line; earlier version-3 tags are static
+\citep{casoffinder_v3_tags_2026}, and the Rust fixture and CRISPRseek caller trace are
+scoped in the text \citep{casoffinder2_rust_2026,crisprseek_1531_source,fieldlevel_audit_2026}.}
+\label{tab:tool-audit}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{@{}p{0.29\linewidth}p{0.22\linewidth}p{0.15\linewidth}p{0.27\linewidth}@{}}
+\toprule
+\raggedright Tool and version &\raggedright RNA positions omitted &\raggedright DNA patterns &\raggedright Evidence \tabularnewline
+\midrule
+\raggedright Cas-OFFinder wrapper, 2016 (\texttt{b5d6ab4}) &\raggedright $1$, $20$ &\raggedright $19$ of $20$ &\raggedright Executed wrapper dry-run \tabularnewline
+\raggedright Cas-OFFinder $3.0.0\mathrm{b}$, $3.0.0\mathrm{b}2$ &\raggedright $1$, $20$ &\raggedright Untested &\raggedright Static source and loop-bound emulation \tabularnewline
+\raggedright Cas-OFFinder $3.0.0\mathrm{b}3$/develop &\raggedright $20$ &\raggedright $20$ of $20$ &\raggedright Executed parser; full native search failed OpenCL discovery \tabularnewline
+\raggedright Cas-OFFinder 2, Rust $1.0.0$ (2026) &\raggedright $20$ in planted RNA fixture &\raggedright Inapplicable &\raggedright Executed CPU CLI; independent harness agrees \tabularnewline
+\raggedright CRISPRseek $1.52.0$ &\raggedright $1$, $20$ via $2.4.1$; $20$ via $3.0.0\mathrm{b}3$ &\raggedright Untested &\raggedright Executed in R, default route \tabularnewline
+\raggedright CRISPRitz $2.9.0$, $2.7.1$ &\raggedright None in RNA fixture &\raggedright Untested &\raggedright Native RNA search \tabularnewline
+\raggedright CRISPRme $2.1.14$; CRISPRme+ $2.8.0$ &\raggedright Delegate to the CRISPRitz engines above &\raggedright Untested &\raggedright Static source and captured forwarding commands; pipelines untested \tabularnewline
+\raggedright CHOPOFF $1.0.3$ &\raggedright None in symbolic RNA graph &\raggedright Untested &\raggedright Static source and graph transcription; native runtime untested \tabularnewline
+\raggedright SWOffinder $1.0.1$ \citep{yaish2023swoffinder}; CALITAS \texttt{7a3456c} &\raggedright Alignment engines; count test inapplicable &\raggedright Inapplicable &\raggedright Static alignment source; native runtimes untested \tabularnewline
+\bottomrule
+\end{tabular}
+\end{table}
+
+The wrapper dry-run is short of $r$ on $98/110$ guides, the unmodified
+$3.0.0\mathrm{b}3$/develop parser on $73/110$. Static tagged-source reading finds
+the terminal position absent in every version-3 tag, and the first also absent in
+$3.0.0\mathrm{b}$ and $3.0.0\mathrm{b}2$ \citep{casoffinder_v3_tags_2026}; those early
+parsers were not executed. The compiled full native program failed OpenCL discovery
+with \texttt{clGetDeviceIDs Failed: -30}. These are parser-library results.
+Native CRISPRitz $2.9.0$ and $2.7.1$ recover every distinct deletion on all $110$
+guides in the fixture; the appendix pins the snapshots.
+
+The $140{,}158$-base fixture contains $1{,}629$ pooled deletion words ($1{,}634$
+guide-specific), each with AGG and $64$ A-base separators. Both engines, indexed at maximum
+bulge two and run on one thread at zero mismatches, zero DNA bulges and one RNA bulge, project
+their twenty placements per guide to exactly $D(g)$ once PAMs and gaps are removed, both
+terminals included: fixture word-set equality, not an all-budget completeness claim.
+
+
+
+\paragraph{The 2026 rewrite and distributed routes.}
+Cas-OFFinder 2, the authors' Myers-based Rust rewrite, release $v1.0.0$
+($29$ August $2026$, \texttt{d7df0f45}), recovers $1{,}561/1{,}634$ guide-specific
+deletion words, missing exactly the unique terminal word on $73$ guides.
+An independent CPU CLI run agrees with the harness; \path{traceback.rs},
+lines $228$--$240$, excludes this placement
+\citep{casoffinder2_rust_2026,fieldlevel_audit_2026}. Budgets are zero mismatches,
+zero DNA bulges and one RNA bulge: a planted fixture, not a measured-activity run.
+
+\paragraph{The whole primary assembly, and an independent arrival at the same integer.}
+The fixture decides pattern generation; it does not say what a user loses on a genome.
+We therefore ran both builds over the entire GRCh38 primary assembly
+\citep{schneider2017grch38}, $25$ records and
+$3{,}088{,}286{,}401$ assembled bases, at the deployed settings: $20$-base spacer plus
+NGG, four mismatches, zero DNA bulges, one RNA bulge, both strands, CPU mode, the $110$-guide
+panel. The released build reports $937{,}934$ loci and the corrected build $972{,}875$.
+\emph{Corrected only: $34{,}941$. Released only: zero}, and the zero holds on each of the
+$25$ records and each of the $110$ guides separately, not merely in total. Every one of the
+$34{,}941$ is the same alignment class: an RNA deletion at one-based spacer position $20$,
+the terminal base, at four mismatches, with no exception. Candidate overhead is $34{,}941/937{,}934$, or $3.7253\%$, and the
+bulge-free control is identical for the two builds, $34{,}573$ loci, in total and per guide.
+
+This run never used the count $129$ of \Cref{ssec:measured-losses}. It asked only which of
+the $260$ deposited measured-active rows each binary returns: released $108$, corrected
+$237$, a difference of exactly $129$; the other $23$ are reference-matched but outside the
+stated NGG scope. What agrees is not two totals: \Cref{prop:deficit}'s rule, on the assay
+sequences with no genome and no executable, reproduces all $520$ return bits without one
+disagreement, and each lost site is at terminal distance four with minimum nonterminal distance
+five, so the deficit is one mismatch at each site and not on average. This is site-by-site
+evidence for the mechanism, not an identification of the rule: these rows are terminal-selected,
+so their corrected bits are the NGG predicate alone and a truncated rule fits them too. The
+checker asserts both and identifies the rule separately at budget zero.
+
+Twenty-four records pass every control; chr22 is flagged because alignments there match a PAM
+that is not literally \texttt{GG}, through an IUPAC-ambiguous reference base, and the flag is
+kept. The difference is unaffected, checked on the sequences and not the flag: no exported PAM
+string among the $34{,}941$ is other than \texttt{GG} or ambiguous. The tables and one command
+are at \path{code_release/genome_endtoend/}, where the checker recomputes every number above
+from the sequences and coordinates and a deposited script runs it on twenty-three corrupted
+copies: it rejects twenty-two, among them one locus repeated $34{,}941$ times and counts moved
+between subgroups so that every total still agrees, and accepts one invented reference base,
+which needs the reference to catch.
+
+\paragraph{What the omission costs a published dataset.}
+CRISPR-Net predicts off-target activity with indels \citep{lin2020crisprnet}, and Cas-OFFinder
+enumerated its hg38 candidates. In its two deposited indel datasets, all $238{,}705$ enumerated
+RNA-bulge rows on sixteen guides place the deletion at spacer positions $2$ to $19$, never at
+$1$ or $20$, and the DNA slots are likewise $1$ to $19$, matching the support of the $2016$
+wrapper's loop, whether because a loop skipped the endpoints or a policy re-anchored them,
+which the rows do not separate and nothing below needs. Those guides need $241$ distinct deletion
+words, $21$ of them only at position $1$ or $20$, and scanning the whole primary assembly for
+all $241$ at the datasets' own settings, those $21$ reach $35{,}272$ loci and $10{,}888$
+sequences that no interior word reaches within the budget. These datasets also enumerated ungapped candidates to six
+substitutions, and the PAM decides which endpoint that rescues. Restoring at position $1$
+prepends a base at the far end and leaves the PAM fixed, so those $5{,}235$ sequences land
+within four and their $6{,}407$ loci are candidates these files could hold. A terminal deletion
+sits against the PAM, so restoring it moves that boundary; holding it fixed, all $5{,}653$
+terminal sequences stay beyond six for every flank and no DNA insertion in any context reaches
+three, the closest being four, so their $28{,}865$ loci have no alignment at their own PAM
+boundary. One base out, every one is an eligible ungapped twenty-mer at three substitutions: the
+register is lost, not the neighbourhood. Replay: \path{code_release/published_dataset_hole/}.
+
+\paragraph{The guide in the clinic, and a one-mismatch ranking error.}
+A panel average does not say what happens to a particular therapeutic guide, so we repeated
+the comparison, same gates and same universe, on sg1617, the BCL11A $+58$ erythroid enhancer
+guide used in the sickle cell and $\beta$-thalassemia trials \citep{cancellieri2023variant}.
+The released build reports $4{,}414$ loci and the corrected build $4{,}778$: $364$ it cannot
+report, none in the other direction, $8.25\%$ of its own output and more than twice the panel
+rate. At budgets two, three and four it misses $1$, $49$ and $364$ loci, never reports one the
+corrected build does not, and the bulge-free control is identical at every budget. The
+mechanism is exact, and it is visible at the deployed budget alone. Of the $4{,}414$ loci both
+builds report there, $50$ carry a released mismatch count \emph{one too high} and none is ever
+too low; their true counts are two for one locus and three for $49$, exactly the loci invisible
+at those two budgets. Each missed locus thus costs the released build one extra mismatch. So a
+site whose true single-bulge alignment has two mismatches is absent at a two-mismatch budget and
+appears as a three-mismatch site at a larger one, and ranking or thresholding on mismatch count
+under-ranks the closest matches first. Replay at \path{code_release/clinical_guide/}.
+
+Bioconductor CRISPRseek $1.52.0$ was executed in R on its default dedicated bulge route
+(backend $2.4.1$, the bundled $2016$ generator): it emits $1{,}491/1{,}634$ words, short on
+$98/110$ spacers, every miss at position $1$ or $20$, agreeing with the standalone script on
+all $110$. That shortfall is the route's chosen expansion, not a runtime fault; the opt-in
+\texttt{offTargetAnalysis()} path selects native $3.0.0\mathrm{b}3$ and defaults to off
+\citep{crisprseek_1531_source,fieldlevel_audit_2026}. Replay:
+\path{code_release/crisprseek_executed/}.
+
+Static inspection finds the wrapper, or a byte-identical derivative, in four further projects
+and two Docker recipes, without establishing a pipeline default or affected-user count
+\citep{fieldlevel_audit_2026}. Published machine-learning off-target predictors built candidate
+sets with this expansion \citep{yaish2024bulges}, so the omission reaches their training data.
+
+The audit rejects all $54$ negative controls and accepts both positive controls,
+testing distinct-deletion removal, duplicate-row padding, zero RNA-gap budgets,
+malformed inputs and suppressed endpoint edges. Removing a redundant endpoint
+inside a terminal run is a positive control: all distinct words survive. The
+appendix retains every control and outcome.
+
+\subsection{Measured endpoint losses and their denominators}
+\label{ssec:measured-losses}
+Activity here means a positive read count in the deposited assay table. Bulge
+positions come from its alignment gaps, with gap counts checked against the
+declared bulge counts. This is a measurement of nominations under a specified
+search policy, rather than a cleavage mechanism inferred from an alignment.
+
+At four mismatches, completing the $2016$ wrapper's patterns adds $3.98\%$
+for single-DNA-bulge loci, $7.44\%$ for single-RNA-bulge loci and $6.40\%$ for
+the bulge-attributable total. Each denominator is the audited wrapper's own
+corresponding output count, rather than a complete locus count. Its omission excludes $129$ active in vitro sites/$40$
+guides, all terminal RNA; the native parser library misses the same set, and both
+have zero losses at six mismatches. This follows from \Cref{prop:deficit},
+separately from the covering floor.
+An independent implementation scanned all $4{,}936{,}278$ deposited rows under both
+PAM policies, reproducing $583$ terminal annotations, $260$ exposed rows and zero
+first-RNA and DNA losses. Its complete loss set agrees at row identity and multiplicity
+on $129/40$ with exact NGG, both strands, PAM excluded from distance; admitting
+non-NGG and charging PAM substitutions instead gives $148/43$. The $583/260$
+annotation census retains deposited PAMs. Counts precede identity comparison,
+without reference filtering; the deposited schema4 report and log record both
+completed scans \citep{zw4_reconciliation_2026}.
+
+\paragraph{Position, exposure and exclusive loss are different sets.}
+Of $583$ terminal RNA annotations, $323$ have $g_n=g_{n-1}$: their terminal
+word is emitted internally, and all are reached. The other $260$ have
+$g_n\ne g_{n-1}$; $129$ evade every emitted pattern in budget on $40/110$ guides,
+about half the exposed set and a fifth of the terminal set. Exposure is necessary,
+not sufficient, for loss. The first RNA position and omitted DNA slot have no
+measured-active losses in this panel.
+
+For every one of the $129$, the terminal deletion is the unique
+mismatch-minimising placement: an interior placement in budget would contradict
+exclusivity. Scanning all NGG bulge-free registers on both strands of the deposited
+window rescues none within four mismatches. At six mismatches every one is
+reachable by an alternative bulged placement. The appendix's positional audit
+retains the per-position counts, alignment checks and window controls.
+
+\paragraph{Genomic annotations.}
+For the $129$ missed and $323$ spared terminal sites, gene overlap ($60.5$ against $58.8$
+per cent), protein-coding overlap ($48.8$ against $51.4$) and cancer-driver overlap do not
+separate the classes (Fisher $p=0.83$, $0.68$, $1$). A single-implementation
+read-depth comparison gives medians $14$ vs $18$ ($U=17{,}792$, $p=0.015$), confounded because
+all $129$ sit at four deposited mismatches; against $213$ four-mismatch controls, $14$ vs $16$,
+$p=0.334$. The losses are $0.064$ percentage points of
+$201{,}931$ active rows\ifrecombmode\ in the appendix's recall table\else\ in \Cref{tab:recall}\fi.
+Neither GUIDE-seq deposit's $459$ bulge-bearing cellular actives is affected, the expected
+control for assays that do not begin from an enumerated list. Exclusivity in vitro is per guide;
+pooling all $110$ guides' patterns and discarding attribution still leaves $96$ missed across
+$37$ guides, so the headline is bounded below (appendix).
+
+\paragraph{What a published scorer does with the omitted alignments.}
+CRISPR-Net \citep{lin2020crisprnet} was reimplemented from its deposited weights; three of its
+four published figures reproduce and the five-guide AUPRC is $0.3198$ against a published $0.329$. Run at its published cutoff on the
+deposited alignments, it qualifies $1{,}029$ of the $34{,}941$ corrected-only loci against $187$
+of a released-returned set matched by guide and mismatch count, and does not separate the $129$
+omitted active sites from returned ones at four mismatches ($19$ of $129$ against $3$ of $21$).
+These are nomination scores on retrospective inputs, not cleavage.
+Replay: \path{code_release/published_model_scores/}.
+
+\paragraph{The five cellular loci, by record.} Guide \mbox{\texttt{GACCCCCTCCACCCCGCCTC}} has
+five loci that Tracking-seq2 \citep{cong2026tracking2} reports active in $293$T cells, all rows
+of one deposited VEGFA$2$ $293$T sheet whose index is the last column; chr19 is minus-strand. The numeric columns are minimum substitutions to the $19$-base core from an
+interior deletion, from position~$1$, and from a bulge-free register of the deposited $92$- or
+$93$-base window, both strands, under each PAM class, the PAM excluded from the distance.
+\par\vspace{2pt}
+\centerline{\small\setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{0.98}%
+\begin{tabular}{@{}llcccccr@{}}
+\toprule
+locus (hg38) & core, guide orientation & interior & pos.~$1$ & NGG & NGA & NG$*$ & row\\
+\midrule
+chr1:121{,}395{,}975 & \texttt{TATTCCCCCCACCCCGCCT} & $5$ & $11$ & $12$ & $15$ & $4$ & $181$\\
+chr11:32{,}073{,}136 & \texttt{ACCCCCCCCAACCCCGCCT} & $5$ & $6$ & $7$ & $14$ & $4$ & $422$\\
+chr18:57{,}434{,}112 & \texttt{CTACCCCTCCACCCCGACT} & $5$ & $12$ & $11$ & $4$ & $4$ & $1{,}143$\\
+chr19:5{,}536{,}276 & \texttt{AACCCACCCCACCCCACCT} & $5$ & $9$ & $10$ & $4$ & $4$ & $1{,}194$\\
+chrX:68{,}433{,}937 & \texttt{TCTCCCCACCACCCCGCCT} & $5$ & $10$ & $10$ & $5$ & $5$ & $2{,}665$\\
+\bottomrule
+\end{tabular}}
+\vspace{2pt}\par\noindent
+Every row's minimum over all twenty single-base deletions is four, attained only at
+position~$20$; three loci still need that terminal deletion even under NGA and only chrX needs
+it under any second-base-G PAM. The chr18 locus is amplicon-confirmed by its authors; these are
+nomination results, not population rates or evidence of the cleavage register.
+
+\subsection{Exact counts and attribution}
+\label{sec:lemmas}
+Write $n=20$ for the spacer and $L=3$ for the PAM. A class with $d$ unpaired DNA bases and
+$r$ unpaired RNA bases has pattern length $n+L+d-r$ and $L+d$ wildcards.
+
+\begin{remark}[Classes and counting units]\label{rem:inv}
+Unpadded length $n+L+d-r$ and wildcard count $L+d$ recover $(d,r)$, so classes
+partition patterns. Their pattern counts add; locus counts require a computed
+union, since classes can reach the same locus. Padded signatures do not separate
+classes; the wrapper's pattern sets are instead disjoint (appendix).
+\end{remark}
+
+\begin{proposition}[Which guides collide, and how many patterns they share]\label{prop:ident}
+Let $g \neq h$ be spacers of length $n$.
+\emph{(i)} In an insertion-only class their pattern sets are disjoint: the whole spacer
+survives in the pattern and is recovered by deleting the wildcards.
+\emph{(ii)} In the single-deletion class the sets meet if and only if $g$ and $h$ are both
+single-base insertions into one common $(n-1)$-word, that is, iff their single-deletion balls
+intersect. That intersection has size at most $2$, Levenshtein's bound, not ours
+\citep{levenshtein2001reconstruction}. For a one-base shift $h = x\,g_1\cdots g_{n-1}$ it
+always contains $w = g_1\cdots g_{n-1}$, and a second word exactly when some $w',w''\in D_1(w)$ give
+$xw' = w''g_n\ne w$, which needs periodicity at the junction ($\texttt{ACAC}$ and $\texttt{CACA}$ share
+two). On this panel the intersection is empty for $5{,}990$ of $5{,}995$ pairs; for the five
+one-base-shift pairs it is exactly $\{w\}$, in either direction.
+\emph{(iii)} In the mixed class every shared $(n-1)$-word $w$ contributes exactly $n-1$ shared
+patterns, namely the single-wildcard insertions into $w$ at slots $1,\ldots,n-1$; slot $0$ is
+outside the class, placing the wildcard before the protospacer. A one-base-shift pair therefore shares exactly $n-1$, or $2(n-1)$ in that periodic case.
+\end{proposition}
+
+\begin{proposition}[DNA pattern count]\label{prop:count}
+For one unpaired DNA base the scheme yields exactly $n$ distinct patterns per guide: of the $n+1$
+insertion slots, slot $0$ is byte-identical to the run's own no-bulge pattern and contributes nothing,
+and no two of the remaining $n$ coincide.
+\end{proposition}
+
+\begin{proposition}[Panel-wide pattern count]\label{prop:panel}
+For a panel of $M$ distinct spacers, with $D(G)$ the union of their single-deletion balls, the
+scheme examines exactly $Mn$, $\lvert D(G)\rvert$ and $\lvert D(G)\rvert(n-1)$ distinct patterns
+in the three classes, fixing its pattern count before any scan. Here $\lvert D(G)\rvert = 1{,}629$,
+and deduplicating across guides would remove $0.31\%$ of single-RNA patterns: sharing is a correctness condition,
+not a cost one. Proof in the appendix.
+\end{proposition}
+
+\subsection{The cost of a stated bulge policy}
+\label{ssec:bulge-cost}
+On the $110$-guide CHANGE-seq panel on GRCh38, at four mismatches and NGG on both strands,
+the baseline is $34{,}652$ ungapped loci. Merging bulged hits within $3$ bp of an ungapped
+hit for the same guide and strand, one single-base bulge multiplies counts by $34.9$
+panel-wide (median $40.1$), or $36.0$ without that merge ($1{,}212{,}681$ added
+loci). The union through two bases costs $108.2$, the mixed DNA/RNA
+class $187.8$, and the union of all three $276.1$, a $7.9$-fold policy spread (appendix).
+The whole-number factors are $35$, $108$, $188$ and $276$. All four use the same
+ungapped denominator and locus unions: the spread prices policy at fixed panel,
+assembly, PAM and mismatch budget. The two-base policy allows one contiguous
+bulge of either size; the mixed policy allows one DNA and one RNA bulge per site.
+The assay deposits annotate only single bulges, so these prices do not establish
+common two-base or mixed bulges among measured actives.
+The bulge-free enumerator agrees with Cas-OFFinder \citep{bae2014casoffinder} in per-guide
+count for all $110$ guides through five mismatches; the appendix holds the full taxonomy,
+the separate-locus and two-tool bulge comparisons, counting-unit definitions and algorithms.

@@ -1,0 +1,32 @@
+{
+  "all_alignments_representable": true,
+  "by_arm": {
+    "active": {
+      "alignment_gap_characters_converted": 260,
+      "non_gap_characters_unchanged": 11700,
+      "original_encoder_tensor_equal_rows": 260,
+      "rows": 260
+    },
+    "control": {
+      "alignment_gap_characters_converted": 34941,
+      "non_gap_characters_unchanged": 1572345,
+      "original_encoder_tensor_equal_rows": 34941,
+      "rows": 34941
+    },
+    "treatment": {
+      "alignment_gap_characters_converted": 34941,
+      "non_gap_characters_unchanged": 1572345,
+      "original_encoder_tensor_equal_rows": 34941,
+      "rows": 34941
+    }
+  },
+  "conversion": "Within deposited alignment strings only, '-' -> '_'; all other characters fixed. The encoder subsequently prepends its own '-' padding to both sequences.",
+  "gap_vs_padding_negative_control_pass": true,
+  "guide_N_policy": "Each guide N is replaced by the DNA symbol at that same column; guide PAM is NNN.",
+  "input_length": 23,
+  "left_padding_columns": 1,
+  "published_gap": "_",
+  "published_padding": "-",
+  "tensor_channels": 7,
+  "tensor_columns": 24
+}

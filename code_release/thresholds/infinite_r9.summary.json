@@ -1,0 +1,82 @@
+{
+  "status": "PROVED: exact computer-assisted infinite-range packing certificate",
+  "r": 9,
+  "alpha": 27,
+  "beta": 0,
+  "min_n": 27,
+  "scale": 4,
+  "dmax": 2,
+  "mass_type": "constant",
+  "C0": null,
+  "residues": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "family": [
+    {
+      "prefix": "0000011X",
+      "distance": 1,
+      "mass": "1"
+    },
+    {
+      "prefix": "X0011111",
+      "distance": 1,
+      "mass": "1"
+    },
+    {
+      "prefix": "000X0001",
+      "distance": 1,
+      "mass": "1"
+    },
+    {
+      "prefix": "0111X111",
+      "distance": 1,
+      "mass": "1"
+    },
+    {
+      "prefix": "001111XX",
+      "distance": 2,
+      "mass": "1"
+    },
+    {
+      "prefix": "XX000011",
+      "distance": 2,
+      "mass": "1"
+    },
+    {
+      "prefix": "0X0011X1",
+      "distance": 2,
+      "mass": "1"
+    },
+    {
+      "prefix": "1111101X",
+      "distance": 2,
+      "mass": "1"
+    },
+    {
+      "prefix": "X0100000",
+      "distance": 2,
+      "mass": "1"
+    }
+  ],
+  "prefix_count": 6561,
+  "unique_profiles": 3212,
+  "moment": {
+    "cutoff": 43,
+    "t": "3/2",
+    "prefix_potential": "1031/243",
+    "rho_upper": "3/5",
+    "moment_factor": "29/30",
+    "bound": "787721274568596056619929975328228171546244335202398336163582152259/797664430768725098633610000000000000000000000000000000000000000000",
+    "bound_less_than_99_over_100": true
+  },
+  "polynomial_rows": 15695,
+  "checked_newton_coefficients": 345290,
+  "checked_finite_values": 0,
+  "maximum_shift": 0,
+  "seconds": 7.113,
+  "certificate_sha256": "eda1d69f36bfb77f44ef236720c7d90435b03264a0733a0787a2f02376bb508f"
+}

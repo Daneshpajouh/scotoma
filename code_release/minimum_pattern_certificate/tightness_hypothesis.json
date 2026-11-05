@@ -1,0 +1,1607 @@
+{
+  "definition": "Companion unique-sound theorem: for m<=n-3 the only sound centres are the r deletion words. Hypothesis tightness: m<=n-3 cannot be weakened to m<=n-2.",
+  "settled_statement": "The hypothesis m <= n-3 cannot be weakened to m <= n-2: the minimal first-letter-A witness under exhaustive enumeration at n<=5 is guide ACA at m = n-2 = 1, with |sound| = 4 > r = 3 and Um proper (12/16); at the theorem boundary m = n-3 = 0 the same guide has |sound| = r = 3. Secondary: AACCG at m=3=n-2 also has |sound|=4>r=3 (prior deposit).",
+  "primary_minimal_witness": {
+    "guide": "ACA",
+    "n": 3,
+    "m": 1,
+    "n_minus_3": 0,
+    "outside_companion_soundness_range": true,
+    "r": 3,
+    "deletion_words": [
+      "AA",
+      "AC",
+      "CA"
+    ],
+    "|Um|": 12,
+    "space": 16,
+    "Um_proper": true,
+    "Um_nonempty": true,
+    "|sound|": 4,
+    "sound_gt_r": true,
+    "extra_sound_centres": [
+      "CC"
+    ]
+  },
+  "primary_explicit_rminus1_cover": [
+    "AA",
+    "CC"
+  ],
+  "control_at_theorem_boundary": {
+    "guide": "ACA",
+    "n": 3,
+    "m": 0,
+    "n_minus_3": 0,
+    "outside_companion_soundness_range": false,
+    "r": 3,
+    "deletion_words": [
+      "AA",
+      "AC",
+      "CA"
+    ],
+    "|Um|": 3,
+    "space": 16,
+    "Um_proper": true,
+    "Um_nonempty": true,
+    "|sound|": 3,
+    "sound_gt_r": false,
+    "extra_sound_centres": []
+  },
+  "secondary_AACCG_outside": {
+    "guide": "AACCG",
+    "n": 5,
+    "m": 3,
+    "n_minus_3": 2,
+    "outside_companion_soundness_range": true,
+    "r": 3,
+    "deletion_words": [
+      "AACC",
+      "AACG",
+      "ACCG"
+    ],
+    "|Um|": 220,
+    "space": 256,
+    "Um_proper": true,
+    "Um_nonempty": true,
+    "|sound|": 4,
+    "sound_gt_r": true,
+    "extra_sound_centres": [
+      "ACCC"
+    ]
+  },
+  "secondary_AACCG_boundary": {
+    "guide": "AACCG",
+    "n": 5,
+    "m": 2,
+    "n_minus_3": 2,
+    "outside_companion_soundness_range": false,
+    "r": 3,
+    "deletion_words": [
+      "AACC",
+      "AACG",
+      "ACCG"
+    ],
+    "|Um|": 115,
+    "space": 256,
+    "Um_proper": true,
+    "Um_nonempty": true,
+    "|sound|": 3,
+    "sound_gt_r": false,
+    "extra_sound_centres": []
+  },
+  "minimal_outside_witness_in_census": {
+    "guide": "ACA",
+    "n": 3,
+    "m": 1,
+    "r": 3,
+    "|sound|": 4,
+    "extra_sound_centres": [
+      "CC"
+    ],
+    "|Um|": 12,
+    "space": 16
+  },
+  "outside_witnesses_with_n_lt_5": [
+    {
+      "guide": "ACA",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CC"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "ACG",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CC"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "ACT",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CC"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "AGA",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "GG"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "AGC",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "GG"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "AGT",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "GG"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "ATA",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "TT"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "ATC",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "TT"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "ATG",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "TT"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "AACA",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "ACC"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AACG",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "ACC"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AACT",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "ACC"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AAGA",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "AGG"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AAGC",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "AGG"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AAGT",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "AGG"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AATA",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "ATT"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AATC",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "ATT"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AATG",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "ATT"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ACAA",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CCA"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ACAC",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AAA",
+        "CAA",
+        "CCA",
+        "CCC"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACAG",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AAA",
+        "CAA",
+        "CCA",
+        "CCG"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACAT",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AAA",
+        "CAA",
+        "CCA",
+        "CCT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACCA",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CCC"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ACCG",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CCC"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ACCT",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CCC"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ACGA",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AGG",
+        "CCA",
+        "CCG",
+        "CGG"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACGC",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AGG",
+        "CCC",
+        "CCG",
+        "CGG"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACGG",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CCG"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ACGT",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AGG",
+        "CCG",
+        "CCT",
+        "CGG"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACTA",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ATT",
+        "CCA",
+        "CCT",
+        "CTT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACTC",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ATT",
+        "CCC",
+        "CCT",
+        "CTT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACTG",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ATT",
+        "CCG",
+        "CCT",
+        "CTT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACTT",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CCT"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AGAA",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "GGA"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AGAC",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AAA",
+        "GAA",
+        "GGA",
+        "GGC"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "AGAG",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AAA",
+        "GAA",
+        "GGA",
+        "GGG"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "AGAT",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AAA",
+        "GAA",
+        "GGA",
+        "GGT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "AGCA",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ACC",
+        "GCC",
+        "GGA",
+        "GGC"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "AGCC",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "GGC"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AGCG",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ACC",
+        "GCC",
+        "GGC",
+        "GGG"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "AGCT",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ACC",
+        "GCC",
+        "GGC",
+        "GGT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "AGGA",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "GGG"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AGGC",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "GGG"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AGGT",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "GGG"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AGTA",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ATT",
+        "GGA",
+        "GGT",
+        "GTT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "AGTC",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ATT",
+        "GGC",
+        "GGT",
+        "GTT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "AGTG",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ATT",
+        "GGG",
+        "GGT",
+        "GTT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "AGTT",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "GGT"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ATAA",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "TTA"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ATAC",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AAA",
+        "TAA",
+        "TTA",
+        "TTC"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ATAG",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AAA",
+        "TAA",
+        "TTA",
+        "TTG"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ATAT",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AAA",
+        "TAA",
+        "TTA",
+        "TTT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ATCA",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ACC",
+        "TCC",
+        "TTA",
+        "TTC"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ATCC",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "TTC"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ATCG",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ACC",
+        "TCC",
+        "TTC",
+        "TTG"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ATCT",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ACC",
+        "TCC",
+        "TTC",
+        "TTT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ATGA",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AGG",
+        "TGG",
+        "TTA",
+        "TTG"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ATGC",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AGG",
+        "TGG",
+        "TTC",
+        "TTG"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ATGG",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "TTG"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ATGT",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AGG",
+        "TGG",
+        "TTG",
+        "TTT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ATTA",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "TTT"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ATTC",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "TTT"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ATTG",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "TTT"
+      ],
+      "|Um|": 52,
+      "space": 64
+    }
+  ],
+  "census": [
+    {
+      "n": 3,
+      "m": 1,
+      "m_mode": "outside_n_minus_2",
+      "enum_mode": "exhaustive_first_A",
+      "guides_classified": 16,
+      "Um_proper_nonempty": 16,
+      "sound_gt_r_count": 9,
+      "first_witness": {
+        "guide": "ACA",
+        "n": 3,
+        "m": 1,
+        "r": 3,
+        "|sound|": 4,
+        "extra_sound_centres": [
+          "CC"
+        ],
+        "|Um|": 12,
+        "space": 16
+      },
+      "wall_seconds_partial": 0.0
+    },
+    {
+      "n": 3,
+      "m": 0,
+      "m_mode": "inside_n_minus_3",
+      "enum_mode": "exhaustive_first_A",
+      "guides_classified": 16,
+      "Um_proper_nonempty": 16,
+      "sound_gt_r_count": 0,
+      "first_witness": null,
+      "wall_seconds_partial": 0.0
+    },
+    {
+      "n": 4,
+      "m": 2,
+      "m_mode": "outside_n_minus_2",
+      "enum_mode": "exhaustive_first_A",
+      "guides_classified": 64,
+      "Um_proper_nonempty": 64,
+      "sound_gt_r_count": 54,
+      "first_witness": {
+        "guide": "AACA",
+        "n": 4,
+        "m": 2,
+        "r": 3,
+        "|sound|": 4,
+        "extra_sound_centres": [
+          "ACC"
+        ],
+        "|Um|": 52,
+        "space": 64
+      },
+      "wall_seconds_partial": 0.042
+    },
+    {
+      "n": 4,
+      "m": 1,
+      "m_mode": "inside_n_minus_3",
+      "enum_mode": "exhaustive_first_A",
+      "guides_classified": 64,
+      "Um_proper_nonempty": 64,
+      "sound_gt_r_count": 0,
+      "first_witness": null,
+      "wall_seconds_partial": 0.047
+    },
+    {
+      "n": 5,
+      "m": 3,
+      "m_mode": "outside_n_minus_2",
+      "enum_mode": "exhaustive_first_A",
+      "guides_classified": 256,
+      "Um_proper_nonempty": 256,
+      "sound_gt_r_count": 243,
+      "first_witness": {
+        "guide": "AAACA",
+        "n": 5,
+        "m": 3,
+        "r": 3,
+        "|sound|": 4,
+        "extra_sound_centres": [
+          "AACC"
+        ],
+        "|Um|": 220,
+        "space": 256
+      },
+      "wall_seconds_partial": 5.273
+    },
+    {
+      "n": 5,
+      "m": 2,
+      "m_mode": "inside_n_minus_3",
+      "enum_mode": "exhaustive_first_A",
+      "guides_classified": 256,
+      "Um_proper_nonempty": 256,
+      "sound_gt_r_count": 0,
+      "first_witness": null,
+      "wall_seconds_partial": 6.441
+    },
+    {
+      "n": 6,
+      "m": 4,
+      "m_mode": "outside_n_minus_2",
+      "enum_mode": "structured_plus_120_random_first_A",
+      "guides_classified": 132,
+      "Um_proper_nonempty": 132,
+      "sound_gt_r_count": 116,
+      "first_witness": {
+        "guide": "AACCGG",
+        "n": 6,
+        "m": 4,
+        "r": 3,
+        "|sound|": 4,
+        "extra_sound_centres": [
+          "ACCCG"
+        ],
+        "|Um|": 916,
+        "space": 1024
+      },
+      "wall_seconds_partial": 82.503
+    },
+    {
+      "n": 6,
+      "m": 3,
+      "m_mode": "inside_n_minus_3",
+      "enum_mode": "structured_plus_120_random_first_A",
+      "guides_classified": 130,
+      "Um_proper_nonempty": 130,
+      "sound_gt_r_count": 0,
+      "first_witness": null,
+      "wall_seconds_partial": 105.836
+    }
+  ],
+  "outside_witnesses_unique_count": 422,
+  "outside_witnesses_unique_sample": [
+    {
+      "guide": "ACA",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CC"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "ACG",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CC"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "ACT",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CC"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "AGA",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "GG"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "AGC",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "GG"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "AGT",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "GG"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "ATA",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "TT"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "ATC",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "TT"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "ATG",
+      "n": 3,
+      "m": 1,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "TT"
+      ],
+      "|Um|": 12,
+      "space": 16
+    },
+    {
+      "guide": "AACA",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "ACC"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AACG",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "ACC"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AACT",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "ACC"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AAGA",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "AGG"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AAGC",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "AGG"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AAGT",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "AGG"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AATA",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "ATT"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AATC",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "ATT"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AATG",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "ATT"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ACAA",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CCA"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ACAC",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AAA",
+        "CAA",
+        "CCA",
+        "CCC"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACAG",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AAA",
+        "CAA",
+        "CCA",
+        "CCG"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACAT",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AAA",
+        "CAA",
+        "CCA",
+        "CCT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACCA",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CCC"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ACCG",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CCC"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ACCT",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CCC"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ACGA",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AGG",
+        "CCA",
+        "CCG",
+        "CGG"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACGC",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AGG",
+        "CCC",
+        "CCG",
+        "CGG"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACGG",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CCG"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "ACGT",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AGG",
+        "CCG",
+        "CCT",
+        "CGG"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACTA",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ATT",
+        "CCA",
+        "CCT",
+        "CTT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACTC",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ATT",
+        "CCC",
+        "CCT",
+        "CTT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACTG",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ATT",
+        "CCG",
+        "CCT",
+        "CTT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "ACTT",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "CCT"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AGAA",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "GGA"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AGAC",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AAA",
+        "GAA",
+        "GGA",
+        "GGC"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "AGAG",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AAA",
+        "GAA",
+        "GGA",
+        "GGG"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "AGAT",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "AAA",
+        "GAA",
+        "GGA",
+        "GGT"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "AGCA",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ACC",
+        "GCC",
+        "GGA",
+        "GGC"
+      ],
+      "|Um|": 56,
+      "space": 64
+    },
+    {
+      "guide": "AGCC",
+      "n": 4,
+      "m": 2,
+      "r": 3,
+      "|sound|": 4,
+      "extra_sound_centres": [
+        "GGC"
+      ],
+      "|Um|": 52,
+      "space": 64
+    },
+    {
+      "guide": "AGCG",
+      "n": 4,
+      "m": 2,
+      "r": 4,
+      "|sound|": 8,
+      "extra_sound_centres": [
+        "ACC",
+        "GCC",
+        "GGC",
+        "GGG"
+      ],
+      "|Um|": 56,
+      "space": 64
+    }
+  ],
+  "inside_boundary_failures_count": 0,
+  "inside_boundary_failures": [],
+  "timed_out": false,
+  "wall_seconds": 105.86,
+  "status": "PASS"
+}

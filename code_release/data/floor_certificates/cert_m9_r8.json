@@ -1,0 +1,223 @@
+{
+ "N": 19,
+ "m": 9,
+ "r": 8,
+ "free_length": 12,
+ "status": "PROVED",
+ "criterion": "K >= ceil(LP*); a feasible dual of mass > r-1 proves K = r",
+ "restriction": "none; the dual support carries non-binary active prefixes",
+ "exact_total_mass": "7999999975/999999998",
+ "exact_total_mass_float": 7.999999991,
+ "ceiling": 8,
+ "exact_max_ball_mass": "1",
+ "max_ball_at": [
+  "0000000",
+  0
+ ],
+ "centre_classes_verified": 28431,
+ "centre_classes_note": "ALL (active-prefix type, free weight) classes, 3^7 x 13. Not the 2^7 binary-prefix classes: this dual has non-binary support, so the binary reduction is unavailable and was not used.",
+ "support_orbits": 39,
+ "rounding": "solver masses rounded DOWN to denominator 1000000000 (preserves feasibility), then scaled by the exact maximum load 499999999/500000000 so the released dual is feasible everywhere with maximum ball mass exactly 1",
+ "dual": [
+  {
+   "prefix": "00000X0",
+   "free_weight": 8,
+   "mass": "738539833/999999998"
+  },
+  {
+   "prefix": "000XX00",
+   "free_weight": 7,
+   "mass": "128424658/499999999"
+  },
+  {
+   "prefix": "0011110",
+   "free_weight": 7,
+   "mass": "61264377/999999998"
+  },
+  {
+   "prefix": "0111000",
+   "free_weight": 8,
+   "mass": "121102445/499999999"
+  },
+  {
+   "prefix": "011X10X",
+   "free_weight": 6,
+   "mass": "17529155/999999998"
+  },
+  {
+   "prefix": "011XX11",
+   "free_weight": 6,
+   "mass": "18908592/499999999"
+  },
+  {
+   "prefix": "01X1100",
+   "free_weight": 7,
+   "mass": "46894385/999999998"
+  },
+  {
+   "prefix": "01X110X",
+   "free_weight": 6,
+   "mass": "141534554/499999999"
+  },
+  {
+   "prefix": "0X11000",
+   "free_weight": 7,
+   "mass": "190243093/999999998"
+  },
+  {
+   "prefix": "0XXX0X0",
+   "free_weight": 5,
+   "mass": "4610849/999999998"
+  },
+  {
+   "prefix": "10000XX",
+   "free_weight": 7,
+   "mass": "65447743/499999999"
+  },
+  {
+   "prefix": "10001XX",
+   "free_weight": 6,
+   "mass": "77223338/499999999"
+  },
+  {
+   "prefix": "100X001",
+   "free_weight": 7,
+   "mass": "275922277/999999998"
+  },
+  {
+   "prefix": "100X01X",
+   "free_weight": 6,
+   "mass": "52705885/999999998"
+  },
+  {
+   "prefix": "100X0X0",
+   "free_weight": 7,
+   "mass": "218534293/999999998"
+  },
+  {
+   "prefix": "100XX0X",
+   "free_weight": 6,
+   "mass": "167495379/999999998"
+  },
+  {
+   "prefix": "101110X",
+   "free_weight": 7,
+   "mass": "121102445/499999999"
+  },
+  {
+   "prefix": "1100X01",
+   "free_weight": 7,
+   "mass": "172410083/999999998"
+  },
+  {
+   "prefix": "1100XX0",
+   "free_weight": 7,
+   "mass": "43869122/499999999"
+  },
+  {
+   "prefix": "110X0X1",
+   "free_weight": 6,
+   "mass": "23062105/499999999"
+  },
+  {
+   "prefix": "11100XX",
+   "free_weight": 7,
+   "mass": "227293994/499999999"
+  },
+  {
+   "prefix": "1111100",
+   "free_weight": 9,
+   "mass": "37826376/499999999"
+  },
+  {
+   "prefix": "111X111",
+   "free_weight": 8,
+   "mass": "361862641/999999998"
+  },
+  {
+   "prefix": "11XX110",
+   "free_weight": 7,
+   "mass": "192654917/499999999"
+  },
+  {
+   "prefix": "1X1100X",
+   "free_weight": 7,
+   "mass": "352103499/999999998"
+  },
+  {
+   "prefix": "1X11100",
+   "free_weight": 8,
+   "mass": "29628432/499999999"
+  },
+  {
+   "prefix": "1XX110X",
+   "free_weight": 6,
+   "mass": "58298926/499999999"
+  },
+  {
+   "prefix": "X100010",
+   "free_weight": 7,
+   "mass": "102071715/499999999"
+  },
+  {
+   "prefix": "X100X00",
+   "free_weight": 7,
+   "mass": "94092016/499999999"
+  },
+  {
+   "prefix": "X100X0X",
+   "free_weight": 6,
+   "mass": "291577821/999999998"
+  },
+  {
+   "prefix": "X100XXX",
+   "free_weight": 5,
+   "mass": "4911088/499999999"
+  },
+  {
+   "prefix": "X110001",
+   "free_weight": 7,
+   "mass": "102071715/499999999"
+  },
+  {
+   "prefix": "X1100X0",
+   "free_weight": 7,
+   "mass": "170634290/499999999"
+  },
+  {
+   "prefix": "X111110",
+   "free_weight": 8,
+   "mass": "147340113/999999998"
+  },
+  {
+   "prefix": "X111111",
+   "free_weight": 8,
+   "mass": "600320173/999999998"
+  },
+  {
+   "prefix": "X1X110X",
+   "free_weight": 6,
+   "mass": "79397494/499999999"
+  },
+  {
+   "prefix": "XX11000",
+   "free_weight": 7,
+   "mass": "101972004/499999999"
+  },
+  {
+   "prefix": "XX110XX",
+   "free_weight": 5,
+   "mass": "11504507/999999998"
+  },
+  {
+   "prefix": "XX1X110",
+   "free_weight": 6,
+   "mass": "203042837/499999999"
+  }
+ ],
+ "DO_NOT_READ_THE_MASS_AS_A_MEASUREMENT": "exact_total_mass is a safe LOWER bound on tau*, not tau* itself: masses were rounded down and the column set offered to the LP was capped, both of which can only weaken it. ceil of it is what proves K = r.",
+ "independently_checked_by": [
+  "verify_ceiling_certificate.py",
+  "verify_F_independent.py"
+ ]
+}

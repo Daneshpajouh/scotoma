@@ -1,0 +1,330 @@
+{
+  "guides": {
+    "g100": {
+      "mm5": {
+        "corrected": 40908,
+        "corrected_only": 0,
+        "released": 40908,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm6": {
+        "corrected": 231160,
+        "corrected_only": 0,
+        "released": 231160,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm7": {
+        "corrected": 1053966,
+        "corrected_only": 0,
+        "released": 1053966,
+        "released_only": 0,
+        "terminal_attributable": 0
+      }
+    },
+    "g108": {
+      "mm5": {
+        "corrected": 47333,
+        "corrected_only": 0,
+        "released": 47333,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm6": {
+        "corrected": 282545,
+        "corrected_only": 0,
+        "released": 282545,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm7": {
+        "corrected": 1495112,
+        "corrected_only": 0,
+        "released": 1495112,
+        "released_only": 0,
+        "terminal_attributable": 0
+      }
+    },
+    "g12": {
+      "mm5": {
+        "corrected": 187503,
+        "corrected_only": 0,
+        "released": 187503,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm6": {
+        "corrected": 648778,
+        "corrected_only": 0,
+        "released": 648778,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm7": {
+        "corrected": 2057187,
+        "corrected_only": 0,
+        "released": 2057187,
+        "released_only": 0,
+        "terminal_attributable": 0
+      }
+    },
+    "g20": {
+      "mm5": {
+        "corrected": 132722,
+        "corrected_only": 0,
+        "released": 132722,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm6": {
+        "corrected": 628834,
+        "corrected_only": 0,
+        "released": 628834,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm7": {
+        "corrected": 2453962,
+        "corrected_only": 0,
+        "released": 2453962,
+        "released_only": 0,
+        "terminal_attributable": 0
+      }
+    },
+    "g28": {
+      "mm5": {
+        "corrected": 70590,
+        "corrected_only": 1912,
+        "released": 68678,
+        "released_only": 0,
+        "terminal_attributable": 1912
+      },
+      "mm6": {
+        "corrected": 305420,
+        "corrected_only": 12317,
+        "released": 293103,
+        "released_only": 0,
+        "terminal_attributable": 12317
+      },
+      "mm7": {
+        "corrected": 1290612,
+        "corrected_only": 57034,
+        "released": 1233578,
+        "released_only": 0,
+        "terminal_attributable": 57034
+      }
+    },
+    "g36": {
+      "mm5": {
+        "corrected": 52077,
+        "corrected_only": 0,
+        "released": 52077,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm6": {
+        "corrected": 313949,
+        "corrected_only": 0,
+        "released": 313949,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm7": {
+        "corrected": 1616160,
+        "corrected_only": 0,
+        "released": 1616160,
+        "released_only": 0,
+        "terminal_attributable": 0
+      }
+    },
+    "g4": {
+      "mm5": {
+        "corrected": 19450,
+        "corrected_only": 1207,
+        "released": 18243,
+        "released_only": 0,
+        "terminal_attributable": 1207
+      },
+      "mm6": {
+        "corrected": 159328,
+        "corrected_only": 9458,
+        "released": 149870,
+        "released_only": 0,
+        "terminal_attributable": 9458
+      },
+      "mm7": {
+        "corrected": 1034063,
+        "corrected_only": 58874,
+        "released": 975189,
+        "released_only": 0,
+        "terminal_attributable": 58874
+      }
+    },
+    "g44": {
+      "mm5": {
+        "corrected": 50205,
+        "corrected_only": 10603,
+        "released": 39602,
+        "released_only": 0,
+        "terminal_attributable": 10603
+      },
+      "mm6": {
+        "corrected": 354537,
+        "corrected_only": 106989,
+        "released": 247548,
+        "released_only": 0,
+        "terminal_attributable": 106989
+      },
+      "mm7": {
+        "corrected": 1596711,
+        "corrected_only": 272649,
+        "released": 1324062,
+        "released_only": 0,
+        "terminal_attributable": 272649
+      }
+    },
+    "g52": {
+      "mm5": {
+        "corrected": 151760,
+        "corrected_only": 0,
+        "released": 151760,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm6": {
+        "corrected": 685674,
+        "corrected_only": 0,
+        "released": 685674,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm7": {
+        "corrected": 2543323,
+        "corrected_only": 0,
+        "released": 2543323,
+        "released_only": 0,
+        "terminal_attributable": 0
+      }
+    },
+    "g60": {
+      "mm5": {
+        "corrected": 56351,
+        "corrected_only": 15473,
+        "released": 40878,
+        "released_only": 0,
+        "terminal_attributable": 15473
+      },
+      "mm6": {
+        "corrected": 435402,
+        "corrected_only": 167172,
+        "released": 268230,
+        "released_only": 0,
+        "terminal_attributable": 167172
+      },
+      "mm7": {
+        "corrected": 1761531,
+        "corrected_only": 355302,
+        "released": 1406229,
+        "released_only": 0,
+        "terminal_attributable": 355302
+      }
+    },
+    "g68": {
+      "mm5": {
+        "corrected": 42200,
+        "corrected_only": 0,
+        "released": 42200,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm6": {
+        "corrected": 248195,
+        "corrected_only": 0,
+        "released": 248195,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm7": {
+        "corrected": 1234076,
+        "corrected_only": 0,
+        "released": 1234076,
+        "released_only": 0,
+        "terminal_attributable": 0
+      }
+    },
+    "g76": {
+      "mm5": {
+        "corrected": 61389,
+        "corrected_only": 0,
+        "released": 61389,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm6": {
+        "corrected": 301623,
+        "corrected_only": 0,
+        "released": 301623,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm7": {
+        "corrected": 1310224,
+        "corrected_only": 0,
+        "released": 1310224,
+        "released_only": 0,
+        "terminal_attributable": 0
+      }
+    },
+    "g84": {
+      "mm5": {
+        "corrected": 55317,
+        "corrected_only": 0,
+        "released": 55317,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm6": {
+        "corrected": 356293,
+        "corrected_only": 0,
+        "released": 356293,
+        "released_only": 0,
+        "terminal_attributable": 0
+      },
+      "mm7": {
+        "corrected": 1607053,
+        "corrected_only": 0,
+        "released": 1607053,
+        "released_only": 0,
+        "terminal_attributable": 0
+      }
+    },
+    "g92": {
+      "mm5": {
+        "corrected": 38199,
+        "corrected_only": 2967,
+        "released": 35232,
+        "released_only": 0,
+        "terminal_attributable": 2967
+      },
+      "mm6": {
+        "corrected": 228495,
+        "corrected_only": 16129,
+        "released": 212366,
+        "released_only": 0,
+        "terminal_attributable": 16129
+      },
+      "mm7": {
+        "corrected": 1082752,
+        "corrected_only": 72607,
+        "released": 1010145,
+        "released_only": 0,
+        "terminal_attributable": 72607
+      }
+    }
+  },
+  "host": "fc30630",
+  "job": "2463966",
+  "nshards": 8,
+  "shard": 4
+}

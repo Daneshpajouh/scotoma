@@ -1,0 +1,52 @@
+{
+  "status": "CLOSED",
+  "tau_lower": "5600000000/275384063",
+  "tau_upper": "21",
+  "matched_exactly": false,
+  "closed": true,
+  "fractional_route_refuted": false,
+  "K_lower": 21,
+  "K_upper": 21,
+  "K": 21,
+  "N": 22,
+  "r": 21,
+  "m": 10,
+  "passes": true,
+  "reports": {
+    "packing": {
+      "passes": true,
+      "extremum": "1",
+      "extremum_exact": true,
+      "at": [
+        190273,
+        0
+      ],
+      "violations": 0,
+      "violation_count_is_lower_bound": false,
+      "complete_flag_list": true,
+      "screen_flagged": 2,
+      "refinement_queries": 2,
+      "rounding_denominator": 1000000000000,
+      "screen_error_bound": "1491/1000000000000",
+      "actual_rounding_error": "202904007939/275384063000000000000",
+      "crt_absolute_bound": "187409537922788352",
+      "crt_modulus": "4611685975477714963",
+      "rounded_extremum": "1999999999961/2000000000000",
+      "conservative_extremum": "2000000002943/2000000000000",
+      "arithmetic": "exact two-prime CRT, proven rounding bounds, arbitrary precision refinement",
+      "total_mass": "5600000000/275384063",
+      "support_orbits": 1491,
+      "orbits_checked": 10460353203,
+      "total_centre_orbits": 10460353203,
+      "seconds": 472.7079065591097
+    }
+  },
+  "enumeration": {
+    "centre_orbits": 10460353203,
+    "point_orbits": 2449247078,
+    "ambient_words": 17592186044416,
+    "union_words": 363672131210
+  },
+  "elapsed_seconds": 472.7279126131907,
+  "certificate_sha256": "b6a5539d2b8a23479c9aeb87e3ea20008cc9fa0569626ec02d4b02b53a3d3482"
+}
